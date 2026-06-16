@@ -226,9 +226,15 @@ def call_api(project_name: str, since_date: str) -> list[dict]:
         work_name    = extract_work_name(raw_name, full_desc)
         structured   = extract_structured(full_desc)
 
+        # APIフィールドを優先し、空の場合は公告文抽出結果を使う
+        api_bid      = get("TenderSubmissionDeadline")
+        api_opening  = get("OpeningTendersEvent")
+        bid_deadline = api_bid    or structured["bid_deadline"]
+        opening_date = api_opening or structured["opening_date"]
+
         results.append({
             "key":                  get("Key"),
-            "project_name":         work_name,            # 正式工事名（抽出済み）
+            "project_name":         work_name,
             "org_name":             get("OrganizationName"),
             "pref_name":            get("PrefectureName"),
             "city_name":            get("CityName"),
@@ -236,14 +242,10 @@ def call_api(project_name: str, since_date: str) -> list[dict]:
             "category":             get("Category"),
             "procedure_type":       get("ProcedureType"),
             "doc_uri":              get("ExternalDocumentURI"),
-            "tender_deadline":      get("TenderSubmissionDeadline"),
-            "opening_event":        get("OpeningTendersEvent"),
-            "period_end":           get("PeriodEndTime"),
             "attachments":          attachments,
-            # 公告文から抽出した構造化情報
             "location":             structured["location"],
-            "bid_deadline":         structured["bid_deadline"],
-            "opening_date":         structured["opening_date"],
+            "bid_deadline":         bid_deadline,
+            "opening_date":         opening_date,
             "application_deadline": structured["application_deadline"],
         })
     return results
@@ -283,9 +285,17 @@ def fmt_date(iso_str: str) -> str:
         return iso_str or "—"
 
 
-def fmt_jp_date(jp_str: str) -> str:
-    """「令和X年X月X日」そのまま返す（空なら—）"""
-    return jp_str if jp_str else "—"
+def fmt_jp_date(val: str) -> str:
+    """令和表記はそのまま、ISO日時形式は変換、空なら—を返す"""
+    if not val:
+        return "—"
+    # ISO 8601形式（APIフィールドがこの形式の場合）
+    try:
+        dt = datetime.fromisoformat(val.replace("Z", "+00:00"))
+        jst = dt.astimezone(timezone(timedelta(hours=9)))
+        return jst.strftime("%Y年%m月%d日 %H:%M")
+    except ValueError:
+        return val
 
 
 # ---------------------------------------------------------------------------
