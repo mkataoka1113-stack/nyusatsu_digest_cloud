@@ -113,10 +113,28 @@ def _find_date(text: str, *labels: str) -> str:
     return ""
 
 
+def _filter_relevant_names(name: str) -> str:
+    """
+    複数案件が「、」区切りで並列記載されている場合、
+    検索キーワード（解体・撤去・除却）に関連するものだけ残す。
+    """
+    RELEVANT_WORDS = set(SEARCH_KEYWORDS) | {"撤去", "除却", "解体"}
+    if '、' not in name:
+        return name
+    parts = [p.strip() for p in name.split('、') if p.strip()]
+    if len(parts) <= 1:
+        return name
+    matched = [p for p in parts if any(kw in p for kw in RELEVANT_WORDS)]
+    if not matched:
+        return name  # マッチなしは元のまま（通常は起きない）
+    return '、'.join(matched)
+
+
 def extract_work_name(raw_name: str, description: str) -> str:
     """
     ProjectName が汎用タイトル（「〜について」「公告第〜」など）の場合、
     公告文から正式な工事名を抽出して返す。
+    複数案件の一括公告は関連案件だけ抽出する。
     p-portal 形式（調達案件名称〜）にも対応。
     """
     # p-portal 形式：調達案件名称フィールドを優先
@@ -124,12 +142,13 @@ def extract_work_name(raw_name: str, description: str) -> str:
     if m:
         name = m.group(1).strip()
         if len(name) >= 5:
-            return name
+            return _filter_relevant_names(name)
 
     # 汎用タイトルかどうか判定
     generic = re.search(r'について$|公告第\d|執行について|^入札公告$', raw_name.strip())
     if not generic:
-        return raw_name  # そのままでOK
+        # 複数案件の一括公告の可能性をチェック
+        return _filter_relevant_names(raw_name)
 
     # 公告文から工事名を探す
     for pat in [
@@ -141,9 +160,9 @@ def extract_work_name(raw_name: str, description: str) -> str:
         if m:
             name = m.group(1).strip().rstrip("　 、。")
             if len(name) >= 5:
-                return name
+                return _filter_relevant_names(name)
 
-    return raw_name
+    return _filter_relevant_names(raw_name)
 
 
 def extract_structured(description: str) -> dict:
