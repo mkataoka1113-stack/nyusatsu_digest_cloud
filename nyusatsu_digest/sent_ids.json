@@ -1,1 +1,497 @@
-{}
+{
+  "dG9reW8va29kYWlyYV9jaXR5LzIwMjYvMjAyNjA2MTVfMDAwMTQK": {
+    "cft_issue_date": "2026-06-15T00:00:00+09:00",
+    "project_name": "小平市西部市民センター解体工事",
+    "org_name": "東京都小平市",
+    "pref_name": "東京都",
+    "city_name": "小平市",
+    "category": "工事",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kodaira.tokyo.jp/kurashi/files/128645/128645/att_0000004.pdf",
+    "location": "小平市小川西町４丁目１０番１３号",
+    "bid_deadline": "",
+    "opening_date": "令和８年７月２１日",
+    "application_deadline": "",
+    "attachments": [
+      {
+        "name": "小平市西部市民センター設計図書貸出受付票（Excel 10.7KB）",
+        "uri": "https://www.city.kodaira.tokyo.jp/kurashi/files/128645/128645/att_0000002.xlsx"
+      }
+    ]
+  },
+  "Z292MTAvbW9qX2dvLzIwMjYvMjAyNjA2MTVfMDMxMjAK": {
+    "cft_issue_date": "2026-06-15T00:00:00+09:00",
+    "project_name": "R8.6.15公告 令和８年度府中刑務所地中障害物解体工事",
+    "org_name": "法務省",
+    "pref_name": "東京都",
+    "city_name": "千代田区",
+    "category": "工事",
+    "procedure_type": "",
+    "doc_uri": "https://www.moj.go.jp/content/001464330.pdf",
+    "location": "ア 東京都府中市晴見町2-14-1",
+    "bid_deadline": "令和８年８月４日",
+    "opening_date": "令和８年８月５日",
+    "application_deadline": "令和8年6月15日",
+    "attachments": [
+      {
+        "name": "入札説明書",
+        "uri": "https://www.moj.go.jp/content/001464332.pdf"
+      },
+      {
+        "name": "工事説明書",
+        "uri": "https://www.moj.go.jp/content/001464336.pdf"
+      }
+    ]
+  },
+  "Z292L2phZWFfZ28vMjAyNi8yMDI2MDYxNV8wNDkwNAo=": {
+    "cft_issue_date": "2026-06-15T00:00:00+09:00",
+    "project_name": "【電子入札】【電子契約】ナトリウム分析室における使用設備、貯蔵設備等の解体撤去作業",
+    "org_name": "国立研究開発法人日本原子力研究開発機構大洗",
+    "pref_name": "茨城県",
+    "city_name": "東海村",
+    "category": "",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://keiyaku.jaea.go.jp/compe/02/pdf/0803C00575.pdf",
+    "location": "",
+    "bid_deadline": "令和8年6月15日",
+    "opening_date": "令和10年2月29日",
+    "application_deadline": "",
+    "attachments": []
+  },
+  "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDYvMjAyNjA2MTJfNzM2NjQK": {
+    "cft_issue_date": "2026-06-12T00:00:00+09:00",
+    "project_name": "令和７年度（補正）白金野鳥の森観察舎等解体撤去工事",
+    "org_name": "環境省",
+    "pref_name": "北海道",
+    "city_name": "",
+    "category": "工事",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "attachments": []
+  },
+  "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDYvMjAyNjA2MTJfNzM2MzgK": {
+    "cft_issue_date": "2026-06-12T00:00:00+09:00",
+    "project_name": "国有財産（船舶）売払（汽船きいかぜ）解体条件付",
+    "org_name": "国土交通省",
+    "pref_name": "兵庫県",
+    "city_name": "",
+    "category": "",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "attachments": []
+  },
+  "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDYvMjAyNjA2MTJfNzM2NjkK": {
+    "cft_issue_date": "2026-06-12T00:00:00+09:00",
+    "project_name": "大久保宿舎解体工事監理業務",
+    "org_name": "厚生労働省",
+    "pref_name": "兵庫県",
+    "city_name": "",
+    "category": "工事",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
+    "location": "",
+    "bid_deadline": "令和８年６月２６日",
+    "opening_date": "令和８年６月２９日",
+    "application_deadline": "令和８年６月２６日",
+    "attachments": []
+  },
+  "bmFnYXNha2kvdW56ZW5fY2l0eS8yMDI2LzIwMjYwNjEyXzAwMDQyCg==": {
+    "cft_issue_date": "2026-06-12T00:00:00+09:00",
+    "project_name": "旧南串山文化センター解体工事",
+    "org_name": "長崎県雲仙市",
+    "pref_name": "長崎県",
+    "city_name": "雲仙市",
+    "category": "工事",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.unzen.nagasaki.jp/dynamic/keiyaku/download.ashx?file=99131862.pdf&dt=kokoku",
+    "location": "雲仙市南串山町丙地内入札回数",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "attachments": []
+  },
+  "aG9ra2FpZG8yL2Vudl9ob2trYWlkby8yMDI2LzIwMjYwNjEyXzAwNDUzCg==": {
+    "cft_issue_date": "2026-06-12T00:00:00+09:00",
+    "project_name": "令和７年度（補正）白金野鳥の森観察舎等解体撤去工事（電子調達対象案件）",
+    "org_name": "環境省北海道地方環境事務所",
+    "pref_name": "北海道",
+    "city_name": "札幌市",
+    "category": "工事",
+    "procedure_type": "",
+    "doc_uri": "https://hokkaido.env.go.jp/procure/procure_00296.html",
+    "location": "北海道上川郡美瑛町白金",
+    "bid_deadline": "令和８年７月14日",
+    "opening_date": "令和２年12月25日",
+    "application_deadline": "令和２年12月25日",
+    "attachments": []
+  },
+  "dG9rdXNoaW1hL2tvbWF0c3VzaGltYV9jaXR5LzIwMjYvMjAyNjA2MTFfMDA2MzgK": {
+    "cft_issue_date": "2026-06-11T00:00:00+09:00",
+    "project_name": "R8 旧消防団第14分団詰所解体工事設計業務（工事番号13）",
+    "org_name": "徳島県小松島市",
+    "pref_name": "徳島県",
+    "city_name": "小松島市",
+    "category": "工事",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.komatsushima.lg.jp/fs/6/3/2/3/6/4/_/13_%E5%85%A5%E6%9C%AD%E6%83%85%E5%A0%B1.pdf",
+    "location": "及び設計概要 工事の概要は次表による",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "attachments": [
+      {
+        "name": "設計図書等 (PDF 453KB)",
+        "uri": "https://www.city.komatsushima.lg.jp/fs/6/3/2/1/9/0/_/13_%E8%A8%AD%E8%A8%88%E5%9B%B3%E6%9B%B8%E7%AD%89.pdf"
+      }
+    ]
+  },
+  "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDYvMjAyNjA2MTFfNzM1MTkK": {
+    "cft_issue_date": "2026-06-11T00:00:00+09:00",
+    "project_name": "【東京航空局】山田ARSR局舎鉄塔解体工事",
+    "org_name": "国土交通省",
+    "pref_name": "東京都",
+    "city_name": "",
+    "category": "工事",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "attachments": []
+  },
+  "b2theWFtYS9va2F5YW1hX2NpdHkvMjAyNi8yMDI2MDYxMV8xMjU2OAo=": {
+    "cft_issue_date": "2026-06-11T00:00:00+09:00",
+    "project_name": "岡山市立建部中学校給食センター解体工事",
+    "org_name": "岡山県岡山市",
+    "pref_name": "岡山県",
+    "city_name": "岡山市",
+    "category": "工事",
+    "procedure_type": "",
+    "doc_uri": "https://keiyaku.city.okayama.jp/webftp/exe/2026012353.pdf",
+    "location": "4 工種5 工期6 許容価格7 最低制限価格設定案件等10 契約不適合責任期間12 建設リサイクル法対象工事3 設計図書",
+    "bid_deadline": "",
+    "opening_date": "令和8年6月30日",
+    "application_deadline": "",
+    "attachments": []
+  },
+  "Z292L2phZWFfZ28vMjAyNi8yMDI2MDYxMV8wNDg1Ngo=": {
+    "cft_issue_date": "2026-06-11T00:00:00+09:00",
+    "project_name": "【電子入札】【電子契約】グローブボックス解体撤去業務",
+    "org_name": "国立研究開発法人日本原子力研究開発機構本部",
+    "pref_name": "茨城県",
+    "city_name": "東海村",
+    "category": "",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://keiyaku.jaea.go.jp/compe/02/pdf/0802C01832.pdf",
+    "location": "",
+    "bid_deadline": "令和8年7月22日",
+    "opening_date": "令和8年10月30日",
+    "application_deadline": "",
+    "attachments": []
+  },
+  "d2FrYXlhbWEvc2hpbmd1X2NpdHkvMjAyNi8yMDI2MDYxMF8wMDA3NQo=": {
+    "cft_issue_date": "2026-06-10T00:00:00+09:00",
+    "project_name": "条件付一般競争入札公告（新財工第１７号）市営住宅解体工事（石ヶ坪、鴻田、野田）",
+    "org_name": "和歌山県新宮市",
+    "pref_name": "和歌山県",
+    "city_name": "新宮市",
+    "category": "工事",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.city.shingu.lg.jp/div/zaisei-1/pdf/nyusatsu-koukoku/8k17.pdf",
+    "location": "新宮市五新、鴻田、緑ヶ丘地内",
+    "bid_deadline": "",
+    "opening_date": "令和８年６月２５日",
+    "application_deadline": "",
+    "attachments": []
+  },
+  "b2theWFtYS9va2F5YW1hX2NpdHkvMjAyNi8yMDI2MDYxMF8xMjUxOAo=": {
+    "cft_issue_date": "2026-06-10T00:00:00+09:00",
+    "project_name": "南区維持管理センター解体の建築設計業務委託",
+    "org_name": "岡山県岡山市",
+    "pref_name": "岡山県",
+    "city_name": "岡山市",
+    "category": "役務",
+    "procedure_type": "",
+    "doc_uri": "https://keiyaku.city.okayama.jp/webftp/itaku/2026009637.pdf",
+    "location": "4 履行期限5 許容価格6 最低制限価格設定案件等7 支払条件8 支払方法10 契約不適合責任期間1 公告期間及び公告方",
+    "bid_deadline": "",
+    "opening_date": "令和8年12月18日",
+    "application_deadline": "",
+    "attachments": [
+      {
+        "name": "1",
+        "uri": "https://keiyaku.city.okayama.jp/webftp/itaku/2026009637_1.zip"
+      }
+    ]
+  },
+  "Z292OS9taW50X2dvLzIwMjYvMjAyNjA2MTBfMDIyMzcK": {
+    "cft_issue_date": "2026-06-10T00:00:00+09:00",
+    "project_name": "旧溶解炉樋解体破砕作業（広島支局）一式 令和8年6月26日",
+    "org_name": "独立行政法人造幣局",
+    "pref_name": "大阪府",
+    "city_name": "大阪市",
+    "category": "",
+    "procedure_type": "",
+    "doc_uri": "https://www.mint.go.jp/about/bid/nyusatsu/nyusatsu-honkyoku/260604154.html",
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "attachments": []
+  },
+  "YW9tb3JpL2dvc2hvZ2F3YXJhX2NpdHkvMjAyNi8yMDI2MDYxMF8wMDQ1MAo=": {
+    "cft_issue_date": "2026-06-10T00:00:00+09:00",
+    "project_name": "旧コミュニティセンター栄解体監理業務",
+    "org_name": "青森県五所川原市",
+    "pref_name": "青森県",
+    "city_name": "五所川原市",
+    "category": "",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/R8gi.k010.pdf",
+    "location": "Ⅰ．工事概要２．敷地面積取りこわし特記仕様書",
+    "bid_deadline": "",
+    "opening_date": "令和8年7月3日",
+    "application_deadline": "",
+    "attachments": [
+      {
+        "name": "その１",
+        "uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/r8gi.j010_01.zip"
+      },
+      {
+        "name": "その２",
+        "uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/r8gi.j010_02.zip"
+      },
+      {
+        "name": "その３",
+        "uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/r8gi.j010_03.zip"
+      }
+    ]
+  },
+  "YW9tb3JpL2dvc2hvZ2F3YXJhX2NpdHkvMjAyNi8yMDI2MDYxMF8wMDQ0Ngo=": {
+    "cft_issue_date": "2026-06-10T00:00:00+09:00",
+    "project_name": "旧コミュニティセンター栄解体工事",
+    "org_name": "青森県五所川原市",
+    "pref_name": "青森県",
+    "city_name": "五所川原市",
+    "category": "工事",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/r8i.k017.pdf",
+    "location": "五所川原市みどり町四丁目１３０ 地内 3 工期 令和 年 月 日から 令和９年 １月２９日まで定めなし 4 工事を施工し",
+    "bid_deadline": "",
+    "opening_date": "令和8年7月3日",
+    "application_deadline": "",
+    "attachments": [
+      {
+        "name": "その１",
+        "uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/r8i.j017_01.zip"
+      },
+      {
+        "name": "その２",
+        "uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/r8i.j017_02.zip"
+      },
+      {
+        "name": "その３",
+        "uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/r8i.j017_03.zip"
+      }
+    ]
+  },
+  "YWtpdGEva2F6dW5vX2NpdHkvMjAyNi8yMDI2MDYxMF8wMDc4Mwo=": {
+    "cft_issue_date": "2026-06-10T00:00:00+09:00",
+    "project_name": "四の岱住宅解体工事設計業務委託",
+    "org_name": "秋田県鹿角市",
+    "pref_name": "秋田県",
+    "city_name": "鹿角市",
+    "category": "役務",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kazuno.lg.jp/material/files/group/6/R8koukoku117.pdf",
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "attachments": [
+      {
+        "name": "住委-1(圧縮ファイル)",
+        "uri": "https://www.city.kazuno.lg.jp/material/files/group/6/juui1.zip"
+      }
+    ]
+  },
+  "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDYvMjAyNjA2MDlfNzMyODQK": {
+    "cft_issue_date": "2026-06-09T00:00:00+09:00",
+    "project_name": "令和８年度国有建物等解体撤去工事（世田谷区代沢一丁目）",
+    "org_name": "財務省",
+    "pref_name": "東京都",
+    "city_name": "",
+    "category": "工事",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "attachments": []
+  },
+  "bmFnYW5vL2tvbWFnYW5lX2NpdHkvMjAyNi8yMDI2MDYwOV8wMDYwOQo=": {
+    "cft_issue_date": "2026-06-09T00:00:00+09:00",
+    "project_name": "令和8年度 農業振興事業 公設地方卸売市場解体工事",
+    "org_name": "長野県駒ケ根市",
+    "pref_name": "長野県",
+    "city_name": "駒ケ根市",
+    "category": "工事",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.komagane.nagano.jp/material/files/group/4/8060907901.zip",
+    "location": "2※防音パネル",
+    "bid_deadline": "",
+    "opening_date": "令和８年６月２４日",
+    "application_deadline": "令和８年６月１７日",
+    "attachments": [
+      {
+        "name": "設計図書外 (圧縮ファイル: 5.1MB)",
+        "uri": "https://www.city.komagane.nagano.jp/material/files/group/4/8060907902.zip"
+      }
+    ]
+  },
+  "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA2MDlfMDA3NTEK": {
+    "cft_issue_date": "2026-06-09T00:00:00+09:00",
+    "project_name": "旧教育研究所解体工事[ZIP：17.3MB]",
+    "org_name": "石川県輪島市",
+    "pref_name": "石川県",
+    "city_name": "輪島市",
+    "category": "工事",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.wajima.ishikawa.jp/docs/2014032000011/file_contents/080626_02.zip",
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "attachments": []
+  },
+  "aG9ra2FpZG8vdGFraWthd2FfY2l0eS8yMDI2LzIwMjYwNjA5XzAwNjM0Cg==": {
+    "cft_issue_date": "2026-06-09T00:00:00+09:00",
+    "project_name": "旧スマイルビル解体工事実施設計業務",
+    "org_name": "北海道滝川市",
+    "pref_name": "北海道",
+    "city_name": "滝川市",
+    "category": "役務",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.takikawa.lg.jp/uploaded/attachment/19893.pdf",
+    "location": "",
+    "bid_deadline": "令和８年７月２日",
+    "opening_date": "",
+    "application_deadline": "",
+    "attachments": []
+  },
+  "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjA2MDlfMDM3NjAK": {
+    "cft_issue_date": "2026-06-09T00:00:00+09:00",
+    "project_name": "円一町駐車場解体等工事",
+    "org_name": "広島県三原市",
+    "pref_name": "広島県",
+    "city_name": "三原市",
+    "category": "工事",
+    "procedure_type": "条件付き一般競争入札",
+    "doc_uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164052.pdf",
+    "location": "三原市円一町二丁目工事内容 円一町駐車場の解体工事を行う",
+    "bid_deadline": "令和8年6月16日",
+    "opening_date": "令和8年6月24日",
+    "application_deadline": "令和8年6月24日",
+    "attachments": [
+      {
+        "name": "仕様書等",
+        "uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164082.pdf"
+      }
+    ]
+  },
+  "Z292MTMvbW9mX2thbnRvLzIwMjYvMjAyNjA2MDlfMDA2ODQK": {
+    "cft_issue_date": "2026-06-09T00:00:00+09:00",
+    "project_name": "令和８年度国有建物等解体撤去工事（世田谷区代沢一丁目）",
+    "org_name": "財務省関東財務局",
+    "pref_name": "埼玉県",
+    "city_name": "さいたま市",
+    "category": "工事",
+    "procedure_type": "",
+    "doc_uri": "https://lfb.mof.go.jp/kantou/procurement/260609koukoku.pdf",
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "令和８年６月２６日",
+    "application_deadline": "",
+    "attachments": []
+  },
+  "c2FnYS9zYWdhX3ByZWYvMjAyNi8yMDI2MDYwOF8wMjQ4NAo=": {
+    "cft_issue_date": "2026-06-08T00:00:00+09:00",
+    "project_name": "パイプハウス解体および軽量鉄骨丸屋根型ハウス新設工事の条件付一般競争入札を行います。",
+    "org_name": "佐賀県",
+    "pref_name": "佐賀県",
+    "city_name": "",
+    "category": "工事",
+    "procedure_type": "",
+    "doc_uri": "https://www.pref.saga.lg.jp/kiji003114595/3_114595_391573_up_gk35uykv.pdf",
+    "location": "佐賀市川副町南里１０８８２ 入札参加資格",
+    "bid_deadline": "",
+    "opening_date": "令和８年６月２２日",
+    "application_deadline": "令和８年６月１８日",
+    "attachments": [
+      {
+        "name": "仕様書..",
+        "uri": "https://www.pref.saga.lg.jp/kiji003114595/3_114595_391575_up_vdqhua6x.pdf"
+      }
+    ]
+  },
+  "bmFnYW5vL25hZ2Fub19wb2xpY2UvMjAyNi8yMDI2MDYwOF8wMTE5Ngo=": {
+    "cft_issue_date": "2026-06-08T00:00:00+09:00",
+    "project_name": "佐久警察署茂田井駐在所解体工事（PDF：97KB）",
+    "org_name": "国家公安委員会（警察庁）長野県警察本部",
+    "pref_name": "長野県",
+    "city_name": "長野市",
+    "category": "工事",
+    "procedure_type": "",
+    "doc_uri": "https://www.pref.nagano.lg.jp/police/nyusatsu/documents/ko-260623-23-01.pdf",
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "令和８年６月23日",
+    "application_deadline": "",
+    "attachments": []
+  },
+  "aGlyb3NoaW1hL21peW9zaGlfY2l0eS8yMDI2LzIwMjYwNjA4XzAxMTc2Cg==": {
+    "cft_issue_date": "2026-06-08T00:00:00+09:00",
+    "project_name": "プール解体工",
+    "org_name": "広島県三次市",
+    "pref_name": "広島県",
+    "city_name": "三次市",
+    "category": "",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/32982.pdf",
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "attachments": [
+      {
+        "name": "56 [13.81MB]",
+        "uri": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/32987.zip"
+      }
+    ]
+  },
+  "Y2hpYmEvY2hpYmFfY2l0eS8yMDI2LzIwMjYwNjA4XzAzMTE4Cg==": {
+    "cft_issue_date": "2026-06-08T00:00:00+09:00",
+    "project_name": "都賀の台３５号線外歩道実施設計業務委託（若8-1）、（仮称）動物愛護センター外構実施設計業務委託（8-1）、桜木霊園園路改修実施設計業務委託（8-1）、千葉市南部青少年センター解体実施設計業務委託、千葉市土気市民センター解体実施設計業務委託、ＺＯＺＯマリンスタジアム昇降機設備改修実施設計業務委託、千葉市動物公園動物科学館中央監視装置外改修実施設計業務委託、下泉町１５２号線外測量業務委託（若8-1）、桜木霊園園路現況測量業務委託（8-1）",
+    "org_name": "千葉県千葉市",
+    "pref_name": "千葉県",
+    "city_name": "千葉市",
+    "category": "役務",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.chiba.jp/somu/somu/somu/kojibunsyo/documents/08kk0453.pdf",
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "令和８年６月２４日",
+    "application_deadline": "",
+    "attachments": []
+  }
+}
