@@ -96,14 +96,20 @@ def prune_sent_ids(sent_ids: dict) -> dict:
 # ---------------------------------------------------------------------------
 
 def _find_date(text: str, *labels: str) -> str:
-    """ラベルキーワードの近くにある「令和X年X月X日」を探す"""
-    for label in labels:
-        m = re.search(
-            label + r".{0,80}令和\s*(\d+)\s*年\s*(\d+)\s*月\s*(\d+)\s*日",
-            text, re.DOTALL
-        )
-        if m:
-            return f"令和{m.group(1)}年{m.group(2)}月{m.group(3)}日"
+    """
+    ラベルキーワードを含む行とその直後2行から「令和X年X月X日」を探す。
+    行単位で探すことで、離れた日付を誤取得しにくくしている。
+    """
+    date_pat = re.compile(r'令和\s*(\d+)\s*年\s*(\d+)\s*月\s*(\d+)\s*日')
+    lines = text.split('\n')
+    for i, line in enumerate(lines):
+        for label in labels:
+            if re.search(label, line):
+                # ラベルを含む行 + 直後2行を結合して日付を探す
+                snippet = '\n'.join(lines[i: i + 3])
+                m = date_pat.search(snippet)
+                if m:
+                    return f"令和{m.group(1)}年{m.group(2)}月{m.group(3)}日"
     return ""
 
 
@@ -321,9 +327,9 @@ def build_card_email(item: dict) -> str:
         ("カテゴリ",   category),
         ("入札方式",   procedure),
         ("工事場所",   location),
+        ("申請締切",   app_dl),
         ("入札締切",   bid_dl),
         ("開札日",     opening),
-        ("申請締切",   app_dl),
     ]
     rows_html = "".join(
         f'<tr><td style="width:80px;padding:3px 8px 3px 0;color:#888;'
@@ -415,8 +421,8 @@ def build_dashboard(all_items: list[dict]) -> str:
     <tr><th>公告日</th><td>{date}</td><th>カテゴリ</th><td>{category}</td></tr>
     <tr><th>入札方式</th><td colspan="3">{procedure}</td></tr>
     <tr><th>工事場所</th><td colspan="3">{location}</td></tr>
-    <tr><th>入札締切</th><td>{bid_dl}</td><th>開札日</th><td>{opening}</td></tr>
     <tr><th>申請締切</th><td colspan="3">{app_dl}</td></tr>
+    <tr><th>入札締切</th><td>{bid_dl}</td><th>開札日</th><td>{opening}</td></tr>
   </table>
   {att_html}
   {link}
