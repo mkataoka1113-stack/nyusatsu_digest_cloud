@@ -1,4 +1,4 @@
-name: 入札公告ダイジェスト（解体工事）
+name: 入札公告ダイジェスト
 
 on:
   schedule:
@@ -19,6 +19,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install playwright
+
+      - name: Install Playwright browsers
+        run: playwright install --with-deps chromium
+
+      - name: Write config files
+        env:
+          CLIENTS_JSON: ${{ secrets.CLIENTS_JSON }}
+        run: |
+          echo "$CLIENTS_JSON" > nyusatsu_digest/clients.json
 
       - name: Run digest
         env:

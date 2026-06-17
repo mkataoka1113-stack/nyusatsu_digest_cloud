@@ -1,22 +1,17 @@
 """
 nyusatsu_digest/digest.py
 
-官公需情報ポータルサイト API (kkj.go.jp) から「解体」関連の新着入札公告を取得し、
-未送信のものだけをメールで配信 + GitHub Pages用ダッシュボードHTMLを生成する。
-GitHub Actions から毎日 1 回（JST 朝）実行する。
+複数スクレイパーから入札公告を収集し、
+clients.json の設定に基づいてクライアント別にメール配信する。
+GitHub Pages 用ダッシュボード HTML も生成する。
 
-使い方:
+実行:
   python nyusatsu_digest/digest.py
 """
 import json
 import os
-import re
 import smtplib
 import sys
-import time
-import urllib.parse
-import urllib.request
-import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -28,29 +23,16 @@ if sys.stderr.encoding != "utf-8":
 
 BASE_DIR      = os.path.dirname(os.path.abspath(__file__))
 CONFIG_PATH   = os.path.join(BASE_DIR, "config.json")
+CLIENTS_PATH  = os.path.join(BASE_DIR, "clients.json")
 SENT_IDS_PATH = os.path.join(BASE_DIR, "sent_ids.json")
 DOCS_DIR      = os.path.join(os.path.dirname(BASE_DIR), "docs")
-API_URL       = "http://www.kkj.go.jp/api/"
 
-LOOKBACK_DAYS          = 8    # API取得対象（直近N日間）
-SENT_ID_RETENTION_DAYS = 30   # 送信済みID保持期間（ダッシュボード表示も兼ねる）
-API_COUNT              = 100  # 1回のAPI呼び出し最大件数
-
-# ── 検索条件 ──────────────────────────────────────────────────────────
-# 件名に含まれるキーワード（複数指定時はOR検索・重複除去して統合）
-SEARCH_KEYWORDS: list[str] = ["解体"]
-
-# 都道府県コードで絞り込む場合に指定（空リスト=全国）
-# 例: ["13"] で東京都のみ、["13", "14"] で東京都＋神奈川県
-FILTER_LG_CODES: list[str] = []
-
-# カテゴリで絞り込む場合に指定（空文字=全て）
-# "1"=物品  "2"=工事  "3"=役務
-FILTER_CATEGORY: str = ""
+SENT_ID_RETENTION_DAYS = 30
+LOOKBACK_DAYS          = 8
 
 
 # ---------------------------------------------------------------------------
-# 設定ファイル / 送信済みID
+# 設定・クライアント・送信済みID
 # ---------------------------------------------------------------------------
 
 def load_config() -> dict:
@@ -58,11 +40,18 @@ def load_config() -> dict:
         return {
             "gmail": {
                 "from": os.environ["GMAIL_FROM"],
-                "to": os.environ["GMAIL_TO"],
                 "app_password": os.environ["GMAIL_APP_PASSWORD"],
             }
         }
     with open(CONFIG_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def load_clients() -> list[dict]:
+    if not os.path.exists(CLIENTS_PATH):
+        print("[警告] clients.json が見つかりません。config.json の to: を使います。")
+        return []
+    with open(CLIENTS_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -82,212 +71,43 @@ def prune_sent_ids(sent_ids: dict) -> dict:
     threshold = datetime.now(timezone.utc) - timedelta(days=SENT_ID_RETENTION_DAYS)
     pruned = {}
     for key, entry in sent_ids.items():
+        date_str = entry.get("cft_issue_date") or entry.get("fetched_date", "")
         try:
-            dt = datetime.fromisoformat(entry["cft_issue_date"].replace("Z", "+00:00"))
+            dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
             if dt >= threshold:
                 pruned[key] = entry
-        except (KeyError, ValueError):
-            pass
+        except (ValueError, AttributeError):
+            pruned[key] = entry  # パース失敗は残す
     return pruned
 
 
 # ---------------------------------------------------------------------------
-# 公告文からの構造化抽出
+# フィルター判定
 # ---------------------------------------------------------------------------
 
-def _find_date(text: str, *labels: str) -> str:
-    """
-    ラベルキーワードを含む行とその直後2行から「令和X年X月X日」を探す。
-    行単位で探すことで、離れた日付を誤取得しにくくしている。
-    """
-    date_pat = re.compile(r'令和\s*(\d+)\s*年\s*(\d+)\s*月\s*(\d+)\s*日')
-    lines = text.split('\n')
-    for i, line in enumerate(lines):
-        for label in labels:
-            if re.search(label, line):
-                # ラベルを含む行 + 直後2行を結合して日付を探す
-                snippet = '\n'.join(lines[i: i + 3])
-                m = date_pat.search(snippet)
-                if m:
-                    return f"令和{m.group(1)}年{m.group(2)}月{m.group(3)}日"
-    return ""
+def matches_filters(item_dict: dict, filters: dict) -> bool:
+    """clients.json の filters に案件がマッチするか判定する"""
+    if not filters:
+        return True  # フィルターなし = 全件受信
 
+    # 業種コードフィルター
+    if filters.get("gyoshu_codes"):
+        item_gyoshu = item_dict.get("gyoshu_codes", [])
+        if not any(code in item_gyoshu for code in filters["gyoshu_codes"]):
+            return False
 
-def _filter_relevant_names(name: str) -> str:
-    """
-    複数案件が「、」区切りで並列記載されている場合、
-    検索キーワード（解体・撤去・除却）に関連するものだけ残す。
-    """
-    RELEVANT_WORDS = set(SEARCH_KEYWORDS) | {"撤去", "除却", "解体"}
-    if '、' not in name:
-        return name
-    parts = [p.strip() for p in name.split('、') if p.strip()]
-    if len(parts) <= 1:
-        return name
-    matched = [p for p in parts if any(kw in p for kw in RELEVANT_WORDS)]
-    if not matched:
-        return name  # マッチなしは元のまま（通常は起きない）
-    return '、'.join(matched)
+    # 参加資格登録自治体フィルター（非空のとき優先）
+    if filters.get("qualified_cities"):
+        if item_dict.get("city_name") not in filters["qualified_cities"]:
+            return False
+    elif filters.get("pref_codes"):
+        # qualified_cities が空なら都道府県単位でフィルター
+        if item_dict.get("pref_code") not in filters["pref_codes"]:
+            return False
 
-
-def extract_work_name(raw_name: str, description: str) -> str:
-    """
-    ProjectName が汎用タイトル（「〜について」「公告第〜」など）の場合、
-    公告文から正式な工事名を抽出して返す。
-    複数案件の一括公告は関連案件だけ抽出する。
-    p-portal 形式（調達案件名称〜）にも対応。
-    """
-    # p-portal 形式：調達案件名称フィールドを優先
-    m = re.search(r'調達案件名称(.{3,80}?)(?:公開開始日|$)', description)
-    if m:
-        name = m.group(1).strip()
-        if len(name) >= 5:
-            return _filter_relevant_names(name)
-
-    # 汎用タイトルかどうか判定
-    generic = re.search(r'について$|公告第\d|執行について|^入札公告$', raw_name.strip())
-    if not generic:
-        # 複数案件の一括公告の可能性をチェック
-        return _filter_relevant_names(raw_name)
-
-    # 公告文から工事名を探す
-    for pat in [
-        r'工事件名[　\s ]*([^\n（(【「]{4,60})',
-        r'工事名[　\s ]+([^\n数量（(【「\d]{4,60}(?:工事|業務|作業|撤去))',
-        r'件\s*名[　\s ]+([^\n数量（(【「]{4,60}(?:工事|業務|作業|撤去))',
-    ]:
-        m = re.search(pat, description)
-        if m:
-            name = m.group(1).strip().rstrip("　 、。")
-            if len(name) >= 5:
-                return _filter_relevant_names(name)
-
-    return _filter_relevant_names(raw_name)
-
-
-def extract_structured(description: str) -> dict:
-    """
-    公告文全文から構造化情報（工事場所・日付類）を抽出する。
-    抽出できない項目は空文字。
-    """
-    d = description
-
-    # 工事場所
-    location = ""
-    m = re.search(r'(?:工事場所|履行場所|納入場所)[　\s ]*([^\n（(「]{3,60})', d)
-    if m:
-        location = m.group(1).strip().rstrip("　 、。")
-
-    # 入札締切（入札書提出期限）
-    bid_deadline = _find_date(d,
-        r'入札書.*?提出期限', r'入札締[切め]', r'提出期限', r'入札期限')
-
-    # 開札日
-    opening_date = _find_date(d, r'開\s*札')
-
-    # 参加申請受付締切（希望型・制限付き競争入札で登場）
-    application_deadline = _find_date(d,
-        r'参加申請.*?受付', r'申請受付.*?期限', r'参加資格確認.*?期限',
-        r'参加表明.*?締切', r'資格申請.*?締切')
-
-    return {
-        "location":             location,
-        "bid_deadline":         bid_deadline,
-        "opening_date":         opening_date,
-        "application_deadline": application_deadline,
-    }
-
-
-# ---------------------------------------------------------------------------
-# API 呼び出し
-# ---------------------------------------------------------------------------
-
-def call_api(project_name: str, since_date: str) -> list[dict]:
-    params: dict = {
-        "Project_Name":   project_name,
-        "CFT_Issue_Date": f"{since_date}/",
-        "Count":          str(API_COUNT),
-    }
-    if FILTER_LG_CODES:
-        params["LG_Code"] = ",".join(FILTER_LG_CODES)
-    if FILTER_CATEGORY:
-        params["Category"] = FILTER_CATEGORY
-
-    url = f"{API_URL}?{urllib.parse.urlencode(params)}"
-    print(f"  API: {url}")
-    req = urllib.request.Request(url)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        data = resp.read().decode("utf-8")
-
-    root = ET.fromstring(data)
-    error = root.find("Error")
-    if error is not None:
-        print(f"  APIエラー: {error.text}")
-        return []
-
-    results = []
-    for sr in root.findall(".//SearchResult"):
-        def get(tag):
-            el = sr.find(tag)
-            return (el.text or "").strip() if el is not None else ""
-
-        attachments = []
-        for att in sr.findall(".//Attachment"):
-            name_el = att.find("Name")
-            uri_el  = att.find("Uri")
-            attachments.append({
-                "name": (name_el.text or "").strip() if name_el is not None else "",
-                "uri":  (uri_el.text  or "").strip() if uri_el  is not None else "",
-            })
-
-        full_desc    = get("ProjectDescription")
-        raw_name     = get("ProjectName")
-        work_name    = extract_work_name(raw_name, full_desc)
-        structured   = extract_structured(full_desc)
-
-        # APIフィールドを優先し、空の場合は公告文抽出結果を使う
-        api_bid      = get("TenderSubmissionDeadline")
-        api_opening  = get("OpeningTendersEvent")
-        bid_deadline = api_bid    or structured["bid_deadline"]
-        opening_date = api_opening or structured["opening_date"]
-
-        results.append({
-            "key":                  get("Key"),
-            "project_name":         work_name,
-            "org_name":             get("OrganizationName"),
-            "pref_name":            get("PrefectureName"),
-            "city_name":            get("CityName"),
-            "cft_issue_date":       get("CftIssueDate"),
-            "category":             get("Category"),
-            "procedure_type":       get("ProcedureType"),
-            "doc_uri":              get("ExternalDocumentURI"),
-            "attachments":          attachments,
-            "location":             structured["location"],
-            "bid_deadline":         bid_deadline,
-            "opening_date":         opening_date,
-            "application_deadline": structured["application_deadline"],
-        })
-    return results
-
-
-def fetch_new_items() -> list[dict]:
-    since = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).strftime("%Y-%m-%d")
-    seen:  set[str]  = set()
-    items: list[dict] = []
-
-    for kw in SEARCH_KEYWORDS:
-        print(f"キーワード「{kw}」で検索中...")
-        fetched = call_api(kw, since)
-        print(f"  → {len(fetched)} 件取得")
-        for item in fetched:
-            key = item["key"]
-            if key and key not in seen:
-                seen.add(key)
-                items.append(item)
-        time.sleep(0.5)
-
-    items.sort(key=lambda x: x["cft_issue_date"], reverse=True)
-    return items
+    return True
 
 
 # ---------------------------------------------------------------------------
@@ -305,10 +125,8 @@ def fmt_date(iso_str: str) -> str:
 
 
 def fmt_jp_date(val: str) -> str:
-    """令和表記はそのまま、ISO日時形式は変換、空なら—を返す"""
     if not val:
         return "—"
-    # ISO 8601形式（APIフィールドがこの形式の場合）
     try:
         dt = datetime.fromisoformat(val.replace("Z", "+00:00"))
         jst = dt.astimezone(timezone(timedelta(hours=9)))
@@ -317,22 +135,25 @@ def fmt_jp_date(val: str) -> str:
         return val
 
 
+SOURCE_LABEL = {"kkj": "官公需ポータル", "etokyo": "東京都電子調達"}
+
+
 # ---------------------------------------------------------------------------
-# メール
+# メール生成
 # ---------------------------------------------------------------------------
 
 def build_card_email(item: dict) -> str:
-    font = "'Yu Gothic','Yu Gothic UI',sans-serif"
-    org  = item.get("org_name") or "—"
-    area = "".join(filter(None, [item.get("pref_name"), item.get("city_name")])) or "—"
-    date = fmt_date(item.get("cft_issue_date", ""))
-    category   = item.get("category") or "—"
-    procedure  = item.get("procedure_type") or "—"
-    location   = item.get("location") or "—"
-    bid_dl     = fmt_jp_date(item.get("bid_deadline", ""))
-    opening    = fmt_jp_date(item.get("opening_date", ""))
-    app_dl     = fmt_jp_date(item.get("application_deadline", ""))
-    uri        = item.get("doc_uri") or ""
+    font     = "'Yu Gothic','Yu Gothic UI',sans-serif"
+    org      = item.get("org_name") or "—"
+    area     = "".join(filter(None, [item.get("pref_name"), item.get("city_name")])) or "—"
+    date     = fmt_date(item.get("cft_issue_date", ""))
+    procedure= item.get("procedure_type") or "—"
+    location = item.get("location") or "—"
+    bid_dl   = fmt_jp_date(item.get("bid_deadline", ""))
+    opening  = fmt_jp_date(item.get("opening_date", ""))
+    app_dl   = fmt_jp_date(item.get("application_deadline", ""))
+    uri      = item.get("doc_uri") or ""
+    source   = SOURCE_LABEL.get(item.get("source", ""), item.get("source", ""))
 
     link_html = (
         f'<p style="margin:8px 0 0;font-family:{font};">'
@@ -348,17 +169,16 @@ def build_card_email(item: dict) -> str:
         f'添付: {att_links}</p>'
         if att_links else ""
     )
-
     rows = [
-        ("発注機関",   org),
-        ("所在地",     area),
-        ("公告日",     date),
-        ("カテゴリ",   category),
-        ("入札方式",   procedure),
-        ("工事場所",   location),
-        ("申請締切",   app_dl),
-        ("入札締切",   bid_dl),
-        ("開札日",     opening),
+        ("発注機関",  org),
+        ("所在地",    area),
+        ("公告日",    date),
+        ("入札方式",  procedure),
+        ("工事場所",  location),
+        ("申請締切",  app_dl),
+        ("入札締切",  bid_dl),
+        ("開札日",    opening),
+        ("情報源",    source),
     ]
     rows_html = "".join(
         f'<tr><td style="width:80px;padding:3px 8px 3px 0;color:#888;'
@@ -366,7 +186,6 @@ def build_card_email(item: dict) -> str:
         f'<td style="font-family:{font};">{val}</td></tr>'
         for label, val in rows
     )
-
     return f"""
 <div style="border:1px solid #ddd;border-radius:6px;padding:16px;
             margin-bottom:16px;background:#fff;">
@@ -380,40 +199,52 @@ def build_card_email(item: dict) -> str:
 </div>"""
 
 
-def build_email_html(new_items: list[dict]) -> str:
+def build_email_html(client: dict, items: list[dict]) -> str:
     today = datetime.now().strftime("%Y年%m月%d日")
-    count = len(new_items)
-    cards = "".join(build_card_email(item) for item in new_items)
+    count = len(items)
+    name  = client.get("name", "")
+    cards = "".join(build_card_email(item) for item in items)
     body  = cards if cards else "<p>今回の新着案件はありませんでした。</p>"
-
+    gyoshu_label = "・".join(
+        client.get("filters", {}).get("gyoshu_codes", []) or ["全業種"]
+    )
     return f"""<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8"></head>
-<body style="font-family:'Meiryo','Meiryo UI','Yu Gothic','Yu Gothic UI',sans-serif;
+<body style="font-family:'Meiryo','Yu Gothic',sans-serif;
              max-width:660px;margin:0 auto;padding:20px;color:#1a1a1a;line-height:1.7;">
   <div style="background:#1a3a5c;color:white;padding:20px;border-radius:8px 8px 0 0;">
-    <h1 style="margin:0;font-size:18px;">入札公告 新着レポート（解体工事）</h1>
-    <p style="margin:6px 0 0;font-size:13px;opacity:0.8;">{today} ／ 新着 {count} 件</p>
+    <h1 style="margin:0;font-size:18px;">入札公告 新着レポート</h1>
+    <p style="margin:6px 0 0;font-size:13px;opacity:0.8;">
+      {today} ／ {name} 向け ／ 新着 {count} 件 ／ 業種: {gyoshu_label}
+    </p>
   </div>
   <div style="background:#f9f9f9;padding:16px;">{body}</div>
   <div style="background:#ecf0f1;padding:12px;border-radius:0 0 8px 8px;
               font-size:11px;color:#888;text-align:center;">
-    情報提供元：官公需情報ポータルサイト（中小企業庁）／ 行政書士事務所ONE 自動配信
+    行政書士事務所ONE 自動配信 ／
+    情報提供: 官公需情報ポータルサイト（中小企業庁）・東京都電子調達サービス
   </div>
 </body>
 </html>"""
 
 
-def send_email(html: str, cfg: dict) -> None:
-    gmail = cfg["gmail"]
-    msg = MIMEMultipart("alternative")
-    msg["Subject"] = f"【入札新着】{datetime.now().strftime('%Y/%m/%d')} 解体工事レポート"
+def send_email(html: str, client: dict, cfg: dict) -> None:
+    gmail   = cfg["gmail"]
+    today   = datetime.now().strftime("%Y/%m/%d")
+    name    = client.get("name", "")
+    msg     = MIMEMultipart("alternative")
+    msg["Subject"] = f"【入札新着】{today} {name} 向けレポート"
     msg["From"]    = gmail["from"]
-    msg["To"]      = gmail["to"]
+    msg["To"]      = client["email"]
+    if client.get("cc"):
+        msg["Cc"] = ", ".join(client["cc"])
     msg.attach(MIMEText(html, "html", "utf-8"))
+
+    to_addrs = [client["email"]] + client.get("cc", [])
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
         smtp.login(gmail["from"], gmail["app_password"])
-        smtp.send_message(msg)
+        smtp.sendmail(gmail["from"], to_addrs, msg.as_string())
 
 
 # ---------------------------------------------------------------------------
@@ -424,31 +255,39 @@ def build_dashboard(all_items: list[dict]) -> str:
     today = datetime.now().strftime("%Y年%m月%d日")
     count = len(all_items)
 
+    def badge(source: str) -> str:
+        colors = {"kkj": "#2980b9", "etokyo": "#27ae60"}
+        label  = SOURCE_LABEL.get(source, source)
+        color  = colors.get(source, "#888")
+        return (f'<span style="background:{color};color:#fff;font-size:11px;'
+                f'padding:2px 6px;border-radius:3px;margin-right:6px;">{label}</span>')
+
     def card_html(item: dict) -> str:
-        org      = item.get("org_name") or "—"
-        area     = "".join(filter(None, [item.get("pref_name"), item.get("city_name")])) or "—"
-        date     = fmt_date(item.get("cft_issue_date", ""))
-        category = item.get("category") or "—"
-        procedure= item.get("procedure_type") or "—"
-        location = item.get("location") or "—"
-        bid_dl   = fmt_jp_date(item.get("bid_deadline", ""))
-        opening  = fmt_jp_date(item.get("opening_date", ""))
-        app_dl   = fmt_jp_date(item.get("application_deadline", ""))
-        uri      = item.get("doc_uri") or ""
-        link     = f'<a href="{uri}" target="_blank" class="ext-link">公告元 →</a>' if uri else ""
+        org       = item.get("org_name") or "—"
+        area      = "".join(filter(None, [item.get("pref_name"), item.get("city_name")])) or "—"
+        date      = fmt_date(item.get("cft_issue_date", ""))
+        procedure = item.get("procedure_type") or "—"
+        location  = item.get("location") or "—"
+        bid_dl    = fmt_jp_date(item.get("bid_deadline", ""))
+        opening   = fmt_jp_date(item.get("opening_date", ""))
+        app_dl    = fmt_jp_date(item.get("application_deadline", ""))
+        uri       = item.get("doc_uri") or ""
+        src       = item.get("source", "")
+        link      = f'<a href="{uri}" target="_blank" class="ext-link">公告元 →</a>' if uri else ""
         att_links = " / ".join(
             f'<a href="{a["uri"]}" target="_blank" class="ext-link">{a["name"] or "添付"}</a>'
             for a in (item.get("attachments") or []) if a.get("uri")
         )
-        att_html = f'<p class="att">添付: {att_links}</p>' if att_links else ""
+        att_html  = f'<p class="att">添付: {att_links}</p>' if att_links else ""
+        name      = item.get("project_name", "（案件名不明）")
+        gyoshu    = ",".join(item.get("gyoshu_codes", []))
 
         return f"""
-<div class="card">
-  <div class="card-title">{item.get("project_name", "（案件名不明）")}</div>
+<div class="card" data-name="{name}" data-area="{area}" data-gyoshu="{gyoshu}">
+  <div class="card-title">{badge(src)}{name}</div>
   <table class="meta">
     <tr><th>発注機関</th><td>{org}</td><th>所在地</th><td>{area}</td></tr>
-    <tr><th>公告日</th><td>{date}</td><th>カテゴリ</th><td>{category}</td></tr>
-    <tr><th>入札方式</th><td colspan="3">{procedure}</td></tr>
+    <tr><th>公告日</th><td>{date}</td><th>入札方式</th><td>{procedure}</td></tr>
     <tr><th>工事場所</th><td colspan="3">{location}</td></tr>
     <tr><th>申請締切</th><td colspan="3">{app_dl}</td></tr>
     <tr><th>入札締切</th><td>{bid_dl}</td><th>開札日</th><td>{opening}</td></tr>
@@ -467,15 +306,23 @@ def build_dashboard(all_items: list[dict]) -> str:
 <meta charset="utf-8">
 <meta name="robots" content="noindex">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>入札公告ダッシュボード（解体工事）</title>
+<title>入札公告ダッシュボード</title>
 <style>
-  body{{font-family:'Meiryo','Yu Gothic',sans-serif;max-width:960px;margin:0 auto;
-        padding:20px;background:#f4f6f9;color:#1a1a1a;line-height:1.6;}}
-  header{{background:#1a3a5c;color:#fff;padding:20px 24px;border-radius:8px;margin-bottom:20px;}}
+  *{{box-sizing:border-box;}}
+  body{{font-family:'Meiryo','Yu Gothic',sans-serif;max-width:980px;margin:0 auto;
+        padding:16px;background:#f4f6f9;color:#1a1a1a;line-height:1.6;}}
+  header{{background:#1a3a5c;color:#fff;padding:20px 24px;border-radius:8px;margin-bottom:16px;}}
   header h1{{margin:0;font-size:20px;}}
   header p{{margin:4px 0 0;font-size:13px;opacity:.8;}}
+  .search-bar{{display:flex;gap:8px;margin-bottom:16px;}}
+  .search-bar input{{flex:1;padding:8px 12px;border:1px solid #ccc;border-radius:6px;
+                      font-size:14px;font-family:inherit;}}
+  .search-bar button{{padding:8px 16px;background:#1a3a5c;color:#fff;border:none;
+                       border-radius:6px;cursor:pointer;font-size:14px;}}
+  #count-display{{font-size:13px;color:#888;margin-bottom:12px;}}
   .card{{background:#fff;border:1px solid #ddd;border-radius:6px;padding:16px;
-         margin-bottom:14px;}}
+         margin-bottom:12px;}}
+  .card.hidden{{display:none;}}
   .card-title{{font-size:15px;font-weight:bold;color:#1a3a5c;margin-bottom:10px;}}
   .meta{{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:8px;}}
   .meta th{{width:80px;color:#888;font-weight:normal;white-space:nowrap;
@@ -488,11 +335,38 @@ def build_dashboard(all_items: list[dict]) -> str:
 </head>
 <body>
 <header>
-  <h1>入札公告ダッシュボード（解体工事）</h1>
-  <p>更新日: {today} ／ 直近30日 {count} 件 ／ 情報提供: 官公需情報ポータルサイト（中小企業庁）</p>
+  <h1>入札公告ダッシュボード</h1>
+  <p>更新日: {today} ／ 直近{SENT_ID_RETENTION_DAYS}日 {count} 件
+     ／ 情報提供: 官公需情報ポータルサイト（中小企業庁）・東京都電子調達サービス</p>
 </header>
+
+<div class="search-bar">
+  <input type="text" id="search-input" placeholder="案件名・自治体名で検索..." oninput="filterCards()">
+  <button onclick="document.getElementById('search-input').value=''; filterCards();">クリア</button>
+</div>
+<div id="count-display">{count} 件表示中</div>
+
+<div id="cards-container">
 {cards}
+</div>
+
 <footer>行政書士事務所ONE 自動生成 ／ このページは検索エンジンには登録されていません</footer>
+
+<script>
+function filterCards() {{
+  const q = document.getElementById('search-input').value.trim().toLowerCase();
+  const cards = document.querySelectorAll('.card');
+  let visible = 0;
+  cards.forEach(card => {{
+    const name  = (card.dataset.name  || '').toLowerCase();
+    const area  = (card.dataset.area  || '').toLowerCase();
+    const match = !q || name.includes(q) || area.includes(q);
+    card.classList.toggle('hidden', !match);
+    if (match) visible++;
+  }});
+  document.getElementById('count-display').textContent = visible + ' 件表示中';
+}}
+</script>
 </body>
 </html>"""
 
@@ -502,46 +376,95 @@ def build_dashboard(all_items: list[dict]) -> str:
 # ---------------------------------------------------------------------------
 
 def main() -> None:
-    cfg      = load_config()
+    cfg     = load_config()
+    clients = load_clients()
+
+    # clients.json がない場合は config.json の to: を使うフォールバック
+    if not clients:
+        to_addr = cfg.get("gmail", {}).get("to", "")
+        if to_addr:
+            clients = [{
+                "id": "kataoka", "name": "管理者",
+                "email": to_addr, "cc": [], "active": True, "filters": {}
+            }]
+
+    active_clients = [c for c in clients if c.get("active", True)]
+
+    # ── スクレイパー実行 ──
+    all_items: list = []
+
+    # kkj.go.jp
+    try:
+        from scrapers.kkj import fetch as kkj_fetch
+        all_items.extend(kkj_fetch(LOOKBACK_DAYS))
+    except Exception as e:
+        print(f"[kkj] エラー: {e}")
+
+    # 東京都電子調達サービス
+    try:
+        from scrapers.etokyo import fetch as etokyo_fetch
+        all_items.extend(etokyo_fetch(LOOKBACK_DAYS))
+    except Exception as e:
+        print(f"[etokyo] エラー: {e}")
+
+    print(f"\n取得合計: {len(all_items)} 件")
+
+    # ── sent_ids 読み込み ──
     sent_ids = load_sent_ids()
 
-    print(f"直近{LOOKBACK_DAYS}日間の入札公告を取得中...")
-    all_items = fetch_new_items()
-    new_items = [item for item in all_items if item["key"] not in sent_ids]
-    print(f"新着: {len(all_items)} 件（うち未送信 {len(new_items)} 件）")
+    # 旧フォーマット（notified キーなし）の移行:
+    # 現在の全クライアントに送信済みとして扱い、再送を防ぐ
+    all_active_ids = [c["id"] for c in active_clients]
+    for entry in sent_ids.values():
+        if "notified" not in entry:
+            entry["notified"] = list(all_active_ids)
 
-    if new_items:
-        print("メール送信中...")
-        html = build_email_html(new_items)
-        send_email(html, cfg)
-        print("✓ 送信完了")
+    # 新規アイテムを sent_ids に追加（notified=[] で初期化）
+    fetched_date = datetime.now(timezone.utc).date().isoformat()
+    for item in all_items:
+        key = item.key
+        if key not in sent_ids:
+            entry = item.to_dict()
+            entry["fetched_date"] = fetched_date
+            entry["notified"]     = []
+            sent_ids[key]         = entry
 
-        for item in new_items:
-            sent_ids[item["key"]] = {
-                "cft_issue_date":       item["cft_issue_date"],
-                "project_name":         item["project_name"],
-                "org_name":             item["org_name"],
-                "pref_name":            item["pref_name"],
-                "city_name":            item["city_name"],
-                "category":             item["category"],
-                "procedure_type":       item.get("procedure_type", ""),
-                "doc_uri":              item["doc_uri"],
-                "location":             item["location"],
-                "bid_deadline":         item["bid_deadline"],
-                "opening_date":         item["opening_date"],
-                "application_deadline": item["application_deadline"],
-                "attachments":          item["attachments"],
-            }
-        sent_ids = prune_sent_ids(sent_ids)
-        save_sent_ids(sent_ids)
-        print("✓ sent_ids.json 更新")
-    else:
-        print("新着なし — メール送信をスキップ")
+    # ── クライアント別メール送信 ──
+    for client in active_clients:
+        client_id = client["id"]
+        filters   = client.get("filters", {})
 
-    # ダッシュボード生成（毎回更新）
+        # このクライアントに未送信かつフィルターにマッチするアイテムを抽出
+        targets = [
+            sent_ids[item.key]
+            for item in all_items
+            if matches_filters(sent_ids[item.key], filters)
+            and client_id not in sent_ids[item.key].get("notified", [])
+        ]
+
+        print(f"\nクライアント「{client['name']}」: 対象 {len(targets)} 件")
+        if not targets:
+            print("  → 新着なし、スキップ")
+            continue
+
+        try:
+            html = build_email_html(client, targets)
+            send_email(html, client, cfg)
+            print(f"  → メール送信完了（to: {client['email']}、cc: {client.get('cc', [])}）")
+            for entry in targets:
+                entry["notified"].append(client_id)
+        except Exception as e:
+            print(f"  → メール送信エラー: {e}")
+
+    # ── sent_ids 保存 ──
+    sent_ids = prune_sent_ids(sent_ids)
+    save_sent_ids(sent_ids)
+    print("\nsent_ids.json 更新完了")
+
+    # ── ダッシュボード生成 ──
     print("ダッシュボードHTML生成中...")
     dashboard_items = sorted(
-        [dict(key=k, **v) for k, v in sent_ids.items()],
+        list(sent_ids.values()),
         key=lambda x: x.get("cft_issue_date", ""),
         reverse=True,
     )
@@ -550,8 +473,7 @@ def main() -> None:
         f.write(build_dashboard(dashboard_items))
     with open(os.path.join(DOCS_DIR, "robots.txt"), "w", encoding="utf-8") as f:
         f.write("User-agent: *\nDisallow: /\n")
-
-    print(f"✓ docs/index.html 生成（{len(dashboard_items)} 件）")
+    print(f"docs/index.html 生成完了（{len(dashboard_items)} 件）")
     print("完了")
 
 
