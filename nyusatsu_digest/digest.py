@@ -68,10 +68,14 @@ def save_sent_ids(sent_ids: dict) -> None:
 
 
 def prune_sent_ids(sent_ids: dict) -> dict:
+    """重複送信を防ぐための保持期間は、案件の公告日ではなく「自分がいつ検知したか」
+    （fetched_date）を基準にする。公告日基準だと、検知時点で既に公告日が古い案件
+    （都庁本体の発注予定情報など）が送信直後にここで消えてしまい、次回また
+    「未送信の新着」として誤検知され再送されてしまう。"""
     threshold = datetime.now(timezone.utc) - timedelta(days=SENT_ID_RETENTION_DAYS)
     pruned = {}
     for key, entry in sent_ids.items():
-        date_str = entry.get("cft_issue_date") or entry.get("fetched_date", "")
+        date_str = entry.get("fetched_date") or entry.get("cft_issue_date", "")
         try:
             dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
             if dt.tzinfo is None:
@@ -413,6 +417,13 @@ def main() -> None:
         all_items.extend(tokyo_metro_fetch(LOOKBACK_DAYS))
     except Exception as e:
         print(f"[tokyo_metro] エラー: {e}")
+
+    # JKK東京（東京都住宅供給公社）電子入札
+    try:
+        from scrapers.jkk import fetch as jkk_fetch
+        all_items.extend(jkk_fetch(LOOKBACK_DAYS))
+    except Exception as e:
+        print(f"[jkk] エラー: {e}")
 
     print(f"\n取得合計: {len(all_items)} 件")
 

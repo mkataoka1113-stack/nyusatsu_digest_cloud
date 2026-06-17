@@ -745,5 +745,29 @@
     "notified": [
       "kataoka"
     ]
+  },
+  "tokyometro_3539821029292419": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539821029292419",
+    "project_name": "花畑水門管理棟耐震・耐水対策工事に伴う解体工事",
+    "org_name": "江東治水事務所庶務課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-05-11",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "2026-05-18",
+    "fetched_date": "2026-06-17",
+    "notified": [
+      "kataoka"
+    ]
   }
 }
