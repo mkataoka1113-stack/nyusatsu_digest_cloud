@@ -425,6 +425,13 @@ def main() -> None:
     except Exception as e:
         print(f"[jkk] エラー: {e}")
 
+    # ちば電子調達システム
+    try:
+        from scrapers.chiba import fetch as chiba_fetch
+        all_items.extend(chiba_fetch(LOOKBACK_DAYS))
+    except Exception as e:
+        print(f"[chiba] エラー: {e}")
+
     print(f"\n取得合計: {len(all_items)} 件")
 
     # ── sent_ids 読み込み ──
