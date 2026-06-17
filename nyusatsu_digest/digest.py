@@ -88,6 +88,30 @@ def prune_sent_ids(sent_ids: dict) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# 重複排除（自治体独自システムを優先）
+# ---------------------------------------------------------------------------
+
+def dedupe_prefer_local(items: list) -> list:
+    """同一案件が kkj.go.jp（全国ポータル）と自治体独自システムの両方に
+    掲載されている場合、自治体独自システム側を優先して kkj 側を除外する。
+    案件名＋自治体名が完全一致するものを同一案件とみなす。"""
+    groups: dict[tuple[str, str], list] = {}
+    for item in items:
+        key = (item.project_name.strip(), (item.city_name or "").strip())
+        groups.setdefault(key, []).append(item)
+
+    result = []
+    for group in groups.values():
+        if len(group) > 1:
+            non_kkj = [i for i in group if i.source != "kkj"]
+            if non_kkj:
+                result.extend(non_kkj)
+                continue
+        result.extend(group)
+    return result
+
+
+# ---------------------------------------------------------------------------
 # フィルター判定
 # ---------------------------------------------------------------------------
 
@@ -233,12 +257,12 @@ def build_email_html(client: dict, items: list[dict]) -> str:
 </html>"""
 
 
-def send_email(html: str, client: dict, cfg: dict) -> None:
+def send_email(html: str, client: dict, cfg: dict, subject: str | None = None) -> None:
     gmail   = cfg["gmail"]
     today   = datetime.now().strftime("%Y/%m/%d")
     name    = client.get("name", "")
     msg     = MIMEMultipart("alternative")
-    msg["Subject"] = f"【入札新着】{today} {name} 向けレポート"
+    msg["Subject"] = subject or f"【入札新着】{today} {name} 向けレポート"
     msg["From"]    = gmail["from"]
     msg["To"]      = client["email"]
     if client.get("cc"):
@@ -249,6 +273,41 @@ def send_email(html: str, client: dict, cfg: dict) -> None:
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
         smtp.login(gmail["from"], gmail["app_password"])
         smtp.sendmail(gmail["from"], to_addrs, msg.as_string())
+
+
+def build_error_email_html(errors: list[tuple[str, str]]) -> str:
+    today = datetime.now().strftime("%Y年%m月%d日")
+    rows = "".join(
+        f'<tr><td style="padding:6px 10px;border-bottom:1px solid #eee;'
+        f'font-weight:bold;white-space:nowrap;">{name}</td>'
+        f'<td style="padding:6px 10px;border-bottom:1px solid #eee;color:#c0392b;">{msg}</td></tr>'
+        for name, msg in errors
+    )
+    return f"""<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"></head>
+<body style="font-family:'Meiryo','Yu Gothic',sans-serif;
+             max-width:660px;margin:0 auto;padding:20px;color:#1a1a1a;line-height:1.7;">
+  <div style="background:#c0392b;color:white;padding:20px;border-radius:8px 8px 0 0;">
+    <h1 style="margin:0;font-size:18px;">入札公告ダイジェスト 取得エラー通知</h1>
+    <p style="margin:6px 0 0;font-size:13px;opacity:0.9;">{today} ／ {len(errors)} 件のスクレイパーでエラーが発生しました</p>
+  </div>
+  <div style="background:#f9f9f9;padding:16px;">
+    <p style="font-size:13px;color:#555;">
+      以下のシステムから今回データを取得できませんでした。サイト側の仕様変更などが原因の可能性があります。
+      他のシステムの取得・メール配信には影響していません。
+    </p>
+    <table style="font-size:13px;border-collapse:collapse;width:100%;background:#fff;
+                  border-radius:6px;overflow:hidden;border:1px solid #eee;">
+      {rows}
+    </table>
+  </div>
+  <div style="background:#ecf0f1;padding:12px;border-radius:0 0 8px 8px;
+              font-size:11px;color:#888;text-align:center;">
+    行政書士事務所ONE 自動配信
+  </div>
+</body>
+</html>"""
 
 
 # ---------------------------------------------------------------------------
@@ -396,41 +455,28 @@ def main() -> None:
 
     # ── スクレイパー実行 ──
     all_items: list = []
+    scraper_errors: list[tuple[str, str]] = []
 
-    # kkj.go.jp
-    try:
-        from scrapers.kkj import fetch as kkj_fetch
-        all_items.extend(kkj_fetch(LOOKBACK_DAYS))
-    except Exception as e:
-        print(f"[kkj] エラー: {e}")
+    SCRAPERS = [
+        ("kkj",         "kkj.go.jp（官公需情報ポータル）",        "scrapers.kkj"),
+        ("etokyo",      "東京都電子調達サービス（市区町村）",      "scrapers.etokyo"),
+        ("tokyo_metro", "東京都電子調達システム（都庁本体）",      "scrapers.tokyo_metro"),
+        ("jkk",         "JKK東京（東京都住宅供給公社）",          "scrapers.jkk"),
+        ("chiba",       "ちば電子調達システム",                   "scrapers.chiba"),
+    ]
+    for name, label, module_path in SCRAPERS:
+        try:
+            module = __import__(module_path, fromlist=["fetch"])
+            all_items.extend(module.fetch(LOOKBACK_DAYS))
+        except Exception as e:
+            print(f"[{name}] エラー: {e}")
+            scraper_errors.append((label, str(e)))
 
-    # 東京都電子調達サービス（市区町村）
-    try:
-        from scrapers.etokyo import fetch as etokyo_fetch
-        all_items.extend(etokyo_fetch(LOOKBACK_DAYS))
-    except Exception as e:
-        print(f"[etokyo] エラー: {e}")
-
-    # 東京都電子調達システム（都庁本体）
-    try:
-        from scrapers.tokyo_metro import fetch as tokyo_metro_fetch
-        all_items.extend(tokyo_metro_fetch(LOOKBACK_DAYS))
-    except Exception as e:
-        print(f"[tokyo_metro] エラー: {e}")
-
-    # JKK東京（東京都住宅供給公社）電子入札
-    try:
-        from scrapers.jkk import fetch as jkk_fetch
-        all_items.extend(jkk_fetch(LOOKBACK_DAYS))
-    except Exception as e:
-        print(f"[jkk] エラー: {e}")
-
-    # ちば電子調達システム
-    try:
-        from scrapers.chiba import fetch as chiba_fetch
-        all_items.extend(chiba_fetch(LOOKBACK_DAYS))
-    except Exception as e:
-        print(f"[chiba] エラー: {e}")
+    # 同一案件が kkj と自治体独自システムの両方にある場合、自治体独自システム側を優先
+    before_dedupe = len(all_items)
+    all_items = dedupe_prefer_local(all_items)
+    if before_dedupe != len(all_items):
+        print(f"重複排除: {before_dedupe} 件 → {len(all_items)} 件（kkjとの重複分を除外）")
 
     print(f"\n取得合計: {len(all_items)} 件")
 
@@ -480,6 +526,20 @@ def main() -> None:
                 entry["notified"].append(client_id)
         except Exception as e:
             print(f"  → メール送信エラー: {e}")
+
+    # ── スクレイパーエラー通知（管理者宛） ──
+    if scraper_errors:
+        admin = next((c for c in clients if c.get("id") == "kataoka"), None)
+        if admin:
+            try:
+                today = datetime.now().strftime("%Y/%m/%d")
+                html  = build_error_email_html(scraper_errors)
+                send_email(html, admin, cfg, subject=f"【入札ダイジェスト】取得エラー通知 {today}")
+                print(f"\nエラー通知メール送信完了（{len(scraper_errors)} 件）")
+            except Exception as e:
+                print(f"\nエラー通知メール送信に失敗: {e}")
+        else:
+            print("\n[警告] エラー通知の送信先（id=kataoka）が clients.json に見つかりません")
 
     # ── sent_ids 保存 ──
     sent_ids = prune_sent_ids(sent_ids)
