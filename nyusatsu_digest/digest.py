@@ -400,12 +400,19 @@ def main() -> None:
     except Exception as e:
         print(f"[kkj] エラー: {e}")
 
-    # 東京都電子調達サービス
+    # 東京都電子調達サービス（市区町村）
     try:
         from scrapers.etokyo import fetch as etokyo_fetch
         all_items.extend(etokyo_fetch(LOOKBACK_DAYS))
     except Exception as e:
         print(f"[etokyo] エラー: {e}")
+
+    # 東京都電子調達システム（都庁本体）
+    try:
+        from scrapers.tokyo_metro import fetch as tokyo_metro_fetch
+        all_items.extend(tokyo_metro_fetch(LOOKBACK_DAYS))
+    except Exception as e:
+        print(f"[tokyo_metro] エラー: {e}")
 
     print(f"\n取得合計: {len(all_items)} 件")
 

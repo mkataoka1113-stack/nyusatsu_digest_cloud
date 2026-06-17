@@ -673,5 +673,77 @@
     "notified": [
       "kataoka"
     ]
+  },
+  "tokyometro_3539491779290711": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539491779290711",
+    "project_name": "警視庁旧野方警察署長公舎撤去工事",
+    "org_name": "警視庁総務部用度課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-06-15",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "2026-06-19",
+    "fetched_date": "2026-06-17",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "tokyometro_3539491779290811": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539491779290811",
+    "project_name": "警視庁旧第四方面本部庁舎ほか撤去工事",
+    "org_name": "警視庁総務部用度課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-06-15",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "2026-06-19",
+    "fetched_date": "2026-06-17",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "tokyometro_3539841029199119": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539841029199119",
+    "project_name": "上野動物園正門前広場周辺再整備準備工事",
+    "org_name": "東部公園緑地事務所庶務課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-06-08",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "2026-06-15",
+    "fetched_date": "2026-06-17",
+    "notified": [
+      "kataoka"
+    ]
   }
 }
