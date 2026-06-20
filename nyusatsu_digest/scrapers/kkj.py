@@ -111,8 +111,8 @@ def _call_api(project_name: str, since_date: str) -> list[dict]:
         return []
     raw = []
     for sr in root.findall(".//SearchResult"):
-        def get(tag):
-            el = sr.find(tag)
+        def get(tag, _sr=sr):
+            el = _sr.find(tag)
             return (el.text or "").strip() if el is not None else ""
         attachments = []
         for att in sr.findall(".//Attachment"):
