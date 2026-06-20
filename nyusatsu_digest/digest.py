@@ -163,7 +163,7 @@ def fmt_jp_date(val: str) -> str:
         return val
 
 
-SOURCE_LABEL = {"kkj": "官公需ポータル", "etokyo": "東京都電子調達"}
+SOURCE_LABEL = {"kkj": "官公需ポータル", "etokyo": "東京都電子調達", "ippi": "入札情報サービス（防衛省）"}
 
 
 # ---------------------------------------------------------------------------
@@ -319,7 +319,7 @@ def build_dashboard(all_items: list[dict]) -> str:
     count = len(all_items)
 
     def badge(source: str) -> str:
-        colors = {"kkj": "#2980b9", "etokyo": "#27ae60"}
+        colors = {"kkj": "#2980b9", "etokyo": "#27ae60", "ippi": "#8e44ad"}
         label  = SOURCE_LABEL.get(source, source)
         color  = colors.get(source, "#888")
         return (f'<span style="background:{color};color:#fff;font-size:11px;'
@@ -463,6 +463,7 @@ def main() -> None:
         ("tokyo_metro", "東京都電子調達システム（都庁本体）",      "scrapers.tokyo_metro"),
         ("jkk",         "JKK東京（東京都住宅供給公社）",          "scrapers.jkk"),
         ("chiba",       "ちば電子調達システム",                   "scrapers.chiba"),
+        ("ippi",        "入札情報サービス（防衛省）",              "scrapers.ippi"),
     ]
     for name, label, module_path in SCRAPERS:
         try:
