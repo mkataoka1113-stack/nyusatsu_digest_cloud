@@ -1464,5 +1464,29 @@
     "notified": [
       "kataoka"
     ]
+  },
+  "jkk_20913": {
+    "source": "jkk",
+    "key": "jkk_20913",
+    "project_name": "都営桜一丁目アパート除却工事",
+    "org_name": "東京都住宅供給公社（JKK東京）",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "015"
+    ],
+    "cft_issue_date": "2026-06-22T09:00:00",
+    "procedure_type": "希望制",
+    "doc_uri": "https://www.to-kousya.or.jp/keiyaku/nyusatu/index.html",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "2026-07-29T10:00:00",
+    "application_deadline": "2026-06-26T16:00:00",
+    "fetched_date": "2026-06-22",
+    "notified": [
+      "kataoka"
+    ]
   }
 }
