@@ -1488,5 +1488,73 @@
     "notified": [
       "kataoka"
     ]
+  },
+  "c2VhcmNoL2lzaGlrYXdhX3VjaGluYWRhX3Rvd24vMjAyNi8yMDI2MDYyMl8wMDExNAo=": {
+    "source": "kkj",
+    "key": "c2VhcmNoL2lzaGlrYXdhX3VjaGluYWRhX3Rvd24vMjAyNi8yMDI2MDYyMl8wMDExNAo=",
+    "project_name": "6災55号内灘町総合公園展望台解体工事",
+    "org_name": "石川県内灘町",
+    "pref_name": "石川県",
+    "city_name": "内灘町",
+    "pref_code": "17",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-22T00:00:00+09:00",
+    "procedure_type": "簡易公募型指名競争入札",
+    "doc_uri": "https://www.ep-bis.supercals.jp/ebidPPIPublish/EjPPIj?KikanNO=1736500",
+    "attachments": [],
+    "location": "内灘町 字宮坂地内",
+    "bid_deadline": "2026-07-03T00:00:00+09:00",
+    "opening_date": "2026-07-06T00:00:00+09:00",
+    "application_deadline": "",
+    "fetched_date": "2026-06-23",
+    "notified": []
+  },
+  "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA2MjJfMDA3NTkK": {
+    "source": "kkj",
+    "key": "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA2MjJfMDA3NTkK",
+    "project_name": "広岡住宅Ｂ−１外２棟解体工事[ZIP：9MB]",
+    "org_name": "石川県輪島市",
+    "pref_name": "石川県",
+    "city_name": "輪島市",
+    "pref_code": "17",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-22T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.wajima.ishikawa.jp/docs/2014032000011/file_contents/080709_01.zip",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-06-23",
+    "notified": []
+  },
+  "Y2hpYmEvY2hpYmFfY2l0eS8yMDI2LzIwMjYwNjIyXzAzMTQ1Cg==": {
+    "source": "kkj",
+    "key": "Y2hpYmEvY2hpYmFfY2l0eS8yMDI2LzIwMjYwNjIyXzAzMTQ1Cg==",
+    "project_name": "千葉市営住宅千城台第6団地一部解体工事（その2）、旧千葉市こてはし台公民館解体工事、千葉市動物公園鳥類・水系ゾーン建屋解体工事",
+    "org_name": "千葉県千葉市",
+    "pref_name": "千葉県",
+    "city_name": "千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-22T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.chiba.jp/somu/somu/somu/kojibunsyo/documents/08kk0498.pdf",
+    "attachments": [],
+    "location": "、工期及び業種工事案件ごとに別表に記載",
+    "bid_deadline": "",
+    "opening_date": "令和８年７月２４日",
+    "application_deadline": "",
+    "fetched_date": "2026-06-23",
+    "notified": [
+      "kataoka"
+    ]
   }
 }
