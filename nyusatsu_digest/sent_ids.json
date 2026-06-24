@@ -1556,5 +1556,78 @@
     "notified": [
       "kataoka"
     ]
+  },
+  "ZnVrdXNoaW1hL3RhbXVyYV9jaXR5LzIwMjYvMjAyNjA2MzBfMDEyOTYK": {
+    "source": "kkj",
+    "key": "ZnVrdXNoaW1hL3RhbXVyYV9jaXR5LzIwMjYvMjAyNjA2MzBfMDEyOTYK",
+    "project_name": "仮設店舗（旧Ｄоｍо岩井沢店）解体撤去工事 (152.1KB)",
+    "org_name": "福島県田村市",
+    "pref_name": "福島県",
+    "city_name": "田村市",
+    "pref_code": "07",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-30T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.tamura.lg.jp/soshiki/3/assets/260630%E6%9D%A1%E4%BB%B6%E4%BB%98%E3%81%8D%E5%85%A5%E6%9C%AD%E5%85%AC%E5%91%8A%E7%AC%AC173%E5%8F%B7%281-10%29.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-06-24",
+    "notified": []
+  },
+  "eWFtYW5hc2hpL2tvZnVfY2l0eS8yMDI2LzIwMjYwNjIzXzAxMzQ0Cg==": {
+    "source": "kkj",
+    "key": "eWFtYW5hc2hpL2tvZnVfY2l0eS8yMDI2LzIwMjYwNjIzXzAxMzQ0Cg==",
+    "project_name": "（解体）71号旧上九一色保育所解体工事",
+    "org_name": "山梨県甲府市",
+    "pref_name": "山梨県",
+    "city_name": "甲府市",
+    "pref_code": "19",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-23T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kofu.yamanashi.jp/keyaku/business/nyusatsu/kokyo/2026kokuji/documents/2026-71-kokuji.pdf",
+    "attachments": [
+      {
+        "name": "入札説明書（PDF：154KB）",
+        "uri": "https://www.city.kofu.yamanashi.jp/keyaku/business/nyusatsu/kokyo/2026kokuji/documents/2026-71-setumeisho.pdf"
+      }
+    ],
+    "location": "甲府市古関町１２３０番地工事概要１ 工事内容・解体建物 ＲＣ造平屋建て ２３１．０㎡・外構撤去 外一式２ 工期 令和９年",
+    "bid_deadline": "",
+    "opening_date": "令和８年６月２３日",
+    "application_deadline": "",
+    "fetched_date": "2026-06-24",
+    "notified": []
+  },
+  "etokyo_2026:13:224:00260": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:224:00260",
+    "project_name": "旧南豊ヶ丘小学校校舎等解体工事",
+    "org_name": "多摩市",
+    "pref_name": "東京都",
+    "city_name": "多摩市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-23T12:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-27T17:00:00",
+    "opening_date": "2026-07-28T09:30:00",
+    "application_deadline": "2026-07-01T15:00:00",
+    "fetched_date": "2026-06-24",
+    "notified": [
+      "kataoka"
+    ]
   }
 }
