@@ -1629,5 +1629,81 @@
     "notified": [
       "kataoka"
     ]
+  },
+  "eWFtYWd1Y2hpL2t1ZGFtYXRzdV9jaXR5LzIwMjYvMjAyNjA2MjRfMDAxMjkK": {
+    "source": "kkj",
+    "key": "eWFtYWd1Y2hpL2t1ZGFtYXRzdV9jaXR5LzIwMjYvMjAyNjA2MjRfMDAxMjkK",
+    "project_name": "旧緑ヶ丘市営住宅解体工事",
+    "org_name": "山口県下松市",
+    "pref_name": "山口県",
+    "city_name": "下松市",
+    "pref_code": "35",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-24T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kudamatsu.lg.jp/keiyaku/documents/r8koukoku12midorigaokakaitai260624.pdf",
+    "attachments": [],
+    "location": "下松市大字末武上９４０番地工事概要解体工事・平屋建12棟解体、集会所解体、浴場解体、駐輪場解体 一式・解体後跡地整地 一",
+    "bid_deadline": "",
+    "opening_date": "令和８年７月１４日",
+    "application_deadline": "",
+    "fetched_date": "2026-06-25",
+    "notified": []
+  },
+  "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjA2MjRfMDM4MDIK": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjA2MjRfMDM4MDIK",
+    "project_name": "旧中央図書館・旧市歴史民俗資料館解体工事に伴う石綿除去工事監理業務委託",
+    "org_name": "広島県三原市",
+    "pref_name": "広島県",
+    "city_name": "三原市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-24T00:00:00+09:00",
+    "procedure_type": "指名競争入札",
+    "doc_uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164483.pdf",
+    "attachments": [
+      {
+        "name": "仕様書等",
+        "uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164484.pdf"
+      }
+    ],
+    "location": "：三原市円一町二丁目３－３駐輪場円一公園駐車場ごみ置場地震計陶芸釜駐輪場道路道路１F.L旧中央図書館旧中央図書館旧歴史民",
+    "bid_deadline": "令和8年7月1日",
+    "opening_date": "令和8年7月8日",
+    "application_deadline": "",
+    "fetched_date": "2026-06-25",
+    "notified": []
+  },
+  "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjA2MjRfMDM3OTgK": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjA2MjRfMDM3OTgK",
+    "project_name": "旧本郷支所本館解体設計業務委託",
+    "org_name": "広島県三原市",
+    "pref_name": "広島県",
+    "city_name": "三原市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-24T00:00:00+09:00",
+    "procedure_type": "指名競争入札",
+    "doc_uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164475.pdf",
+    "attachments": [
+      {
+        "name": "仕様書等",
+        "uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164476.pdf"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "令和8年7月1日",
+    "opening_date": "令和8年7月8日",
+    "application_deadline": "",
+    "fetched_date": "2026-06-25",
+    "notified": []
   }
 }
