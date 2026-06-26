@@ -1705,5 +1705,128 @@
     "application_deadline": "",
     "fetched_date": "2026-06-25",
     "notified": []
+  },
+  "dG9reW8vcm9pc19hYy8yMDI2LzIwMjYwNjI1XzAwMTE0Cg==": {
+    "source": "kkj",
+    "key": "dG9reW8vcm9pc19hYy8yMDI2LzIwMjYwNjI1XzAwMTE0Cg==",
+    "project_name": "情報・システム研究機構（谷田（遺伝研））南圃場解体工事",
+    "org_name": "大学共同利用機関法人情報・システム研究機構",
+    "pref_name": "東京都",
+    "city_name": "港区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-25T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.rois.ac.jp/open/pdf/nyuusatukoukoku_R080625.pdf",
+    "attachments": [],
+    "location": "静岡県三島市谷田１１１１",
+    "bid_deadline": "",
+    "opening_date": "令和８年７月２７日",
+    "application_deadline": "",
+    "fetched_date": "2026-06-26",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "b2theWFtYS90YW1hbm9fY2l0eS8yMDI2LzIwMjYwNjI1XzAwMDEwCg==": {
+    "source": "kkj",
+    "key": "b2theWFtYS90YW1hbm9fY2l0eS8yMDI2LzIwMjYwNjI1XzAwMDEwCg==",
+    "project_name": "玉野市旧庁舎解体工事",
+    "org_name": "岡山県玉野市",
+    "pref_name": "岡山県",
+    "city_name": "玉野市",
+    "pref_code": "33",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-25T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.tamano.lg.jp/uploaded/attachment/35568.pdf",
+    "attachments": [],
+    "location": "予定工期入札参加資格業種工事概要予定価格最低制限価格入札保証金契約保証金建設リサイクル法対象工事その他この工事は、議会の",
+    "bid_deadline": "",
+    "opening_date": "令和8年7月30日",
+    "application_deadline": "",
+    "fetched_date": "2026-06-26",
+    "notified": []
+  },
+  "aWJhcmFraS9pbmFzaGlraV9jaXR5LzIwMjYvMjAyNjA2MjVfMDA1NzEK": {
+    "source": "kkj",
+    "key": "aWJhcmFraS9pbmFzaGlraV9jaXR5LzIwMjYvMjAyNjA2MjVfMDA1NzEK",
+    "project_name": "筑波東部工業団地配水・取水場解体工事",
+    "org_name": "茨城県稲敷市",
+    "pref_name": "茨城県",
+    "city_name": "稲敷市",
+    "pref_code": "08",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-25T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.inashiki.lg.jp/data/doc/1782368510_doc_143_0.pdf",
+    "attachments": [],
+    "location": "稲敷市甘田２４０７番及び２４１３番3.工事概要配水場解体工事構造・階数 ： RC造、ＣＢ造・地上1階、地下構造物延べ面積",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-06-26",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "Z292NS9yaWtlbi8yMDI2LzIwMjYwNjI1XzI1NTk3Cg==": {
+    "source": "kkj",
+    "key": "Z292NS9yaWtlbi8yMDI2LzIwMjYwNjI1XzI1NTk3Cg==",
+    "project_name": "アンジュレータ解体処分作業Ⅱ-0",
+    "org_name": "国立研究開発法人理化学研究所",
+    "pref_name": "埼玉県",
+    "city_name": "和光市",
+    "pref_code": "11",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-25T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://choutatsu.riken.jp/r-world/info/procurement/proc/detail/id/000041892",
+    "attachments": [
+      {
+        "name": "アンジュレータ解体処分作業Ⅱ-0(PDF 版 149KB)",
+        "uri": "https://choutatsu.riken.jp:443/r-world/info/procurement/docs/procfile/file/26502100056427.PDF/id/000041892"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-06-26",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "Z292L2phZWFfZ28vMjAyNi8yMDI2MDYyNV8wNDk5OQo=": {
+    "source": "kkj",
+    "key": "Z292L2phZWFfZ28vMjAyNi8yMDI2MDYyNV8wNDk5OQo=",
+    "project_name": "【電子入札】【電子契約】Ｌ棟１階管理室 内装等解体工事",
+    "org_name": "国立研究開発法人日本原子力研究開発機構本部",
+    "pref_name": "茨城県",
+    "city_name": "東海村",
+    "pref_code": "08",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-25T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://keiyaku.jaea.go.jp/compe/02/pdf/0802C02250.pdf",
+    "attachments": [],
+    "location": "------------------------------------------------ 11.3 工期 ---",
+    "bid_deadline": "",
+    "opening_date": "令和8年6月25日",
+    "application_deadline": "",
+    "fetched_date": "2026-06-26",
+    "notified": [
+      "kataoka"
+    ]
   }
 }
