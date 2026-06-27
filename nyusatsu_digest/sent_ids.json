@@ -1828,5 +1828,146 @@
     "notified": [
       "kataoka"
     ]
+  },
+  "etokyo_2026:13:212:00684": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:212:00684",
+    "project_name": "じゅんとく学童クラブ解体工事",
+    "org_name": "日野市",
+    "pref_name": "東京都",
+    "city_name": "日野市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T15:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-22T16:00:00",
+    "opening_date": "2026-07-22T16:10:00",
+    "application_deadline": "2026-07-03T16:00:00",
+    "fetched_date": "2026-06-27",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "bWl5YWdpL3NoaXJvaXNoaV9jaXR5LzIwMjYvMjAyNjA2MjZfMDAyNzMK": {
+    "source": "kkj",
+    "key": "bWl5YWdpL3NoaXJvaXNoaV9jaXR5LzIwMjYvMjAyNjA2MjZfMDAyNzMK",
+    "project_name": "入札公告（令和8年度 旧白石市老人福祉センター解体工事監理業務",
+    "org_name": "宮城県白石市",
+    "pref_name": "宮城県",
+    "city_name": "白石市",
+    "pref_code": "04",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.shiroishi.miyagi.jp/uploaded/attachment/30122.pdf",
+    "attachments": [
+      {
+        "name": "【仕様書】令和8年度 旧白石市老人福祉センター解体工事監理業務 [PDFファイル／9.95MB]",
+        "uri": "https://www.city.shiroishi.miyagi.jp/uploaded/attachment/30123.pdf"
+      }
+    ],
+    "location": "：白石市福岡蔵本字薬師堂23番地 工事場所：白 字薬師堂０２ ０３S-1F 延べ面積16.80㎡ 延べ面積16.80㎡自",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-06-27",
+    "notified": []
+  },
+  "bWl5YWdpL2hpZ2FzaGltYXRzdXNoaW1hX2NpdHkvMjAyNi8yMDI2MDYyNl8wMDMyMAo=": {
+    "source": "kkj",
+    "key": "bWl5YWdpL2hpZ2FzaGltYXRzdXNoaW1hX2NpdHkvMjAyNi8yMDI2MDYyNl8wMDMyMAo=",
+    "project_name": "令和8年度 大曲小学校西校舎解体工事",
+    "org_name": "宮城県東松島市",
+    "pref_name": "宮城県",
+    "city_name": "東松島市",
+    "pref_code": "04",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.higashimatsushima.miyagi.jp/jigyosya/keiyaku-nyusatsu/keiyaku-nyusatsu/ippankyosonyusatsu/kanzaikeiyakuk1119.files/04oomagarikaitai.zip",
+    "attachments": [],
+    "location": "東松島市大曲字寺前5番地2工事期間 契約締結日の翌日 ～工事内容前金払",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-06-27",
+    "notified": []
+  },
+  "aXNoaWthd2Eva2FnYV9jaXR5LzIwMjYvMjAyNjA2MjZfMDA0MDQK": {
+    "source": "kkj",
+    "key": "aXNoaWthd2Eva2FnYV9jaXR5LzIwMjYvMjAyNjA2MjZfMDA0MDQK",
+    "project_name": "山中温泉文化会館及び山中児童センター解体工事(PDFファイル:161.8KB)",
+    "org_name": "石川県加賀市",
+    "pref_name": "石川県",
+    "city_name": "加賀市",
+    "pref_code": "17",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kaga.ishikawa.jp/material/files/group/127/kouji55.pdf",
+    "attachments": [],
+    "location": "加賀市 山中温泉西桂木町 地内",
+    "bid_deadline": "",
+    "opening_date": "2026-08-07T00:00:00+09:00",
+    "application_deadline": "令和8年6月26日",
+    "fetched_date": "2026-06-27",
+    "notified": []
+  },
+  "aWJhcmFraS9rYXN1bWlnYXVyYV9jaXR5LzIwMjYvMjAyNjA2MjZfMDA4NTQK": {
+    "source": "kkj",
+    "key": "aWJhcmFraS9rYXN1bWlnYXVyYV9jaXR5LzIwMjYvMjAyNjA2MjZfMDA4NTQK",
+    "project_name": "令和8年度土田浄水場解体・撤去工事",
+    "org_name": "茨城県かすみがうら市",
+    "pref_name": "茨城県",
+    "city_name": "かすみがうら市",
+    "pref_code": "08",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kasumigaura.lg.jp/data/doc/1782374926_doc_14_0.pdf",
+    "attachments": [],
+    "location": "： かすみがうら市 下稲吉 地内",
+    "bid_deadline": "令和８年６月２６日",
+    "opening_date": "令和８年６月２６日",
+    "application_deadline": "令和８年６月２６日",
+    "fetched_date": "2026-06-27",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "YW9tb3JpL2hpcmFrYXdhX2NpdHkvMjAyNi8yMDI2MDYyNl8wMDczOQo=": {
+    "source": "kkj",
+    "key": "YW9tb3JpL2hpcmFrYXdhX2NpdHkvMjAyNi8yMDI2MDYyNl8wMDczOQo=",
+    "project_name": "平川市食産業振興センター解体工事設計業務",
+    "org_name": "青森県平川市",
+    "pref_name": "青森県",
+    "city_name": "平川市",
+    "pref_code": "02",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.hirakawa.lg.jp/shigoto/keiyaku/koukoku/./R8.7.14_2_i22.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "令和８年６月２６日",
+    "opening_date": "令和８年６月２６日",
+    "application_deadline": "令和８年６月２６日",
+    "fetched_date": "2026-06-27",
+    "notified": []
   }
 }
