@@ -1969,5 +1969,173 @@
     "application_deadline": "令和８年６月２６日",
     "fetched_date": "2026-06-27",
     "notified": []
+  },
+  "chiba_92ef1972d7c441b5": {
+    "source": "chiba",
+    "key": "chiba_92ef1972d7c441b5",
+    "project_name": "副知事公舎解体工事",
+    "org_name": "千葉県  県土整備部  建設・不動産業課",
+    "pref_name": "千葉県",
+    "city_name": "千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-06-26",
+    "procedure_type": "事後審査）千葉県 ・ 総合評価（拡充版） ・ 事後審査２型 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "千葉市中央区都町",
+    "bid_deadline": "2026-07-28T17:00:00",
+    "opening_date": "2026-07-31T16:30:00",
+    "application_deadline": "2026-07-22T17:00:00",
+    "fetched_date": "2026-06-28",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "chiba_e7ecf9b09cab4eea": {
+    "source": "chiba",
+    "key": "chiba_e7ecf9b09cab4eea",
+    "project_name": "千葉市営住宅千城台第６団地一部解体工事（その２）",
+    "org_name": "千葉市  財政局  資産経営部契約課",
+    "pref_name": "千葉県",
+    "city_name": "千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-06-22",
+    "procedure_type": "一般競争 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "千葉市若葉区千城台東４丁目１６番外",
+    "bid_deadline": "2026-07-13T17:00:00",
+    "opening_date": "2026-07-24T09:15:00",
+    "application_deadline": "2026-06-26T17:00:00",
+    "fetched_date": "2026-06-28",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "chiba_1181dfa3c9aae3c9": {
+    "source": "chiba",
+    "key": "chiba_1181dfa3c9aae3c9",
+    "project_name": "千葉市動物公園鳥類・水系ゾーン建屋解体工事",
+    "org_name": "千葉市  財政局  資産経営部契約課",
+    "pref_name": "千葉県",
+    "city_name": "千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-06-22",
+    "procedure_type": "一般競争 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "千葉市若葉区源町２８０番地",
+    "bid_deadline": "2026-07-13T17:00:00",
+    "opening_date": "2026-07-28T09:15:00",
+    "application_deadline": "2026-06-26T17:00:00",
+    "fetched_date": "2026-06-28",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "chiba_d4695832b890c39f": {
+    "source": "chiba",
+    "key": "chiba_d4695832b890c39f",
+    "project_name": "旧千葉市こてはし台公民館解体工事",
+    "org_name": "千葉市  財政局  資産経営部契約課",
+    "pref_name": "千葉県",
+    "city_name": "千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-06-22",
+    "procedure_type": "一般競争 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "千葉市花見川区横戸町８６１番地４",
+    "bid_deadline": "2026-07-13T17:00:00",
+    "opening_date": "2026-07-28T09:15:00",
+    "application_deadline": "2026-06-26T17:00:00",
+    "fetched_date": "2026-06-28",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "chiba_844dadc108c9a63e": {
+    "source": "chiba",
+    "key": "chiba_844dadc108c9a63e",
+    "project_name": "東郷小学校区第２学童クラブ解体工事",
+    "org_name": "茂原市  総務部  管財課",
+    "pref_name": "千葉県",
+    "city_name": "茂原市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-06-24",
+    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "茂原市谷本１４２番地",
+    "bid_deadline": "2026-07-06T15:00:00",
+    "opening_date": "2026-07-08T10:10:00",
+    "application_deadline": "",
+    "fetched_date": "2026-06-28",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "chiba_018c600d6ff4b46f": {
+    "source": "chiba",
+    "key": "chiba_018c600d6ff4b46f",
+    "project_name": "旧成田市松崎保育園解体工事",
+    "org_name": "成田市  総務部  契約検査課",
+    "pref_name": "千葉県",
+    "city_name": "成田市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-06-24",
+    "procedure_type": "事後審査）市町村 ・ 総合評価（拡充版） （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "成田市松崎２１６３－１",
+    "bid_deadline": "2026-07-23T16:00:00",
+    "opening_date": "2026-07-29T09:14:00",
+    "application_deadline": "",
+    "fetched_date": "2026-06-28",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "chiba_dc17ff6182176708": {
+    "source": "chiba",
+    "key": "chiba_dc17ff6182176708",
+    "project_name": "旧市原青少年会館解体工事",
+    "org_name": "市原市  財政部  契約検査課",
+    "pref_name": "千葉県",
+    "city_name": "市原市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-06-26",
+    "procedure_type": "一般競争 ・ 総合評価（拡充版） （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "市原市八幡",
+    "bid_deadline": "2026-07-23T16:00:00",
+    "opening_date": "2026-07-27T11:15:00",
+    "application_deadline": "2026-07-03T16:00:00",
+    "fetched_date": "2026-06-28",
+    "notified": [
+      "kataoka"
+    ]
   }
 }
