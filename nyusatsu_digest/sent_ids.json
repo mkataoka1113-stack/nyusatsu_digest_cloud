@@ -2137,5 +2137,1205 @@
     "notified": [
       "kataoka"
     ]
+  },
+  "etokyo_2026:13:106:00731": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:106:00731",
+    "project_name": "東上野区民館外壁及び屋上防水改修工事",
+    "org_name": "台東区",
+    "pref_name": "東京都",
+    "city_name": "台東区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "希望型指名競争",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-05T14:00:00",
+    "opening_date": "2026-08-05T14:00:00",
+    "application_deadline": "2026-07-13T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:106:00728": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:106:00728",
+    "project_name": "浅草橋保育園外壁改修その他工事",
+    "org_name": "台東区",
+    "pref_name": "東京都",
+    "city_name": "台東区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "希望型指名競争",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-05T10:00:00",
+    "opening_date": "2026-08-05T10:00:00",
+    "application_deadline": "2026-07-13T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:107:00374": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:107:00374",
+    "project_name": "すみだ生涯学習センターＡ棟４階内部改修その他工事",
+    "org_name": "墨田区",
+    "pref_name": "東京都",
+    "city_name": "墨田区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-07T09:20:00",
+    "opening_date": "2026-08-07T09:30:00",
+    "application_deadline": "2026-07-07T12:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:107:00371": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:107:00371",
+    "project_name": "すみだ清掃事務所分室温水機取替え工事",
+    "org_name": "墨田区",
+    "pref_name": "東京都",
+    "city_name": "墨田区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "希望型指名競争",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-28T10:20:00",
+    "opening_date": "2026-07-28T10:30:00",
+    "application_deadline": "2026-07-03T12:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:111:00538": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:111:00538",
+    "project_name": "トイレ建替工事その１",
+    "org_name": "大田区",
+    "pref_name": "東京都",
+    "city_name": "大田区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-27T16:00:00",
+    "opening_date": "2026-07-28T09:00:00",
+    "application_deadline": "2026-07-03T16:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:111:00535": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:111:00535",
+    "project_name": "千鳥保育園園庭改修工事",
+    "org_name": "大田区",
+    "pref_name": "東京都",
+    "city_name": "大田区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-17T16:00:00",
+    "opening_date": "2026-07-21T09:00:00",
+    "application_deadline": "2026-07-03T16:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:115:00654": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:115:00654",
+    "project_name": "路面改良工事（Ｒ１０１１、Ｒ１０１２、Ｒ１０１３、Ｒ１０２４）",
+    "org_name": "杉並区",
+    "pref_name": "東京都",
+    "city_name": "杉並区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-28T17:00:00",
+    "opening_date": "2026-07-29T10:20:00",
+    "application_deadline": "2026-07-01T15:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:115:00656": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:115:00656",
+    "project_name": "玉川上水第三公園入口設置工事",
+    "org_name": "杉並区",
+    "pref_name": "東京都",
+    "city_name": "杉並区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-22T17:00:00",
+    "opening_date": "2026-07-23T10:20:00",
+    "application_deadline": "2026-07-01T15:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:115:00657": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:115:00657",
+    "project_name": "照明器具ＬＥＤ化工事",
+    "org_name": "杉並区",
+    "pref_name": "東京都",
+    "city_name": "杉並区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-22T17:00:00",
+    "opening_date": "2026-07-23T10:30:00",
+    "application_deadline": "2026-07-01T15:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:115:00660": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:115:00660",
+    "project_name": "特別区道第９１２号路線ほか舗装修繕工事（Ｒ２０１６、Ｒ２０１２）",
+    "org_name": "杉並区",
+    "pref_name": "東京都",
+    "city_name": "杉並区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-04T17:00:00",
+    "opening_date": "2026-08-05T10:10:00",
+    "application_deadline": "2026-07-01T15:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:115:00667": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:115:00667",
+    "project_name": "特別区道第２１３３－１号路線拡幅整備工事",
+    "org_name": "杉並区",
+    "pref_name": "東京都",
+    "city_name": "杉並区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-04T17:00:00",
+    "opening_date": "2026-08-05T10:00:00",
+    "application_deadline": "2026-07-01T15:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:115:00676": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:115:00676",
+    "project_name": "旧保育室浜田山東解体工事",
+    "org_name": "杉並区",
+    "pref_name": "東京都",
+    "city_name": "杉並区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-22T17:00:00",
+    "opening_date": "2026-07-23T10:00:00",
+    "application_deadline": "2026-07-01T15:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:115:00637": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:115:00637",
+    "project_name": "路面改良工事（Ｒ２０２０，Ｒ２０２１）",
+    "org_name": "杉並区",
+    "pref_name": "東京都",
+    "city_name": "杉並区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-28T17:00:00",
+    "opening_date": "2026-07-29T10:10:00",
+    "application_deadline": "2026-07-01T15:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:115:00625": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:115:00625",
+    "project_name": "泉南中学校【中規模修繕】受変電設備取替工事",
+    "org_name": "杉並区",
+    "pref_name": "東京都",
+    "city_name": "杉並区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-28T17:00:00",
+    "opening_date": "2026-07-29T10:00:00",
+    "application_deadline": "2026-07-01T15:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:115:00691": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:115:00691",
+    "project_name": "（仮称）堀ノ内南第二学童クラブ内装改修その他工事",
+    "org_name": "杉並区",
+    "pref_name": "東京都",
+    "city_name": "杉並区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-28T17:00:00",
+    "opening_date": "2026-07-29T10:40:00",
+    "application_deadline": "2026-07-01T15:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:115:00689": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:115:00689",
+    "project_name": "杉並区立天沼中学校プール等解体工事",
+    "org_name": "杉並区",
+    "pref_name": "東京都",
+    "city_name": "杉並区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-22T17:00:00",
+    "opening_date": "2026-07-23T10:10:00",
+    "application_deadline": "2026-07-01T15:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:115:00681": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:115:00681",
+    "project_name": "泉南中学校【中規模修繕】昇降機設備取替外２施設工事",
+    "org_name": "杉並区",
+    "pref_name": "東京都",
+    "city_name": "杉並区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-04T17:00:00",
+    "opening_date": "2026-08-05T10:20:00",
+    "application_deadline": "2026-07-01T15:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:115:00686": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:115:00686",
+    "project_name": "路面改良工事（Ｒ１００９）",
+    "org_name": "杉並区",
+    "pref_name": "東京都",
+    "city_name": "杉並区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-28T17:00:00",
+    "opening_date": "2026-07-29T10:30:00",
+    "application_deadline": "2026-07-01T15:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:115:00690": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:115:00690",
+    "project_name": "路面改良工事（Ｒ８２００７、Ｒ２０２２、Ｒ２０２３）",
+    "org_name": "杉並区",
+    "pref_name": "東京都",
+    "city_name": "杉並区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-22T17:00:00",
+    "opening_date": "2026-07-23T10:40:00",
+    "application_deadline": "2026-07-01T15:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:120:00652": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:120:00652",
+    "project_name": "かたくり福祉作業所、大泉障害者地域生活支援センターおよび氷川台福祉園の照明設備ＬＥＤ化工事",
+    "org_name": "練馬区",
+    "pref_name": "東京都",
+    "city_name": "練馬区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-29T14:00:00",
+    "opening_date": "2026-07-29T14:00:00",
+    "application_deadline": "2026-07-06T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:120:00648": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:120:00648",
+    "project_name": "練馬区立岩井少年自然の家テニスコート等改修設計委託",
+    "org_name": "練馬区",
+    "pref_name": "東京都",
+    "city_name": "練馬区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-28T14:00:00",
+    "opening_date": "2026-07-28T14:00:00",
+    "application_deadline": "2026-07-06T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:120:00651": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:120:00651",
+    "project_name": "練馬文化センター消火設備(自動火災報知設備)更新工事",
+    "org_name": "練馬区",
+    "pref_name": "東京都",
+    "city_name": "練馬区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-28T14:00:00",
+    "opening_date": "2026-07-28T14:00:00",
+    "application_deadline": "2026-07-06T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:123:00559": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:123:00559",
+    "project_name": "【社会的要請型総合評価一般競争入札】江戸川区立中小岩小学校改築工事",
+    "org_name": "江戸川区",
+    "pref_name": "東京都",
+    "city_name": "江戸川区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-09-11T12:00:00",
+    "opening_date": "2026-09-11T13:00:00",
+    "application_deadline": "2026-07-17T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:229:00304": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:229:00304",
+    "project_name": "東伏見汚水ポンプ場制御盤取替工事",
+    "org_name": "西東京市",
+    "pref_name": "東京都",
+    "city_name": "西東京市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "希望型指名競争",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-30T09:30:00",
+    "opening_date": "2026-07-30T09:35:00",
+    "application_deadline": "2026-07-02T15:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:229:00303": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:229:00303",
+    "project_name": "市道212号線等道路改良工事",
+    "org_name": "西東京市",
+    "pref_name": "東京都",
+    "city_name": "西東京市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "希望型指名競争",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-30T09:25:00",
+    "opening_date": "2026-07-30T09:30:00",
+    "application_deadline": "2026-07-02T15:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:856:00379": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:856:00379",
+    "project_name": "多摩川清掃工場二酸化炭素消火設備更新工事",
+    "org_name": "東京二十三区清掃一部事務組合",
+    "pref_name": "東京都",
+    "city_name": "東京二十三区清掃一部事務組合",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "希望型指名競争",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-27T09:50:00",
+    "opening_date": "2026-07-27T10:00:00",
+    "application_deadline": "2026-07-03T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:856:00380": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:856:00380",
+    "project_name": "足立清掃工場吸収式冷凍機更新工事",
+    "org_name": "東京二十三区清掃一部事務組合",
+    "pref_name": "東京都",
+    "city_name": "東京二十三区清掃一部事務組合",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-27T10:20:00",
+    "opening_date": "2026-07-27T10:30:00",
+    "application_deadline": "2026-07-03T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:856:00378": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:856:00378",
+    "project_name": "有明清掃工場サブステーションITVシステム更新工事",
+    "org_name": "東京二十三区清掃一部事務組合",
+    "pref_name": "東京都",
+    "city_name": "東京二十三区清掃一部事務組合",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-27T09:50:00",
+    "opening_date": "2026-07-27T10:00:00",
+    "application_deadline": "2026-07-03T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:104:00215": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:104:00215",
+    "project_name": "新宿区立戸塚第一小学校インターホン設備改修その他電気設備工事",
+    "org_name": "新宿区",
+    "pref_name": "東京都",
+    "city_name": "新宿区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T08:30:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-14T13:00:00",
+    "opening_date": "2026-07-14T14:30:00",
+    "application_deadline": "2026-07-01T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:104:00214": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:104:00214",
+    "project_name": "旧新宿区立淀橋中学校防火シャッター改修工事",
+    "org_name": "新宿区",
+    "pref_name": "東京都",
+    "city_name": "新宿区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T08:30:00",
+    "procedure_type": "希望型指名競争",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-10T13:00:00",
+    "opening_date": "2026-07-10T14:00:00",
+    "application_deadline": "2026-06-30T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:104:00216": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:104:00216",
+    "project_name": "新宿区箪笥町特別出張所等区民施設防火戸改修工事",
+    "org_name": "新宿区",
+    "pref_name": "東京都",
+    "city_name": "新宿区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T08:30:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-14T13:00:00",
+    "opening_date": "2026-07-14T14:45:00",
+    "application_deadline": "2026-07-01T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:104:00217": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:104:00217",
+    "project_name": "道路改良工事（江戸川橋通り第Ⅱ期）",
+    "org_name": "新宿区",
+    "pref_name": "東京都",
+    "city_name": "新宿区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T08:30:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-20T13:00:00",
+    "opening_date": "2026-08-20T14:00:00",
+    "application_deadline": "2026-07-16T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:121:00886": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:121:00886",
+    "project_name": "街路灯新設改修工事　東その６",
+    "org_name": "足立区",
+    "pref_name": "東京都",
+    "city_name": "足立区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T08:30:00",
+    "procedure_type": "希望型指名競争",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-21T09:00:00",
+    "opening_date": "2026-07-21T09:00:00",
+    "application_deadline": "2026-07-01T12:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:209:00320": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:209:00320",
+    "project_name": "消防器具置場第５分団第４部１小隊新築電気設備工事",
+    "org_name": "町田市",
+    "pref_name": "東京都",
+    "city_name": "町田市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T08:30:00",
+    "procedure_type": "指名競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-15T12:00:00",
+    "opening_date": "2026-07-15T13:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:227:00247": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:227:00247",
+    "project_name": "羽村市生涯学習センターゆとろぎ小ホール舞台照明設備改修工事",
+    "org_name": "羽村市",
+    "pref_name": "東京都",
+    "city_name": "羽村市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T17:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-29T09:50:00",
+    "opening_date": "2026-07-29T10:00:00",
+    "application_deadline": "2026-07-06T12:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:201:00599": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:201:00599",
+    "project_name": "八王子市立第一中学校外１校特別教室空調機設置工事",
+    "org_name": "八王子市",
+    "pref_name": "東京都",
+    "city_name": "八王子市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T16:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-28T16:00:00",
+    "opening_date": "2026-07-29T09:05:00",
+    "application_deadline": "2026-07-06T12:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:201:00598": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:201:00598",
+    "project_name": "八王子市公共下水道施設特別重点調査対策工事(その2)",
+    "org_name": "八王子市",
+    "pref_name": "東京都",
+    "city_name": "八王子市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T16:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-28T16:00:00",
+    "opening_date": "2026-07-29T09:05:00",
+    "application_deadline": "2026-07-06T12:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:201:00597": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:201:00597",
+    "project_name": "中野市民センター体育室空調機設置工事",
+    "org_name": "八王子市",
+    "pref_name": "東京都",
+    "city_name": "八王子市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T16:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-28T16:00:00",
+    "opening_date": "2026-07-29T09:00:00",
+    "application_deadline": "2026-07-06T12:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:201:00596": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:201:00596",
+    "project_name": "八王子市幹線1級38号線道路舗装その3工事",
+    "org_name": "八王子市",
+    "pref_name": "東京都",
+    "city_name": "八王子市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T16:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-28T16:00:00",
+    "opening_date": "2026-07-29T09:00:00",
+    "application_deadline": "2026-07-06T12:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:204:00138": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:204:00138",
+    "project_name": "議場棟会派室等個別空調設備更新工事",
+    "org_name": "三鷹市",
+    "pref_name": "東京都",
+    "city_name": "三鷹市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T14:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-21T09:25:00",
+    "opening_date": "2026-07-21T09:30:00",
+    "application_deadline": "2026-07-08T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:207:00224": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:207:00224",
+    "project_name": "市道昭島48号道路改修工事",
+    "org_name": "昭島市",
+    "pref_name": "東京都",
+    "city_name": "昭島市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T13:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-31T09:45:00",
+    "opening_date": "2026-07-31T10:00:00",
+    "application_deadline": "2026-07-06T12:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:110:00388": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:110:00388",
+    "project_name": "下水道受託工事監督補助委託",
+    "org_name": "目黒区",
+    "pref_name": "東京都",
+    "city_name": "目黒区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T11:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-27T10:00:00",
+    "opening_date": "2026-07-27T10:00:00",
+    "application_deadline": "2026-07-06T10:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:101:00293": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:101:00293",
+    "project_name": "区千代田清掃事務所三崎町中継所照明設備改修工事",
+    "org_name": "千代田区",
+    "pref_name": "東京都",
+    "city_name": "千代田区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T10:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-06T14:00:00",
+    "opening_date": "2026-08-06T14:00:00",
+    "application_deadline": "2026-07-09T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:114:00953": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:114:00953",
+    "project_name": "下水道施設等工事詳細設計委託（委託第08315号）",
+    "org_name": "中野区",
+    "pref_name": "東京都",
+    "city_name": "中野区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T10:00:00",
+    "procedure_type": "希望型指名競争",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-29T09:30:00",
+    "opening_date": "2026-07-29T10:00:00",
+    "application_deadline": "2026-07-08T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:114:00955": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:114:00955",
+    "project_name": "公園フェンス改修工事",
+    "org_name": "中野区",
+    "pref_name": "東京都",
+    "city_name": "中野区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T10:00:00",
+    "procedure_type": "希望型指名競争",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-29T09:30:00",
+    "opening_date": "2026-07-29T10:00:00",
+    "application_deadline": "2026-07-08T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:114:00954": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:114:00954",
+    "project_name": "弥生町三丁目避難道路５・６号電線共同溝予備補足設計、境界測量調査業務委託（委託第08312号）",
+    "org_name": "中野区",
+    "pref_name": "東京都",
+    "city_name": "中野区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T10:00:00",
+    "procedure_type": "希望型指名競争",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-28T09:30:00",
+    "opening_date": "2026-07-28T10:00:00",
+    "application_deadline": "2026-07-07T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:210:00400": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:210:00400",
+    "project_name": "市道第１２号線電線共同溝設置工事",
+    "org_name": "小金井市",
+    "pref_name": "東京都",
+    "city_name": "小金井市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T10:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-27T10:00:00",
+    "opening_date": "2026-07-27T15:00:00",
+    "application_deadline": "2026-07-03T16:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:106:00734": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:106:00734",
+    "project_name": "浅草中学校格技棟地下１階柔・剣道場空調設備取替工事",
+    "org_name": "台東区",
+    "pref_name": "東京都",
+    "city_name": "台東区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T09:00:00",
+    "procedure_type": "希望型指名競争",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-04T10:00:00",
+    "opening_date": "2026-08-04T10:00:00",
+    "application_deadline": "2026-07-13T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:106:00742": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:106:00742",
+    "project_name": "待乳山聖天公園再整備工事",
+    "org_name": "台東区",
+    "pref_name": "東京都",
+    "city_name": "台東区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T09:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-06T14:00:00",
+    "opening_date": "2026-08-06T14:00:00",
+    "application_deadline": "2026-07-13T17:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "jkk_20940": {
+    "source": "jkk",
+    "key": "jkk_20940",
+    "project_name": "都営代田一丁目アパートほか１団地除却工事",
+    "org_name": "東京都住宅供給公社（JKK東京）",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "015"
+    ],
+    "cft_issue_date": "2026-06-29T09:00:00",
+    "procedure_type": "希望制",
+    "doc_uri": "https://www.to-kousya.or.jp/keiyaku/nyusatu/index.html",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "2026-08-05T10:10:00",
+    "application_deadline": "2026-07-03T16:00:00",
+    "fetched_date": "2026-06-29",
+    "notified": [
+      "kataoka"
+    ]
   }
 }
