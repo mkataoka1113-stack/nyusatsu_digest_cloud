@@ -3337,5 +3337,75 @@
     "notified": [
       "kataoka"
     ]
+  },
+  "c2FnYS9oaXplbl9zZWlzaGluX2lyeW9fY2VudGVyLzIwMjYvMjAyNjA2MjlfMDAzMzYK": {
+    "source": "kkj",
+    "key": "c2FnYS9oaXplbl9zZWlzaGluX2lyeW9fY2VudGVyLzIwMjYvMjAyNjA2MjlfMDAzMzYK",
+    "project_name": "入札情報「職員宿舎解体工事」",
+    "org_name": "独立行政法人国立病院機構肥前精神医療センター",
+    "pref_name": "佐賀県",
+    "city_name": "吉野ヶ里町",
+    "pref_code": "41",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://hizen.hosp.go.jp/uploads/2026/06/20260626-140408.pdf",
+    "attachments": [],
+    "location": "佐賀県神埼郡吉野ケ里町三津１６０ 独立行政法人国立病院機構肥前精神医療センター内",
+    "bid_deadline": "",
+    "opening_date": "令和8年8月10日",
+    "application_deadline": "",
+    "fetched_date": "2026-06-30",
+    "notified": []
+  },
+  "Z292L2phZWFfZ28vMjAyNi8yMDI2MDYyOV8wNTAzMwo=": {
+    "source": "kkj",
+    "key": "Z292L2phZWFfZ28vMjAyNi8yMDI2MDYyOV8wNTAzMwo=",
+    "project_name": "【電子入札】【電子契約】解体分別保管棟3階扉更新作業",
+    "org_name": "国立研究開発法人日本原子力研究開発機構本部",
+    "pref_name": "茨城県",
+    "city_name": "東海村",
+    "pref_code": "08",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://keiyaku.jaea.go.jp/compe/02/pdf/0802C01686.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "令和8年6月29日",
+    "opening_date": "令和8年8月25日",
+    "application_deadline": "",
+    "fetched_date": "2026-06-30",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "etokyo_2026:13:101:00296": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:101:00296",
+    "project_name": "旧区立外神田住宅解体工事",
+    "org_name": "千代田区",
+    "pref_name": "東京都",
+    "city_name": "千代田区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-30T10:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-27T10:00:00",
+    "opening_date": "2026-08-27T10:00:00",
+    "application_deadline": "2026-07-15T17:00:00",
+    "fetched_date": "2026-06-30",
+    "notified": [
+      "kataoka"
+    ]
   }
 }
