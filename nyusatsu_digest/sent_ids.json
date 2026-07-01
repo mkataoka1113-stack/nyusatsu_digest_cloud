@@ -3407,5 +3407,171 @@
     "notified": [
       "kataoka"
     ]
+  },
+  "bmlpZ2F0YS9hZ2FfdG93bi8yMDI2LzIwMjYwNjMwXzAwMTM3Cg==": {
+    "source": "kkj",
+    "key": "bmlpZ2F0YS9hZ2FfdG93bi8yMDI2LzIwMjYwNjMwXzAwMTM3Cg==",
+    "project_name": "1(366)津川湊町駐車場整備家屋等解体工事",
+    "org_name": "新潟県阿賀町",
+    "pref_name": "新潟県",
+    "city_name": "阿賀町",
+    "pref_code": "15",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-30T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.town.aga.niigata.jp/material/files/group/3/08-366.xls",
+    "attachments": [
+      {
+        "name": "1(366)設計図書 (PDFファイル: 680.2KB)",
+        "uri": "https://www.town.aga.niigata.jp/material/files/group/3/0800630-366.pdf"
+      }
+    ],
+    "location": ",阿賀町 津川 地内,工事期間,契約日から１００日間,工事概要,木造建物解体撤去 Ｎ＝６棟,外構解体処分工 １．０式,立",
+    "bid_deadline": "令和８年６月３０日",
+    "opening_date": "",
+    "application_deadline": "令和８年６月３０日",
+    "fetched_date": "2026-07-01",
+    "notified": []
+  },
+  "aXNoaWthd2EvbmFrYW5vdG9fdG93bi8yMDI2LzIwMjYwNjMwXzAwMDE2Cg==": {
+    "source": "kkj",
+    "key": "aXNoaWthd2EvbmFrYW5vdG9fdG93bi8yMDI2LzIwMjYwNjMwXzAwMDE2Cg==",
+    "project_name": "公告第24号_令和8年度 中能登町役場旧鹿島庁舎解体工事 (PDFファイル: 188.8KB)",
+    "org_name": "石川県中能登町",
+    "pref_name": "石川県",
+    "city_name": "中能登町",
+    "pref_code": "17",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-30T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.town.nakanoto.ishikawa.jp/material/files/group/3/2026koukoku24.pdf",
+    "attachments": [],
+    "location": "中能登町 井田 地内3 工期 令和9年3月31日まで4 工事種目 解体工事5 工事概要 庁舎棟 A=3307.13㎡ S",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "令和8年7月23日",
+    "fetched_date": "2026-07-01",
+    "notified": []
+  },
+  "aG9ra2FpZG8vcG9saWNlX2hva2thaWRvX3Npc2V0dS8yMDI2LzIwMjYwNjMwXzAxMDg4Cg==": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8vcG9saWNlX2hva2thaWRvX3Npc2V0dS8yMDI2LzIwMjYwNjMwXzAxMDg4Cg==",
+    "project_name": "「手稲警察署稲積交番解体工事」の入札告示",
+    "org_name": "国家公安委員会（警察庁）北海道警察本部総務部施設課",
+    "pref_name": "北海道",
+    "city_name": "札幌市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-30T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.police.pref.hokkaido.lg.jp/info/soumu/sisetu/date/2026-07/2026-0730-teine-inadumi-kaitai-351/01.pdf",
+    "attachments": [],
+    "location": "札幌市⑶ 工事期間 契約締結日の翌日から60日間⑷ 工事概要 別途閲覧に供する仕様書、図面による",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-07-01",
+    "notified": []
+  },
+  "aG9ra2FpZG8vcG9saWNlX2hva2thaWRvX3Npc2V0dS8yMDI2LzIwMjYwNjMwXzAxMDgzCg==": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8vcG9saWNlX2hva2thaWRvX3Npc2V0dS8yMDI2LzIwMjYwNjMwXzAxMDgzCg==",
+    "project_name": "「白石警察署菊水元町交番ほか解体工事」の入札告示",
+    "org_name": "国家公安委員会（警察庁）北海道警察本部総務部施設課",
+    "pref_name": "北海道",
+    "city_name": "札幌市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-30T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.police.pref.hokkaido.lg.jp/info/soumu/sisetu/date/2026-07/2026-0730-siroisi-kikumoto-346/01.pdf",
+    "attachments": [],
+    "location": "札幌市⑶ 工事期間 契約締結日の翌日から70日間⑷ 工事概要 別途閲覧に供する仕様書、図面による",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-07-01",
+    "notified": []
+  },
+  "aG9ra2FpZG8vcG9saWNlX2hva2thaWRvX3Npc2V0dS8yMDI2LzIwMjYwNjMwXzAxMDgyCg==": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8vcG9saWNlX2hva2thaWRvX3Npc2V0dS8yMDI2LzIwMjYwNjMwXzAxMDgyCg==",
+    "project_name": "「岩見沢警察署Ｋ３公宅ほか解体工事実施設計」の入札告示",
+    "org_name": "国家公安委員会（警察庁）北海道警察本部総務部施設課",
+    "pref_name": "北海道",
+    "city_name": "札幌市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-30T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.police.pref.hokkaido.lg.jp/info/soumu/sisetu/date/2026-07/2026-0723-iwamizawa-k3-345/01.pdf",
+    "attachments": [],
+    "location": "美唄市、歌志内市２ 入札に参加する者に必要な資格次のいずれにも該当すること",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-07-01",
+    "notified": []
+  },
+  "bmFyYS9rYW5tYWtpX3Rvd24vMjAyNi8yMDI2MDYyOV8wMDA4OAo=": {
+    "source": "kkj",
+    "key": "bmFyYS9rYW5tYWtpX3Rvd24vMjAyNi8yMDI2MDYyOV8wMDA4OAo=",
+    "project_name": "一般競争入札(総合評価方式)(08-総06号)(上牧中学校旧校舎解体及び外構整備工事)",
+    "org_name": "奈良県上牧町",
+    "pref_name": "奈良県",
+    "city_name": "上牧町",
+    "pref_code": "29",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-29T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.town.kanmaki.nara.jp/material/files/group/4/R8-sou6-1.pdf",
+    "attachments": [
+      {
+        "name": "2.入札説明書【上牧中学校旧校舎解体及び外構整備工事】 (PDFファイル: 300.5KB)",
+        "uri": "https://www.town.kanmaki.nara.jp/material/files/group/4/R8-sou6-2.pdf"
+      }
+    ],
+    "location": "：上牧町立上牧中学校",
+    "bid_deadline": "",
+    "opening_date": "令和８年８月２４日",
+    "application_deadline": "",
+    "fetched_date": "2026-07-01",
+    "notified": []
+  },
+  "dG9reW8vaGlub19jaXR5LzIwMjYvMjAyNjA2MjZfMDA1MTAK": {
+    "source": "kkj",
+    "key": "dG9reW8vaGlub19jaXR5LzIwMjYvMjAyNjA2MjZfMDA1MTAK",
+    "project_name": "じゅんとく学童クラブ解体工事",
+    "org_name": "東京都日野市",
+    "pref_name": "東京都",
+    "city_name": "日野市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-06-26T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/006/709/2026-150.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "令和8年7月3日",
+    "opening_date": "令和8年7月22日",
+    "application_deadline": "",
+    "fetched_date": "2026-07-01",
+    "notified": [
+      "kataoka"
+    ]
   }
 }
