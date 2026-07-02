@@ -3573,5 +3573,49 @@
     "notified": [
       "kataoka"
     ]
+  },
+  "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA3MDFfMDA3NjUK": {
+    "source": "kkj",
+    "key": "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA3MDFfMDA3NjUK",
+    "project_name": "重要文化財旧角海家住宅格納解体実施設計業務[ZIP：7.7MB]",
+    "org_name": "石川県輪島市",
+    "pref_name": "石川県",
+    "city_name": "輪島市",
+    "pref_code": "17",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-01T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.wajima.ishikawa.jp/docs/2014032000011/file_contents/080723_01.zip",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-07-02",
+    "notified": []
+  },
+  "YWtpdGEva2F6dW5vX2NpdHkvMjAyNi8yMDI2MDcwMV8wMDc5NQo=": {
+    "source": "kkj",
+    "key": "YWtpdGEva2F6dW5vX2NpdHkvMjAyNi8yMDI2MDcwMV8wMDc5NQo=",
+    "project_name": "消防器具置場・乾燥塔解体工事",
+    "org_name": "秋田県鹿角市",
+    "pref_name": "秋田県",
+    "city_name": "鹿角市",
+    "pref_code": "05",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-01T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kazuno.lg.jp/material/files/group/6/R8koukoku130.pdf",
+    "attachments": [],
+    "location": "：鹿角市十和田大湯字倉沢地内ほか２．入札方法本工事の入札の手続きは電子入札システムにより行う",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-07-02",
+    "notified": []
   }
 }
