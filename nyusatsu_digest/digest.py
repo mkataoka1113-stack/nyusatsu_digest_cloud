@@ -8,6 +8,7 @@ GitHub Pages 用ダッシュボード HTML も生成する。
 実行:
   python nyusatsu_digest/digest.py
 """
+import html as html_mod
 import json
 import os
 import smtplib
@@ -29,6 +30,7 @@ DOCS_DIR      = os.path.join(os.path.dirname(BASE_DIR), "docs")
 
 SENT_ID_RETENTION_DAYS = 30
 LOOKBACK_DAYS          = 8
+JST = timezone(timedelta(hours=9))  # GitHub ActionsランナーはUTCのため日付表示はJST固定
 
 
 # ---------------------------------------------------------------------------
@@ -40,6 +42,7 @@ def load_config() -> dict:
         return {
             "gmail": {
                 "from": os.environ["GMAIL_FROM"],
+                "to": os.environ["GMAIL_TO"],
                 "app_password": os.environ["GMAIL_APP_PASSWORD"],
             }
         }
@@ -163,7 +166,14 @@ def fmt_jp_date(val: str) -> str:
         return val
 
 
-SOURCE_LABEL = {"kkj": "官公需ポータル", "etokyo": "東京都電子調達", "ippi": "入札情報サービス（防衛省）"}
+SOURCE_LABEL = {
+    "kkj":        "官公需ポータル",
+    "etokyo":     "東京都電子調達",
+    "tokyometro": "東京都電子調達（都庁）",
+    "jkk":        "JKK東京",
+    "chiba":      "ちば電子調達",
+    "ippi":       "入札情報サービス（防衛省）",
+}
 
 
 # ---------------------------------------------------------------------------
@@ -171,17 +181,18 @@ SOURCE_LABEL = {"kkj": "官公需ポータル", "etokyo": "東京都電子調達
 # ---------------------------------------------------------------------------
 
 def build_card_email(item: dict) -> str:
+    esc      = html_mod.escape
     font     = "'Yu Gothic','Yu Gothic UI',sans-serif"
-    org      = item.get("org_name") or "—"
-    area     = "".join(filter(None, [item.get("pref_name"), item.get("city_name")])) or "—"
+    org      = esc(item.get("org_name") or "—")
+    area     = esc("".join(filter(None, [item.get("pref_name"), item.get("city_name")])) or "—")
     date     = fmt_date(item.get("cft_issue_date", ""))
-    procedure= item.get("procedure_type") or "—"
-    location = item.get("location") or "—"
+    procedure= esc(item.get("procedure_type") or "—")
+    location = esc(item.get("location") or "—")
     bid_dl   = fmt_jp_date(item.get("bid_deadline", ""))
     opening  = fmt_jp_date(item.get("opening_date", ""))
     app_dl   = fmt_jp_date(item.get("application_deadline", ""))
-    uri      = item.get("doc_uri") or ""
-    source   = SOURCE_LABEL.get(item.get("source", ""), item.get("source", ""))
+    uri      = esc(item.get("doc_uri") or "")
+    source   = esc(SOURCE_LABEL.get(item.get("source", ""), item.get("source", "")))
 
     link_html = (
         f'<p style="margin:8px 0 0;font-family:{font};">'
@@ -189,7 +200,7 @@ def build_card_email(item: dict) -> str:
         if uri else ""
     )
     att_links = " / ".join(
-        f'<a href="{a["uri"]}" style="color:#2980b9;">{a["name"] or "添付ファイル"}</a>'
+        f'<a href="{esc(a["uri"])}" style="color:#2980b9;">{esc(a["name"] or "添付ファイル")}</a>'
         for a in (item.get("attachments") or []) if a.get("uri")
     )
     att_html = (
@@ -218,7 +229,7 @@ def build_card_email(item: dict) -> str:
 <div style="border:1px solid #ddd;border-radius:6px;padding:16px;
             margin-bottom:16px;background:#fff;">
   <h3 style="margin:0 0 10px;font-size:15px;color:#1a1a1a;font-family:{font};">
-    {item.get("project_name", "（案件名不明）")}
+    {esc(item.get("project_name", "（案件名不明）"))}
   </h3>
   <table style="font-size:13px;border-collapse:collapse;width:100%;
                 table-layout:fixed;">{rows_html}</table>
@@ -228,7 +239,7 @@ def build_card_email(item: dict) -> str:
 
 
 def build_email_html(client: dict, items: list[dict]) -> str:
-    today = datetime.now().strftime("%Y年%m月%d日")
+    today = datetime.now(JST).strftime("%Y年%m月%d日")
     count = len(items)
     name  = client.get("name", "")
     cards = "".join(build_card_email(item) for item in items)
@@ -259,7 +270,7 @@ def build_email_html(client: dict, items: list[dict]) -> str:
 
 def send_email(html: str, client: dict, cfg: dict, subject: str | None = None) -> None:
     gmail   = cfg["gmail"]
-    today   = datetime.now().strftime("%Y/%m/%d")
+    today   = datetime.now(JST).strftime("%Y/%m/%d")
     name    = client.get("name", "")
     msg     = MIMEMultipart("alternative")
     msg["Subject"] = subject or f"【入札新着】{today} {name} 向けレポート"
@@ -276,11 +287,11 @@ def send_email(html: str, client: dict, cfg: dict, subject: str | None = None) -
 
 
 def build_error_email_html(errors: list[tuple[str, str]]) -> str:
-    today = datetime.now().strftime("%Y年%m月%d日")
+    today = datetime.now(JST).strftime("%Y年%m月%d日")
     rows = "".join(
         f'<tr><td style="padding:6px 10px;border-bottom:1px solid #eee;'
-        f'font-weight:bold;white-space:nowrap;">{name}</td>'
-        f'<td style="padding:6px 10px;border-bottom:1px solid #eee;color:#c0392b;">{msg}</td></tr>'
+        f'font-weight:bold;white-space:nowrap;">{html_mod.escape(name)}</td>'
+        f'<td style="padding:6px 10px;border-bottom:1px solid #eee;color:#c0392b;">{html_mod.escape(msg)}</td></tr>'
         for name, msg in errors
     )
     return f"""<!DOCTYPE html>
@@ -315,34 +326,36 @@ def build_error_email_html(errors: list[tuple[str, str]]) -> str:
 # ---------------------------------------------------------------------------
 
 def build_dashboard(all_items: list[dict]) -> str:
-    today = datetime.now().strftime("%Y年%m月%d日")
+    today = datetime.now(JST).strftime("%Y年%m月%d日")
     count = len(all_items)
 
     def badge(source: str) -> str:
-        colors = {"kkj": "#2980b9", "etokyo": "#27ae60", "ippi": "#8e44ad"}
+        colors = {"kkj": "#2980b9", "etokyo": "#27ae60", "tokyometro": "#16a085",
+                  "jkk": "#d35400", "chiba": "#c2a11a", "ippi": "#8e44ad"}
         label  = SOURCE_LABEL.get(source, source)
         color  = colors.get(source, "#888")
         return (f'<span style="background:{color};color:#fff;font-size:11px;'
                 f'padding:2px 6px;border-radius:3px;margin-right:6px;">{label}</span>')
 
     def card_html(item: dict) -> str:
-        org       = item.get("org_name") or "—"
-        area      = "".join(filter(None, [item.get("pref_name"), item.get("city_name")])) or "—"
+        esc       = html_mod.escape
+        org       = esc(item.get("org_name") or "—")
+        area      = esc("".join(filter(None, [item.get("pref_name"), item.get("city_name")])) or "—")
         date      = fmt_date(item.get("cft_issue_date", ""))
-        procedure = item.get("procedure_type") or "—"
-        location  = item.get("location") or "—"
+        procedure = esc(item.get("procedure_type") or "—")
+        location  = esc(item.get("location") or "—")
         bid_dl    = fmt_jp_date(item.get("bid_deadline", ""))
         opening   = fmt_jp_date(item.get("opening_date", ""))
         app_dl    = fmt_jp_date(item.get("application_deadline", ""))
-        uri       = item.get("doc_uri") or ""
+        uri       = esc(item.get("doc_uri") or "")
         src       = item.get("source", "")
         link      = f'<a href="{uri}" target="_blank" class="ext-link">公告元 →</a>' if uri else ""
         att_links = " / ".join(
-            f'<a href="{a["uri"]}" target="_blank" class="ext-link">{a["name"] or "添付"}</a>'
+            f'<a href="{esc(a["uri"])}" target="_blank" class="ext-link">{esc(a["name"] or "添付")}</a>'
             for a in (item.get("attachments") or []) if a.get("uri")
         )
         att_html  = f'<p class="att">添付: {att_links}</p>' if att_links else ""
-        name      = item.get("project_name", "（案件名不明）")
+        name      = esc(item.get("project_name", "（案件名不明）"), quote=True)
         gyoshu    = ",".join(item.get("gyoshu_codes", []))
 
         return f"""
@@ -533,7 +546,7 @@ def main() -> None:
         admin = next((c for c in clients if c.get("id") == "kataoka"), None)
         if admin:
             try:
-                today = datetime.now().strftime("%Y/%m/%d")
+                today = datetime.now(JST).strftime("%Y/%m/%d")
                 html  = build_error_email_html(scraper_errors)
                 send_email(html, admin, cfg, subject=f"【入札ダイジェスト】取得エラー通知 {today}")
                 print(f"\nエラー通知メール送信完了（{len(scraper_errors)} 件）")
