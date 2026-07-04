@@ -3762,5 +3762,193 @@
     "notified": [
       "kataoka"
     ]
+  },
+  "c2VhcmNoL2tlaXlha3VfaGlyb3NoaW1hX2NpdHkvMjAyNi8yMDI2MDcwM18wNDA0MQo=": {
+    "source": "kkj",
+    "key": "c2VhcmNoL2tlaXlha3VfaGlyb3NoaW1hX2NpdHkvMjAyNi8yMDI2MDcwM18wNDA0MQo=",
+    "project_name": "三滝少年自然の家・グリーンスポーツセンター解体工事実施設計業務",
+    "org_name": "広島県広島市",
+    "pref_name": "広島県",
+    "city_name": "広島市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-03T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://ppi.keiyaku.city.hiroshima.lg.jp/PPI_P/DownLoad/202620018300101.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "令和８年７月９日",
+    "application_deadline": "",
+    "fetched_date": "2026-07-04",
+    "notified": []
+  },
+  "Z292NS9ub2tlbl9raWtvLzIwMjYvMjAyNjA3MDNfMDc2MzMK": {
+    "source": "kkj",
+    "key": "Z292NS9ub2tlbl9raWtvLzIwMjYvMjAyNjA3MDNfMDc2MzMK",
+    "project_name": "種苗管理センター八岳農場土壌処理・建築物解体工事設計業務",
+    "org_name": "国立研究開発法人農業・食品産業技術総合研究機構",
+    "pref_name": "",
+    "city_name": "",
+    "pref_code": "",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-03T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.naro.go.jp/supply/files/08k011.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "令和8年7月31日",
+    "opening_date": "令和8年8月20日",
+    "application_deadline": "令和8年7月31日",
+    "fetched_date": "2026-07-04",
+    "notified": []
+  },
+  "Z292L2phZWFfZ28vMjAyNi8yMDI2MDcwM18wNTA3NAo=": {
+    "source": "kkj",
+    "key": "Z292L2phZWFfZ28vMjAyNi8yMDI2MDcwM18wNTA3NAo=",
+    "project_name": "【電子入札】【電子契約】解体分別保管棟電気室パッケージエアコン更新作業",
+    "org_name": "国立研究開発法人日本原子力研究開発機構本部",
+    "pref_name": "茨城県",
+    "city_name": "東海村",
+    "pref_code": "08",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-03T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://keiyaku.jaea.go.jp/compe/02/pdf/0802C02243.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "令和8年8月25日",
+    "opening_date": "令和9年3月12日",
+    "application_deadline": "",
+    "fetched_date": "2026-07-04",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "chiba_40165c44b849821e": {
+    "source": "chiba",
+    "key": "chiba_40165c44b849821e",
+    "project_name": "銚子市三宅町青年館解体工事",
+    "org_name": "銚子市  市長部局  財政課管財室",
+    "pref_name": "千葉県",
+    "city_name": "銚子市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-06-29",
+    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "銚子市三宅町２丁目７８２番地",
+    "bid_deadline": "2026-07-13T16:00:00",
+    "opening_date": "2026-07-14T10:40:00",
+    "application_deadline": "",
+    "fetched_date": "2026-07-04",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "chiba_15f50d614dd767c7": {
+    "source": "chiba",
+    "key": "chiba_15f50d614dd767c7",
+    "project_name": "旧茂原市社会教育センター解体工事",
+    "org_name": "茂原市  総務部  管財課",
+    "pref_name": "千葉県",
+    "city_name": "茂原市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-01",
+    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "茂原市千代田町２丁目８番地２０",
+    "bid_deadline": "2026-07-21T15:00:00",
+    "opening_date": "2026-07-22T10:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-07-04",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "chiba_75beb37f633b051b": {
+    "source": "chiba",
+    "key": "chiba_75beb37f633b051b",
+    "project_name": "市有建築物解体工事",
+    "org_name": "大網白里市  市長部局  財政課",
+    "pref_name": "千葉県",
+    "city_name": "",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-03",
+    "procedure_type": "事後審査）千葉県 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "経田３８番１外地内",
+    "bid_deadline": "2026-07-22T17:00:00",
+    "opening_date": "2026-07-23T10:25:00",
+    "application_deadline": "2026-07-13T17:00:00",
+    "fetched_date": "2026-07-04",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "chiba_05f11af0aa0fae73": {
+    "source": "chiba",
+    "key": "chiba_05f11af0aa0fae73",
+    "project_name": "小中池公園木橋解体撤去工事",
+    "org_name": "大網白里市  市長部局  財政課",
+    "pref_name": "千葉県",
+    "city_name": "",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-03",
+    "procedure_type": "事後審査）千葉県 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "小中地内",
+    "bid_deadline": "2026-07-22T17:00:00",
+    "opening_date": "2026-07-23T10:50:00",
+    "application_deadline": "2026-07-13T17:00:00",
+    "fetched_date": "2026-07-04",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "chiba_b13510f4147cb585": {
+    "source": "chiba",
+    "key": "chiba_b13510f4147cb585",
+    "project_name": "豊原住宅解体工事",
+    "org_name": "長南町  町長部局  総務課管財係",
+    "pref_name": "千葉県",
+    "city_name": "長生郡長南町",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-01",
+    "procedure_type": "指名競争 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "長生郡長南町豊原地先",
+    "bid_deadline": "2026-07-20T17:00:00",
+    "opening_date": "2026-07-21T10:15:00",
+    "application_deadline": "",
+    "fetched_date": "2026-07-04",
+    "notified": [
+      "kataoka"
+    ]
   }
 }
