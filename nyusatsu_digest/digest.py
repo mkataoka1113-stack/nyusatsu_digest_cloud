@@ -168,9 +168,9 @@ def fmt_jp_date(val: str) -> str:
 
 SOURCE_LABEL = {
     "kkj":        "官公需ポータル",
-    "etokyo":     "東京都電子調達",
-    "tokyometro": "東京都電子調達（都庁）",
-    "jkk":        "JKK東京",
+    "etokyo":     "e-tokyo",
+    "tokyometro": "東京電子調達",
+    "jkk":        "JKK",
     "chiba":      "千葉電子調達",
     "ippi":       "入札情報サービス（防衛省）",
 }
