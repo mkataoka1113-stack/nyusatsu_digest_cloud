@@ -262,7 +262,8 @@ def build_email_html(client: dict, items: list[dict]) -> str:
   <div style="background:#ecf0f1;padding:12px;border-radius:0 0 8px 8px;
               font-size:11px;color:#888;text-align:center;">
     行政書士事務所ONE 自動配信 ／
-    情報提供: 官公需情報ポータルサイト（中小企業庁）・東京都電子調達サービス
+    情報提供: 官公需情報ポータルサイト（中小企業庁）・東京都電子調達サービス（e-tokyo）・
+    東京都電子調達システム（都庁）・JKK東京・ちば電子調達システム・入札情報サービス（防衛省）
   </div>
 </body>
 </html>"""
@@ -417,8 +418,9 @@ def build_dashboard(all_items: list[dict]) -> str:
 <body>
 <header>
   <h1>入札公告ダッシュボード</h1>
-  <p>更新日: {today} ／ 直近{SENT_ID_RETENTION_DAYS}日 {count} 件
-     ／ 情報提供: 官公需情報ポータルサイト（中小企業庁）・東京都電子調達サービス</p>
+  <p>更新日: {today} ／ 直近{SENT_ID_RETENTION_DAYS}日 {count} 件<br>
+     情報提供: 官公需情報ポータルサイト（中小企業庁）・東京都電子調達サービス（e-tokyo）・
+     東京都電子調達システム（都庁）・JKK東京・ちば電子調達システム・入札情報サービス（防衛省）</p>
 </header>
 
 <div class="search-bar">
