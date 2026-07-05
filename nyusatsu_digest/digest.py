@@ -171,7 +171,7 @@ SOURCE_LABEL = {
     "etokyo":     "東京都電子調達",
     "tokyometro": "東京都電子調達（都庁）",
     "jkk":        "JKK東京",
-    "chiba":      "ちば電子調達",
+    "chiba":      "千葉電子調達",
     "ippi":       "入札情報サービス（防衛省）",
 }
 
@@ -330,11 +330,16 @@ def build_dashboard(all_items: list[dict]) -> str:
     count = len(all_items)
 
     def badge(source: str) -> str:
-        colors = {"kkj": "#2980b9", "etokyo": "#27ae60", "tokyometro": "#16a085",
-                  "jkk": "#d35400", "chiba": "#c2a11a", "ippi": "#8e44ad"}
-        label  = SOURCE_LABEL.get(source, source)
-        color  = colors.get(source, "#888")
-        return (f'<span style="background:{color};color:#fff;font-size:11px;'
+        # (背景色, 文字色)。黄色系のみ白文字だと読めないため文字色を濃くする
+        colors = {"kkj":        ("#34495e", "#fff"),
+                  "etokyo":     ("#2980b9", "#fff"),
+                  "tokyometro": ("#27ae60", "#fff"),
+                  "jkk":        ("#f1c40f", "#5b4a00"),
+                  "chiba":      ("#e67e22", "#fff"),
+                  "ippi":       ("#8e44ad", "#fff")}
+        label = SOURCE_LABEL.get(source, source)
+        bg, fg = colors.get(source, ("#888", "#fff"))
+        return (f'<span style="background:{bg};color:{fg};font-size:11px;'
                 f'padding:2px 6px;border-radius:3px;margin-right:6px;">{label}</span>')
 
     def card_html(item: dict) -> str:
