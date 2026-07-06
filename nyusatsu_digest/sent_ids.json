@@ -3978,5 +3978,53 @@
     "notified": [
       "kataoka"
     ]
+  },
+  "chiba_62f2cbd147144d82": {
+    "source": "chiba",
+    "key": "chiba_62f2cbd147144d82",
+    "project_name": "西千葉駅稲荷町線（矢作トンネル）環境観測所解体業務委託（８－１）",
+    "org_name": "千葉市  建設局  建設総務課",
+    "pref_name": "千葉県",
+    "city_name": "千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-06",
+    "procedure_type": "一般競争 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "千葉市中央区矢作町地内",
+    "bid_deadline": "2026-07-22T12:00:00",
+    "opening_date": "2026-07-22T14:00:00",
+    "application_deadline": "2026-07-10T17:00:00",
+    "fetched_date": "2026-07-06",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "chiba_e332db84649d13f2": {
+    "source": "chiba",
+    "key": "chiba_e332db84649d13f2",
+    "project_name": "Ｎｏ．１７５防火水槽撤去工事",
+    "org_name": "銚子市  市長部局  財政課管財室",
+    "pref_name": "千葉県",
+    "city_name": "銚子市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-06",
+    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "銚子市諸持町９７０番地",
+    "bid_deadline": "2026-07-21T16:00:00",
+    "opening_date": "2026-07-22T10:40:00",
+    "application_deadline": "",
+    "fetched_date": "2026-07-06",
+    "notified": [
+      "kataoka"
+    ]
   }
 }
