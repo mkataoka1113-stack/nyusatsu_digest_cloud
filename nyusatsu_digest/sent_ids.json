@@ -4410,5 +4410,101 @@
     "application_deadline": "令和8年7月21日",
     "fetched_date": "2026-07-10",
     "notified": []
+  },
+  "chiba_4527be8e2b226363": {
+    "source": "chiba",
+    "key": "chiba_4527be8e2b226363",
+    "project_name": "千葉県立千葉女子高等学校長寿命化対策作法室外解体工事",
+    "org_name": "千葉県  教育庁企画管理部  教育施設課",
+    "pref_name": "千葉県",
+    "city_name": "千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-07",
+    "procedure_type": "事後審査）千葉県 ・ 総合評価（拡充版） ・ 事後審査２型 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "千葉市稲毛区小仲台",
+    "bid_deadline": "2026-08-05T17:00:00",
+    "opening_date": "2026-08-07T10:00:00",
+    "application_deadline": "2026-07-31T17:00:00",
+    "fetched_date": "2026-07-10",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "chiba_c5eef03e377eccb9": {
+    "source": "chiba",
+    "key": "chiba_c5eef03e377eccb9",
+    "project_name": "千葉県立大網高等学校中正農場豚舎外８棟解体工事",
+    "org_name": "千葉県  教育庁企画管理部  教育施設課",
+    "pref_name": "千葉県",
+    "city_name": "千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-10",
+    "procedure_type": "事後審査）千葉県 ・ 総合評価（拡充版） ・ 事後審査２型 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "千葉市緑区上大和田町",
+    "bid_deadline": "2026-08-18T17:00:00",
+    "opening_date": "2026-08-20T14:00:00",
+    "application_deadline": "2026-08-05T17:00:00",
+    "fetched_date": "2026-07-10",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "chiba_1d131310dfeae9b6": {
+    "source": "chiba",
+    "key": "chiba_1d131310dfeae9b6",
+    "project_name": "南房総市朝夷行政センター外倉庫解体撤去工事",
+    "org_name": "南房総市  総務部  財政課",
+    "pref_name": "千葉県",
+    "city_name": "南房総市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-08",
+    "procedure_type": "一般競争 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "南房総市千倉町瀬戸２２８０番地３",
+    "bid_deadline": "2026-07-23T17:00:00",
+    "opening_date": "2026-07-24T09:20:00",
+    "application_deadline": "2026-07-15T17:00:00",
+    "fetched_date": "2026-07-10",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "chiba_2aecce242ae8ad1d": {
+    "source": "chiba",
+    "key": "chiba_2aecce242ae8ad1d",
+    "project_name": "いすみ市王子久保住宅（１３号～１７号室）解体工事",
+    "org_name": "いすみ市  財政課  契約管理班",
+    "pref_name": "千葉県",
+    "city_name": "いすみ市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-09",
+    "procedure_type": "指名競争 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "いすみ市大原５９３４番地",
+    "bid_deadline": "2026-07-23T15:00:00",
+    "opening_date": "2026-07-24T09:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-07-10",
+    "notified": [
+      "kataoka"
+    ]
   }
 }
