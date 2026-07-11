@@ -165,87 +165,6 @@
     ],
     "source": "kkj"
   },
-  "dG9rdXNoaW1hL2tvbWF0c3VzaGltYV9jaXR5LzIwMjYvMjAyNjA2MTFfMDA2MzgK": {
-    "cft_issue_date": "2026-06-11T00:00:00+09:00",
-    "project_name": "R8 旧消防団第14分団詰所解体工事設計業務（工事番号13）",
-    "org_name": "徳島県小松島市",
-    "pref_name": "徳島県",
-    "city_name": "小松島市",
-    "category": "工事",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.komatsushima.lg.jp/fs/6/3/2/3/6/4/_/13_%E5%85%A5%E6%9C%AD%E6%83%85%E5%A0%B1.pdf",
-    "location": "及び設計概要 工事の概要は次表による",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "attachments": [
-      {
-        "name": "設計図書等 (PDF 453KB)",
-        "uri": "https://www.city.komatsushima.lg.jp/fs/6/3/2/1/9/0/_/13_%E8%A8%AD%E8%A8%88%E5%9B%B3%E6%9B%B8%E7%AD%89.pdf"
-      }
-    ],
-    "notified": [
-      "kataoka"
-    ],
-    "source": "kkj"
-  },
-  "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDYvMjAyNjA2MTFfNzM1MTkK": {
-    "cft_issue_date": "2026-06-11T00:00:00+09:00",
-    "project_name": "【東京航空局】山田ARSR局舎鉄塔解体工事",
-    "org_name": "国土交通省",
-    "pref_name": "東京都",
-    "city_name": "",
-    "category": "工事",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "attachments": [],
-    "notified": [
-      "kataoka"
-    ],
-    "source": "kkj"
-  },
-  "b2theWFtYS9va2F5YW1hX2NpdHkvMjAyNi8yMDI2MDYxMV8xMjU2OAo=": {
-    "cft_issue_date": "2026-06-11T00:00:00+09:00",
-    "project_name": "岡山市立建部中学校給食センター解体工事",
-    "org_name": "岡山県岡山市",
-    "pref_name": "岡山県",
-    "city_name": "岡山市",
-    "category": "工事",
-    "procedure_type": "",
-    "doc_uri": "https://keiyaku.city.okayama.jp/webftp/exe/2026012353.pdf",
-    "location": "4 工種5 工期6 許容価格7 最低制限価格設定案件等10 契約不適合責任期間12 建設リサイクル法対象工事3 設計図書",
-    "bid_deadline": "",
-    "opening_date": "令和8年6月30日",
-    "application_deadline": "",
-    "attachments": [],
-    "notified": [
-      "kataoka"
-    ],
-    "source": "kkj"
-  },
-  "Z292L2phZWFfZ28vMjAyNi8yMDI2MDYxMV8wNDg1Ngo=": {
-    "cft_issue_date": "2026-06-11T00:00:00+09:00",
-    "project_name": "【電子入札】【電子契約】グローブボックス解体撤去業務",
-    "org_name": "国立研究開発法人日本原子力研究開発機構本部",
-    "pref_name": "茨城県",
-    "city_name": "東海村",
-    "category": "",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://keiyaku.jaea.go.jp/compe/02/pdf/0802C01832.pdf",
-    "location": "",
-    "bid_deadline": "令和8年7月22日",
-    "opening_date": "令和8年10月30日",
-    "application_deadline": "",
-    "attachments": [],
-    "notified": [
-      "kataoka"
-    ],
-    "source": "kkj"
-  },
   "etokyo_2026:13:118:00301": {
     "source": "etokyo",
     "key": "etokyo_2026:13:118:00301",
@@ -4506,5 +4425,137 @@
     "notified": [
       "kataoka"
     ]
+  },
+  "bmFyYS9rYXRzdXJhZ2lfY2l0eS8yMDI2LzIwMjYwNzEwXzAwNDA0Cg==": {
+    "source": "kkj",
+    "key": "bmFyYS9rYXRzdXJhZ2lfY2l0eS8yMDI2LzIwMjYwNzEwXzAwNDA0Cg==",
+    "project_name": "第8-402号 市営住宅堂の久保団地空家解体工事(PDFファイル:219.9KB)",
+    "org_name": "奈良県葛城市",
+    "pref_name": "奈良県",
+    "city_name": "葛城市",
+    "pref_code": "29",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-10T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.katsuragi.nara.jp/material/files/group/6/4-4-3-2026-1.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "令和8年7月25日",
+    "opening_date": "令和8年8月4日",
+    "application_deadline": "",
+    "fetched_date": "2026-07-11",
+    "notified": []
+  },
+  "bWl5YWdpL3NoaWJhdGFfdG93bi8yMDI2LzIwMjYwNzEwXzAwMDQzCg==": {
+    "source": "kkj",
+    "key": "bWl5YWdpL3NoaWJhdGFfdG93bi8yMDI2LzIwMjYwNzEwXzAwMDQzCg==",
+    "project_name": "公告_第R8-一般11号_令和8年度 旧槻木事務所解体工事.pdf [ 131 KB pdfファイル]",
+    "org_name": "宮城県柴田町",
+    "pref_name": "宮城県",
+    "city_name": "柴田町",
+    "pref_code": "04",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-10T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.town.shibata.miyagi.jp/index.cfm/88,35632,c,html/35632/20260710-091208.pdf",
+    "attachments": [
+      {
+        "name": "電子データの交付申請_第R8-一般11号_令和8年度 旧槻木事務所解体工事.doc [ 11 KB docファイル]",
+        "uri": "https://www.town.shibata.miyagi.jp/index.cfm/88,35632,c,html/35632/20260710-091441.doc"
+      },
+      {
+        "name": "第R8-一般11号_令和8年度 旧槻木事務所解体工事.zip [ 5270 KB zipファイル]",
+        "uri": "https://www.town.shibata.miyagi.jp/index.cfm/88,35632,c,html/35632/20260710-091525.zip"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-07-11",
+    "notified": []
+  },
+  "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA3MTBfMDA3ODgK": {
+    "source": "kkj",
+    "key": "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA3MTBfMDA3ODgK",
+    "project_name": "久手川住宅３号棟解体工事[ZIP：37.9MB]",
+    "org_name": "石川県輪島市",
+    "pref_name": "石川県",
+    "city_name": "輪島市",
+    "pref_code": "17",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-10T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.wajima.ishikawa.jp/docs/2014032000011/file_contents/080730_08.zip",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-07-11",
+    "notified": []
+  },
+  "aG9ra2FpZG8vZnVrYWdhd2FzaGkvMjAyNi8yMDI2MDcxMF8wMTI0Ngo=": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8vZnVrYWdhd2FzaGkvMjAyNi8yMDI2MDcxMF8wMTI0Ngo=",
+    "project_name": "住宅解体工事（多度志1093番地）（PDF:243KB）",
+    "org_name": "北海道深川市",
+    "pref_name": "北海道",
+    "city_name": "深川市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-10T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.city.fukagawa.lg.jp/cms/section/zeimuzaisei/ftsk200000000bxi-att/aajrae0000004cyz.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "令和８年７月２２日",
+    "application_deadline": "",
+    "fetched_date": "2026-07-11",
+    "notified": []
+  },
+  "aGlyb3NoaW1hL21peW9zaGlfY2l0eS8yMDI2LzIwMjYwNzEwXzAxMTkxCg==": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL21peW9zaGlfY2l0eS8yMDI2LzIwMjYwNzEwXzAxMTkxCg==",
+    "project_name": "プール解体工",
+    "org_name": "広島県三次市",
+    "pref_name": "広島県",
+    "city_name": "三次市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-10T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/33509.pdf",
+    "attachments": [
+      {
+        "name": "73-1 [315KB]",
+        "uri": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/33512.zip"
+      },
+      {
+        "name": "73-2 [33MB]",
+        "uri": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/33513.zip"
+      },
+      {
+        "name": "73-3 [34.57MB]",
+        "uri": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/33514.zip"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "令和8年7月10日",
+    "opening_date": "令和8年7月23日",
+    "application_deadline": "",
+    "fetched_date": "2026-07-11",
+    "notified": []
   }
 }
