@@ -129,8 +129,13 @@ def save_kokoku_files(item, entry: dict) -> None:
 
 
 def prune_saved_files(sent_ids: dict) -> None:
-    """sent_ids から消えた（30日経過した）案件の保存PDFを削除する"""
+    """sent_ids から消えた（30日経過した）案件の保存PDFを削除する。
+    この関数が触れてよいのは docs/files/ 配下の .pdf のみ（他は構造上削除できない）。"""
     if not os.path.isdir(FILES_DIR):
+        return
+    if not sent_ids:
+        # sent_ids が空＝読み込み異常の可能性。全消し事故を防ぐため何もしない
+        print("[files] sent_ids が空のため保存PDFの削除をスキップ（安全ガード）")
         return
     valid = {_safe_filename(k) for k in sent_ids}
     removed = 0
