@@ -21,7 +21,7 @@ jobs:
           python-version: '3.13'
 
       - name: Install dependencies
-        run: pip install playwright pypdf
+        run: pip install playwright pypdf requests
 
       - name: Install Playwright browsers
         run: playwright install --with-deps chromium
