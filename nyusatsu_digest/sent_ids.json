@@ -4462,5 +4462,176 @@
     "application_deadline": "",
     "fetched_date": "2026-07-11",
     "notified": []
+  },
+  "eWFtYWdhdGEvdHN1cnVva2FfY2l0eS8yMDI2LzIwMjYwNzEzXzAyMjUzCg==": {
+    "source": "kkj",
+    "key": "eWFtYWdhdGEvdHN1cnVva2FfY2l0eS8yMDI2LzIwMjYwNzEzXzAyMjUzCg==",
+    "project_name": "中村）地内消防ポンプ庫およびホース乾燥塔解体工事",
+    "org_name": "山形県鶴岡市",
+    "pref_name": "山形県",
+    "city_name": "鶴岡市",
+    "pref_code": "06",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-13T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.tsuruoka.lg.jp/sangyo/nyusatsu/nyusatukoukoku/20260713koukoku1.files/20260713koukoku1-1.pdf",
+    "attachments": [
+      {
+        "name": "設計図 （PDF：1,714KB）",
+        "uri": "https://www.city.tsuruoka.lg.jp/sangyo/nyusatsu/nyusatukoukoku/20260713koukoku1.files/20260713koukoku1-3.pdf"
+      }
+    ],
+    "location": "鶴岡市大網字西大石 63-1、鶴岡市大網字中田 56-2",
+    "bid_deadline": "",
+    "opening_date": "令和8年7月13日",
+    "application_deadline": "令和8年7月13日",
+    "fetched_date": "2026-07-14",
+    "notified": []
+  },
+  "d2FrYXlhbWEvcG9saWNlLXdha2F5YW1hLzIwMjYvMjAyNjA3MTNfMDM1MTAK": {
+    "source": "kkj",
+    "key": "d2FrYXlhbWEvcG9saWNlLXdha2F5YW1hLzIwMjYvMjAyNjA3MTNfMDM1MTAK",
+    "project_name": "令和８年度 第２４号 有田湯浅警察署職員宿舎車庫解体工事",
+    "org_name": "国家公安委員会（警察庁）和歌山県警察",
+    "pref_name": "和歌山県",
+    "city_name": "和歌山市",
+    "pref_code": "30",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-13T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.police.pref.wakayama.lg.jp/nyusatu/si-260713-24.pdf",
+    "attachments": [],
+    "location": "別記第１号様式の２",
+    "bid_deadline": "",
+    "opening_date": "令和8年7月30日",
+    "application_deadline": "",
+    "fetched_date": "2026-07-14",
+    "notified": []
+  },
+  "b2theWFtYS90YW1hbm9fY2l0eS8yMDI2LzIwMjYwNzEzXzAwMDEyCg==": {
+    "source": "kkj",
+    "key": "b2theWFtYS90YW1hbm9fY2l0eS8yMDI2LzIwMjYwNzEzXzAwMDEyCg==",
+    "project_name": "玉野市旧庁舎解体工事",
+    "org_name": "岡山県玉野市",
+    "pref_name": "岡山県",
+    "city_name": "玉野市",
+    "pref_code": "33",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-13T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.tamano.lg.jp/uploaded/attachment/35759.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-07-14",
+    "notified": []
+  },
+  "bWl5YWdpL2t1cmloYXJhX2NpdHkvMjAyNi8yMDI2MDcxM18wMDk1MAo=": {
+    "source": "kkj",
+    "key": "bWl5YWdpL2t1cmloYXJhX2NpdHkvMjAyNi8yMDI2MDcxM18wMDk1MAo=",
+    "project_name": "【入札公告】旧高田山ポンプ場解体工事（PDF：284KB）",
+    "org_name": "宮城県栗原市",
+    "pref_name": "宮城県",
+    "city_name": "栗原市",
+    "pref_code": "04",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-13T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.kuriharacity.jp/w004/030/010/200/2026koukou/0713/0713koukoku2.pdf?711116",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "令和８年７月１３日",
+    "opening_date": "令和８年７月１３日",
+    "application_deadline": "",
+    "fetched_date": "2026-07-14",
+    "notified": []
+  },
+  "aWJhcmFraS9oaXRhY2hpbmFrYV9jaXR5LzIwMjYvMjAyNjA3MTNfMDEwNDAK": {
+    "source": "kkj",
+    "key": "aWJhcmFraS9oaXRhY2hpbmFrYV9jaXR5LzIwMjYvMjAyNjA3MTNfMDEwNDAK",
+    "project_name": "北神敷台事務所解体工事 （PDF 218.1 KB）",
+    "org_name": "茨城県ひたちなか市",
+    "pref_name": "茨城県",
+    "city_name": "ひたちなか市",
+    "pref_code": "08",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-13T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.hitachinaka.lg.jp//_res/projects/default_project/_page_/001/004/515/080410003.pdf",
+    "attachments": [],
+    "location": "北神敷台地内",
+    "bid_deadline": "令和８年７月１３日",
+    "opening_date": "令和８年７月１３日",
+    "application_deadline": "令和８年７月１３日",
+    "fetched_date": "2026-07-14",
+    "notified": [
+      "kataoka"
+    ]
+  },
+  "aGlyb3NoaW1hL2FraXRha2F0YV9jaXR5LzIwMjYvMjAyNjA3MTNfMDAyMjQK": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL2FraXRha2F0YV9jaXR5LzIwMjYvMjAyNjA3MTNfMDAyMjQK",
+    "project_name": "【公告】旧小田東保育所解体工事",
+    "org_name": "広島県安芸高田市",
+    "pref_name": "広島県",
+    "city_name": "安芸高田市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-13T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.akitakata.jp/akitakata-media/filer_public/d7/27/d7275853-6d3c-41ee-a04d-0da16d2a6906/koukoku-bun-kyuu-oda-higashi-hoikusho-kaitai-kouji.pdf",
+    "attachments": [
+      {
+        "name": "【仕様書】旧小田東保育所解体工事.zip",
+        "uri": "https://www.akitakata.jp/akitakata-media/filer_public/17/16/1716fe4b-583e-4228-ba78-d5ce62248248/shiyousho-kyuu-oda-higashi-hoikusho-kaitai-kouji.zip"
+      }
+    ],
+    "location": "安芸高田市甲田町高田原",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-07-14",
+    "notified": []
+  },
+  "ZnVrdXNoaW1hL21pbmFtaXNvbWFfY2l0eS8yMDI2LzIwMjYwNzEzXzAwMDIzCg==": {
+    "source": "kkj",
+    "key": "ZnVrdXNoaW1hL21pbmFtaXNvbWFfY2l0eS8yMDI2LzIwMjYwNzEzXzAwMDIzCg==",
+    "project_name": "2026000576日の出町団地（東）解体工事",
+    "org_name": "福島県南相馬氏",
+    "pref_name": "福島県",
+    "city_name": "南相馬氏",
+    "pref_code": "07",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-13T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.minamisoma.lg.jp/material/files/group/4/koukoku_110.pdf",
+    "attachments": [
+      {
+        "name": "2.設計書 (PDFファイル: 9.4MB)",
+        "uri": "https://www.city.minamisoma.lg.jp/material/files/group/4/sekkeisyo2026000576.pdf"
+      }
+    ],
+    "location": "３ 建物概要１ ２ ３建 物 名 称 構 造 階 数消防法施行令別表第１区分備 考 延面積",
+    "bid_deadline": "令和8年7月30日",
+    "opening_date": "令和8年8月5日",
+    "application_deadline": "令和8年7月13日",
+    "fetched_date": "2026-07-14",
+    "notified": []
   }
 }
