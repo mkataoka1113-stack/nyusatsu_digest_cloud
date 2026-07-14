@@ -27,9 +27,10 @@ from datetime import datetime, timezone
 MAX_ENRICH_PER_RUN = 30        # 1回の実行でAI抽出する案件数の上限（暴走防止）
 MAX_DOWNLOADS_PER_ITEM = 2     # 1案件あたりのPDFダウンロード数上限
 MAX_FILE_BYTES = 8 * 1024 * 1024
-MAX_PROMPT_CHARS = 12000       # プロンプトに載せる公告テキストの上限
+MAX_PROMPT_CHARS = 9000        # プロンプトに載せる公告テキストの上限
+                               # （GroqのTPM=1分あたりトークン量制限に大型文書が連続で当たらない値）
 MIN_TEXT_CHARS = 120           # これ未満なら抽出素材不足として no_text 扱い
-LLM_INTERVAL_SEC = 6           # Gemini無料枠のレート制限（10 RPM）に収める間隔
+LLM_INTERVAL_SEC = 10          # 無料枠のレート制限に収める件間の待ち
 
 GEMINI_MODEL = "gemini-2.5-flash"
 GROQ_MODEL = "llama-3.3-70b-versatile"
@@ -257,7 +258,7 @@ def _llm_extract(text: str, pdf_data: bytes | None = None) -> tuple[dict | None,
             except Exception as e:
                 print(f"  [enrich] {name} 失敗（試行{attempt}）: {e}")
                 if attempt == 1:
-                    time.sleep(30)   # レート制限(429)はすぐ再試行しても解けないため長めに待つ
+                    time.sleep(65)   # レート制限(429)のウィンドウは1分。明けるまで待ってから再試行
     return None, ""
 
 
