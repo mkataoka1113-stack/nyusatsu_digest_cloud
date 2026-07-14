@@ -1484,12 +1484,7 @@
     "fetched_date": "2026-06-28",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   },
   "chiba_e7ecf9b09cab4eea": {
     "source": "chiba",
@@ -1513,12 +1508,7 @@
     "fetched_date": "2026-06-28",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   },
   "chiba_1181dfa3c9aae3c9": {
     "source": "chiba",
@@ -1542,12 +1532,7 @@
     "fetched_date": "2026-06-28",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   },
   "chiba_d4695832b890c39f": {
     "source": "chiba",
@@ -1571,12 +1556,7 @@
     "fetched_date": "2026-06-28",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   },
   "chiba_844dadc108c9a63e": {
     "source": "chiba",
@@ -1624,12 +1604,7 @@
     "fetched_date": "2026-06-28",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   },
   "chiba_dc17ff6182176708": {
     "source": "chiba",
@@ -1653,12 +1628,7 @@
     "fetched_date": "2026-06-28",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   },
   "etokyo_2026:13:106:00731": {
     "source": "etokyo",
@@ -3399,12 +3369,7 @@
     "fetched_date": "2026-07-04",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   },
   "chiba_75beb37f633b051b": {
     "source": "chiba",
@@ -3428,12 +3393,7 @@
     "fetched_date": "2026-07-04",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   },
   "chiba_05f11af0aa0fae73": {
     "source": "chiba",
@@ -3457,12 +3417,7 @@
     "fetched_date": "2026-07-04",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   },
   "chiba_b13510f4147cb585": {
     "source": "chiba",
@@ -3486,12 +3441,7 @@
     "fetched_date": "2026-07-04",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   },
   "chiba_62f2cbd147144d82": {
     "source": "chiba",
@@ -3515,12 +3465,7 @@
     "fetched_date": "2026-07-06",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   },
   "chiba_e332db84649d13f2": {
     "source": "chiba",
@@ -3544,12 +3489,7 @@
     "fetched_date": "2026-07-06",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   },
   "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDcvMjAyNjA3MDZfNzUxNDkK": {
     "source": "kkj",
@@ -3631,12 +3571,7 @@
     "opening_date": "令和8年7月24日",
     "application_deadline": "",
     "fetched_date": "2026-07-07",
-    "notified": [],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    "notified": []
   },
   "Z292Mi9tYWZmX3Rva2FpLzIwMjYvMjAyNjA3MDZfMDAyOTcK": {
     "source": "kkj",
@@ -3663,12 +3598,7 @@
     "opening_date": "令和８年８月７日",
     "application_deadline": "",
     "fetched_date": "2026-07-07",
-    "notified": [],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    "notified": []
   },
   "ZnVrdXNoaW1hL3BvbGljZV9mdWt1c2hpbWEvMjAyNi8yMDI2MDcwNl8wMTIyMwo=": {
     "source": "kkj",
@@ -3690,12 +3620,7 @@
     "opening_date": "令和8年8月20日",
     "application_deadline": "令和8年7月31日",
     "fetched_date": "2026-07-07",
-    "notified": [],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    "notified": []
   },
   "Y2hpYmEvY2hpYmFfY2l0eS8yMDI2LzIwMjYwNzA2XzAzMTkxCg==": {
     "source": "kkj",
@@ -3719,12 +3644,7 @@
     "fetched_date": "2026-07-07",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   },
   "ippi_0010010000420260063": {
     "source": "ippi",
@@ -4587,12 +4507,7 @@
     "fetched_date": "2026-07-10",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   },
   "chiba_c5eef03e377eccb9": {
     "source": "chiba",
@@ -4616,12 +4531,7 @@
     "fetched_date": "2026-07-10",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   },
   "chiba_1d131310dfeae9b6": {
     "source": "chiba",
@@ -4645,12 +4555,7 @@
     "fetched_date": "2026-07-10",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   },
   "chiba_2aecce242ae8ad1d": {
     "source": "chiba",
@@ -4674,12 +4579,7 @@
     "fetched_date": "2026-07-10",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   },
   "bmFyYS9rYXRzdXJhZ2lfY2l0eS8yMDI2LzIwMjYwNzEwXzAwNDA0Cg==": {
     "source": "kkj",
@@ -5132,11 +5032,6 @@
     "fetched_date": "2026-07-14",
     "notified": [
       "kataoka"
-    ],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
+    ]
   }
 }
