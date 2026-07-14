@@ -161,8 +161,9 @@ def _pdf_to_text(data: bytes) -> str:
         return ""
 
 
-def _download_kokoku_text(page, frame) -> str:
-    """詳細ページの downloadForm から「公告」を含む添付を1件ダウンロードしてテキスト化する"""
+def _download_kokoku(page, frame) -> tuple[str, list]:
+    """詳細ページの downloadForm から「公告」を含む添付を1件ダウンロードし、
+    (テキスト, 公告PDFファイル[{"name","data"}]) を返す"""
     files = frame.evaluate("""() => {
         const out = [];
         if (!document.downloadForm) return out;
@@ -174,7 +175,7 @@ def _download_kokoku_text(page, frame) -> str:
     }""")
     target = next((f for f in files if "公告" in f["name"]), None)
     if not target:
-        return ""
+        return "", []
     with page.expect_download(timeout=30000) as dl_info:
         frame.evaluate(f"downloadStart({target['idx']})")
     dl = dl_info.value
@@ -183,20 +184,23 @@ def _download_kokoku_text(page, frame) -> str:
 
     name = target["name"].lower()
     if name.endswith(".pdf"):
-        return _pdf_to_text(data)
+        return _pdf_to_text(data), [{"name": target["name"], "data": data}]
     if name.endswith(".zip"):
         texts = []
+        kokoku_files = []
         try:
             zf = zipfile.ZipFile(io.BytesIO(data))
             for n in zf.namelist():
                 if n.lower().endswith(".pdf"):
-                    texts.append(_pdf_to_text(zf.read(n)))
+                    pdf_data = zf.read(n)
+                    texts.append(_pdf_to_text(pdf_data))
+                    kokoku_files.append({"name": n.rsplit("/", 1)[-1], "data": pdf_data})
                 if len(texts) >= 3:   # 個別編・共通編など複数PDFまで
                     break
         except Exception as e:
             print(f"  [chiba] zip展開失敗: {e}")
-        return "\n\n".join(t for t in texts if t)
-    return ""
+        return "\n\n".join(t for t in texts if t), kokoku_files
+    return "", []
 
 
 def fetch(lookback_days: int = 8, headless: bool = True,
@@ -272,13 +276,15 @@ def fetch(lookback_days: int = 8, headless: bool = True,
                         detail_text = "\n".join(f"{k}\t{v}" for k, v in data.items() if v)
 
                         # 未通知案件のみ公告ファイル（zip/PDF）をダウンロードしてテキスト追加
+                        kokoku_files = []
                         if key not in known_keys and detail_count < MAX_DETAILS:
                             try:
-                                kokoku_text = _download_kokoku_text(page, main_frame)
+                                kokoku_text, kokoku_files = _download_kokoku(page, main_frame)
                                 if kokoku_text:
                                     detail_text += "\n\n=== 入札公告 ===\n" + kokoku_text
                                     detail_count += 1
-                                    print(f"    公告取得OK: {project_name[:25]}（{len(kokoku_text)}字）")
+                                    print(f"    公告取得OK: {project_name[:25]}"
+                                          f"（{len(kokoku_text)}字・PDF{len(kokoku_files)}件）")
                             except Exception as e:
                                 print(f"    [chiba] 公告ダウンロード失敗（{project_name[:20]}）: {e}")
 
@@ -294,6 +300,7 @@ def fetch(lookback_days: int = 8, headless: bool = True,
                             "opening_date":         _parse_wareki(data.get("開札予定日時", "")),
                             "application_deadline": _parse_range_end(data.get("参加申請書受付日時", "")),
                             "detail_text":          detail_text,
+                            "kokoku_files":         kokoku_files,
                         })
                 except Exception as e:
                     print(f"  [chiba] index {i} 解析エラー: {e}")
@@ -332,6 +339,7 @@ def fetch(lookback_days: int = 8, headless: bool = True,
             opening_date         = r["opening_date"],
             application_deadline = r["application_deadline"],
             detail_text          = r.get("detail_text", ""),
+            kokoku_files         = r.get("kokoku_files", []),
         )
         for r in raw_items
     ]

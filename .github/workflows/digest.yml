@@ -32,6 +32,13 @@ jobs:
         run: |
           echo "$CLIENTS_JSON" > nyusatsu_digest/clients.json
 
+      - name: Check repo size
+        run: |
+          SIZE_KB=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/${{ github.repository }} | jq '.size // 0')
+          echo "REPO_SIZE_KB=$SIZE_KB" >> "$GITHUB_ENV"
+          echo "リポジトリ容量: $((SIZE_KB / 1024)) MB"
+
       - name: Run digest
         env:
           GMAIL_FROM: ${{ secrets.GMAIL_FROM }}
@@ -39,13 +46,14 @@ jobs:
           GMAIL_TO: ${{ secrets.GMAIL_TO }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          REPO_SIZE_KB: ${{ env.REPO_SIZE_KB }}
         run: python nyusatsu_digest/digest.py
 
       - name: Commit updated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add nyusatsu_digest/sent_ids.json docs/index.html docs/robots.txt
+          git add nyusatsu_digest/sent_ids.json docs
           if ! git diff --cached --quiet; then
             git commit -m "chore: update digest $(date -u +%Y-%m-%d)"
             git push

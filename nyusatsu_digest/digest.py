@@ -11,6 +11,7 @@ GitHub Pages 用ダッシュボード HTML も生成する。
 import html as html_mod
 import json
 import os
+import re
 import smtplib
 import sys
 from datetime import datetime, timedelta, timezone
@@ -31,6 +32,12 @@ DOCS_DIR      = os.path.join(os.path.dirname(BASE_DIR), "docs")
 SENT_ID_RETENTION_DAYS = 30
 LOOKBACK_DAYS          = 8
 JST = timezone(timedelta(hours=9))  # GitHub ActionsランナーはUTCのため日付表示はJST固定
+
+# 公告PDFの保存先（GitHub Pagesで公開され、ダッシュボード・メールからリンクされる）
+FILES_DIR  = os.path.join(DOCS_DIR, "files")
+PAGES_BASE = "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/"
+# リポジトリ容量がこれを超えたら管理者へ通知（履歴の掃除＝定期メンテの合図）
+REPO_SIZE_WARN_MB = 700
 
 
 # ---------------------------------------------------------------------------
@@ -88,6 +95,57 @@ def prune_sent_ids(sent_ids: dict) -> dict:
         except (ValueError, AttributeError):
             pruned[key] = entry  # パース失敗は残す
     return pruned
+
+
+# ---------------------------------------------------------------------------
+# 公告PDFの保存（docs/files/ → GitHub Pagesで公開しリンクを埋め込む）
+# ---------------------------------------------------------------------------
+
+def _safe_filename(key: str) -> str:
+    """案件キーをWindows/URLでも安全なファイル名に変換する（":" 等を除去）"""
+    return re.sub(r"[^0-9A-Za-z_-]", "_", key)
+
+
+def save_kokoku_files(item, entry: dict) -> None:
+    """スクレイパーが取得した公告PDFを docs/files/ に保存し、
+    entry の attachments 先頭に公開URLのリンクを追加する（1案件1回のみ）"""
+    files = getattr(item, "kokoku_files", None) or []
+    if not files:
+        return
+    atts = entry.setdefault("attachments", [])
+    if any((a.get("uri") or "").startswith(PAGES_BASE) for a in atts):
+        return  # 保存済み（詳細再取得時の重複防止）
+    os.makedirs(FILES_DIR, exist_ok=True)
+    base = _safe_filename(item.key)
+    added = []
+    for i, f in enumerate(files[:3]):
+        fname = f"{base}_{i + 1}.pdf"
+        with open(os.path.join(FILES_DIR, fname), "wb") as fh:
+            fh.write(f["data"])
+        label = (f.get("name") or "入札公告").rsplit(".", 1)[0]
+        added.append({"name": f"{label}（PDF）", "uri": PAGES_BASE + "files/" + fname})
+    entry["attachments"] = added + atts
+    print(f"  [files] 公告PDF {len(added)} 件を保存: {item.project_name[:30]}")
+
+
+def prune_saved_files(sent_ids: dict) -> None:
+    """sent_ids から消えた（30日経過した）案件の保存PDFを削除する"""
+    if not os.path.isdir(FILES_DIR):
+        return
+    valid = {_safe_filename(k) for k in sent_ids}
+    removed = 0
+    for fn in os.listdir(FILES_DIR):
+        if not fn.lower().endswith(".pdf"):
+            continue
+        stem = fn[:-4].rsplit("_", 1)[0]   # 末尾の連番 "_N" を除去
+        if stem not in valid:
+            try:
+                os.remove(os.path.join(FILES_DIR, fn))
+                removed += 1
+            except OSError as e:
+                print(f"  [files] 削除失敗 {fn}: {e}")
+    if removed:
+        print(f"[files] 30日経過した公告PDFを {removed} 件削除")
 
 
 # ---------------------------------------------------------------------------
@@ -568,12 +626,32 @@ def main() -> None:
             entry["notified"]     = []
             sent_ids[key]         = entry
 
+    # ── 公告PDFを docs/files/ に保存してリンクを埋め込む ──
+    for item in all_items:
+        if item.key in sent_ids:
+            try:
+                save_kokoku_files(item, sent_ids[item.key])
+            except Exception as e:
+                print(f"  [files] 保存失敗（{item.key}）: {e}")
+
     # ── AI抽出（予定価格・地域要件・工期・概要）。失敗しても配信は継続する ──
     try:
         from enrich import enrich_new_items
         enrich_new_items(all_items, sent_ids)
     except Exception as e:
         print(f"[enrich] AI抽出でエラー（配信は継続します）: {e}")
+
+    # ── リポジトリ容量の監視（定期メンテの合図。ワークフローが REPO_SIZE_KB を渡す） ──
+    try:
+        size_mb = int(os.environ.get("REPO_SIZE_KB") or 0) / 1024
+        if size_mb > REPO_SIZE_WARN_MB:
+            scraper_errors.append((
+                "リポジトリ容量の警告",
+                f"リポジトリが {size_mb:.0f}MB に達しました（目安 {REPO_SIZE_WARN_MB}MB 超）。"
+                f"Claude Codeに「nyusatsu_digest_cloud の履歴の掃除をして」と依頼してください。",
+            ))
+    except ValueError:
+        pass
 
     # ── クライアント別メール送信 ──
     for client in active_clients:
@@ -616,9 +694,10 @@ def main() -> None:
         else:
             print("\n[警告] エラー通知の送信先（id=kataoka）が clients.json に見つかりません")
 
-    # ── sent_ids 保存 ──
+    # ── sent_ids 保存（30日経過した案件と、その保存PDFを削除） ──
     sent_ids = prune_sent_ids(sent_ids)
     save_sent_ids(sent_ids)
+    prune_saved_files(sent_ids)
     print("\nsent_ids.json 更新完了")
 
     # ── ダッシュボード生成 ──

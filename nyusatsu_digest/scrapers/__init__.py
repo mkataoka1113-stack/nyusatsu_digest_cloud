@@ -43,6 +43,10 @@ class BidItem:
     # 詳細ページ本文＋公告PDFのテキスト。AI抽出（enrich）の素材として同一実行内でのみ使い、
     # sent_ids.json には保存しない（公開リポジトリの肥大化を防ぐため to_dict に含めない）
     detail_text:          str = ""
+    # ダウンロード済みの入札公告PDF [{"name": str, "data": bytes}, ...]。
+    # digest.py が docs/files/ に保存してダッシュボード・メールにリンクを埋め込む。
+    # bytes を含むため to_dict には含めない（同一実行内でのみ使用）
+    kokoku_files:         list = field(default_factory=list)
 
     def to_dict(self) -> dict:
         return {

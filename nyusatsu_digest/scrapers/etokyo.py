@@ -143,9 +143,9 @@ def _wait_for_detail(page, anken_no: str, timeout_sec: int = 20):
     return None, ""
 
 
-def _fetch_pdf_via_get(main, raw_key: str, file_index: str) -> str:
+def _fetch_pdf_via_get(main, raw_key: str, file_index: str) -> bytes:
     """openFile と同じ URL（pub?s=P002&a=13&n=キー&i=番号）をフレーム内 fetch で
-    GET し、PDFテキストを返す。window.open のダウンロードはイベント捕捉が不安定なため、
+    GET し、PDFのバイト列を返す。window.open のダウンロードはイベント捕捉が不安定なため、
     HTTPを直接再現する（スパイクで content-type: application/pdf を確認済み）。"""
     import base64
     result = main.evaluate(f"""async () => {{
@@ -160,28 +160,31 @@ def _fetch_pdf_via_get(main, raw_key: str, file_index: str) -> str:
         return {{ct: resp.headers.get('content-type') || '', b64: btoa(bin)}};
     }}""")
     if "pdf" not in result["ct"].lower():
-        return ""
-    return _pdf_to_text(base64.b64decode(result["b64"]))
+        return b""
+    return base64.b64decode(result["b64"])
 
 
-def _fetch_detail(page, raw_key: str, row_no: str) -> tuple[str, str]:
-    """詳細ページを開き、(本文＋公告文PDFテキスト, 履行場所) を返す。終了時に一覧へ戻る。"""
+def _fetch_detail(page, raw_key: str, row_no: str) -> tuple[str, str, list]:
+    """詳細ページを開き、(本文＋公告文PDFテキスト, 履行場所, 公告PDFファイル) を返す。
+    終了時に一覧へ戻る。"""
     main = _wait_for_frame_form(page, "FrmMain", "table.list-table")
     if not main:
-        return "", ""
+        return "", "", []
     main.evaluate(f"listSubmit('P002','7','{raw_key}','{row_no}','FrmMain')")
     # raw_key 例 "2026:13:101:00296" → 案件番号の末尾番号 "00296" の表示を待つ
     anken_no = raw_key.split(":")[-1]
     main, body = _wait_for_detail(page, anken_no)
     if not main:
         print(f"  [etokyo] 詳細画面への遷移を確認できず（{raw_key}）")
-        return "", ""
+        return "", "", []
     location = _extract_detail_location(body)
 
     pdf_text = ""
+    kokoku_files = []
     try:
         # 「公告文」リンク（openFile('pub','P002','13',キー,ファイル番号)）を探す
         file_index = None
+        file_name = ""
         for a in main.query_selector_all('a[href*="openFile"]'):
             name = (a.inner_text() or "").strip()
             if "公告" in name and "一括" not in name:
@@ -189,9 +192,13 @@ def _fetch_detail(page, raw_key: str, row_no: str) -> tuple[str, str]:
                               a.get_attribute("href") or "")
                 if m:
                     file_index = m.group(1)
+                    file_name = name
                 break
         if file_index:
-            pdf_text = _fetch_pdf_via_get(main, raw_key, file_index)
+            pdf_data = _fetch_pdf_via_get(main, raw_key, file_index)
+            if pdf_data:
+                pdf_text = _pdf_to_text(pdf_data)
+                kokoku_files.append({"name": file_name or "公告文", "data": pdf_data})
     except Exception as e:
         print(f"  [etokyo] 公告文PDF取得失敗（{raw_key}）: {e}")
 
@@ -208,7 +215,7 @@ def _fetch_detail(page, raw_key: str, row_no: str) -> tuple[str, str]:
     detail_text = body
     if pdf_text:
         detail_text += "\n\n=== 公告文PDF ===\n" + pdf_text
-    return detail_text, location
+    return detail_text, location, kokoku_files
 
 
 def fetch(lookback_days: int = LOOKBACK_DAYS, headless: bool = True,
@@ -342,10 +349,11 @@ def fetch(lookback_days: int = LOOKBACK_DAYS, headless: bool = True,
                 print(f"  → 詳細取得対象: {len(targets)} 件")
             for r in targets:
                 try:
-                    detail_text, location = _fetch_detail(page, r["raw_key"], r["row_no"])
-                    r["detail_text"] = detail_text
-                    r["location"]    = location
-                    print(f"    詳細OK: {r['project_name'][:25]}（{len(detail_text)}字）")
+                    detail_text, location, kokoku_files = _fetch_detail(page, r["raw_key"], r["row_no"])
+                    r["detail_text"]  = detail_text
+                    r["location"]     = location
+                    r["kokoku_files"] = kokoku_files
+                    print(f"    詳細OK: {r['project_name'][:25]}（{len(detail_text)}字・公告PDF{len(kokoku_files)}件）")
                 except Exception as e:
                     print(f"    [etokyo] 詳細取得失敗（{r['key']}）: {e}")
                 time.sleep(1.0)
@@ -377,6 +385,7 @@ def fetch(lookback_days: int = LOOKBACK_DAYS, headless: bool = True,
             opening_date         = r["opening_date"],
             application_deadline = r["application_deadline"],
             detail_text          = r.get("detail_text", ""),
+            kokoku_files         = r.get("kokoku_files", []),
         )
         for r in raw_items
     ]
