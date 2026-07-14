@@ -184,7 +184,6 @@ def build_card_email(item: dict) -> str:
     esc      = html_mod.escape
     font     = "'Yu Gothic','Yu Gothic UI',sans-serif"
     org      = esc(item.get("org_name") or "—")
-    area     = esc("".join(filter(None, [item.get("pref_name"), item.get("city_name")])) or "—")
     date     = fmt_date(item.get("cft_issue_date", ""))
     procedure= esc(item.get("procedure_type") or "—")
     location = esc(item.get("location") or "—")
@@ -193,6 +192,14 @@ def build_card_email(item: dict) -> str:
     app_dl   = fmt_jp_date(item.get("application_deadline", ""))
     uri      = esc(item.get("doc_uri") or "")
     source   = esc(SOURCE_LABEL.get(item.get("source", ""), item.get("source", "")))
+
+    enrich   = item.get("enrich") or {}
+    price    = esc(enrich.get("planned_price") or "—")
+    region   = esc(enrich.get("region_requirement") or "—")
+    koki     = esc(enrich.get("koki") or "—")
+    summary  = enrich.get("summary") or ""
+    has_ai   = any(enrich.get(k) for k in
+                   ("planned_price", "region_requirement", "koki", "summary"))
 
     link_html = (
         f'<p style="margin:8px 0 0;font-family:{font};">'
@@ -208,12 +215,26 @@ def build_card_email(item: dict) -> str:
         f'添付: {att_links}</p>'
         if att_links else ""
     )
+    summary_html = (
+        f'<p style="margin:8px 0 4px;padding:8px 10px;background:#f4f7fa;'
+        f'border-radius:4px;font-size:12px;color:#333;font-family:{font};">'
+        f'{esc(summary)}</p>'
+        if summary else ""
+    )
+    ai_note_html = (
+        f'<p style="margin:4px 0 0;font-size:10px;color:#999;font-family:{font};">'
+        f'※ 予定価格・地域要件・工期・概要はAIによる公告からの自動抽出です。'
+        f'応札判断の際は必ず公告原本をご確認ください。</p>'
+        if has_ai else ""
+    )
     rows = [
         ("発注機関",  org),
-        ("所在地",    area),
         ("公告日",    date),
         ("入札方式",  procedure),
         ("工事場所",  location),
+        ("予定価格",  price),
+        ("工期",      koki),
+        ("地域要件",  region),
         ("申請締切",  app_dl),
         ("入札締切",  bid_dl),
         ("開札日",    opening),
@@ -233,8 +254,10 @@ def build_card_email(item: dict) -> str:
   </h3>
   <table style="font-size:13px;border-collapse:collapse;width:100%;
                 table-layout:fixed;">{rows_html}</table>
+  {summary_html}
   {att_html}
   {link_html}
+  {ai_note_html}
 </div>"""
 
 
@@ -355,12 +378,24 @@ def build_dashboard(all_items: list[dict]) -> str:
         app_dl    = fmt_jp_date(item.get("application_deadline", ""))
         uri       = esc(item.get("doc_uri") or "")
         src       = item.get("source", "")
+
+        enrich    = item.get("enrich") or {}
+        price     = esc(enrich.get("planned_price") or "—")
+        region    = esc(enrich.get("region_requirement") or "—")
+        koki      = esc(enrich.get("koki") or "—")
+        summary   = enrich.get("summary") or ""
+        has_ai    = any(enrich.get(k) for k in
+                        ("planned_price", "region_requirement", "koki", "summary"))
+
         link      = f'<a href="{uri}" target="_blank" class="ext-link">公告元 →</a>' if uri else ""
         att_links = " / ".join(
             f'<a href="{esc(a["uri"])}" target="_blank" class="ext-link">{esc(a["name"] or "添付")}</a>'
             for a in (item.get("attachments") or []) if a.get("uri")
         )
         att_html  = f'<p class="att">添付: {att_links}</p>' if att_links else ""
+        summary_html = f'<p class="summary">{esc(summary)}</p>' if summary else ""
+        ai_note   = ('<p class="ai-note">※ 予定価格・地域要件・工期・概要はAIによる自動抽出です。'
+                     '応札判断の際は必ず公告原本をご確認ください。</p>') if has_ai else ""
         name      = esc(item.get("project_name", "（案件名不明）"), quote=True)
         gyoshu    = ",".join(item.get("gyoshu_codes", []))
 
@@ -368,14 +403,18 @@ def build_dashboard(all_items: list[dict]) -> str:
 <div class="card" data-name="{name}" data-area="{area}" data-gyoshu="{gyoshu}">
   <div class="card-title">{badge(src)}{name}</div>
   <table class="meta">
-    <tr><th>発注機関</th><td>{org}</td><th>所在地</th><td>{area}</td></tr>
-    <tr><th>公告日</th><td>{date}</td><th>入札方式</th><td>{procedure}</td></tr>
+    <tr><th>発注機関</th><td>{org}</td><th>公告日</th><td>{date}</td></tr>
+    <tr><th>入札方式</th><td>{procedure}</td><th>予定価格</th><td>{price}</td></tr>
     <tr><th>工事場所</th><td colspan="3">{location}</td></tr>
+    <tr><th>工期</th><td colspan="3">{koki}</td></tr>
+    <tr><th>地域要件</th><td colspan="3">{region}</td></tr>
     <tr><th>申請締切</th><td colspan="3">{app_dl}</td></tr>
     <tr><th>入札締切</th><td>{bid_dl}</td><th>開札日</th><td>{opening}</td></tr>
   </table>
+  {summary_html}
   {att_html}
   {link}
+  {ai_note}
 </div>"""
 
     cards = "".join(card_html(item) for item in all_items)
@@ -411,6 +450,9 @@ def build_dashboard(all_items: list[dict]) -> str:
              padding:3px 8px 3px 0;vertical-align:top;}}
   .meta td{{padding:3px 16px 3px 0;vertical-align:top;}}
   .att{{font-size:12px;margin:4px 0;color:#555;}}
+  .summary{{font-size:12px;margin:8px 0 4px;padding:8px 10px;background:#f4f7fa;
+            border-radius:4px;color:#333;}}
+  .ai-note{{font-size:10px;color:#999;margin:4px 0 0;}}
   .ext-link{{color:#2980b9;font-size:13px;display:inline-block;margin-top:6px;}}
   footer{{text-align:center;font-size:11px;color:#aaa;margin-top:24px;}}
 </style>
@@ -473,6 +515,10 @@ def main() -> None:
 
     active_clients = [c for c in clients if c.get("active", True)]
 
+    # ── sent_ids 先読み（通知済みキーを詳細取得のスキップ判定に使う） ──
+    sent_ids = load_sent_ids()
+    known_keys = set(sent_ids.keys())
+
     # ── スクレイパー実行 ──
     all_items: list = []
     scraper_errors: list[tuple[str, str]] = []
@@ -488,7 +534,7 @@ def main() -> None:
     for name, label, module_path in SCRAPERS:
         try:
             module = __import__(module_path, fromlist=["fetch"])
-            all_items.extend(module.fetch(LOOKBACK_DAYS))
+            all_items.extend(module.fetch(LOOKBACK_DAYS, known_keys=known_keys))
         except Exception as e:
             print(f"[{name}] エラー: {e}")
             scraper_errors.append((label, str(e)))
@@ -500,9 +546,6 @@ def main() -> None:
         print(f"重複排除: {before_dedupe} 件 → {len(all_items)} 件（kkjとの重複分を除外）")
 
     print(f"\n取得合計: {len(all_items)} 件")
-
-    # ── sent_ids 読み込み ──
-    sent_ids = load_sent_ids()
 
     # 旧フォーマット（notified キーなし）の移行:
     # 現在の全クライアントに送信済みとして扱い、再送を防ぐ
@@ -520,6 +563,13 @@ def main() -> None:
             entry["fetched_date"] = fetched_date
             entry["notified"]     = []
             sent_ids[key]         = entry
+
+    # ── AI抽出（予定価格・地域要件・工期・概要）。失敗しても配信は継続する ──
+    try:
+        from enrich import enrich_new_items
+        enrich_new_items(all_items, sent_ids)
+    except Exception as e:
+        print(f"[enrich] AI抽出でエラー（配信は継続します）: {e}")
 
     # ── クライアント別メール送信 ──
     for client in active_clients:

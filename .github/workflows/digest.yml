@@ -21,7 +21,7 @@ jobs:
           python-version: '3.13'
 
       - name: Install dependencies
-        run: pip install playwright
+        run: pip install playwright pypdf
 
       - name: Install Playwright browsers
         run: playwright install --with-deps chromium
@@ -37,6 +37,8 @@ jobs:
           GMAIL_FROM: ${{ secrets.GMAIL_FROM }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           GMAIL_TO: ${{ secrets.GMAIL_TO }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python nyusatsu_digest/digest.py
 
       - name: Commit updated files

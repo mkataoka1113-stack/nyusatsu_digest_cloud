@@ -9,7 +9,11 @@ scrapers/etokyo.py
   2. メインページから JS で FrmMain に P002 フォームを POST 送信
   3. FrmMain フレームで業種コード・日付をセットし、フォームサブミット
   4. 結果ページを解析（table.list-table > tr.list-line）
+  5. 未通知（known_keys にない）案件のみ詳細ページを開き、発注案件表の本文と
+     公告文PDF（openFile リンク経由でダウンロード）のテキストを detail_text に格納する。
+     詳細からは「戻る」(anotherFrameSubmit('P002','14')) で一覧に復帰する。
 """
+import io
 import re
 import time
 from datetime import datetime, timedelta
@@ -21,6 +25,7 @@ SYSTEM_URL    = "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.
 LOOKBACK_DAYS = 8
 
 GYOSHU_CODE   = "3100"   # 解体工事（スパイクで確認）
+MAX_DETAILS   = 15       # 1回の実行で詳細ページを開く上限（サイト負荷・実行時間の安全弁）
 
 
 def _parse_dt(dt_str: str) -> str:
@@ -42,10 +47,12 @@ def _parse_results_frame(frame) -> list[dict]:
                 continue
             project_name = link.inner_text().strip()
             href         = link.get_attribute("href") or ""
-            m = re.search(r"listSubmit\('P002','7','([^']+)'", href)
+            m = re.search(r"listSubmit\('P002','7','([^']+)','(\d+)'", href)
             if not m:
                 continue
-            key = f"etokyo_{m.group(1)}"
+            raw_key = m.group(1)
+            row_no  = m.group(2)   # サーバーは行番号で対象を特定するため必須（固定値だと常に1行目が開く）
+            key = f"etokyo_{raw_key}"
 
             cells = row.query_selector_all("td.list-data")
 
@@ -64,6 +71,8 @@ def _parse_results_frame(frame) -> list[dict]:
 
             items.append({
                 "key":                  key,
+                "raw_key":              raw_key,
+                "row_no":               row_no,
                 "project_name":         project_name,
                 "city_name":            city_name,
                 "cft_issue_date":       cft_issue_date,
@@ -102,12 +111,114 @@ def _wait_for_frame_form(page, frame_name: str, selector: str, timeout_sec: int 
     return None
 
 
-def fetch(lookback_days: int = LOOKBACK_DAYS, headless: bool = True) -> list[BidItem]:
+def _pdf_to_text(data: bytes) -> str:
+    try:
+        import pypdf
+        reader = pypdf.PdfReader(io.BytesIO(data))
+        return "\n".join(p.extract_text() or "" for p in reader.pages)
+    except Exception as e:
+        print(f"  [etokyo] PDFテキスト抽出失敗: {e}")
+        return ""
+
+
+def _extract_detail_location(body: str) -> str:
+    m = re.search(r"履行場所\s*(.+)", body)
+    return m.group(1).strip() if m else ""
+
+
+def _wait_for_detail(page, anken_no: str, timeout_sec: int = 20):
+    """FrmMain が目的の案件番号を含む発注案件表になるまで待つ（誤って前の案件や
+    一覧を読まないよう、案件番号の一致で遷移完了を判定する）"""
+    deadline = time.time() + timeout_sec
+    while time.time() < deadline:
+        frame = next((f for f in page.frames if f.name == "FrmMain"), None)
+        if frame:
+            try:
+                body = frame.inner_text("body")
+                if "発注案件表" in body and anken_no in body:
+                    return frame, body
+            except Exception:
+                pass
+        time.sleep(0.5)
+    return None, ""
+
+
+def _fetch_pdf_via_get(main, raw_key: str, file_index: str) -> str:
+    """openFile と同じ URL（pub?s=P002&a=13&n=キー&i=番号）をフレーム内 fetch で
+    GET し、PDFテキストを返す。window.open のダウンロードはイベント捕捉が不安定なため、
+    HTTPを直接再現する（スパイクで content-type: application/pdf を確認済み）。"""
+    import base64
+    result = main.evaluate(f"""async () => {{
+        const url = 'pub?s=P002&a=13&n=' + encodeURIComponent('{raw_key}') + '&i={file_index}';
+        const resp = await fetch(url);
+        const buf = await resp.arrayBuffer();
+        const bytes = new Uint8Array(buf);
+        let bin = '';
+        for (let i = 0; i < bytes.length; i += 8192) {{
+            bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 8192));
+        }}
+        return {{ct: resp.headers.get('content-type') || '', b64: btoa(bin)}};
+    }}""")
+    if "pdf" not in result["ct"].lower():
+        return ""
+    return _pdf_to_text(base64.b64decode(result["b64"]))
+
+
+def _fetch_detail(page, raw_key: str, row_no: str) -> tuple[str, str]:
+    """詳細ページを開き、(本文＋公告文PDFテキスト, 履行場所) を返す。終了時に一覧へ戻る。"""
+    main = _wait_for_frame_form(page, "FrmMain", "table.list-table")
+    if not main:
+        return "", ""
+    main.evaluate(f"listSubmit('P002','7','{raw_key}','{row_no}','FrmMain')")
+    # raw_key 例 "2026:13:101:00296" → 案件番号の末尾番号 "00296" の表示を待つ
+    anken_no = raw_key.split(":")[-1]
+    main, body = _wait_for_detail(page, anken_no)
+    if not main:
+        print(f"  [etokyo] 詳細画面への遷移を確認できず（{raw_key}）")
+        return "", ""
+    location = _extract_detail_location(body)
+
+    pdf_text = ""
+    try:
+        # 「公告文」リンク（openFile('pub','P002','13',キー,ファイル番号)）を探す
+        file_index = None
+        for a in main.query_selector_all('a[href*="openFile"]'):
+            name = (a.inner_text() or "").strip()
+            if "公告" in name and "一括" not in name:
+                m = re.search(r"openFile\('pub','P002','13','[^']+','(\d+)'\)",
+                              a.get_attribute("href") or "")
+                if m:
+                    file_index = m.group(1)
+                break
+        if file_index:
+            pdf_text = _fetch_pdf_via_get(main, raw_key, file_index)
+    except Exception as e:
+        print(f"  [etokyo] 公告文PDF取得失敗（{raw_key}）: {e}")
+
+    # 一覧へ戻る
+    try:
+        main = next((f for f in page.frames if f.name == "FrmMain"), None)
+        if main:
+            main.evaluate("anotherFrameSubmit('P002','14','FrmMain')")
+            _wait_for_frame_form(page, "FrmMain", "table.list-table", timeout_sec=15)
+            time.sleep(0.5)
+    except Exception as e:
+        print(f"  [etokyo] 一覧復帰失敗: {e}")
+
+    detail_text = body
+    if pdf_text:
+        detail_text += "\n\n=== 公告文PDF ===\n" + pdf_text
+    return detail_text, location
+
+
+def fetch(lookback_days: int = LOOKBACK_DAYS, headless: bool = True,
+          known_keys: set | None = None) -> list[BidItem]:
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
         print("[etokyo] playwright がインストールされていないためスキップ")
         return []
+    known_keys = known_keys or set()
 
     today     = datetime.now()
     since     = today - timedelta(days=lookback_days)
@@ -225,6 +336,20 @@ def fetch(lookback_days: int = LOOKBACK_DAYS, headless: bool = True) -> list[Bid
                 raw_items.extend(_parse_results_frame(main_frame))
                 print(f"  → ページ{page_no}: {len(raw_items) - before} 件追加")
 
+            # 未通知案件のみ詳細ページを開き、発注案件表＋公告文PDFのテキストを取得
+            targets = [r for r in raw_items if r["key"] not in known_keys][:MAX_DETAILS]
+            if targets:
+                print(f"  → 詳細取得対象: {len(targets)} 件")
+            for r in targets:
+                try:
+                    detail_text, location = _fetch_detail(page, r["raw_key"], r["row_no"])
+                    r["detail_text"] = detail_text
+                    r["location"]    = location
+                    print(f"    詳細OK: {r['project_name'][:25]}（{len(detail_text)}字）")
+                except Exception as e:
+                    print(f"    [etokyo] 詳細取得失敗（{r['key']}）: {e}")
+                time.sleep(1.0)
+
             browser.close()
 
     except Exception as e:
@@ -247,10 +372,11 @@ def fetch(lookback_days: int = LOOKBACK_DAYS, headless: bool = True) -> list[Bid
             procedure_type       = r["procedure_type"],
             doc_uri              = SYSTEM_URL,
             attachments          = [],
-            location             = "",
+            location             = r.get("location", ""),
             bid_deadline         = r["bid_deadline"],
             opening_date         = r["opening_date"],
             application_deadline = r["application_deadline"],
+            detail_text          = r.get("detail_text", ""),
         )
         for r in raw_items
     ]

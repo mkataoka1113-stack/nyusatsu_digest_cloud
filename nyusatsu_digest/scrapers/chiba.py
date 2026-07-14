@@ -17,10 +17,17 @@ scrapers/chiba.py
 
 注: 検索結果一覧には行ごとの一意ID表示がなく(openYotei(index)はその場の表示順インデックス)、
     安定したキーが取得できないため、発注機関+案件名+公告日からハッシュ値を作ってキーとする。
+
+詳細取得: 詳細ページには非表示の downloadForm があり、AddInfoURL01〜10 に添付ファイル名、
+    downloadStart(idx) でダウンロードできる（スパイク82で確認）。未通知（known_keys にない）
+    案件のみ「公告」を含む添付（zip または PDF）を1件ダウンロードし、テキスト化して
+    detail_text に格納する（詳細ページ本文と連結）。
 """
 import hashlib
+import io
 import re
 import time
+import zipfile
 from datetime import datetime
 
 from . import BidItem
@@ -29,6 +36,7 @@ ENTRY_URL   = "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj"
 CHOUTATSU_KOUJI = "00"        # 調達区分: 工事
 KOUJI_SYUBETU_KAITAI = "0010290"   # 工事種別: 解体工事（スパイクで確認）
 MAX_ITEMS   = 50   # 安全弁（無限ループ防止）
+MAX_DETAILS = 15   # 1回の実行で公告ファイルをダウンロードする上限（安全弁）
 
 WAREKI_RE = re.compile(
     r"令和\s*0?(\d+)[-年](\d+)[-月](\d+)日?(?:\s+(\d+):(\d+)\s*(AM|PM))?"
@@ -75,6 +83,47 @@ def _make_key(org_name: str, project_name: str, kokuho_date: str) -> str:
     return f"chiba_{digest}"
 
 
+def _wait_for_list_frame(page, timeout_sec: int = 10):
+    # 「戻る」での復帰は不安定（体感5割で失敗）だが、_restore_list による検索やり直しが
+    # 確実に機能するため、待ちすぎず早めに諦めてリカバリに移る
+    """list フレームが openYotei リンクを持つ状態になるまでポーリングして返す"""
+    deadline = time.time() + timeout_sec
+    while time.time() < deadline:
+        frame = next((f for f in page.frames if f.name == "list"), None)
+        if frame:
+            try:
+                if frame.locator('a[onclick*="openYotei"]').count() > 0:
+                    return frame
+            except Exception:
+                pass
+        time.sleep(0.5)
+    return None
+
+
+def _restore_list(page) -> object | None:
+    """「戻る」での一覧復帰に失敗したとき、メニューから検索をやり直して一覧を復元する"""
+    try:
+        menu = next((f for f in page.frames if f.name == "menu_Frm"), None)
+        if menu is None:
+            return None
+        menu.locator("a", has_text="入札予定(公告)").first.click()
+        page.wait_for_timeout(2000)
+        cond = next((f for f in page.frames if f.name == "cond"), None)
+        if cond is None:
+            return None
+        cond.evaluate(f"""() => {{
+            document.frm.ChoutatsuCD.value = '{CHOUTATSU_KOUJI}';
+            document.frm.KoujiSyubetu.value = '{KOUJI_SYUBETU_KAITAI}';
+            document.frm.ejMaxDisplayRowCount.value = '100';
+            document.frm.submit();
+        }}""")
+        page.wait_for_timeout(3000)
+        return _wait_for_list_frame(page)
+    except Exception as e:
+        print(f"  [chiba] 一覧の復元に失敗: {e}")
+        return None
+
+
 def _wait_for_main_frame_with(page, predicate_js: str, timeout_sec: int = 15):
     """mainfrm に predicate_js (boolean式) が真になるまでポーリングして返す"""
     deadline = time.time() + timeout_sec
@@ -102,20 +151,72 @@ def _extract_detail(frame) -> dict:
     }""")
 
 
-def fetch(lookback_days: int = 8, headless: bool = True) -> list[BidItem]:
+def _pdf_to_text(data: bytes) -> str:
+    try:
+        import pypdf
+        reader = pypdf.PdfReader(io.BytesIO(data))
+        return "\n".join(p.extract_text() or "" for p in reader.pages)
+    except Exception as e:
+        print(f"  [chiba] PDFテキスト抽出失敗: {e}")
+        return ""
+
+
+def _download_kokoku_text(page, frame) -> str:
+    """詳細ページの downloadForm から「公告」を含む添付を1件ダウンロードしてテキスト化する"""
+    files = frame.evaluate("""() => {
+        const out = [];
+        if (!document.downloadForm) return out;
+        for (let i = 1; i <= 10; i++) {
+            const el = document.downloadForm['AddInfoURL' + String(i).padStart(2, '0')];
+            if (el && el.value) out.push({idx: i, name: el.value});
+        }
+        return out;
+    }""")
+    target = next((f for f in files if "公告" in f["name"]), None)
+    if not target:
+        return ""
+    with page.expect_download(timeout=30000) as dl_info:
+        frame.evaluate(f"downloadStart({target['idx']})")
+    dl = dl_info.value
+    with open(dl.path(), "rb") as fh:
+        data = fh.read()
+
+    name = target["name"].lower()
+    if name.endswith(".pdf"):
+        return _pdf_to_text(data)
+    if name.endswith(".zip"):
+        texts = []
+        try:
+            zf = zipfile.ZipFile(io.BytesIO(data))
+            for n in zf.namelist():
+                if n.lower().endswith(".pdf"):
+                    texts.append(_pdf_to_text(zf.read(n)))
+                if len(texts) >= 3:   # 個別編・共通編など複数PDFまで
+                    break
+        except Exception as e:
+            print(f"  [chiba] zip展開失敗: {e}")
+        return "\n\n".join(t for t in texts if t)
+    return ""
+
+
+def fetch(lookback_days: int = 8, headless: bool = True,
+          known_keys: set | None = None) -> list[BidItem]:
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
         print("[chiba] playwright がインストールされていないためスキップ")
         return []
+    known_keys = known_keys or set()
 
     print(f"[chiba] 取得開始（調達区分=工事 工事種別=解体工事）")
     raw_items: list[dict] = []
+    detail_count = 0
 
     try:
         with sync_playwright() as pw:
             browser = pw.chromium.launch(headless=headless)
-            ctx     = browser.new_context(viewport={"width": 1400, "height": 1200})
+            ctx     = browser.new_context(viewport={"width": 1400, "height": 1200},
+                                          accept_downloads=True)
             page    = ctx.new_page()
 
             page.goto(ENTRY_URL, wait_until="networkidle", timeout=45000)
@@ -134,13 +235,23 @@ def fetch(lookback_days: int = 8, headless: bool = True) -> list[BidItem]:
             }}""")
             page.wait_for_timeout(3000)
 
-            lst = next(f for f in page.frames if f.name == "list")
+            lst = _wait_for_list_frame(page)
+            if lst is None:
+                print("  [chiba] 検索結果一覧が読み込まれませんでした")
+                browser.close()
+                return []
             count = lst.locator('a[onclick*="openYotei"]').count()
             count = min(count, MAX_ITEMS)
             print(f"  → 結果: {count} 件")
 
             for i in range(count):
-                lst = next(f for f in page.frames if f.name == "list")
+                lst = _wait_for_list_frame(page)
+                if lst is None:
+                    print(f"  [chiba] index {i} 一覧フレームの復帰タイムアウト → 検索やり直しで復元")
+                    lst = _restore_list(page)
+                if lst is None:
+                    print(f"  [chiba] index {i} 一覧を復元できず中断")
+                    break
                 try:
                     lst.locator('a[onclick*="openYotei"]').nth(i).click()
                     main_frame = _wait_for_main_frame_with(
@@ -155,9 +266,24 @@ def fetch(lookback_days: int = 8, headless: bool = True) -> list[BidItem]:
                         project_name = data.get("案件名", "")
                         location     = data.get("工事／納入場所", "")
                         kokuho_date  = _parse_wareki(data.get("公告日", ""))
+                        key          = _make_key(org_name, project_name, data.get("公告日", ""))
+
+                        # 詳細ページの全ラベルをテキスト化（予定価格・工期などを含む）
+                        detail_text = "\n".join(f"{k}\t{v}" for k, v in data.items() if v)
+
+                        # 未通知案件のみ公告ファイル（zip/PDF）をダウンロードしてテキスト追加
+                        if key not in known_keys and detail_count < MAX_DETAILS:
+                            try:
+                                kokoku_text = _download_kokoku_text(page, main_frame)
+                                if kokoku_text:
+                                    detail_text += "\n\n=== 入札公告 ===\n" + kokoku_text
+                                    detail_count += 1
+                                    print(f"    公告取得OK: {project_name[:25]}（{len(kokoku_text)}字）")
+                            except Exception as e:
+                                print(f"    [chiba] 公告ダウンロード失敗（{project_name[:20]}）: {e}")
 
                         raw_items.append({
-                            "key":                  _make_key(org_name, project_name, data.get("公告日", "")),
+                            "key":                  key,
                             "project_name":         project_name,
                             "org_name":             org_name,
                             "location":             location,
@@ -167,6 +293,7 @@ def fetch(lookback_days: int = 8, headless: bool = True) -> list[BidItem]:
                             "bid_deadline":         _parse_wareki(data.get("入札締切予定日時", "")),
                             "opening_date":         _parse_wareki(data.get("開札予定日時", "")),
                             "application_deadline": _parse_range_end(data.get("参加申請書受付日時", "")),
+                            "detail_text":          detail_text,
                         })
                 except Exception as e:
                     print(f"  [chiba] index {i} 解析エラー: {e}")
@@ -204,6 +331,7 @@ def fetch(lookback_days: int = 8, headless: bool = True) -> list[BidItem]:
             bid_deadline          = r["bid_deadline"],
             opening_date         = r["opening_date"],
             application_deadline = r["application_deadline"],
+            detail_text          = r.get("detail_text", ""),
         )
         for r in raw_items
     ]

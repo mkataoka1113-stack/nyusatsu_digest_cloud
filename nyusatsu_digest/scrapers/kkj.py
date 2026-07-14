@@ -126,7 +126,8 @@ def _call_api(project_name: str, since_date: str) -> list[dict]:
     return raw
 
 
-def fetch(lookback_days: int = LOOKBACK_DAYS) -> list[BidItem]:
+def fetch(lookback_days: int = LOOKBACK_DAYS, known_keys: set | None = None) -> list[BidItem]:
+    # known_keys は未使用（kkjは公告PDFが直リンクのため、ダウンロードは enrich 側で行う）
     since = (datetime.now(timezone.utc) - timedelta(days=lookback_days)).strftime("%Y-%m-%d")
     seen:  set[str]      = set()
     items: list[BidItem] = []

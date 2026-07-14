@@ -40,6 +40,9 @@ class BidItem:
     bid_deadline:         str        # 入札締切
     opening_date:         str        # 開札日
     application_deadline: str        # 申請締切
+    # 詳細ページ本文＋公告PDFのテキスト。AI抽出（enrich）の素材として同一実行内でのみ使い、
+    # sent_ids.json には保存しない（公開リポジトリの肥大化を防ぐため to_dict に含めない）
+    detail_text:          str = ""
 
     def to_dict(self) -> dict:
         return {

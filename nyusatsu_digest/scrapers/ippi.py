@@ -114,7 +114,9 @@ def _extract_detail(page) -> dict:
     }
 
 
-def fetch(lookback_days: int = 8, headless: bool = True) -> list[BidItem]:
+def fetch(lookback_days: int = 8, headless: bool = True,
+          known_keys: set | None = None) -> list[BidItem]:
+    # known_keys は未使用（ippiは添付PDFが直リンクのため、ダウンロードは enrich 側で行う）
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:

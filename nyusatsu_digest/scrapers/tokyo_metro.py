@@ -15,6 +15,11 @@ scrapers/tokyo_metro.py
 
 注: 「発注予定情報」は契約締結前の案件一覧であり、入札締切・開札日は未確定のため
     bid_deadline / opening_date は空。希望申請期間の終了日を application_deadline とする。
+
+詳細取得: 未通知（known_keys にない）案件は一覧の件名リンク（SelectSubmitNo）から
+    「発注予定表」詳細ページを開く。履行場所・履行期間・予定価格(税込)・開札予定日時・
+    希望申請期間などが本文テキストに含まれるため detail_text に格納し、
+    「案件一覧画面へ戻る」(SelectSubmit(7,1)) で一覧に復帰する（スパイク80で確認）。
 """
 import re
 import time
@@ -24,6 +29,7 @@ from . import BidItem
 
 PBI_URL     = "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp"
 GYOSHU_CODE = "3101"   # 解体工事（スパイクで確認。3100は平成29・30年度廃止の旧コード）
+MAX_DETAILS = 15       # 1回の実行で詳細を開く上限（安全弁）
 
 
 def _reiwa_to_year(era_year: int) -> int:
@@ -68,6 +74,7 @@ def _parse_results_table(page) -> list[dict]:
             if not m:
                 continue
             cont_no = m.group(1)
+            select_expr = href.replace("javascript:", "").strip()
 
             cft_issue_date = _parse_wareki_date(cells[0].inner_text().strip())
             contract_no    = cells[1].inner_text().strip()
@@ -77,6 +84,7 @@ def _parse_results_table(page) -> list[dict]:
 
             items.append({
                 "key":                  f"tokyometro_{cont_no}",
+                "select_expr":          select_expr,
                 "project_name":         project_name,
                 "contract_no":          contract_no,
                 "org_name":             org_name,
@@ -110,12 +118,29 @@ def _select_gyoshu_kaitai(ctx, page) -> bool:
         return False
 
 
-def fetch(lookback_days: int = 8, headless: bool = True) -> list[BidItem]:
+def _fetch_detail(page, select_expr: str) -> tuple[str, str]:
+    """発注予定表の詳細を開き、(本文テキスト, 履行場所) を返す。終了時に一覧へ戻る。"""
+    page.evaluate(select_expr)
+    page.wait_for_load_state("networkidle", timeout=30000)
+    page.wait_for_timeout(800)
+    body = page.inner_text("body")
+    m = re.search(r"履行場所\s*(.+)", body)
+    location = m.group(1).strip() if m else ""
+    # 一覧へ戻る
+    page.evaluate("SelectSubmit(7,1)")
+    page.wait_for_load_state("networkidle", timeout=30000)
+    page.wait_for_timeout(500)
+    return body, location
+
+
+def fetch(lookback_days: int = 8, headless: bool = True,
+          known_keys: set | None = None) -> list[BidItem]:
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
         print("[tokyo_metro] playwright がインストールされていないためスキップ")
         return []
+    known_keys = known_keys or set()
 
     print(f"[tokyo_metro] 取得開始（業種={GYOSHU_CODE} 解体工事）")
     raw_items: list[dict] = []
@@ -158,6 +183,20 @@ def fetch(lookback_days: int = 8, headless: bool = True) -> list[BidItem]:
                 print(f"  → ページ{page_no}: {len(raw_items) - before} 件追加")
                 page_no += 1
 
+            # 未通知案件のみ詳細（発注予定表）を開いて本文を取得
+            targets = [r for r in raw_items if r["key"] not in known_keys][:MAX_DETAILS]
+            if targets:
+                print(f"  → 詳細取得対象: {len(targets)} 件")
+            for r in targets:
+                try:
+                    detail_text, location = _fetch_detail(page, r["select_expr"])
+                    r["detail_text"] = detail_text
+                    r["location"]    = location
+                    print(f"    詳細OK: {r['project_name'][:25]}（{len(detail_text)}字）")
+                except Exception as e:
+                    print(f"    [tokyo_metro] 詳細取得失敗（{r['key']}）: {e}")
+                time.sleep(1.0)
+
             browser.close()
 
     except Exception as e:
@@ -180,10 +219,11 @@ def fetch(lookback_days: int = 8, headless: bool = True) -> list[BidItem]:
             procedure_type       = r["procedure_type"],
             doc_uri              = PBI_URL,
             attachments          = [],
-            location             = "",
+            location             = r.get("location", ""),
             bid_deadline         = "",
             opening_date         = "",
             application_deadline = r["application_deadline"],
+            detail_text          = r.get("detail_text", ""),
         )
         for r in raw_items
     ]

@@ -13,6 +13,10 @@ Playwrightで取得する。
   4. 結果テーブル（No./案件状態/案件名/案件区分+入札方式+参加形態/業種/期間/
      申込受付期間/開札予定日時/落札業者名）を解析
   5. 次ページボタン（name="ji_ss_y1"）があれば追従
+  6. 未通知（known_keys にない）案件は No.リンクをクリックすると案件詳細が
+     「新しいウィンドウ」で開く（スパイクで確認）。詳細には工事・履行場所／期間／
+     予定価格（税抜・税込）／入札参加要件／各種締切日時が本文テキストで含まれるため、
+     body テキストを detail_text に格納して閉じる。
 
 注: JKKは発注者が常にJKK東京自身のため org_name は固定値。
     案件一覧には公告日に相当する列がないため、申込受付期間の開始日を cft_issue_date、
@@ -26,6 +30,7 @@ TOP_URL      = "https://www.to-kousya.or.jp/keiyaku/nyusatu/index.html"
 CATEGORY_ID  = "015"   # 解体（スパイクで確認）
 STATUS_UKETSUKE_CHU = "20"   # 入札参加受付中
 ORG_NAME     = "東京都住宅供給公社（JKK東京）"
+MAX_DETAILS  = 15      # 1回の実行で詳細を開く上限（安全弁）
 
 
 def _split_lines(cell_text: str) -> list[str]:
@@ -89,12 +94,29 @@ def _parse_results_table(page) -> list[dict]:
     return items
 
 
-def fetch(lookback_days: int = 8, headless: bool = True) -> list[BidItem]:
+def _fetch_detail(ctx, bid, auc_id: str) -> str:
+    """No.リンクをクリックして新ウィンドウで開く詳細の本文テキストを返す"""
+    link = bid.locator(f'a[id="linkNo_{auc_id}"]').first
+    if link.count() == 0:
+        return ""
+    with ctx.expect_page(timeout=15000) as detail_info:
+        link.click()
+    detail = detail_info.value
+    detail.wait_for_load_state("networkidle", timeout=30000)
+    detail.wait_for_timeout(500)
+    text = detail.inner_text("body")
+    detail.close()
+    return text
+
+
+def fetch(lookback_days: int = 8, headless: bool = True,
+          known_keys: set | None = None) -> list[BidItem]:
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
         print("[jkk] playwright がインストールされていないためスキップ")
         return []
+    known_keys = known_keys or set()
 
     print(f"[jkk] 取得開始（業種=解体 案件状態=入札参加受付中）")
     raw_items: list[dict] = []
@@ -121,8 +143,23 @@ def fetch(lookback_days: int = 8, headless: bool = True) -> list[BidItem]:
             page_no = 1
             while True:
                 before = len(raw_items)
-                raw_items.extend(_parse_results_table(bid))
+                page_items = _parse_results_table(bid)
+                raw_items.extend(page_items)
                 print(f"  → ページ{page_no}: {len(raw_items) - before} 件")
+
+                # 未通知案件のみ、このページ上で詳細（新ウィンドウ）を開いて本文を取得
+                detail_count = sum(1 for r in raw_items if r.get("detail_text"))
+                for r in page_items:
+                    if r["key"] in known_keys or detail_count >= MAX_DETAILS:
+                        continue
+                    auc_id = r["key"].replace("jkk_", "")
+                    try:
+                        r["detail_text"] = _fetch_detail(ctx, bid, auc_id)
+                        detail_count += 1
+                        print(f"    詳細OK: {r['project_name'][:25]}（{len(r['detail_text'])}字）")
+                    except Exception as e:
+                        print(f"    [jkk] 詳細取得失敗（{auc_id}）: {e}")
+                    bid.wait_for_timeout(800)
 
                 next_btn = bid.locator('[name="ji_ss_y1"]').first
                 if next_btn.count() == 0:
@@ -163,6 +200,7 @@ def fetch(lookback_days: int = 8, headless: bool = True) -> list[BidItem]:
             bid_deadline         = "",
             opening_date         = r["opening_date"],
             application_deadline = r["application_deadline"],
+            detail_text          = r.get("detail_text", ""),
         )
         for r in raw_items
     ]
