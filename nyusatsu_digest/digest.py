@@ -515,9 +515,13 @@ def main() -> None:
 
     active_clients = [c for c in clients if c.get("active", True)]
 
-    # ── sent_ids 先読み（通知済みキーを詳細取得のスキップ判定に使う） ──
+    # ── sent_ids 先読み ──
+    # known_keys は各スクレイパーが詳細ページ取得をスキップする判定に使う。
+    # 「AI抽出（enrich）が済んでいる案件」だけをスキップ対象にすることで、
+    # 抽出前の既存案件や一時的にAIが失敗した案件（enrichキーを削除すれば）も
+    # 次回実行時に詳細取得→抽出をやり直せる（1回あたりの件数は各所の上限で制御）
     sent_ids = load_sent_ids()
-    known_keys = set(sent_ids.keys())
+    known_keys = {key for key, entry in sent_ids.items() if "enrich" in entry}
 
     # ── スクレイパー実行 ──
     all_items: list = []
