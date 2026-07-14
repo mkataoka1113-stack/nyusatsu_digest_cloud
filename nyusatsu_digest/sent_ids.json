@@ -3673,11 +3673,22 @@
     "doc_uri": "https://www.city.tamura.lg.jp/soshiki/3/assets/260731%E6%9D%A1%E4%BB%B6%E4%BB%98%E3%81%8D%E5%85%A5%E6%9C%AD%E5%85%AC%E5%91%8A%E7%AC%AC237%E5%8F%B7%281-121%29.pdf",
     "attachments": [],
     "location": "",
-    "bid_deadline": "",
+    "bid_deadline": "2026-07-31T09:30:00",
     "opening_date": "",
-    "application_deadline": "",
+    "application_deadline": "2026-07-24T16:00:00",
     "fetched_date": "2026-07-08",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": "市内登録業者とする。(市内登録業者とは田村市内に本社を置く者。)",
+      "koki": "契約締結の日から7日以内において発注者が指定する日から令和8年12月25日まで",
+      "application_deadline": "2026-07-24T16:00:00",
+      "bid_deadline": "2026-07-31T09:30:00",
+      "summary": "消防屯所、火の見櫓解体工事を行う。屯所は木造2階建てで、火の見櫓はS造である。"
+    }
   },
   "ZnVrdXNoaW1hL3RhbXVyYV9jaXR5LzIwMjYvMjAyNjA3MzFfMDEzNDcK": {
     "source": "kkj",
@@ -3695,11 +3706,22 @@
     "doc_uri": "https://www.city.tamura.lg.jp/soshiki/3/assets/260731%E6%9D%A1%E4%BB%B6%E4%BB%98%E3%81%8D%E5%85%A5%E6%9C%AD%E5%85%AC%E5%91%8A%E7%AC%AC236%E5%8F%B7%281-122%29.pdf",
     "attachments": [],
     "location": "",
-    "bid_deadline": "",
+    "bid_deadline": "2026-07-30T00:00:00",
     "opening_date": "",
-    "application_deadline": "",
+    "application_deadline": "2026-07-24T00:00:00",
     "fetched_date": "2026-07-08",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": null,
+      "koki": "契約締結の日から7日以内において発注者が指定する日から令和8年12月25日まで",
+      "application_deadline": "2026-07-24T00:00:00",
+      "bid_deadline": "2026-07-30T00:00:00",
+      "summary": "消防屯所解体工事を行う。2階建て（1階部：RC造、2階部：木造）で、面積は45.33㎡。"
+    }
   },
   "ZnVrdXNoaW1hL3RhbXVyYV9jaXR5LzIwMjYvMjAyNjA3MzFfMDEzNDYK": {
     "source": "kkj",
@@ -3717,11 +3739,22 @@
     "doc_uri": "https://www.city.tamura.lg.jp/soshiki/3/assets/260731%E6%9D%A1%E4%BB%B6%E4%BB%98%E3%81%8D%E5%85%A5%E6%9C%AD%E5%85%AC%E5%91%8A%E7%AC%AC235%E5%8F%B7%281-109%29.pdf",
     "attachments": [],
     "location": "",
-    "bid_deadline": "",
+    "bid_deadline": "2026-07-30T16:00:00",
     "opening_date": "",
-    "application_deadline": "",
+    "application_deadline": "2026-07-24T00:00:00",
     "fetched_date": "2026-07-08",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": null,
+      "koki": "契約締結の日から7日以内において発注者が指定する日から令和8年12月18日まで",
+      "application_deadline": "2026-07-24T00:00:00",
+      "bid_deadline": "2026-07-30T16:00:00",
+      "summary": "市営住宅解体工事を行う。荻ノ目団地N=1棟4戸を対象とする。条件付き一般競争入札を行う。"
+    }
   },
   "eWFtYW5hc2hpL2tvZnVfY2l0eS8yMDI2LzIwMjYwNzA3XzAxMzY3Cg==": {
     "source": "kkj",
@@ -3744,11 +3777,22 @@
       }
     ],
     "location": "甲府市上帯那町地内工事概要１ 工事内容牧場入口看板撤去 １式牧場ゲート撤去 １式水飲み場撤去 １式餌場撤去 １式柵撤去",
-    "bid_deadline": "",
+    "bid_deadline": "2026-07-29T11:20:00",
     "opening_date": "令和８年７月７日",
-    "application_deadline": "",
+    "application_deadline": "2026-07-16T15:00:00",
     "fetched_date": "2026-07-08",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "24,200,000円（税込み）",
+      "region_requirement": "甲府市内",
+      "koki": "令和9年1月29日まで",
+      "application_deadline": "2026-07-16T15:00:00",
+      "bid_deadline": "2026-07-29T11:20:00",
+      "summary": "帯那山高原牧場の解体工事を行う。工事内容は、牧場入口看板撤去、牧場ゲート撤去、水飲み場撤去、餌場撤去、柵撤去など。"
+    }
   },
   "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDcvMjAyNjA3MDdfNzUyMDgK": {
     "source": "kkj",
@@ -3793,11 +3837,22 @@
     "doc_uri": "https://ppi.keiyaku.city.hiroshima.lg.jp/PPI_P/DownLoad/202610018100101.pdf",
     "attachments": [],
     "location": "",
-    "bid_deadline": "",
+    "bid_deadline": "2026-07-22T16:00:00",
     "opening_date": "令和８年７月２４日",
     "application_deadline": "",
     "fetched_date": "2026-07-08",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "落札決定後に公表",
+      "region_requirement": "広島市内に本店を有していること",
+      "koki": "契約締結の日から180日間",
+      "application_deadline": null,
+      "bid_deadline": "2026-07-22T16:00:00",
+      "summary": "可部東保育園の解体工事を行う。解体工事のほか、浄化槽解体、外構解体、遊具解体、建物その他解体後整地、電気設備撤去、機械設備撤去などを行う。"
+    }
   },
   "aXdhdGUvb3RzdWNoaV90b3duLzIwMjYvMjAyNjA3MDdfMDAxMTQK": {
     "source": "kkj",
@@ -3826,9 +3881,20 @@
     "location": "",
     "bid_deadline": "令和８年７月17日",
     "opening_date": "",
-    "application_deadline": "",
+    "application_deadline": "2026-07-17T17:00:00",
     "fetched_date": "2026-07-08",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": null,
+      "region_requirement": "岩手県内に本社を有すること",
+      "koki": null,
+      "application_deadline": "2026-07-17T17:00:00",
+      "bid_deadline": null,
+      "summary": "大槌勤労青少年体育センター解体工事設計業務の委託に関する入札公告"
+    }
   },
   "aHlvZ28vaHlvZ29fcHJlZi8yMDI2LzIwMjYwNzA3XzAzNjAwCg==": {
     "source": "kkj",
@@ -3859,7 +3925,18 @@
     "opening_date": "2026-07-29T00:00:00+09:00",
     "application_deadline": "令和８年７月24日",
     "fetched_date": "2026-07-08",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": null,
+      "region_requirement": "中播磨県民センター、東播磨県民局、西播磨県民局、但馬県民局又は北播磨県民局管内に建設業の許可を受けた主たる営業所を有すること",
+      "koki": "契約締結日から令和９年３月31日17時限り",
+      "application_deadline": "2026-07-16T00:00:00",
+      "bid_deadline": "2026-07-28T12:00:00",
+      "summary": "県立大学姫路工学キャンパスの建替整備に伴う基礎解体撤去工事および汚染土壌の入替工事を行う。工事には、土壌汚染対策法に基づく形質変更時要届出区域の指定を受けた区域が含まれる。"
+    }
   },
   "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjA3MDdfMDM4MjcK": {
     "source": "kkj",
@@ -3886,7 +3963,18 @@
     "opening_date": "令和8年7月22日",
     "application_deadline": "",
     "fetched_date": "2026-07-08",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "2,172,000円（消費税、地方消費税の額は含まず）",
+      "region_requirement": null,
+      "koki": "令和9年1月28日",
+      "application_deadline": null,
+      "bid_deadline": "2026-07-23T16:00:00",
+      "summary": "三原市久井町吉田の元久井青年の家解体設計業務を委託する。契約金額は2,172,000円（税抜）を予定。"
+    }
   },
   "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjA3MDdfMDM4MjEK": {
     "source": "kkj",
@@ -3913,7 +4001,18 @@
     "opening_date": "令和8年7月22日",
     "application_deadline": "",
     "fetched_date": "2026-07-08",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "17,963,000円（消費税、地方消費税の額は含まず）",
+      "region_requirement": null,
+      "koki": "令和9年9月30日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-07-23T16:00:00",
+      "summary": "三原市本郷町本郷の元本郷清掃工場解体設計業務を委託する。契約金額の10分の1以上を契約保証金として納付する必要がある。"
+    }
   },
   "Z292L2phZWFfZ28vMjAyNi8yMDI2MDcwN18wNTEwNQo=": {
     "source": "kkj",
@@ -3931,13 +4030,24 @@
     "doc_uri": "https://keiyaku.jaea.go.jp/compe/02/pdf/0804C00472.pdf",
     "attachments": [],
     "location": "国立研究開発法人日本原子力研究開発機構",
-    "bid_deadline": "",
+    "bid_deadline": "2026-09-08T17:00:00",
     "opening_date": "令和8年9月9日",
     "application_deadline": "",
     "fetched_date": "2026-07-08",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": "2026-09-08T17:00:00",
+      "summary": "解体撤去物等収容容器製造一式の調達を行う。納入期限は令和9年1月29日。"
+    }
   },
   "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDcvMjAyNjA3MDhfNzUyNjIK": {
     "source": "kkj",
@@ -3987,11 +4097,22 @@
       }
     ],
     "location": "できる",
-    "bid_deadline": "",
+    "bid_deadline": "2026-07-22T10:20:00",
     "opening_date": "",
-    "application_deadline": "",
+    "application_deadline": "2026-07-16T17:00:00",
     "fetched_date": "2026-07-09",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "11,470,000円（税抜）",
+      "region_requirement": "市内業者",
+      "koki": "契約日～令和8年11月20日",
+      "application_deadline": "2026-07-16T17:00:00",
+      "bid_deadline": "2026-07-22T10:20:00",
+      "summary": "志摩市志摩町地内にある志摩のり人工採苗施設の解体工事。解体工事一式、S造平屋、328.8㎡。月2回土日完全週休2日制工事。情報共有システム(ASP方式)試行案件。"
+    }
   },
   "aXdhdGUvaXdhdGVfcHJlZi8yMDI2LzIwMjYwNzA4XzA2MDM4Cg==": {
     "source": "kkj",
@@ -4030,11 +4151,22 @@
       }
     ],
     "location": "盛岡市三ツ割地内 円也９０日間名 称 数 量 単 位 摘 要業 務 の 概 要木造建物A調査",
-    "bid_deadline": "",
+    "bid_deadline": "2026-07-30T13:30:00",
     "opening_date": "令和８年７月８日",
-    "application_deadline": "",
+    "application_deadline": "2026-07-15T17:00:00",
     "fetched_date": "2026-07-09",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": null,
+      "region_requirement": "盛岡広域振興局の所管区域内に本店又は営業所等（岩手県内に本店を有する者の営業所に限る。）を有する者",
+      "koki": "90日間",
+      "application_deadline": "2026-07-15T17:00:00",
+      "bid_deadline": "2026-07-30T13:30:00",
+      "summary": "旧岩手県営野球場解体工事工損調査（事前）業務委託。盛岡市三ツ割地内。工事対象地近隣の地盤変動影響事前調査等（調査家屋 ７戸）"
+    }
   },
   "Z292Ny9ob3VtdWt5b2t1LzIwMjYvMjAyNjA3MDhfMDg4NzUK": {
     "source": "kkj",
@@ -4054,9 +4186,20 @@
     "location": "福岡県うきは市吉井町３４３番地５",
     "bid_deadline": "令和８年８月２５日",
     "opening_date": "令和８年８月２５日",
-    "application_deadline": "",
+    "application_deadline": "2026-07-21T17:00:00",
     "fetched_date": "2026-07-09",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日の翌日から2027年1月29日（金）まで",
+      "application_deadline": "2026-07-21T17:00:00",
+      "bid_deadline": "2026-08-25T17:00:00",
+      "summary": "本工事は、福岡県うきは市吉井町に所在する福岡法務局旧吉井法務総合庁舎の解体工事である。建物及び付属する工作物を解体・撤去し、地中埋設物も全て撤去する。その後、庁舎敷地を更地にして整地する。"
+    }
   },
   "Z292L2phZWFfZ28vMjAyNi8yMDI2MDcwOF8wNTExMAo=": {
     "source": "kkj",
@@ -4080,7 +4223,18 @@
     "fetched_date": "2026-07-09",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "2027年3月26日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-09-03T15:00:00",
+      "summary": "ガラス固化技術開発施設（TVF）で使用する解体場パワーマニプレータ用コントローラ等の製作を1式行う。入札は電子入札システムを通じて総価で行われる。"
+    }
   },
   "ZWhpbWUveWF3YXRhaGFtYV9jaXR5LzIwMjYvMjAyNjA3MDhfMDAwMDgK": {
     "source": "kkj",
@@ -4098,11 +4252,22 @@
     "doc_uri": "https://www.city.yawatahama.ehime.jp/doc/2026070800034/file_contents/file_2026783104940_1.pdf",
     "attachments": [],
     "location": "八幡浜市沖新田⑷ 工 期 契約締結の日の翌日から令和９年２月２６日まで⑸ 工事概要",
-    "bid_deadline": "",
+    "bid_deadline": "2026-08-03T17:00:00",
     "opening_date": "令和８年８月４日",
-    "application_deadline": "",
+    "application_deadline": "2026-07-22T17:00:00",
     "fetched_date": "2026-07-09",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "64,140,000円（税抜き）",
+      "region_requirement": "八幡浜市内に本店を置いていること",
+      "koki": "契約締結日の翌日から令和9年2月26日まで",
+      "application_deadline": "2026-07-22T17:00:00",
+      "bid_deadline": "2026-08-03T17:00:00",
+      "summary": "みなっと立体駐車場整備事業に伴う漁具倉庫等解体工事。解体建物は鉄筋コンクリート造と鉄骨造の2棟。アスベスト除去工事も含む。"
+    }
   },
   "YW9tb3JpL2dvc2hvZ2F3YXJhX2NpdHkvMjAyNi8yMDI2MDcwOF8wMDQ2Nwo=": {
     "source": "kkj",
@@ -4125,11 +4290,22 @@
       }
     ],
     "location": "五所川原市金木町喜良市千苅 地内 令和８年 月 日に締結した上記建設工事の請負契約に関する紛争については、発注者及び受注",
-    "bid_deadline": "",
+    "bid_deadline": "2026-07-23T09:00:00",
     "opening_date": "令和8年7月23日",
-    "application_deadline": "",
+    "application_deadline": "2026-07-15T00:00:00",
     "fetched_date": "2026-07-09",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "13,684,000円",
+      "region_requirement": "五所川原市内に本店を有すること",
+      "koki": "令和8年10月30日",
+      "application_deadline": "2026-07-15T00:00:00",
+      "bid_deadline": "2026-07-23T09:00:00",
+      "summary": "柏木団地市営住宅の解体工事及び整地工事の一式"
+    }
   },
   "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDcvMjAyNjA3MDlfNzU0MjcK": {
     "source": "kkj",
@@ -4203,11 +4379,22 @@
     "doc_uri": "https://www.city.kure.lg.jp/~koji/files/000000000000040934.PDF",
     "attachments": [],
     "location": "呉市天応大浜３丁目地内建設工事の種類 解体工事建築解体撤去工事  一式，電気設備解体撤去工事  一式，機械設備解体撤去工",
-    "bid_deadline": "",
+    "bid_deadline": "2026-07-22T16:00:00",
     "opening_date": "令和8年7月9日",
     "application_deadline": "",
     "fetched_date": "2026-07-10",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "28,472,000円（消費税抜き）",
+      "region_requirement": "建設業許可に係る主たる営業所を呉市内に有すること",
+      "koki": "2026年11月26日",
+      "application_deadline": null,
+      "bid_deadline": "2026-07-22T16:00:00",
+      "summary": "呉市天応大浜３丁目地内において、呉ポートピアパーク施設のアーケード解体撤去工事を実施します。本工事には、建築、電気設備、機械設備の解体撤去作業一式が含まれます。"
+    }
   },
   "Z292L2phZWFfZ28vMjAyNi8yMDI2MDcwOV8wNTEyNQo=": {
     "source": "kkj",
@@ -4231,7 +4418,18 @@
     "fetched_date": "2026-07-10",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "2029年2月28日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-09-30T14:00:00",
+      "summary": "燃料研究棟グローブボックスの除染・解体作業を1式行う。作業は燃料研究棟建家にて実施される。本件は電子入札システムを通じて行われる。"
+    }
   },
   "ZnVrdXNoaW1hL3BvbGljZV9mdWt1c2hpbWEvMjAyNi8yMDI2MDcwOV8wMTIyNQo=": {
     "source": "kkj",
@@ -4249,11 +4447,22 @@
     "doc_uri": "https://www.police.pref.fukushima.jp/new/nyuusatu/R8nyuusatu/26-0025koukoku.pdf",
     "attachments": [],
     "location": "",
-    "bid_deadline": "",
+    "bid_deadline": "2026-08-18T15:00:00",
     "opening_date": "令和8年7月21日",
     "application_deadline": "令和8年7月21日",
     "fetched_date": "2026-07-10",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "契約締結後に公表する。",
+      "region_requirement": "福島県内に本店を有すること",
+      "koki": "182日間",
+      "application_deadline": "2026-08-03T00:00:00",
+      "bid_deadline": "2026-08-18T15:00:00",
+      "summary": "伊達警察署大泉待機宿舎B棟および外構の解体工事です。大泉待機宿舎B棟はRC3階建てで、延べ面積は831.56㎡です。"
+    }
   },
   "chiba_4527be8e2b226363": {
     "source": "chiba",
@@ -4369,9 +4578,20 @@
     "location": "",
     "bid_deadline": "令和8年7月25日",
     "opening_date": "令和8年8月4日",
-    "application_deadline": "",
+    "application_deadline": "2026-07-24T16:00:00",
     "fetched_date": "2026-07-11",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "12,650,000円（消費税及び地方消費税を除く。）",
+      "region_requirement": "葛城市内に本店を有すること",
+      "koki": "契約日から 2026年12月28日（月）まで",
+      "application_deadline": "2026-07-24T16:00:00",
+      "bid_deadline": "2026-08-04T12:00:00",
+      "summary": "市営住宅堂の久保団地の空家4戸を耐用年数超過のため解体する工事です。本工事は葛城市林堂地内で行われます。"
+    }
   },
   "bWl5YWdpL3NoaWJhdGFfdG93bi8yMDI2LzIwMjYwNzEwXzAwMDQzCg==": {
     "source": "kkj",
@@ -4398,11 +4618,22 @@
       }
     ],
     "location": "",
-    "bid_deadline": "",
+    "bid_deadline": "2026-08-06T10:00:00",
     "opening_date": "",
-    "application_deadline": "",
+    "application_deadline": "2026-07-28T17:00:00",
     "fetched_date": "2026-07-11",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": null,
+      "region_requirement": "宮城県内の名取市、岩沼市、角田市、白石市、蔵王町、七ヶ宿町、柴田町、大河原町、村田町、川崎町、丸森町、亘理町、山元町に本店または委任先を有すること",
+      "koki": "議会議決日の翌日以降から2027年3月19日まで",
+      "application_deadline": "2026-07-28T17:00:00",
+      "bid_deadline": "2026-08-06T10:00:00",
+      "summary": "本工事は、2023年3月まで槻木事務所として使用されてきた建物の解体と敷地の整地を行うものです。建物は鉄骨造2階建てで、延床面積は343.84㎡です。"
+    }
   },
   "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA3MTBfMDA3ODgK": {
     "source": "kkj",
@@ -4447,11 +4678,22 @@
     "doc_uri": "https://www.city.fukagawa.lg.jp/cms/section/zeimuzaisei/ftsk200000000bxi-att/aajrae0000004cyz.pdf",
     "attachments": [],
     "location": "",
-    "bid_deadline": "",
+    "bid_deadline": "2026-07-22T10:00:00",
     "opening_date": "令和８年７月２２日",
-    "application_deadline": "",
+    "application_deadline": "2026-07-15T17:00:00",
     "fetched_date": "2026-07-11",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "8,118,000円（消費税及び地方消費税相当額を含む。）",
+      "region_requirement": "解体工事に登録されている市内業者であること。",
+      "koki": "契約締結の日から2026年11月30日まで",
+      "application_deadline": "2026-07-15T17:00:00",
+      "bid_deadline": "2026-07-22T10:00:00",
+      "summary": "深川市多度志1093番地における木造2階建て（225.54㎡）の住宅解体工事。量水器撤去、給水管敷地閉止、汚水管TSキャップ止めも含まれる。"
+    }
   },
   "aGlyb3NoaW1hL21peW9zaGlfY2l0eS8yMDI2LzIwMjYwNzEwXzAxMTkxCg==": {
     "source": "kkj",
@@ -4486,7 +4728,18 @@
     "opening_date": "令和8年7月23日",
     "application_deadline": "",
     "fetched_date": "2026-07-11",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "6,395,000円（消費税及び地方消費税相当額を除く。）",
+      "region_requirement": "市内に本社・本店を有するもの。",
+      "koki": "契約日から2026年12月18日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-07-22T16:00:00",
+      "summary": "旧灰塚小学校の廃校に伴い不要となった水泳プール及び付属施設を解体する工事です。工事内容はプール解体工N=1.0式となります。"
+    }
   },
   "eWFtYWdhdGEvdHN1cnVva2FfY2l0eS8yMDI2LzIwMjYwNzEzXzAyMjUzCg==": {
     "source": "kkj",
@@ -4509,11 +4762,22 @@
       }
     ],
     "location": "鶴岡市大網字西大石 63-1、鶴岡市大網字中田 56-2",
-    "bid_deadline": "",
+    "bid_deadline": "2026-07-30T09:20:00",
     "opening_date": "令和8年7月13日",
     "application_deadline": "令和8年7月13日",
     "fetched_date": "2026-07-14",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "5,450,000円（消費税及び地方消費税を含まない。）",
+      "region_requirement": "市内に本店を有すること",
+      "koki": "2026年8月6日から2026年11月13日まで",
+      "application_deadline": "2026-07-28T00:00:00",
+      "bid_deadline": "2026-07-30T09:20:00",
+      "summary": "鶴岡市大網地内において、消防ポンプ庫およびホース乾燥塔の解体工事を実施します。対象は下村ポンプ庫（ブロック造1階、37.54㎡）と中村ポンプ庫（木造1階、19.87㎡）です。"
+    }
   },
   "d2FrYXlhbWEvcG9saWNlLXdha2F5YW1hLzIwMjYvMjAyNjA3MTNfMDM1MTAK": {
     "source": "kkj",
@@ -4531,11 +4795,22 @@
     "doc_uri": "https://www.police.pref.wakayama.lg.jp/nyusatu/si-260713-24.pdf",
     "attachments": [],
     "location": "別記第１号様式の２",
-    "bid_deadline": "",
+    "bid_deadline": "2026-07-24T13:30:00",
     "opening_date": "令和8年7月30日",
     "application_deadline": "",
     "fetched_date": "2026-07-14",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "477,000円（税抜き）",
+      "region_requirement": "有田振興局建設部管内に、主たる営業所を有する者であること",
+      "koki": "30日間",
+      "application_deadline": null,
+      "bid_deadline": "2026-07-24T13:30:00",
+      "summary": "「有田湯浅警察署職員宿舎車庫解体工事」は、和歌山県有田市地内で行われる。本工事は、有田湯浅警察署職員宿舎車庫（S造平屋建、延床面積17.03㎡）の上屋及び基礎立ち上がり部分の解体撤去と撤去跡補修を含む。"
+    }
   },
   "b2theWFtYS90YW1hbm9fY2l0eS8yMDI2LzIwMjYwNzEzXzAwMDEyCg==": {
     "source": "kkj",
@@ -4557,7 +4832,18 @@
     "opening_date": "",
     "application_deadline": "",
     "fetched_date": "2026-07-14",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "summary": "玉野市宇野１丁目地内で行われる玉野市旧庁舎の解体工事です。アスベスト含有建材の除去、混合廃棄物の運搬・処分、埋戻し、PCB・アスベスト調査などが含まれます。"
+    }
   },
   "bWl5YWdpL2t1cmloYXJhX2NpdHkvMjAyNi8yMDI2MDcxM18wMDk1MAo=": {
     "source": "kkj",
@@ -4577,9 +4863,20 @@
     "location": "",
     "bid_deadline": "令和８年７月１３日",
     "opening_date": "令和８年７月１３日",
-    "application_deadline": "",
+    "application_deadline": "2026-07-21T16:00:00",
     "fetched_date": "2026-07-14",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": null,
+      "region_requirement": "栗原市内に本社（本店）、支店・営業所等で登録していること。",
+      "koki": "契約締結日の翌日から2027年2月26日まで",
+      "application_deadline": "2026-07-21T16:00:00",
+      "bid_deadline": "2026-07-29T10:10:00",
+      "summary": "旧高田山ポンプ場の解体工事一式。鉄筋コンクリート造のポンプ室、ポンプ井室、滅菌室、倉庫などの建物と、地下式水槽、門扉、水路、フェンス等の附帯施設を解体する。"
+    }
   },
   "aWJhcmFraS9oaXRhY2hpbmFrYV9jaXR5LzIwMjYvMjAyNjA3MTNfMDEwNDAK": {
     "source": "kkj",
@@ -4603,7 +4900,18 @@
     "fetched_date": "2026-07-14",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "22,530,000円(税抜き)",
+      "region_requirement": "ひたちなか市内に本社を有すること",
+      "koki": "120日間",
+      "application_deadline": "2026-07-27T17:00:00",
+      "bid_deadline": "2026-07-30T17:00:00",
+      "summary": "北神敷台事務所解体工事は、北神敷台地内で行われる。この工事は、鉄骨造地上3階建ての事務所（床面積361.0㎡）の解体、屋根材・基礎・電気・機械設備の撤去を含む。その他、アスファルト舗装や物置の撤去、地均し、防草シート張り、囲障の設置も含まれる。"
+    }
   },
   "aGlyb3NoaW1hL2FraXRha2F0YV9jaXR5LzIwMjYvMjAyNjA3MTNfMDAyMjQK": {
     "source": "kkj",
@@ -4626,11 +4934,22 @@
       }
     ],
     "location": "安芸高田市甲田町高田原",
-    "bid_deadline": "",
+    "bid_deadline": "2026-07-31T16:00:00",
     "opening_date": "",
     "application_deadline": "",
     "fetched_date": "2026-07-14",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "16,490,000円（消費税相当額を除く）",
+      "region_requirement": "安芸高田市に主たる営業所を有する者",
+      "koki": "契約の日の翌日から 2026 年 11 月 30 日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-07-31T16:00:00",
+      "summary": "旧小田東保育所の解体工事です。RC造平屋建ての園舎（鉄骨造建物上屋解体650延㎡）と木造倉庫（木造建物解体75延㎡）を解体し、環境配慮工事と敷地整地工事も行います。"
+    }
   },
   "ZnVrdXNoaW1hL21pbmFtaXNvbWFfY2l0eS8yMDI2LzIwMjYwNzEzXzAwMDIzCg==": {
     "source": "kkj",
@@ -4657,7 +4976,18 @@
     "opening_date": "令和8年8月5日",
     "application_deadline": "令和8年7月13日",
     "fetched_date": "2026-07-14",
-    "notified": []
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-14T05:36:27+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": "南相馬市内に建設業法第3条第1項に規定する本店を有する者",
+      "koki": "契約日の翌日から2027年3月12日まで",
+      "application_deadline": "2026-07-27T17:00:00",
+      "bid_deadline": "2026-08-05T09:00:00",
+      "summary": "南相馬市原町区日の出町地内における日の出町団地（東）の解体工事。RC造2階建てのA棟～G棟ほか、延床面積1,282.44㎡の建物を解体する。建築、電気設備、機械設備、外構その他工事を含む。"
+    }
   },
   "chiba_1a578d72f928f972": {
     "source": "chiba",
