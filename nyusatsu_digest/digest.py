@@ -293,6 +293,11 @@ def norm_display(text: str) -> str:
     return _wareki_to_seireki(str(text).translate(_ZEN2HAN))
 
 
+def dates_to_slash(text: str) -> str:
+    """文中の「YYYY年M月D日」だけを「YYYY/M/D」に置き換える（他の文字列は触らない）"""
+    return re.sub(r"(\d{4})年\s*(\d{1,2})月\s*(\d{1,2})日", r"\1/\2/\3", text)
+
+
 def normalize_price(raw: str) -> str:
     """予定価格をシンプルな表記に統一する（例: 62,130,000円（税込））。
     「消費税及び地方消費税を含む」等の長い注記は税込/税抜の2値に畳む"""
@@ -550,7 +555,7 @@ def build_dashboard(all_items: list[dict]) -> str:
         price     = esc(normalize_price(enrich.get("planned_price") or ""))
         price_raw = esc(norm_display(enrich.get("planned_price") or ""), quote=True)
         region    = norm_display(enrich.get("region_requirement") or "")
-        koki      = esc(norm_display(enrich.get("koki") or "—"))
+        koki      = esc(dates_to_slash(norm_display(enrich.get("koki") or "—")))
         summary   = norm_display(enrich.get("summary") or "")
 
         # 発注機関の下の補足行（入札方式・工事場所があるものだけ）
@@ -611,13 +616,14 @@ def build_dashboard(all_items: list[dict]) -> str:
 <meta charset="utf-8">
 <meta name="robots" content="noindex">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>入札公告ダッシュボード</title>
+<title>入札公告一覧</title>
 <style>
   *{{box-sizing:border-box;}}
   body{{font-family:'Hiragino Kaku Gothic ProN','Yu Gothic UI','Yu Gothic',Meiryo,sans-serif;
         margin:0;background:#f2f3ef;color:#272b26;line-height:1.7;}}
-  .page{{max-width:1080px;margin:0 auto;padding:0 20px 40px;}}
-  header{{background:#243b31;color:#eef1ec;margin:0 -20px 20px;padding:24px 36px;}}
+  .page{{max-width:1080px;margin:0 auto;padding:20px 20px 40px;}}
+  header{{background:#243b31;color:#eef1ec;}}
+  .hd-in{{max-width:1080px;margin:0 auto;padding:24px 20px;}}
   header h1{{margin:0;font-size:19px;font-weight:600;letter-spacing:.04em;}}
   header p{{margin:5px 0 0;font-size:12px;color:#a7bcae;font-variant-numeric:tabular-nums;}}
   .search-bar{{display:flex;gap:8px;margin-bottom:8px;}}
@@ -650,8 +656,9 @@ def build_dashboard(all_items: list[dict]) -> str:
   .wide .wlabel{{display:inline-block;font-size:10.5px;font-weight:700;color:#48604f;
                  letter-spacing:.08em;margin-right:8px;}}
   .wide.req .wlabel{{display:block;margin:0 0 2px;color:#8a5a12;}}
-  .req-item{{padding-left:12px;border-left:2px solid #e8dcc8;margin-bottom:3px;color:#4b4237;}}
-  .req-item .sublabel{{font-size:10.5px;font-weight:700;color:#9a8a70;margin-right:8px;}}
+  .req-item{{padding-left:12px;border-left:2px solid #e8dcc8;margin-bottom:3px;
+             color:#2c3a30;font-weight:600;}}
+  .req-item .sublabel{{font-size:10.5px;color:#8a5a12;margin-right:8px;}}
   .card-ft{{margin-top:auto;display:flex;justify-content:space-between;align-items:center;
             padding:12px 20px 15px;gap:10px;flex-wrap:wrap;}}
   .links a{{font-size:12.5px;color:#2c5d49;text-decoration:none;font-weight:600;margin-right:14px;}}
@@ -664,12 +671,14 @@ def build_dashboard(all_items: list[dict]) -> str:
 </style>
 </head>
 <body>
-<div class="page">
 <header>
-  <h1>入札公告ダイジェスト</h1>
-  <p>行政書士事務所ONE ／ 更新 {today} ／ 直近{SENT_ID_RETENTION_DAYS}日 {count}件<br>
-     官公需情報ポータル・東京都電子調達（e-tokyo／都庁）・JKK東京・ちば電子調達・入札情報サービス（防衛省）より自動収集</p>
+  <div class="hd-in">
+    <h1>入札公告一覧</h1>
+    <p>行政書士事務所ONE ／ 更新 {today} ／ 直近{SENT_ID_RETENTION_DAYS}日 {count}件<br>
+       官公需情報ポータル・東京都電子調達（e-tokyo／都庁）・JKK東京・ちば電子調達・入札情報サービス（防衛省）より自動収集</p>
+  </div>
 </header>
+<div class="page">
 
 <div class="search-bar">
   <input type="text" id="search-input" placeholder="案件名・自治体名で検索..." oninput="filterCards()">
