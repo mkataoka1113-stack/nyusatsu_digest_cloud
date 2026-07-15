@@ -624,7 +624,7 @@ def build_dashboard(all_items: list[dict]) -> str:
   .page{{max-width:1080px;margin:0 auto;padding:20px 20px 40px;}}
   header{{background:#243b31;color:#eef1ec;}}
   .hd-in{{max-width:1080px;margin:0 auto;padding:24px 20px;}}
-  header h1{{margin:0;font-size:19px;font-weight:600;letter-spacing:.04em;}}
+  header h1{{margin:0;font-size:26px;font-weight:700;letter-spacing:.05em;}}
   header p{{margin:5px 0 0;font-size:12px;color:#a7bcae;font-variant-numeric:tabular-nums;}}
   .search-bar{{display:flex;gap:8px;margin-bottom:8px;}}
   .search-bar input{{flex:1;max-width:420px;padding:8px 14px;border:1px solid #cfd3c9;
