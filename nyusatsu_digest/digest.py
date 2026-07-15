@@ -204,6 +204,43 @@ def matches_filters(item_dict: dict, filters: dict) -> bool:
     return True
 
 
+def matches_since(item_dict: dict, client: dict) -> bool:
+    """クライアントの配信開始日（since: "YYYY-MM-DD"）に基づく配信可否。
+
+    - since 未設定のクライアント: 従来通り全件対象
+    - since 以降に取得した案件: 対象（通常の新着）
+    - since より前でも過去7日以内に取得した案件: 申請締切が過ぎていなければ対象
+      （新規クライアント追加時に直近案件だけを初回配信する。それより古い案件は
+       notified に関係なく毎回ここで弾かれるので「30日分どか届き」は起きない）
+    """
+    since = (client.get("since") or "").strip()
+    if not since:
+        return True
+    fetched = item_dict.get("fetched_date", "")
+    if not fetched:
+        return False
+    if fetched >= since:
+        return True
+    try:
+        since_dt = datetime.fromisoformat(since)
+    except ValueError:
+        return True  # since が不正な形式なら無視して全件対象
+    if fetched < (since_dt - timedelta(days=7)).date().isoformat():
+        return False
+    # 初回配信の過去7日分: 申請締切が判明していて既に過ぎたものは除外
+    app_dl = item_dict.get("application_deadline", "")
+    if app_dl:
+        try:
+            dl = datetime.fromisoformat(app_dl.replace("Z", "+00:00"))
+            if dl.tzinfo is None:
+                dl = dl.replace(tzinfo=JST)
+            if dl < datetime.now(JST):
+                return False
+        except ValueError:
+            pass  # 形式が読めない締切は判定せず配信する
+    return True
+
+
 # ---------------------------------------------------------------------------
 # 書式ヘルパー
 # ---------------------------------------------------------------------------
@@ -223,8 +260,12 @@ def fmt_jp_date(val: str) -> str:
         return "—"
     try:
         dt = datetime.fromisoformat(val.replace("Z", "+00:00"))
-        jst = dt.astimezone(timezone(timedelta(hours=9)))
-        return jst.strftime("%Y年%m月%d日 %H:%M")
+        if dt.tzinfo is None:
+            # スクレイパーが保存する日時はすべて国内サイト由来のJST。
+            # naiveのままastimezoneすると実行環境（ActionsランナーはUTC）の
+            # 時刻とみなされて+9時間ズレるため、JSTを明示する
+            dt = dt.replace(tzinfo=JST)
+        return dt.astimezone(JST).strftime("%Y年%m月%d日 %H:%M")
     except ValueError:
         return val
 
@@ -668,6 +709,7 @@ def main() -> None:
             sent_ids[item.key]
             for item in all_items
             if matches_filters(sent_ids[item.key], filters)
+            and matches_since(sent_ids[item.key], client)
             and client_id not in sent_ids[item.key].get("notified", [])
         ]
 
