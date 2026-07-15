@@ -5298,5 +5298,40 @@
       "bid_deadline": "2026-08-03T15:00:00",
       "summary": "船橋市地方卸売市場の第3倉庫や第4倉庫等を解体する工事です。建築、電気、機械の解体工事および仮設工事を含みます。"
     }
+  },
+  "chiba_021e27ac41b7b330": {
+    "source": "chiba",
+    "key": "chiba_021e27ac41b7b330",
+    "project_name": "市川市立宮田小学校プール取壊し工事",
+    "org_name": "市川市  管財部  契約課",
+    "pref_name": "千葉県",
+    "city_name": "市川市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-15",
+    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "市川市",
+    "bid_deadline": "2026-07-31T17:00:00",
+    "opening_date": "2026-08-03T09:40:00",
+    "application_deadline": "",
+    "fetched_date": "2026-07-15",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T06:10:44+00:00",
+      "planned_price": "63,965,000円（税込）",
+      "region_requirement": null,
+      "koki": "令和 8年12月28日限り",
+      "application_deadline": null,
+      "bid_deadline": "2026-07-31T17:00:00",
+      "summary": "市川市立宮田小学校のプール取壊し工事です。入札方式は事後審査の価格競争で、電子入札にて行われます。"
+    }
   }
 }
