@@ -270,6 +270,50 @@ def fmt_jp_date(val: str) -> str:
         return val
 
 
+_ZEN2HAN = str.maketrans(
+    "０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ"
+    "ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ　，",
+    "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    "abcdefghijklmnopqrstuvwxyz ,",
+)
+
+
+def _wareki_to_seireki(text: str) -> str:
+    def conv(m):
+        n = 1 if m.group(1) == "元" else int(m.group(1))
+        return f"{2018 + n}年"
+    return re.sub(r"令和\s*(\d{1,2}|元)\s*年", conv, text)
+
+
+def norm_display(text: str) -> str:
+    """ダッシュボード表示用の表記正規化: 全角英数→半角、和暦→西暦。
+    情報源によって表記がバラバラなため表示時に統一する（元データは変更しない）"""
+    if not text:
+        return text or ""
+    return _wareki_to_seireki(str(text).translate(_ZEN2HAN))
+
+
+def normalize_price(raw: str) -> str:
+    """予定価格をシンプルな表記に統一する（例: 62,130,000円（税込））。
+    「消費税及び地方消費税を含む」等の長い注記は税込/税抜の2値に畳む"""
+    if not raw:
+        return "—"
+    s = norm_display(raw).strip()
+    m = re.search(r"([\d,]+)\s*円", s)
+    if not m:
+        return s  # 金額のない値（事後公表・落札決定後公表など）はそのまま
+    if "公表" in s:
+        return s  # 「事前公表（184,250,000円）」等は文全体が意味を持つので保持
+    amount = m.group(1)
+    if re.search(r"税込|込み|含む", s):
+        tax = "（税込）"
+    elif re.search(r"税抜|抜き|除く|別途", s):
+        tax = "（税抜）"
+    else:
+        tax = ""
+    return f"{amount}円{tax}"
+
+
 def fmt_panel_date(val: str) -> str:
     """ダッシュボードのパネル用の短い日時表記（例: 7/28（火）17:00）。
     日付のみの値は時刻を付けない。年が今年でない場合のみ年を付ける"""
@@ -278,40 +322,28 @@ def fmt_panel_date(val: str) -> str:
     try:
         dt = datetime.fromisoformat(val.replace("Z", "+00:00"))
     except ValueError:
-        return val
+        # ISOでない値（「令和8年7月13日」等）は西暦に直して日付として読み直す
+        s = norm_display(val)
+        m = re.search(r"(\d{4})年\s*(\d{1,2})月\s*(\d{1,2})日", s)
+        if m:
+            try:
+                dt = datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+                return _panel_date_str(dt, with_time=False)
+            except ValueError:
+                pass
+        return s
     if dt.tzinfo is not None:
         dt = dt.astimezone(JST)
+    # 日付のみ（YYYY-MM-DD）や 00:00 は実質「日付情報」なので時刻を付けない
+    with_time = len(val.strip()) > 10 and not (dt.hour == 0 and dt.minute == 0)
+    return _panel_date_str(dt, with_time)
+
+
+def _panel_date_str(dt: datetime, with_time: bool) -> str:
     wd = "月火水木金土日"[dt.weekday()]
     year = f"{dt.year}/" if dt.year != datetime.now(JST).year else ""
     base = f"{year}{dt.month}/{dt.day}（{wd}）"
-    # 日付のみ（YYYY-MM-DD）や 00:00 は実質「日付情報」なので時刻を付けない
-    if len(val.strip()) <= 10 or (dt.hour == 0 and dt.minute == 0):
-        return base
-    return f"{base} {dt.hour:02d}:{dt.minute:02d}"
-
-
-def deadline_pill(bid_deadline: str) -> str:
-    """入札締切までの残り日数ピル。締切がない・読めない案件は表示しない"""
-    if not bid_deadline:
-        return ""
-    try:
-        dt = datetime.fromisoformat(bid_deadline.replace("Z", "+00:00"))
-    except ValueError:
-        return ""
-    if dt.tzinfo is None:
-        dt = dt.replace(tzinfo=JST)
-    days = (dt.date() - datetime.now(JST).date()).days
-    if days < 0:
-        cls, label = "done", "締切済"
-    elif days == 0:
-        cls, label = "now", "本日締切"
-    elif days <= 3:
-        cls, label = "now", f"締切まで {days}日"
-    elif days <= 7:
-        cls, label = "soon", f"締切まで {days}日"
-    else:
-        cls, label = "ok", f"締切まで {days}日"
-    return f'<span class="pill {cls}">{label}</span>'
+    return f"{base} {dt.hour:02d}:{dt.minute:02d}" if with_time else base
 
 
 SOURCE_LABEL = {
@@ -503,11 +535,11 @@ def build_dashboard(all_items: list[dict]) -> str:
 
     def card_html(item: dict) -> str:
         esc       = html_mod.escape
-        org       = esc(item.get("org_name") or "—")
+        org       = esc(norm_display(item.get("org_name") or "—"))
         area      = esc("".join(filter(None, [item.get("pref_name"), item.get("city_name")])) or "—")
         date      = fmt_panel_date(item.get("cft_issue_date", ""))
-        procedure = esc(item.get("procedure_type") or "")
-        location  = esc(item.get("location") or "")
+        procedure = esc(norm_display(item.get("procedure_type") or ""))
+        location  = esc(norm_display(item.get("location") or ""))
         bid_dl    = fmt_panel_date(item.get("bid_deadline", ""))
         opening   = fmt_panel_date(item.get("opening_date", ""))
         app_dl    = fmt_panel_date(item.get("application_deadline", ""))
@@ -515,10 +547,11 @@ def build_dashboard(all_items: list[dict]) -> str:
         src_label = esc(SOURCE_LABEL.get(item.get("source", ""), item.get("source", "")))
 
         enrich    = item.get("enrich") or {}
-        price     = esc(enrich.get("planned_price") or "—")
-        region    = enrich.get("region_requirement") or ""
-        koki      = esc(enrich.get("koki") or "—")
-        summary   = enrich.get("summary") or ""
+        price     = esc(normalize_price(enrich.get("planned_price") or ""))
+        price_raw = esc(norm_display(enrich.get("planned_price") or ""), quote=True)
+        region    = norm_display(enrich.get("region_requirement") or "")
+        koki      = esc(norm_display(enrich.get("koki") or "—"))
+        summary   = norm_display(enrich.get("summary") or "")
 
         # 発注機関の下の補足行（入札方式・工事場所があるものだけ）
         sub_bits = " ｜ ".join(filter(None, [procedure, location]))
@@ -526,10 +559,13 @@ def build_dashboard(all_items: list[dict]) -> str:
         if sub_bits:
             sub_html += f'<div class="org sub">{sub_bits}</div>'
 
-        # 要件類・概要は全幅行に集約（可変長テキストはパネルに入れない）
+        # 可変長テキストはパネルに入れず全幅行に集約する。
+        # 「参加要件」を親カテゴリとし、地域要件（将来はランク要件等）をその下に並べる
         wide_rows = ""
         if region:
-            wide_rows += f'<div class="wide req"><span class="wlabel">地域要件</span>{esc(region)}</div>'
+            wide_rows += ('<div class="wide req"><div class="wlabel">参加要件</div>'
+                          f'<div class="req-item"><span class="sublabel">地域要件</span>{esc(region)}</div>'
+                          '</div>')
         if summary:
             wide_rows += f'<div class="wide"><span class="wlabel">概要</span>{esc(summary)}</div>'
 
@@ -541,9 +577,8 @@ def build_dashboard(all_items: list[dict]) -> str:
             links.append(f'<a href="{uri}" target="_blank">公告元サイト →</a>')
         links_html = "".join(links)
 
-        name   = esc(item.get("project_name", "（案件名不明）"), quote=True)
+        name   = esc(norm_display(item.get("project_name", "（案件名不明）")), quote=True)
         gyoshu = ",".join(item.get("gyoshu_codes", []))
-        pill   = deadline_pill(item.get("bid_deadline", ""))
 
         return f"""
 <div class="card" data-name="{name}" data-area="{area}" data-gyoshu="{gyoshu}">
@@ -553,7 +588,7 @@ def build_dashboard(all_items: list[dict]) -> str:
     {sub_html}
   </div>
   <div class="facts">
-    <div><small>予定価格</small><strong title="{price}">{price}</strong></div>
+    <div><small>予定価格</small><strong title="{price_raw}">{price}</strong></div>
     <div><small>申請締切</small><strong>{app_dl}</strong></div>
     <div><small>入札締切</small><strong>{bid_dl}</strong></div>
     <div><small>開札</small><strong>{opening}</strong></div>
@@ -563,7 +598,6 @@ def build_dashboard(all_items: list[dict]) -> str:
   {wide_rows}
   <div class="card-ft">
     <div class="links">{links_html}</div>
-    {pill}
   </div>
 </div>"""
 
@@ -592,8 +626,8 @@ def build_dashboard(all_items: list[dict]) -> str:
   .search-bar button{{padding:8px 18px;background:#2c5d49;color:#fff;border:none;
                        border-radius:4px;cursor:pointer;font-size:13px;font-family:inherit;}}
   #count-display{{font-size:12.5px;color:#8b9285;margin-bottom:14px;font-variant-numeric:tabular-nums;}}
-  #cards-container{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;
-                    align-items:start;}}
+  /* 同じ段の左右カードは高さを揃える（グリッドのstretchに任せる） */
+  #cards-container{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;}}
   .card{{background:#fff;border:1px solid #dde0d8;border-radius:4px;display:flex;
          flex-direction:column;}}
   .card.hidden{{display:none;}}
@@ -615,16 +649,12 @@ def build_dashboard(all_items: list[dict]) -> str:
   .wide{{font-size:12.5px;color:#565e52;padding:10px 20px 0;}}
   .wide .wlabel{{display:inline-block;font-size:10.5px;font-weight:700;color:#48604f;
                  letter-spacing:.08em;margin-right:8px;}}
-  .wide.req{{color:#4b4237;}}
-  .wide.req .wlabel{{color:#8a5a12;}}
+  .wide.req .wlabel{{display:block;margin:0 0 2px;color:#8a5a12;}}
+  .req-item{{padding-left:12px;border-left:2px solid #e8dcc8;margin-bottom:3px;color:#4b4237;}}
+  .req-item .sublabel{{font-size:10.5px;font-weight:700;color:#9a8a70;margin-right:8px;}}
   .card-ft{{margin-top:auto;display:flex;justify-content:space-between;align-items:center;
             padding:12px 20px 15px;gap:10px;flex-wrap:wrap;}}
   .links a{{font-size:12.5px;color:#2c5d49;text-decoration:none;font-weight:600;margin-right:14px;}}
-  .pill{{font-size:11.5px;font-weight:700;padding:3px 11px;border-radius:99px;white-space:nowrap;}}
-  .pill.now{{background:#f1ddd8;color:#9c3a2c;}}
-  .pill.soon{{background:#f3e7cf;color:#7d5410;}}
-  .pill.ok{{background:#e3ece4;color:#2f5c40;}}
-  .pill.done{{background:#eceee9;color:#8b9285;}}
   .ai-note{{font-size:11px;color:#9aa094;margin:18px 0 0;}}
   footer{{text-align:center;font-size:11px;color:#a8ada1;margin-top:26px;}}
   @media (max-width:760px){{
