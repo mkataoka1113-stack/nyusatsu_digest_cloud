@@ -270,6 +270,50 @@ def fmt_jp_date(val: str) -> str:
         return val
 
 
+def fmt_panel_date(val: str) -> str:
+    """ダッシュボードのパネル用の短い日時表記（例: 7/28（火）17:00）。
+    日付のみの値は時刻を付けない。年が今年でない場合のみ年を付ける"""
+    if not val:
+        return "—"
+    try:
+        dt = datetime.fromisoformat(val.replace("Z", "+00:00"))
+    except ValueError:
+        return val
+    if dt.tzinfo is not None:
+        dt = dt.astimezone(JST)
+    wd = "月火水木金土日"[dt.weekday()]
+    year = f"{dt.year}/" if dt.year != datetime.now(JST).year else ""
+    base = f"{year}{dt.month}/{dt.day}（{wd}）"
+    # 日付のみ（YYYY-MM-DD）や 00:00 は実質「日付情報」なので時刻を付けない
+    if len(val.strip()) <= 10 or (dt.hour == 0 and dt.minute == 0):
+        return base
+    return f"{base} {dt.hour:02d}:{dt.minute:02d}"
+
+
+def deadline_pill(bid_deadline: str) -> str:
+    """入札締切までの残り日数ピル。締切がない・読めない案件は表示しない"""
+    if not bid_deadline:
+        return ""
+    try:
+        dt = datetime.fromisoformat(bid_deadline.replace("Z", "+00:00"))
+    except ValueError:
+        return ""
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=JST)
+    days = (dt.date() - datetime.now(JST).date()).days
+    if days < 0:
+        cls, label = "done", "締切済"
+    elif days == 0:
+        cls, label = "now", "本日締切"
+    elif days <= 3:
+        cls, label = "now", f"締切まで {days}日"
+    elif days <= 7:
+        cls, label = "soon", f"締切まで {days}日"
+    else:
+        cls, label = "ok", f"締切まで {days}日"
+    return f'<span class="pill {cls}">{label}</span>'
+
+
 SOURCE_LABEL = {
     "kkj":        "官公需ポータル",
     "etokyo":     "e-tokyo",
@@ -457,68 +501,70 @@ def build_dashboard(all_items: list[dict]) -> str:
     today = datetime.now(JST).strftime("%Y年%m月%d日")
     count = len(all_items)
 
-    def badge(source: str) -> str:
-        # (背景色, 文字色)。黄色系のみ白文字だと読めないため文字色を濃くする
-        colors = {"kkj":        ("#34495e", "#fff"),
-                  "etokyo":     ("#2980b9", "#fff"),
-                  "tokyometro": ("#27ae60", "#fff"),
-                  "jkk":        ("#f1c40f", "#5b4a00"),
-                  "chiba":      ("#e67e22", "#fff"),
-                  "ippi":       ("#8e44ad", "#fff")}
-        label = SOURCE_LABEL.get(source, source)
-        bg, fg = colors.get(source, ("#888", "#fff"))
-        return (f'<span style="background:{bg};color:{fg};font-size:11px;'
-                f'padding:2px 6px;border-radius:3px;margin-right:6px;">{label}</span>')
-
     def card_html(item: dict) -> str:
         esc       = html_mod.escape
         org       = esc(item.get("org_name") or "—")
         area      = esc("".join(filter(None, [item.get("pref_name"), item.get("city_name")])) or "—")
-        date      = fmt_date(item.get("cft_issue_date", ""))
-        procedure = esc(item.get("procedure_type") or "—")
-        location  = esc(item.get("location") or "—")
-        bid_dl    = fmt_jp_date(item.get("bid_deadline", ""))
-        opening   = fmt_jp_date(item.get("opening_date", ""))
-        app_dl    = fmt_jp_date(item.get("application_deadline", ""))
+        date      = fmt_panel_date(item.get("cft_issue_date", ""))
+        procedure = esc(item.get("procedure_type") or "")
+        location  = esc(item.get("location") or "")
+        bid_dl    = fmt_panel_date(item.get("bid_deadline", ""))
+        opening   = fmt_panel_date(item.get("opening_date", ""))
+        app_dl    = fmt_panel_date(item.get("application_deadline", ""))
         uri       = esc(item.get("doc_uri") or "")
-        src       = item.get("source", "")
+        src_label = esc(SOURCE_LABEL.get(item.get("source", ""), item.get("source", "")))
 
         enrich    = item.get("enrich") or {}
         price     = esc(enrich.get("planned_price") or "—")
-        region    = esc(enrich.get("region_requirement") or "—")
+        region    = enrich.get("region_requirement") or ""
         koki      = esc(enrich.get("koki") or "—")
         summary   = enrich.get("summary") or ""
-        has_ai    = any(enrich.get(k) for k in
-                        ("planned_price", "region_requirement", "koki", "summary"))
 
-        link      = f'<a href="{uri}" target="_blank" class="ext-link">公告元 →</a>' if uri else ""
-        att_links = " / ".join(
-            f'<a href="{esc(a["uri"])}" target="_blank" class="ext-link">{esc(a["name"] or "添付")}</a>'
-            for a in (item.get("attachments") or []) if a.get("uri")
-        )
-        att_html  = f'<p class="att">添付: {att_links}</p>' if att_links else ""
-        summary_html = f'<p class="summary">{esc(summary)}</p>' if summary else ""
-        ai_note   = ('<p class="ai-note">※ 予定価格・地域要件・工期・概要はAIによる自動抽出です。'
-                     '応札判断の際は必ず公告原本をご確認ください。</p>') if has_ai else ""
-        name      = esc(item.get("project_name", "（案件名不明）"), quote=True)
-        gyoshu    = ",".join(item.get("gyoshu_codes", []))
+        # 発注機関の下の補足行（入札方式・工事場所があるものだけ）
+        sub_bits = " ｜ ".join(filter(None, [procedure, location]))
+        sub_html = f'<div class="org">{org}</div>'
+        if sub_bits:
+            sub_html += f'<div class="org sub">{sub_bits}</div>'
+
+        # 要件類・概要は全幅行に集約（可変長テキストはパネルに入れない）
+        wide_rows = ""
+        if region:
+            wide_rows += f'<div class="wide req"><span class="wlabel">地域要件</span>{esc(region)}</div>'
+        if summary:
+            wide_rows += f'<div class="wide"><span class="wlabel">概要</span>{esc(summary)}</div>'
+
+        links = []
+        for a in (item.get("attachments") or []):
+            if a.get("uri"):
+                links.append(f'<a href="{esc(a["uri"])}" target="_blank">{esc(a["name"] or "添付")} →</a>')
+        if uri:
+            links.append(f'<a href="{uri}" target="_blank">公告元サイト →</a>')
+        links_html = "".join(links)
+
+        name   = esc(item.get("project_name", "（案件名不明）"), quote=True)
+        gyoshu = ",".join(item.get("gyoshu_codes", []))
+        pill   = deadline_pill(item.get("bid_deadline", ""))
 
         return f"""
 <div class="card" data-name="{name}" data-area="{area}" data-gyoshu="{gyoshu}">
-  <div class="card-title">{badge(src)}{name}</div>
-  <table class="meta">
-    <tr><th>発注機関</th><td>{org}</td><th>公告日</th><td>{date}</td></tr>
-    <tr><th>入札方式</th><td>{procedure}</td><th>予定価格</th><td>{price}</td></tr>
-    <tr><th>工事場所</th><td colspan="3">{location}</td></tr>
-    <tr><th>工期</th><td colspan="3">{koki}</td></tr>
-    <tr><th>地域要件</th><td colspan="3">{region}</td></tr>
-    <tr><th>申請締切</th><td colspan="3">{app_dl}</td></tr>
-    <tr><th>入札締切</th><td>{bid_dl}</td><th>開札日</th><td>{opening}</td></tr>
-  </table>
-  {summary_html}
-  {att_html}
-  {link}
-  {ai_note}
+  <div class="card-top">
+    <div class="src">{src_label}</div>
+    <h3>{name}</h3>
+    {sub_html}
+  </div>
+  <div class="facts">
+    <div><small>予定価格</small><strong title="{price}">{price}</strong></div>
+    <div><small>申請締切</small><strong>{app_dl}</strong></div>
+    <div><small>入札締切</small><strong>{bid_dl}</strong></div>
+    <div><small>開札</small><strong>{opening}</strong></div>
+    <div><small>工期</small><strong title="{koki}">{koki}</strong></div>
+    <div><small>公告日</small><strong>{date}</strong></div>
+  </div>
+  {wide_rows}
+  <div class="card-ft">
+    <div class="links">{links_html}</div>
+    {pill}
+  </div>
 </div>"""
 
     cards = "".join(card_html(item) for item in all_items)
@@ -534,39 +580,65 @@ def build_dashboard(all_items: list[dict]) -> str:
 <title>入札公告ダッシュボード</title>
 <style>
   *{{box-sizing:border-box;}}
-  body{{font-family:'Meiryo','Yu Gothic',sans-serif;max-width:980px;margin:0 auto;
-        padding:16px;background:#f4f6f9;color:#1a1a1a;line-height:1.6;}}
-  header{{background:#1a3a5c;color:#fff;padding:20px 24px;border-radius:8px;margin-bottom:16px;}}
-  header h1{{margin:0;font-size:20px;}}
-  header p{{margin:4px 0 0;font-size:13px;opacity:.8;}}
-  .search-bar{{display:flex;gap:8px;margin-bottom:16px;}}
-  .search-bar input{{flex:1;padding:8px 12px;border:1px solid #ccc;border-radius:6px;
-                      font-size:14px;font-family:inherit;}}
-  .search-bar button{{padding:8px 16px;background:#1a3a5c;color:#fff;border:none;
-                       border-radius:6px;cursor:pointer;font-size:14px;}}
-  #count-display{{font-size:13px;color:#888;margin-bottom:12px;}}
-  .card{{background:#fff;border:1px solid #ddd;border-radius:6px;padding:16px;
-         margin-bottom:12px;}}
+  body{{font-family:'Hiragino Kaku Gothic ProN','Yu Gothic UI','Yu Gothic',Meiryo,sans-serif;
+        margin:0;background:#f2f3ef;color:#272b26;line-height:1.7;}}
+  .page{{max-width:1080px;margin:0 auto;padding:0 20px 40px;}}
+  header{{background:#243b31;color:#eef1ec;margin:0 -20px 20px;padding:24px 36px;}}
+  header h1{{margin:0;font-size:19px;font-weight:600;letter-spacing:.04em;}}
+  header p{{margin:5px 0 0;font-size:12px;color:#a7bcae;font-variant-numeric:tabular-nums;}}
+  .search-bar{{display:flex;gap:8px;margin-bottom:8px;}}
+  .search-bar input{{flex:1;max-width:420px;padding:8px 14px;border:1px solid #cfd3c9;
+                      border-radius:4px;font-size:14px;font-family:inherit;background:#fff;}}
+  .search-bar button{{padding:8px 18px;background:#2c5d49;color:#fff;border:none;
+                       border-radius:4px;cursor:pointer;font-size:13px;font-family:inherit;}}
+  #count-display{{font-size:12.5px;color:#8b9285;margin-bottom:14px;font-variant-numeric:tabular-nums;}}
+  #cards-container{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;
+                    align-items:start;}}
+  .card{{background:#fff;border:1px solid #dde0d8;border-radius:4px;display:flex;
+         flex-direction:column;}}
   .card.hidden{{display:none;}}
-  .card-title{{font-size:15px;font-weight:bold;color:#1a3a5c;margin-bottom:10px;}}
-  .meta{{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:8px;}}
-  .meta th{{width:80px;color:#888;font-weight:normal;white-space:nowrap;
-             padding:3px 8px 3px 0;vertical-align:top;}}
-  .meta td{{padding:3px 16px 3px 0;vertical-align:top;}}
-  .att{{font-size:12px;margin:4px 0;color:#555;}}
-  .summary{{font-size:12px;margin:8px 0 4px;padding:8px 10px;background:#f4f7fa;
-            border-radius:4px;color:#333;}}
-  .ai-note{{font-size:10px;color:#999;margin:4px 0 0;}}
-  .ext-link{{color:#2980b9;font-size:13px;display:inline-block;margin-top:6px;}}
-  footer{{text-align:center;font-size:11px;color:#aaa;margin-top:24px;}}
+  .card-top{{padding:16px 20px 12px;}}
+  .src{{font-size:10.5px;font-weight:700;letter-spacing:.1em;color:#48604f;margin-bottom:6px;}}
+  .card h3{{margin:0 0 2px;font-size:15px;line-height:1.5;color:#1c2b22;}}
+  .org{{font-size:12px;color:#7c8278;}}
+  .org.sub{{font-size:11.5px;margin-top:1px;}}
+  .facts{{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #edeee8;
+          border-bottom:1px solid #edeee8;}}
+  .facts div{{padding:8px 20px;border-right:1px solid #edeee8;border-bottom:1px solid #edeee8;
+              min-width:0;}}
+  .facts div:nth-child(2n){{border-right:none;}}
+  .facts div:nth-last-child(-n+2){{border-bottom:none;}}
+  .facts small{{display:block;font-size:10.5px;color:#98a08f;letter-spacing:.06em;}}
+  .facts strong{{display:block;font-size:13px;font-weight:600;color:#2c3a30;
+                 font-variant-numeric:tabular-nums;white-space:nowrap;overflow:hidden;
+                 text-overflow:ellipsis;}}
+  .wide{{font-size:12.5px;color:#565e52;padding:10px 20px 0;}}
+  .wide .wlabel{{display:inline-block;font-size:10.5px;font-weight:700;color:#48604f;
+                 letter-spacing:.08em;margin-right:8px;}}
+  .wide.req{{color:#4b4237;}}
+  .wide.req .wlabel{{color:#8a5a12;}}
+  .card-ft{{margin-top:auto;display:flex;justify-content:space-between;align-items:center;
+            padding:12px 20px 15px;gap:10px;flex-wrap:wrap;}}
+  .links a{{font-size:12.5px;color:#2c5d49;text-decoration:none;font-weight:600;margin-right:14px;}}
+  .pill{{font-size:11.5px;font-weight:700;padding:3px 11px;border-radius:99px;white-space:nowrap;}}
+  .pill.now{{background:#f1ddd8;color:#9c3a2c;}}
+  .pill.soon{{background:#f3e7cf;color:#7d5410;}}
+  .pill.ok{{background:#e3ece4;color:#2f5c40;}}
+  .pill.done{{background:#eceee9;color:#8b9285;}}
+  .ai-note{{font-size:11px;color:#9aa094;margin:18px 0 0;}}
+  footer{{text-align:center;font-size:11px;color:#a8ada1;margin-top:26px;}}
+  @media (max-width:760px){{
+    #cards-container{{grid-template-columns:1fr;}}
+    header{{padding:20px 24px;}}
+  }}
 </style>
 </head>
 <body>
+<div class="page">
 <header>
-  <h1>入札公告ダッシュボード</h1>
-  <p>更新日: {today} ／ 直近{SENT_ID_RETENTION_DAYS}日 {count} 件<br>
-     情報提供: 官公需情報ポータルサイト（中小企業庁）・東京都電子調達サービス（e-tokyo）・
-     東京都電子調達システム（都庁）・JKK東京・ちば電子調達システム・入札情報サービス（防衛省）</p>
+  <h1>入札公告ダイジェスト</h1>
+  <p>行政書士事務所ONE ／ 更新 {today} ／ 直近{SENT_ID_RETENTION_DAYS}日 {count}件<br>
+     官公需情報ポータル・東京都電子調達（e-tokyo／都庁）・JKK東京・ちば電子調達・入札情報サービス（防衛省）より自動収集</p>
 </header>
 
 <div class="search-bar">
@@ -579,7 +651,9 @@ def build_dashboard(all_items: list[dict]) -> str:
 {cards}
 </div>
 
+<p class="ai-note">※ 予定価格・地域要件・工期・概要はAIによる公告からの自動抽出です。応札判断の際は必ず公告原本をご確認ください。</p>
 <footer>行政書士事務所ONE 自動生成 ／ このページは検索エンジンには登録されていません</footer>
+</div>
 
 <script>
 function filterCards() {{
