@@ -1,75 +1,4 @@
 {
-  "dG9reW8va29kYWlyYV9jaXR5LzIwMjYvMjAyNjA2MTVfMDAwMTQK": {
-    "cft_issue_date": "2026-06-15T00:00:00+09:00",
-    "project_name": "小平市西部市民センター解体工事",
-    "org_name": "東京都小平市",
-    "pref_name": "東京都",
-    "city_name": "小平市",
-    "category": "工事",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.kodaira.tokyo.jp/kurashi/files/128645/128645/att_0000004.pdf",
-    "location": "小平市小川西町４丁目１０番１３号",
-    "bid_deadline": "",
-    "opening_date": "令和８年７月２１日",
-    "application_deadline": "",
-    "attachments": [
-      {
-        "name": "小平市西部市民センター設計図書貸出受付票（Excel 10.7KB）",
-        "uri": "https://www.city.kodaira.tokyo.jp/kurashi/files/128645/128645/att_0000002.xlsx"
-      }
-    ],
-    "notified": [
-      "kataoka"
-    ],
-    "source": "kkj"
-  },
-  "Z292MTAvbW9qX2dvLzIwMjYvMjAyNjA2MTVfMDMxMjAK": {
-    "cft_issue_date": "2026-06-15T00:00:00+09:00",
-    "project_name": "R8.6.15公告 令和８年度府中刑務所地中障害物解体工事",
-    "org_name": "法務省",
-    "pref_name": "東京都",
-    "city_name": "千代田区",
-    "category": "工事",
-    "procedure_type": "",
-    "doc_uri": "https://www.moj.go.jp/content/001464330.pdf",
-    "location": "ア 東京都府中市晴見町2-14-1",
-    "bid_deadline": "令和８年８月４日",
-    "opening_date": "令和８年８月５日",
-    "application_deadline": "令和8年6月15日",
-    "attachments": [
-      {
-        "name": "入札説明書",
-        "uri": "https://www.moj.go.jp/content/001464332.pdf"
-      },
-      {
-        "name": "工事説明書",
-        "uri": "https://www.moj.go.jp/content/001464336.pdf"
-      }
-    ],
-    "notified": [
-      "kataoka"
-    ],
-    "source": "kkj"
-  },
-  "Z292L2phZWFfZ28vMjAyNi8yMDI2MDYxNV8wNDkwNAo=": {
-    "cft_issue_date": "2026-06-15T00:00:00+09:00",
-    "project_name": "【電子入札】【電子契約】ナトリウム分析室における使用設備、貯蔵設備等の解体撤去作業",
-    "org_name": "国立研究開発法人日本原子力研究開発機構大洗",
-    "pref_name": "茨城県",
-    "city_name": "東海村",
-    "category": "",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://keiyaku.jaea.go.jp/compe/02/pdf/0803C00575.pdf",
-    "location": "",
-    "bid_deadline": "令和8年6月15日",
-    "opening_date": "令和10年2月29日",
-    "application_deadline": "",
-    "attachments": [],
-    "notified": [
-      "kataoka"
-    ],
-    "source": "kkj"
-  },
   "etokyo_2026:13:118:00301": {
     "source": "etokyo",
     "key": "etokyo_2026:13:118:00301",
@@ -230,13 +159,24 @@
     "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
     "attachments": [],
     "location": "",
-    "bid_deadline": "",
+    "bid_deadline": "2026-07-16T09:30:00",
     "opening_date": "",
     "application_deadline": "2026-06-15",
     "fetched_date": "2026-06-17",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "139,557,000円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から令和9年2月5日まで",
+      "application_deadline": "2026-06-15T15:00:00",
+      "bid_deadline": "2026-07-16T09:30:00",
+      "summary": "本工事は、上野動物園正門前広場周辺再整備準備工事の一環として、旧パンダ舎、旧放飼場・観覧通路、旧機械室、旧竹庫の解体工事を行います。その他、解体工事前の移植・伐採工事、仮設搬入路増設工事、既存配線・配管切り回し工事も含まれます。"
+    }
   },
   "tokyometro_3539821029292419": {
     "source": "tokyometro",
@@ -1476,7 +1416,20 @@
     "cft_issue_date": "2026-06-26",
     "procedure_type": "事後審査）千葉県 ・ 総合評価（拡充版） ・ 事後審査２型 （方法：電子入札 ）",
     "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
+    "attachments": [
+      {
+        "name": "01_公告_個別編（単独）_260330改正（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_92ef1972d7c441b5_1.pdf"
+      },
+      {
+        "name": "02_公告_個別編_別添（特別簡易型（Ｂ））（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_92ef1972d7c441b5_2.pdf"
+      },
+      {
+        "name": "03_公告_共通編（総合評価方式）_260330改正（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_92ef1972d7c441b5_3.pdf"
+      }
+    ],
     "location": "千葉市中央区都町",
     "bid_deadline": "2026-07-28T17:00:00",
     "opening_date": "2026-07-31T16:30:00",
@@ -1484,7 +1437,18 @@
     "fetched_date": "2026-06-28",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "落札決定後公表する",
+      "region_requirement": "千葉土木事務所又は市原土木事務所管内（千葉市、習志野市、八千代市又は市原市）に資格者名簿に登載された主たる営業所（本店）を有すること",
+      "koki": "2027年2月26日限り",
+      "application_deadline": "2026-07-22T17:00:00",
+      "bid_deadline": "2026-07-28T17:00:00",
+      "summary": "老朽化した副知事公舎（鉄筋コンクリート造 平家建て 延べ面積283.50㎡）、詰所（鉄筋コンクリート造 平家建て 延べ面積59.24㎡）、カーポート（アルミニウム合金造 平家建て 延べ面積8.70㎡）及び外構の解体工事一式を行います。本工事は千葉市中央区都町にて実施されます。"
+    }
   },
   "chiba_e7ecf9b09cab4eea": {
     "source": "chiba",
@@ -1508,7 +1472,18 @@
     "fetched_date": "2026-06-28",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "事後公開",
+      "region_requirement": null,
+      "koki": "150日間",
+      "application_deadline": "2026-06-26T17:00:00",
+      "bid_deadline": "2026-07-13T17:00:00",
+      "summary": "千葉市若葉区千城台東４丁目１６番外にて、千葉市営住宅千城台第６団地の一部解体工事（その２）が行われます。入札方式は電子入札による一般競争・価格競争です。"
+    }
   },
   "chiba_1181dfa3c9aae3c9": {
     "source": "chiba",
@@ -1532,7 +1507,18 @@
     "fetched_date": "2026-06-28",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "事後公開",
+      "region_requirement": null,
+      "koki": "153日間",
+      "application_deadline": "2026-06-26T17:00:00",
+      "bid_deadline": "2026-07-13T17:00:00",
+      "summary": "千葉市動物公園鳥類・水系ゾーン建屋の解体工事です。工事場所は千葉市若葉区源町２８０番地で、工期は153日間です。"
+    }
   },
   "chiba_d4695832b890c39f": {
     "source": "chiba",
@@ -1556,7 +1542,18 @@
     "fetched_date": "2026-06-28",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "事後公開",
+      "region_requirement": null,
+      "koki": "185日間",
+      "application_deadline": "2026-06-26T17:00:00",
+      "bid_deadline": "2026-07-13T17:00:00",
+      "summary": "旧千葉市こてはし台公民館の解体工事です。工事場所は千葉市花見川区横戸町８６１番地４です。入札方式は電子入札による一般競争・価格競争です。"
+    }
   },
   "chiba_844dadc108c9a63e": {
     "source": "chiba",
@@ -1604,7 +1601,18 @@
     "fetched_date": "2026-06-28",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "63,118,000円（税込）",
+      "region_requirement": null,
+      "koki": "令和９年１月２９日",
+      "application_deadline": null,
+      "bid_deadline": "2026-07-23T16:00:00",
+      "summary": "本案件は旧成田市松崎保育園の解体工事です。工事場所は成田市松崎２１６３－１です。"
+    }
   },
   "chiba_dc17ff6182176708": {
     "source": "chiba",
@@ -1628,7 +1636,18 @@
     "fetched_date": "2026-06-28",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "147,400,000円（税込）",
+      "region_requirement": null,
+      "koki": "令和9年6月25日限り",
+      "application_deadline": "2026-07-03T16:00:00",
+      "bid_deadline": "2026-07-23T16:00:00",
+      "summary": "旧市原青少年会館の解体工事です。工事場所は市原市八幡で、工期は2027年6月25日までです。"
+    }
   },
   "etokyo_2026:13:106:00731": {
     "source": "etokyo",
@@ -3361,7 +3380,12 @@
     "cft_issue_date": "2026-07-01",
     "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
     "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
+    "attachments": [
+      {
+        "name": "00【入札公告】旧茂原市社会教育センター解体工事（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_15f50d614dd767c7_1.pdf"
+      }
+    ],
     "location": "茂原市千代田町２丁目８番地２０",
     "bid_deadline": "2026-07-21T15:00:00",
     "opening_date": "2026-07-22T10:00:00",
@@ -3369,7 +3393,18 @@
     "fetched_date": "2026-07-04",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "事後公開",
+      "region_requirement": "建設業法に基づく許可を得た市内本店又は支店",
+      "koki": "契約日の翌日から 令和9年3月2日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-07-21T15:00:00",
+      "summary": "本工事は、茂原市千代田町2丁目8番地20に位置する旧茂原市社会教育センターの解体工事です。建物はRC造2階建て、延べ面積613.43㎡です。入札は電子入札方式で行われます。"
+    }
   },
   "chiba_75beb37f633b051b": {
     "source": "chiba",
@@ -3385,7 +3420,12 @@
     "cft_issue_date": "2026-07-03",
     "procedure_type": "事後審査）千葉県 ・ 価格競争 （方法：電子入札 ）",
     "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
+    "attachments": [
+      {
+        "name": "【R8.7.2修正】2公告文【市有建築物解体工事】（工事）_事後審査型（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_75beb37f633b051b_1.pdf"
+      }
+    ],
     "location": "経田３８番１外地内",
     "bid_deadline": "2026-07-22T17:00:00",
     "opening_date": "2026-07-23T10:25:00",
@@ -3393,7 +3433,18 @@
     "fetched_date": "2026-07-04",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "37,158,000円（税込）",
+      "region_requirement": "千葉県内に本店を有すること",
+      "koki": "令和8年12月14日まで",
+      "application_deadline": "2026-07-13T17:00:00",
+      "bid_deadline": "2026-07-22T17:00:00",
+      "summary": "大網白里市経田38番1外地内で行われる市有建築物解体工事"
+    }
   },
   "chiba_05f11af0aa0fae73": {
     "source": "chiba",
@@ -3409,7 +3460,12 @@
     "cft_issue_date": "2026-07-03",
     "procedure_type": "事後審査）千葉県 ・ 価格競争 （方法：電子入札 ）",
     "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
+    "attachments": [
+      {
+        "name": "【R8.7.2　リサイクル追加修正】公告文（21_小中池公園木橋解体撤去工事）（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_05f11af0aa0fae73_1.pdf"
+      }
+    ],
     "location": "小中地内",
     "bid_deadline": "2026-07-22T17:00:00",
     "opening_date": "2026-07-23T10:50:00",
@@ -3417,7 +3473,18 @@
     "fetched_date": "2026-07-04",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "25,135,000円（消費税及び地方消費税を含む）",
+      "region_requirement": "本店を大網白里市に有する者",
+      "koki": "令和8年12月15日まで",
+      "application_deadline": "2026-07-13T17:00:00",
+      "bid_deadline": "2026-07-22T17:00:00",
+      "summary": "小中池公園木橋の解体撤去工事"
+    }
   },
   "chiba_b13510f4147cb585": {
     "source": "chiba",
@@ -3465,7 +3532,18 @@
     "fetched_date": "2026-07-06",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "事後公開",
+      "region_requirement": null,
+      "koki": "120日間",
+      "application_deadline": "2026-07-10T17:00:00",
+      "bid_deadline": "2026-07-22T12:00:00",
+      "summary": "千葉市中央区矢作町地内にて、西千葉駅稲荷町線（矢作トンネル）環境観測所の解体業務を委託する案件です。入札方式は電子入札による一般競争・価格競争です。"
+    }
   },
   "chiba_e332db84649d13f2": {
     "source": "chiba",
@@ -3481,7 +3559,12 @@
     "cft_issue_date": "2026-07-06",
     "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
     "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
+    "attachments": [
+      {
+        "name": "01公告（No.175防火水槽撤去工事）（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_e332db84649d13f2_1.pdf"
+      }
+    ],
     "location": "銚子市諸持町９７０番地",
     "bid_deadline": "2026-07-21T16:00:00",
     "opening_date": "2026-07-22T10:40:00",
@@ -3489,7 +3572,18 @@
     "fetched_date": "2026-07-06",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "2,145,000円（税込）",
+      "region_requirement": "市内本・支店",
+      "koki": "契約締結日の翌日から令和8年10月31日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-07-21T16:00:00",
+      "summary": "銚子市諸持町970番地にてNo.175防火水槽撤去工事を実施します。工事内容は防火水槽撤去1箇所、植栽工一式、仮設工一式です。工期は契約締結日の翌日から2026年10月31日までです。"
+    }
   },
   "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDcvMjAyNjA3MDZfNzUxNDkK": {
     "source": "kkj",
@@ -4499,7 +4593,12 @@
     "cft_issue_date": "2026-07-07",
     "procedure_type": "事後審査）千葉県 ・ 総合評価（拡充版） ・ 事後審査２型 （方法：電子入札 ）",
     "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
+    "attachments": [
+      {
+        "name": "入札公告（千葉女子高等学校長寿命化対策作法室外解体工事）（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_4527be8e2b226363_1.pdf"
+      }
+    ],
     "location": "千葉市稲毛区小仲台",
     "bid_deadline": "2026-08-05T17:00:00",
     "opening_date": "2026-08-07T10:00:00",
@@ -4507,7 +4606,18 @@
     "fetched_date": "2026-07-10",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "事後公開",
+      "region_requirement": "千葉土木事務所、印旛土木事務所、葛南土木事務所、山武土木事務所、長生土木事務所又は市原土木事務所管内（千葉市、習志野市、八千代市、佐倉市、四街道市、八街市、印西市、白井市、印旛郡酒々井町、印旛郡栄町、市川市、船橋市、浦安市、東金市、山武市、大網白里市、山武郡横芝光町、山武郡九十九里町、茂原市、長生郡一宮町、長生郡睦沢町、長生郡白子町、長生郡長柄町、長生郡長南町、長生郡長生村又は市原市）に資格者名簿",
+      "koki": "2027年3月12日限り",
+      "application_deadline": "2026-07-31T17:00:00",
+      "bid_deadline": "2026-08-05T17:00:00",
+      "summary": "千葉県立千葉女子高等学校の長寿命化対策として、作法室、高体連事務室、屋内体育館の解体工事一式を実施します。本工事は、木造平家建ての作法室（延べ面積745.56㎡）、鉄骨造平家建ての高体連事務室（延べ面積102.39㎡）、木造平家建ての屋内体育館（延べ面積601.53㎡）の解体を含みます。"
+    }
   },
   "chiba_c5eef03e377eccb9": {
     "source": "chiba",
@@ -4523,7 +4633,12 @@
     "cft_issue_date": "2026-07-10",
     "procedure_type": "事後審査）千葉県 ・ 総合評価（拡充版） ・ 事後審査２型 （方法：電子入札 ）",
     "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
+    "attachments": [
+      {
+        "name": "01_入札公告（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_c5eef03e377eccb9_1.pdf"
+      }
+    ],
     "location": "千葉市緑区上大和田町",
     "bid_deadline": "2026-08-18T17:00:00",
     "opening_date": "2026-08-20T14:00:00",
@@ -4531,7 +4646,18 @@
     "fetched_date": "2026-07-10",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "落札決定後公表する",
+      "region_requirement": "千葉土木事務所、山武土木事務所、長生土木事務所又は市原土木事務所管内（千葉市、習志野市、八千代市、東金市、山武市、大網白里市、山武郡横芝光町、山武郡九十九里町、茂原市、長生郡一宮町、長生郡睦沢町、長生郡白子町、長生郡長柄町、長生郡長南町、長生郡長生村又は市原市）に資格者名簿に登載された主たる営業所（本店）を有すること",
+      "koki": "2027年2月26日限り",
+      "application_deadline": "2026-08-05T17:00:00",
+      "bid_deadline": "2026-08-18T17:00:00",
+      "summary": "千葉県立大網高等学校中正農場にある豚舎4棟を含む計9棟の建築物解体工事です。本工事は事後審査Ⅱ型および総合評価方式（特別簡易型B）が適用されます。工期は2027年2月26日までです。"
+    }
   },
   "chiba_1d131310dfeae9b6": {
     "source": "chiba",
@@ -4555,7 +4681,18 @@
     "fetched_date": "2026-07-10",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "4,279,000円（税込）",
+      "region_requirement": null,
+      "koki": "令和 8年10月 9日限り",
+      "application_deadline": "2026-07-15T17:00:00",
+      "bid_deadline": "2026-07-23T17:00:00",
+      "summary": "南房総市朝夷行政センター外倉庫の解体撤去工事です。工事場所は南房総市千倉町瀬戸２２８０番地３です。"
+    }
   },
   "chiba_2aecce242ae8ad1d": {
     "source": "chiba",
@@ -4579,7 +4716,18 @@
     "fetched_date": "2026-07-10",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "9,702,000円（税込）",
+      "region_requirement": null,
+      "koki": "令和8年11月30日限り",
+      "application_deadline": null,
+      "bid_deadline": "2026-07-23T15:00:00",
+      "summary": "いすみ市王子久保住宅（１３号～１７号室）の解体工事を行う。工事場所はいすみ市大原５９３４番地。"
+    }
   },
   "bmFyYS9rYXRzdXJhZ2lfY2l0eS8yMDI2LzIwMjYwNzEwXzAwNDA0Cg==": {
     "source": "kkj",
@@ -5032,6 +5180,123 @@
     "fetched_date": "2026-07-14",
     "notified": [
       "kataoka"
-    ]
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "19,976,000円（税込）",
+      "region_requirement": null,
+      "koki": "令和８年１２月１０日",
+      "application_deadline": "2026-07-21T11:00:00",
+      "bid_deadline": "2026-07-30T15:00:00",
+      "summary": "流山市芝崎３７３番地の３に位置する第３コミュニティ・ホームの解体工事です。入札方式は電子入札による一般競争・価格競争です。"
+    }
+  },
+  "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA3MTRfMDA3OTAK": {
+    "source": "kkj",
+    "key": "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA3MTRfMDA3OTAK",
+    "project_name": "中止公告（重要文化財旧角海家住宅格納解体実施設計業務）[PDF：23.3KB]",
+    "org_name": "石川県輪島市",
+    "pref_name": "石川県",
+    "city_name": "輪島市",
+    "pref_code": "17",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-14T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.wajima.ishikawa.jp/docs/2014032000011/file_contents/080723_01-2.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-07-15",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "summary": null
+    }
+  },
+  "aG9ra2FpZG8vdGFraWthd2FfY2l0eS8yMDI2LzIwMjYwNzE0XzAwNjQ3Cg==": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8vdGFraWthd2FfY2l0eS8yMDI2LzIwMjYwNzE0XzAwNjQ3Cg==",
+    "project_name": "下水終末処理場解体工事",
+    "org_name": "北海道滝川市",
+    "pref_name": "北海道",
+    "city_name": "滝川市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-14T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.takikawa.lg.jp/uploaded/attachment/20204.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-07-30T00:00:00+09:00",
+    "opening_date": "",
+    "application_deadline": "2026-07-23T16:30:00",
+    "fetched_date": "2026-07-15",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "事前公表（184,250,000 円）",
+      "region_requirement": "滝川市建設工事等指名競争入札参加者指名基準第２条に規定する市内業者又は地場業者であること。",
+      "koki": "契約締結日から令和９年１２月２０日まで",
+      "application_deadline": "2026-07-23T16:30:00",
+      "bid_deadline": "2026-07-30T09:00:00",
+      "summary": "滝川市中島町地内にて下水終末処理場の解体工事を実施します。本工事は地域限定型一般競争入札で、契約締結日から2027年12月20日までの工期が予定されています。予定価格は184,250,000円（消費税及び地方消費税を含む）です。"
+    }
+  },
+  "chiba_b7bd86e5e19fda9a": {
+    "source": "chiba",
+    "key": "chiba_b7bd86e5e19fda9a",
+    "project_name": "船橋市地方卸売市場第３・４倉庫等解体工事",
+    "org_name": "船橋市  企画財政部  契約課",
+    "pref_name": "千葉県",
+    "city_name": "船橋市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-15",
+    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "公告（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_b7bd86e5e19fda9a_1.pdf"
+      }
+    ],
+    "location": "船橋市市場１丁目２０６９番ほか",
+    "bid_deadline": "2026-08-03T15:00:00",
+    "opening_date": "2026-08-05T13:10:00",
+    "application_deadline": "",
+    "fetched_date": "2026-07-15",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-15T01:53:17+00:00",
+      "planned_price": "62,130,000円 （消費税及び地方消費税を含まない）",
+      "region_requirement": "船橋市内に本店がある者",
+      "koki": "令和9年1月29日",
+      "application_deadline": null,
+      "bid_deadline": "2026-08-03T15:00:00",
+      "summary": "船橋市地方卸売市場の第3倉庫や第4倉庫等を解体する工事です。建築、電気、機械の解体工事および仮設工事を含みます。"
+    }
   }
 }
