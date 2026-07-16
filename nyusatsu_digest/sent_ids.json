@@ -5333,5 +5333,239 @@
       "bid_deadline": "2026-07-31T17:00:00",
       "summary": "市川市立宮田小学校のプール取壊し工事です。入札方式は事後審査の価格競争で、電子入札にて行われます。"
     }
+  },
+  "b2theWFtYS90YW1hbm9fY2l0eS8yMDI2LzIwMjYwNzE1XzAwMDEzCg==": {
+    "source": "kkj",
+    "key": "b2theWFtYS90YW1hbm9fY2l0eS8yMDI2LzIwMjYwNzE1XzAwMDEzCg==",
+    "project_name": "玉野市旧庁舎解体工事",
+    "org_name": "岡山県玉野市",
+    "pref_name": "岡山県",
+    "city_name": "玉野市",
+    "pref_code": "33",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-15T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.tamano.lg.jp/uploaded/attachment/35795.pdf",
+    "attachments": [],
+    "location": "予定工期入札参加資格業種工事概要予定価格最低制限価格入札保証金契約保証金建設リサイクル法対象工事その他この工事は、議会の",
+    "bid_deadline": "2026-08-06T08:29:00",
+    "opening_date": "令和8年8月6日",
+    "application_deadline": "2026-07-27T16:59:00",
+    "fetched_date": "2026-07-16",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-07-16T02:01:25+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": "岡山県内に本店若しくは営業所等があること",
+      "koki": "令和8年11月1日から令和9年6月15日まで",
+      "application_deadline": "2026-07-27T16:59:00",
+      "bid_deadline": "2026-08-06T08:29:00",
+      "summary": "玉野市旧庁舎解体工事。旧庁舎解体、倉庫棟解体、外構解体を行う。"
+    }
+  },
+  "aG9ra2FpZG8yL3J1bW9pX2NpdHkvMjAyNi8yMDI2MDcxNV8wMDA3OQo=": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8yL3J1bW9pX2NpdHkvMjAyNi8yMDI2MDcxNV8wMDA3OQo=",
+    "project_name": "入札番号第67号_沖見町公営住宅解体工事(その2) （ファイル : 571KB）",
+    "org_name": "北海道留萌市",
+    "pref_name": "北海道",
+    "city_name": "留萌市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-15T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.e-rumoi.jp/content/000081726.zip",
+    "attachments": [],
+    "location": "4.各工事5.建設工事に係る資材の再資源化に関する法律の対象の有無",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-07-16",
+    "notified": [],
+    "enrich": {
+      "status": "no_text",
+      "provider": "",
+      "enriched_at": "2026-07-16T02:01:25+00:00"
+    }
+  },
+  "aG9ra2FpZG8yL3J1bW9pX2NpdHkvMjAyNi8yMDI2MDcxNV8wMDA3OAo=": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8yL3J1bW9pX2NpdHkvMjAyNi8yMDI2MDcxNV8wMDA3OAo=",
+    "project_name": "入札番号第66号_沖見町公営住宅解体工事(その1) （ファイル : 604KB）",
+    "org_name": "北海道留萌市",
+    "pref_name": "北海道",
+    "city_name": "留萌市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-15T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.e-rumoi.jp/content/000081725.zip",
+    "attachments": [],
+    "location": "4.各工事5.建設工事に係る資材の再資源化に関する法律の対象の有無",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-07-16",
+    "notified": [],
+    "enrich": {
+      "status": "no_text",
+      "provider": "",
+      "enriched_at": "2026-07-16T02:01:25+00:00"
+    }
+  },
+  "aG9ra2FpZG8vbmVtdXJvX2NpdHkvMjAyNi8yMDI2MDcxNV8wMDQwNAo=": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8vbmVtdXJvX2NpdHkvMjAyNi8yMDI2MDcxNV8wMDQwNAo=",
+    "project_name": "厚床中学校旧校舎解体工事",
+    "org_name": "北海道根室市",
+    "pref_name": "北海道",
+    "city_name": "根室市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-15T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.nemuro.hokkaido.jp/material/files/group/31/r8attokotyuukaitai.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-18T10:00:00",
+    "opening_date": "",
+    "application_deadline": "2026-07-28T17:00:00",
+    "fetched_date": "2026-07-16",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-16T02:01:25+00:00",
+      "planned_price": "８４,７６６,０００ 円 (うち取引に係る消費税及び地方消費税の合計額を含む。)",
+      "region_requirement": "根室市内に本店又は営業所を有するものであること。",
+      "koki": "令和８年８月２４日から令和９年３月２３日",
+      "application_deadline": "2026-07-28T17:00:00",
+      "bid_deadline": "2026-08-18T10:00:00",
+      "summary": "厚床中学校旧校舎の解体工事です。既存の中学校校舎（鉄骨造・平屋、1160.08㎡）を解体します。建設工事に係る資材の再資源化に関する法律に基づき、分別解体等が義務付けられています。"
+    }
+  },
+  "YW9tb3JpL2dvc2hvZ2F3YXJhX2NpdHkvMjAyNi8yMDI2MDcxNV8wMDQ3Mgo=": {
+    "source": "kkj",
+    "key": "YW9tb3JpL2dvc2hvZ2F3YXJhX2NpdHkvMjAyNi8yMDI2MDcxNV8wMDQ3Mgo=",
+    "project_name": "芦野集会所・倉庫・車庫・屯所・金木自然休養村管理センター・旧金木歴史民俗資料館解体工事工損事前調査業務",
+    "org_name": "青森県五所川原市",
+    "pref_name": "青森県",
+    "city_name": "五所川原市",
+    "pref_code": "02",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-15T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/R8gi.k014.pdf",
+    "attachments": [
+      {
+        "name": "縦覧資料",
+        "uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/r8gi.j014.zip"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-07-29T09:30:00",
+    "opening_date": "令和8年7月29日",
+    "application_deadline": "2026-07-23T12:00:00",
+    "fetched_date": "2026-07-16",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-16T02:01:25+00:00",
+      "planned_price": null,
+      "region_requirement": "五所川原市内に本店を有すること",
+      "koki": "令和8年11月30日",
+      "application_deadline": "2026-07-23T12:00:00",
+      "bid_deadline": "2026-07-29T09:30:00",
+      "summary": "本業務は、芦野集会所・倉庫・車庫・屯所・金木自然休養村管理センター・旧金木歴史民俗資料館の解体工事に伴う工損事前調査業務です。打合せ協議、作業計画の策定、地盤変動影響調査等、および木造建物8棟の事前調査が含まれます。"
+    }
+  },
+  "YW9tb3JpL2dvc2hvZ2F3YXJhX2NpdHkvMjAyNi8yMDI2MDcxNV8wMDQ3MAo=": {
+    "source": "kkj",
+    "key": "YW9tb3JpL2dvc2hvZ2F3YXJhX2NpdHkvMjAyNi8yMDI2MDcxNV8wMDQ3MAo=",
+    "project_name": "旧商工会館解体工事",
+    "org_name": "青森県五所川原市",
+    "pref_name": "青森県",
+    "city_name": "五所川原市",
+    "pref_code": "02",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-15T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/r8i.k026.pdf",
+    "attachments": [
+      {
+        "name": "縦覧資料",
+        "uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/r8i.j026.zip"
+      }
+    ],
+    "location": "取りこわし１棟各1章共通事項工事特記仕様書 旧商工会館解体五所川原市相内70番地3 地内224.00 ㎡伐採・抜根一式",
+    "bid_deadline": "2026-08-03T09:00:00",
+    "opening_date": "令和8年8月3日",
+    "application_deadline": "2026-07-23T12:00:00",
+    "fetched_date": "2026-07-16",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-16T02:01:25+00:00",
+      "planned_price": "￥7,060,000-（消費税及び地方消費税の額を除く。）",
+      "region_requirement": "五所川原市内に本店を有すること。",
+      "koki": "令和8年12月11日",
+      "application_deadline": "2026-07-23T12:00:00",
+      "bid_deadline": "2026-08-03T09:00:00",
+      "summary": "本工事は、五所川原市相内70番地3地内にある旧商工会館（木造平家建、延床面積218.62㎡）の解体工事一式です。入札参加資格として、五所川原市内に本店を有し、解体工事の建設業許可および施工実績が求められます。入札参加申請は2026年7月15日から7月23日まで、入札書提出は2026年8月3日午前9時が締切です。"
+    }
+  },
+  "YWtpdGEva2F6dW5vX2NpdHkvMjAyNi8yMDI2MDcxNV8wMDgwMQo=": {
+    "source": "kkj",
+    "key": "YWtpdGEva2F6dW5vX2NpdHkvMjAyNi8yMDI2MDcxNV8wMDgwMQo=",
+    "project_name": "四の岱住宅解体工事設計業務委託",
+    "org_name": "秋田県鹿角市",
+    "pref_name": "秋田県",
+    "city_name": "鹿角市",
+    "pref_code": "05",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-15T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kazuno.lg.jp/material/files/group/6/R8koukoku145.pdf",
+    "attachments": [
+      {
+        "name": "住委-3(圧縮ファイル)",
+        "uri": "https://www.city.kazuno.lg.jp/material/files/group/6/juui3.zip"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-08-03T17:15:00",
+    "opening_date": "令和７年４月１日",
+    "application_deadline": "令和７年４月１日",
+    "fetched_date": "2026-07-16",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-16T02:01:25+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": "鹿角市内に本社を有する者",
+      "koki": "契約締結日 令和8年12月15日",
+      "application_deadline": "2026-07-30T00:00:00",
+      "bid_deadline": "2026-08-03T17:15:00",
+      "summary": "本業務は、鹿角市十和田大湯字五ノ岱地内における四の岱住宅（49～60号）コンクリートブロック造平屋建3棟の解体工事実施設計業務です。入札参加申請、入札等の手続きは紙入札方式で行われます。予定価格は事後公表され、最低制限価格制度が適用されます。"
+    }
   }
 }
