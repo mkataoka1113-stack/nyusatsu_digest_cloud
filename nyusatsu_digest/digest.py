@@ -177,6 +177,48 @@ def dedupe_prefer_local(items: list) -> list:
     return result
 
 
+# kkj.go.jp が案件の登録元（官公需ポータル自体 / 発注機関の個別システム）ごとに
+# 別Keyで同一案件を複数登録してくることがある（例: 東京法務局の解体工事で
+# p-portal経由の空スタブと東京法務局直登録の詳細版が両方返る、2026-07-17に発覚）。
+# 汎用の p-portal トップページ止まりのURLは詳細情報を持たない「空登録」の目印。
+_KKJ_GENERIC_URI = "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101"
+
+
+def _kkj_completeness_score(item) -> int:
+    score = 0
+    if item.doc_uri and _KKJ_GENERIC_URI not in item.doc_uri:
+        score += 2
+    if item.city_name:
+        score += 1
+    if item.attachments:
+        score += 1
+    return score
+
+
+def dedupe_kkj_internal(items: list) -> list:
+    """kkj.go.jp内で同一案件（案件名＋都道府県が完全一致）が複数Keyで
+    重複登録されている場合、より詳細な情報を持つ側を残し他を除外する。"""
+    import unicodedata
+    groups: dict[tuple[str, str], list] = {}
+    others: list = []
+    for item in items:
+        if item.source != "kkj":
+            others.append(item)
+            continue
+        name = unicodedata.normalize("NFKC", item.project_name.strip())
+        key = (name, item.pref_code)
+        groups.setdefault(key, []).append(item)
+
+    result = list(others)
+    for group in groups.values():
+        if len(group) > 1:
+            best = max(group, key=_kkj_completeness_score)
+            result.append(best)
+        else:
+            result.extend(group)
+    return result
+
+
 # ---------------------------------------------------------------------------
 # フィルター判定
 # ---------------------------------------------------------------------------
@@ -349,6 +391,84 @@ def _panel_date_str(dt: datetime, with_time: bool) -> str:
     year = f"{dt.year}/" if dt.year != datetime.now(JST).year else ""
     base = f"{year}{dt.month}/{dt.day}（{wd}）"
     return f"{base} {dt.hour:02d}:{dt.minute:02d}" if with_time else base
+
+
+def _parse_flex_date(val: str) -> datetime | None:
+    """日付文字列（ISOまたは和暦を含む日本語表記）を比較用のdatetimeに変換する。
+    パースできない場合はNone。時系列の順序チェック専用（表示フォーマットはfmt_panel_date/fmt_jp_dateが担当）"""
+    if not val:
+        return None
+    try:
+        dt = datetime.fromisoformat(val.replace("Z", "+00:00"))
+        if dt.tzinfo is not None:
+            dt = dt.astimezone(JST).replace(tzinfo=None)
+        return dt
+    except ValueError:
+        pass
+    s = norm_display(val)
+    m = re.search(r"(\d{4})年\s*(\d{1,2})月\s*(\d{1,2})日(?:\D+(\d{1,2}):(\d{2}))?", s)
+    if m:
+        try:
+            hour = int(m.group(4)) if m.group(4) else 0
+            minute = int(m.group(5)) if m.group(5) else 0
+            return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)), hour, minute)
+        except ValueError:
+            return None
+    return None
+
+
+# 時系列としてこの順に並んでいるはずの日付項目（公告日→申請締切→入札締切→開札）
+_DATE_ORDER_FIELDS = [
+    ("公告日",   "cft_issue_date"),
+    ("申請締切", "application_deadline"),
+    ("入札締切", "bid_deadline"),
+    ("開札",     "opening_date"),
+]
+
+
+def sanitize_item_dates(item) -> None:
+    """公告日以前を指す・時系列が矛盾している締切系フィールドは、プレースホルダ／
+    誤抽出の可能性が高いとみなして空欄に戻す（自動修正ではなく無効化のみ。
+    正しい値はenrich側のAI抽出で改めて埋める）。
+
+    2026-07-18: kkj.go.jpの複数案件で、APIの開札日時フィールドが公告日自身や
+    別の締切フィールドの値をそのまま複製して返す不具合を確認（東京法務局の解体工事
+    案件で発覚した個別の日付誤りを起点に、同種の不具合が他8件あることが判明）。
+    「締切・開札は必ず公告日より後」「開札は入札締切以降」という業務ルールに基づき、
+    これに反する値を機械的に除去する。"""
+    cft = _parse_flex_date(item.cft_issue_date)
+    app = _parse_flex_date(item.application_deadline)
+    bid = _parse_flex_date(item.bid_deadline)
+    opening = _parse_flex_date(item.opening_date)
+
+    if cft and bid and bid.date() <= cft.date():
+        item.bid_deadline = ""
+        bid = None
+    if cft and app and app.date() <= cft.date():
+        item.application_deadline = ""
+    if cft and opening and opening.date() <= cft.date():
+        item.opening_date = ""
+        opening = None
+    if bid and opening and opening.date() < bid.date():
+        item.opening_date = ""
+
+
+def check_date_order(item: dict) -> str | None:
+    """公告日→申請締切→入札締切→開札の時系列が逆転していないか確認する。
+    値が欠けている項目は比較対象から除く（欠落＝異常ではない）。
+    逆転を検知した場合のみ注意文を返す（自動修正はしない。日付抽出誤りの早期発見用）"""
+    parsed = []
+    for label, field in _DATE_ORDER_FIELDS:
+        dt = _parse_flex_date(item.get(field, ""))
+        if dt is not None:
+            parsed.append((label, dt))
+    for (label_a, dt_a), (label_b, dt_b) in zip(parsed, parsed[1:]):
+        # 日単位でのみ判定する（同日内の時刻は情報源によって精度がまちまちで、
+        # 片方に時刻情報がない場合に00:00扱いとなり誤検知するため）
+        if dt_a.date() > dt_b.date():
+            return (f"{label_a}（{dt_a:%Y/%m/%d}）が{label_b}（{dt_b:%Y/%m/%d}）より後になっています。"
+                     f"日付の抽出誤りの可能性があるため公告原本を確認してください。")
+    return None
 
 
 SOURCE_LABEL = {
@@ -557,16 +677,21 @@ def build_dashboard(all_items: list[dict]) -> str:
         region    = norm_display(enrich.get("region_requirement") or "")
         koki      = esc(dates_to_slash(norm_display(enrich.get("koki") or "—")))
         summary   = norm_display(enrich.get("summary") or "")
+        date_note  = esc(enrich.get("opening_date_note") or "")
+        order_note = esc(check_date_order(item) or "")
 
-        # 発注機関の下の補足行（入札方式・工事場所があるものだけ）
-        sub_bits = " ｜ ".join(filter(None, [procedure, location]))
+        # 発注機関の下の補足行（工事場所があるものだけ。入札方式はパネルに表示）
         sub_html = f'<div class="org">{org}</div>'
-        if sub_bits:
-            sub_html += f'<div class="org sub">{sub_bits}</div>'
+        if location:
+            sub_html += f'<div class="org sub">{location}</div>'
 
         # 可変長テキストはパネルに入れず全幅行に集約する。
         # 「参加要件」を親カテゴリとし、地域要件（将来はランク要件等）をその下に並べる
         wide_rows = ""
+        if order_note:
+            wide_rows += f'<div class="wide warn">⚠ {order_note}</div>'
+        if date_note:
+            wide_rows += f'<div class="wide warn">⚠ {date_note}</div>'
         if region:
             wide_rows += ('<div class="wide req"><div class="wlabel">参加要件</div>'
                           f'<div class="req-item"><span class="sublabel">地域要件</span>{esc(region)}</div>'
@@ -588,17 +713,17 @@ def build_dashboard(all_items: list[dict]) -> str:
         return f"""
 <div class="card" data-name="{name}" data-area="{area}" data-gyoshu="{gyoshu}">
   <div class="card-top">
-    <div class="src">{src_label}</div>
+    <div class="src-row"><div class="src">{src_label}</div><div class="issue-date">公告日 {date}</div></div>
     <h3>{name}</h3>
     {sub_html}
   </div>
   <div class="facts">
     <div><small>予定価格</small><strong title="{price_raw}">{price}</strong></div>
     <div><small>申請締切</small><strong>{app_dl}</strong></div>
+    <div><small>入札方式</small><strong title="{procedure}">{procedure or "—"}</strong></div>
     <div><small>入札締切</small><strong>{bid_dl}</strong></div>
-    <div><small>開札</small><strong>{opening}</strong></div>
     <div><small>工期</small><strong title="{koki}">{koki}</strong></div>
-    <div><small>公告日</small><strong>{date}</strong></div>
+    <div><small>開札</small><strong>{opening}</strong></div>
   </div>
   {wide_rows}
   <div class="card-ft">
@@ -638,7 +763,9 @@ def build_dashboard(all_items: list[dict]) -> str:
          flex-direction:column;}}
   .card.hidden{{display:none;}}
   .card-top{{padding:16px 20px 12px;}}
-  .src{{font-size:10.5px;font-weight:700;letter-spacing:.1em;color:#48604f;margin-bottom:6px;}}
+  .src-row{{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:6px;}}
+  .src{{font-size:10.5px;font-weight:700;letter-spacing:.1em;color:#48604f;}}
+  .issue-date{{font-size:10.5px;color:#98a08f;white-space:nowrap;}}
   .card h3{{margin:0 0 2px;font-size:15px;line-height:1.5;color:#1c2b22;}}
   .org{{font-size:12px;color:#7c8278;}}
   .org.sub{{font-size:11.5px;margin-top:1px;}}
@@ -656,6 +783,8 @@ def build_dashboard(all_items: list[dict]) -> str:
   .wide .wlabel{{display:inline-block;font-size:10.5px;font-weight:700;color:#48604f;
                  letter-spacing:.08em;margin-right:8px;}}
   .wide.req .wlabel{{display:block;margin:0 0 2px;color:#8a5a12;}}
+  .wide.warn{{color:#a04516;font-weight:600;background:#fdf3ea;margin:10px 20px 0;
+              padding:8px 12px;border-radius:4px;}}
   .req-item{{padding-left:12px;border-left:2px solid #e8dcc8;margin-bottom:3px;
              color:#2c3a30;font-weight:600;}}
   .req-item .sublabel{{font-size:10.5px;color:#8a5a12;margin-right:8px;}}
@@ -760,11 +889,21 @@ def main() -> None:
             print(f"[{name}] エラー: {e}")
             scraper_errors.append((label, str(e)))
 
+    # 公告日以前を指す・時系列が矛盾している締切系フィールドを無効化
+    for item in all_items:
+        sanitize_item_dates(item)
+
     # 同一案件が kkj と自治体独自システムの両方にある場合、自治体独自システム側を優先
     before_dedupe = len(all_items)
     all_items = dedupe_prefer_local(all_items)
     if before_dedupe != len(all_items):
         print(f"重複排除: {before_dedupe} 件 → {len(all_items)} 件（kkjとの重複分を除外）")
+
+    # kkj.go.jp内で同一案件が複数Keyで重複登録されている場合、詳細情報を持つ側を優先
+    before_kkj_dedupe = len(all_items)
+    all_items = dedupe_kkj_internal(all_items)
+    if before_kkj_dedupe != len(all_items):
+        print(f"重複排除: {before_kkj_dedupe} 件 → {len(all_items)} 件（kkj内部の重複登録を除外）")
 
     print(f"\n取得合計: {len(all_items)} 件")
 

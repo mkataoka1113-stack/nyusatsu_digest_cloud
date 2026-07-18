@@ -185,7 +185,7 @@
     "attachments": [],
     "location": "",
     "bid_deadline": "",
-    "opening_date": "令和２年１月６日",
+    "opening_date": "",
     "application_deadline": "令和8年6月22日",
     "fetched_date": "2026-06-20",
     "notified": [
@@ -3522,7 +3522,7 @@
     ],
     "location": "甲府市上帯那町地内工事概要１ 工事内容牧場入口看板撤去 １式牧場ゲート撤去 １式水飲み場撤去 １式餌場撤去 １式柵撤去",
     "bid_deadline": "2026-07-29T11:20:00",
-    "opening_date": "令和８年７月７日",
+    "opening_date": "",
     "application_deadline": "2026-07-16T15:00:00",
     "fetched_date": "2026-07-08",
     "notified": [],
@@ -3896,7 +3896,7 @@
     ],
     "location": "盛岡市三ツ割地内 円也９０日間名 称 数 量 単 位 摘 要業 務 の 概 要木造建物A調査",
     "bid_deadline": "2026-07-30T13:30:00",
-    "opening_date": "令和８年７月８日",
+    "opening_date": "",
     "application_deadline": "2026-07-15T17:00:00",
     "fetched_date": "2026-07-09",
     "notified": [],
@@ -4124,7 +4124,7 @@
     "attachments": [],
     "location": "呉市天応大浜３丁目地内建設工事の種類 解体工事建築解体撤去工事  一式，電気設備解体撤去工事  一式，機械設備解体撤去工",
     "bid_deadline": "2026-07-22T16:00:00",
-    "opening_date": "令和8年7月9日",
+    "opening_date": "",
     "application_deadline": "",
     "fetched_date": "2026-07-10",
     "notified": [],
@@ -4192,7 +4192,7 @@
     "attachments": [],
     "location": "",
     "bid_deadline": "2026-08-18T15:00:00",
-    "opening_date": "令和8年7月21日",
+    "opening_date": "",
     "application_deadline": "令和8年7月21日",
     "fetched_date": "2026-07-10",
     "notified": [],
@@ -4561,8 +4561,8 @@
     ],
     "location": "鶴岡市大網字西大石 63-1、鶴岡市大網字中田 56-2",
     "bid_deadline": "2026-07-30T09:20:00",
-    "opening_date": "令和8年7月13日",
-    "application_deadline": "令和8年7月13日",
+    "opening_date": "",
+    "application_deadline": "2026-07-28T00:00:00",
     "fetched_date": "2026-07-14",
     "notified": [],
     "enrich": {
@@ -4659,8 +4659,8 @@
     "doc_uri": "https://www.kuriharacity.jp/w004/030/010/200/2026koukou/0713/0713koukoku2.pdf?711116",
     "attachments": [],
     "location": "",
-    "bid_deadline": "令和８年７月１３日",
-    "opening_date": "令和８年７月１３日",
+    "bid_deadline": "2026-07-29T10:10:00",
+    "opening_date": "",
     "application_deadline": "2026-07-21T16:00:00",
     "fetched_date": "2026-07-14",
     "notified": [],
@@ -5181,8 +5181,8 @@
     ],
     "location": "",
     "bid_deadline": "2026-08-03T17:15:00",
-    "opening_date": "令和７年４月１日",
-    "application_deadline": "令和７年４月１日",
+    "opening_date": "",
+    "application_deadline": "2026-07-30T00:00:00",
     "fetched_date": "2026-07-16",
     "notified": [],
     "enrich": {
@@ -5195,35 +5195,6 @@
       "application_deadline": "2026-07-30T00:00:00",
       "bid_deadline": "2026-08-03T17:15:00",
       "summary": "本業務は、鹿角市十和田大湯字五ノ岱地内における四の岱住宅（49～60号）コンクリートブロック造平屋建3棟の解体工事実施設計業務です。入札参加申請、入札等の手続きは紙入札方式で行われます。予定価格は事後公表され、最低制限価格制度が適用されます。"
-    }
-  },
-  "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDcvMjAyNjA3MTZfNzU4NjMK": {
-    "source": "kkj",
-    "key": "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDcvMjAyNjA3MTZfNzU4NjMK",
-    "project_name": "東京法務局旧調布出張所ほか１庁解体工事一式",
-    "org_name": "法務省",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-16T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-    "attachments": [],
-    "location": "仕様書による",
-    "bid_deadline": "令和08年07月16日",
-    "opening_date": "令和08年07月16日",
-    "application_deadline": "令和08年07月16日",
-    "fetched_date": "2026-07-17",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-07-17T02:07:39+00:00"
     }
   },
   "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDcvMjAyNjA3MTZfNzU4OTYK": {
@@ -5302,8 +5273,8 @@
     "doc_uri": "https://houmukyoku.moj.go.jp/tokyo/content/001466818.pdf",
     "attachments": [],
     "location": "仕様書による",
-    "bid_deadline": "令和８年９月３日",
-    "opening_date": "令和８年９月３日",
+    "bid_deadline": "2026-09-03T17:00:00",
+    "opening_date": "2026-09-04T10:00:00",
     "application_deadline": "2026-08-18T17:00:00",
     "fetched_date": "2026-07-17",
     "notified": [
@@ -5318,6 +5289,7 @@
       "koki": "仕様書による。",
       "application_deadline": "2026-08-18T17:00:00",
       "bid_deadline": "2026-09-03T17:00:00",
+      "opening_date": "2026-09-04T10:00:00",
       "summary": "本工事は、東京法務局旧調布出張所ほか1庁の解体工事一式です。建設工事に係る資材の再資源化等に関する法律に基づき、分別解体等及び特定建設資材廃棄物の再資源化等の実施が義務付けられています。入札手続きは電子調達システムにより行われます。"
     }
   },
