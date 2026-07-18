@@ -5482,5 +5482,38 @@
       "bid_deadline": "2026-07-23T12:00:00",
       "summary": "成田市新妻１６８にて新妻青年館の解体工事が行われます。入札方式は随意契約・価格競争（電子入札）です。工期は令和8年9月30日までとされています。"
     }
+  },
+  "bmFnYW5vL2F6dW1pbm9fY2l0eS8yMDI2LzIwMjYwNzE3XzAwMDcwCg==": {
+    "source": "kkj",
+    "key": "bmFnYW5vL2F6dW1pbm9fY2l0eS8yMDI2LzIwMjYwNzE3XzAwMDcwCg==",
+    "project_name": "令和8年度 穂高・堀金人権教育集会所解体工事 [PDFファイル／505KB]",
+    "org_name": "長野県安曇野市",
+    "pref_name": "長野県",
+    "city_name": "安曇野市",
+    "pref_code": "20",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-17T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.azumino.nagano.jp/uploaded/attachment/84015.pdf",
+    "attachments": [],
+    "location": "安曇野市 穂高・堀金人権教育集会所工事概要■穂高・堀金人権教育集会所解体工事一式・穂高・堀金人権集会所の解体・物置、植栽",
+    "bid_deadline": "2026-07-29T09:20:00",
+    "opening_date": "令和8年7月17日",
+    "application_deadline": "",
+    "fetched_date": "2026-07-18",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-18T01:51:45+00:00",
+      "planned_price": null,
+      "region_requirement": "安曇野市内に本社（本店）を有する者",
+      "koki": "契約日から令和8年12月15日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-07-29T09:20:00",
+      "summary": "令和8年度穂高・堀金人権教育集会所の解体工事一式。穂高・堀金人権集会所の解体、物置・植栽の撤去、解体撤去後の敷地内整地が含まれます。本工事は週休2日工事です。"
+    }
   }
 }
