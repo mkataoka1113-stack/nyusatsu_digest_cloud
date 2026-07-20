@@ -56,5 +56,23 @@ jobs:
           git add nyusatsu_digest/sent_ids.json docs
           if ! git diff --cached --quiet; then
             git commit -m "chore: update digest $(date -u +%Y-%m-%d)"
-            git push
+            # 手動pushと自動実行がたまたま重なるとpushが競合するため、
+            # 最新を取り込んでリベースし直すリトライを最大3回まで行う
+            # （本当のコンフリクトの場合はリトライしても解決しないため、
+            # 3回で諦めて失敗させる＝メール通知は今まで通り届く）
+            pushed=false
+            for i in 1 2 3; do
+              if git push; then
+                pushed=true
+                break
+              fi
+              echo "push失敗（$i/3）。最新を取り込んでリトライします"
+              git fetch origin main
+              git rebase origin/main
+              sleep 5
+            done
+            if [ "$pushed" != "true" ]; then
+              echo "3回リトライしてもpushできませんでした"
+              exit 1
+            fi
           fi
