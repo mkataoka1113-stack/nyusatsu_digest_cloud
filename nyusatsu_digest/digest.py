@@ -219,6 +219,34 @@ def dedupe_kkj_internal(items: list) -> list:
     return result
 
 
+def dedupe_prefer_pportal(items: list) -> list:
+    """kkjが調達ポータル(p-portal.go.jp)経由で受け取った国の機関の案件は、
+    公示本文がPDF・自由記述からの正規表現抽出に頼る分、日付等の精度が
+    不安定になりやすい（2026-07-18に東京法務局の案件で発覚）。
+    調達ポータルを直接スクレイピングした pportal ソースの方が、公告本文を
+    定型フォーマットのHTMLテキストとして直接読めるぶん精度が高いため、
+    同一案件（案件名＋都道府県が一致）が両方にある場合は pportal を優先する。"""
+    import unicodedata
+    groups: dict[tuple[str, str], list] = {}
+    others: list = []
+    for item in items:
+        if item.source not in ("kkj", "pportal"):
+            others.append(item)
+            continue
+        name = unicodedata.normalize("NFKC", item.project_name.strip())
+        key = (name, item.pref_code)
+        groups.setdefault(key, []).append(item)
+
+    result = list(others)
+    for group in groups.values():
+        pportal_items = [i for i in group if i.source == "pportal"]
+        if pportal_items:
+            result.extend(pportal_items)
+        else:
+            result.extend(group)
+    return result
+
+
 # ---------------------------------------------------------------------------
 # フィルター判定
 # ---------------------------------------------------------------------------
@@ -473,6 +501,7 @@ def check_date_order(item: dict) -> str | None:
 
 SOURCE_LABEL = {
     "kkj":        "官公需ポータル",
+    "pportal":    "調達ポータル",
     "etokyo":     "e-tokyo",
     "tokyometro": "東京電子調達",
     "jkk":        "JKK",
@@ -875,6 +904,7 @@ def main() -> None:
 
     SCRAPERS = [
         ("kkj",         "kkj.go.jp（官公需情報ポータル）",        "scrapers.kkj"),
+        ("pportal",     "調達ポータル（政府電子調達）",            "scrapers.pportal"),
         ("etokyo",      "東京都電子調達サービス（市区町村）",      "scrapers.etokyo"),
         ("tokyo_metro", "東京都電子調達システム（都庁本体）",      "scrapers.tokyo_metro"),
         ("jkk",         "JKK東京（東京都住宅供給公社）",          "scrapers.jkk"),
@@ -898,6 +928,12 @@ def main() -> None:
     all_items = dedupe_prefer_local(all_items)
     if before_dedupe != len(all_items):
         print(f"重複排除: {before_dedupe} 件 → {len(all_items)} 件（kkjとの重複分を除外）")
+
+    # 同一案件が kkj と調達ポータル(pportal)の両方にある場合、pportal側を優先
+    before_pportal_dedupe = len(all_items)
+    all_items = dedupe_prefer_pportal(all_items)
+    if before_pportal_dedupe != len(all_items):
+        print(f"重複排除: {before_pportal_dedupe} 件 → {len(all_items)} 件（kkjとpportalの重複分を除外）")
 
     # kkj.go.jp内で同一案件が複数Keyで重複登録されている場合、詳細情報を持つ側を優先
     before_kkj_dedupe = len(all_items)
