@@ -5099,5 +5099,123 @@
       "opening_date": "2026-08-18T09:00:00",
       "summary": "本工事は、旧羽ノ浦すみれ保育所の除却工事です。阿南市羽ノ浦町岩脇姥ケ原が工事箇所となります。本入札は徳島県電子入札システムを利用した電子入札案件です。"
     }
+  },
+  "chiba_ad758444f7ec6895": {
+    "source": "chiba",
+    "key": "chiba_ad758444f7ec6895",
+    "project_name": "千葉市ふるさと農園長屋門外１棟解体工事",
+    "org_name": "千葉市  財政局  資産経営部契約課",
+    "pref_name": "千葉県",
+    "city_name": "千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-21",
+    "procedure_type": "一般競争 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "千葉市花見川区三角町６５６番地の３",
+    "bid_deadline": "2026-08-04T17:00:00",
+    "opening_date": "2026-08-05T09:15:00",
+    "application_deadline": "2026-07-24T17:00:00",
+    "fetched_date": "2026-07-21",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-21T02:07:58+00:00",
+      "planned_price": "事後公開",
+      "region_requirement": null,
+      "koki": "152日間",
+      "application_deadline": "2026-07-24T17:00:00",
+      "bid_deadline": "2026-08-04T17:00:00",
+      "opening_date": "2026-08-05T09:15:00",
+      "summary": "千葉市花見川区三角町にある千葉市ふるさと農園長屋門外1棟の解体工事です。本工事は電子入札方式で行われます。"
+    }
+  },
+  "chiba_2a8f29048aad3dd0": {
+    "source": "chiba",
+    "key": "chiba_2a8f29048aad3dd0",
+    "project_name": "太海フラワー磯釣センター解体工事（１期工事）",
+    "org_name": "鴨川市  財政課  契約係",
+    "pref_name": "千葉県",
+    "city_name": "鴨川市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-17",
+    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "太海フラワー磯釣センター解体工事（１期工事）（公告文）：1_000万円以上で定例的な制限付き一般競争入札 （議会議決案件）（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_2a8f29048aad3dd0_1.pdf"
+      }
+    ],
+    "location": "鴨川市　太海浜　地内",
+    "bid_deadline": "2026-08-21T13:00:00",
+    "opening_date": "2026-08-21T13:30:00",
+    "application_deadline": "",
+    "fetched_date": "2026-07-21",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-21T02:07:58+00:00",
+      "planned_price": "211,199,999円(消費税及び地方消費税相当額を含まない)",
+      "region_requirement": "鴨川市内に本店を置く業者",
+      "koki": "契約日の翌日から令和９年７月30日",
+      "application_deadline": null,
+      "bid_deadline": "2026-08-21T13:00:00",
+      "opening_date": "2026-08-21T13:30:00",
+      "summary": "本工事は、鴨川市太海浜地内における太海フラワー磯釣センターの解体工事（１期工事）です。制限付き一般競争入札により実施され、解体工事一式が含まれます。"
+    }
+  },
+  "pportal_630742": {
+    "source": "pportal",
+    "key": "pportal_630742",
+    "project_name": "令和８年度国有建物等解体撤去第Ⅱ期工事設計業務 （渋谷区代々木三丁目）",
+    "org_name": "財務省",
+    "pref_name": "埼玉県",
+    "city_name": "",
+    "pref_code": "11",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-21",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=02WHUi3Pz7w1VyDXMLa4vw9sgsfFalS2yjU8fLkt%2BRs%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-07-21",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-21T02:07:58+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本公告は、令和8年度国有建物等解体撤去第Ⅱ期工事設計業務（渋谷区代々木三丁目）に関する一般競争入札の入札公告である。調達機関は財務省で、調達機関所在地は埼玉県である。公告内容は関東財務局ホームページに掲載されている。"
+    }
   }
 }
