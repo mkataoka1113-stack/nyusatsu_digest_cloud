@@ -1,28 +1,4 @@
 {
-  "jkk_20913": {
-    "source": "jkk",
-    "key": "jkk_20913",
-    "project_name": "都営桜一丁目アパート除却工事",
-    "org_name": "東京都住宅供給公社（JKK東京）",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "015"
-    ],
-    "cft_issue_date": "2026-06-22T09:00:00",
-    "procedure_type": "希望制",
-    "doc_uri": "https://www.to-kousya.or.jp/keiyaku/nyusatu/index.html",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "2026-07-29T10:00:00",
-    "application_deadline": "2026-06-26T16:00:00",
-    "fetched_date": "2026-06-22",
-    "notified": [
-      "kataoka"
-    ]
-  },
   "c2VhcmNoL2lzaGlrYXdhX3VjaGluYWRhX3Rvd24vMjAyNi8yMDI2MDYyMl8wMDExNAo=": {
     "source": "kkj",
     "key": "c2VhcmNoL2lzaGlrYXdhX3VjaGluYWRhX3Rvd24vMjAyNi8yMDI2MDYyMl8wMDExNAo=",
@@ -5216,6 +5192,199 @@
       "bid_deadline": null,
       "opening_date": null,
       "summary": "本公告は、令和8年度国有建物等解体撤去第Ⅱ期工事設計業務（渋谷区代々木三丁目）に関する一般競争入札の入札公告である。調達機関は財務省で、調達機関所在地は埼玉県である。公告内容は関東財務局ホームページに掲載されている。"
+    }
+  },
+  "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjA3MjJfMDMzOTMK": {
+    "source": "kkj",
+    "key": "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjA3MjJfMDMzOTMK",
+    "project_name": "元長田警察署名倉交番庁舎解体",
+    "org_name": "国家公安委員会（警察庁）兵庫県警察",
+    "pref_name": "兵庫県",
+    "city_name": "神戸市",
+    "pref_code": "28",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-22T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.police.pref.hyogo.lg.jp/chotatu/kou_data/2026/A26072201.pdf",
+    "attachments": [],
+    "location": "神戸市長田区名倉町５丁目１番２号⑶ 工事概要 長田警察署名倉交番の廃止に伴い解体工事を行う。⑷ 施工期間 着工の日より7",
+    "bid_deadline": "2026-08-06T10:30:00",
+    "opening_date": "2026-08-06T10:30:00",
+    "application_deadline": "2026-07-31T00:00:00",
+    "fetched_date": "2026-07-22",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-22T02:00:11+00:00",
+      "planned_price": null,
+      "region_requirement": "神戸土木事務所管内のいずれかに解体工事業の許可を受けた主たる営業所を有していること。",
+      "koki": "着工の日より 70 日間",
+      "application_deadline": "2026-07-31T00:00:00",
+      "bid_deadline": "2026-08-06T10:30:00",
+      "opening_date": "2026-08-06T10:30:00",
+      "summary": "長田警察署名倉交番の廃止に伴う庁舎解体工事です。本工事は週休2日制度の対象工事です。"
+    }
+  },
+  "b2tpbmF3YS9uYWdvX2NpdHkvMjAyNi8yMDI2MDcyMV8wMDUzNAo=": {
+    "source": "kkj",
+    "key": "b2tpbmF3YS9uYWdvX2NpdHkvMjAyNi8yMDI2MDcyMV8wMDUzNAo=",
+    "project_name": "名護学校給食センター解体工事",
+    "org_name": "沖縄県名護市",
+    "pref_name": "沖縄県",
+    "city_name": "名護市",
+    "pref_code": "47",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-21T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.nago.okinawa.jp/kurashi/2021081000053/file_contents/1g.pdf",
+    "attachments": [
+      {
+        "name": "6.特記仕様書 [PDF：155KB]",
+        "uri": "https://www.city.nago.okinawa.jp/kurashi/2021081000053/file_contents/6g.pdf"
+      },
+      {
+        "name": "7-1.案内図[PDF：278KB]",
+        "uri": "https://www.city.nago.okinawa.jp/kurashi/2021081000053/file_contents/7-1g.pdf"
+      },
+      {
+        "name": "7-2.図面[PDF：3.9MB]",
+        "uri": "https://www.city.nago.okinawa.jp/kurashi/2021081000053/file_contents/7-2g.pdf"
+      }
+    ],
+    "location": "発注機関摘 要検 印第168-1100号名護市大西地内名護市教育委員会 教育施設課課 長 担当者 係 長18 解体A －",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-07-22",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-22T02:00:11+00:00",
+      "planned_price": null,
+      "region_requirement": "下請けについては、市内業者（主たる営業所を名護市内に有するもの）から選定するよう努めなければならない。ただし、これにより難いときは、市内企業に代わり北部地域企業、県内企業の順に優先し選定するよう努めなければならない。",
+      "koki": "契約締結日の翌日から 2026年12月３日",
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "名護市大西地内にて名護学校給食センターの解体撤去工事一式を行います。建物は鉄筋コンクリート造平屋建てで、延床面積は320.05㎡です。本工事では、建設リサイクル法や廃棄物処理法を遵守し、アスベストを含む材料の適切な処理も行われます。"
+    }
+  },
+  "Z292MTMvbW9mX2thbnRvLzIwMjYvMjAyNjA3MjFfMDA2OTkK": {
+    "source": "kkj",
+    "key": "Z292MTMvbW9mX2thbnRvLzIwMjYvMjAyNjA3MjFfMDA2OTkK",
+    "project_name": "令和8年度国有建物等解体撤去第2期工事設計業務（渋谷区代々木三丁目）",
+    "org_name": "財務省関東財務局",
+    "pref_name": "埼玉県",
+    "city_name": "さいたま市",
+    "pref_code": "11",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-21T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://lfb.mof.go.jp/kantou/content/20260721yoyogi-1.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-07T12:00:00",
+    "opening_date": "2026-08-07T13:30:00",
+    "application_deadline": "2026-08-05T12:00:00",
+    "fetched_date": "2026-07-22",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-22T02:00:11+00:00",
+      "planned_price": null,
+      "region_requirement": "関東・甲信越地域の競争参加資格を有すること",
+      "koki": "契約締結日から令和9年2月18日（木）まで",
+      "application_deadline": "2026-08-05T12:00:00",
+      "bid_deadline": "2026-08-07T12:00:00",
+      "opening_date": "2026-08-07T13:30:00",
+      "summary": "本公告は、令和8年度国有建物等解体撤去第Ⅱ期工事設計業務（渋谷区代々木三丁目）の一般競争入札に関するものです。入札は政府電子調達システムを利用して行われ、履行期間は契約締結日から2027年2月18日までです。"
+    }
+  },
+  "Z2lmdS90YWtheWFtYV9jaXR5LzIwMjYvMjAyNjA3MjFfMDAwNzgK": {
+    "source": "kkj",
+    "key": "Z2lmdS90YWtheWFtYV9jaXR5LzIwMjYvMjAyNjA3MjFfMDAwNzgK",
+    "project_name": "08水下第167号特環 新平湯処理区旧福地浄化センター解体工事",
+    "org_name": "岐阜県高山市",
+    "pref_name": "岐阜県",
+    "city_name": "高山市",
+    "pref_code": "21",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-21T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/023/837/08suige167.pdf",
+    "attachments": [
+      {
+        "name": "08suige167 （zip 2.6MB）",
+        "uri": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/023/837/08suige167.zip"
+      }
+    ],
+    "location": "高山市奥飛騨温泉郷福地地内工事概要【施設概要】 建物棟 木造平屋建 延面積 16.40㎡ 昭和63年竣工 処理施設 処理",
+    "bid_deadline": "令和８年７月27日",
+    "opening_date": "令和８年７月27日",
+    "application_deadline": "2026-07-27T16:00:00",
+    "fetched_date": "2026-07-22",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-22T02:00:11+00:00",
+      "planned_price": "30,580,000円（消費税及び地方消費税を含む）",
+      "region_requirement": "高山市競争入札参加資格者名簿の「解体」において市内に本店、支店又は営業所等で登録されている者であること。本店以外を開設した場合は、法人設立（開設）申告書を受理された日から３年以上の支店又は営業所等の形態及び営業実績がある者であること。",
+      "koki": "180日間フレックス工期を活用する場合工事開始期限日 令和８年９月18日 工期日数 180日間",
+      "application_deadline": "2026-07-27T16:00:00",
+      "bid_deadline": "2026-08-04T16:00:00",
+      "opening_date": "2026-08-05T10:00:00",
+      "summary": "本工事は、高山市奥飛騨温泉郷福地地内における旧福地浄化センターの解体工事です。建物棟（木造平屋建16.40㎡）と処理施設（RC造等251.4㎡）の解体、その他付帯施設の撤去が含まれます。工期は180日間で、フレックス工期が活用可能です。",
+      "opening_date_note": "入札締切と開札日が同一値になっています。AI抽出では2026-08-05T10:00:00 の可能性があるため、公告原本で開札日を確認してください。"
+    }
+  },
+  "Y2hpYmEvY2hpYmFfY2l0eS8yMDI2LzIwMjYwNzIxXzAzMjA5Cg==": {
+    "source": "kkj",
+    "key": "Y2hpYmEvY2hpYmFfY2l0eS8yMDI2LzIwMjYwNzIxXzAzMjA5Cg==",
+    "project_name": "千葉市ふるさと農園長屋門外1棟解体工事",
+    "org_name": "千葉県千葉市",
+    "pref_name": "千葉県",
+    "city_name": "千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-21T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.chiba.jp/somu/somu/somu/kojibunsyo/documents/08kk0578.pdf",
+    "attachments": [],
+    "location": "、工期及び業種工事案件ごとに別表に記載",
+    "bid_deadline": "",
+    "opening_date": "令和８年８月５日",
+    "application_deadline": "",
+    "fetched_date": "2026-07-22",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-22T02:00:11+00:00",
+      "planned_price": null,
+      "region_requirement": "千葉市内において、都市計画法に違反していない者",
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本公告は、千葉市が実施する制限付一般競争入札（電子入札）に関するもので、複数の工事案件について概要、場所、工期、業種、予定価格、最低制限価格、入札参加申請期間、提出資料、設計図書交付期間、工事担当課、入札期間、開札日時が別表に記載される。入札参加者は、千葉市内に本店または営業所を有し、ちば電子調達システムの電子入札システムを利用できることなどの要件を満たす必要がある。契約は契約後VE方式の試行工事として実施される。"
     }
   }
 }
