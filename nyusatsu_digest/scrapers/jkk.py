@@ -138,6 +138,10 @@ def fetch(lookback_days: int = 8, headless: bool = True,
             bid.select_option('select[name="selbidStatus"]', STATUS_UKETSUKE_CHU)
             bid.locator("input#btnSearch").click()
             bid.wait_for_load_state("networkidle", timeout=30000)
+            try:
+                bid.wait_for_selector('a[id^="linkNo_"]', timeout=15000)
+            except Exception:
+                pass
             bid.wait_for_timeout(500)
 
             page_no = 1

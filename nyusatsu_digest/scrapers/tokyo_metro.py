@@ -162,14 +162,14 @@ def fetch(lookback_days: int = 8, headless: bool = True,
 
             page.locator("a", has_text="検索").last.click()
             page.wait_for_load_state("networkidle", timeout=30000)
+            try:
+                page.wait_for_selector("table.list-data, td.all-page", timeout=15000)
+            except Exception:
+                pass
             page.wait_for_timeout(500)
 
             count_el = page.query_selector("td.all-page")
             print(f"  → 結果: {count_el.inner_text().strip() if count_el else '(件数不明)'}")
-            print(f"  [DEBUG] url={page.url}")
-            print(f"  [DEBUG] table.list-data存在={page.query_selector('table.list-data') is not None}")
-            body_text = page.locator("body").inner_text()
-            print(f"  [DEBUG] body先頭800字: {body_text[:800]!r}")
 
             raw_items.extend(_parse_results_table(page))
             print(f"  → ページ1: {len(raw_items)} 件")

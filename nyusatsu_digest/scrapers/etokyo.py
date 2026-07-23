@@ -316,12 +316,16 @@ def fetch(lookback_days: int = LOOKBACK_DAYS, headless: bool = True,
 
             # 結果が読み込まれるまで待機
             page.wait_for_load_state("networkidle", timeout=30000)
-            time.sleep(0.5)
             main_frame = next((f for f in page.frames if f.name == "FrmMain"), None)
             if not main_frame:
                 print("[etokyo] 結果フレームが見つかりません")
                 browser.close()
                 return []
+            try:
+                main_frame.wait_for_selector("table.list-table, td.list-count-disp", timeout=15000)
+            except Exception:
+                pass
+            time.sleep(0.5)
 
             count_el = main_frame.query_selector("td.list-count-disp")
             count_txt = count_el.inner_text().strip() if count_el else "(件数不明)"
