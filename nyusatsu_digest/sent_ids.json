@@ -1,72 +1,4 @@
 {
-  "c2VhcmNoL2lzaGlrYXdhX3VjaGluYWRhX3Rvd24vMjAyNi8yMDI2MDYyMl8wMDExNAo=": {
-    "source": "kkj",
-    "key": "c2VhcmNoL2lzaGlrYXdhX3VjaGluYWRhX3Rvd24vMjAyNi8yMDI2MDYyMl8wMDExNAo=",
-    "project_name": "6災55号内灘町総合公園展望台解体工事",
-    "org_name": "石川県内灘町",
-    "pref_name": "石川県",
-    "city_name": "内灘町",
-    "pref_code": "17",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-06-22T00:00:00+09:00",
-    "procedure_type": "簡易公募型指名競争入札",
-    "doc_uri": "https://www.ep-bis.supercals.jp/ebidPPIPublish/EjPPIj?KikanNO=1736500",
-    "attachments": [],
-    "location": "内灘町 字宮坂地内",
-    "bid_deadline": "2026-07-03T00:00:00+09:00",
-    "opening_date": "2026-07-06T00:00:00+09:00",
-    "application_deadline": "",
-    "fetched_date": "2026-06-23",
-    "notified": []
-  },
-  "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA2MjJfMDA3NTkK": {
-    "source": "kkj",
-    "key": "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA2MjJfMDA3NTkK",
-    "project_name": "広岡住宅Ｂ−１外２棟解体工事[ZIP：9MB]",
-    "org_name": "石川県輪島市",
-    "pref_name": "石川県",
-    "city_name": "輪島市",
-    "pref_code": "17",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-06-22T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.wajima.ishikawa.jp/docs/2014032000011/file_contents/080709_01.zip",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-06-23",
-    "notified": []
-  },
-  "Y2hpYmEvY2hpYmFfY2l0eS8yMDI2LzIwMjYwNjIyXzAzMTQ1Cg==": {
-    "source": "kkj",
-    "key": "Y2hpYmEvY2hpYmFfY2l0eS8yMDI2LzIwMjYwNjIyXzAzMTQ1Cg==",
-    "project_name": "千葉市営住宅千城台第6団地一部解体工事（その2）、旧千葉市こてはし台公民館解体工事、千葉市動物公園鳥類・水系ゾーン建屋解体工事",
-    "org_name": "千葉県千葉市",
-    "pref_name": "千葉県",
-    "city_name": "千葉市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-06-22T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.chiba.jp/somu/somu/somu/kojibunsyo/documents/08kk0498.pdf",
-    "attachments": [],
-    "location": "、工期及び業種工事案件ごとに別表に記載",
-    "bid_deadline": "",
-    "opening_date": "令和８年７月２４日",
-    "application_deadline": "",
-    "fetched_date": "2026-06-23",
-    "notified": [
-      "kataoka"
-    ]
-  },
   "ZnVrdXNoaW1hL3RhbXVyYV9jaXR5LzIwMjYvMjAyNjA2MzBfMDEyOTYK": {
     "source": "kkj",
     "key": "ZnVrdXNoaW1hL3RhbXVyYV9jaXR5LzIwMjYvMjAyNjA2MzBfMDEyOTYK",
@@ -5385,6 +5317,123 @@
       "bid_deadline": null,
       "opening_date": null,
       "summary": "本公告は、千葉市が実施する制限付一般競争入札（電子入札）に関するもので、複数の工事案件について概要、場所、工期、業種、予定価格、最低制限価格、入札参加申請期間、提出資料、設計図書交付期間、工事担当課、入札期間、開札日時が別表に記載される。入札参加者は、千葉市内に本店または営業所を有し、ちば電子調達システムの電子入札システムを利用できることなどの要件を満たす必要がある。契約は契約後VE方式の試行工事として実施される。"
+    }
+  },
+  "chiba_f064f305dde04094": {
+    "source": "chiba",
+    "key": "chiba_f064f305dde04094",
+    "project_name": "県単運動公園周辺地区整備工事（三輪野山地区仮設住宅解体）",
+    "org_name": "千葉県  県土整備部  流山区画整理事務所",
+    "pref_name": "千葉県",
+    "city_name": "",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-21",
+    "procedure_type": "指名競争 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "三輪野山地区",
+    "bid_deadline": "2026-08-06T10:00:00",
+    "opening_date": "2026-08-07T13:15:00",
+    "application_deadline": "",
+    "fetched_date": "2026-07-23",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-23T02:11:55+00:00",
+      "planned_price": "10,703,000円（税込）",
+      "region_requirement": null,
+      "koki": "90日間",
+      "application_deadline": null,
+      "bid_deadline": "2026-08-06T10:00:00",
+      "opening_date": "2026-08-07T13:15:00",
+      "summary": "本工事は、流山都市計画運動公園周辺地区の三輪野山地区において、仮設住宅の解体を行う県単運動公園周辺地区整備工事です。入札方式は指名競争・価格競争（電子入札）です。"
+    }
+  },
+  "pportal_630980": {
+    "source": "pportal",
+    "key": "pportal_630980",
+    "project_name": "【九州地方整備局　遠賀川河川事務所】令和８年度遠賀川下流出張所公衆便所解体外",
+    "org_name": "国土交通省",
+    "pref_name": "福岡県",
+    "city_name": "",
+    "pref_code": "40",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-23",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=rzQoxtgyUknAqgm9iQkbVe3nfXNaAfhQDXj6dLAz8TE%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-07-23",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-23T02:11:55+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本公告は、国土交通省九州地方整備局遠賀川河川事務所による令和8年度遠賀川下流出張所公衆便所解体外の一般競争入札に関するものです。調達種別は物品・役務に分類されます。公告内容および入札説明書は添付ファイルで提供されます。"
+    }
+  },
+  "pportal_630249": {
+    "source": "pportal",
+    "key": "pportal_630249",
+    "project_name": "民間企業投資・除却調査の実査業務",
+    "org_name": "内閣府",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-23",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=Zl97ImYbmZv6MKc4cfk9AVRmGP%2FZcY%2FV4p%2BUHcRS9LI%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-09-29T17:00:00",
+    "opening_date": "2026-09-29T17:00:00",
+    "application_deadline": "2026-09-11T12:00:00",
+    "fetched_date": "2026-07-23",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-23T02:11:55+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "令和8年10月1日から令和9年3月23日まで",
+      "application_deadline": "2026-09-11T12:00:00",
+      "bid_deadline": "2026-09-29T17:00:00",
+      "opening_date": "2026-09-30T11:00:00",
+      "summary": "本案件は、民間企業投資・除却調査の実査業務一式に関する一般競争入札です。落札者の決定は総合評価落札方式で行われ、入札書と技術等提案書の提出が必要です。履行期間は2026年10月1日から2027年3月23日までです。",
+      "opening_date_note": "入札締切と開札日が同一値になっています。AI抽出では2026-09-30T11:00:00 の可能性があるため、公告原本で開札日を確認してください。"
     }
   }
 }
