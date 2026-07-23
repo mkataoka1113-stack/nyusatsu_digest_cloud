@@ -5435,5 +5435,41 @@
       "summary": "本案件は、民間企業投資・除却調査の実査業務一式に関する一般競争入札です。落札者の決定は総合評価落札方式で行われ、入札書と技術等提案書の提出が必要です。履行期間は2026年10月1日から2027年3月23日までです。",
       "opening_date_note": "入札締切と開札日が同一値になっています。AI抽出では2026-09-30T11:00:00 の可能性があるため、公告原本で開札日を確認してください。"
     }
+  },
+  "tokyometro_3539491779294313": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539491779294313",
+    "project_name": "警視庁体育センター倉庫棟ほか撤去工事",
+    "org_name": "警視庁総務部用度課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-07-21",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都東大和市桜が丘三丁目４４番４号",
+    "bid_deadline": "",
+    "opening_date": "2026-08-31T09:00:00",
+    "application_deadline": "2026-07-24",
+    "fetched_date": "2026-07-23",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-23T03:32:37+00:00",
+      "planned_price": "25,919,300円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から令和8年12月18日まで",
+      "application_deadline": "2026-07-24T16:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-08-31T09:00:00",
+      "summary": "警視庁体育センター倉庫棟、食堂棟、更衣室棟、電気設備、機械設備、グラウンド設備の一式撤去工事です。外構整備の新設も含まれます。本工事は電子契約サービスの対象案件です。"
+    }
   }
 }
