@@ -1,80 +1,4 @@
 {
-  "eWFtYWd1Y2hpL2t1ZGFtYXRzdV9jaXR5LzIwMjYvMjAyNjA2MjRfMDAxMjkK": {
-    "source": "kkj",
-    "key": "eWFtYWd1Y2hpL2t1ZGFtYXRzdV9jaXR5LzIwMjYvMjAyNjA2MjRfMDAxMjkK",
-    "project_name": "旧緑ヶ丘市営住宅解体工事",
-    "org_name": "山口県下松市",
-    "pref_name": "山口県",
-    "city_name": "下松市",
-    "pref_code": "35",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-06-24T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.kudamatsu.lg.jp/keiyaku/documents/r8koukoku12midorigaokakaitai260624.pdf",
-    "attachments": [],
-    "location": "下松市大字末武上９４０番地工事概要解体工事・平屋建12棟解体、集会所解体、浴場解体、駐輪場解体 一式・解体後跡地整地 一",
-    "bid_deadline": "",
-    "opening_date": "令和８年７月１４日",
-    "application_deadline": "",
-    "fetched_date": "2026-06-25",
-    "notified": []
-  },
-  "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjA2MjRfMDM4MDIK": {
-    "source": "kkj",
-    "key": "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjA2MjRfMDM4MDIK",
-    "project_name": "旧中央図書館・旧市歴史民俗資料館解体工事に伴う石綿除去工事監理業務委託",
-    "org_name": "広島県三原市",
-    "pref_name": "広島県",
-    "city_name": "三原市",
-    "pref_code": "34",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-06-24T00:00:00+09:00",
-    "procedure_type": "指名競争入札",
-    "doc_uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164483.pdf",
-    "attachments": [
-      {
-        "name": "仕様書等",
-        "uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164484.pdf"
-      }
-    ],
-    "location": "：三原市円一町二丁目３－３駐輪場円一公園駐車場ごみ置場地震計陶芸釜駐輪場道路道路１F.L旧中央図書館旧中央図書館旧歴史民",
-    "bid_deadline": "令和8年7月1日",
-    "opening_date": "令和8年7月8日",
-    "application_deadline": "",
-    "fetched_date": "2026-06-25",
-    "notified": []
-  },
-  "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjA2MjRfMDM3OTgK": {
-    "source": "kkj",
-    "key": "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjA2MjRfMDM3OTgK",
-    "project_name": "旧本郷支所本館解体設計業務委託",
-    "org_name": "広島県三原市",
-    "pref_name": "広島県",
-    "city_name": "三原市",
-    "pref_code": "34",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-06-24T00:00:00+09:00",
-    "procedure_type": "指名競争入札",
-    "doc_uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164475.pdf",
-    "attachments": [
-      {
-        "name": "仕様書等",
-        "uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/164476.pdf"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "令和8年7月1日",
-    "opening_date": "令和8年7月8日",
-    "application_deadline": "",
-    "fetched_date": "2026-06-25",
-    "notified": []
-  },
   "dG9reW8vcm9pc19hYy8yMDI2LzIwMjYwNjI1XzAwMTE0Cg==": {
     "source": "kkj",
     "key": "dG9reW8vcm9pc19hYy8yMDI2LzIwMjYwNjI1XzAwMTE0Cg==",
@@ -5535,6 +5459,154 @@
       "bid_deadline": "2026-08-05T16:00:00",
       "opening_date": "2026-08-06T11:40:00",
       "summary": "呉市川尻町東1丁目16番地内にある川尻東プールの解体撤去工事です。建築解体撤去工事、電気設備解体撤去工事、機械設備解体撤去工事一式が含まれます。本件は電子入札システムを利用する電子入札案件です。"
+    }
+  },
+  "eWFtYW5hc2hpL21pbmFtaV9hbHBzX2NpdHkvMjAyNi8yMDI2MDcyNF8wMDc3OQo=": {
+    "source": "kkj",
+    "key": "eWFtYW5hc2hpL21pbmFtaV9hbHBzX2NpdHkvMjAyNi8yMDI2MDcyNF8wMDc3OQo=",
+    "project_name": "06 市営川上団地6-5号棟他解体撤去工事 (PDF 220KB)",
+    "org_name": "山梨県南アルプス市",
+    "pref_name": "山梨県",
+    "city_name": "南アルプス市",
+    "pref_code": "19",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-24T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.minami-alps.yamanashi.jp/fs/1/4/5/2/4/2/_/06_______6-5_________.pdf",
+    "attachments": [],
+    "location": "南アルプス市川上地内概 要1 内 容1",
+    "bid_deadline": "2026-08-21T17:00:00",
+    "opening_date": "令和8年8月20日",
+    "application_deadline": "2026-07-31T11:00:00",
+    "fetched_date": "2026-07-25",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-25T02:05:21+00:00",
+      "planned_price": "12,290,000円（消費税抜き）",
+      "region_requirement": "南アルプス市内に本店",
+      "koki": "契約締結日の翌日から令和8年12月18日",
+      "application_deadline": "2026-07-31T11:00:00",
+      "bid_deadline": "2026-08-21T17:00:00",
+      "opening_date": "2026-08-24T09:00:00",
+      "summary": "市営川上団地6-5号棟他の解体撤去工事一式。南アルプス市川上地内にて実施される。木造平屋建の団地解体撤去が含まれる。"
+    }
+  },
+  "bmFnYW5vL2NoaWt1bWFfY2l0eS8yMDI2LzIwMjYwNzI0XzAxMTAwCg==": {
+    "source": "kkj",
+    "key": "bmFnYW5vL2NoaWt1bWFfY2l0eS8yMDI2LzIwMjYwNzI0XzAxMTAwCg==",
+    "project_name": "（8.7.24公告）令和8年度 千曲市坊城平いこいの森キャビン等解体工事(PDFファイル:300KB)",
+    "org_name": "長野県千曲市",
+    "pref_name": "長野県",
+    "city_name": "千曲市",
+    "pref_code": "20",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-24T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.city.chikuma.lg.jp/material/files/group/11/080818-06-.pdf",
+    "attachments": [
+      {
+        "name": "図面等(PDFファイル:6.8MB)",
+        "uri": "https://www.city.chikuma.lg.jp/material/files/group/11/080818-08.pdf"
+      }
+    ],
+    "location": "特記仕様書",
+    "bid_deadline": "2026-08-18T09:15:00",
+    "opening_date": "2026-08-18T09:15:00",
+    "application_deadline": "",
+    "fetched_date": "2026-07-25",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-25T02:05:21+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": "千曲市内に入札参加資格者名簿に登載された主たる営業所（本社・本店等）を有している者であること。千曲市内に主たる営業所（本社・本店等）を有し、令和8年5月1日現在において千曲市市内での営業実績が2年以上ある者であること。",
+      "koki": "契約確定の翌日から120日間",
+      "application_deadline": null,
+      "bid_deadline": "2026-08-18T09:15:00",
+      "opening_date": "2026-08-18T09:15:00",
+      "summary": "令和8年度の千曲市坊城平いこいの森キャビン等解体工事。キャビンB棟、A棟、3、4、管理棟、公衆トイレ、あずまや、水飲場、炊事場、展望台など、計10棟の建物および付属物を解体撤去し、更地化する工事である。建物解体、敷地不陸整正、整地、廃棄物運搬処分が含まれる。"
+    }
+  },
+  "aG9ra2FpZG8vZnVrYWdhd2FzaGkvMjAyNi8yMDI2MDcyNF8wMTI1OAo=": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8vZnVrYWdhd2FzaGkvMjAyNi8yMDI2MDcyNF8wMTI1OAo=",
+    "project_name": "一已中学校校長住宅解体工事（PDF:239KB）",
+    "org_name": "北海道深川市",
+    "pref_name": "北海道",
+    "city_name": "深川市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-24T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.city.fukagawa.lg.jp/cms/section/zeimuzaisei/ftsk200000000bxi-att/aajrae0000004oft.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "令和８年８月５日",
+    "application_deadline": "2026-07-29T17:00:00",
+    "fetched_date": "2026-07-25",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-25T02:05:21+00:00",
+      "planned_price": "３，６０８，０００円（消費税及び地方消費税相当額を含む。）",
+      "region_requirement": "深川市競争入札参加資格者名簿において、解体工事に登録されている市内業者であること。",
+      "koki": "契約締結の日から2026年12月15日まで",
+      "application_deadline": "2026-07-29T17:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-08-05T10:00:00",
+      "summary": "深川市稲穂町2丁目3番9号に位置する一已中学校校長住宅の解体工事です。CB造平屋建て1棟1戸75.4㎡の建物のほか、灯油タンク、物置、量水器、給水ポリエンド、汚水排水管の撤去・閉止が含まれます。"
+    }
+  },
+  "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjA3MjRfMDQzNTYK": {
+    "source": "kkj",
+    "key": "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjA3MjRfMDQzNTYK",
+    "project_name": "松契一般第183号 新松戸駅東側地区土地区画整理事業に伴う建物等解体工事（PDF：142KB）",
+    "org_name": "千葉県松戸市",
+    "pref_name": "千葉県",
+    "city_name": "松戸市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-24T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/R8-0724kouji2w.files/183.pdf",
+    "attachments": [
+      {
+        "name": "松契一般第183号 設計図書（PDF：5,057KB）",
+        "uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/R8-0724kouji2w.files/183s.pdf"
+      }
+    ],
+    "location": "松戸市幸谷字宮下５８９番１他※本工事は、松戸市が指定する電子契約サービスを用いた電子契約の対象案件である",
+    "bid_deadline": "2026-08-17T11:00:00",
+    "opening_date": "令和8年8月17日",
+    "application_deadline": "2026-07-30T11:00:00",
+    "fetched_date": "2026-07-25",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-25T02:05:21+00:00",
+      "planned_price": "金 ９，９３０，０００円（税抜き)",
+      "region_requirement": "松戸市内に本店を有すること",
+      "koki": "契約締結日の翌日から令和8年11月27日まで",
+      "application_deadline": "2026-07-30T11:00:00",
+      "bid_deadline": "2026-08-17T11:00:00",
+      "opening_date": "2026-08-21T14:00:00",
+      "summary": "本工事は、新松戸駅東側地区土地区画整理事業に伴う建物等解体工事です。松戸市幸谷字宮下５８９番１他にて、延床面積150.70㎡の木造2階建て建物等の解体及び撤去、外構付属物の撤去、整地を行います。"
     }
   }
 }
