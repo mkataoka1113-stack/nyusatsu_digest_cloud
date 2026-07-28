@@ -1,251 +1,4 @@
 {
-  "chiba_92ef1972d7c441b5": {
-    "source": "chiba",
-    "key": "chiba_92ef1972d7c441b5",
-    "project_name": "副知事公舎解体工事",
-    "org_name": "千葉県  県土整備部  建設・不動産業課",
-    "pref_name": "千葉県",
-    "city_name": "千葉市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-06-26",
-    "procedure_type": "事後審査）千葉県 ・ 総合評価（拡充版） ・ 事後審査２型 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [
-      {
-        "name": "01_公告_個別編（単独）_260330改正（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_92ef1972d7c441b5_1.pdf"
-      },
-      {
-        "name": "02_公告_個別編_別添（特別簡易型（Ｂ））（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_92ef1972d7c441b5_2.pdf"
-      },
-      {
-        "name": "03_公告_共通編（総合評価方式）_260330改正（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_92ef1972d7c441b5_3.pdf"
-      }
-    ],
-    "location": "千葉市中央区都町",
-    "bid_deadline": "2026-07-28T17:00:00",
-    "opening_date": "2026-07-31T16:30:00",
-    "application_deadline": "2026-07-22T17:00:00",
-    "fetched_date": "2026-06-28",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-15T01:53:17+00:00",
-      "planned_price": "落札決定後公表する",
-      "region_requirement": "千葉土木事務所又は市原土木事務所管内（千葉市、習志野市、八千代市又は市原市）に資格者名簿に登載された主たる営業所（本店）を有すること",
-      "koki": "2027年2月26日限り",
-      "application_deadline": "2026-07-22T17:00:00",
-      "bid_deadline": "2026-07-28T17:00:00",
-      "summary": "老朽化した副知事公舎（鉄筋コンクリート造 平家建て 延べ面積283.50㎡）、詰所（鉄筋コンクリート造 平家建て 延べ面積59.24㎡）、カーポート（アルミニウム合金造 平家建て 延べ面積8.70㎡）及び外構の解体工事一式を行います。本工事は千葉市中央区都町にて実施されます。"
-    }
-  },
-  "chiba_e7ecf9b09cab4eea": {
-    "source": "chiba",
-    "key": "chiba_e7ecf9b09cab4eea",
-    "project_name": "千葉市営住宅千城台第６団地一部解体工事（その２）",
-    "org_name": "千葉市  財政局  資産経営部契約課",
-    "pref_name": "千葉県",
-    "city_name": "千葉市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-06-22",
-    "procedure_type": "一般競争 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
-    "location": "千葉市若葉区千城台東４丁目１６番外",
-    "bid_deadline": "2026-07-13T17:00:00",
-    "opening_date": "2026-07-24T09:15:00",
-    "application_deadline": "2026-06-26T17:00:00",
-    "fetched_date": "2026-06-28",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-15T01:53:17+00:00",
-      "planned_price": "事後公開",
-      "region_requirement": null,
-      "koki": "150日間",
-      "application_deadline": "2026-06-26T17:00:00",
-      "bid_deadline": "2026-07-13T17:00:00",
-      "summary": "千葉市若葉区千城台東４丁目１６番外にて、千葉市営住宅千城台第６団地の一部解体工事（その２）が行われます。入札方式は電子入札による一般競争・価格競争です。"
-    }
-  },
-  "chiba_1181dfa3c9aae3c9": {
-    "source": "chiba",
-    "key": "chiba_1181dfa3c9aae3c9",
-    "project_name": "千葉市動物公園鳥類・水系ゾーン建屋解体工事",
-    "org_name": "千葉市  財政局  資産経営部契約課",
-    "pref_name": "千葉県",
-    "city_name": "千葉市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-06-22",
-    "procedure_type": "一般競争 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
-    "location": "千葉市若葉区源町２８０番地",
-    "bid_deadline": "2026-07-13T17:00:00",
-    "opening_date": "2026-07-28T09:15:00",
-    "application_deadline": "2026-06-26T17:00:00",
-    "fetched_date": "2026-06-28",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-15T01:53:17+00:00",
-      "planned_price": "事後公開",
-      "region_requirement": null,
-      "koki": "153日間",
-      "application_deadline": "2026-06-26T17:00:00",
-      "bid_deadline": "2026-07-13T17:00:00",
-      "summary": "千葉市動物公園鳥類・水系ゾーン建屋の解体工事です。工事場所は千葉市若葉区源町２８０番地で、工期は153日間です。"
-    }
-  },
-  "chiba_d4695832b890c39f": {
-    "source": "chiba",
-    "key": "chiba_d4695832b890c39f",
-    "project_name": "旧千葉市こてはし台公民館解体工事",
-    "org_name": "千葉市  財政局  資産経営部契約課",
-    "pref_name": "千葉県",
-    "city_name": "千葉市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-06-22",
-    "procedure_type": "一般競争 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
-    "location": "千葉市花見川区横戸町８６１番地４",
-    "bid_deadline": "2026-07-13T17:00:00",
-    "opening_date": "2026-07-28T09:15:00",
-    "application_deadline": "2026-06-26T17:00:00",
-    "fetched_date": "2026-06-28",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-15T01:53:17+00:00",
-      "planned_price": "事後公開",
-      "region_requirement": null,
-      "koki": "185日間",
-      "application_deadline": "2026-06-26T17:00:00",
-      "bid_deadline": "2026-07-13T17:00:00",
-      "summary": "旧千葉市こてはし台公民館の解体工事です。工事場所は千葉市花見川区横戸町８６１番地４です。入札方式は電子入札による一般競争・価格競争です。"
-    }
-  },
-  "chiba_844dadc108c9a63e": {
-    "source": "chiba",
-    "key": "chiba_844dadc108c9a63e",
-    "project_name": "東郷小学校区第２学童クラブ解体工事",
-    "org_name": "茂原市  総務部  管財課",
-    "pref_name": "千葉県",
-    "city_name": "茂原市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-06-24",
-    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
-    "location": "茂原市谷本１４２番地",
-    "bid_deadline": "2026-07-06T15:00:00",
-    "opening_date": "2026-07-08T10:10:00",
-    "application_deadline": "",
-    "fetched_date": "2026-06-28",
-    "notified": [
-      "kataoka"
-    ]
-  },
-  "chiba_018c600d6ff4b46f": {
-    "source": "chiba",
-    "key": "chiba_018c600d6ff4b46f",
-    "project_name": "旧成田市松崎保育園解体工事",
-    "org_name": "成田市  総務部  契約検査課",
-    "pref_name": "千葉県",
-    "city_name": "成田市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-06-24",
-    "procedure_type": "事後審査）市町村 ・ 総合評価（拡充版） （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
-    "location": "成田市松崎２１６３－１",
-    "bid_deadline": "2026-07-23T16:00:00",
-    "opening_date": "2026-07-29T09:14:00",
-    "application_deadline": "",
-    "fetched_date": "2026-06-28",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-15T01:53:17+00:00",
-      "planned_price": "63,118,000円（税込）",
-      "region_requirement": null,
-      "koki": "令和９年１月２９日",
-      "application_deadline": null,
-      "bid_deadline": "2026-07-23T16:00:00",
-      "summary": "本案件は旧成田市松崎保育園の解体工事です。工事場所は成田市松崎２１６３－１です。"
-    }
-  },
-  "chiba_dc17ff6182176708": {
-    "source": "chiba",
-    "key": "chiba_dc17ff6182176708",
-    "project_name": "旧市原青少年会館解体工事",
-    "org_name": "市原市  財政部  契約検査課",
-    "pref_name": "千葉県",
-    "city_name": "市原市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-06-26",
-    "procedure_type": "一般競争 ・ 総合評価（拡充版） （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
-    "location": "市原市八幡",
-    "bid_deadline": "2026-07-23T16:00:00",
-    "opening_date": "2026-07-27T11:15:00",
-    "application_deadline": "2026-07-03T16:00:00",
-    "fetched_date": "2026-06-28",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-15T01:53:17+00:00",
-      "planned_price": "147,400,000円（税込）",
-      "region_requirement": null,
-      "koki": "令和9年6月25日限り",
-      "application_deadline": "2026-07-03T16:00:00",
-      "bid_deadline": "2026-07-23T16:00:00",
-      "summary": "旧市原青少年会館の解体工事です。工事場所は市原市八幡で、工期は2027年6月25日までです。"
-    }
-  },
   "etokyo_2026:13:106:00731": {
     "source": "etokyo",
     "key": "etokyo_2026:13:106:00731",
@@ -5420,6 +5173,229 @@
       "bid_deadline": null,
       "opening_date": null,
       "summary": "本公告は、国土地理院による位置情報インフラの強靱化に関する一般競争入札の入札公告である。具体的には、「P浅虫」建屋の解体撤去等業務が含まれる。調達機関は国土交通省で、茨城県に所在する。"
+    }
+  },
+  "etokyo_2026:13:107:00410": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:107:00410",
+    "project_name": "梅若小学校擁壁解体工事",
+    "org_name": "墨田区",
+    "pref_name": "東京都",
+    "city_name": "墨田区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-27T09:00:00",
+    "procedure_type": "希望型指名競争",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "東京都墨田区梅若小学校（墨田区墨田二丁目25番1号）",
+    "bid_deadline": "2026-08-31T10:20:00",
+    "opening_date": "2026-08-31T10:30:00",
+    "application_deadline": "2026-07-31T12:00:00",
+    "fetched_date": "2026-07-28",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-28T01:57:29+00:00",
+      "planned_price": "5,196,400円",
+      "region_requirement": null,
+      "koki": "契約確定の翌日から2026年11月4日まで",
+      "application_deadline": "2026-07-31T12:00:00",
+      "bid_deadline": "2026-08-31T10:20:00",
+      "opening_date": "2026-08-31T10:30:00",
+      "summary": "本案件は墨田区が発注する梅若小学校擁壁解体工事です。履行場所は東京都墨田区梅若小学校で、契約方法は希望制指名競争入札です。"
+    }
+  },
+  "pportal_631640": {
+    "source": "pportal",
+    "key": "pportal_631640",
+    "project_name": "【関東地方整備局、本局】Ｒ８霞ヶ浦河川水面清掃船解体業務",
+    "org_name": "国土交通省",
+    "pref_name": "埼玉県",
+    "city_name": "",
+    "pref_code": "11",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-28",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=X7azV%2F7ragLQVVBVIG%2BhxT9W6JSkx0%2FWM9qIfFlihSY%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-07-28",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-28T01:57:29+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本公告は、関東地方整備局によるR8霞ヶ浦河川水面清掃船解体業務の一般競争入札に関するものである。入札公告の詳細は、関東地方整備局のウェブサイトで確認できる。"
+    }
+  },
+  "pportal_631777": {
+    "source": "pportal",
+    "key": "pportal_631777",
+    "project_name": "【第四管区海上保安本部_経理工21】国有財産（船舶）解体処分",
+    "org_name": "国土交通省",
+    "pref_name": "愛知県",
+    "city_name": "",
+    "pref_code": "23",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-28",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=Cbr2qJ7FglgWpRTAxhCfjZrO%2Fa42ZHtGoj42Y4JjGWM%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-07-28",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-28T01:57:29+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本公告は、第四管区海上保安本部による国有財産（船舶）の解体処分に関する一般競争入札の入札公告である。調達種別は物品・役務に分類される。各種書式は第四管区海上保安本部のホームページで参照可能である。"
+    }
+  },
+  "aG9ra2FpZG8va3VzaXJvX2NpdHkvMjAyNi8yMDI2MDcyN18wMDYxOAo=": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8va3VzaXJvX2NpdHkvMjAyNi8yMDI2MDcyN18wMDYxOAo=",
+    "project_name": "令和8年度公営住宅等解体工事（白樺台C団地）【8月25日】",
+    "org_name": "北海道釧路市",
+    "pref_name": "北海道",
+    "city_name": "釧路市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-27T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/018/927/koukokubun2026005168.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-25T10:00:00",
+    "opening_date": "2026-08-25T10:00:00",
+    "application_deadline": "2026-08-17T17:00:00",
+    "fetched_date": "2026-07-28",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-28T01:57:29+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": "釧路市内に本店を有していること",
+      "koki": "2026年9月2日から2026年12月21日まで",
+      "application_deadline": "2026-08-17T17:00:00",
+      "bid_deadline": "2026-08-25T10:00:00",
+      "opening_date": "2026-08-25T10:00:00",
+      "summary": "本工事は、令和8年度公営住宅等解体工事（白樺台C団地）であり、釧路市白樺台にて既存住棟8棟30戸の除却工事を行います。工期は2026年9月2日から2026年12月21日までです。本工事は月単位の「週休2日工事」の対象です。"
+    }
+  },
+  "aG9ra2FpZG8va3VzaXJvX2NpdHkvMjAyNi8yMDI2MDcyN18wMDYxNAo=": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8va3VzaXJvX2NpdHkvMjAyNi8yMDI2MDcyN18wMDYxNAo=",
+    "project_name": "令和8年度新川団地集会所解体工事【8月18日】",
+    "org_name": "北海道釧路市",
+    "pref_name": "北海道",
+    "city_name": "釧路市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-27T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/011/456/koukokubun2026005193.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-18T10:00:00",
+    "opening_date": "2026-08-18T10:00:00",
+    "application_deadline": "2026-08-03T17:00:00",
+    "fetched_date": "2026-07-28",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-28T01:57:29+00:00",
+      "planned_price": "契約規則第７条第１項の規定に基づき、事後公表とする。",
+      "region_requirement": "釧路市内に本店を有していること。",
+      "koki": "2026年（令和8年）8月26日から2027年（令和9年）1月22日まで",
+      "application_deadline": "2026-08-03T17:00:00",
+      "bid_deadline": "2026-08-18T10:00:00",
+      "opening_date": "2026-08-18T10:00:00",
+      "summary": "本工事は、釧路市新川町における新川団地集会所の解体工事です。月単位の「週休2日工事」の対象であり、経費は設計金額に含まれています。"
+    }
+  },
+  "ZnVrdXNoaW1hL25hcmFoYV90b3duLzIwMjYvMjAyNjA3MjdfMDAwMzcK": {
+    "source": "kkj",
+    "key": "ZnVrdXNoaW1hL25hcmFoYV90b3duLzIwMjYvMjAyNjA3MjdfMDAwMzcK",
+    "project_name": "竜田駅東側事業用地地下構造物解体工事",
+    "org_name": "福島県楢葉町",
+    "pref_name": "福島県",
+    "city_name": "楢葉町",
+    "pref_code": "07",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-27T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.town.naraha.lg.jp/Files/2026/1.%E5%85%AC%E5%91%8A%E6%96%87%E3%80%80%EF%BC%91%EF%BC%93%20%E7%AB%9C%E7%94%B0%E9%A7%85%E6%9D%B1%E5%81%B4%E4%BA%8B%E6%A5%AD%E7%94%A8%E5%9C%B0%E5%9C%B0%E4%B8%8B%E6%A7%8B%E9%80%A0%E7%89%A9%E8%A7%A3%E4%BD%93%E5%B7%A5%E4%BA%8B.pdf",
+    "attachments": [
+      {
+        "name": "設計図書等",
+        "uri": "https://www.town.naraha.lg.jp/Files/2026/1.%E5%85%AC%E5%91%8A%E7%AC%AC13%E5%8F%B7%E3%80%80%E9%96%B2%E8%A6%A7%E7%94%A8%EF%BC%89%E7%AB%9C%E7%94%B0%E9%A7%85%E6%9D%B1%E5%81%B4%E4%BA%8B%E6%A5%AD%E7%94%A8%E5%9C%B0%E5%9C%B0%E4%B8%8B%E6%A7%8B%E9%80%A0%E7%89%A9%E7%AD%89%E8%A7%A3%E4%BD%93%E5%B7%A5%E4%BA%8B.zip"
+      }
+    ],
+    "location": "双葉郡楢葉町大字井出字堂ノ前地内4 指定工種工事概要 ・地下構造物の撤去・法面の復旧・残置物の撤去・土砂崩壊を防ぐ安全策",
+    "bid_deadline": "2026-08-25T13:30:00",
+    "opening_date": "2026-08-25T13:30:00",
+    "application_deadline": "2026-08-24T12:00:00",
+    "fetched_date": "2026-07-28",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-07-28T01:57:29+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": "町内に本店を有する者。",
+      "koki": "令和9年3月31日 まで",
+      "application_deadline": "2026-08-24T12:00:00",
+      "bid_deadline": "2026-08-25T13:30:00",
+      "opening_date": "2026-08-25T13:30:00",
+      "summary": "本工事は、竜田駅東側事業用地内の地下構造物解体工事です。具体的には、地下構造物の撤去、法面の復旧、残置物の撤去、土砂崩壊を防ぐ安全策の設置が含まれます。"
     }
   }
 }
