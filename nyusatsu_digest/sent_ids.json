@@ -1,48 +1,4 @@
 {
-  "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA3MDFfMDA3NjUK": {
-    "source": "kkj",
-    "key": "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA3MDFfMDA3NjUK",
-    "project_name": "重要文化財旧角海家住宅格納解体実施設計業務[ZIP：7.7MB]",
-    "org_name": "石川県輪島市",
-    "pref_name": "石川県",
-    "city_name": "輪島市",
-    "pref_code": "17",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-01T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.wajima.ishikawa.jp/docs/2014032000011/file_contents/080723_01.zip",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-07-02",
-    "notified": []
-  },
-  "YWtpdGEva2F6dW5vX2NpdHkvMjAyNi8yMDI2MDcwMV8wMDc5NQo=": {
-    "source": "kkj",
-    "key": "YWtpdGEva2F6dW5vX2NpdHkvMjAyNi8yMDI2MDcwMV8wMDc5NQo=",
-    "project_name": "消防器具置場・乾燥塔解体工事",
-    "org_name": "秋田県鹿角市",
-    "pref_name": "秋田県",
-    "city_name": "鹿角市",
-    "pref_code": "05",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-01T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.kazuno.lg.jp/material/files/group/6/R8koukoku130.pdf",
-    "attachments": [],
-    "location": "：鹿角市十和田大湯字倉沢地内ほか２．入札方法本工事の入札の手続きは電子入札システムにより行う",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-07-02",
-    "notified": []
-  },
   "eWFtYW5hc2hpL2Z1amlrYXdhZ3VjaGlrb190b3duLzIwMjYvMjAyNjA3MDJfMDAwNTUK": {
     "source": "kkj",
     "key": "eWFtYW5hc2hpL2Z1amlrYXdhZ3VjaGlrb190b3duLzIwMjYvMjAyNjA3MDJfMDAwNTUK",
@@ -4548,6 +4504,216 @@
       "bid_deadline": "2026-08-19T16:00:00",
       "opening_date": "2026-08-20T10:20:00",
       "summary": "旧松寿苑の解体撤去工事。RC造2階建て937㎡の建物解体撤去、アスベスト撤去、電気設備解体撤去、機械設備解体撤去が含まれる。"
+    }
+  },
+  "chiba_1ceac8287d90d463": {
+    "source": "chiba",
+    "key": "chiba_1ceac8287d90d463",
+    "project_name": "市営住宅解体工事　旭ヶ丘団地２号棟　勝浦市沢倉地内",
+    "org_name": "勝浦市  市長部局  財政課",
+    "pref_name": "千葉県",
+    "city_name": "旭ヶ丘団地２号棟　勝浦市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-31",
+    "procedure_type": "指名競争 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "旭ヶ丘団地２号棟　勝浦市沢倉地内",
+    "bid_deadline": "2026-08-20T17:00:00",
+    "opening_date": "2026-08-21T09:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-08-01",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-01T02:10:36+00:00",
+      "planned_price": "2,651,000円（税込）",
+      "region_requirement": null,
+      "koki": "令和 8年11月25日限り",
+      "application_deadline": null,
+      "bid_deadline": "2026-08-20T17:00:00",
+      "opening_date": "2026-08-21T09:00:00",
+      "summary": "勝浦市沢倉地内にある市営住宅旭ヶ丘団地2号棟の解体工事です。入札方式は指名競争による価格競争で、電子入札にて行われます。"
+    }
+  },
+  "aXNoaWthd2EvaGFrdXNhbnNoaS8yMDI2LzIwMjYwNzMxXzAxNDQ4Cg==": {
+    "source": "kkj",
+    "key": "aXNoaWthd2EvaGFrdXNhbnNoaS8yMDI2LzIwMjYwNzMxXzAxNDQ4Cg==",
+    "project_name": "尾口支所倉庫解体工事 （PDF 190.1KB）",
+    "org_name": "石川県白山市",
+    "pref_name": "石川県",
+    "city_name": "白山市",
+    "pref_code": "17",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-31T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/003/445/20260731koukoku1_224.pdf",
+    "attachments": [],
+    "location": "白山市 女原 地内３ 工事概要 鉄骨造２階建て解体 １棟",
+    "bid_deadline": "2026-08-17T14:00:00",
+    "opening_date": "2026-08-18T09:30:00",
+    "application_deadline": "2026-08-06T14:00:00",
+    "fetched_date": "2026-08-01",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-01T02:10:36+00:00",
+      "planned_price": "２０，３８３ ，０００ 円（税込）",
+      "region_requirement": "建設業法（昭和２４年法律第１００号。以下「法」という。）第３条第１項の許可に係る本社（主たる営業所）の所在地が 白山市内にあること。",
+      "koki": "令和８年１２月２１日",
+      "application_deadline": "2026-08-06T14:00:00",
+      "bid_deadline": "2026-08-17T14:00:00",
+      "opening_date": "2026-08-18T09:30:00",
+      "summary": "白山市女原地内において、鉄骨造2階建て延床面積279.0㎡の尾口支所倉庫解体工事を実施します。本工事は週休2日工事（発注者指定型）が適用されます。"
+    }
+  },
+  "aHlvZ28vYWthc2hpX2NpdHkvMjAyNi8yMDI2MDczMV8wMDA1OQo=": {
+    "source": "kkj",
+    "key": "aHlvZ28vYWthc2hpX2NpdHkvMjAyNi8yMDI2MDczMV8wMDA1OQo=",
+    "project_name": "【公募型プロポーザル方式】明石市立少年自然の家管理宿泊棟解体ほか工事（設計・施工一括発注）（7月10日公表）",
+    "org_name": "兵庫県明石市",
+    "pref_name": "兵庫県",
+    "city_name": "明石市",
+    "pref_code": "28",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-31T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.akashi.lg.jp/documents/40108/20260709163545.pdf",
+    "attachments": [
+      {
+        "name": "募集要項（PDF：736KB）",
+        "uri": "https://www.city.akashi.lg.jp/documents/40108/20260709192319.pdf"
+      },
+      {
+        "name": "提案仕様書（PDF：1,025KB）",
+        "uri": "https://www.city.akashi.lg.jp/documents/40108/20260707180916.pdf"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-08-01",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-01T02:10:36+00:00",
+      "planned_price": "590,900,000円（税抜）",
+      "region_requirement": "明石市内の本店で登録をしている者（市内業者）、または明石市内に支店・営業所等を有しており同支店・営業所等において契約締結の代理人を置く登録を行っている者（準市内業者）、または兵庫県内の本店で登録をしている者（県内本店業者）",
+      "koki": "契約締結日の翌日から2029年1月31日まで",
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "明石市立少年自然の家管理宿泊棟の解体工事および関連設備工事に係る設計業務と施工を一括で実施する事業者を選定する公募型プロポーザルです。履行期間は契約締結日の翌日から2029年1月31日までで、提案上限価格は590,900,000円（税抜）です。"
+    }
+  },
+  "Z292MTMvbW9mX2NodWdva3UvMjAyNi8yMDI2MDczMV8wMDI3NAo=": {
+    "source": "kkj",
+    "key": "Z292MTMvbW9mX2NodWdva3UvMjAyNi8yMDI2MDczMV8wMDI3NAo=",
+    "project_name": "（R8）柳井市中央二丁目所在国有建物等解体撤去工事",
+    "org_name": "財務省中国財務局",
+    "pref_name": "広島県",
+    "city_name": "広島市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-31T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://lfb.mof.go.jp/chugoku/tyoutatsu/r8yanaishichuoukaitai.pdf",
+    "attachments": [],
+    "location": "山口県柳井市中央二丁目228番15⑶ 工事概要 上記工事場所における木造2階建の解体撤去工事⑷ 工事期間 契約締結日の翌",
+    "bid_deadline": "2026-08-26T17:00:00",
+    "opening_date": "令和９年２月２日",
+    "application_deadline": "2026-08-25T17:00:00",
+    "fetched_date": "2026-08-01",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-01T02:10:36+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日の翌日～2027年2月2日",
+      "application_deadline": "2026-08-25T17:00:00",
+      "bid_deadline": "2026-08-26T17:00:00",
+      "opening_date": "2026-08-27T10:30:00",
+      "summary": "本工事は、山口県柳井市中央二丁目228番15に所在する木造2階建の国有建物の解体撤去を行うものです。入札は政府電子調達システムを利用した電子入札で行われますが、紙による提出も可能です。"
+    }
+  },
+  "dG9rdXNoaW1hL2FuYW5zaGkvMjAyNi8yMDI2MDczMV8wMTIwMgo=": {
+    "source": "kkj",
+    "key": "dG9rdXNoaW1hL2FuYW5zaGkvMjAyNi8yMDI2MDczMV8wMTIwMgo=",
+    "project_name": "旧羽ノ浦すみれ保育所除却工事",
+    "org_name": "徳島県阿南市",
+    "pref_name": "徳島県",
+    "city_name": "阿南市",
+    "pref_code": "36",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-07-31T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.anan.tokushima.jp/docs/2026071500032/file_contents/0716-4.pdf",
+    "attachments": [
+      {
+        "name": "旧羽ノ浦すみれ保育所除却工事 入札情報[PDF：62.8KB]",
+        "uri": "https://www.city.anan.tokushima.jp/docs/2026071500032/file_contents/260716-4.pdf"
+      },
+      {
+        "name": "旧羽ノ浦すみれ保育所除却工事 1.閲覧補足説明書[PDF：94.2KB]",
+        "uri": "https://www.city.anan.tokushima.jp/docs/2026071500032/file_contents/260716-4-1.pdf"
+      },
+      {
+        "name": "旧羽ノ浦すみれ保育所除却工事 4-1.建築図 A01～41[PDF：19.1MB]",
+        "uri": "https://www.city.anan.tokushima.jp/docs/2026071500032/file_contents/260716-4-4-1.pdf"
+      },
+      {
+        "name": "旧羽ノ浦すみれ保育所除却工事 4-2.建築図 A42～65[PDF：19.1MB]",
+        "uri": "https://www.city.anan.tokushima.jp/docs/2026071500032/file_contents/260716-4-4-2.pdf"
+      },
+      {
+        "name": "旧羽ノ浦すみれ保育所除却工事 4-3.構造図 1～10[PDF：15.4MB]",
+        "uri": "https://www.city.anan.tokushima.jp/docs/2026071500032/file_contents/260716-4-4-3.pdf"
+      },
+      {
+        "name": "旧羽ノ浦すみれ保育所除却工事 4-4.構造図 11～18[PDF：8.3MB]",
+        "uri": "https://www.city.anan.tokushima.jp/docs/2026071500032/file_contents/260716-4-4-4.pdf"
+      },
+      {
+        "name": "旧羽ノ浦すみれ保育所除却工事 4-5.電気管設備図 E1～11-M1～14[PDF：11.2MB]",
+        "uri": "https://www.city.anan.tokushima.jp/docs/2026071500032/file_contents/260716-4-4-5.pdf"
+      }
+    ],
+    "location": "旧羽ノ浦すみれ保育所除却工事阿南市羽ノ浦町岩脇姥ヶ原章 項 目 項 目 特 記 事 項 特 記 事 項 章1．適用基準",
+    "bid_deadline": "2026-08-17T15:00:00",
+    "opening_date": "2026-08-18T09:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-08-01",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-01T02:10:36+00:00",
+      "planned_price": null,
+      "region_requirement": "解体工事の特定建設業許可を有する市内登録業者",
+      "koki": "契約締結の翌日 から 令和9年2月22日",
+      "application_deadline": null,
+      "bid_deadline": "2026-08-17T15:00:00",
+      "opening_date": "2026-08-18T09:00:00",
+      "summary": "本工事は旧羽ノ浦すみれ保育所の除却工事です。工事場所は阿南市羽ノ浦町岩脇姥ケ原です。設計金額は75,770,000円（税抜）です。"
     }
   }
 }
