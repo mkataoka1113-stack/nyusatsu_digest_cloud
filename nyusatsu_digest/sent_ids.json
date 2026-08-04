@@ -4409,5 +4409,300 @@
       "opening_date": "2026-09-03T10:00:00",
       "summary": "令和8年度旧東住吉出張所解体撤去工事の設計図書等作成業務に関する一般競争入札です。契約内容は契約書（案）及び仕様書によります。入札は電子調達システムを利用できます。"
     }
+  },
+  "etokyo_2026:13:123:00640": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:123:00640",
+    "project_name": "西葛西駅東駐輪場解体工事",
+    "org_name": "江戸川区",
+    "pref_name": "東京都",
+    "city_name": "江戸川区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-03T13:00:00",
+    "procedure_type": "希望型指名競争",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "東京都江戸川区西葛西六丁目",
+    "bid_deadline": "2026-09-08T09:00:00",
+    "opening_date": "2026-09-08T09:05:00",
+    "application_deadline": "2026-08-07T12:00:00",
+    "fetched_date": "2026-08-04",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-04T01:56:39+00:00",
+      "planned_price": "43,290,000円",
+      "region_requirement": "江戸川区内に本店を置いていること。",
+      "koki": "契約確定の日の翌日から110日間",
+      "application_deadline": "2026-08-07T12:00:00",
+      "bid_deadline": "2026-09-08T09:00:00",
+      "opening_date": "2026-09-08T09:05:00",
+      "summary": "本工事は、西葛西駅東駐輪場の解体工事です。外部脚立足場設置、機械積込運搬による解体、アスファルト舗装やメッシュフェンス設置などの代替地整備、交通誘導員配置が含まれます。"
+    }
+  },
+  "pportal_629265": {
+    "source": "pportal",
+    "key": "pportal_629265",
+    "project_name": "江差港湾事務所　浮桟橋解体",
+    "org_name": "国土交通省",
+    "pref_name": "北海道",
+    "city_name": "",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-04",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=S5QhYHvwVjKBDiwqFEaxI6R%2F%2BxawOvKJamY%2F10AtMOU%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-08-04",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-04T01:56:39+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本公告は、国土交通省による一般競争入札（WTO対象外）の調達案件「江差港湾事務所 浮桟橋解体」に関するものである。調達機関は国土交通省北海道開発局函館開発建設部で、詳細は同部のホームページで確認できる。"
+    }
+  },
+  "pportal_632729": {
+    "source": "pportal",
+    "key": "pportal_632729",
+    "project_name": "【国土地理院】位置情報インフラの強靱化（「Ｐ忍路」建屋解体撤去等業務）",
+    "org_name": "国土交通省",
+    "pref_name": "茨城県",
+    "city_name": "",
+    "pref_code": "08",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-04",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=luotq6y%2BlLEaCJrpSQb%2BwuM3H%2FQt8QG%2BQe0MpjUJ70E%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-08-04",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-04T01:56:39+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本案件は、国土地理院による位置情報インフラの強靱化に関する一般競争入札の入札公告である。具体的には、「Ｐ忍路」建屋の解体撤去等業務が含まれる。調達機関は国土交通省で、所在地は茨城県である。"
+    }
+  },
+  "dG9rdXNoaW1hL2tvbWF0c3VzaGltYV9jaXR5LzIwMjYvMjAyNjA4MDNfMDA2NTUK": {
+    "source": "kkj",
+    "key": "dG9rdXNoaW1hL2tvbWF0c3VzaGltYV9jaXR5LzIwMjYvMjAyNjA4MDNfMDA2NTUK",
+    "project_name": "R8 小松島ステーションパークトイレ解体工事（工事番号27）",
+    "org_name": "徳島県小松島市",
+    "pref_name": "徳島県",
+    "city_name": "小松島市",
+    "pref_code": "36",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-03T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.komatsushima.lg.jp/fs/6/3/6/8/6/1/_/27_%E5%85%A5%E6%9C%AD%E6%83%85%E5%A0%B1.pdf",
+    "attachments": [
+      {
+        "name": "設計図書等 (PDF 11.2MB)",
+        "uri": "https://www.city.komatsushima.lg.jp/fs/6/3/6/8/6/0/_/27_%E8%A8%AD%E8%A8%88%E5%9B%B3%E6%9B%B8%E7%AD%89.pdf"
+      }
+    ],
+    "location": "小松島市小松島町字北開及び網渕 小松島ステーションパーク",
+    "bid_deadline": "2026-08-25T15:00:00",
+    "opening_date": "2026-08-26T09:40:00",
+    "application_deadline": "",
+    "fetched_date": "2026-08-04",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-04T01:56:39+00:00",
+      "planned_price": "\\8,976,000 （税込）",
+      "region_requirement": "令和8年度 市内解体工事",
+      "koki": "契約締結日の翌日から令和9年2月26日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-08-25T15:00:00",
+      "opening_date": "2026-08-26T09:40:00",
+      "summary": "本工事は、小松島市小松島町字北開及び字網渕において、小松島ステーションパークトイレの解体を行うものです。本入札は徳島県電子入札システムを利用した電子入札案件です。"
+    }
+  },
+  "bWl5YWdpL2t1cmloYXJhX2NpdHkvMjAyNi8yMDI2MDgwM18wMDk2Ngo=": {
+    "source": "kkj",
+    "key": "bWl5YWdpL2t1cmloYXJhX2NpdHkvMjAyNi8yMDI2MDgwM18wMDk2Ngo=",
+    "project_name": "【入札公告】旧姫松小学校解体工事（PDF：280KB）",
+    "org_name": "宮城県栗原市",
+    "pref_name": "宮城県",
+    "city_name": "栗原市",
+    "pref_code": "04",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-03T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.kuriharacity.jp/w004/030/010/200/2026koukou/0803/0803koukoku4.pdf?7311435",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-26T10:50:00",
+    "opening_date": "2026-08-26T10:50:00",
+    "application_deadline": "2026-08-17T16:00:00",
+    "fetched_date": "2026-08-04",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-04T01:56:39+00:00",
+      "planned_price": null,
+      "region_requirement": "栗原市内に本社（本店）、支店・営業所等で登録していること。",
+      "koki": "契約締結日の翌日から2027年3月25日まで",
+      "application_deadline": "2026-08-17T16:00:00",
+      "bid_deadline": "2026-08-26T10:50:00",
+      "opening_date": "2026-08-26T10:50:00",
+      "summary": "本工事は、栗原市一迫北沢二本松地内にある旧姫松小学校の解体工事一式です。校舎（鉄筋コンクリート造2階建て、延床面積1,816㎡）、体育館（鉄骨造平屋建て、延床面積588㎡）、付属棟（倉庫、屋外施設）が対象となります。"
+    }
+  },
+  "aGlyb3NoaW1hL2hhdHN1a2FpY2hpX2NpdHkvMjAyNi8yMDI2MDgwM18wMDUwNQo=": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL2hhdHN1a2FpY2hpX2NpdHkvMjAyNi8yMDI2MDgwM18wMDUwNQo=",
+    "project_name": "水之越住宅解体工事",
+    "org_name": "広島県廿日市市",
+    "pref_name": "広島県",
+    "city_name": "廿日市市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-03T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/95418.pdf",
+    "attachments": [],
+    "location": "廿日市市 大野４１００番地１３ 工事概要 水之越住宅解体工事 ・コンクリートブロック造 平屋建て、 １２棟、４７戸、 延",
+    "bid_deadline": "2026-09-02T16:00:00",
+    "opening_date": "2026-09-03T13:30:00",
+    "application_deadline": "",
+    "fetched_date": "2026-08-04",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-04T01:56:39+00:00",
+      "planned_price": "57,437,000円（消費税及び地方消費税相当額を除く。）",
+      "region_requirement": "建設業法（昭和24年法律第100号）第３条第１項で許可を受けた廿日市市内の営業所を有し、開札日から遡って継続して１年以上主たる営業所を廿日市市内に有していること。",
+      "koki": "契約締結の日から2027年1月29日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-09-02T16:00:00",
+      "opening_date": "2026-09-03T13:30:00",
+      "summary": "本工事は、廿日市市大野4100番地1における水之越住宅の解体工事です。コンクリートブロック造平屋建て12棟、47戸、延べ面積1,512.93㎡の解体撤去一式に加え、外構工作物、植樹、増築簡易建物等の解体撤去、および外構・駐車場工事（砕石敷き、真砂敷き、外柵木杭・ロープ敷設、駐車場区画ロープ敷設）一式が含まれます。"
+    }
+  },
+  "Y2hpYmEvY2hpYmFfY2l0eS8yMDI2LzIwMjYwODAzXzAzMjQ3Cg==": {
+    "source": "kkj",
+    "key": "Y2hpYmEvY2hpYmFfY2l0eS8yMDI2LzIwMjYwODAzXzAzMjQ3Cg==",
+    "project_name": "昭和の森フォレストビレッジ解体実施設計業務委託、寒川第一地区仮設収容住宅解体実施設計業務委託",
+    "org_name": "千葉県千葉市",
+    "pref_name": "千葉県",
+    "city_name": "千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-03T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.chiba.jp/somu/somu/somu/kojibunsyo/documents/08kk0629.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-25T17:00:00",
+    "opening_date": "令和８年８月２６日",
+    "application_deadline": "2026-08-07T17:00:00",
+    "fetched_date": "2026-08-04",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-04T01:56:39+00:00",
+      "planned_price": "落札決定後に公表",
+      "region_requirement": "千葉市内に本店を有する者",
+      "koki": "令和９年３月２１日まで",
+      "application_deadline": "2026-08-07T17:00:00",
+      "bid_deadline": "2026-08-25T17:00:00",
+      "opening_date": "2026-08-26T09:15:00",
+      "summary": "千葉市花見川区幕張本郷3丁目地内における下水道実施設計業務委託（幕張本郷雨水8-2）です。新設・詳細設計（耐震設計レベル1およびレベル2）として開削工法と推進工法、布設替・詳細設計として配水管仮設配管の設計が含まれます。"
+    }
+  },
+  "Y2hpYmEvY2hpYmFfY2l0eS8yMDI2LzIwMjYwODAzXzAzMjQ0Cg==": {
+    "source": "kkj",
+    "key": "Y2hpYmEvY2hpYmFfY2l0eS8yMDI2LzIwMjYwODAzXzAzMjQ0Cg==",
+    "project_name": "西千葉駅稲荷町線（矢作トンネル）環境観測所解体業務委託（8-2）",
+    "org_name": "千葉県千葉市",
+    "pref_name": "千葉県",
+    "city_name": "千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-03T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.chiba.jp/somu/somu/somu/kojibunsyo/documents/08kk0626.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-25T12:00:00",
+    "opening_date": "令和８年８月２５日",
+    "application_deadline": "2026-08-07T17:00:00",
+    "fetched_date": "2026-08-04",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "groq",
+      "enriched_at": "2026-08-04T01:56:39+00:00",
+      "planned_price": "落札決定後に公表",
+      "region_requirement": "千葉市内に本店、支店又は営業所等を有すること",
+      "koki": "契約締結日の翌日から令和9年3月21日まで",
+      "application_deadline": "2026-08-07T17:00:00",
+      "bid_deadline": "2026-08-25T12:00:00",
+      "opening_date": "2026-08-25T14:00:00",
+      "summary": "雨水施設計画策定業務の委託、上空占用物件調査業務の委託、補償物件調査積算業務の委託、環境観測所解体業務の委託"
+    }
   }
 }
