@@ -1,79 +1,4 @@
 {
-  "chiba_62f2cbd147144d82": {
-    "source": "chiba",
-    "key": "chiba_62f2cbd147144d82",
-    "project_name": "西千葉駅稲荷町線（矢作トンネル）環境観測所解体業務委託（８－１）",
-    "org_name": "千葉市  建設局  建設総務課",
-    "pref_name": "千葉県",
-    "city_name": "千葉市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-07-06",
-    "procedure_type": "一般競争 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
-    "location": "千葉市中央区矢作町地内",
-    "bid_deadline": "2026-07-22T12:00:00",
-    "opening_date": "2026-07-22T14:00:00",
-    "application_deadline": "2026-07-10T17:00:00",
-    "fetched_date": "2026-07-06",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-15T01:53:17+00:00",
-      "planned_price": "事後公開",
-      "region_requirement": null,
-      "koki": "120日間",
-      "application_deadline": "2026-07-10T17:00:00",
-      "bid_deadline": "2026-07-22T12:00:00",
-      "summary": "千葉市中央区矢作町地内にて、西千葉駅稲荷町線（矢作トンネル）環境観測所の解体業務を委託する案件です。入札方式は電子入札による一般競争・価格競争です。"
-    }
-  },
-  "chiba_e332db84649d13f2": {
-    "source": "chiba",
-    "key": "chiba_e332db84649d13f2",
-    "project_name": "Ｎｏ．１７５防火水槽撤去工事",
-    "org_name": "銚子市  市長部局  財政課管財室",
-    "pref_name": "千葉県",
-    "city_name": "銚子市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-07-06",
-    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [
-      {
-        "name": "01公告（No.175防火水槽撤去工事）（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_e332db84649d13f2_1.pdf"
-      }
-    ],
-    "location": "銚子市諸持町９７０番地",
-    "bid_deadline": "2026-07-21T16:00:00",
-    "opening_date": "2026-07-22T10:40:00",
-    "application_deadline": "",
-    "fetched_date": "2026-07-06",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-15T01:53:17+00:00",
-      "planned_price": "2,145,000円（税込）",
-      "region_requirement": "市内本・支店",
-      "koki": "契約締結日の翌日から令和8年10月31日まで",
-      "application_deadline": null,
-      "bid_deadline": "2026-07-21T16:00:00",
-      "summary": "銚子市諸持町970番地にてNo.175防火水槽撤去工事を実施します。工事内容は防火水槽撤去1箇所、植栽工一式、仮設工一式です。工期は契約締結日の翌日から2026年10月31日までです。"
-    }
-  },
   "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDcvMjAyNjA3MDZfNzUxNDkK": {
     "source": "kkj",
     "key": "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDcvMjAyNjA3MDZfNzUxNDkK",
@@ -4703,6 +4628,337 @@
       "bid_deadline": "2026-08-25T12:00:00",
       "opening_date": "2026-08-25T14:00:00",
       "summary": "雨水施設計画策定業務の委託、上空占用物件調査業務の委託、補償物件調査積算業務の委託、環境観測所解体業務の委託"
+    }
+  },
+  "pportal_632756": {
+    "source": "pportal",
+    "key": "pportal_632756",
+    "project_name": "国有建物解体撤去工事（旭川市）",
+    "org_name": "財務省",
+    "pref_name": "北海道",
+    "city_name": "",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-04",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=Zb6bw1ljlLvzjl0hXpxhkvuKKs5PHLhwCpxvIHD0cT0%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-08-25T17:15:00",
+    "opening_date": "2026-08-26T10:00:00",
+    "application_deadline": "2026-08-21T12:00:00",
+    "fetched_date": "2026-08-05",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-05T01:54:57+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日の翌日から令和９年１月２９日まで",
+      "application_deadline": "2026-08-21T12:00:00",
+      "bid_deadline": "2026-08-25T17:15:00",
+      "opening_date": "2026-08-26T10:00:00",
+      "summary": "本工事は、旭川市東旭川南１条７丁目８４番５１、同番５２に所在する国有建物の解体撤去を行うものです。建設工事に係る資材の再資源化等に関する法律に基づき、分別解体等及び特定建設資材廃棄物の再資源化等が義務付けられています。"
+    }
+  },
+  "pportal_632692": {
+    "source": "pportal",
+    "key": "pportal_632692",
+    "project_name": "盛岡地裁一関支部城内南宿舎２号棟解体撤去業務（電子入札対象案件）",
+    "org_name": "最高裁判所",
+    "pref_name": "岩手県",
+    "city_name": "",
+    "pref_code": "03",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-05",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=mA%2FH1sc9fHmbRLZ%2BKoXmjaBTwr8qrS04qEdiE%2FZGIfM%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-09-16T17:00:00",
+    "opening_date": "2026-09-17T10:45:00",
+    "application_deadline": "",
+    "fetched_date": "2026-08-05",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-05T01:54:57+00:00",
+      "planned_price": null,
+      "region_requirement": "東北地域の競争参加資格を有すること",
+      "koki": "契約締結日から令和9年3月31日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-09-16T17:00:00",
+      "opening_date": "2026-09-17T10:45:00",
+      "summary": "盛岡地方裁判所一関支部城内南宿舎２号棟（戸建て宿舎１棟ほか）の解体撤去業務です。本件は電子入札対象案件であり、電子調達システムを利用して実施されます。"
+    }
+  },
+  "dG90dG9yaS9pd2FtaV90b3duLzIwMjYvMjAyNjA4MDRfMDAwMzIK": {
+    "source": "kkj",
+    "key": "dG90dG9yaS9pd2FtaV90b3duLzIwMjYvMjAyNjA4MDRfMDAwMzIK",
+    "project_name": "旧岩美病院解体工事地盤変動影響事前調査業務",
+    "org_name": "鳥取県岩美町",
+    "pref_name": "鳥取県",
+    "city_name": "岩美町",
+    "pref_code": "31",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-04T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.iwami.gr.jp/secure/15212/koukoku.pdf",
+    "attachments": [
+      {
+        "name": "仕様書",
+        "uri": "https://www.iwami.gr.jp/secure/15212/tokkisiyousyo.pdf"
+      },
+      {
+        "name": "図面1,2",
+        "uri": "https://www.iwami.gr.jp/secure/15212/zumen.pdf"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "令和８年８月１２日",
+    "application_deadline": "",
+    "fetched_date": "2026-08-05",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-05T01:54:57+00:00",
+      "planned_price": "非公表",
+      "region_requirement": "本店所在地が鳥取県東部であること",
+      "koki": "令和9年2月26日まで",
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": "2026-08-20T09:40:00",
+      "summary": "旧岩美病院解体工事に伴う地盤変動影響の事前調査業務。木造建物A 35棟、木造建物B 1棟、木造建物C 2棟、非木造建物 5棟、工作物 35箇所について調査を行う。本業務は、旧岩美病院解体工事に起因する地盤変動により損害等が生ずるおそれがある家屋等の事前調査を行うものである。"
+    }
+  },
+  "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA4MDRfMDA4MDcK": {
+    "source": "kkj",
+    "key": "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA4MDRfMDA4MDcK",
+    "project_name": "訂正公告（旧教育研究所解体工事）[PDF：62.9KB]",
+    "org_name": "石川県輪島市",
+    "pref_name": "石川県",
+    "city_name": "輪島市",
+    "pref_code": "17",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-04T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.wajima.ishikawa.jp/docs/2014032000011/file_contents/080827_03-2.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-08-05",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-05T01:54:57+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本公告は、2026年7月29日付で公告された制限付き一般競争入札「旧教育研究所解体工事」の追加訂正に関するものである。主な訂正内容は、特例監理技術者および監理技術者補佐の配置を認めること、並びに競争入札参加資格審査において特例監理技術者の配置に関する届出書を追加することである。"
+    }
+  },
+  "aG9ra2FpZG8vaGtkX21saXRfZ29faGFrb2RhdGUvMjAyNi8yMDI2MDgwNF8wMDM4Mwo=": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8vaGtkX21saXRfZ29faGFrb2RhdGUvMjAyNi8yMDI2MDgwNF8wMDM4Mwo=",
+    "project_name": "江差港湾事務所 浮桟橋解体 (PDF:270KB)",
+    "org_name": "国土交通省北海道開発局函館開発建設部",
+    "pref_name": "北海道",
+    "city_name": "函館市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-04T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.hkd.mlit.go.jp/hk/keiyaku/m8lgt80000000nx7-att/tmsjjb0000001ai3.pdf",
+    "attachments": [],
+    "location": "公示用書類のとおり公示用書類のとおり令 和 8 年 8 月 4 日加 納 民 雄入 札 公 告江差港湾事務所 浮桟橋解体",
+    "bid_deadline": "令和8年8月18日",
+    "opening_date": "令和8年9月9日",
+    "application_deadline": "令和8年8月18日",
+    "fetched_date": "2026-08-05",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-05T01:54:57+00:00",
+      "planned_price": null,
+      "region_requirement": "北海道地域の競争参加資格を有すること",
+      "koki": "契約締結の日から令和8年11月30日まで",
+      "application_deadline": "2026-08-20T12:00:00",
+      "bid_deadline": "2026-09-08T16:00:00",
+      "opening_date": "2026-09-09T14:00:00",
+      "summary": "本件は江差港湾事務所の浮桟橋解体工事に関する一般競争入札です。電子入札・電子契約の対象案件であり、入札参加者は電子調達システムを利用して申請書や入札書を提出します。落札者は最低価格落札方式により決定されます。"
+    }
+  },
+  "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjA4MDRfMDM4NTUK": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjA4MDRfMDM4NTUK",
+    "project_name": "園芸振興センター解体工事設計業務委託",
+    "org_name": "広島県三原市",
+    "pref_name": "広島県",
+    "city_name": "三原市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-04T00:00:00+09:00",
+    "procedure_type": "指名競争入札",
+    "doc_uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/165591.pdf",
+    "attachments": [
+      {
+        "name": "仕様書等",
+        "uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/165592.pdf"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "令和8年8月18日",
+    "opening_date": "令和8年8月25日",
+    "application_deadline": "",
+    "fetched_date": "2026-08-05",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-05T01:54:57+00:00",
+      "planned_price": "金 1,789,000 円（消費税、地方消費税の額は含まず）",
+      "region_requirement": null,
+      "koki": "契約締結日の翌日から令和 9 年 1 月 28 日（検査期間の 9 日間を含む。）",
+      "application_deadline": null,
+      "bid_deadline": "2026-08-26T16:00:00",
+      "opening_date": "2026-08-27T09:25:00",
+      "summary": "本業務は、三原市大和町上徳良に位置する園芸振興センター（旧上徳良保育所）の解体工事に伴う設計業務委託です。解体実施設計、有害物質調査分析、山留め検討、工事費積算などを行います。履行期限は2027年1月28日です。"
+    }
+  },
+  "aGlyb3NoaW1hL2hhdHN1a2FpY2hpX2NpdHkvMjAyNi8yMDI2MDgwNF8wMDUwOQo=": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL2hhdHN1a2FpY2hpX2NpdHkvMjAyNi8yMDI2MDgwNF8wMDUwOQo=",
+    "project_name": "一般競争入札（旧廿日市市清掃センター解体工事）",
+    "org_name": "広島県廿日市市",
+    "pref_name": "広島県",
+    "city_name": "廿日市市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-04T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/92762.pdf",
+    "attachments": [
+      {
+        "name": "令和8年7月16日開札分 [PDFファイル／41KB]",
+        "uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/95486.pdf"
+      },
+      {
+        "name": "入札説明書（事後審査型）共通説明書 [PDFファイル／207KB]",
+        "uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/92815.pdf"
+      },
+      {
+        "name": "発注仕様書 [PDFファイル／16.34MB]",
+        "uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/92743.pdf"
+      },
+      {
+        "name": "添付資料1-1～7 [その他のファイル／24.51MB]",
+        "uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/92816.zip"
+      },
+      {
+        "name": "添付資料8-1図面 [その他のファイル／23.03MB]",
+        "uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/92502.zip"
+      },
+      {
+        "name": "添付資料8-2-1図面 [その他のファイル／26.82MB]",
+        "uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/92840.zip"
+      },
+      {
+        "name": "添付資料8-2-2図面 [その他のファイル／18.25MB]",
+        "uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/92841.zip"
+      },
+      {
+        "name": "添付資料8-3図面 [その他のファイル／27.03MB]",
+        "uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/92504.zip"
+      },
+      {
+        "name": "添付資料8-4図面 [その他のファイル／31.45MB]",
+        "uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/92505.zip"
+      },
+      {
+        "name": "施工提案書作成要領 [PDFファイル／94KB]",
+        "uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/92744.pdf"
+      },
+      {
+        "name": "【入札時】工事費内訳書（記入例）（建築用・廿日市市） [PDFファイル／84KB]",
+        "uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/92367.pdf"
+      },
+      {
+        "name": "法定福利費を内訳明示した見積書の作成手順​ [PDFファイル／238KB]",
+        "uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/91241.pdf"
+      },
+      {
+        "name": "安全衛生経費を内訳明示した見積書の作成手順​ [PDFファイル／193KB]",
+        "uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/91242.pdf"
+      },
+      {
+        "name": "（参考）共同企業体事務処理要領 [PDFファイル／314KB]",
+        "uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/92351.pdf"
+      },
+      {
+        "name": "特定建設共同企業体の結成説明書 [PDFファイル／51KB]",
+        "uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/92364.pdf"
+      },
+      {
+        "name": "法第12条第1項に基づく書面 [Wordファイル／26KB]",
+        "uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/92432.doc"
+      },
+      {
+        "name": "分解解体等の計画等（別表1～3） [Excelファイル／56KB]",
+        "uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/92433.xlsx"
+      }
+    ],
+    "location": "廿日市市 宮内３８６０番地３ 工事概要 解体工事対象建物：下表による４ 工期 廿日市市議会の議決のあった日の翌日から令和",
+    "bid_deadline": "2026-07-15T15:00:00",
+    "opening_date": "2026-07-16T13:30:00",
+    "application_deadline": "2026-07-15T15:00:00",
+    "fetched_date": "2026-08-05",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-05T01:54:57+00:00",
+      "planned_price": "事後公表とする。",
+      "region_requirement": "代表者は、主たる営業所又は11(1)アに掲げる業種の建設業の許可を有し、継続して入札及び契約履行等の委任を受けている営業所を広島県内に有していること。代表者以外の構成員は、主たる営業所又は11(1)アに掲げる業種の建設業の許可を有し、継続して入札及び契約履行等の委任を受けている営業所を廿日市市内に有していること。",
+      "koki": "廿日市市議会の議決のあった日の翌日から2028年３月31日まで",
+      "application_deadline": "2026-07-15T15:00:00",
+      "bid_deadline": "2026-07-15T15:00:00",
+      "opening_date": "2026-07-16T13:30:00",
+      "summary": "旧廿日市市清掃センターの解体工事です。設計施工一括発注方式による一般競争入札で、特定建設工事共同企業体が施工します。ごみ焼却施設、粗大ごみ処理施設、煙突などが解体対象です。"
     }
   }
 }
