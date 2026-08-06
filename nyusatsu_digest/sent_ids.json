@@ -1,191 +1,4 @@
 {
-  "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDcvMjAyNjA3MDZfNzUxNDkK": {
-    "source": "kkj",
-    "key": "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDcvMjAyNjA3MDZfNzUxNDkK",
-    "project_name": "汽船いぶき（搭載艇２隻含む）解体売払",
-    "org_name": "国土交通省",
-    "pref_name": "広島県",
-    "city_name": "",
-    "pref_code": "34",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-06T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-07-07",
-    "notified": [],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
-  },
-  "bmlpZ2F0YS9pdG9pZ2F3YV9jaXR5LzIwMjYvMjAyNjA3MDZfMDQyNDQK": {
-    "source": "kkj",
-    "key": "bmlpZ2F0YS9pdG9pZ2F3YV9jaXR5LzIwMjYvMjAyNjA3MDZfMDQyNDQK",
-    "project_name": "都補第7号 市営西浜住宅8・9号棟解体工事 [PDFファイル／120KB]",
-    "org_name": "新潟県糸魚川市",
-    "pref_name": "新潟県",
-    "city_name": "糸魚川市",
-    "pref_code": "15",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-06T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.itoigawa.lg.jp/uploaded/attachment/19210.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-07-21T14:00:00",
-    "opening_date": "令和8年7月22日",
-    "application_deadline": "2026-07-13T16:00:00",
-    "fetched_date": "2026-07-07",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "groq",
-      "enriched_at": "2026-07-14T05:57:05+00:00",
-      "planned_price": "事後公表",
-      "region_requirement": "糸魚川市内に本店又は支店を有する者",
-      "koki": "契約締結の日から令和9年3月25日まで",
-      "application_deadline": "2026-07-13T16:00:00",
-      "bid_deadline": "2026-07-21T14:00:00",
-      "summary": "市営西浜住宅8・9号棟の解体工事を行う。工事場所は糸魚川市横町1丁目地内。"
-    }
-  },
-  "aGlyb3NoaW1hL290YWtlX2NpdHkvMjAyNi8yMDI2MDcwNl8wMDExNAo=": {
-    "source": "kkj",
-    "key": "aGlyb3NoaW1hL290YWtlX2NpdHkvMjAyNi8yMDI2MDcwNl8wMDExNAo=",
-    "project_name": "(令和8年7月24日開札）旧立戸保育所解体工事",
-    "org_name": "広島県大竹市",
-    "pref_name": "広島県",
-    "city_name": "大竹市",
-    "pref_code": "34",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-06T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.otake.hiroshima.jp/material/files/group/11/0706kyutatidokaitaikoukoku.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "令和8年7月24日",
-    "application_deadline": "",
-    "fetched_date": "2026-07-07",
-    "notified": []
-  },
-  "Z292Mi9tYWZmX3Rva2FpLzIwMjYvMjAyNjA3MDZfMDAyOTcK": {
-    "source": "kkj",
-    "key": "Z292Mi9tYWZmX3Rva2FpLzIwMjYvMjAyNjA3MDZfMDAyOTcK",
-    "project_name": "名古屋農林総合庁舎及び2号館庁舎解体工事設計業務(PDF : 175KB)",
-    "org_name": "農林水産省東海農政局",
-    "pref_name": "愛知県",
-    "city_name": "名古屋市",
-    "pref_code": "23",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-06T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.maff.go.jp/tokai/supply/eizen/attach/pdf/index-80.pdf",
-    "attachments": [
-      {
-        "name": "業務仕様書(PDF : 1,039KB)",
-        "uri": "https://www.maff.go.jp/tokai/supply/eizen/attach/pdf/index-81.pdf"
-      }
-    ],
-    "location": "仕様書による",
-    "bid_deadline": "令和８年７月６日",
-    "opening_date": "令和８年８月７日",
-    "application_deadline": "",
-    "fetched_date": "2026-07-07",
-    "notified": []
-  },
-  "ZnVrdXNoaW1hL3BvbGljZV9mdWt1c2hpbWEvMjAyNi8yMDI2MDcwNl8wMTIyMwo=": {
-    "source": "kkj",
-    "key": "ZnVrdXNoaW1hL3BvbGljZV9mdWt1c2hpbWEvMjAyNi8yMDI2MDcwNl8wMTIyMwo=",
-    "project_name": "第２６−８００６０−００２６号 福島北警察署 上郡待機宿舎解体工事",
-    "org_name": "国家公安委員会（警察庁）福島県警察",
-    "pref_name": "福島県",
-    "city_name": "福島市",
-    "pref_code": "07",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-06T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.police.pref.fukushima.jp/new/nyuusatu/R8nyuusatu/26-0026koukoku.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "令和8年8月20日",
-    "application_deadline": "令和8年7月31日",
-    "fetched_date": "2026-07-07",
-    "notified": []
-  },
-  "Y2hpYmEvY2hpYmFfY2l0eS8yMDI2LzIwMjYwNzA2XzAzMTkxCg==": {
-    "source": "kkj",
-    "key": "Y2hpYmEvY2hpYmFfY2l0eS8yMDI2LzIwMjYwNzA2XzAzMTkxCg==",
-    "project_name": "西千葉駅稲荷町線（矢作トンネル）環境観測所解体業務委託（8-1）",
-    "org_name": "千葉県千葉市",
-    "pref_name": "千葉県",
-    "city_name": "千葉市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-06T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.chiba.jp/somu/somu/somu/kojibunsyo/documents/08kk0547.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "令和８年７月２２日",
-    "application_deadline": "",
-    "fetched_date": "2026-07-07",
-    "notified": [
-      "kataoka"
-    ]
-  },
-  "ippi_0010010000420260063": {
-    "source": "ippi",
-    "key": "ippi_0010010000420260063",
-    "project_name": "稚内（８）既設建物解体等工事",
-    "org_name": "防衛省北海道防衛局／総務部",
-    "pref_name": "",
-    "city_name": "",
-    "pref_code": "",
-    "gyoshu_codes": [
-      "29"
-    ],
-    "cft_issue_date": "2026-07-07T00:00:00",
-    "procedure_type": "一般競争入札（標準型）",
-    "doc_uri": "https://www.mod.go.jp/rdb/hokkaido/",
-    "attachments": [
-      {
-        "name": "入札公告",
-        "uri": "https://odw.dfeg.mod.go.jp/CALS/Publish/KokaiBunshoServlet?AnkenKanriNo=005010002026412000000019&BunshoKanriId=20"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "2026-08-03T12:00:00",
-    "opening_date": "2026-10-07T10:00:00",
-    "application_deadline": "",
-    "fetched_date": "2026-07-07",
-    "notified": [],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:57:05+00:00"
-    }
-  },
   "ZnVrdXNoaW1hL3RhbXVyYV9jaXR5LzIwMjYvMjAyNjA3MzFfMDEzNDgK": {
     "source": "kkj",
     "key": "ZnVrdXNoaW1hL3RhbXVyYV9jaXR5LzIwMjYvMjAyNjA3MzFfMDEzNDgK",
@@ -4959,6 +4772,225 @@
       "bid_deadline": "2026-07-15T15:00:00",
       "opening_date": "2026-07-16T13:30:00",
       "summary": "旧廿日市市清掃センターの解体工事です。設計施工一括発注方式による一般競争入札で、特定建設工事共同企業体が施工します。ごみ焼却施設、粗大ごみ処理施設、煙突などが解体対象です。"
+    }
+  },
+  "chiba_7c5cd5dbe75a8961": {
+    "source": "chiba",
+    "key": "chiba_7c5cd5dbe75a8961",
+    "project_name": "市川市立中国分保育園園舎解体工事",
+    "org_name": "市川市  管財部  契約課",
+    "pref_name": "千葉県",
+    "city_name": "市川市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-08-05",
+    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "市川市",
+    "bid_deadline": "2026-08-28T17:00:00",
+    "opening_date": "2026-08-31T10:25:00",
+    "application_deadline": "",
+    "fetched_date": "2026-08-06",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-06T01:58:15+00:00",
+      "planned_price": "39,831,000円（税込）",
+      "region_requirement": null,
+      "koki": "令和 9年 2月12日限り",
+      "application_deadline": null,
+      "bid_deadline": "2026-08-28T17:00:00",
+      "opening_date": "2026-08-31T10:25:00",
+      "summary": "市川市立中国分保育園園舎の解体工事です。工事場所は市川市です。"
+    }
+  },
+  "aXNoaWthd2EvbmFuYW9fY2l0eS8yMDI2LzIwMjYwODA1XzAwMjc1Cg==": {
+    "source": "kkj",
+    "key": "aXNoaWthd2EvbmFuYW9fY2l0eS8yMDI2LzIwMjYwODA1XzAwMjc1Cg==",
+    "project_name": "令和8年度和倉消防署改築工事（解体）",
+    "org_name": "石川県七尾市",
+    "pref_name": "石川県",
+    "city_name": "七尾市",
+    "pref_code": "17",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-05T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.nanao.lg.jp/kanri/jigyosha/nyusatsu/nyusatsu/documents/25_koukoku20260805.pdf",
+    "attachments": [
+      {
+        "name": "ZIP（ZIP：11,833KB）",
+        "uri": "https://www.city.nanao.lg.jp/kanri/jigyosha/nyusatsu/nyusatsu/documents/25_kouji20260805.zip"
+      }
+    ],
+    "location": "３ 工事種目４ 完成期日１章 一 般 共 通 事 項特記事項 項目１解 体 工 事 仕 様 書５ 別契約関連工事Ⅱ 工事",
+    "bid_deadline": "令和８年８月２０日",
+    "opening_date": "令和８年８月２４日",
+    "application_deadline": "令和８年８月１９日",
+    "fetched_date": "2026-08-06",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-06T01:58:15+00:00",
+      "planned_price": "149,930,000 円（税込）",
+      "region_requirement": "令和８年度七尾市競争入札参加資格における登録区分が、「市内Ⅰ」であること。",
+      "koki": "令和９年５月２８日",
+      "application_deadline": "2026-08-17T17:00:00",
+      "bid_deadline": "2026-08-20T15:00:00",
+      "opening_date": "2026-08-24T10:00:00",
+      "summary": "本工事は、七尾市祖浜町地内における令和8年度和倉消防署改築工事（解体）です。構造・階数鉄骨造平屋建て、延床面積A=935.81m2の解体工事一式を行います。履行期限は2027年5月28日です。"
+    }
+  },
+  "aXNoaWthd2EvbmFuYW9fY2l0eS8yMDI2LzIwMjYwODA1XzAwMjc0Cg==": {
+    "source": "kkj",
+    "key": "aXNoaWthd2EvbmFuYW9fY2l0eS8yMDI2LzIwMjYwODA1XzAwMjc0Cg==",
+    "project_name": "ごみ固形燃料化施設解体工事",
+    "org_name": "石川県七尾市",
+    "pref_name": "石川県",
+    "city_name": "七尾市",
+    "pref_code": "17",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-05T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.nanao.lg.jp/kanri/jigyosha/nyusatsu/nyusatsu/documents/24_koukoku20260805.pdf",
+    "attachments": [
+      {
+        "name": "ZIP（ZIP：92,829KB）",
+        "uri": "https://www.city.nanao.lg.jp/kanri/jigyosha/nyusatsu/nyusatsu/documents/24_kouji20260805.zip"
+      }
+    ],
+    "location": "七尾市 吉田町 地内",
+    "bid_deadline": "令和８年８月１３日",
+    "opening_date": "令和８年８月２４日",
+    "application_deadline": "令和８年８月１９日",
+    "fetched_date": "2026-08-06",
+    "notified": [],
+    "enrich": {
+      "status": "no_text",
+      "provider": "",
+      "enriched_at": "2026-08-06T01:58:15+00:00"
+    }
+  },
+  "Z2lmdS9naWZ1X3ByZWYvMjAyNi8yMDI2MDgwNV8xNTk3Mgo=": {
+    "source": "kkj",
+    "key": "Z2lmdS9naWZ1X3ByZWYvMjAyNi8yMDI2MDgwNV8xNTk3Mgo=",
+    "project_name": "【建設工事】滝谷避難小屋解体・撤去工事に関する一般競争入札",
+    "org_name": "岐阜県",
+    "pref_name": "岐阜県",
+    "city_name": "",
+    "pref_code": "21",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-05T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.pref.gifu.lg.jp/uploaded/life/510899_2932481_misc.pdf",
+    "attachments": [
+      {
+        "name": "配置予定技術者に関する提出書類について（お知らせ） [PDFファイル／188KB]",
+        "uri": "https://www.pref.gifu.lg.jp/uploaded/life/510899_2932482_misc.pdf"
+      }
+    ],
+    "location": "高山市奥飛騨温泉郷神坂地内",
+    "bid_deadline": "2026-08-20T16:00:00",
+    "opening_date": "2026-08-21T10:00:00",
+    "application_deadline": "2026-08-12T16:00:00",
+    "fetched_date": "2026-08-06",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-06T01:58:15+00:00",
+      "planned_price": "36,433,100円（消費税及び地方消費税を含む）",
+      "region_requirement": "岐阜県内に、岐阜県建設工事入札参加資格者名簿に登載されている本店又は事業所等が所在すること。",
+      "koki": "契約日から令和8年11月20日まで",
+      "application_deadline": "2026-08-12T16:00:00",
+      "bid_deadline": "2026-08-20T16:00:00",
+      "opening_date": "2026-08-21T10:00:00",
+      "summary": "本工事は、高山市奥飛騨温泉郷神坂地内において、滝谷避難小屋の解体及び撤去を行うものです。電子入札システムを用いた事後審査型一般競争入札により実施されます。"
+    }
+  },
+  "YW9tb3JpL2dvc2hvZ2F3YXJhX2NpdHkvMjAyNi8yMDI2MDgwNV8wMDQ4OQo=": {
+    "source": "kkj",
+    "key": "YW9tb3JpL2dvc2hvZ2F3YXJhX2NpdHkvMjAyNi8yMDI2MDgwNV8wMDQ4OQo=",
+    "project_name": "アワビ中間育成施設解体工事監理業務",
+    "org_name": "青森県五所川原市",
+    "pref_name": "青森県",
+    "city_name": "五所川原市",
+    "pref_code": "02",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-05T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/R8gi.k018.pdf",
+    "attachments": [
+      {
+        "name": "縦覧資料",
+        "uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/r8gi.j018.zip"
+      }
+    ],
+    "location": "２．敷地面積１棟１棟 ①門 鉄筋ｺﾝｸﾘ- ﾄ造",
+    "bid_deadline": "",
+    "opening_date": "令和8年8月24日",
+    "application_deadline": "2026-08-19T12:00:00",
+    "fetched_date": "2026-08-06",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-06T01:58:15+00:00",
+      "planned_price": null,
+      "region_requirement": "五所川原市内に本店を有すること",
+      "koki": "契約成立の日から令和9年1月22日まで",
+      "application_deadline": "2026-08-19T12:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-08-24T09:00:00",
+      "summary": "本業務は、五所川原市脇元野脇地内にあるアワビ中間育成施設（鉄骨造2階建、延床面積407.43㎡）の解体工事監理業務一式です。入札参加資格として、五所川原市内に本店を有し、令和8年度測量・建設コンサルタント等競争入札参加資格者名簿に登録されていることなどが求められます。履行期限は令和9年1月22日です。"
+    }
+  },
+  "Z292MTMvbW9mX2hva2thaWRvLzIwMjYvMjAyNjA4MDRfMDA4NzcK": {
+    "source": "kkj",
+    "key": "Z292MTMvbW9mX2hva2thaWRvLzIwMjYvMjAyNjA4MDRfMDA4NzcK",
+    "project_name": "国有建物解体撤去工事（旭川市）",
+    "org_name": "財務省北海道財務局",
+    "pref_name": "北海道",
+    "city_name": "札幌市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-04T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://lfb.mof.go.jp/hokkaido/content/kakusyo/028/20260804_koukoku_tatemono.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-08-25T17:15:00",
+    "opening_date": "2026-08-26T10:00:00",
+    "application_deadline": "2026-08-21T12:00:00",
+    "fetched_date": "2026-08-06",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-06T01:58:15+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日の翌日から令和９年１月２９日まで",
+      "application_deadline": "2026-08-21T12:00:00",
+      "bid_deadline": "2026-08-25T17:15:00",
+      "opening_date": "2026-08-26T10:00:00",
+      "summary": "本工事は国有建物の解体撤去工事で、旭川市東旭川南１条７丁目にて実施されます。建設工事に係る資材の再資源化等に関する法律に基づき、分別解体等及び特定建設資材廃棄物の再資源化等が義務付けられています。"
     }
   }
 }
