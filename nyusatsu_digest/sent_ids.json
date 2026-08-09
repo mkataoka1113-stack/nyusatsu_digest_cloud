@@ -1,311 +1,4 @@
 {
-  "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDcvMjAyNjA3MDlfNzU0MjcK": {
-    "source": "kkj",
-    "key": "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDcvMjAyNjA3MDlfNzU0MjcK",
-    "project_name": "【東京航空局】大島元町合築宿舎外１棟解体実施設計",
-    "org_name": "国土交通省",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-09T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-07-10",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:24:47+00:00"
-    }
-  },
-  "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDcvMjAyNjA3MDlfNzU0MDMK": {
-    "source": "kkj",
-    "key": "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDcvMjAyNjA3MDlfNzU0MDMK",
-    "project_name": "大久保宿舎解体工事",
-    "org_name": "厚生労働省",
-    "pref_name": "兵庫県",
-    "city_name": "",
-    "pref_code": "28",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-09T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-07-10",
-    "notified": [],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:24:47+00:00"
-    }
-  },
-  "aGlyb3NoaW1hL2t1cmVzaGkvMjAyNi8yMDI2MDcwOV8wMzA0Nwo=": {
-    "source": "kkj",
-    "key": "aGlyb3NoaW1hL2t1cmVzaGkvMjAyNi8yMDI2MDcwOV8wMzA0Nwo=",
-    "project_name": "呉ポートピアパーク施設解体撤去工事（アーケード）",
-    "org_name": "広島県呉市",
-    "pref_name": "広島県",
-    "city_name": "呉市",
-    "pref_code": "34",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-09T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.kure.lg.jp/~koji/files/000000000000040934.PDF",
-    "attachments": [],
-    "location": "呉市天応大浜３丁目地内建設工事の種類 解体工事建築解体撤去工事  一式，電気設備解体撤去工事  一式，機械設備解体撤去工",
-    "bid_deadline": "2026-07-22T16:00:00",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-07-10",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-14T05:36:27+00:00",
-      "planned_price": "28,472,000円（消費税抜き）",
-      "region_requirement": "建設業許可に係る主たる営業所を呉市内に有すること",
-      "koki": "2026年11月26日",
-      "application_deadline": null,
-      "bid_deadline": "2026-07-22T16:00:00",
-      "summary": "呉市天応大浜３丁目地内において、呉ポートピアパーク施設のアーケード解体撤去工事を実施します。本工事には、建築、電気設備、機械設備の解体撤去作業一式が含まれます。"
-    }
-  },
-  "Z292L2phZWFfZ28vMjAyNi8yMDI2MDcwOV8wNTEyNQo=": {
-    "source": "kkj",
-    "key": "Z292L2phZWFfZ28vMjAyNi8yMDI2MDcwOV8wNTEyNQo=",
-    "project_name": "【電子入札】【電子契約】燃料研究棟グローブボックスの除染・解体作業",
-    "org_name": "国立研究開発法人日本原子力研究開発機構大洗",
-    "pref_name": "茨城県",
-    "city_name": "東海村",
-    "pref_code": "08",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-09T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://keiyaku.jaea.go.jp/compe/02/pdf/0803C00966.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "令和8年7月9日",
-    "opening_date": "令和8年9月30日",
-    "application_deadline": "",
-    "fetched_date": "2026-07-10",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-14T05:36:27+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": "2029年2月28日まで",
-      "application_deadline": null,
-      "bid_deadline": "2026-09-30T14:00:00",
-      "summary": "燃料研究棟グローブボックスの除染・解体作業を1式行う。作業は燃料研究棟建家にて実施される。本件は電子入札システムを通じて行われる。"
-    }
-  },
-  "ZnVrdXNoaW1hL3BvbGljZV9mdWt1c2hpbWEvMjAyNi8yMDI2MDcwOV8wMTIyNQo=": {
-    "source": "kkj",
-    "key": "ZnVrdXNoaW1hL3BvbGljZV9mdWt1c2hpbWEvMjAyNi8yMDI2MDcwOV8wMTIyNQo=",
-    "project_name": "第２６−８００６０−００２５号 伊達警察署 大泉待機宿舎Ｂ棟外解体工事",
-    "org_name": "国家公安委員会（警察庁）福島県警察",
-    "pref_name": "福島県",
-    "city_name": "福島市",
-    "pref_code": "07",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-09T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.police.pref.fukushima.jp/new/nyuusatu/R8nyuusatu/26-0025koukoku.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-08-18T15:00:00",
-    "opening_date": "",
-    "application_deadline": "令和8年7月21日",
-    "fetched_date": "2026-07-10",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-14T05:36:27+00:00",
-      "planned_price": "契約締結後に公表する。",
-      "region_requirement": "福島県内に本店を有すること",
-      "koki": "182日間",
-      "application_deadline": "2026-08-03T00:00:00",
-      "bid_deadline": "2026-08-18T15:00:00",
-      "summary": "伊達警察署大泉待機宿舎B棟および外構の解体工事です。大泉待機宿舎B棟はRC3階建てで、延べ面積は831.56㎡です。"
-    }
-  },
-  "chiba_4527be8e2b226363": {
-    "source": "chiba",
-    "key": "chiba_4527be8e2b226363",
-    "project_name": "千葉県立千葉女子高等学校長寿命化対策作法室外解体工事",
-    "org_name": "千葉県  教育庁企画管理部  教育施設課",
-    "pref_name": "千葉県",
-    "city_name": "千葉市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-07-07",
-    "procedure_type": "事後審査）千葉県 ・ 総合評価（拡充版） ・ 事後審査２型 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [
-      {
-        "name": "入札公告（千葉女子高等学校長寿命化対策作法室外解体工事）（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_4527be8e2b226363_1.pdf"
-      }
-    ],
-    "location": "千葉市稲毛区小仲台",
-    "bid_deadline": "2026-08-05T17:00:00",
-    "opening_date": "2026-08-07T10:00:00",
-    "application_deadline": "2026-07-31T17:00:00",
-    "fetched_date": "2026-07-10",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-15T01:53:17+00:00",
-      "planned_price": "事後公開",
-      "region_requirement": "千葉土木事務所、印旛土木事務所、葛南土木事務所、山武土木事務所、長生土木事務所又は市原土木事務所管内（千葉市、習志野市、八千代市、佐倉市、四街道市、八街市、印西市、白井市、印旛郡酒々井町、印旛郡栄町、市川市、船橋市、浦安市、東金市、山武市、大網白里市、山武郡横芝光町、山武郡九十九里町、茂原市、長生郡一宮町、長生郡睦沢町、長生郡白子町、長生郡長柄町、長生郡長南町、長生郡長生村又は市原市）に資格者名簿",
-      "koki": "2027年3月12日限り",
-      "application_deadline": "2026-07-31T17:00:00",
-      "bid_deadline": "2026-08-05T17:00:00",
-      "summary": "千葉県立千葉女子高等学校の長寿命化対策として、作法室、高体連事務室、屋内体育館の解体工事一式を実施します。本工事は、木造平家建ての作法室（延べ面積745.56㎡）、鉄骨造平家建ての高体連事務室（延べ面積102.39㎡）、木造平家建ての屋内体育館（延べ面積601.53㎡）の解体を含みます。"
-    }
-  },
-  "chiba_c5eef03e377eccb9": {
-    "source": "chiba",
-    "key": "chiba_c5eef03e377eccb9",
-    "project_name": "千葉県立大網高等学校中正農場豚舎外８棟解体工事",
-    "org_name": "千葉県  教育庁企画管理部  教育施設課",
-    "pref_name": "千葉県",
-    "city_name": "千葉市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-07-10",
-    "procedure_type": "事後審査）千葉県 ・ 総合評価（拡充版） ・ 事後審査２型 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [
-      {
-        "name": "01_入札公告（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_c5eef03e377eccb9_1.pdf"
-      }
-    ],
-    "location": "千葉市緑区上大和田町",
-    "bid_deadline": "2026-08-18T17:00:00",
-    "opening_date": "2026-08-20T14:00:00",
-    "application_deadline": "2026-08-05T17:00:00",
-    "fetched_date": "2026-07-10",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-15T01:53:17+00:00",
-      "planned_price": "落札決定後公表する",
-      "region_requirement": "千葉土木事務所、山武土木事務所、長生土木事務所又は市原土木事務所管内（千葉市、習志野市、八千代市、東金市、山武市、大網白里市、山武郡横芝光町、山武郡九十九里町、茂原市、長生郡一宮町、長生郡睦沢町、長生郡白子町、長生郡長柄町、長生郡長南町、長生郡長生村又は市原市）に資格者名簿に登載された主たる営業所（本店）を有すること",
-      "koki": "2027年2月26日限り",
-      "application_deadline": "2026-08-05T17:00:00",
-      "bid_deadline": "2026-08-18T17:00:00",
-      "summary": "千葉県立大網高等学校中正農場にある豚舎4棟を含む計9棟の建築物解体工事です。本工事は事後審査Ⅱ型および総合評価方式（特別簡易型B）が適用されます。工期は2027年2月26日までです。"
-    }
-  },
-  "chiba_1d131310dfeae9b6": {
-    "source": "chiba",
-    "key": "chiba_1d131310dfeae9b6",
-    "project_name": "南房総市朝夷行政センター外倉庫解体撤去工事",
-    "org_name": "南房総市  総務部  財政課",
-    "pref_name": "千葉県",
-    "city_name": "南房総市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-07-08",
-    "procedure_type": "一般競争 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
-    "location": "南房総市千倉町瀬戸２２８０番地３",
-    "bid_deadline": "2026-07-23T17:00:00",
-    "opening_date": "2026-07-24T09:20:00",
-    "application_deadline": "2026-07-15T17:00:00",
-    "fetched_date": "2026-07-10",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-15T01:53:17+00:00",
-      "planned_price": "4,279,000円（税込）",
-      "region_requirement": null,
-      "koki": "令和 8年10月 9日限り",
-      "application_deadline": "2026-07-15T17:00:00",
-      "bid_deadline": "2026-07-23T17:00:00",
-      "summary": "南房総市朝夷行政センター外倉庫の解体撤去工事です。工事場所は南房総市千倉町瀬戸２２８０番地３です。"
-    }
-  },
-  "chiba_2aecce242ae8ad1d": {
-    "source": "chiba",
-    "key": "chiba_2aecce242ae8ad1d",
-    "project_name": "いすみ市王子久保住宅（１３号～１７号室）解体工事",
-    "org_name": "いすみ市  財政課  契約管理班",
-    "pref_name": "千葉県",
-    "city_name": "いすみ市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-07-09",
-    "procedure_type": "指名競争 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
-    "location": "いすみ市大原５９３４番地",
-    "bid_deadline": "2026-07-23T15:00:00",
-    "opening_date": "2026-07-24T09:00:00",
-    "application_deadline": "",
-    "fetched_date": "2026-07-10",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "groq",
-      "enriched_at": "2026-07-15T01:53:17+00:00",
-      "planned_price": "9,702,000円（税込）",
-      "region_requirement": null,
-      "koki": "令和8年11月30日限り",
-      "application_deadline": null,
-      "bid_deadline": "2026-07-23T15:00:00",
-      "summary": "いすみ市王子久保住宅（１３号～１７号室）の解体工事を行う。工事場所はいすみ市大原５９３４番地。"
-    }
-  },
   "bmFyYS9rYXRzdXJhZ2lfY2l0eS8yMDI2LzIwMjYwNzEwXzAwNDA0Cg==": {
     "source": "kkj",
     "key": "bmFyYS9rYXRzdXJhZ2lfY2l0eS8yMDI2LzIwMjYwNzEwXzAwNDA0Cg==",
@@ -5172,6 +4865,33 @@
       "bid_deadline": "2026-07-30T16:00:00",
       "opening_date": "2026-07-31T09:30:00",
       "summary": "本工事は、常葉町常葉字雀石地内における市営住宅解体工事（荻ノ目団地 N=1棟 4戸）です。条件付き一般競争入札により実施されます。"
+    }
+  },
+  "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDgvMjAyNjA4MDdfNzcxODkK": {
+    "source": "kkj",
+    "key": "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDgvMjAyNjA4MDdfNzcxODkK",
+    "project_name": "令和８～１０年度中間貯蔵大熊双葉地区家屋等解体工事",
+    "org_name": "環境省",
+    "pref_name": "福島県",
+    "city_name": "",
+    "pref_code": "07",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-07T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
+    "attachments": [],
+    "location": "１）福島県双葉郡大熊町及び双葉町地内２）福島県双葉郡大熊町地内",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-08-09",
+    "notified": [],
+    "enrich": {
+      "status": "no_text",
+      "provider": "",
+      "enriched_at": "2026-08-09T01:12:03+00:00"
     }
   }
 }
