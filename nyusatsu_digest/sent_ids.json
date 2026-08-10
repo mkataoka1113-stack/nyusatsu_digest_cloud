@@ -1,185 +1,4 @@
 {
-  "bmFyYS9rYXRzdXJhZ2lfY2l0eS8yMDI2LzIwMjYwNzEwXzAwNDA0Cg==": {
-    "source": "kkj",
-    "key": "bmFyYS9rYXRzdXJhZ2lfY2l0eS8yMDI2LzIwMjYwNzEwXzAwNDA0Cg==",
-    "project_name": "第8-402号 市営住宅堂の久保団地空家解体工事(PDFファイル:219.9KB)",
-    "org_name": "奈良県葛城市",
-    "pref_name": "奈良県",
-    "city_name": "葛城市",
-    "pref_code": "29",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-10T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.katsuragi.nara.jp/material/files/group/6/4-4-3-2026-1.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "令和8年7月25日",
-    "opening_date": "令和8年8月4日",
-    "application_deadline": "2026-07-24T16:00:00",
-    "fetched_date": "2026-07-11",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-14T05:36:27+00:00",
-      "planned_price": "12,650,000円（消費税及び地方消費税を除く。）",
-      "region_requirement": "葛城市内に本店を有すること",
-      "koki": "契約日から 2026年12月28日（月）まで",
-      "application_deadline": "2026-07-24T16:00:00",
-      "bid_deadline": "2026-08-04T12:00:00",
-      "summary": "市営住宅堂の久保団地の空家4戸を耐用年数超過のため解体する工事です。本工事は葛城市林堂地内で行われます。"
-    }
-  },
-  "bWl5YWdpL3NoaWJhdGFfdG93bi8yMDI2LzIwMjYwNzEwXzAwMDQzCg==": {
-    "source": "kkj",
-    "key": "bWl5YWdpL3NoaWJhdGFfdG93bi8yMDI2LzIwMjYwNzEwXzAwMDQzCg==",
-    "project_name": "公告_第R8-一般11号_令和8年度 旧槻木事務所解体工事.pdf [ 131 KB pdfファイル]",
-    "org_name": "宮城県柴田町",
-    "pref_name": "宮城県",
-    "city_name": "柴田町",
-    "pref_code": "04",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-10T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.town.shibata.miyagi.jp/index.cfm/88,35632,c,html/35632/20260710-091208.pdf",
-    "attachments": [
-      {
-        "name": "電子データの交付申請_第R8-一般11号_令和8年度 旧槻木事務所解体工事.doc [ 11 KB docファイル]",
-        "uri": "https://www.town.shibata.miyagi.jp/index.cfm/88,35632,c,html/35632/20260710-091441.doc"
-      },
-      {
-        "name": "第R8-一般11号_令和8年度 旧槻木事務所解体工事.zip [ 5270 KB zipファイル]",
-        "uri": "https://www.town.shibata.miyagi.jp/index.cfm/88,35632,c,html/35632/20260710-091525.zip"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "2026-08-06T10:00:00",
-    "opening_date": "",
-    "application_deadline": "2026-07-28T17:00:00",
-    "fetched_date": "2026-07-11",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-14T05:36:27+00:00",
-      "planned_price": null,
-      "region_requirement": "宮城県内の名取市、岩沼市、角田市、白石市、蔵王町、七ヶ宿町、柴田町、大河原町、村田町、川崎町、丸森町、亘理町、山元町に本店または委任先を有すること",
-      "koki": "議会議決日の翌日以降から2027年3月19日まで",
-      "application_deadline": "2026-07-28T17:00:00",
-      "bid_deadline": "2026-08-06T10:00:00",
-      "summary": "本工事は、2023年3月まで槻木事務所として使用されてきた建物の解体と敷地の整地を行うものです。建物は鉄骨造2階建てで、延床面積は343.84㎡です。"
-    }
-  },
-  "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA3MTBfMDA3ODgK": {
-    "source": "kkj",
-    "key": "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA3MTBfMDA3ODgK",
-    "project_name": "久手川住宅３号棟解体工事[ZIP：37.9MB]",
-    "org_name": "石川県輪島市",
-    "pref_name": "石川県",
-    "city_name": "輪島市",
-    "pref_code": "17",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-10T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.wajima.ishikawa.jp/docs/2014032000011/file_contents/080730_08.zip",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-07-11",
-    "notified": [],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-07-14T05:24:47+00:00"
-    }
-  },
-  "aG9ra2FpZG8vZnVrYWdhd2FzaGkvMjAyNi8yMDI2MDcxMF8wMTI0Ngo=": {
-    "source": "kkj",
-    "key": "aG9ra2FpZG8vZnVrYWdhd2FzaGkvMjAyNi8yMDI2MDcxMF8wMTI0Ngo=",
-    "project_name": "住宅解体工事（多度志1093番地）（PDF:243KB）",
-    "org_name": "北海道深川市",
-    "pref_name": "北海道",
-    "city_name": "深川市",
-    "pref_code": "01",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-10T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.city.fukagawa.lg.jp/cms/section/zeimuzaisei/ftsk200000000bxi-att/aajrae0000004cyz.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-07-22T10:00:00",
-    "opening_date": "令和８年７月２２日",
-    "application_deadline": "2026-07-15T17:00:00",
-    "fetched_date": "2026-07-11",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-14T05:36:27+00:00",
-      "planned_price": "8,118,000円（消費税及び地方消費税相当額を含む。）",
-      "region_requirement": "解体工事に登録されている市内業者であること。",
-      "koki": "契約締結の日から2026年11月30日まで",
-      "application_deadline": "2026-07-15T17:00:00",
-      "bid_deadline": "2026-07-22T10:00:00",
-      "summary": "深川市多度志1093番地における木造2階建て（225.54㎡）の住宅解体工事。量水器撤去、給水管敷地閉止、汚水管TSキャップ止めも含まれる。"
-    }
-  },
-  "aGlyb3NoaW1hL21peW9zaGlfY2l0eS8yMDI2LzIwMjYwNzEwXzAxMTkxCg==": {
-    "source": "kkj",
-    "key": "aGlyb3NoaW1hL21peW9zaGlfY2l0eS8yMDI2LzIwMjYwNzEwXzAxMTkxCg==",
-    "project_name": "プール解体工",
-    "org_name": "広島県三次市",
-    "pref_name": "広島県",
-    "city_name": "三次市",
-    "pref_code": "34",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-10T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/33509.pdf",
-    "attachments": [
-      {
-        "name": "73-1 [315KB]",
-        "uri": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/33512.zip"
-      },
-      {
-        "name": "73-2 [33MB]",
-        "uri": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/33513.zip"
-      },
-      {
-        "name": "73-3 [34.57MB]",
-        "uri": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/33514.zip"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "令和8年7月10日",
-    "opening_date": "令和8年7月23日",
-    "application_deadline": "",
-    "fetched_date": "2026-07-11",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-14T05:36:27+00:00",
-      "planned_price": "6,395,000円（消費税及び地方消費税相当額を除く。）",
-      "region_requirement": "市内に本社・本店を有するもの。",
-      "koki": "契約日から2026年12月18日まで",
-      "application_deadline": null,
-      "bid_deadline": "2026-07-22T16:00:00",
-      "summary": "旧灰塚小学校の廃校に伴い不要となった水泳プール及び付属施設を解体する工事です。工事内容はプール解体工N=1.0式となります。"
-    }
-  },
   "eWFtYWdhdGEvdHN1cnVva2FfY2l0eS8yMDI2LzIwMjYwNzEzXzAyMjUzCg==": {
     "source": "kkj",
     "key": "eWFtYWdhdGEvdHN1cnVva2FfY2l0eS8yMDI2LzIwMjYwNzEzXzAyMjUzCg==",
@@ -4892,6 +4711,88 @@
       "status": "no_text",
       "provider": "",
       "enriched_at": "2026-08-09T01:12:03+00:00"
+    }
+  },
+  "chiba_c5eef03e377eccb9": {
+    "source": "chiba",
+    "key": "chiba_c5eef03e377eccb9",
+    "project_name": "千葉県立大網高等学校中正農場豚舎外８棟解体工事",
+    "org_name": "千葉県  教育庁企画管理部  教育施設課",
+    "pref_name": "千葉県",
+    "city_name": "千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-10",
+    "procedure_type": "事後審査）千葉県 ・ 総合評価（拡充版） ・ 事後審査２型 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "01_入札公告（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_c5eef03e377eccb9_1.pdf"
+      }
+    ],
+    "location": "千葉市緑区上大和田町",
+    "bid_deadline": "2026-08-18T17:00:00",
+    "opening_date": "2026-08-20T14:00:00",
+    "application_deadline": "2026-08-05T17:00:00",
+    "fetched_date": "2026-08-10",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-10T01:16:58+00:00",
+      "planned_price": "落札決定後公表する",
+      "region_requirement": "千葉土木事務所、山武土木事務所、長生土木事務所又は市原土木事務所管内（千葉市、習志野市、八千代市、東金市、山武市、大網白里市、山武郡横芝光町、山武郡九十九里町、茂原市、長生郡一宮町、長生郡睦沢町、長生郡白子町、長生郡長柄町、長生郡長南町、長生郡長生村又は市原市）に資格者名簿に登載された主たる営業所（本店）を有すること",
+      "koki": "令和9年2月26日限り",
+      "application_deadline": "2026-08-05T17:00:00",
+      "bid_deadline": "2026-08-18T17:00:00",
+      "opening_date": "2026-08-20T14:00:00",
+      "summary": "千葉県立大網高等学校中正農場にある豚舎8棟を含む計9棟の建築物解体工事です。鉄骨造平家建ての豚舎4棟を含む計9棟の解体工事一式が含まれます。本工事は事後審査Ⅱ型および総合評価方式が適用されます。"
+    }
+  },
+  "chiba_521fd4a4494dddd4": {
+    "source": "chiba",
+    "key": "chiba_521fd4a4494dddd4",
+    "project_name": "殿廻消防機庫解体工事",
+    "org_name": "東金市  総務部  財政課",
+    "pref_name": "千葉県",
+    "city_name": "東金市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-08-10",
+    "procedure_type": "事後審査）千葉県 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "1公告（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_521fd4a4494dddd4_1.pdf"
+      }
+    ],
+    "location": "東金市殿廻６４６番地",
+    "bid_deadline": "2026-08-28T12:00:00",
+    "opening_date": "2026-08-31T09:50:00",
+    "application_deadline": "2026-08-20T12:00:00",
+    "fetched_date": "2026-08-10",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-10T01:16:58+00:00",
+      "planned_price": "3,432,000円（消費税及び地方消費税を含む。）",
+      "region_requirement": "東金市内に本店があること",
+      "koki": "令和8年12月14日限り",
+      "application_deadline": "2026-08-20T12:00:00",
+      "bid_deadline": "2026-08-28T12:00:00",
+      "opening_date": "2026-08-31T09:50:00",
+      "summary": "東金市殿廻646番地にある殿廻消防機庫（平成7年建設、のべ床面積53.0㎡）とホースタワー等一式の解体・撤去工事です。詳細については別添設計図書等によります。"
     }
   }
 }
