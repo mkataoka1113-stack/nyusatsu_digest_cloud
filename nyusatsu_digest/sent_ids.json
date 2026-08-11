@@ -4794,5 +4794,192 @@
       "opening_date": "2026-08-31T09:50:00",
       "summary": "東金市殿廻646番地にある殿廻消防機庫（平成7年建設、のべ床面積53.0㎡）とホースタワー等一式の解体・撤去工事です。詳細については別添設計図書等によります。"
     }
+  },
+  "pportal_633556": {
+    "source": "pportal",
+    "key": "pportal_633556",
+    "project_name": "国立療養所多磨全生園 病棟等解体設計業務",
+    "org_name": "厚生労働省",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-06",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=ysWlEkmJCBTGqjmFyXfNKpUS8Jz%2FrQ%2Bysfkv2AbY%2Bow%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-08-18T17:00:00",
+    "opening_date": "2026-08-19T11:00:00",
+    "application_deadline": "2026-08-14T17:00:00",
+    "fetched_date": "2026-08-11",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-11T01:12:50+00:00",
+      "planned_price": null,
+      "region_requirement": "関東甲信越地域内に本店又は支店を有する者であること。",
+      "koki": "契約締結日～令和8年9月30日まで",
+      "application_deadline": "2026-08-14T17:00:00",
+      "bid_deadline": "2026-08-18T17:00:00",
+      "opening_date": "2026-08-19T11:00:00",
+      "summary": "本業務は、国立療養所多磨全生園の病棟等解体設計業務です。新センター、退室訓練棟ひまわり、渡り廊下等の解体に関する実施設計を行います。本業務は、技術提案を受け付け、価格以外の要素と価格を総合的に評価して落札者を決定する総合評価落札方式の適用業務です。"
+    }
+  },
+  "pportal_633530": {
+    "source": "pportal",
+    "key": "pportal_633530",
+    "project_name": "テント倉庫解体撤去工事",
+    "org_name": "法務省",
+    "pref_name": "北海道",
+    "city_name": "",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-10",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=g8JoObkFPWszgaD70CzY0VJGgaATwRRpfkaZJvQgok8%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-09-10T17:00:00",
+    "opening_date": "2026-09-11T13:30:00",
+    "application_deadline": "2026-08-20T17:00:00",
+    "fetched_date": "2026-08-11",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-11T01:12:50+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "令和8年11月30日（月）まで",
+      "application_deadline": "2026-08-20T17:00:00",
+      "bid_deadline": "2026-09-10T17:00:00",
+      "opening_date": "2026-09-11T13:30:00",
+      "summary": "北海道網走市港町に所在する倉庫（令和5年度築、軽量鉄骨造、延べ面積200㎡）及び付属する工作物の解体・撤去を行う工事です。本工事は、建設工事に係る資材の再資源化等に関する法律に基づき、分別解体等及び特定建設資材廃棄物の再資源化等の実施が義務付けられています。入札手続きは電子調達システムにより行われます。"
+    }
+  },
+  "pportal_633533": {
+    "source": "pportal",
+    "key": "pportal_633533",
+    "project_name": "【陸装研】エンジン試運転室等の環境整備（試験装置等の解体、収集運搬及び廃棄処理作業）",
+    "org_name": "防衛省",
+    "pref_name": "神奈川県",
+    "city_name": "",
+    "pref_code": "14",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-10",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=oB1zHWjK5LV0vH9hSexJ0wP8xlvddwA0u0ImZiB0yd8%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-09-09T17:15:00",
+    "opening_date": "2026-09-10T13:30:00",
+    "application_deadline": "2026-09-03T00:00:00",
+    "fetched_date": "2026-08-11",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-11T01:12:50+00:00",
+      "planned_price": null,
+      "region_requirement": "関東・甲信越地域の競争参加資格を有する者。",
+      "koki": "令和９年３月１２日",
+      "application_deadline": "2026-09-03T00:00:00",
+      "bid_deadline": "2026-09-09T17:15:00",
+      "opening_date": "2026-09-10T13:30:00",
+      "summary": "防衛装備庁陸上装備研究所において、エンジン試運転室等の環境整備として、試験装置等の解体、収集運搬及び廃棄処理作業を行う一般競争入札です。本件は政府電子調達（ＧＥＰＳ）を利用する案件です。"
+    }
+  },
+  "Z292NS9ub2tlbl9raWtvLzIwMjYvMjAyNjA4MTBfMDc2NzcK": {
+    "source": "kkj",
+    "key": "Z292NS9ub2tlbl9raWtvLzIwMjYvMjAyNjA4MTBfMDc2NzcK",
+    "project_name": "種苗管理センター八岳農場土壌処理・建築物解体工事設計業務(再度公告)",
+    "org_name": "国立研究開発法人農業・食品産業技術総合研究機構",
+    "pref_name": "",
+    "city_name": "",
+    "pref_code": "",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-10T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.naro.go.jp/supply/files/08k018.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "令和8年9月4日",
+    "opening_date": "令和8年9月28日",
+    "application_deadline": "令和8年9月4日",
+    "fetched_date": "2026-08-11",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-11T01:12:50+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "令和９年１月２９日まで",
+      "application_deadline": "2026-09-04T16:00:00",
+      "bid_deadline": "2026-09-25T16:00:00",
+      "opening_date": "2026-09-28T14:00:00",
+      "summary": "本業務は、種苗管理センター八岳農場における敷地の土壌処理および建築物の解体工事に係る設計・積算業務です。競争参加資格として、農研機構の競争参加資格における「測量・建設コンサルタント等契約」の「建築士事務所」または「建設コンサルタント」で「Ａ」または「Ｂ」等級に格付されていることなどが求められます。"
+    }
+  },
+  "ZnVrdXNoaW1hL3BvbGljZV9mdWt1c2hpbWEvMjAyNi8yMDI2MDgxMF8wMTIzMwo=": {
+    "source": "kkj",
+    "key": "ZnVrdXNoaW1hL3BvbGljZV9mdWt1c2hpbWEvMjAyNi8yMDI2MDgxMF8wMTIzMwo=",
+    "project_name": "第２６−８００６０−００３９号 いわき南警察署 山田町待機宿舎解体工事",
+    "org_name": "国家公安委員会（警察庁）福島県警察",
+    "pref_name": "福島県",
+    "city_name": "福島市",
+    "pref_code": "07",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-10T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.police.pref.fukushima.jp/new/nyuusatu/R8nyuusatu/26-0039koukoku.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-09-18T15:00:00",
+    "opening_date": "令和8年9月24日",
+    "application_deadline": "令和8年9月7日",
+    "fetched_date": "2026-08-11",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-11T01:12:50+00:00",
+      "planned_price": "契約締結後に公表する。",
+      "region_requirement": "いわき建設事務所管内、県中建設事務所管内（田村市、須賀川市、田村郡、岩瀬郡、石川郡に限る。）、県南建設事務所管内、相双建設事務所管内に本店又は支店・営業所を有すること",
+      "koki": "工期１６５日間",
+      "application_deadline": "2026-09-07T00:00:00",
+      "bid_deadline": "2026-09-18T15:00:00",
+      "opening_date": "2026-09-24T10:00:00",
+      "summary": "いわき南警察署山田町待機宿舎の解体工事です。RC造2階建ての建物、木造1階建ての物置、CB造1階建てのプロパン庫を解体し、敷地内の工事範囲を土整地復旧します。"
+    }
   }
 }
