@@ -1,145 +1,4 @@
 {
-  "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA3MTRfMDA3OTAK": {
-    "source": "kkj",
-    "key": "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA3MTRfMDA3OTAK",
-    "project_name": "中止公告（重要文化財旧角海家住宅格納解体実施設計業務）[PDF：23.3KB]",
-    "org_name": "石川県輪島市",
-    "pref_name": "石川県",
-    "city_name": "輪島市",
-    "pref_code": "17",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-14T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.wajima.ishikawa.jp/docs/2014032000011/file_contents/080723_01-2.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-07-15",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-15T01:53:17+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": null,
-      "summary": null
-    }
-  },
-  "aG9ra2FpZG8vdGFraWthd2FfY2l0eS8yMDI2LzIwMjYwNzE0XzAwNjQ3Cg==": {
-    "source": "kkj",
-    "key": "aG9ra2FpZG8vdGFraWthd2FfY2l0eS8yMDI2LzIwMjYwNzE0XzAwNjQ3Cg==",
-    "project_name": "下水終末処理場解体工事",
-    "org_name": "北海道滝川市",
-    "pref_name": "北海道",
-    "city_name": "滝川市",
-    "pref_code": "01",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-14T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.takikawa.lg.jp/uploaded/attachment/20204.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-07-30T00:00:00+09:00",
-    "opening_date": "",
-    "application_deadline": "2026-07-23T16:30:00",
-    "fetched_date": "2026-07-15",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-15T01:53:17+00:00",
-      "planned_price": "事前公表（184,250,000 円）",
-      "region_requirement": "滝川市建設工事等指名競争入札参加者指名基準第２条に規定する市内業者又は地場業者であること。",
-      "koki": "契約締結日から令和９年１２月２０日まで",
-      "application_deadline": "2026-07-23T16:30:00",
-      "bid_deadline": "2026-07-30T09:00:00",
-      "summary": "滝川市中島町地内にて下水終末処理場の解体工事を実施します。本工事は地域限定型一般競争入札で、契約締結日から2027年12月20日までの工期が予定されています。予定価格は184,250,000円（消費税及び地方消費税を含む）です。"
-    }
-  },
-  "chiba_b7bd86e5e19fda9a": {
-    "source": "chiba",
-    "key": "chiba_b7bd86e5e19fda9a",
-    "project_name": "船橋市地方卸売市場第３・４倉庫等解体工事",
-    "org_name": "船橋市  企画財政部  契約課",
-    "pref_name": "千葉県",
-    "city_name": "船橋市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-07-15",
-    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [
-      {
-        "name": "公告（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_b7bd86e5e19fda9a_1.pdf"
-      }
-    ],
-    "location": "船橋市市場１丁目２０６９番ほか",
-    "bid_deadline": "2026-08-03T15:00:00",
-    "opening_date": "2026-08-05T13:10:00",
-    "application_deadline": "",
-    "fetched_date": "2026-07-15",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-15T01:53:17+00:00",
-      "planned_price": "62,130,000円 （消費税及び地方消費税を含まない）",
-      "region_requirement": "船橋市内に本店がある者",
-      "koki": "令和9年1月29日",
-      "application_deadline": null,
-      "bid_deadline": "2026-08-03T15:00:00",
-      "summary": "船橋市地方卸売市場の第3倉庫や第4倉庫等を解体する工事です。建築、電気、機械の解体工事および仮設工事を含みます。"
-    }
-  },
-  "chiba_021e27ac41b7b330": {
-    "source": "chiba",
-    "key": "chiba_021e27ac41b7b330",
-    "project_name": "市川市立宮田小学校プール取壊し工事",
-    "org_name": "市川市  管財部  契約課",
-    "pref_name": "千葉県",
-    "city_name": "市川市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-07-15",
-    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
-    "location": "市川市",
-    "bid_deadline": "2026-07-31T17:00:00",
-    "opening_date": "2026-08-03T09:40:00",
-    "application_deadline": "",
-    "fetched_date": "2026-07-15",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-15T06:10:44+00:00",
-      "planned_price": "63,965,000円（税込）",
-      "region_requirement": null,
-      "koki": "令和 8年12月28日限り",
-      "application_deadline": null,
-      "bid_deadline": "2026-07-31T17:00:00",
-      "summary": "市川市立宮田小学校のプール取壊し工事です。入札方式は事後審査の価格競争で、電子入札にて行われます。"
-    }
-  },
   "b2theWFtYS90YW1hbm9fY2l0eS8yMDI2LzIwMjYwNzE1XzAwMDEzCg==": {
     "source": "kkj",
     "key": "b2theWFtYS90YW1hbm9fY2l0eS8yMDI2LzIwMjYwNzE1XzAwMDEzCg==",
@@ -4848,6 +4707,45 @@
       "bid_deadline": "2026-08-21T16:00:00",
       "opening_date": "2026-08-24T10:05:00",
       "summary": "いちき串木野市港町地内にある相撲競技場、シャワー室、競技場ゲート、掲示板、外構の解体工事です。解体対象建物は鉄骨造平屋建の競技場（延べ床面積256.0m2）と木造平屋建のシャワー室（16.2m2）などを含みます。本工事は電子入札による条件付一般競争入札で行われます。"
+    }
+  },
+  "pportal_633645": {
+    "source": "pportal",
+    "key": "pportal_633645",
+    "project_name": "新津区検察庁解体撤去工事",
+    "org_name": "法務省",
+    "pref_name": "新潟県",
+    "city_name": "",
+    "pref_code": "15",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-14",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=JHZlri%2FR5Wo1j13GaSd3%2BFl%2FFmwbRPwcY87eRhYN3CI%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-09-24T17:00:00",
+    "opening_date": "2026-09-25T10:00:00",
+    "application_deadline": "2026-08-24T00:00:00",
+    "fetched_date": "2026-08-14",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-14T01:22:27+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "令和９年３月３１日まで",
+      "application_deadline": "2026-08-24T00:00:00",
+      "bid_deadline": "2026-09-24T17:00:00",
+      "opening_date": "2026-09-25T10:00:00",
+      "summary": "本工事は、新津区検察庁敷地内の建物（事務所建、車庫、自転車置き場）及び工作物を解体・撤去するものです。また、樹木の伐採・抜根を行い、更地にして整地します。本工事は、建設工事に係る資材の再資源化等に関する法律に基づき、分別解体等及び特定建設資材廃棄物の再資源化等の実施が義務付けられています。"
     }
   }
 }
