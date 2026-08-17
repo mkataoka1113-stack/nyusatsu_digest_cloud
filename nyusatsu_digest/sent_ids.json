@@ -1,37 +1,4 @@
 {
-  "bmFnYW5vL2F6dW1pbm9fY2l0eS8yMDI2LzIwMjYwNzE3XzAwMDcwCg==": {
-    "source": "kkj",
-    "key": "bmFnYW5vL2F6dW1pbm9fY2l0eS8yMDI2LzIwMjYwNzE3XzAwMDcwCg==",
-    "project_name": "令和8年度 穂高・堀金人権教育集会所解体工事 [PDFファイル／505KB]",
-    "org_name": "長野県安曇野市",
-    "pref_name": "長野県",
-    "city_name": "安曇野市",
-    "pref_code": "20",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-17T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.azumino.nagano.jp/uploaded/attachment/84015.pdf",
-    "attachments": [],
-    "location": "安曇野市 穂高・堀金人権教育集会所工事概要■穂高・堀金人権教育集会所解体工事一式・穂高・堀金人権集会所の解体・物置、植栽",
-    "bid_deadline": "2026-07-29T09:20:00",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-07-18",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-18T01:51:45+00:00",
-      "planned_price": null,
-      "region_requirement": "安曇野市内に本社（本店）を有する者",
-      "koki": "契約日から令和8年12月15日まで",
-      "application_deadline": null,
-      "bid_deadline": "2026-07-29T09:20:00",
-      "summary": "令和8年度穂高・堀金人権教育集会所の解体工事一式。穂高・堀金人権集会所の解体、物置・植栽の撤去、解体撤去後の敷地内整地が含まれます。本工事は週休2日工事です。"
-    }
-  },
   "pportal_630358": {
     "source": "pportal",
     "key": "pportal_630358",
@@ -4254,6 +4221,233 @@
       "bid_deadline": "2026-09-24T17:00:00",
       "opening_date": "2026-09-25T10:00:00",
       "summary": "本工事は、新津区検察庁敷地内の建物（事務所建、車庫、自転車置き場）及び工作物を解体・撤去するものです。また、樹木の伐採・抜根を行い、更地にして整地します。本工事は、建設工事に係る資材の再資源化等に関する法律に基づき、分別解体等及び特定建設資材廃棄物の再資源化等の実施が義務付けられています。"
+    }
+  },
+  "tokyometro_3539791939291612": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539791939291612",
+    "project_name": "旧東京都労働資料センター(８)解体工事",
+    "org_name": "財務局経理部契約第一課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-08-17",
+    "procedure_type": "一般競争入札(技術実績評価型総合評価方式)",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都中野区弥生町二丁目41番17号",
+    "bid_deadline": "",
+    "opening_date": "2026-10-15T09:15:00",
+    "application_deadline": "2026-08-28",
+    "fetched_date": "2026-08-17",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-17T00:57:12+00:00",
+      "planned_price": "541,827,000円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から令和10年9月29日まで",
+      "application_deadline": "2026-08-28T16:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-10-15T09:15:00",
+      "summary": "東京都中野区弥生町二丁目41番17号に所在する、鉄筋コンクリート造 地下1階地上4階建て（延床面積3,365.9㎡）の旧東京都労働資料センターの解体工事です。基礎、杭、土壌汚染対策、外構、石綿、機械設備、電気設備を含みます。"
+    }
+  },
+  "chiba_c47466bfe489dc86": {
+    "source": "chiba",
+    "key": "chiba_c47466bfe489dc86",
+    "project_name": "農業改良普及所旧君津中部支所解体工事",
+    "org_name": "千葉県  県土整備部  建設・不動産業課",
+    "pref_name": "千葉県",
+    "city_name": "君津市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-17",
+    "procedure_type": "事後審査）千葉県 ・ 価格競争 ・ 事後審査２型 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "02_公告_共通編（価格競争方式）_250930改正（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_c47466bfe489dc86_1.pdf"
+      },
+      {
+        "name": "01_公告_個別編（単独）_260330改正（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_c47466bfe489dc86_2.pdf"
+      }
+    ],
+    "location": "君津市糠田",
+    "bid_deadline": "2026-08-25T17:00:00",
+    "opening_date": "2026-08-27T15:40:00",
+    "application_deadline": "2026-08-19T17:00:00",
+    "fetched_date": "2026-08-17",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-17T00:57:12+00:00",
+      "planned_price": "24,354,000円（税込）",
+      "region_requirement": null,
+      "koki": "令和 9年 2月26日限り",
+      "application_deadline": "2026-08-19T17:00:00",
+      "bid_deadline": "2026-08-25T17:00:00",
+      "opening_date": "2026-08-27T15:40:00",
+      "summary": "農業改良普及所旧君津中部支所の解体工事です。本案件は事後審査Ⅱ型電子入札方式で、最低制限価格制度が適用されます。"
+    }
+  },
+  "chiba_6565560910266f26": {
+    "source": "chiba",
+    "key": "chiba_6565560910266f26",
+    "project_name": "旧農業開発公社機械センター基礎解体工事",
+    "org_name": "千葉県  県土整備部  建設・不動産業課",
+    "pref_name": "千葉県",
+    "city_name": "四街道市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-07-17",
+    "procedure_type": "事後審査）千葉県 ・ 総合評価（拡充版） ・ 事後審査２型 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "01_公告_個別編（単独）（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_6565560910266f26_1.pdf"
+      },
+      {
+        "name": "02_公告_個別編（別添）（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_6565560910266f26_2.pdf"
+      },
+      {
+        "name": "03_公告_共通編（総合評価方式）（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_6565560910266f26_3.pdf"
+      }
+    ],
+    "location": "四街道市南波佐間",
+    "bid_deadline": "2026-08-25T17:00:00",
+    "opening_date": "2026-08-27T15:30:00",
+    "application_deadline": "2026-08-19T17:00:00",
+    "fetched_date": "2026-08-17",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-17T00:57:12+00:00",
+      "planned_price": "落札決定後公表する",
+      "region_requirement": "印旛土木事務所又は千葉土木事務所管内（佐倉市、四街道市、八街市、印西市、白井市、印旛郡酒々井町、印旛郡栄町、千葉市、習志野市又は八千代市）に資格者名簿に登載された主たる営業所（本店）を有すること",
+      "koki": "令和9年2月26日限り",
+      "application_deadline": "2026-08-19T17:00:00",
+      "bid_deadline": "2026-08-25T17:00:00",
+      "opening_date": "2026-08-27T15:30:00",
+      "summary": "四街道市南波佐間にて、旧農業開発公社機械センターの基礎解体工事が行われます。敷地に残存する建物基礎の解体及び解体に伴う汚染土壌の掘削除去が主な工事内容です。本工事は事後審査Ⅱ型および総合評価方式が適用されます。"
+    }
+  },
+  "chiba_a95a26928d5d99ec": {
+    "source": "chiba",
+    "key": "chiba_a95a26928d5d99ec",
+    "project_name": "木下消防団器具庫解体工事",
+    "org_name": "印西市  市長部局・教育委員会等  契約検査課",
+    "pref_name": "千葉県",
+    "city_name": "印西市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-08-17",
+    "procedure_type": "事後審査）千葉県 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "印西市木下１３８８－５",
+    "bid_deadline": "2026-09-14T11:00:00",
+    "opening_date": "2026-09-14T15:05:00",
+    "application_deadline": "2026-09-01T14:00:00",
+    "fetched_date": "2026-08-17",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-17T00:57:12+00:00",
+      "planned_price": "8,965,000円（税込）",
+      "region_requirement": null,
+      "koki": "令和 8年12月18日限り",
+      "application_deadline": "2026-09-01T14:00:00",
+      "bid_deadline": "2026-09-14T11:00:00",
+      "opening_date": "2026-09-14T15:05:00",
+      "summary": "印西市木下1388-5にて木下消防団器具庫の解体工事が行われます。入札方式は事後審査の価格競争（電子入札）です。"
+    }
+  },
+  "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA4MTZfMDA4MjQK": {
+    "source": "kkj",
+    "key": "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjA4MTZfMDA4MjQK",
+    "project_name": "重要文化財旧角海家住宅格納解体実施設計業務[ZIP：7.7MB]",
+    "org_name": "石川県輪島市",
+    "pref_name": "石川県",
+    "city_name": "輪島市",
+    "pref_code": "17",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-16T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.wajima.ishikawa.jp/docs/2014032000011/file_contents/080903_18.zip",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-08-17",
+    "notified": [],
+    "enrich": {
+      "status": "no_text",
+      "provider": "",
+      "enriched_at": "2026-08-17T00:57:12+00:00"
+    }
+  },
+  "aG9ra2FpZG8vZnVrYWdhd2FzaGkvMjAyNi8yMDI2MDgxNl8wMTI3MAo=": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8vZnVrYWdhd2FzaGkvMjAyNi8yMDI2MDgxNl8wMTI3MAo=",
+    "project_name": "更進バス待合所管理人住宅解体工事（PDF:244KB）",
+    "org_name": "北海道深川市",
+    "pref_name": "北海道",
+    "city_name": "深川市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-16T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.city.fukagawa.lg.jp/cms/section/zeimuzaisei/ftsk200000000bxi-att/ai39rj0000000phx.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "令和８年８月２６日",
+    "application_deadline": "2026-08-19T17:00:00",
+    "fetched_date": "2026-08-17",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-17T00:57:12+00:00",
+      "planned_price": "４，７６３，０００円（消費税及び地方消費税相当額を含む。）",
+      "region_requirement": "深川市競争入札参加資格者名簿において、解体工事に登録されている市内業者であること。",
+      "koki": "契約締結の日から2026年11月30日まで",
+      "application_deadline": "2026-08-19T17:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-08-26T10:00:00",
+      "summary": "本工事は、深川市音江町字更進にて更進バス待合所管理人住宅の解体を行うものです。木造平屋建て住宅、プレハブ鉄骨造車庫、木造待合所の解体、量水器撤去、給水管敷地閉止が含まれます。本工事は建設工事に係る資材の再資源化等に関する法律に基づき分別解体等が義務付けられています。"
     }
   }
 }
