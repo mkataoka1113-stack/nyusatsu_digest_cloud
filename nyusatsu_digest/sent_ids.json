@@ -4449,5 +4449,80 @@
       "opening_date": "2026-08-26T10:00:00",
       "summary": "本工事は、深川市音江町字更進にて更進バス待合所管理人住宅の解体を行うものです。木造平屋建て住宅、プレハブ鉄骨造車庫、木造待合所の解体、量水器撤去、給水管敷地閉止が含まれます。本工事は建設工事に係る資材の再資源化等に関する法律に基づき分別解体等が義務付けられています。"
     }
+  },
+  "tokyometro_3539992030294369": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539992030294369",
+    "project_name": "東京辰巳アイスアリーナ（８）屋外デッキ撤去工事",
+    "org_name": "スポーツ推進本部スポーツ企画部企画調整課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-08-17",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都江東区辰巳二丁目８番１０号",
+    "bid_deadline": "",
+    "opening_date": "2026-09-17T09:00:00",
+    "application_deadline": "2026-08-21",
+    "fetched_date": "2026-08-18",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-18T00:54:52+00:00",
+      "planned_price": "5,580,300円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から2027年1月8日まで",
+      "application_deadline": "2026-08-21T17:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-09-17T09:00:00",
+      "summary": "東京都江東区辰巳二丁目にある東京辰巳アイスアリーナの屋外デッキ撤去工事一式です。本案件は希望制指名競争入札で、電子契約対象案件です。"
+    }
+  },
+  "aG9ra2FpZG8vb2JpaGlyb19jaXR5LzIwMjYvMjAyNjA4MTdfMDAyMTYK": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8vb2JpaGlyb19jaXR5LzIwMjYvMjAyNjA4MTdfMDAyMTYK",
+    "project_name": "旧キリン等解体実施設計委託 別表 （PDF 94.0 KB）",
+    "org_name": "北海道帯広市",
+    "pref_name": "北海道",
+    "city_name": "帯広市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-17T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/005/713/betu0817_06.pdf",
+    "attachments": [
+      {
+        "name": "旧キリン等解体実施設計委託 設計図書 （PDF 8.3 MB）",
+        "uri": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/005/713/r8/0817_6.pdf"
+      }
+    ],
+    "location": "業務内容履行期間３ 予定価格",
+    "bid_deadline": "令和９年２月９日",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-08-18",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-18T00:54:52+00:00",
+      "planned_price": "7,018,000 円（消費税込み額）",
+      "region_requirement": "帯広市内に本店を有する者であること。",
+      "koki": "契約締結日の翌日(翌日が土曜日、日曜日又は休日の場合は、翌開庁日)から 令和9年2月24日まで",
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "旧キリン舎、シマウマ舎、倉庫、物置の解体実施設計業務。CB造・平屋建の旧キリン舎（79.19㎡）などが対象となる。履行場所は字緑ケ丘２番地。"
+    }
   }
 }
