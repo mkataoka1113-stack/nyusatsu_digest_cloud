@@ -1,143 +1,4 @@
 {
-  "pportal_630358": {
-    "source": "pportal",
-    "key": "pportal_630358",
-    "project_name": "東京法務局旧調布出張所ほか１庁解体工事一式",
-    "org_name": "法務省",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-16",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=%2BqKxmijHTRZPb8WrB2Nw%2FdBcImGrGWzKxNDhJ%2BhjIlM%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "2026-09-03T17:00:00",
-    "opening_date": "2026-09-04T10:00:00",
-    "application_deadline": "2026-08-18",
-    "fetched_date": "2026-07-20",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-20T03:08:24+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": "仕様書による。",
-      "application_deadline": "2026-08-18T17:00:00",
-      "bid_deadline": "2026-09-03T17:00:00",
-      "opening_date": "2026-09-04T10:00:00",
-      "summary": "本工事は、東京法務局旧調布出張所ほか１庁の解体工事一式です。建設工事に係る資材の再資源化等に関する法律に基づき、分別解体等及び特定建設資材廃棄物の再資源化等が義務付けられています。入札手続は電子調達システムにより行われます。"
-    }
-  },
-  "pportal_630628": {
-    "source": "pportal",
-    "key": "pportal_630628",
-    "project_name": "国立療養所星塚敬愛園旧１・２病棟解体工事",
-    "org_name": "厚生労働省",
-    "pref_name": "鹿児島県",
-    "city_name": "",
-    "pref_code": "46",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-16",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=leX3GaeaW9uRFvxdkr8sA0VOZYhWytGmAeX75UBS4A0%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-07-20",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-20T03:08:24+00:00",
-      "planned_price": null,
-      "region_requirement": "九州・沖縄地域内に本店又は支店もしくはその他の営業所が所在すること。",
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": null,
-      "opening_date": null,
-      "summary": "国立療養所星塚敬愛園の旧1・2病棟の解体工事に関する一般競争入札公告です。本工事はWTO対象外の簡易工事に分類されます。入札参加者は、厚生労働省の競争参加資格で「解体工事」のAまたはB等級に格付けされ、九州・沖縄地域の競争参加資格を有する必要があります。"
-    }
-  },
-  "dG9rdXNoaW1hL2FuYW5zaGkvMjAyNi8yMDI2MDcxNl8wMTE4MQo=": {
-    "source": "kkj",
-    "key": "dG9rdXNoaW1hL2FuYW5zaGkvMjAyNi8yMDI2MDcxNl8wMTE4MQo=",
-    "project_name": "旧羽ノ浦すみれ保育所除却工事",
-    "org_name": "徳島県阿南市",
-    "pref_name": "徳島県",
-    "city_name": "阿南市",
-    "pref_code": "36",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-16T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.anan.tokushima.jp/docs/2026071500032/file_contents/260716-4.pdf",
-    "attachments": [
-      {
-        "name": "旧羽ノ浦すみれ保育所除却工事 1.閲覧補足説明書[PDF：94.2KB]",
-        "uri": "https://www.city.anan.tokushima.jp/docs/2026071500032/file_contents/260716-4-1.pdf"
-      },
-      {
-        "name": "旧羽ノ浦すみれ保育所除却工事 4-1.建築図 A01～41[PDF：19.1MB]",
-        "uri": "https://www.city.anan.tokushima.jp/docs/2026071500032/file_contents/260716-4-4-1.pdf"
-      },
-      {
-        "name": "旧羽ノ浦すみれ保育所除却工事 4-2.建築図 A42～65[PDF：19.1MB]",
-        "uri": "https://www.city.anan.tokushima.jp/docs/2026071500032/file_contents/260716-4-4-2.pdf"
-      },
-      {
-        "name": "旧羽ノ浦すみれ保育所除却工事 4-3.構造図 1～10[PDF：15.4MB]",
-        "uri": "https://www.city.anan.tokushima.jp/docs/2026071500032/file_contents/260716-4-4-3.pdf"
-      },
-      {
-        "name": "旧羽ノ浦すみれ保育所除却工事 4-4.構造図 11～18[PDF：8.3MB]",
-        "uri": "https://www.city.anan.tokushima.jp/docs/2026071500032/file_contents/260716-4-4-4.pdf"
-      },
-      {
-        "name": "旧羽ノ浦すみれ保育所除却工事 4-5.電気管設備図 E1～11-M1～14[PDF：11.2MB]",
-        "uri": "https://www.city.anan.tokushima.jp/docs/2026071500032/file_contents/260716-4-4-5.pdf"
-      }
-    ],
-    "location": "旧羽ノ浦すみれ保育所除却工事阿南市羽ノ浦町岩脇姥ヶ原章 項 目 項 目 特 記 事 項 特 記 事 項 章1．適用基準",
-    "bid_deadline": "2026-08-17T15:00:00",
-    "opening_date": "令和8年7月31日",
-    "application_deadline": "",
-    "fetched_date": "2026-07-20",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-20T03:08:24+00:00",
-      "planned_price": "75,770,000円（税抜）",
-      "region_requirement": "市内登録業者",
-      "koki": "契約締結の翌日から令和9年2月22日まで",
-      "application_deadline": null,
-      "bid_deadline": "2026-08-17T15:00:00",
-      "opening_date": "2026-08-18T09:00:00",
-      "summary": "本工事は、旧羽ノ浦すみれ保育所の除却工事です。阿南市羽ノ浦町岩脇姥ケ原が工事箇所となります。本入札は徳島県電子入札システムを利用した電子入札案件です。"
-    }
-  },
   "chiba_ad758444f7ec6895": {
     "source": "chiba",
     "key": "chiba_ad758444f7ec6895",
@@ -4523,6 +4384,45 @@
       "bid_deadline": null,
       "opening_date": null,
       "summary": "旧キリン舎、シマウマ舎、倉庫、物置の解体実施設計業務。CB造・平屋建の旧キリン舎（79.19㎡）などが対象となる。履行場所は字緑ケ丘２番地。"
+    }
+  },
+  "pportal_634210": {
+    "source": "pportal",
+    "key": "pportal_634210",
+    "project_name": "令和８年度中間貯蔵施設における建物解体設計業務（その２）",
+    "org_name": "環境省",
+    "pref_name": "福島県",
+    "city_name": "",
+    "pref_code": "07",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-19",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=4bahgVgiQxI5UXehwpmbLj4PXyvAvVACQUJYzDZf9vY%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-10-16T13:30:00",
+    "opening_date": "2026-10-16T13:30:00",
+    "application_deadline": "2026-09-17T12:00:00",
+    "fetched_date": "2026-08-19",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-19T00:55:31+00:00",
+      "planned_price": null,
+      "region_requirement": "環境省における令和07・08年度「測量・建設コンサルタント等」の業種区分「土木関係建設コンサルタント業務」に係る一般競争参加資格の認定を受けており、かつ、「東北地域」の競争参加資格を有するものであること。",
+      "koki": "契約締結日から令和９年３月１８日まで",
+      "application_deadline": "2026-09-17T12:00:00",
+      "bid_deadline": "2026-10-16T13:30:00",
+      "opening_date": "2026-10-16T13:30:00",
+      "summary": "本件は、令和8年度中間貯蔵施設における建物解体設計業務（その２）の一般競争入札公告です。履行場所は中間貯蔵施設区域内（大熊町）で、解体施設数量等の設計一式が業務内容です。最低価格落札方式の入札となります。"
     }
   }
 }
