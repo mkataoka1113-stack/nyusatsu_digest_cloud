@@ -1,122 +1,4 @@
 {
-  "chiba_ad758444f7ec6895": {
-    "source": "chiba",
-    "key": "chiba_ad758444f7ec6895",
-    "project_name": "千葉市ふるさと農園長屋門外１棟解体工事",
-    "org_name": "千葉市  財政局  資産経営部契約課",
-    "pref_name": "千葉県",
-    "city_name": "千葉市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-07-21",
-    "procedure_type": "一般競争 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
-    "location": "千葉市花見川区三角町６５６番地の３",
-    "bid_deadline": "2026-08-04T17:00:00",
-    "opening_date": "2026-08-05T09:15:00",
-    "application_deadline": "2026-07-24T17:00:00",
-    "fetched_date": "2026-07-21",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-21T02:07:58+00:00",
-      "planned_price": "事後公開",
-      "region_requirement": null,
-      "koki": "152日間",
-      "application_deadline": "2026-07-24T17:00:00",
-      "bid_deadline": "2026-08-04T17:00:00",
-      "opening_date": "2026-08-05T09:15:00",
-      "summary": "千葉市花見川区三角町にある千葉市ふるさと農園長屋門外1棟の解体工事です。本工事は電子入札方式で行われます。"
-    }
-  },
-  "chiba_2a8f29048aad3dd0": {
-    "source": "chiba",
-    "key": "chiba_2a8f29048aad3dd0",
-    "project_name": "太海フラワー磯釣センター解体工事（１期工事）",
-    "org_name": "鴨川市  財政課  契約係",
-    "pref_name": "千葉県",
-    "city_name": "鴨川市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-07-17",
-    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [
-      {
-        "name": "太海フラワー磯釣センター解体工事（１期工事）（公告文）：1_000万円以上で定例的な制限付き一般競争入札 （議会議決案件）（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_2a8f29048aad3dd0_1.pdf"
-      }
-    ],
-    "location": "鴨川市　太海浜　地内",
-    "bid_deadline": "2026-08-21T13:00:00",
-    "opening_date": "2026-08-21T13:30:00",
-    "application_deadline": "",
-    "fetched_date": "2026-07-21",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-21T02:07:58+00:00",
-      "planned_price": "211,199,999円(消費税及び地方消費税相当額を含まない)",
-      "region_requirement": "鴨川市内に本店を置く業者",
-      "koki": "契約日の翌日から令和９年７月30日",
-      "application_deadline": null,
-      "bid_deadline": "2026-08-21T13:00:00",
-      "opening_date": "2026-08-21T13:30:00",
-      "summary": "本工事は、鴨川市太海浜地内における太海フラワー磯釣センターの解体工事（１期工事）です。制限付き一般競争入札により実施され、解体工事一式が含まれます。"
-    }
-  },
-  "pportal_630742": {
-    "source": "pportal",
-    "key": "pportal_630742",
-    "project_name": "令和８年度国有建物等解体撤去第Ⅱ期工事設計業務 （渋谷区代々木三丁目）",
-    "org_name": "財務省",
-    "pref_name": "埼玉県",
-    "city_name": "",
-    "pref_code": "11",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-21",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=02WHUi3Pz7w1VyDXMLa4vw9sgsfFalS2yjU8fLkt%2BRs%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-07-21",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-21T02:07:58+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": null,
-      "opening_date": null,
-      "summary": "本公告は、令和8年度国有建物等解体撤去第Ⅱ期工事設計業務（渋谷区代々木三丁目）に関する一般競争入札の入札公告である。調達機関は財務省で、調達機関所在地は埼玉県である。公告内容は関東財務局ホームページに掲載されている。"
-    }
-  },
   "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjA3MjJfMDMzOTMK": {
     "source": "kkj",
     "key": "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjA3MjJfMDMzOTMK",
@@ -4423,6 +4305,158 @@
       "bid_deadline": "2026-10-16T13:30:00",
       "opening_date": "2026-10-16T13:30:00",
       "summary": "本件は、令和8年度中間貯蔵施設における建物解体設計業務（その２）の一般競争入札公告です。履行場所は中間貯蔵施設区域内（大熊町）で、解体施設数量等の設計一式が業務内容です。最低価格落札方式の入札となります。"
+    }
+  },
+  "c2FpdGFtYS9ob25qb3NoaS8yMDI2LzIwMjYwODE5XzAwNjU3Cg==": {
+    "source": "kkj",
+    "key": "c2FpdGFtYS9ob25qb3NoaS8yMDI2LzIwMjYwODE5XzAwNjU3Cg==",
+    "project_name": "本庄市庁舎東側用地木造家屋ほか解体工事",
+    "org_name": "埼玉県本庄市",
+    "pref_name": "埼玉県",
+    "city_name": "本庄市",
+    "pref_code": "11",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-19T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.honjo.lg.jp/material/files/group/4/kokuji_246.pdf",
+    "attachments": [],
+    "location": "本庄市本庄３丁目地内",
+    "bid_deadline": "2026-09-07T17:00:00",
+    "opening_date": "2026-09-08T09:20:00",
+    "application_deadline": "2026-09-02T17:00:00",
+    "fetched_date": "2026-08-20",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-20T00:55:05+00:00",
+      "planned_price": "入札執行後に公表する。",
+      "region_requirement": "本庄市内に契約締結権限を有する者を置く本店又は支店を有すること",
+      "koki": "契約締結日から令和9年3月26日まで",
+      "application_deadline": "2026-09-02T17:00:00",
+      "bid_deadline": "2026-09-07T17:00:00",
+      "opening_date": "2026-09-08T09:20:00",
+      "summary": "本庄市庁舎東側用地の木造家屋等の解体工事です。本工事は、本庄市営繕工事における「週休2日制モデル工事（発注者指定型）」の試行対象工事です。入札は埼玉県電子入札共同システムにより行われます。"
+    }
+  },
+  "bmFnYW5vL2NoaWt1bWFfY2l0eS8yMDI2LzIwMjYwODE5XzAxMTE2Cg==": {
+    "source": "kkj",
+    "key": "bmFnYW5vL2NoaWt1bWFfY2l0eS8yMDI2LzIwMjYwODE5XzAxMTE2Cg==",
+    "project_name": "（8.8.19公告）令和8年度 市営住宅寂蒔団地解体工事(PDFファイル:294KB)",
+    "org_name": "長野県千曲市",
+    "pref_name": "長野県",
+    "city_name": "千曲市",
+    "pref_code": "20",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-19T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.city.chikuma.lg.jp/material/files/group/11/080908-01.pdf",
+    "attachments": [
+      {
+        "name": "図面等(PDFファイル:2.2MB)",
+        "uri": "https://www.city.chikuma.lg.jp/material/files/group/11/080908-03.pdf"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-09-08T09:10:00",
+    "opening_date": "2026-09-08T09:10:00",
+    "application_deadline": "2026-09-02T16:30:00",
+    "fetched_date": "2026-08-20",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-20T00:55:05+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": "千曲市内に主たる営業所（本社・本店等）を有し、令和8年5月1日現在において千曲市内での営業実績が2年以上ある者であること。千曲市内に入札参加資格者名簿に登載された主たる営業所（本社・本店等）を有している者であること。",
+      "koki": "令和 年 月 日 （１５０日間）",
+      "application_deadline": "2026-09-02T16:30:00",
+      "bid_deadline": "2026-09-08T09:10:00",
+      "opening_date": "2026-09-08T09:10:00",
+      "summary": "本工事は、千曲市大字寂蒔にある市営住宅寂蒔団地の22～25号棟、30～33号棟、80～83号棟（各1棟4戸）の建築物、工作物、その他付属物を解体撤去し、更地化する工事です。建物解体、敷地不陸整正、整地、上下水設備の撤去、解体により発生した廃棄物の運搬処分が含まれます。"
+    }
+  },
+  "aG9ra2FpZG8yL3NpbnJpbmthbnJpa3lva3UvMjAyNi8yMDI2MDgxOV8xMjAyMAo=": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8yL3NpbnJpbmthbnJpa3lva3UvMjAyNi8yMDI2MDgxOV8xMjAyMAo=",
+    "project_name": "網走中部森林管理署置戸事業宿舎解体撤去工事（電子入札対象案件）（電子契約試行対象案件）",
+    "org_name": "林野庁北海道森林管理局",
+    "pref_name": "北海道",
+    "city_name": "札幌市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-19T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.rinya.maff.go.jp/hokkaido/apply/publicsale/abasirichubu/attach/pdf/260819-1.pdf",
+    "attachments": [
+      {
+        "name": "仕様書等1(PDF : 768KB)",
+        "uri": "https://www.rinya.maff.go.jp/hokkaido/apply/publicsale/abasirichubu/attach/pdf/260819-2.pdf"
+      },
+      {
+        "name": "仕様書等2(PDF : 2,002KB)",
+        "uri": "https://www.rinya.maff.go.jp/hokkaido/apply/publicsale/abasirichubu/attach/pdf/260819-3.pdf"
+      }
+    ],
+    "location": "北海道常呂郡置戸町拓殖10番１",
+    "bid_deadline": "2026-09-14T10:00:00",
+    "opening_date": "2026-09-14T10:00:00",
+    "application_deadline": "2026-09-02T17:00:00",
+    "fetched_date": "2026-08-20",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-20T00:55:05+00:00",
+      "planned_price": null,
+      "region_requirement": "建設業法に基づく本店、支店又は営業所が、北海道森林管理局管内（北海道内）に所在すること。また、経常建設共同企業体として申請書及び資料を提出する場合は、有資格者名簿に記載されている共同企業体の本店所在地が、上記区域内であること。",
+      "koki": "契約締結日の翌日から2026年12月25日まで",
+      "application_deadline": "2026-09-02T17:00:00",
+      "bid_deadline": "2026-09-14T10:00:00",
+      "opening_date": "2026-09-14T10:00:00",
+      "summary": "本工事は、網走中部森林管理署置戸事業宿舎の解体撤去工事です。工事場所は北海道常呂郡置戸町拓殖10番1で、電子入札システムおよび電子契約システムが試行されます。建設工事に係る資材の再資源化等に関する法律に基づき、分別解体等及び特定建設資材廃棄物の再資源化等が義務付けられています。"
+    }
+  },
+  "YWtpdGEva2F6dW5vX2NpdHkvMjAyNi8yMDI2MDgxOV8wMDgyMAo=": {
+    "source": "kkj",
+    "key": "YWtpdGEva2F6dW5vX2NpdHkvMjAyNi8yMDI2MDgxOV8wMDgyMAo=",
+    "project_name": "消防器具置場・乾燥塔解体工事",
+    "org_name": "秋田県鹿角市",
+    "pref_name": "秋田県",
+    "city_name": "鹿角市",
+    "pref_code": "05",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-19T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kazuno.lg.jp/material/files/group/6/R8koukoku170.pdf",
+    "attachments": [],
+    "location": "：鹿角市十和田大湯字倉沢地内ほか２．入札方法本工事の入札の手続きは電子入札システムにより行う",
+    "bid_deadline": "2026-09-08T11:00:00",
+    "opening_date": "2026-09-08T11:00:00",
+    "application_deadline": "2026-09-03T17:00:00",
+    "fetched_date": "2026-08-20",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-20T00:55:05+00:00",
+      "planned_price": "4,191,000 円（うち消費税及び地方消費税の額 381,000円）",
+      "region_requirement": "鹿角市内に本社を有する者",
+      "koki": "契約締結日 令和8年10月23日",
+      "application_deadline": "2026-09-03T17:00:00",
+      "bid_deadline": "2026-09-08T11:00:00",
+      "opening_date": "2026-09-08T11:00:00",
+      "summary": "本工事は、鹿角市十和田大湯字倉沢地内ほかにおける消防器具置場・乾燥塔の解体工事です。深CB造平屋建の器具置場1棟（床面積24.56㎡）、倉沢S造平屋建1棟（床面積10.64㎡）、倉沢ホース乾燥塔1式、草木ホース乾燥塔1式の解体が含まれます。週休2日制対象工事です。"
     }
   }
 }
