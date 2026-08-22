@@ -1,157 +1,4 @@
 {
-  "chiba_f064f305dde04094": {
-    "source": "chiba",
-    "key": "chiba_f064f305dde04094",
-    "project_name": "県単運動公園周辺地区整備工事（三輪野山地区仮設住宅解体）",
-    "org_name": "千葉県  県土整備部  流山区画整理事務所",
-    "pref_name": "千葉県",
-    "city_name": "",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-07-21",
-    "procedure_type": "指名競争 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
-    "location": "三輪野山地区",
-    "bid_deadline": "2026-08-06T10:00:00",
-    "opening_date": "2026-08-07T13:15:00",
-    "application_deadline": "",
-    "fetched_date": "2026-07-23",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-23T02:11:55+00:00",
-      "planned_price": "10,703,000円（税込）",
-      "region_requirement": null,
-      "koki": "90日間",
-      "application_deadline": null,
-      "bid_deadline": "2026-08-06T10:00:00",
-      "opening_date": "2026-08-07T13:15:00",
-      "summary": "本工事は、流山都市計画運動公園周辺地区の三輪野山地区において、仮設住宅の解体を行う県単運動公園周辺地区整備工事です。入札方式は指名競争・価格競争（電子入札）です。"
-    }
-  },
-  "pportal_630980": {
-    "source": "pportal",
-    "key": "pportal_630980",
-    "project_name": "【九州地方整備局　遠賀川河川事務所】令和８年度遠賀川下流出張所公衆便所解体外",
-    "org_name": "国土交通省",
-    "pref_name": "福岡県",
-    "city_name": "",
-    "pref_code": "40",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-23",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=rzQoxtgyUknAqgm9iQkbVe3nfXNaAfhQDXj6dLAz8TE%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-07-23",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-23T02:11:55+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": null,
-      "opening_date": null,
-      "summary": "本公告は、国土交通省九州地方整備局遠賀川河川事務所による令和8年度遠賀川下流出張所公衆便所解体外の一般競争入札に関するものです。調達種別は物品・役務に分類されます。公告内容および入札説明書は添付ファイルで提供されます。"
-    }
-  },
-  "pportal_630249": {
-    "source": "pportal",
-    "key": "pportal_630249",
-    "project_name": "民間企業投資・除却調査の実査業務",
-    "org_name": "内閣府",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-23",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=Zl97ImYbmZv6MKc4cfk9AVRmGP%2FZcY%2FV4p%2BUHcRS9LI%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "2026-09-29T17:00:00",
-    "opening_date": "2026-09-29T17:00:00",
-    "application_deadline": "2026-09-11T12:00:00",
-    "fetched_date": "2026-07-23",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-23T02:11:55+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": "令和8年10月1日から令和9年3月23日まで",
-      "application_deadline": "2026-09-11T12:00:00",
-      "bid_deadline": "2026-09-29T17:00:00",
-      "opening_date": "2026-09-30T11:00:00",
-      "summary": "本案件は、民間企業投資・除却調査の実査業務一式に関する一般競争入札です。落札者の決定は総合評価落札方式で行われ、入札書と技術等提案書の提出が必要です。履行期間は2026年10月1日から2027年3月23日までです。",
-      "opening_date_note": "入札締切と開札日が同一値になっています。AI抽出では2026-09-30T11:00:00 の可能性があるため、公告原本で開札日を確認してください。"
-    }
-  },
-  "tokyometro_3539491779294313": {
-    "source": "tokyometro",
-    "key": "tokyometro_3539491779294313",
-    "project_name": "警視庁体育センター倉庫棟ほか撤去工事",
-    "org_name": "警視庁総務部用度課",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3101"
-    ],
-    "cft_issue_date": "2026-07-21",
-    "procedure_type": "希望制指名競争入札",
-    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
-    "attachments": [],
-    "location": "東京都東大和市桜が丘三丁目４４番４号",
-    "bid_deadline": "",
-    "opening_date": "2026-08-31T09:00:00",
-    "application_deadline": "2026-07-24",
-    "fetched_date": "2026-07-23",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-23T03:32:37+00:00",
-      "planned_price": "25,919,300円（消費税率10％）",
-      "region_requirement": null,
-      "koki": "契約確定の日の翌日から令和8年12月18日まで",
-      "application_deadline": "2026-07-24T16:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-08-31T09:00:00",
-      "summary": "警視庁体育センター倉庫棟、食堂棟、更衣室棟、電気設備、機械設備、グラウンド設備の一式撤去工事です。外構整備の新設も含まれます。本工事は電子契約サービスの対象案件です。"
-    }
-  },
   "etokyo_2026:13:118:00359": {
     "source": "etokyo",
     "key": "etokyo_2026:13:118:00359",
@@ -4521,6 +4368,74 @@
       "status": "no_text",
       "provider": "",
       "enriched_at": "2026-08-21T00:59:31+00:00"
+    }
+  },
+  "c2VhcmNoL2tlaXlha3VfaGlyb3NoaW1hX2NpdHkvMjAyNi8yMDI2MDgyMV8wNDQwNQo=": {
+    "source": "kkj",
+    "key": "c2VhcmNoL2tlaXlha3VfaGlyb3NoaW1hX2NpdHkvMjAyNi8yMDI2MDgyMV8wNDQwNQo=",
+    "project_name": "旧吉島屋内プールほか１施設解体工事実施設計業務",
+    "org_name": "広島県広島市",
+    "pref_name": "広島県",
+    "city_name": "広島市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-21T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://ppi.keiyaku.city.hiroshima.lg.jp/PPI_P/DownLoad/202620020800101.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-09-04T16:00:00",
+    "opening_date": "令和８年８月２７日",
+    "application_deadline": "",
+    "fetched_date": "2026-08-22",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-22T00:54:44+00:00",
+      "planned_price": "落札決定後に公表",
+      "region_requirement": "広島市内に主たる営業所を有していること。",
+      "koki": "契約締結の日から１８０日間",
+      "application_deadline": null,
+      "bid_deadline": "2026-09-04T16:00:00",
+      "opening_date": "2026-09-07T11:30:00",
+      "summary": "本業務は、旧吉島屋内プールと旧吉島老人いこいの家の解体工事実施設計業務です。両施設とも鉄筋コンクリート造2階建てで、建築物解体後の整地や電気・機械設備の撤去を含みます。本業務は電子納品対象であり、電子入札システムを利用した電子くじ対象案件です。"
+    }
+  },
+  "bmFnYW5vL2F6dW1pbm9fY2l0eS8yMDI2LzIwMjYwODIxXzAwMDg4Cg==": {
+    "source": "kkj",
+    "key": "bmFnYW5vL2F6dW1pbm9fY2l0eS8yMDI2LzIwMjYwODIxXzAwMDg4Cg==",
+    "project_name": "令和8年度 市営住宅柏原団地5～8号解体工事（1期） [PDFファイル／507KB]",
+    "org_name": "長野県安曇野市",
+    "pref_name": "長野県",
+    "city_name": "安曇野市",
+    "pref_code": "20",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-21T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.azumino.nagano.jp/uploaded/attachment/84894.pdf",
+    "attachments": [],
+    "location": "安曇野市 市営住宅柏原団地工事概要市営住宅柏原団地5～8号の解体工事・CB造平屋147.2㎡の解体解体する2棟における外",
+    "bid_deadline": "2026-09-01T17:15:00",
+    "opening_date": "2026-09-01T09:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-08-22",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-22T00:54:44+00:00",
+      "planned_price": null,
+      "region_requirement": "安曇野市内に本社（本店）を有する者",
+      "koki": "契約日から令和9年1月12日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-09-01T17:15:00",
+      "opening_date": "2026-09-01T09:00:00",
+      "summary": "市営住宅柏原団地5～8号の解体工事です。CB造平屋147.2㎡の解体と、解体する2棟における外構の解体、整地工事が含まれます。"
     }
   }
 }
