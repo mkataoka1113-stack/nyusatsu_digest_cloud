@@ -1,142 +1,4 @@
 {
-  "etokyo_2026:13:118:00359": {
-    "source": "etokyo",
-    "key": "etokyo_2026:13:118:00359",
-    "project_name": "旧南千住浄水場敷地内施設撤去工事",
-    "org_name": "荒川区",
-    "pref_name": "東京都",
-    "city_name": "荒川区",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-23T20:00:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
-    "attachments": [],
-    "location": "東京都荒川区南千住六丁目３９番",
-    "bid_deadline": "2026-09-14T17:00:00",
-    "opening_date": "2026-09-15T09:00:00",
-    "application_deadline": "2026-08-07T10:00:00",
-    "fetched_date": "2026-07-24",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-24T02:07:25+00:00",
-      "planned_price": "557,575,700円",
-      "region_requirement": "区内業者に限る",
-      "koki": "契約確定の翌日から2028年3月31日まで",
-      "application_deadline": "2026-08-07T10:00:00",
-      "bid_deadline": "2026-09-14T17:00:00",
-      "opening_date": "2026-09-15T09:00:00",
-      "summary": "都市計画公園天王公園の拡張用地において、公園の整備に先立ち、旧南千住浄水場用地内の地下埋設物及び地下構造物等の撤去工事を行います。工事内容は地下埋設物及び地下構造物等の撤去工事一式です。"
-    }
-  },
-  "bmlpZ2F0YS90YWluYWlfY2l0eS8yMDI2LzIwMjYwNzIzXzAyMzc3Cg==": {
-    "source": "kkj",
-    "key": "bmlpZ2F0YS90YWluYWlfY2l0eS8yMDI2LzIwMjYwNzIzXzAyMzc3Cg==",
-    "project_name": "上下水道課棟他解体工事実施設計業務委託（PDF：283KB）",
-    "org_name": "新潟県胎内市",
-    "pref_name": "新潟県",
-    "city_name": "胎内市",
-    "pref_code": "15",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-23T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.tainai.niigata.jp/gyose/nyusatsu/documents/161_koukoku_2026.pdf",
-    "attachments": [],
-    "location": "胎内市 新和町 地内",
-    "bid_deadline": "2026-08-21T16:00:00",
-    "opening_date": "2026-08-24T10:00:00",
-    "application_deadline": "2026-08-06T17:00:00",
-    "fetched_date": "2026-07-24",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-24T02:07:25+00:00",
-      "planned_price": "事後公表",
-      "region_requirement": "公告日現在において、胎内市に主たる営業所を有する者であること。",
-      "koki": "60日間",
-      "application_deadline": "2026-08-06T17:00:00",
-      "bid_deadline": "2026-08-21T16:00:00",
-      "opening_date": "2026-08-24T10:00:00",
-      "summary": "上下水道課棟他解体工事実施設計業務委託の一般競争入札です。履行場所は胎内市新和町地内で、建築設計の業種が対象です。履行期間は60日間と定められています。"
-    }
-  },
-  "bmFnYXNha2kvdHN1c2hpbWFzaGkvMjAyNi8yMDI2MDcyM18wMDg5OAo=": {
-    "source": "kkj",
-    "key": "bmFnYXNha2kvdHN1c2hpbWFzaGkvMjAyNi8yMDI2MDcyM18wMDg5OAo=",
-    "project_name": "消防団拠点施設（美津島第10分団・加志）解体工事",
-    "org_name": "長崎県対馬市",
-    "pref_name": "長崎県",
-    "city_name": "対馬市",
-    "pref_code": "42",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-23T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.tsushima.nagasaki.jp/material/files/group/4/shouboudankaitai.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "2026-09-01T11:15:00",
-    "application_deadline": "2026-07-31T00:00:00",
-    "fetched_date": "2026-07-24",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-24T02:07:25+00:00",
-      "planned_price": null,
-      "region_requirement": "本市域内に建設業法第３条第１項の本店又は支店等（委任を受けている者に限る。）を有していること。ただし支店等については、令和８年１月１日において支店等開設後、継続して１０年以上経過し、次の①②の条件をいずれも満たす従業員を１０人以上雇用し、令和８年度において支店等に係る準市内業者の認定を受けていること。",
-      "koki": "120日間",
-      "application_deadline": "2026-07-31T00:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-09-01T11:15:00",
-      "summary": "対馬市美津島町加志地内にて消防団拠点施設（美津島第１０分団・加志）の解体工事一式を行います。建物は鉄筋コンクリート造2階建、面積53㎡です。"
-    }
-  },
-  "aGlyb3NoaW1hL2t1cmVzaGkvMjAyNi8yMDI2MDcyM18wMzA3MQo=": {
-    "source": "kkj",
-    "key": "aGlyb3NoaW1hL2t1cmVzaGkvMjAyNi8yMDI2MDcyM18wMzA3MQo=",
-    "project_name": "川尻東プール解体撤去工事",
-    "org_name": "広島県呉市",
-    "pref_name": "広島県",
-    "city_name": "呉市",
-    "pref_code": "34",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-23T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.kure.lg.jp/~koji/files/000000000000041101.PDF",
-    "attachments": [],
-    "location": "呉市川尻町東１丁目１６番地内建設工事の種類 解体工事建築解体撤去工事  一式，電気設備解体撤去工事  一式，機械設備解体",
-    "bid_deadline": "2026-08-05T16:00:00",
-    "opening_date": "2026-08-06T11:40:00",
-    "application_deadline": "",
-    "fetched_date": "2026-07-24",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-24T02:07:25+00:00",
-      "planned_price": "19,534,000円(消費税抜き)",
-      "region_requirement": "市内業者（建設業許可に係る主たる営業所を呉市内に有する者）であること",
-      "koki": "令和9年1月28日",
-      "application_deadline": null,
-      "bid_deadline": "2026-08-05T16:00:00",
-      "opening_date": "2026-08-06T11:40:00",
-      "summary": "呉市川尻町東1丁目16番地内にある川尻東プールの解体撤去工事です。建築解体撤去工事、電気設備解体撤去工事、機械設備解体撤去工事一式が含まれます。本件は電子入札システムを利用する電子入札案件です。"
-    }
-  },
   "eWFtYW5hc2hpL21pbmFtaV9hbHBzX2NpdHkvMjAyNi8yMDI2MDcyNF8wMDc3OQo=": {
     "source": "kkj",
     "key": "eWFtYW5hc2hpL21pbmFtaV9hbHBzX2NpdHkvMjAyNi8yMDI2MDcyNF8wMDc3OQo=",
@@ -4436,6 +4298,35 @@
       "bid_deadline": "2026-09-01T17:15:00",
       "opening_date": "2026-09-01T09:00:00",
       "summary": "市営住宅柏原団地5～8号の解体工事です。CB造平屋147.2㎡の解体と、解体する2棟における外構の解体、整地工事が含まれます。"
+    }
+  },
+  "tokyometro_3539491779294313": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539491779294313",
+    "project_name": "警視庁体育センター倉庫棟ほか撤去工事",
+    "org_name": "警視庁総務部用度課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-07-21",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "2026-07-24",
+    "fetched_date": "2026-08-23",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "no_text",
+      "provider": "",
+      "enriched_at": "2026-08-23T00:57:24+00:00"
     }
   }
 }
