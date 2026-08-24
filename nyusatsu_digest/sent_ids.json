@@ -1,152 +1,4 @@
 {
-  "eWFtYW5hc2hpL21pbmFtaV9hbHBzX2NpdHkvMjAyNi8yMDI2MDcyNF8wMDc3OQo=": {
-    "source": "kkj",
-    "key": "eWFtYW5hc2hpL21pbmFtaV9hbHBzX2NpdHkvMjAyNi8yMDI2MDcyNF8wMDc3OQo=",
-    "project_name": "06 市営川上団地6-5号棟他解体撤去工事 (PDF 220KB)",
-    "org_name": "山梨県南アルプス市",
-    "pref_name": "山梨県",
-    "city_name": "南アルプス市",
-    "pref_code": "19",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-24T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.minami-alps.yamanashi.jp/fs/1/4/5/2/4/2/_/06_______6-5_________.pdf",
-    "attachments": [],
-    "location": "南アルプス市川上地内概 要1 内 容1",
-    "bid_deadline": "2026-08-21T17:00:00",
-    "opening_date": "令和8年8月20日",
-    "application_deadline": "2026-07-31T11:00:00",
-    "fetched_date": "2026-07-25",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-25T02:05:21+00:00",
-      "planned_price": "12,290,000円（消費税抜き）",
-      "region_requirement": "南アルプス市内に本店",
-      "koki": "契約締結日の翌日から令和8年12月18日",
-      "application_deadline": "2026-07-31T11:00:00",
-      "bid_deadline": "2026-08-21T17:00:00",
-      "opening_date": "2026-08-24T09:00:00",
-      "summary": "市営川上団地6-5号棟他の解体撤去工事一式。南アルプス市川上地内にて実施される。木造平屋建の団地解体撤去が含まれる。"
-    }
-  },
-  "bmFnYW5vL2NoaWt1bWFfY2l0eS8yMDI2LzIwMjYwNzI0XzAxMTAwCg==": {
-    "source": "kkj",
-    "key": "bmFnYW5vL2NoaWt1bWFfY2l0eS8yMDI2LzIwMjYwNzI0XzAxMTAwCg==",
-    "project_name": "（8.7.24公告）令和8年度 千曲市坊城平いこいの森キャビン等解体工事(PDFファイル:300KB)",
-    "org_name": "長野県千曲市",
-    "pref_name": "長野県",
-    "city_name": "千曲市",
-    "pref_code": "20",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-24T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.city.chikuma.lg.jp/material/files/group/11/080818-06-.pdf",
-    "attachments": [
-      {
-        "name": "図面等(PDFファイル:6.8MB)",
-        "uri": "https://www.city.chikuma.lg.jp/material/files/group/11/080818-08.pdf"
-      }
-    ],
-    "location": "特記仕様書",
-    "bid_deadline": "2026-08-18T09:15:00",
-    "opening_date": "2026-08-18T09:15:00",
-    "application_deadline": "",
-    "fetched_date": "2026-07-25",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-25T02:05:21+00:00",
-      "planned_price": "事後公表",
-      "region_requirement": "千曲市内に入札参加資格者名簿に登載された主たる営業所（本社・本店等）を有している者であること。千曲市内に主たる営業所（本社・本店等）を有し、令和8年5月1日現在において千曲市市内での営業実績が2年以上ある者であること。",
-      "koki": "契約確定の翌日から120日間",
-      "application_deadline": null,
-      "bid_deadline": "2026-08-18T09:15:00",
-      "opening_date": "2026-08-18T09:15:00",
-      "summary": "令和8年度の千曲市坊城平いこいの森キャビン等解体工事。キャビンB棟、A棟、3、4、管理棟、公衆トイレ、あずまや、水飲場、炊事場、展望台など、計10棟の建物および付属物を解体撤去し、更地化する工事である。建物解体、敷地不陸整正、整地、廃棄物運搬処分が含まれる。"
-    }
-  },
-  "aG9ra2FpZG8vZnVrYWdhd2FzaGkvMjAyNi8yMDI2MDcyNF8wMTI1OAo=": {
-    "source": "kkj",
-    "key": "aG9ra2FpZG8vZnVrYWdhd2FzaGkvMjAyNi8yMDI2MDcyNF8wMTI1OAo=",
-    "project_name": "一已中学校校長住宅解体工事（PDF:239KB）",
-    "org_name": "北海道深川市",
-    "pref_name": "北海道",
-    "city_name": "深川市",
-    "pref_code": "01",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-24T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.city.fukagawa.lg.jp/cms/section/zeimuzaisei/ftsk200000000bxi-att/aajrae0000004oft.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "令和８年８月５日",
-    "application_deadline": "2026-07-29T17:00:00",
-    "fetched_date": "2026-07-25",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-25T02:05:21+00:00",
-      "planned_price": "３，６０８，０００円（消費税及び地方消費税相当額を含む。）",
-      "region_requirement": "深川市競争入札参加資格者名簿において、解体工事に登録されている市内業者であること。",
-      "koki": "契約締結の日から2026年12月15日まで",
-      "application_deadline": "2026-07-29T17:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-08-05T10:00:00",
-      "summary": "深川市稲穂町2丁目3番9号に位置する一已中学校校長住宅の解体工事です。CB造平屋建て1棟1戸75.4㎡の建物のほか、灯油タンク、物置、量水器、給水ポリエンド、汚水排水管の撤去・閉止が含まれます。"
-    }
-  },
-  "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjA3MjRfMDQzNTYK": {
-    "source": "kkj",
-    "key": "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjA3MjRfMDQzNTYK",
-    "project_name": "松契一般第183号 新松戸駅東側地区土地区画整理事業に伴う建物等解体工事（PDF：142KB）",
-    "org_name": "千葉県松戸市",
-    "pref_name": "千葉県",
-    "city_name": "松戸市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-24T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/R8-0724kouji2w.files/183.pdf",
-    "attachments": [
-      {
-        "name": "松契一般第183号 設計図書（PDF：5,057KB）",
-        "uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/R8-0724kouji2w.files/183s.pdf"
-      }
-    ],
-    "location": "松戸市幸谷字宮下５８９番１他※本工事は、松戸市が指定する電子契約サービスを用いた電子契約の対象案件である",
-    "bid_deadline": "2026-08-17T11:00:00",
-    "opening_date": "令和8年8月17日",
-    "application_deadline": "2026-07-30T11:00:00",
-    "fetched_date": "2026-07-25",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-25T02:05:21+00:00",
-      "planned_price": "金 ９，９３０，０００円（税抜き)",
-      "region_requirement": "松戸市内に本店を有すること",
-      "koki": "契約締結日の翌日から令和8年11月27日まで",
-      "application_deadline": "2026-07-30T11:00:00",
-      "bid_deadline": "2026-08-17T11:00:00",
-      "opening_date": "2026-08-21T14:00:00",
-      "summary": "本工事は、新松戸駅東側地区土地区画整理事業に伴う建物等解体工事です。松戸市幸谷字宮下５８９番１他にて、延床面積150.70㎡の木造2階建て建物等の解体及び撤去、外構付属物の撤去、整地を行います。"
-    }
-  },
   "jkk_21021": {
     "source": "jkk",
     "key": "jkk_21021",
@@ -4327,6 +4179,83 @@
       "status": "no_text",
       "provider": "",
       "enriched_at": "2026-08-23T00:57:24+00:00"
+    }
+  },
+  "etokyo_2026:13:115:00826": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:115:00826",
+    "project_name": "杉並区立天沼中学校プール等解体工事",
+    "org_name": "杉並区",
+    "pref_name": "東京都",
+    "city_name": "杉並区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-24T09:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [
+      {
+        "name": "公告文（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/etokyo_2026_13_115_00826_1.pdf"
+      }
+    ],
+    "location": "東京都杉並区本天沼三丁目１０番２０号",
+    "bid_deadline": "2026-09-15T17:00:00",
+    "opening_date": "2026-09-16T10:00:00",
+    "application_deadline": "2026-08-26T15:00:00",
+    "fetched_date": "2026-08-24",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-24T00:55:43+00:00",
+      "planned_price": "42,705,300円",
+      "region_requirement": "杉並区内の業者（杉並区内に本店を有する者又は、杉並区内に代理人を置き、支店・支社・営業所を有する者で区内業者の認定を受けた者）の参加資格",
+      "koki": "契約締結の翌日から令和9年3月19日まで",
+      "application_deadline": "2026-08-26T15:00:00",
+      "bid_deadline": "2026-09-15T17:00:00",
+      "opening_date": "2026-09-16T10:00:00",
+      "summary": "杉並区立天沼中学校のプール槽、プール棟、ポンプ室の解体工事と、テニスコート外構の一部解体工事を行います。敷地面積11,601.00㎡、延床面積590㎡の鉄筋コンクリート造、コンクリートブロック造の建物が対象です。外構、電気、給排水衛生、空気調和設備の撤去工事を含みます。"
+    }
+  },
+  "jkk_21095": {
+    "source": "jkk",
+    "key": "jkk_21095",
+    "project_name": "都営練馬富士見台三丁目アパート（１、２号棟）除却工事",
+    "org_name": "東京都住宅供給公社（JKK東京）",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "015"
+    ],
+    "cft_issue_date": "2026-08-24T09:00:00",
+    "procedure_type": "希望制",
+    "doc_uri": "https://www.to-kousya.or.jp/keiyaku/nyusatu/index.html",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-10-06T17:00:00",
+    "opening_date": "2026-10-07T10:00:00",
+    "application_deadline": "2026-08-28T16:00:00",
+    "fetched_date": "2026-08-24",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-24T00:55:43+00:00",
+      "planned_price": "5713万1800円（税込）",
+      "region_requirement": null,
+      "koki": "2026/10/15から2027/02/22",
+      "application_deadline": "2026-08-28T16:00:00",
+      "bid_deadline": "2026-10-06T17:00:00",
+      "opening_date": "2026-10-07T10:00:00",
+      "summary": "都営練馬富士見台三丁目アパート（１、２号棟）の除却工事です。本案件は最低制限価格が設定されており、発注者指定方式による週休２日促進工事の対象案件です。"
     }
   }
 }
