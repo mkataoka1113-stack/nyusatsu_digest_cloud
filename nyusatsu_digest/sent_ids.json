@@ -4257,5 +4257,215 @@
       "opening_date": "2026-10-07T10:00:00",
       "summary": "都営練馬富士見台三丁目アパート（１、２号棟）の除却工事です。本案件は最低制限価格が設定されており、発注者指定方式による週休２日促進工事の対象案件です。"
     }
+  },
+  "etokyo_2026:13:115:00855": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:115:00855",
+    "project_name": "杉並区立天沼中学校プール等解体工事",
+    "org_name": "杉並区",
+    "pref_name": "東京都",
+    "city_name": "杉並区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-24T09:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [
+      {
+        "name": "公告文（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/etokyo_2026_13_115_00855_1.pdf"
+      }
+    ],
+    "location": "東京都杉並区本天沼三丁目１０番２０号",
+    "bid_deadline": "2026-09-15T17:00:00",
+    "opening_date": "2026-09-16T10:00:00",
+    "application_deadline": "2026-08-26T15:00:00",
+    "fetched_date": "2026-08-25",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-25T00:56:42+00:00",
+      "planned_price": "42,705,300円",
+      "region_requirement": "杉並区内の業者（杉並区内に本店を有する者又は、杉並区内に代理人を置き、支店・支社・営業所を有する者で区内業者の認定を受けた者）の参加資格、または杉並区外の業者であること。",
+      "koki": "契約締結の翌日から令和9年3月19日まで",
+      "application_deadline": "2026-08-26T15:00:00",
+      "bid_deadline": "2026-09-15T17:00:00",
+      "opening_date": "2026-09-16T10:00:00",
+      "summary": "杉並区立天沼中学校のプール槽、プール棟、ポンプ室の解体工事と、テニスコート外構の一部解体工事を行います。敷地面積は11,601.00㎡、構造は鉄筋コンクリート造、コンクリートブロック造で、地上2階建て、平屋建て、延床面積は590㎡です。外構、電気設備、給排水衛生設備、空気調和設備の撤去工事を含みます。"
+    }
+  },
+  "chiba_f47d73c1ed3d90b7": {
+    "source": "chiba",
+    "key": "chiba_f47d73c1ed3d90b7",
+    "project_name": "印西警察署署長公舎解体工事",
+    "org_name": "千葉県  県警本部総務部  会計課",
+    "pref_name": "千葉県",
+    "city_name": "印西市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-08-25",
+    "procedure_type": "事後審査）千葉県 ・ 価格競争 ・ 事後審査２型 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "01印西警察署署長公舎解体工事第2号様式_01_公告_個別編（単独）_250930改正（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_f47d73c1ed3d90b7_1.pdf"
+      }
+    ],
+    "location": "印西市",
+    "bid_deadline": "2026-09-16T17:00:00",
+    "opening_date": "2026-09-17T10:10:00",
+    "application_deadline": "2026-09-11T17:00:00",
+    "fetched_date": "2026-08-25",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-25T00:56:42+00:00",
+      "planned_price": "7,359,000円（消費税及び地方消費税を含む。）",
+      "region_requirement": "県内に資格者名簿に登載された主たる営業所（本店）を有するもの",
+      "koki": "令和９年２月１５日まで",
+      "application_deadline": "2026-09-11T17:00:00",
+      "bid_deadline": "2026-09-16T17:00:00",
+      "opening_date": "2026-09-17T10:10:00",
+      "summary": "印西警察署署長公舎の解体工事です。本案件は、入札参加資格の審査を入札執行後に行う事後審査Ⅱ型で、企業の技術力と価格の双方を総合的に評価して落札者を決定する総合評価方式を適用します。"
+    }
+  },
+  "dG9jaGlnaS9ub2dpX3Rvd24vMjAyNi8yMDI2MDgyNF8wMDA1Mgo=": {
+    "source": "kkj",
+    "key": "dG9jaGlnaS9ub2dpX3Rvd24vMjAyNi8yMDI2MDgyNF8wMDA1Mgo=",
+    "project_name": "健康センター解体工事",
+    "org_name": "栃木県野木町",
+    "pref_name": "栃木県",
+    "city_name": "野木町",
+    "pref_code": "09",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-24T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.town.nogi.lg.jp/data/doc/1787535671_doc_44_0.pdf",
+    "attachments": [
+      {
+        "name": "設計書",
+        "uri": "https://www.town.nogi.lg.jp/data/doc/1787535675_doc_44_0.pdf"
+      },
+      {
+        "name": "設計図(1)",
+        "uri": "https://www.town.nogi.lg.jp/data/doc/1787535683_doc_44_0.pdf"
+      },
+      {
+        "name": "設計図(2)",
+        "uri": "https://www.town.nogi.lg.jp/data/doc/1787535702_doc_44_0.pdf"
+      },
+      {
+        "name": "設計図(3)",
+        "uri": "https://www.town.nogi.lg.jp/data/doc/1787535722_doc_44_0.pdf"
+      },
+      {
+        "name": "設計図(4)",
+        "uri": "https://www.town.nogi.lg.jp/data/doc/1787535743_doc_44_0.pdf"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-09-15T00:00:00",
+    "opening_date": "2026-09-17T13:30:00",
+    "application_deadline": "2026-09-03T00:00:00",
+    "fetched_date": "2026-08-25",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-25T00:56:42+00:00",
+      "planned_price": "１２５，３６０，０００円（消費税等相当額を除く）",
+      "region_requirement": "下都賀地域内（栃木市、小山市、下野市、壬生町、野木町）に建設業法（昭和２４年法律第１００号）第３条に基づき設置された本店または支店があること。",
+      "koki": "令和９年３月１９日限り",
+      "application_deadline": "2026-09-03T00:00:00",
+      "bid_deadline": "2026-09-15T00:00:00",
+      "opening_date": "2026-09-17T13:30:00",
+      "summary": "野木町健康センターの解体工事です。本館（RC造平屋建）と新館（木造平屋建）の解体、および屋外設備や付属建物の撤去、外構解体・整地が含まれます。本工事は建設資材の再資源化等が義務付けられており、週休2日制（発注者指定型）の対象です。"
+    }
+  },
+  "a3lvdG8vYXlhYmVfY2l0eS8yMDI2LzIwMjYwODI0XzAwNzM1Cg==": {
+    "source": "kkj",
+    "key": "a3lvdG8vYXlhYmVfY2l0eS8yMDI2LzIwMjYwODI0XzAwNzM1Cg==",
+    "project_name": "職員寮解体・本庁北駐車場整備工事（舗装B）",
+    "org_name": "京都府綾部市",
+    "pref_name": "京都府",
+    "city_name": "綾部市",
+    "pref_code": "26",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-24T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.ayabe.lg.jp/cmsfiles/contents/0000004/4425/koukoku-ryoukaitaikitacyuusyajouseibi.pdf",
+    "attachments": [],
+    "location": "綾部市若竹町",
+    "bid_deadline": "2026-09-15T14:00:00",
+    "opening_date": "2026-09-16T09:30:00",
+    "application_deadline": "2026-08-28T12:00:00",
+    "fetched_date": "2026-08-25",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-25T00:56:42+00:00",
+      "planned_price": null,
+      "region_requirement": "令和8年度綾部市建設工事指名競争入札参加資格者名簿で舗装工事のＢ等級で登録されており、令和8年4月1日以降継続して綾部市内に本店を有する単体業者で、申請日時点において綾部市の指名停止及び市が締結する契約等からの除外措置を受けていないこと。",
+      "koki": "2026年9月25日から2026年12月23日まで（90日間）",
+      "application_deadline": "2026-08-28T12:00:00",
+      "bid_deadline": "2026-09-15T14:00:00",
+      "opening_date": "2026-09-16T09:30:00",
+      "summary": "本工事は、職員寮解体・本庁北駐車場整備工事であり、綾部市若竹町にて実施されます。工事内容は、木造2階建の職員寮（69.2㎡）と木造平屋建の自転車小屋（5.0㎡）の解体、および解体跡地整備と北駐車場整備を含みます。"
+    }
+  },
+  "aGlyb3NoaW1hL21peW9zaGlfY2l0eS8yMDI2LzIwMjYwODI0XzAxMjEzCg==": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL21peW9zaGlfY2l0eS8yMDI2LzIwMjYwODI0XzAxMjEzCg==",
+    "project_name": "家屋解体工",
+    "org_name": "広島県三次市",
+    "pref_name": "広島県",
+    "city_name": "三次市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-24T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/34099.pdf",
+    "attachments": [
+      {
+        "name": "93 [23.38MB]",
+        "uri": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/34100.zip"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-09-07T16:00:00",
+    "opening_date": "令和8年9月3日",
+    "application_deadline": "",
+    "fetched_date": "2026-08-25",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-25T00:56:42+00:00",
+      "planned_price": "３０，９６９，０００円 （消費税及び地方消費税相当額を除く。）",
+      "region_requirement": "市内に本社・本店を有するもの。",
+      "koki": "契約日から2026年12月25日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-09-07T16:00:00",
+      "opening_date": "2026-09-07T09:30:00",
+      "summary": "三次市立十日市小中学校連絡通路家屋解体工事の入札公告。三次市十日市中四丁目地内にて家屋解体工N=1.0式を実施する。契約日から2026年12月25日までの工期で、予定価格は30,969,000円（税抜）。"
+    }
   }
 }
