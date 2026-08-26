@@ -1,81 +1,4 @@
 {
-  "jkk_21021": {
-    "source": "jkk",
-    "key": "jkk_21021",
-    "project_name": "都営亀戸六丁目アパート除却工事",
-    "org_name": "東京都住宅供給公社（JKK東京）",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "015"
-    ],
-    "cft_issue_date": "2026-07-27T09:00:00",
-    "procedure_type": "希望制",
-    "doc_uri": "https://www.to-kousya.or.jp/keiyaku/nyusatu/index.html",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-09-08T17:00:00",
-    "opening_date": "2026-09-09T10:00:00",
-    "application_deadline": "2026-07-31T16:00:00",
-    "fetched_date": "2026-07-27",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-27T02:20:12+00:00",
-      "planned_price": "97,752,600円（税込）",
-      "region_requirement": null,
-      "koki": "2026/09/16から2027/03/19",
-      "application_deadline": "2026-07-31T16:00:00",
-      "bid_deadline": "2026-09-08T17:00:00",
-      "opening_date": "2026-09-09T10:00:00",
-      "summary": "本案件は、都営亀戸六丁目アパートの除却工事です。電子入札システムによる入札参加申請と併せて、建物の除却工事の実績書類の提出が必要です。本案件は、発注者指定方式による週休２日促進工事の対象案件です。"
-    }
-  },
-  "pportal_631632": {
-    "source": "pportal",
-    "key": "pportal_631632",
-    "project_name": "【国土地理院】位置情報インフラの強靱化（「P浅虫」建屋解体撤去等業務）",
-    "org_name": "国土交通省",
-    "pref_name": "茨城県",
-    "city_name": "",
-    "pref_code": "08",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-27",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=g%2B%2Fn249XN2rphO8%2Fst%2BjtuFH2jAWsjS9ZPm8kcxgakA%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-07-27",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-27T02:20:12+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": null,
-      "opening_date": null,
-      "summary": "本公告は、国土地理院による位置情報インフラの強靱化に関する一般競争入札の入札公告である。具体的には、「P浅虫」建屋の解体撤去等業務が含まれる。調達機関は国土交通省で、茨城県に所在する。"
-    }
-  },
   "etokyo_2026:13:107:00410": {
     "source": "etokyo",
     "key": "etokyo_2026:13:107:00410",
@@ -4466,6 +4389,135 @@
       "bid_deadline": "2026-09-07T16:00:00",
       "opening_date": "2026-09-07T09:30:00",
       "summary": "三次市立十日市小中学校連絡通路家屋解体工事の入札公告。三次市十日市中四丁目地内にて家屋解体工N=1.0式を実施する。契約日から2026年12月25日までの工期で、予定価格は30,969,000円（税抜）。"
+    }
+  },
+  "tokyometro_3539591720233510": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539591720233510",
+    "project_name": "東京消防庁旧三河島家族待機宿舎（８）解体工事",
+    "org_name": "東京消防庁総務部経理契約課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-08-26",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "2026-09-01",
+    "fetched_date": "2026-08-26",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "no_text",
+      "provider": "",
+      "enriched_at": "2026-08-26T00:56:49+00:00"
+    }
+  },
+  "c2VhcmNoL2tlaXlha3VfaGlyb3NoaW1hX2NpdHkvMjAyNi8yMDI2MDgyNV8wNDQzOAo=": {
+    "source": "kkj",
+    "key": "c2VhcmNoL2tlaXlha3VfaGlyb3NoaW1hX2NpdHkvMjAyNi8yMDI2MDgyNV8wNDQzOAo=",
+    "project_name": "中央公園ファミリープール解体工事実施設計業務",
+    "org_name": "広島県広島市",
+    "pref_name": "広島県",
+    "city_name": "広島市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-25T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://ppi.keiyaku.city.hiroshima.lg.jp/PPI_P/DownLoad/202620029600101.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-09-08T16:00:00",
+    "opening_date": "令和８年８月３１日",
+    "application_deadline": "",
+    "fetched_date": "2026-08-26",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-26T00:56:49+00:00",
+      "planned_price": "落札決定後に公表",
+      "region_requirement": "広島市内に主たる営業所を有していること。",
+      "koki": "契約締結の日から１８０日間",
+      "application_deadline": null,
+      "bid_deadline": "2026-09-08T16:00:00",
+      "opening_date": "2026-09-09T11:20:00",
+      "summary": "中央公園ファミリープールの解体工事実施設計業務。管理棟、便所、食堂、倉庫などの建築物解体、流水プール、50mプール、こどもプール、シェルター・テント、外構・時計塔などの解体、解体後の整地、および電気・機械設備の撤去が含まれる。"
+    }
+  },
+  "bmFnYW5vL2tvbWFnYW5lX2NpdHkvMjAyNi8yMDI2MDgyNV8wMDYyNQo=": {
+    "source": "kkj",
+    "key": "bmFnYW5vL2tvbWFnYW5lX2NpdHkvMjAyNi8yMDI2MDgyNV8wMDYyNQo=",
+    "project_name": "令和7年度（繰越） 教職員住宅管理事業 下林教職員住宅解体工事",
+    "org_name": "長野県駒ケ根市",
+    "pref_name": "長野県",
+    "city_name": "駒ケ根市",
+    "pref_code": "20",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-25T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.komagane.nagano.jp/material/files/group/4/8082513001.zip",
+    "attachments": [
+      {
+        "name": "設計図書外 (圧縮ファイル: 2.8MB)",
+        "uri": "https://www.city.komagane.nagano.jp/material/files/group/4/8082513002.zip"
+      }
+    ],
+    "location": "は、住宅地及び幹線道路に近接しているため、工程等入念に打合せをし、安全面に十分留意すること",
+    "bid_deadline": "",
+    "opening_date": "令和８年９月９日",
+    "application_deadline": "",
+    "fetched_date": "2026-08-26",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-26T00:56:49+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約の日から令和9年1月15日",
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本工事は、駒ヶ根市赤穂5655番地1、5654番地5に位置する教職員住宅（木造平屋建2棟、延べ面積計157.10㎡）の解体工事です。アスベスト含有建材の除去、建物基礎・土間・軽量ブロックの解体、給排水衛生・電気設備の撤去、アスファルト簡易舗装の撤去、および整地工事を含みます。発生材の運搬・処理も行われます。"
+    }
+  },
+  "Z2lmdS9rZW5zYXRzdV9naWZ1LzIwMjYvMjAyNjA4MjVfMDAwMTMK": {
+    "source": "kkj",
+    "key": "Z2lmdS9rZW5zYXRzdV9naWZ1LzIwMjYvMjAyNjA4MjVfMDAwMTMK",
+    "project_name": "契約の内容等（岐阜地方検察庁御嵩支部職員宿舎解体工事）",
+    "org_name": "検察庁岐阜地方検察庁",
+    "pref_name": "岐阜県",
+    "city_name": "岐阜市",
+    "pref_code": "21",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-25T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.kensatsu.go.jp/kakuchou/gifu/page1000001_00038.html",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-08-26",
+    "notified": [],
+    "enrich": {
+      "status": "no_text",
+      "provider": "",
+      "enriched_at": "2026-08-26T00:56:49+00:00"
     }
   }
 }
