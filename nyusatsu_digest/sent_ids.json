@@ -1,227 +1,4 @@
 {
-  "etokyo_2026:13:107:00410": {
-    "source": "etokyo",
-    "key": "etokyo_2026:13:107:00410",
-    "project_name": "梅若小学校擁壁解体工事",
-    "org_name": "墨田区",
-    "pref_name": "東京都",
-    "city_name": "墨田区",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-27T09:00:00",
-    "procedure_type": "希望型指名競争",
-    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
-    "attachments": [],
-    "location": "東京都墨田区梅若小学校（墨田区墨田二丁目25番1号）",
-    "bid_deadline": "2026-08-31T10:20:00",
-    "opening_date": "2026-08-31T10:30:00",
-    "application_deadline": "2026-07-31T12:00:00",
-    "fetched_date": "2026-07-28",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-28T01:57:29+00:00",
-      "planned_price": "5,196,400円",
-      "region_requirement": null,
-      "koki": "契約確定の翌日から2026年11月4日まで",
-      "application_deadline": "2026-07-31T12:00:00",
-      "bid_deadline": "2026-08-31T10:20:00",
-      "opening_date": "2026-08-31T10:30:00",
-      "summary": "本案件は墨田区が発注する梅若小学校擁壁解体工事です。履行場所は東京都墨田区梅若小学校で、契約方法は希望制指名競争入札です。"
-    }
-  },
-  "pportal_631640": {
-    "source": "pportal",
-    "key": "pportal_631640",
-    "project_name": "【関東地方整備局、本局】Ｒ８霞ヶ浦河川水面清掃船解体業務",
-    "org_name": "国土交通省",
-    "pref_name": "埼玉県",
-    "city_name": "",
-    "pref_code": "11",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-28",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=X7azV%2F7ragLQVVBVIG%2BhxT9W6JSkx0%2FWM9qIfFlihSY%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-07-28",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-28T01:57:29+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": null,
-      "opening_date": null,
-      "summary": "本公告は、関東地方整備局によるR8霞ヶ浦河川水面清掃船解体業務の一般競争入札に関するものである。入札公告の詳細は、関東地方整備局のウェブサイトで確認できる。"
-    }
-  },
-  "pportal_631777": {
-    "source": "pportal",
-    "key": "pportal_631777",
-    "project_name": "【第四管区海上保安本部_経理工21】国有財産（船舶）解体処分",
-    "org_name": "国土交通省",
-    "pref_name": "愛知県",
-    "city_name": "",
-    "pref_code": "23",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-28",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=Cbr2qJ7FglgWpRTAxhCfjZrO%2Fa42ZHtGoj42Y4JjGWM%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-07-28",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-28T01:57:29+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": null,
-      "opening_date": null,
-      "summary": "本公告は、第四管区海上保安本部による国有財産（船舶）の解体処分に関する一般競争入札の入札公告である。調達種別は物品・役務に分類される。各種書式は第四管区海上保安本部のホームページで参照可能である。"
-    }
-  },
-  "aG9ra2FpZG8va3VzaXJvX2NpdHkvMjAyNi8yMDI2MDcyN18wMDYxOAo=": {
-    "source": "kkj",
-    "key": "aG9ra2FpZG8va3VzaXJvX2NpdHkvMjAyNi8yMDI2MDcyN18wMDYxOAo=",
-    "project_name": "令和8年度公営住宅等解体工事（白樺台C団地）【8月25日】",
-    "org_name": "北海道釧路市",
-    "pref_name": "北海道",
-    "city_name": "釧路市",
-    "pref_code": "01",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-27T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/018/927/koukokubun2026005168.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-08-25T10:00:00",
-    "opening_date": "2026-08-25T10:00:00",
-    "application_deadline": "2026-08-17T17:00:00",
-    "fetched_date": "2026-07-28",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-28T01:57:29+00:00",
-      "planned_price": "事後公表",
-      "region_requirement": "釧路市内に本店を有していること",
-      "koki": "2026年9月2日から2026年12月21日まで",
-      "application_deadline": "2026-08-17T17:00:00",
-      "bid_deadline": "2026-08-25T10:00:00",
-      "opening_date": "2026-08-25T10:00:00",
-      "summary": "本工事は、令和8年度公営住宅等解体工事（白樺台C団地）であり、釧路市白樺台にて既存住棟8棟30戸の除却工事を行います。工期は2026年9月2日から2026年12月21日までです。本工事は月単位の「週休2日工事」の対象です。"
-    }
-  },
-  "aG9ra2FpZG8va3VzaXJvX2NpdHkvMjAyNi8yMDI2MDcyN18wMDYxNAo=": {
-    "source": "kkj",
-    "key": "aG9ra2FpZG8va3VzaXJvX2NpdHkvMjAyNi8yMDI2MDcyN18wMDYxNAo=",
-    "project_name": "令和8年度新川団地集会所解体工事【8月18日】",
-    "org_name": "北海道釧路市",
-    "pref_name": "北海道",
-    "city_name": "釧路市",
-    "pref_code": "01",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-27T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/011/456/koukokubun2026005193.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-08-18T10:00:00",
-    "opening_date": "2026-08-18T10:00:00",
-    "application_deadline": "2026-08-03T17:00:00",
-    "fetched_date": "2026-07-28",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-28T01:57:29+00:00",
-      "planned_price": "契約規則第７条第１項の規定に基づき、事後公表とする。",
-      "region_requirement": "釧路市内に本店を有していること。",
-      "koki": "2026年（令和8年）8月26日から2027年（令和9年）1月22日まで",
-      "application_deadline": "2026-08-03T17:00:00",
-      "bid_deadline": "2026-08-18T10:00:00",
-      "opening_date": "2026-08-18T10:00:00",
-      "summary": "本工事は、釧路市新川町における新川団地集会所の解体工事です。月単位の「週休2日工事」の対象であり、経費は設計金額に含まれています。"
-    }
-  },
-  "ZnVrdXNoaW1hL25hcmFoYV90b3duLzIwMjYvMjAyNjA3MjdfMDAwMzcK": {
-    "source": "kkj",
-    "key": "ZnVrdXNoaW1hL25hcmFoYV90b3duLzIwMjYvMjAyNjA3MjdfMDAwMzcK",
-    "project_name": "竜田駅東側事業用地地下構造物解体工事",
-    "org_name": "福島県楢葉町",
-    "pref_name": "福島県",
-    "city_name": "楢葉町",
-    "pref_code": "07",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-27T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.town.naraha.lg.jp/Files/2026/1.%E5%85%AC%E5%91%8A%E6%96%87%E3%80%80%EF%BC%91%EF%BC%93%20%E7%AB%9C%E7%94%B0%E9%A7%85%E6%9D%B1%E5%81%B4%E4%BA%8B%E6%A5%AD%E7%94%A8%E5%9C%B0%E5%9C%B0%E4%B8%8B%E6%A7%8B%E9%80%A0%E7%89%A9%E8%A7%A3%E4%BD%93%E5%B7%A5%E4%BA%8B.pdf",
-    "attachments": [
-      {
-        "name": "設計図書等",
-        "uri": "https://www.town.naraha.lg.jp/Files/2026/1.%E5%85%AC%E5%91%8A%E7%AC%AC13%E5%8F%B7%E3%80%80%E9%96%B2%E8%A6%A7%E7%94%A8%EF%BC%89%E7%AB%9C%E7%94%B0%E9%A7%85%E6%9D%B1%E5%81%B4%E4%BA%8B%E6%A5%AD%E7%94%A8%E5%9C%B0%E5%9C%B0%E4%B8%8B%E6%A7%8B%E9%80%A0%E7%89%A9%E7%AD%89%E8%A7%A3%E4%BD%93%E5%B7%A5%E4%BA%8B.zip"
-      }
-    ],
-    "location": "双葉郡楢葉町大字井出字堂ノ前地内4 指定工種工事概要 ・地下構造物の撤去・法面の復旧・残置物の撤去・土砂崩壊を防ぐ安全策",
-    "bid_deadline": "2026-08-25T13:30:00",
-    "opening_date": "2026-08-25T13:30:00",
-    "application_deadline": "2026-08-24T12:00:00",
-    "fetched_date": "2026-07-28",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-28T01:57:29+00:00",
-      "planned_price": "事後公表",
-      "region_requirement": "町内に本店を有する者。",
-      "koki": "令和9年3月31日 まで",
-      "application_deadline": "2026-08-24T12:00:00",
-      "bid_deadline": "2026-08-25T13:30:00",
-      "opening_date": "2026-08-25T13:30:00",
-      "summary": "本工事は、竜田駅東側事業用地内の地下構造物解体工事です。具体的には、地下構造物の撤去、法面の復旧、残置物の撤去、土砂崩壊を防ぐ安全策の設置が含まれます。"
-    }
-  },
   "chiba_92ef1972d7c441b5": {
     "source": "chiba",
     "key": "chiba_92ef1972d7c441b5",
@@ -4518,6 +4295,186 @@
       "status": "no_text",
       "provider": "",
       "enriched_at": "2026-08-26T00:56:49+00:00"
+    }
+  },
+  "pportal_635213": {
+    "source": "pportal",
+    "key": "pportal_635213",
+    "project_name": "【東京航空局】東京国際空港東西地下連絡通路D階段外2件解体実施設計",
+    "org_name": "国土交通省",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-26",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=j6gBxB1x9ylEzJgWtnixRTBQlAFVDJ8zXOvZ3Rs0UBU%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-08-27",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-27T06:36:27+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本案件は、東京航空局による東京国際空港東西地下連絡通路D階段外2件の解体実施設計に関する一般競争入札の公告である。調達種別はWTO対象外の簡易工事に分類される。公告内容は国土交通省のウェブサイトに掲載されている。"
+    }
+  },
+  "pportal_635379": {
+    "source": "pportal",
+    "key": "pportal_635379",
+    "project_name": "国有財産（船舶）解体処分（汽船きいかぜ）等",
+    "org_name": "国土交通省",
+    "pref_name": "兵庫県",
+    "city_name": "",
+    "pref_code": "28",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-27",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=0fOr5YL2v6%2B7v4TOZf0zlEY4XW3lYRSgL%2F6NpSqVHgQ%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-08-27",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-27T06:36:27+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本公告は、国土交通省による国有財産（船舶）解体処分（汽船きいかぜ）等の一般競争入札に関するものです。詳細情報は第五管区海上保安本部ホームページで確認できます。不明な点があれば、第五管区海上保安本部経理補給部経理課に問い合わせ可能です。"
+    }
+  },
+  "dG9jaGlnaS9uYXN1c2hpb2JhcmFfY2l0eS8yMDI2LzIwMjYwODI2XzAxMDE0Cg==": {
+    "source": "kkj",
+    "key": "dG9jaGlnaS9uYXN1c2hpb2JhcmFfY2l0eS8yMDI2LzIwMjYwODI2XzAxMDE0Cg==",
+    "project_name": "126064 那珂川河畔公園トイレ解体工事 (PDFファイル: 403.8KB)",
+    "org_name": "栃木県那須塩原市",
+    "pref_name": "栃木県",
+    "city_name": "那須塩原市",
+    "pref_code": "09",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-26T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.nasushiobara.tochigi.jp/material/files/group/10/126064_koukoku.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-09-07T17:00:00",
+    "opening_date": "2026-09-08T13:33:00",
+    "application_deadline": "2026-09-01T17:00:00",
+    "fetched_date": "2026-08-27",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-27T06:36:27+00:00",
+      "planned_price": "金4,980,000円（消費税を含まない額）",
+      "region_requirement": "那須塩原市内に建設業法(昭和２４年法律第１００号)第３条第１項に基づき設置された本店があること。",
+      "koki": "令和8年9月29日 から 令和8年11月17日 まで",
+      "application_deadline": "2026-09-01T17:00:00",
+      "bid_deadline": "2026-09-07T17:00:00",
+      "opening_date": "2026-09-08T13:33:00",
+      "summary": "那珂川河畔公園のトイレ解体工事一式。鉄骨造平屋建ての公園トイレ（延べ面積35.32㎡）の解体、アスベスト材撤去、外構撤去（アスファルト舗装、フェンス、浸透桝）、樹木伐採・伐根が含まれる。"
+    }
+  },
+  "bWllL3NoaW1hX2NpdHkvMjAyNi8yMDI2MDgyNl8wMjA5MAo=": {
+    "source": "kkj",
+    "key": "bWllL3NoaW1hX2NpdHkvMjAyNi8yMDI2MDgyNl8wMjA5MAo=",
+    "project_name": "旧大王放課後児童クラブほか1件解体工事",
+    "org_name": "三重県志摩市",
+    "pref_name": "三重県",
+    "city_name": "志摩市",
+    "pref_code": "24",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-26T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.shima.mie.jp/material/files/group/7/0301uchiwakeshotoR080909.pdf",
+    "attachments": [
+      {
+        "name": "仕様書等 (圧縮ファイル: 13.0MB)",
+        "uri": "https://www.city.shima.mie.jp/material/files/group/7/0304shiyoushoR080909.zip"
+      }
+    ],
+    "location": "１ 工事場所Ⅱ．工事概要 Ⅱ．工事概要",
+    "bid_deadline": "2026-09-09T09:40:00",
+    "opening_date": "2026-09-09T09:40:00",
+    "application_deadline": "2026-09-03T17:00:00",
+    "fetched_date": "2026-08-27",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-27T06:36:27+00:00",
+      "planned_price": "42,940,000円（消費税及び地方消費税除く）",
+      "region_requirement": "市内業者",
+      "koki": "契約日～令和9年2月26日",
+      "application_deadline": "2026-09-03T17:00:00",
+      "bid_deadline": "2026-09-09T09:40:00",
+      "opening_date": "2026-09-09T09:40:00",
+      "summary": "旧大王放課後児童クラブと旧医師住宅の解体工事一式および外構付帯工事一式。旧大王放課後児童クラブはRC造644.01㎡、旧医師住宅はRC造137.42㎡の解体が含まれる。本工事は土日完全週休2日制工事試行案件であり、情報共有システム(ASP方式)試行案件でもある。"
+    }
+  },
+  "Z292OS9taW50X2dvLzIwMjYvMjAyNjA4MjZfMDIyODUK": {
+    "source": "kkj",
+    "key": "Z292OS9taW50X2dvLzIwMjYvMjAyNjA4MjZfMDIyODUK",
+    "project_name": "竪型圧印機解体搬出作業（さいたま支局） 一式 令和8年9月11日",
+    "org_name": "独立行政法人造幣局",
+    "pref_name": "大阪府",
+    "city_name": "大阪市",
+    "pref_code": "27",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-26T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.mint.go.jp/about/bid/nyusatsu/nyusatsu-honkyoku/260805271.html",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-08-27",
+    "notified": [],
+    "enrich": {
+      "status": "no_text",
+      "provider": "",
+      "enriched_at": "2026-08-27T06:36:27+00:00"
     }
   }
 }
