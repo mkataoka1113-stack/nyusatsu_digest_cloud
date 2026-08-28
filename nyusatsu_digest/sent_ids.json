@@ -1,157 +1,4 @@
 {
-  "chiba_92ef1972d7c441b5": {
-    "source": "chiba",
-    "key": "chiba_92ef1972d7c441b5",
-    "project_name": "副知事公舎解体工事",
-    "org_name": "千葉県  県土整備部  建設・不動産業課",
-    "pref_name": "千葉県",
-    "city_name": "千葉市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-06-26",
-    "procedure_type": "事後審査）千葉県 ・ 総合評価（拡充版） ・ 事後審査２型 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [
-      {
-        "name": "01_公告_個別編（単独）_260330改正（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_92ef1972d7c441b5_1.pdf"
-      },
-      {
-        "name": "02_公告_個別編_別添（特別簡易型（Ｂ））（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_92ef1972d7c441b5_2.pdf"
-      },
-      {
-        "name": "03_公告_共通編（総合評価方式）_260330改正（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_92ef1972d7c441b5_3.pdf"
-      }
-    ],
-    "location": "千葉市中央区都町",
-    "bid_deadline": "2026-07-28T17:00:00",
-    "opening_date": "2026-07-31T16:30:00",
-    "application_deadline": "2026-07-22T17:00:00",
-    "fetched_date": "2026-07-29",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-29T02:02:01+00:00",
-      "planned_price": "落札決定後公表する",
-      "region_requirement": "千葉土木事務所又は市原土木事務所管内（千葉市、習志野市、八千代市又は市原市）に資格者名簿に登載された主たる営業所（本店）を有すること",
-      "koki": "2027年2月26日限り",
-      "application_deadline": "2026-07-22T17:00:00",
-      "bid_deadline": "2026-07-28T17:00:00",
-      "opening_date": "2026-07-31T16:30:00",
-      "summary": "老朽化した副知事公舎（鉄筋コンクリート造 平家建て 延べ面積 283.50㎡）、詰所、カーポート及び外構の解体工事一式を行います。本工事は、入札参加資格の審査を入札執行後に行う事後審査Ⅱ型であり、企業の技術力と価格の双方を総合的に評価して落札者を決定する総合評価方式を適用します。"
-    }
-  },
-  "b2theWFtYS9va2F5YW1hX2NpdHkvMjAyNi8yMDI2MDcyOF8xMjgxOQo=": {
-    "source": "kkj",
-    "key": "b2theWFtYS9va2F5YW1hX2NpdHkvMjAyNi8yMDI2MDcyOF8xMjgxOQo=",
-    "project_name": "岡山市立建部中学校給食センター解体工事",
-    "org_name": "岡山県岡山市",
-    "pref_name": "岡山県",
-    "city_name": "岡山市",
-    "pref_code": "33",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-28T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://keiyaku.city.okayama.jp/webftp/exe/2026023394.pdf",
-    "attachments": [],
-    "location": "4 工種5 工期6 許容価格7 最低制限価格設定案件等10 契約不適合責任期間12 建設リサイクル法対象工事3 設計図書",
-    "bid_deadline": "2026-08-20T16:00:00",
-    "opening_date": "2026-08-21T10:08:00",
-    "application_deadline": "",
-    "fetched_date": "2026-07-29",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-29T02:02:01+00:00",
-      "planned_price": "落札決定後に公表",
-      "region_requirement": "岡山市内に本店または直近の本市法人市民税の確定申告書における岡山市分の従業員数が50人以上であり、かつ、岡山市の市民税を課税され、特別徴収を行っている従業員数が50人以上の営業所を有すること。また、格付業種が解体で市内全域の格付がA, B又はC等級、または格付業種が土木又は建築で第2又は第3格付業種が解体で北区Ⅱエリア（中山・高松・香和・足守・御津・建部中学校区）で解体の格付がA等級、または北区Ⅱ",
-      "koki": "令和9年2月26日",
-      "application_deadline": null,
-      "bid_deadline": "2026-08-20T16:00:00",
-      "opening_date": "2026-08-21T10:08:00",
-      "summary": "岡山市立建部中学校給食センターの解体工事です。構造は鉄骨造平屋建、延べ面積は262.62㎡です。電気設備、機械設備、外構の附帯工事も含まれます。"
-    }
-  },
-  "Z292My9rdHJfbWxpdC8yMDI2LzIwMjYwNzI4XzA1MzAwCg==": {
-    "source": "kkj",
-    "key": "Z292My9rdHJfbWxpdC8yMDI2LzIwMjYwNzI4XzA1MzAwCg==",
-    "project_name": "Ｒ８霞ヶ浦河川水面清掃船解体業務 [PDF：89KB]",
-    "org_name": "国土交通省関東地方整備局",
-    "pref_name": "埼玉県",
-    "city_name": "さいたま市",
-    "pref_code": "11",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-28T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.ktr.mlit.go.jp/ktr_content/content/000953798.pdf",
-    "attachments": [],
-    "location": "茨城県土浦市蓮河原町地先外１箇所",
-    "bid_deadline": "2026-09-09T16:00:00",
-    "opening_date": "2026-09-10T13:30:00",
-    "application_deadline": "2026-08-19T13:00:00",
-    "fetched_date": "2026-07-29",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-29T02:02:01+00:00",
-      "planned_price": null,
-      "region_requirement": "関東地方整備局管内に本社又は支店、営業所を有すること。",
-      "koki": "契約締結の翌日から令和９年３月 25 日まで",
-      "application_deadline": "2026-08-19T13:00:00",
-      "bid_deadline": "2026-09-09T16:00:00",
-      "opening_date": "2026-09-10T13:30:00",
-      "summary": "本業務は、霞ヶ浦河川水面清掃船の解体、発生品の運搬・処分、および仮設工事一式を含みます。履行場所は茨城県土浦市蓮河原町地先外１箇所です。本案件は電子調達システム（ＧＥＰＳ）を利用して入札および契約が行われます。"
-    }
-  },
-  "aG9ra2FpZG8vd2Fra2FuYWlzaGkvMjAyNi8yMDI2MDcyN18wMTE0NAo=": {
-    "source": "kkj",
-    "key": "aG9ra2FpZG8vd2Fra2FuYWlzaGkvMjAyNi8yMDI2MDcyN18wMTE0NAo=",
-    "project_name": "太陽光発電施設整備工事（NAS電池建屋解体工事）",
-    "org_name": "北海道稚内市",
-    "pref_name": "北海道",
-    "city_name": "稚内市",
-    "pref_code": "01",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-27T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.city.wakkanai.hokkaido.jp/files/00020700/00020740/r08-095-0100.pdf",
-    "attachments": [],
-    "location": "工期3 4工種等級技術者等審査方式及び申請方法申請書提出期間請求方法場所提出方法日時場所提出方法日時入札保証金契約保証前",
-    "bid_deadline": "2026-08-18T10:00:00",
-    "opening_date": "令和8年8月18日",
-    "application_deadline": "2026-08-07T00:00:00",
-    "fetched_date": "2026-07-29",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-29T02:02:01+00:00",
-      "planned_price": "6,952,000円",
-      "region_requirement": "市内業者",
-      "koki": "契約日の翌日から 令和8年10月30日 まで",
-      "application_deadline": "2026-08-07T00:00:00",
-      "bid_deadline": "2026-08-18T10:00:00",
-      "opening_date": "2026-08-18T10:00:00",
-      "summary": "本工事は太陽光発電施設整備工事（NAS電池建屋解体工事）として、NAS電池建屋の解体、キュービクル一式およびNAS電池パッケージの撤去・処分、各種付帯附属設備の撤去・処分を行います。工事場所は稚内市声問です。"
-    }
-  },
   "Z292MTIvcmlueWEtbWFmZi1reXVzeXUvMjAyNi8yMDI2MDcyOV8wNTMxMQo=": {
     "source": "kkj",
     "key": "Z292MTIvcmlueWEtbWFmZi1reXVzeXUvMjAyNi8yMDI2MDcyOV8wNTMxMQo=",
@@ -4475,6 +4322,76 @@
       "status": "no_text",
       "provider": "",
       "enriched_at": "2026-08-27T06:36:27+00:00"
+    }
+  },
+  "tokyometro_3539411929091210": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539411929091210",
+    "project_name": "令和８年度八丈島港湾宿舎解体工事",
+    "org_name": "八丈支庁総務課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-08-28",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都八丈島八丈町大賀郷691番地２",
+    "bid_deadline": "",
+    "opening_date": "2026-10-05T09:15:00",
+    "application_deadline": "2026-09-03",
+    "fetched_date": "2026-08-28",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-28T08:26:12+00:00",
+      "planned_price": "29,062,000円（消費税率10％）",
+      "region_requirement": "原則として八丈支庁管内(八丈島又は青ヶ島)に事務所(営業所)を有する事業者を優先して指名します。",
+      "koki": "契約確定の日の翌日から令和9年3月12日まで",
+      "application_deadline": "2026-09-03T15:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-10-05T09:15:00",
+      "summary": "本工事は、東京都八丈島八丈町大賀郷691番地２において、港湾宿舎２棟（木造平屋建て、アスベスト含有建材あり）の解体と外構撤去・整備を行うものです。履行期間は契約確定の翌日から2027年3月12日までです。"
+    }
+  },
+  "aGlyb3NoaW1hL2t1cmVzaGkvMjAyOC8yMDI4MDgyN18wMzExNAo=": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL2t1cmVzaGkvMjAyOC8yMDI4MDgyN18wMzExNAo=",
+    "project_name": "青山クラブ・桜松館解体撤去工事設計委託",
+    "org_name": "広島県呉市",
+    "pref_name": "広島県",
+    "city_name": "呉市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-27T19:42:36+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kure.lg.jp/~koji/files/000000000000041390.PDF",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-09-09T16:00:00",
+    "opening_date": "2026-09-10T16:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-08-28",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-28T08:26:12+00:00",
+      "planned_price": "18,740,000円(消費税抜き)",
+      "region_requirement": null,
+      "koki": "令和9年3月30日",
+      "application_deadline": null,
+      "bid_deadline": "2026-09-09T16:00:00",
+      "opening_date": "2026-09-10T16:00:00",
+      "summary": "青山クラブ・桜松館の解体撤去工事に関する設計委託業務です。解体工事設計一式と石綿含有分析調査一式が含まれます。本業務は電子入札システムを利用して行われます。"
     }
   }
 }
