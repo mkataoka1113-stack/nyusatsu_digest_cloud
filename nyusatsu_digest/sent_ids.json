@@ -1,150 +1,4 @@
 {
-  "Z292MTIvcmlueWEtbWFmZi1reXVzeXUvMjAyNi8yMDI2MDcyOV8wNTMxMQo=": {
-    "source": "kkj",
-    "key": "Z292MTIvcmlueWEtbWFmZi1reXVzeXUvMjAyNi8yMDI2MDcyOV8wNTMxMQo=",
-    "project_name": "星倉宿舎解体撤去工事",
-    "org_name": "林野庁九州森林管理局宮崎南部森林管理署",
-    "pref_name": "宮崎県",
-    "city_name": "日南市",
-    "pref_code": "45",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-29T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.rinya.maff.go.jp/kyusyu/apply/publicsale/miyazakinanbu/attach/pdf/20260723_soumu_01-1.pdf",
-    "attachments": [],
-    "location": "宮崎県日南市星倉３丁目４－１２",
-    "bid_deadline": "2026-09-01T14:00:00",
-    "opening_date": "2026-09-01T14:05:00",
-    "application_deadline": "2026-08-13T17:00:00",
-    "fetched_date": "2026-07-30",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-30T01:53:16+00:00",
-      "planned_price": null,
-      "region_requirement": "「建設業法」に基づく本店又は支店若しくは営業所が、九州森林管理局管内の市町村に所在すること。また、経常建設共同企業体として資料を提出する場合は、有資格者名簿に記載されている共同企業体の本店所在地が、九州森林管理局管内の市町村に所在すること。",
-      "koki": "契約締結日の翌日から令和8年11月6日まで",
-      "application_deadline": "2026-08-13T17:00:00",
-      "bid_deadline": "2026-09-01T14:00:00",
-      "opening_date": "2026-09-01T14:05:00",
-      "summary": "本工事は、宮崎県日南市星倉3丁目4-12に所在する宿舎等既存建築物および埋設物の解体撤去処分、ならびに撤去後の敷地の整地を行うものです。木造平屋建1棟（57.62㎡）、2階建アパート1棟（112.62㎡）、倉庫他が含まれます。総合評価落札方式（簡易型）が適用され、賃上げを実施する企業には加点が行われます。"
-    }
-  },
-  "YW9tb3JpL2hpcmFrYXdhX2NpdHkvMjAyNi8yMDI2MDcyOV8wMDc0OQo=": {
-    "source": "kkj",
-    "key": "YW9tb3JpL2hpcmFrYXdhX2NpdHkvMjAyNi8yMDI2MDcyOV8wMDc0OQo=",
-    "project_name": "尾上武道館解体工事",
-    "org_name": "青森県平川市",
-    "pref_name": "青森県",
-    "city_name": "平川市",
-    "pref_code": "02",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-29T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.hirakawa.lg.jp/shigoto/keiyaku/koukoku/./R8.8.20_1_kou6.pdf",
-    "attachments": [],
-    "location": "平川市 新屋町 地内",
-    "bid_deadline": "2026-08-19T00:00:00",
-    "opening_date": "2026-08-20T10:00:00",
-    "application_deadline": "2026-08-04T16:00:00",
-    "fetched_date": "2026-07-30",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-30T01:53:16+00:00",
-      "planned_price": "９，３２８，０００円（税込）",
-      "region_requirement": "平川市内に、本店を有していること。",
-      "koki": "契約日の翌日から2026年12月15日まで",
-      "application_deadline": "2026-08-04T16:00:00",
-      "bid_deadline": "2026-08-19T00:00:00",
-      "opening_date": "2026-08-20T10:00:00",
-      "summary": "平川市新屋町地内にて尾上武道館の建築解体工事一式を実施します。本工事は建設リサイクル法対象建設工事です。"
-    }
-  },
-  "YW9tb3JpL2dvc2hvZ2F3YXJhX2NpdHkvMjAyNi8yMDI2MDcyOV8wMDQ4Mwo=": {
-    "source": "kkj",
-    "key": "YW9tb3JpL2dvc2hvZ2F3YXJhX2NpdHkvMjAyNi8yMDI2MDcyOV8wMDQ4Mwo=",
-    "project_name": "旧商工会館解体工事監理業務",
-    "org_name": "青森県五所川原市",
-    "pref_name": "青森県",
-    "city_name": "五所川原市",
-    "pref_code": "02",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-29T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/R8gi.k015.pdf",
-    "attachments": [
-      {
-        "name": "縦覧資料",
-        "uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/r8gi.j015.zip"
-      }
-    ],
-    "location": "取りこわし１棟各1章共通事項工事特記仕様書 旧商工会館解体五所川原市相内70番地3 地内224.00 ㎡伐採・抜根一式",
-    "bid_deadline": "",
-    "opening_date": "令和8年8月18日",
-    "application_deadline": "2026-08-05T12:00:00",
-    "fetched_date": "2026-07-30",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-30T01:53:16+00:00",
-      "planned_price": null,
-      "region_requirement": "五所川原市内に本店を有すること。",
-      "koki": "契約成立の日から令和8年12月11日まで",
-      "application_deadline": "2026-08-05T12:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-08-18T09:30:00",
-      "summary": "本業務は、五所川原市相内70番地3地内にある旧商工会館（木造平家建、延床面積218.62㎡）の解体工事監理業務一式です。入札参加者は、五所川原市内に本店を有し、令和8年度測量・建設コンサルタント等競争入札参加資格者名簿に登録されている必要があります。履行期限は令和8年12月11日までです。"
-    }
-  },
-  "YW9tb3JpL2dvc2hvZ2F3YXJhX2NpdHkvMjAyNi8yMDI2MDcyOV8wMDQ4MAo=": {
-    "source": "kkj",
-    "key": "YW9tb3JpL2dvc2hvZ2F3YXJhX2NpdHkvMjAyNi8yMDI2MDcyOV8wMDQ4MAo=",
-    "project_name": "アワビ中間育成施設解体工事",
-    "org_name": "青森県五所川原市",
-    "pref_name": "青森県",
-    "city_name": "五所川原市",
-    "pref_code": "02",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-07-29T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/r8i.k028.pdf",
-    "attachments": [
-      {
-        "name": "縦覧資料",
-        "uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/r8i.j028.zip"
-      }
-    ],
-    "location": "２．敷地面積１棟１棟 ①門 鉄筋ｺﾝｸﾘ- ﾄ造",
-    "bid_deadline": "",
-    "opening_date": "令和8年8月18日",
-    "application_deadline": "2026-08-05T12:00:00",
-    "fetched_date": "2026-07-30",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-07-30T01:53:16+00:00",
-      "planned_price": "￥18,040,000-（消費税及び地方消費税の額を除く。）",
-      "region_requirement": "五所川原市内に本店を有すること。",
-      "koki": "令和9年1月22日",
-      "application_deadline": "2026-08-05T12:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-08-18T10:00:00",
-      "summary": "本工事は、五所川原市脇元野脇地内にあるアワビ中間育成施設（鉄骨造2階建、地下1階、延床面積407.43㎡）の解体工事一式です。入札参加者は、五所川原市内に本店を有し、解体工事に係る建設業許可と1000万円以上の同種工事実績が必要です。"
-    }
-  },
   "etokyo_2026:13:123:00628": {
     "source": "etokyo",
     "key": "etokyo_2026:13:123:00628",
@@ -4392,6 +4246,169 @@
       "bid_deadline": "2026-09-09T16:00:00",
       "opening_date": "2026-09-10T16:00:00",
       "summary": "青山クラブ・桜松館の解体撤去工事に関する設計委託業務です。解体工事設計一式と石綿含有分析調査一式が含まれます。本業務は電子入札システムを利用して行われます。"
+    }
+  },
+  "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjA4MzFfMDM0NDQK": {
+    "source": "kkj",
+    "key": "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjA4MzFfMDM0NDQK",
+    "project_name": "元加古川警察署稲美東交番庁舎外二件解体撤去工事",
+    "org_name": "国家公安委員会（警察庁）兵庫県警察",
+    "pref_name": "兵庫県",
+    "city_name": "神戸市",
+    "pref_code": "28",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-31T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.police.pref.hyogo.lg.jp/chotatu/kou_data/2026/A26083101.pdf",
+    "attachments": [],
+    "location": "加古郡稲美町野寺穴沢56、加古川市上荘町国包字舟町浦711番５加古川市志方町志方町宿ノ浦1552－２⑶ 工事概要 加古川",
+    "bid_deadline": "",
+    "opening_date": "2026-09-16T11:00:00",
+    "application_deadline": "2026-09-10T00:00:00",
+    "fetched_date": "2026-08-29",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-29T05:06:05+00:00",
+      "planned_price": null,
+      "region_requirement": "加古川土木事務所、神戸土木事務所、加東土木事務所及び姫路土木事務所管内のいずれかに解体工事業の許可を受けた主たる営業所を有していること。",
+      "koki": "着工の日より 150 日間",
+      "application_deadline": "2026-09-10T00:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-09-16T11:00:00",
+      "summary": "本工事は、元加古川警察署稲美東交番庁舎外二件解体撤去工事であり、加古川警察署稲美東交番、八幡交番及び志方交番の廃止に伴う解体工事です。工期は着工の日より150日間で、週休2日制度の対象工事です。"
+    }
+  },
+  "eWFtYWdhdGEvdHN1cnVva2FfbmN0LzIwMjYvMjAyNjA4MjhfMDAwOTUK": {
+    "source": "kkj",
+    "key": "eWFtYWdhdGEvdHN1cnVva2FfbmN0LzIwMjYvMjAyNjA4MjhfMDAwOTUK",
+    "project_name": "【一般競争入札／工事】鶴岡工業高専職員宿舎解体工事",
+    "org_name": "独立行政法人国立高等専門学校機構鶴岡工業高等専門学校",
+    "pref_name": "山形県",
+    "city_name": "鶴岡市",
+    "pref_code": "06",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-28T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.tsuruoka-nct.ac.jphttps://www.tsuruoka-nct.ac.jp/wp-content/uploads/2026/08/koukoku260828.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-08-29",
+    "notified": [],
+    "enrich": {
+      "status": "no_text",
+      "provider": "",
+      "enriched_at": "2026-08-29T05:06:05+00:00"
+    }
+  },
+  "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjA4MjhfMDQzNzkK": {
+    "source": "kkj",
+    "key": "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjA4MjhfMDQzNzkK",
+    "project_name": "松契一般第205号 松戸駅西口高架下自転車駐車場管理棟解体工事（PDF：146KB）",
+    "org_name": "千葉県松戸市",
+    "pref_name": "千葉県",
+    "city_name": "松戸市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-28T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/R8-0828kouji1w.files/205.pdf",
+    "attachments": [
+      {
+        "name": "松契一般第205号 設計図書（PDF：2,729KB）",
+        "uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/R8-0828kouji1w.files/205s.pdf"
+      }
+    ],
+    "location": "松戸市根本１６番地※本工事は、松戸市が指定する電子契約サービスを用いた電子契約の対象案件である",
+    "bid_deadline": "2026-09-17T11:00:00",
+    "opening_date": "令和8年9月17日",
+    "application_deadline": "2026-09-03T11:00:00",
+    "fetched_date": "2026-08-29",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-29T05:06:05+00:00",
+      "planned_price": "４，５６０，０００円（税抜き)",
+      "region_requirement": "松戸市内に本店を有すること",
+      "koki": "契約締結日の翌日から令和9年1月31日まで",
+      "application_deadline": "2026-09-03T11:00:00",
+      "bid_deadline": "2026-09-17T11:00:00",
+      "opening_date": "2026-09-28T14:10:00",
+      "summary": "本工事は、松戸駅西口高架下自転車駐車場管理棟の解体及び撤去を行うものです。管理棟の解体・撤去、内部造作・残置物の解体・撤去、外構の舗装・付属物の解体・撤去、給水管・排水管・引込み電線の撤去、道路の仮復旧・本復旧、舗装の新設及び白線引きが含まれます。本工事は週休2日制適用工事であり、電子契約の対象案件です。"
+    }
+  },
+  "YWljaGkva29tYWtpX2NpdHkvMjAyNi8yMDI2MDgyOF8wMDkwOQo=": {
+    "source": "kkj",
+    "key": "YWljaGkva29tYWtpX2NpdHkvMjAyNi8yMDI2MDgyOF8wMDkwOQo=",
+    "project_name": "温水プール解体工事（週休2日制工事）",
+    "org_name": "愛知県小牧市",
+    "pref_name": "愛知県",
+    "city_name": "小牧市",
+    "pref_code": "23",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-28T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.city.komaki.aichi.jp/material/files/group/5/koukoku10124861.pdf",
+    "attachments": [],
+    "location": "小牧市大字野口2394番地3工期ステム",
+    "bid_deadline": "2026-10-27T17:00:00",
+    "opening_date": "令和08年10月26日",
+    "application_deadline": "2026-09-30T17:00:00",
+    "fetched_date": "2026-08-29",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-08-29T05:06:05+00:00",
+      "planned_price": "金1,089,000,000円（この金額は消費税及び地方消費税相当額を除いた金額である。）",
+      "region_requirement": "小牧市建設工事入札参加資格者名簿に登載されている者であること。小牧市内に本店または支店を有すること、または愛知県内に本店または支店を有すること。",
+      "koki": "2027年1月5日 ～ 2029年6月22日",
+      "application_deadline": "2026-09-30T17:00:00",
+      "bid_deadline": "2026-10-27T17:00:00",
+      "opening_date": "2026-10-28T09:30:00",
+      "summary": "本工事は温水プール解体工事であり、敷地内建物の撤去（建築面積5,022m2、延床面積6,660m2、地下1F、地上2F、RC造一部S造）を含む。また、敷地内工作物、舗装、植栽、雨水配管の撤去と撤去後の敷地整備も含まれる。本工事は週休2日制工事として実施される。"
+    }
+  },
+  "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDgvMjAyNjA4MjdfNzgxMDAK": {
+    "source": "kkj",
+    "key": "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDgvMjAyNjA4MjdfNzgxMDAK",
+    "project_name": "国有財産（船舶）解体処分（汽船きいかぜ）等",
+    "org_name": "国土交通省",
+    "pref_name": "兵庫県",
+    "city_name": "",
+    "pref_code": "28",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-08-27T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-08-29",
+    "notified": [],
+    "enrich": {
+      "status": "no_text",
+      "provider": "",
+      "enriched_at": "2026-08-29T05:06:05+00:00"
     }
   }
 }
