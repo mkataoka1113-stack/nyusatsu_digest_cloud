@@ -1,79 +1,4 @@
 {
-  "chiba_fc2abbafb9d8eb91": {
-    "source": "chiba",
-    "key": "chiba_fc2abbafb9d8eb91",
-    "project_name": "西千葉駅稲荷町線（矢作トンネル）環境観測所解体業務委託（８－２）",
-    "org_name": "千葉市  建設局  建設総務課",
-    "pref_name": "千葉県",
-    "city_name": "千葉市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-08-03",
-    "procedure_type": "一般競争 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
-    "location": "千葉市中央区矢作町地内",
-    "bid_deadline": "2026-08-25T12:00:00",
-    "opening_date": "2026-08-25T14:00:00",
-    "application_deadline": "2026-08-07T17:00:00",
-    "fetched_date": "2026-08-03",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-03T02:11:38+00:00",
-      "planned_price": "事後公開",
-      "region_requirement": null,
-      "koki": "120日間",
-      "application_deadline": "2026-08-07T17:00:00",
-      "bid_deadline": "2026-08-25T12:00:00",
-      "opening_date": "2026-08-25T14:00:00",
-      "summary": "千葉市中央区矢作町地内において、西千葉駅稲荷町線（矢作トンネル）環境観測所の解体業務委託が行われます。本業務は電子入札による一般競争・価格競争方式で実施されます。"
-    }
-  },
-  "pportal_631958": {
-    "source": "pportal",
-    "key": "pportal_631958",
-    "project_name": "令和８年度旧東住吉出張所解体撤去工事設計図書等作成業務",
-    "org_name": "法務省",
-    "pref_name": "大阪府",
-    "city_name": "",
-    "pref_code": "27",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-03",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=c7VAVrOts02u9qZaCNtXlpIuDW8NytrUvEUXVJ%2BwR74%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "2026-09-02T17:00:00",
-    "opening_date": "2026-09-03T10:00:00",
-    "application_deadline": "2026-09-02T17:00:00",
-    "fetched_date": "2026-08-03",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-03T02:11:38+00:00",
-      "planned_price": null,
-      "region_requirement": "大阪府内に本店又は支店若しくは営業所を有する者であること",
-      "koki": "仕様書による。",
-      "application_deadline": "2026-09-02T17:00:00",
-      "bid_deadline": "2026-09-02T17:00:00",
-      "opening_date": "2026-09-03T10:00:00",
-      "summary": "令和8年度旧東住吉出張所解体撤去工事の設計図書等作成業務に関する一般競争入札です。契約内容は契約書（案）及び仕様書によります。入札は電子調達システムを利用できます。"
-    }
-  },
   "etokyo_2026:13:123:00640": {
     "source": "etokyo",
     "key": "etokyo_2026:13:123:00640",
@@ -4199,6 +4124,195 @@
       "opening_date": "2026-10-19T10:30:00",
       "summary": "海上保安庁所属船舶の解体処分に関する一般競争入札です。本案件は電子調達システム（GEPS）を利用して行われますが、紙入札方式での参加も可能です。入札参加資格として、国土交通省一般競争（指名競争）参加資格の「役務の提供等」BまたはC等級に格付けされ、指定された地域を希望する者が求められます。",
       "opening_date_note": "入札締切と開札日が同一値になっています。AI抽出では2026-10-19T10:30:00 の可能性があるため、公告原本で開札日を確認してください。"
+    }
+  },
+  "etokyo_2026:13:122:01300": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:122:01300",
+    "project_name": "葛飾区立常盤中学校既存校舎解体工事",
+    "org_name": "葛飾区",
+    "pref_name": "東京都",
+    "city_name": "葛飾区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-02T09:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [
+      {
+        "name": "公告・落札者決定基準（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/etokyo_2026_13_122_01300_1.pdf"
+      }
+    ],
+    "location": "東京都葛飾区金町二丁目11番1号",
+    "bid_deadline": "2026-10-08T12:00:00",
+    "opening_date": "2026-10-08T13:30:00",
+    "application_deadline": "2026-09-08T17:00:00",
+    "fetched_date": "2026-09-02",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-02T02:21:27+00:00",
+      "planned_price": "455,873,000円（消費税及び地方消費税込み）",
+      "region_requirement": "区内業者に限る。",
+      "koki": "契約締結日の翌日から令和10年３月10日まで",
+      "application_deadline": "2026-09-08T17:00:00",
+      "bid_deadline": "2026-10-08T12:00:00",
+      "opening_date": "2026-10-08T13:30:00",
+      "summary": "本案件は葛飾区立常盤中学校の既存校舎解体工事です。電子調達サービスによる電子入札で、施工能力審査型総合評価一般競争入札方式が採用されています。入札参加者は葛飾区内の区内業者及び区内支店業者に限定されます。"
+    }
+  },
+  "pportal_636020": {
+    "source": "pportal",
+    "key": "pportal_636020",
+    "project_name": "輪島税務署解体撤去工事設計業務",
+    "org_name": "財務省",
+    "pref_name": "石川県",
+    "city_name": "",
+    "pref_code": "17",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-02",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=ybcMCDcm%2FlV1rTAWmj5XWVb59inIIkolEpmVReblnc0%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-09-18T13:30:00",
+    "opening_date": "2026-09-18T14:00:00",
+    "application_deadline": "2026-09-17T17:00:00",
+    "fetched_date": "2026-09-02",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-02T02:21:27+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結後から2027年3月19日まで",
+      "application_deadline": "2026-09-17T17:00:00",
+      "bid_deadline": "2026-09-18T13:30:00",
+      "opening_date": "2026-09-18T14:00:00",
+      "summary": "本件は輪島税務署解体撤去工事設計業務の一般競争入札公告です。政府電子調達システムを利用した応札及び入開札手続により実施されます。契約期間は契約締結後から2027年3月19日までです。"
+    }
+  },
+  "pportal_635957": {
+    "source": "pportal",
+    "key": "pportal_635957",
+    "project_name": "令和７年度（繰越）下北西部鳥獣保護区管理舎解体工事",
+    "org_name": "環境省",
+    "pref_name": "宮城県",
+    "city_name": "",
+    "pref_code": "04",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-02",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=RWj0iljhyoDeXLbRQbJqMICsMT%2B1K4fwfWrHrq6MFOU%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-10-01T09:59:00",
+    "opening_date": "2026-10-01T10:00:00",
+    "application_deadline": "2026-09-14T17:00:00",
+    "fetched_date": "2026-09-02",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-02T02:21:27+00:00",
+      "planned_price": null,
+      "region_requirement": "建設業法に基づく本店、支店又は営業所が、東北環境局管内に所在すること。",
+      "koki": "契約締結の翌日から令和８年１２月７日まで",
+      "application_deadline": "2026-09-14T17:00:00",
+      "bid_deadline": "2026-10-01T09:59:00",
+      "opening_date": "2026-10-01T10:00:00",
+      "summary": "本工事は、青森県むつ市大字脇野沢字七引地内において、令和７年度（繰越）下北西部鳥獣保護区管理舎の解体工事を行うものです。管理舎（木造2階建て延床面積128.88㎡）とポンプ小屋（木造平屋建て1.44㎡）の解体が含まれます。本工事は建設工事に係る資材の再資源化等に関する法律に基づき、分別解体等及び特定建設資材廃棄物の再資源化等の実施が義務付けられています。"
+    }
+  },
+  "c2FpdGFtYS9mdWtheWFfY2l0eS8yMDI2LzIwMjYwOTAxXzAxNjc2Cg==": {
+    "source": "kkj",
+    "key": "c2FpdGFtYS9mdWtheWFfY2l0eS8yMDI2LzIwMjYwOTAxXzAxNjc2Cg==",
+    "project_name": "11.解体工事（B）",
+    "org_name": "埼玉県深谷市",
+    "pref_name": "埼玉県",
+    "city_name": "深谷市",
+    "pref_code": "11",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-01T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.fukaya.saitama.jp/material/files/group/9/260917_kaitai_b.pdf",
+    "attachments": [],
+    "location": "深谷市折之口地内ほか",
+    "bid_deadline": "2026-09-16T13:00:00",
+    "opening_date": "2026-09-17T00:00:00+09:00",
+    "application_deadline": "2026-09-14T15:00:00",
+    "fetched_date": "2026-09-02",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-02T02:21:27+00:00",
+      "planned_price": null,
+      "region_requirement": "市内に本店を有し、かつ、契約締結の権限を有する者を置く者であること。",
+      "koki": "契約締結日から令和9年1月29日まで",
+      "application_deadline": "2026-09-14T15:00:00",
+      "bid_deadline": "2026-09-16T13:00:00",
+      "opening_date": "2026-09-17T09:30:00",
+      "summary": "本工事は、深谷市折之口地内ほかにおける藤沢地区貯水槽撤去工事です。契約手続きは電子契約サービスにより行われる予定です。入札参加資格は事後審査型で、開札後に確認されます。"
+    }
+  },
+  "aG9ra2FpZG8vdGFraWthd2FfY2l0eS8yMDI2LzIwMjYwOTAxXzAwNjY2Cg==": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8vdGFraWthd2FfY2l0eS8yMDI2LzIwMjYwOTAxXzAwNjY2Cg==",
+    "project_name": "西町２丁目８番６号特定空家等除却工事",
+    "org_name": "北海道滝川市",
+    "pref_name": "北海道",
+    "city_name": "滝川市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-01T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.takikawa.lg.jp/uploaded/attachment/20611.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-09-17T00:00:00+09:00",
+    "opening_date": "2026-09-17T09:00:00",
+    "application_deadline": "2026-09-10T16:30:00",
+    "fetched_date": "2026-09-02",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-02T02:21:27+00:00",
+      "planned_price": "事前公表（4,037,000 円）",
+      "region_requirement": "滝川市建設工事等指名競争入札参加者指名基準第２条に規定する市内業者又は地場業者であること。",
+      "koki": "契約締結日から令和９年１月２９日まで",
+      "application_deadline": "2026-09-10T16:30:00",
+      "bid_deadline": "2026-09-17T09:00:00",
+      "opening_date": "2026-09-17T09:00:00",
+      "summary": "本工事は、滝川市西町地内にある西町２丁目８番６号特定空家等の除却工事です。契約締結日から2027年1月29日までの期間で実施されます。予定価格は4,037,000円（消費税及び地方消費税を含む）で事前公表されています。"
     }
   }
 }
