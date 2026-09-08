@@ -1,31 +1,4 @@
 {
-  "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDgvMjAyNjA4MDdfNzcxODkK": {
-    "source": "kkj",
-    "key": "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDgvMjAyNjA4MDdfNzcxODkK",
-    "project_name": "令和８～１０年度中間貯蔵大熊双葉地区家屋等解体工事",
-    "org_name": "環境省",
-    "pref_name": "福島県",
-    "city_name": "",
-    "pref_code": "07",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-07T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-    "attachments": [],
-    "location": "１）福島県双葉郡大熊町及び双葉町地内２）福島県双葉郡大熊町地内",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-08-09",
-    "notified": [],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-08-09T01:12:03+00:00"
-    }
-  },
   "chiba_c5eef03e377eccb9": {
     "source": "chiba",
     "key": "chiba_c5eef03e377eccb9",
@@ -3533,6 +3506,210 @@
       "bid_deadline": "2026-10-21T17:00:00",
       "opening_date": "2026-10-22T10:00:00",
       "summary": "都営本羽田二丁目第４アパートの除却工事です。本案件は最低制限価格が設定されており、発注者指定方式による週休２日促進工事の対象案件です。"
+    }
+  },
+  "chiba_7249a0604a25075c": {
+    "source": "chiba",
+    "key": "chiba_7249a0604a25075c",
+    "project_name": "佐倉浄水場旧汚泥処理棟基礎杭撤去他工事",
+    "org_name": "千葉県  企業局管理部  経理課",
+    "pref_name": "千葉県",
+    "city_name": "佐倉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-09-08",
+    "procedure_type": "事後審査）千葉県 ・ 総合評価（拡充版） ・ 事後審査２型 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "【公告第34号】佐倉浄水場旧汚泥処理棟基礎杭撤去他工事（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_7249a0604a25075c_1.pdf"
+      }
+    ],
+    "location": "佐倉市角来２２２２",
+    "bid_deadline": "2026-10-08T17:00:00",
+    "opening_date": "2026-10-27T13:20:00",
+    "application_deadline": "2026-10-06T17:00:00",
+    "fetched_date": "2026-09-08",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-08T02:30:18+00:00",
+      "planned_price": "落札決定後公表する",
+      "region_requirement": "県内に資格者名簿に登載された主たる営業所（本店）を有する者",
+      "koki": "令和10年9月7日限り",
+      "application_deadline": "2026-10-06T17:00:00",
+      "bid_deadline": "2026-10-08T17:00:00",
+      "opening_date": "2026-10-27T13:20:00",
+      "summary": "本工事は、佐倉浄水場旧汚泥処理棟基礎杭撤去他工事を行うものです。具体的には、コンクリート構造物（鉄筋構造物 V=214㎥）の取壊しと、杭引抜き（N=164本）が含まれます。"
+    }
+  },
+  "chiba_605e475075d990ab": {
+    "source": "chiba",
+    "key": "chiba_605e475075d990ab",
+    "project_name": "岩根西中学校旧技術室解体工事",
+    "org_name": "木更津市  総務部  管財課",
+    "pref_name": "千葉県",
+    "city_name": "木更津市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-09-08",
+    "procedure_type": "事後審査）千葉県 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "木更津市久津間３７３番地",
+    "bid_deadline": "2026-10-01T17:00:00",
+    "opening_date": "2026-10-02T09:00:00",
+    "application_deadline": "2026-09-28T15:00:00",
+    "fetched_date": "2026-09-08",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-08T02:30:18+00:00",
+      "planned_price": "12,870,000円（税込）",
+      "region_requirement": null,
+      "koki": "令和 9年 1月29日限り",
+      "application_deadline": "2026-09-28T15:00:00",
+      "bid_deadline": "2026-10-01T17:00:00",
+      "opening_date": "2026-10-02T09:00:00",
+      "summary": "木更津市久津間３７３番地にある岩根西中学校の旧技術室の解体工事です。入札方式は事後審査の価格競争（電子入札）です。"
+    }
+  },
+  "Z2lmdS90YWtheWFtYV9jaXR5LzIwMjYvMjAyNjA5MDdfMDAxMDIK": {
+    "source": "kkj",
+    "key": "Z2lmdS90YWtheWFtYV9jaXR5LzIwMjYvMjAyNjA5MDdfMDAxMDIK",
+    "project_name": "08こ政第60号旧荘川保育園解体工事",
+    "org_name": "岐阜県高山市",
+    "pref_name": "岐阜県",
+    "city_name": "高山市",
+    "pref_code": "21",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-07T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/023/939/08kosei60.pdf",
+    "attachments": [
+      {
+        "name": "08kosei60 （zip 7.7MB）",
+        "uri": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/023/939/08kosei60.zip"
+      }
+    ],
+    "location": "高山市荘川町新渕地内工事概要【建物概要】 ①旧荘川保育園 ＲＣ造平屋建て 床面積 595.98㎡ 昭和51年竣工 ②木造",
+    "bid_deadline": "令和８年９月14日",
+    "opening_date": "令和８年９月30日",
+    "application_deadline": "2026-09-14T16:00:00",
+    "fetched_date": "2026-09-08",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-08T02:30:18+00:00",
+      "planned_price": "42,295,000円（消費税及び地方消費税を含む）",
+      "region_requirement": "高山市競争入札参加資格者名簿の「解体」において市内に本店、支店又は営業所等で登録されている者であること。本店以外を開設した場合は、法人設立（開設）申告書を受理された日から3年以上の支店又は営業所等の形態及び営業実績がある者であること。",
+      "koki": "2026年10月６日 ～ 2027年３月26日",
+      "application_deadline": "2026-09-14T16:00:00",
+      "bid_deadline": "2026-09-29T16:00:00",
+      "opening_date": "2026-09-30T10:00:00",
+      "summary": "本工事は、高山市荘川町新渕地内にある旧荘川保育園（RC造平屋建て、床面積595.98㎡）と木造倉庫（木造平屋建て、延面積19.97㎡）の解体撤去工事です。付属設備の撤去処分、アスベスト（レベル３）除去工事、RC地中杭の撤去処分も含まれます。"
+    }
+  },
+  "Z2lmdS9uaWZzX2FjLzIwMjYvMjAyNjA5MDdfMDAyNTEK": {
+    "source": "kkj",
+    "key": "Z2lmdS9uaWZzX2FjLzIwMjYvMjAyNjA5MDdfMDAyNTEK",
+    "project_name": "器材庫におけるヘリカルコイル巻線機及び周辺装置の解体・撤去作業 一式",
+    "org_name": "大学共同利用機関法人自然科学研究機構核融合科学研究所",
+    "pref_name": "岐阜県",
+    "city_name": "土岐市",
+    "pref_code": "21",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-07T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.nifs.ac.jp/procurement/koukoku_20260907.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-09-24T15:00:00",
+    "opening_date": "2026-10-30T14:00:00",
+    "application_deadline": "2026-09-24T15:00:00",
+    "fetched_date": "2026-09-08",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-08T02:30:18+00:00",
+      "planned_price": null,
+      "region_requirement": "東海・北陸地域において「役務の提供等」のA，B 又は C 等級に格付けされている者であること。",
+      "koki": "令和９年１月２９日",
+      "application_deadline": "2026-09-24T15:00:00",
+      "bid_deadline": "2026-09-24T15:00:00",
+      "opening_date": "2026-10-30T14:00:00",
+      "summary": "器材庫におけるヘリカルコイル巻線機及び周辺装置の解体・撤去作業一式。入札参加資格として、全省庁統一資格で東海・北陸地域における「役務の提供等」のA, B, C等級に格付けされていることが求められる。入札書提出期限は2026年9月24日15時00分、開札は2026年10月30日14時00分に行われる。"
+    }
+  },
+  "ZnVrdXNoaW1hL3RhbXVyYV9jaXR5LzIwMjYvMjAyNjA5MDFfMDEzODMK": {
+    "source": "kkj",
+    "key": "ZnVrdXNoaW1hL3RhbXVyYV9jaXR5LzIwMjYvMjAyNjA5MDFfMDEzODMK",
+    "project_name": "都路地区隊第１分団第２部戸屋屯所解体工事 (156.7KB)",
+    "org_name": "福島県田村市",
+    "pref_name": "福島県",
+    "city_name": "田村市",
+    "pref_code": "07",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-01T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.tamura.lg.jp/soshiki/3/assets/260901%E6%9D%A1%E4%BB%B6%E4%BB%98%E3%81%8D%E5%85%A5%E6%9C%AD%E5%85%AC%E5%91%8A%E7%AC%AC283%E5%8F%B7%281-153%29.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-09-08",
+    "notified": [],
+    "enrich": {
+      "status": "llm_failed",
+      "provider": "",
+      "enriched_at": "2026-09-08T02:30:18+00:00"
+    }
+  },
+  "ZnVrdXNoaW1hL3RhbXVyYV9jaXR5LzIwMjYvMjAyNjA5MDFfMDEzODIK": {
+    "source": "kkj",
+    "key": "ZnVrdXNoaW1hL3RhbXVyYV9jaXR5LzIwMjYvMjAyNjA5MDFfMDEzODIK",
+    "project_name": "滝根地区隊第３分団第２部屯所（広瀬町）解体工事 (154.0KB)",
+    "org_name": "福島県田村市",
+    "pref_name": "福島県",
+    "city_name": "田村市",
+    "pref_code": "07",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-01T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.tamura.lg.jp/soshiki/3/assets/260901%E6%9D%A1%E4%BB%B6%E4%BB%98%E3%81%8D%E5%85%A5%E6%9C%AD%E5%85%AC%E5%91%8A%E7%AC%AC282%E5%8F%B7%281-172%29.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-09-08",
+    "notified": [],
+    "enrich": {
+      "status": "llm_failed",
+      "provider": "",
+      "enriched_at": "2026-09-08T02:30:18+00:00"
     }
   }
 }
