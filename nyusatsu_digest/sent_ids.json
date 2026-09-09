@@ -1,86 +1,4 @@
 {
-  "chiba_c5eef03e377eccb9": {
-    "source": "chiba",
-    "key": "chiba_c5eef03e377eccb9",
-    "project_name": "千葉県立大網高等学校中正農場豚舎外８棟解体工事",
-    "org_name": "千葉県  教育庁企画管理部  教育施設課",
-    "pref_name": "千葉県",
-    "city_name": "千葉市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-07-10",
-    "procedure_type": "事後審査）千葉県 ・ 総合評価（拡充版） ・ 事後審査２型 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [
-      {
-        "name": "01_入札公告（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_c5eef03e377eccb9_1.pdf"
-      }
-    ],
-    "location": "千葉市緑区上大和田町",
-    "bid_deadline": "2026-08-18T17:00:00",
-    "opening_date": "2026-08-20T14:00:00",
-    "application_deadline": "2026-08-05T17:00:00",
-    "fetched_date": "2026-08-10",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-10T01:16:58+00:00",
-      "planned_price": "落札決定後公表する",
-      "region_requirement": "千葉土木事務所、山武土木事務所、長生土木事務所又は市原土木事務所管内（千葉市、習志野市、八千代市、東金市、山武市、大網白里市、山武郡横芝光町、山武郡九十九里町、茂原市、長生郡一宮町、長生郡睦沢町、長生郡白子町、長生郡長柄町、長生郡長南町、長生郡長生村又は市原市）に資格者名簿に登載された主たる営業所（本店）を有すること",
-      "koki": "令和9年2月26日限り",
-      "application_deadline": "2026-08-05T17:00:00",
-      "bid_deadline": "2026-08-18T17:00:00",
-      "opening_date": "2026-08-20T14:00:00",
-      "summary": "千葉県立大網高等学校中正農場にある豚舎8棟を含む計9棟の建築物解体工事です。鉄骨造平家建ての豚舎4棟を含む計9棟の解体工事一式が含まれます。本工事は事後審査Ⅱ型および総合評価方式が適用されます。"
-    }
-  },
-  "chiba_521fd4a4494dddd4": {
-    "source": "chiba",
-    "key": "chiba_521fd4a4494dddd4",
-    "project_name": "殿廻消防機庫解体工事",
-    "org_name": "東金市  総務部  財政課",
-    "pref_name": "千葉県",
-    "city_name": "東金市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-08-10",
-    "procedure_type": "事後審査）千葉県 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [
-      {
-        "name": "1公告（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_521fd4a4494dddd4_1.pdf"
-      }
-    ],
-    "location": "東金市殿廻６４６番地",
-    "bid_deadline": "2026-08-28T12:00:00",
-    "opening_date": "2026-08-31T09:50:00",
-    "application_deadline": "2026-08-20T12:00:00",
-    "fetched_date": "2026-08-10",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-10T01:16:58+00:00",
-      "planned_price": "3,432,000円（消費税及び地方消費税を含む。）",
-      "region_requirement": "東金市内に本店があること",
-      "koki": "令和8年12月14日限り",
-      "application_deadline": "2026-08-20T12:00:00",
-      "bid_deadline": "2026-08-28T12:00:00",
-      "opening_date": "2026-08-31T09:50:00",
-      "summary": "東金市殿廻646番地にある殿廻消防機庫（平成7年建設、のべ床面積53.0㎡）とホースタワー等一式の解体・撤去工事です。詳細については別添設計図書等によります。"
-    }
-  },
   "pportal_633556": {
     "source": "pportal",
     "key": "pportal_633556",
@@ -3710,6 +3628,375 @@
       "status": "llm_failed",
       "provider": "",
       "enriched_at": "2026-09-08T02:30:18+00:00"
+    }
+  },
+  "chiba_667ed5b16b6a7614": {
+    "source": "chiba",
+    "key": "chiba_667ed5b16b6a7614",
+    "project_name": "浜町青年館解体工事",
+    "org_name": "茂原市  総務部  管財課",
+    "pref_name": "千葉県",
+    "city_name": "茂原市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-09-09",
+    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "00【入札公告】浜町青年館解体工事（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_667ed5b16b6a7614_1.pdf"
+      }
+    ],
+    "location": "茂原市茂原５９６番地の１",
+    "bid_deadline": "2026-09-28T15:00:00",
+    "opening_date": "2026-09-30T10:30:00",
+    "application_deadline": "",
+    "fetched_date": "2026-09-09",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-09T02:33:06+00:00",
+      "planned_price": "事後公開",
+      "region_requirement": "建設業法に基づく許可を得た市内本店",
+      "koki": "契約日の翌日から 令和９年３月３日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-09-28T15:00:00",
+      "opening_date": "2026-09-30T10:30:00",
+      "summary": "茂原市茂原596番地の1にある浜町青年館の解体工事です。建物はRC造2階建て、延べ面積117.215㎡です。本工事は事後審査方式制限付一般競争入札により実施されます。"
+    }
+  },
+  "pportal_636908": {
+    "source": "pportal",
+    "key": "pportal_636908",
+    "project_name": "動物検疫所中部空港支所野跡検疫場既存建物等解体及び機材保管庫新築その他工事設計業務",
+    "org_name": "農林水産省",
+    "pref_name": "神奈川県",
+    "city_name": "",
+    "pref_code": "14",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-08",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=8mKnElwXitVSFly4zi49KZDO5Ml1FJcaNJy8L3fyHIs%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-10-13T13:00:00",
+    "opening_date": "2026-10-13T14:00:00",
+    "application_deadline": "2026-10-09T17:00:00",
+    "fetched_date": "2026-09-09",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-09T02:33:06+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日～令和９年３月１５日",
+      "application_deadline": "2026-10-09T17:00:00",
+      "bid_deadline": "2026-10-13T13:00:00",
+      "opening_date": "2026-10-13T14:00:00",
+      "summary": "動物検疫所中部空港支所野跡検疫場の既存建物等解体及び機材保管庫新築その他工事の設計業務です。本案件は電子入札方式の対象です。入札金額は総価で記載し、落札決定時には10%の消費税等が加算されます。"
+    }
+  },
+  "pportal_636557": {
+    "source": "pportal",
+    "key": "pportal_636557",
+    "project_name": "（R08）国有建物解体撤去その他工事（八戸市）",
+    "org_name": "財務省",
+    "pref_name": "青森県",
+    "city_name": "",
+    "pref_code": "02",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-09",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=tdaNwraLZk5X%2B8ez972SahV92OEhtq%2B8m1TA7CK16ZE%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-10-01T16:00:00",
+    "opening_date": "2026-10-02T10:00:00",
+    "application_deadline": "2026-09-30T16:00:00",
+    "fetched_date": "2026-09-09",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-09T02:33:06+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日の翌日から令和9年3月26日まで",
+      "application_deadline": "2026-09-30T16:00:00",
+      "bid_deadline": "2026-10-01T16:00:00",
+      "opening_date": "2026-10-02T10:00:00",
+      "summary": "本工事は、青森県八戸市大字鮫町字山四郎蒔目17-419ほか3筆における国有建物の解体撤去その他工事です。電子調達システムを利用した応札、入開札及び契約手続きにより実施されますが、紙による提出も可能です。"
+    }
+  },
+  "pportal_636822": {
+    "source": "pportal",
+    "key": "pportal_636822",
+    "project_name": "(R08)国有建物(大館市岩瀬)解体撤去その他工事",
+    "org_name": "財務省",
+    "pref_name": "秋田県",
+    "city_name": "",
+    "pref_code": "05",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-09",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=uJOP4Sd%2FZElOSep3LA5%2BQ%2B6mm39x0BN%2FDgMQFeBYOgo%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-10-01T16:00:00",
+    "opening_date": "2026-10-02T10:00:00",
+    "application_deadline": "2026-09-30T16:00:00",
+    "fetched_date": "2026-09-09",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-09T02:33:06+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日の翌日から令和9年2月12日まで",
+      "application_deadline": "2026-09-30T16:00:00",
+      "bid_deadline": "2026-10-01T16:00:00",
+      "opening_date": "2026-10-02T10:00:00",
+      "summary": "本工事は、秋田県大館市岩瀬字赤沼66-5、64-18に所在する国有建物の解体撤去その他工事です。電子調達システムを利用した応札、入開札及び契約手続きにより実施されます。工期は契約締結日の翌日から2027年2月12日までです。"
+    }
+  },
+  "eWFtYW5hc2hpL3lhbWFuYXNoaV9jaXR5LzIwMjYvMjAyNjA5MDhfMDAwOTQK": {
+    "source": "kkj",
+    "key": "eWFtYW5hc2hpL3lhbWFuYXNoaV9jaXR5LzIwMjYvMjAyNjA5MDhfMDAwOTQK",
+    "project_name": "八幡小学校プール解体工事",
+    "org_name": "山梨県山梨市",
+    "pref_name": "山梨県",
+    "city_name": "山梨市",
+    "pref_code": "19",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-08T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.yamanashi.yamanashi.jp/uploaded/attachment/11862.pdf",
+    "attachments": [
+      {
+        "name": "第一般61号 設計書 [その他のファイル／4.89MB",
+        "uri": "https://www.city.yamanashi.yamanashi.jp/uploaded/attachment/11853.zip"
+      }
+    ],
+    "location": "山梨市 北 地内4. 工事概要5. 工事範囲・ 本工事の範囲は、設計図面、設計内訳書及び本仕様書に示す範囲とする",
+    "bid_deadline": "",
+    "opening_date": "令和８年９月３０日",
+    "application_deadline": "2026-09-15T17:00:00",
+    "fetched_date": "2026-09-09",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-09T02:33:06+00:00",
+      "planned_price": "落札者決定後公表",
+      "region_requirement": "山梨市内に本社、本店を有すること。",
+      "koki": "契約日の翌日 令和9年3月18日",
+      "application_deadline": "2026-09-15T17:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-09-30T11:00:00",
+      "summary": "八幡小学校のプールおよびプール付属棟の解体工事です。RC造平屋建てのプール約820m2と付属棟約120m2を解体し、附帯電気設備、機械設備、遊具移設、アスベスト除去、樹木・石積等撤去、解体後のRC敷き均し整地を含みます。"
+    }
+  },
+  "eWFtYW5hc2hpL2Z1ZWZ1a2lfY2l0eS8yMDI2LzIwMjYwOTA4XzAyMzY3Cg==": {
+    "source": "kkj",
+    "key": "eWFtYW5hc2hpL2Z1ZWZ1a2lfY2l0eS8yMDI2LzIwMjYwOTA4XzAyMzY3Cg==",
+    "project_name": "1-8市部通り石和温泉駅入口交差点トイレ解体工事",
+    "org_name": "山梨県笛吹市",
+    "pref_name": "山梨県",
+    "city_name": "笛吹市",
+    "pref_code": "19",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-08T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.fuefuki.yamanashi.jp/documents/12106/r080929kokoku1-8.pdf",
+    "attachments": [
+      {
+        "name": "積算図書等（ZIP：1,552KB）",
+        "uri": "https://www.city.fuefuki.yamanashi.jp/documents/12106/r080929sekisan1-8a.zip"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-09-29T09:30:00",
+    "opening_date": "令和8年9月14日",
+    "application_deadline": "2026-09-14T16:00:00",
+    "fetched_date": "2026-09-09",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-09T02:33:06+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": "笛吹市内に本社・本店があること。",
+      "koki": "契約日の翌日から令和8年12月18日まで",
+      "application_deadline": "2026-09-14T16:00:00",
+      "bid_deadline": "2026-09-29T09:30:00",
+      "opening_date": "2026-09-29T09:30:00",
+      "summary": "石和温泉駅入口交差点にある鉄筋コンクリート造平屋建て、延床面積15.30㎡の公衆トイレを解体し、廃棄物を適切に処分する工事です。解体跡地はアスファルト舗装で復旧させ、下水道・水道はキャップ止め処理を行います。"
+    }
+  },
+  "bmFnYW5vL2luYV9jaXR5LzIwMjYvMjAyNjA5MDhfMDE5NDUK": {
+    "source": "kkj",
+    "key": "bmFnYW5vL2luYV9jaXR5LzIwMjYvMjAyNjA5MDhfMDE5NDUK",
+    "project_name": "令和8年度 高遠町諸町防火貯水槽撤去工事【解体工事Ａ・Ｂ級（市内本店）（一抜け方式2番）】",
+    "org_name": "長野県伊那市",
+    "pref_name": "長野県",
+    "city_name": "伊那市",
+    "pref_code": "20",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-08T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.inacity.jp/shisei/nyusatsu_keiyaku/kokoku_consultant/080908_2_koukoku.files/2_1_koukoku_moromati_tyosuiso.pdf",
+    "attachments": [
+      {
+        "name": "現況写真（PDF：343KB）",
+        "uri": "https://www.inacity.jp/shisei/nyusatsu_keiyaku/kokoku_consultant/080908_2_koukoku.files/2_4_syasin_moromati_tyosuiso.pdf"
+      },
+      {
+        "name": "位置図（PDF：1,004KB）",
+        "uri": "https://www.inacity.jp/shisei/nyusatsu_keiyaku/kokoku_consultant/080908_2_koukoku.files/2_5_itizu_moromati_tyosuiso.pdf"
+      },
+      {
+        "name": "図面（PDF：67KB）",
+        "uri": "https://www.inacity.jp/shisei/nyusatsu_keiyaku/kokoku_consultant/080908_2_koukoku.files/2_6_zumen_moromati_tyosuiso.pdf"
+      }
+    ],
+    "location": "伊那市高遠町西高遠227番地6",
+    "bid_deadline": "2026-09-29T17:15:00",
+    "opening_date": "2026-10-01T09:05:00",
+    "application_deadline": "",
+    "fetched_date": "2026-09-09",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-09T02:33:06+00:00",
+      "planned_price": null,
+      "region_requirement": "伊那市内の本店であること。ただし、公告日において、市内本店設置後３年を経過していること。",
+      "koki": "着手日から 約７９日間（2026年12月25日までを予定）",
+      "application_deadline": null,
+      "bid_deadline": "2026-09-29T17:15:00",
+      "opening_date": "2026-10-01T09:05:00",
+      "summary": "本工事は、令和8年度高遠町諸町防火貯水槽撤去工事であり、伊那市高遠町西高遠227番地6にて防火貯水槽の部分撤去を行います。工期は着手日から約79日間で、2026年12月25日までを予定しています。本案件の入札は、早急な工事着工が必要なため、通常とは異なる方法で行われます。"
+    }
+  },
+  "bmFnYW5vL2luYV9jaXR5LzIwMjYvMjAyNjA5MDhfMDE5NDQK": {
+    "source": "kkj",
+    "key": "bmFnYW5vL2luYV9jaXR5LzIwMjYvMjAyNjA5MDhfMDE5NDQK",
+    "project_name": "13~24号除却工事【解体工事Ａ級（市内本店）（一抜け方式1番）】",
+    "org_name": "長野県伊那市",
+    "pref_name": "長野県",
+    "city_name": "伊那市",
+    "pref_code": "20",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-08T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.inacity.jp/shisei/nyusatsu_keiyaku/kokoku_consultant/080908_1_koukoku.files/1_1_koukoku_oogaya_jokyaku.pdf",
+    "attachments": [
+      {
+        "name": "現況写真（PDF：25,874KB）",
+        "uri": "https://www.inacity.jp/shisei/nyusatsu_keiyaku/kokoku_consultant/080908_1_koukoku.files/1_4_syasin_oogaya_jokyaku.pdf"
+      },
+      {
+        "name": "図面（PDF：202KB）",
+        "uri": "https://www.inacity.jp/shisei/nyusatsu_keiyaku/kokoku_consultant/080908_1_koukoku.files/1_5_zumen_oogaya_jokyaku.pdf"
+      }
+    ],
+    "location": "伊那市西箕輪7200番地33",
+    "bid_deadline": "2026-09-29T17:15:00",
+    "opening_date": "2026-10-01T09:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-09-09",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-09T02:33:06+00:00",
+      "planned_price": null,
+      "region_requirement": "伊那市内の本店であること。ただし、公告日において、市内本店設置後３年を経過していること。",
+      "koki": "着手日から 約１７０日間（令和９年３月２６日までを予定）",
+      "application_deadline": null,
+      "bid_deadline": "2026-09-29T17:15:00",
+      "opening_date": "2026-10-01T09:00:00",
+      "summary": "本工事は、市営住宅大萱団地（５棟２０戸）の既存建築物（上屋、基礎）、建築設備等の解体・撤去・処分を行うものです。工期は着手日から約170日間で、2027年3月26日までを予定しています。本案件の入札は、早急な工事着工が必要なため、通常とは異なる入札方法が適用されます。"
+    }
+  },
+  "dG9rdXNoaW1hL2FuYW5zaGkvMjAyNi8yMDI2MDkwOF8wMTIyNAo=": {
+    "source": "kkj",
+    "key": "dG9rdXNoaW1hL2FuYW5zaGkvMjAyNi8yMDI2MDkwOF8wMTIyNAo=",
+    "project_name": "那賀川分団第六班詰所除却工事",
+    "org_name": "徳島県阿南市",
+    "pref_name": "徳島県",
+    "city_name": "阿南市",
+    "pref_code": "36",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-08T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.anan.tokushima.jp/docs/2026090400054/file_contents/20260908-4.pdf",
+    "attachments": [
+      {
+        "name": "那賀川分団第六班詰所除却工事 1.閲覧補足説明書[PDF：93.1KB]",
+        "uri": "https://www.city.anan.tokushima.jp/docs/2026090400054/file_contents/20260908-4-1.pdf"
+      },
+      {
+        "name": "那賀川分団第六班詰所除却工事 2.図面[PDF：89.1MB]",
+        "uri": "https://www.city.anan.tokushima.jp/docs/2026090400054/file_contents/20260908-4-2.pdf"
+      }
+    ],
+    "location": "章 項 目 特 記 事 項4. 工程表 ◎受注者は，契約書に基づく工程表を契約締結後14日",
+    "bid_deadline": "2026-09-28T00:00:00",
+    "opening_date": "令和9年1月29日",
+    "application_deadline": "",
+    "fetched_date": "2026-09-09",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-09T02:33:06+00:00",
+      "planned_price": "16,080,000円（税抜）",
+      "region_requirement": "阿南市那賀川町黒地 解体 市内地区 及び 解体工事業の許可を持つ土木、建築 那賀川・羽ノ浦地区 特Ａ Ａ",
+      "koki": "契約締結の翌日",
+      "application_deadline": null,
+      "bid_deadline": "2026-09-28T00:00:00",
+      "opening_date": "2026-09-29T09:15:00",
+      "summary": "那賀川分団第六班詰所の除却工事です。本入札は徳島県電子入札システムを利用した電子入札案件であり、阿南市契約規則等に基づき執行されます。"
     }
   }
 }
