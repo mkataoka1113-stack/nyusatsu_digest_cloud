@@ -3911,5 +3911,233 @@
       "opening_date": "2026-10-02T10:00:00",
       "summary": "青森県八戸市大字鮫町字山四郎蒔目17-419ほか3筆において、国有建物の解体撤去その他工事が実施されます。本調達は電子調達システムを利用した応札、入開札及び契約手続きにより実施されますが、紙による提出も可能です。"
     }
+  },
+  "chiba_777ea46f9505da49": {
+    "source": "chiba",
+    "key": "chiba_777ea46f9505da49",
+    "project_name": "千葉県立安房拓心高等学校温室外３棟解体工事",
+    "org_name": "千葉県  教育庁（県立学校）  千葉県立安房拓心高等学校",
+    "pref_name": "千葉県",
+    "city_name": "南房総市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-09-11",
+    "procedure_type": "事後審査）千葉県 ・ 価格競争 ・ 事後審査２型 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "01_入札公告（個別編_共通編）（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_777ea46f9505da49_1.pdf"
+      }
+    ],
+    "location": "南房総市和田町",
+    "bid_deadline": "2026-10-15T17:00:00",
+    "opening_date": "2026-10-19T10:00:00",
+    "application_deadline": "2026-10-09T17:00:00",
+    "fetched_date": "2026-09-11",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-11T02:29:28+00:00",
+      "planned_price": "23,540,000円（税込み）",
+      "region_requirement": "安房土木事務所、夷隅土木事務所、君津土木事務所、長生土木事務所、市原土木事務所、千葉土木事務所又は山武土木事務所管内（南房総市、館山市、鴨川市、安房郡鋸南町、勝浦市、いすみ市、夷隅郡大多喜町、夷隅郡御宿町、木更津市、君津市、富津市、袖ケ浦市、茂原市、長生郡一宮町、長生郡睦沢町、長生郡白子町、長生郡長柄町、長生郡長南町、長生郡長生村、市原市、千葉市、習志野市、八千代市、東金市、山武市、大網白里市、山",
+      "koki": "2027年3月17日限り",
+      "application_deadline": "2026-10-09T17:00:00",
+      "bid_deadline": "2026-10-15T17:00:00",
+      "opening_date": "2026-10-19T10:00:00",
+      "summary": "千葉県立安房拓心高等学校の温室、ボイラー室、鶏舎2棟の計4棟の解体工事一式。温室は鉄骨造平家建て延べ面積262.8㎡、ボイラー室は鉄骨造平家建て延べ面積15.0㎡、鶏舎①は鉄骨造平家建て延べ面積130.0㎡、鶏舎②は鉄骨造平家建て延べ面積56.7㎡である。本工事は事後審査Ⅱ型による一般競争入札で実施される。"
+    }
+  },
+  "chiba_87e9e89bb3e9005e": {
+    "source": "chiba",
+    "key": "chiba_87e9e89bb3e9005e",
+    "project_name": "橋賀台小学校遊具撤去工事",
+    "org_name": "成田市  総務部  契約検査課",
+    "pref_name": "千葉県",
+    "city_name": "成田市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-09-10",
+    "procedure_type": "随意契約 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "成田市橋賀台３－４",
+    "bid_deadline": "2026-09-17T12:00:00",
+    "opening_date": "2026-09-17T13:25:00",
+    "application_deadline": "2026-09-15T16:00:00",
+    "fetched_date": "2026-09-11",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-11T02:29:28+00:00",
+      "planned_price": "非公開",
+      "region_requirement": null,
+      "koki": "令和８年１２月２５日",
+      "application_deadline": "2026-09-15T16:00:00",
+      "bid_deadline": "2026-09-17T12:00:00",
+      "opening_date": "2026-09-17T13:25:00",
+      "summary": "成田市橋賀台３－４にある橋賀台小学校の遊具撤去工事です。入札方式は電子入札による随意契約・価格競争です。"
+    }
+  },
+  "chiba_16bfe6e818b651f0": {
+    "source": "chiba",
+    "key": "chiba_16bfe6e818b651f0",
+    "project_name": "山武教育会館別館解体工事",
+    "org_name": "山武市  市長部局  総務部財政課",
+    "pref_name": "千葉県",
+    "city_name": "山武市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-09-11",
+    "procedure_type": "事後審査）千葉県 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "07_入札公告（工事・解体）_山武教育会館別館解体工事（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_16bfe6e818b651f0_1.pdf"
+      }
+    ],
+    "location": "山武市成東2553番地１　山武教育会館別館",
+    "bid_deadline": "2026-09-30T12:00:00",
+    "opening_date": "2026-10-01T14:05:00",
+    "application_deadline": "2026-09-18T16:00:00",
+    "fetched_date": "2026-09-11",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-11T02:29:28+00:00",
+      "planned_price": "17,000,000円（消費税及び地方消費税を含まない。）",
+      "region_requirement": "市内、準市内、山武郡市内、県内",
+      "koki": "契約日の翌日から令和9年3月19日まで",
+      "application_deadline": "2026-09-18T16:00:00",
+      "bid_deadline": "2026-09-30T12:00:00",
+      "opening_date": "2026-10-01T14:05:00",
+      "summary": "山武教育会館別館の解体工事です。建物解体、機械設備撤去、外構工事が含まれます。工期は契約日の翌日から2027年3月19日までです。"
+    }
+  },
+  "pportal_637076": {
+    "source": "pportal",
+    "key": "pportal_637076",
+    "project_name": "呉市上平原町所在国有建物等解体工事",
+    "org_name": "財務省",
+    "pref_name": "広島県",
+    "city_name": "",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-11",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=v2MnaltPbANhW4p9NslZ%2BD%2Ba5PwVHNhL6cFECaOxiik%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-10-05T17:00:00",
+    "opening_date": "2026-10-06T11:00:00",
+    "application_deadline": "2026-10-02T17:00:00",
+    "fetched_date": "2026-09-11",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-11T02:29:28+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日から令和９年３月１８日（木曜日）",
+      "application_deadline": "2026-10-02T17:00:00",
+      "bid_deadline": "2026-10-05T17:00:00",
+      "opening_date": "2026-10-06T11:00:00",
+      "summary": "本工事は、呉市上平原町に所在する国有建物等の解体工事です。入札および開札手続きは調達ポータルを利用して行われますが、紙による提出も可能です。契約期間は契約締結日から2027年3月18日までです。"
+    }
+  },
+  "d2FrYXlhbWEvcG9saWNlLXdha2F5YW1hLzIwMjYvMjAyNjA5MTBfMDM1NzUK": {
+    "source": "kkj",
+    "key": "d2FrYXlhbWEvcG9saWNlLXdha2F5YW1hLzIwMjYvMjAyNjA5MTBfMDM1NzUK",
+    "project_name": "令和８年度 第３９号 海南警察署野上宿舎解体工事",
+    "org_name": "国家公安委員会（警察庁）和歌山県警察",
+    "pref_name": "和歌山県",
+    "city_name": "和歌山市",
+    "pref_code": "30",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-10T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.police.pref.wakayama.lg.jp/nyusatu/si-260910-39.pdf",
+    "attachments": [],
+    "location": "工事概要建設業法",
+    "bid_deadline": "2026-09-29T10:05:00",
+    "opening_date": "令和8年10月6日",
+    "application_deadline": "",
+    "fetched_date": "2026-09-11",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-11T02:29:28+00:00",
+      "planned_price": "21,749,200 円（消費税及び地方消費税を除く）",
+      "region_requirement": "海草振興局建設部管内に、主たる営業所を有する者であること。",
+      "koki": "120日間工期",
+      "application_deadline": null,
+      "bid_deadline": "2026-09-29T10:05:00",
+      "opening_date": "2026-09-29T10:05:00",
+      "summary": "本工事は、海南警察署野上宿舎の解体工事（付属建築物及び外構を含む）及び跡地整地工事です。宿舎棟はRC造2階建て、倉庫棟はCB造平屋建てです。本工事は完全週休2日（土日）Ⅰ型で実施されます。"
+    }
+  },
+  "Z292L2phZWFfZ28vMjAyNi8yMDI2MDkxMF8wNTU5MAo=": {
+    "source": "kkj",
+    "key": "Z292L2phZWFfZ28vMjAyNi8yMDI2MDkxMF8wNTU5MAo=",
+    "project_name": "【電子入札】【電子契約】圧縮処理施設の解体撤去及び管理区域解除作業に係る労働派遣契約",
+    "org_name": "国立研究開発法人日本原子力研究開発機構本部",
+    "pref_name": "茨城県",
+    "city_name": "東海村",
+    "pref_code": "08",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-10T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://keiyaku.jaea.go.jp/compe/02/pdf/0802C03400.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "令和8年10月16日",
+    "opening_date": "令和8年10月16日",
+    "application_deadline": "",
+    "fetched_date": "2026-09-11",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-11T02:29:28+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "令和8年11月1日 ～ 令和9年3月31日",
+      "application_deadline": null,
+      "bid_deadline": "2026-10-16T15:00:00",
+      "opening_date": "2026-10-16T15:00:00",
+      "summary": "本件は、圧縮処理施設の解体撤去及び管理区域解除作業に係る労働派遣契約の一般競争入札公告です。契約期間は2026年11月1日から2027年3月31日までで、電子入札システムを通じて行われます。",
+      "opening_date_note": "入札締切と開札日が同一値になっています。AI抽出では2026-10-16T15:00:00 の可能性があるため、公告原本で開札日を確認してください。"
+    }
   }
 }
