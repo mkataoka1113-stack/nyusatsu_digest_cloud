@@ -1,155 +1,4 @@
 {
-  "a3VtYW1vdG8va3VtYW1vdG9fY2l0eS8yMDI2LzIwMjYwODEyXzAyMTUxCg==": {
-    "source": "kkj",
-    "key": "a3VtYW1vdG8va3VtYW1vdG9fY2l0eS8yMDI2LzIwMjYwODEyXzAyMTUxCg==",
-    "project_name": "【入札関係】熊本城数寄屋丸二階御広間解体保存工事に伴う部材破損状況調査ほか業務委託について",
-    "org_name": "熊本県熊本市",
-    "pref_name": "熊本県",
-    "city_name": "熊本市",
-    "pref_code": "43",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-12T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.kumamoto.jp/kiji00371454/3_71454_up_57nvztpp.pdf",
-    "attachments": [
-      {
-        "name": "02-1_仕様書（PDF：759.6キロバイト）",
-        "uri": "https://www.city.kumamoto.jp/kiji00371454/3_71454_up_knulpzl2.pdf"
-      },
-      {
-        "name": "02-2_図面（PDF：35.9メガバイト）",
-        "uri": "https://www.city.kumamoto.jp/kiji00371454/3_71454_up_1huetnz7.pdf"
-      }
-    ],
-    "location": "熊本市中央区本丸地内ほか",
-    "bid_deadline": "2026-09-16T10:00:00",
-    "opening_date": "2026-09-16T10:00:00",
-    "application_deadline": "2026-08-25T17:00:00",
-    "fetched_date": "2026-08-13",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-13T01:24:12+00:00",
-      "planned_price": "401,060千円（税込）",
-      "region_requirement": null,
-      "koki": "契約締結日から令和10年（2028年）7月14日（金）まで",
-      "application_deadline": "2026-08-25T17:00:00",
-      "bid_deadline": "2026-09-16T10:00:00",
-      "opening_date": "2026-09-16T10:00:00",
-      "summary": "本業務は、平成28年熊本地震で被災した熊本城数寄屋丸二階御広間の解体保存工事に伴う部材の破損状況調査及び施工指導を行うものです。具体的には、建築部材の破損状況調査、解体保存作業及び格納庫新築に係る施工監理、報告書とりまとめが含まれます。"
-    }
-  },
-  "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjA4MTJfMDM0MjEK": {
-    "source": "kkj",
-    "key": "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjA4MTJfMDM0MjEK",
-    "project_name": "元尼崎南警察署大庄交番庁舎外一件解体撤去工事",
-    "org_name": "国家公安委員会（警察庁）兵庫県警察",
-    "pref_name": "兵庫県",
-    "city_name": "神戸市",
-    "pref_code": "28",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-12T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.police.pref.hyogo.lg.jp/chotatu/kou_data/2026/A26081201.pdf",
-    "attachments": [],
-    "location": "尼崎市大庄西町３丁目６－16、尼崎市稲葉元町２丁目16－17⑶ 工事概要 尼崎南警察署大庄交番及び稲葉荘交番の廃止に伴い",
-    "bid_deadline": "",
-    "opening_date": "2026-08-31T10:00:00",
-    "application_deadline": "2026-08-25T00:00:00",
-    "fetched_date": "2026-08-13",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-13T01:24:12+00:00",
-      "planned_price": null,
-      "region_requirement": "西宮土木事務所、神戸土木事務所及び宝塚土木事務所管内のいずれかに解体工事業の許可を受けた主たる営業所を有していること。",
-      "koki": "着工の日より120 日間",
-      "application_deadline": "2026-08-25T00:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-08-31T10:00:00",
-      "summary": "本工事は、元尼崎南警察署大庄交番庁舎外一件解体撤去工事であり、尼崎南警察署大庄交番及び稲葉荘交番の廃止に伴う解体工事です。工期は着工の日より120日間で、週休2日制度の対象工事です。"
-    }
-  },
-  "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDgvMjAyNjA4MTBfNzcyOTYK": {
-    "source": "kkj",
-    "key": "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDgvMjAyNjA4MTBfNzcyOTYK",
-    "project_name": "【陸装研】エンジン試運転室等の環境整備（試験装置等の解体",
-    "org_name": "防衛省",
-    "pref_name": "神奈川県",
-    "city_name": "",
-    "pref_code": "14",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-10T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-08-13",
-    "notified": [],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-08-13T01:24:12+00:00"
-    }
-  },
-  "a2Fnb3NoaW1hL2ljaGlraWt1c2hpa2lub19jaXR5LzIwMjYvMjAyNjA4MTBfMDA5OTMK": {
-    "source": "kkj",
-    "key": "a2Fnb3NoaW1hL2ljaGlraWt1c2hpa2lub19jaXR5LzIwMjYvMjAyNjA4MTBfMDA5OTMK",
-    "project_name": "相撲競技場解体工事",
-    "org_name": "鹿児島県いちき串木野市",
-    "pref_name": "鹿児島県",
-    "city_name": "いちき串木野市",
-    "pref_code": "46",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-10T00:00:00+09:00",
-    "procedure_type": "条件付一般競争入札",
-    "doc_uri": "http://www.city.ichikikushikino.lg.jp/zaisei2/documents/11r80810koukoku.pdf",
-    "attachments": [
-      {
-        "name": "図面（PDF",
-        "uri": "http://www.city.ichikikushikino.lg.jp/zaisei2/documents/2r80810yotakushisu1zumen.pdf"
-      },
-      {
-        "name": "閲覧設計書等（PDF",
-        "uri": "http://www.city.ichikikushikino.lg.jp/zaisei2/documents/5r80810yotakushisu1eturan.pdf"
-      },
-      {
-        "name": "工事内訳書（PDF",
-        "uri": "http://www.city.ichikikushikino.lg.jp/zaisei2/documents/6r80810yotakushisu1utiwake.pdf"
-      }
-    ],
-    "location": "いちき串木野市 港町地内入札方法 条件付一般競争入札",
-    "bid_deadline": "2026-08-21T16:00:00",
-    "opening_date": "2026-08-24T00:00:00+09:00",
-    "application_deadline": "2026-08-18T17:00:00",
-    "fetched_date": "2026-08-13",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-13T01:24:12+00:00",
-      "planned_price": "事後公表",
-      "region_requirement": null,
-      "koki": "契約日から 令和8年12月11日",
-      "application_deadline": "2026-08-18T17:00:00",
-      "bid_deadline": "2026-08-21T16:00:00",
-      "opening_date": "2026-08-24T10:05:00",
-      "summary": "いちき串木野市港町地内にある相撲競技場、シャワー室、競技場ゲート、掲示板、外構の解体工事です。解体対象建物は鉄骨造平屋建の競技場（延べ床面積256.0m2）と木造平屋建のシャワー室（16.2m2）などを含みます。本工事は電子入札による条件付一般競争入札で行われます。"
-    }
-  },
   "pportal_633645": {
     "source": "pportal",
     "key": "pportal_633645",
@@ -4138,6 +3987,192 @@
       "opening_date": "2026-10-16T15:00:00",
       "summary": "本件は、圧縮処理施設の解体撤去及び管理区域解除作業に係る労働派遣契約の一般競争入札公告です。契約期間は2026年11月1日から2027年3月31日までで、電子入札システムを通じて行われます。",
       "opening_date_note": "入札締切と開札日が同一値になっています。AI抽出では2026-10-16T15:00:00 の可能性があるため、公告原本で開札日を確認してください。"
+    }
+  },
+  "d2FrYXlhbWEvc2hpbmd1X2NpdHkvMjAyNi8yMDI2MDkxMV8wMDEwMwo=": {
+    "source": "kkj",
+    "key": "d2FrYXlhbWEvc2hpbmd1X2NpdHkvMjAyNi8yMDI2MDkxMV8wMDEwMwo=",
+    "project_name": "条件付一般競争入札公告（新財工第４０号）高野坂観光客用駐車場整備事業（解体）",
+    "org_name": "和歌山県新宮市",
+    "pref_name": "和歌山県",
+    "city_name": "新宮市",
+    "pref_code": "30",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-11T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.city.shingu.lg.jp/div/zaisei-1/pdf/nyusatsu-koukoku/8k40.pdf",
+    "attachments": [],
+    "location": "新宮市三輪崎地内",
+    "bid_deadline": "2026-09-30T16:05:00",
+    "opening_date": "2026-09-30T16:05:00",
+    "application_deadline": "",
+    "fetched_date": "2026-09-12",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-12T02:34:44+00:00",
+      "planned_price": "15,884,000 円 （10％税込み）",
+      "region_requirement": "新宮市に本店若しくは委任を受けた支社・支店等を有する者であること",
+      "koki": "契約日の翌日から 2026年11月30日 まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-09-30T16:05:00",
+      "opening_date": "2026-09-30T16:05:00",
+      "summary": "本工事は、高野坂観光客用駐車場整備事業の一環として、新宮市三輪崎地内にある木造2階建住宅10戸、鉄骨造ローカ、鉄骨造屋外階段の解体工事を行います。直接仮設、建物解体、発生材処理が含まれます。工期は契約日の翌日から2026年11月30日までです。"
+    }
+  },
+  "bWl5YXpha2kva3VzaGltYV9jaXR5LzIwMjYvMjAyNjA5MTFfMDAwMDEK": {
+    "source": "kkj",
+    "key": "bWl5YXpha2kva3VzaGltYV9jaXR5LzIwMjYvMjAyNjA5MTFfMDAwMDEK",
+    "project_name": "旧都井中学校屋内運動場解体工事",
+    "org_name": "宮崎県串間市",
+    "pref_name": "宮崎県",
+    "city_name": "串間市",
+    "pref_code": "45",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-11T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kushima.lg.jp/main/business/upload/suikanri/01_%E5%85%AC%E5%91%8A_%E5%85%A5%E6%9C%AD%E9%80%9A%E7%9F%A5%EF%BC%88%E6%97%A7%E9%83%BD%E4%BA%95%E4%B8%AD%E5%AD%A6%E6%A0%A1%E5%B1%8B%E5%86%85%E9%81%8B%E5%8B%95%E5%A0%B4%E8%A7%A3%E4%BD%93%E5%B7%A5%E4%BA%8B%EF%BC%89.pdf",
+    "attachments": [
+      {
+        "name": "11_設計書（金額抜き）【旧都井中学校屋内運動場解体工事】.pdf",
+        "uri": "https://www.city.kushima.lg.jp/main/business/upload/suikanri/11_%E8%A8%AD%E8%A8%88%E6%9B%B8%EF%BC%88%E9%87%91%E9%A1%8D%E6%8A%9C%E3%81%8D%EF%BC%89%E3%80%90%E6%97%A7%E9%83%BD%E4%BA%95%E4%B8%AD%E5%AD%A6%E6%A0%A1%E5%B1%8B%E5%86%85%E9%81%8B%E5%8B%95%E5%A0%B4%E8%A7%A3%E4%BD%93%E5%B7%A5%E4%BA%8B%E3%80%91.pdf"
+      },
+      {
+        "name": "12_図面（旧都井中学校屋内運動場解体工事）.pdf",
+        "uri": "https://www.city.kushima.lg.jp/main/business/upload/suikanri/12_%E5%9B%B3%E9%9D%A2%EF%BC%88%E6%97%A7%E9%83%BD%E4%BA%95%E4%B8%AD%E5%AD%A6%E6%A0%A1%E5%B1%8B%E5%86%85%E9%81%8B%E5%8B%95%E5%A0%B4%E8%A7%A3%E4%BD%93%E5%B7%A5%E4%BA%8B%EF%BC%89.pdf"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "2026-09-18T10:30:00",
+    "application_deadline": "2026-09-14T17:00:00",
+    "fetched_date": "2026-09-12",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-12T02:34:44+00:00",
+      "planned_price": "37,521,000円(消費税及び地方消費税を含む。)",
+      "region_requirement": "串間市に建設業法(昭和24年法律第100号)第3条第1項に規定する営業所のうち本店又は支店等(支店、支社、営業所など)を有する者であること。",
+      "koki": "契約の日から令和9年3月9日まで",
+      "application_deadline": "2026-09-14T17:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-09-18T10:30:00",
+      "summary": "旧都井中学校屋内運動場の解体工事。S造+RC造1階建の屋内運動場と木造の渡り廊下（一部）の建築物及び付随する工作物等の解体・撤去を行う。作業ヤード盛土には、隣接する串間土木事務所が仮置きしているシラスを流用する。"
+    }
+  },
+  "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjA5MTFfMDQzOTIK": {
+    "source": "kkj",
+    "key": "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjA5MTFfMDQzOTIK",
+    "project_name": "松契一般第216号 新松戸現場事務所解体工事（PDF：143KB）",
+    "org_name": "千葉県松戸市",
+    "pref_name": "千葉県",
+    "city_name": "松戸市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-11T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/R8-0911kouji1w.files/216.pdf",
+    "attachments": [
+      {
+        "name": "松契一般第216号 設計図書（PDF：14,767KB）",
+        "uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/R8-0911kouji1w.files/216s.pdf"
+      }
+    ],
+    "location": "松戸市幸谷７２５番地※本工事は、松戸市が指定する電子契約サービスを用いた電子契約の対象案件である",
+    "bid_deadline": "2026-10-06T11:00:00",
+    "opening_date": "令和8年10月6日",
+    "application_deadline": "2026-09-17T11:00:00",
+    "fetched_date": "2026-09-12",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-12T02:34:44+00:00",
+      "planned_price": "金 ６，０４０，０００円（税抜き)",
+      "region_requirement": "松戸市内に本店を有すること",
+      "koki": "契約締結日の翌日から令和9年1月29日まで",
+      "application_deadline": "2026-09-17T11:00:00",
+      "bid_deadline": "2026-10-06T11:00:00",
+      "opening_date": "2026-10-13T13:30:00",
+      "summary": "本工事は、新松戸現場事務所の解体及び撤去を行うものです。敷地面積128.34㎡、延床面積63.76㎡の木造平屋建て事務所の上屋・基礎、内部造作、残置物、外構、付属物、給排水管等の解体・撤去、整地が含まれます。本工事は週休2日制適用工事であり、電子契約の対象案件です。"
+    }
+  },
+  "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjA5MTFfMDQzODgK": {
+    "source": "kkj",
+    "key": "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjA5MTFfMDQzODgK",
+    "project_name": "松契一般第218号 汚水ポンプ場解体撤去計画検討業務委託（PDF：356KB）",
+    "org_name": "千葉県松戸市",
+    "pref_name": "千葉県",
+    "city_name": "松戸市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-11T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/R8-0911sokuryou.files/218.pdf",
+    "attachments": [
+      {
+        "name": "松契一般第218号 設計図書（PDF：10,205KB）",
+        "uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/R8-0911sokuryou.files/218s.PDF"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-10-09T15:00:00",
+    "opening_date": "令和8年9月25日",
+    "application_deadline": "2026-09-17T11:00:00",
+    "fetched_date": "2026-09-12",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-12T02:34:44+00:00",
+      "planned_price": "6,530,000円（税抜き)",
+      "region_requirement": "千葉県内に本店又は入札・契約の権限が委任された支店・営業所等を有すること。",
+      "koki": "契約締結日の翌日から令和9年3月19日まで",
+      "application_deadline": "2026-09-17T11:00:00",
+      "bid_deadline": "2026-10-09T15:00:00",
+      "opening_date": "2026-10-13T13:50:00",
+      "summary": "本業務は、松戸市日暮五丁目249番地外の汚水ポンプ場3箇所の解体撤去計画検討を行うものです。令和8・9年度松戸市入札参加業者資格者名簿に登載され、測量コンサルタント部門の「土木：下水道」に登録がある事業者が対象です。過去10年以内に官公庁発注のポンプ場新設または撤去の設計業務実績が求められます。"
+    }
+  },
+  "YW9tb3JpL29pcmFzZV90b3duLzIwMjYvMjAyNjA5MTFfMDA4NjgK": {
+    "source": "kkj",
+    "key": "YW9tb3JpL29pcmFzZV90b3duLzIwMjYvMjAyNjA5MTFfMDA4NjgK",
+    "project_name": "創作の家解体工事 [その他のファイル／2.97MB]",
+    "org_name": "青森県おいらせ町",
+    "pref_name": "青森県",
+    "city_name": "おいらせ町",
+    "pref_code": "02",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-11T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.town.oirase.aomori.jp/uploaded/attachment/27784.zip",
+    "attachments": [],
+    "location": "青森県上北郡おいらせ町沼端１４－１６１ いちょう公園体育館敷地内",
+    "bid_deadline": "令和８年９月２５日",
+    "opening_date": "令和８年９月２９日",
+    "application_deadline": "",
+    "fetched_date": "2026-09-12",
+    "notified": [],
+    "enrich": {
+      "status": "no_text",
+      "provider": "",
+      "enriched_at": "2026-09-12T02:34:44+00:00"
     }
   }
 }
