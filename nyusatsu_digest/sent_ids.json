@@ -1,43 +1,4 @@
 {
-  "pportal_633645": {
-    "source": "pportal",
-    "key": "pportal_633645",
-    "project_name": "新津区検察庁解体撤去工事",
-    "org_name": "法務省",
-    "pref_name": "新潟県",
-    "city_name": "",
-    "pref_code": "15",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-14",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=JHZlri%2FR5Wo1j13GaSd3%2BFl%2FFmwbRPwcY87eRhYN3CI%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "2026-09-24T17:00:00",
-    "opening_date": "2026-09-25T10:00:00",
-    "application_deadline": "2026-08-24T00:00:00",
-    "fetched_date": "2026-08-14",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-14T01:22:27+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": "令和９年３月３１日まで",
-      "application_deadline": "2026-08-24T00:00:00",
-      "bid_deadline": "2026-09-24T17:00:00",
-      "opening_date": "2026-09-25T10:00:00",
-      "summary": "本工事は、新津区検察庁敷地内の建物（事務所建、車庫、自転車置き場）及び工作物を解体・撤去するものです。また、樹木の伐採・抜根を行い、更地にして整地します。本工事は、建設工事に係る資材の再資源化等に関する法律に基づき、分別解体等及び特定建設資材廃棄物の再資源化等の実施が義務付けられています。"
-    }
-  },
   "tokyometro_3539791939291612": {
     "source": "tokyometro",
     "key": "tokyometro_3539791939291612",
