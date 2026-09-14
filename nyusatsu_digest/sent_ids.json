@@ -4135,5 +4135,80 @@
       "provider": "",
       "enriched_at": "2026-09-12T02:34:44+00:00"
     }
+  },
+  "tokyometro_3539841029192411": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539841029192411",
+    "project_name": "恩賜上野動物園輸送施設整備に伴う準備工事",
+    "org_name": "東部公園緑地事務所庶務課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-09-14",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都台東区上野公園地内",
+    "bid_deadline": "",
+    "opening_date": "2026-10-29T09:30:00",
+    "application_deadline": "2026-09-18",
+    "fetched_date": "2026-09-14",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-14T02:51:18+00:00",
+      "planned_price": "15,970,900円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から令和9年2月26日まで",
+      "application_deadline": "2026-09-18T15:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-10-29T09:30:00",
+      "summary": "恩賜上野動物園の輸送施設整備に伴う準備工事一式です。本工事は電子契約対象案件であり、建設リサイクル法対象工事です。"
+    }
+  },
+  "pportal_636931": {
+    "source": "pportal",
+    "key": "pportal_636931",
+    "project_name": "令和8年度久留米市所在建物解体撤去工事",
+    "org_name": "財務省",
+    "pref_name": "福岡県",
+    "city_name": "",
+    "pref_code": "40",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-14",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=1sCpat1tpOZlBr6EzDKDiEEMauTR4hZdYsBFr%2BZZ%2FAw%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-10-07T17:00:00",
+    "opening_date": "2026-10-08T13:30:00",
+    "application_deadline": "2026-10-02T17:00:00",
+    "fetched_date": "2026-09-14",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-14T02:51:18+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日の翌日から令和9年3月30日まで",
+      "application_deadline": "2026-10-02T17:00:00",
+      "bid_deadline": "2026-10-07T17:00:00",
+      "opening_date": "2026-10-08T13:30:00",
+      "summary": "本工事は、令和8年度に久留米市所在の建物、工作物等の解体撤去を行うものです。政府電子調達システムを利用した応札、入開札及び契約手続により実施されます。工期は契約締結日の翌日から2027年3月30日までです。"
+    }
   }
 }
