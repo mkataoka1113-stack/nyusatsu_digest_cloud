@@ -1,79 +1,4 @@
 {
-  "tokyometro_3539992030294369": {
-    "source": "tokyometro",
-    "key": "tokyometro_3539992030294369",
-    "project_name": "東京辰巳アイスアリーナ（８）屋外デッキ撤去工事",
-    "org_name": "スポーツ推進本部スポーツ企画部企画調整課",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3101"
-    ],
-    "cft_issue_date": "2026-08-17",
-    "procedure_type": "希望制指名競争入札",
-    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
-    "attachments": [],
-    "location": "東京都江東区辰巳二丁目８番１０号",
-    "bid_deadline": "",
-    "opening_date": "2026-09-17T09:00:00",
-    "application_deadline": "2026-08-21",
-    "fetched_date": "2026-08-18",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-18T00:54:52+00:00",
-      "planned_price": "5,580,300円（消費税率10％）",
-      "region_requirement": null,
-      "koki": "契約確定の日の翌日から2027年1月8日まで",
-      "application_deadline": "2026-08-21T17:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-09-17T09:00:00",
-      "summary": "東京都江東区辰巳二丁目にある東京辰巳アイスアリーナの屋外デッキ撤去工事一式です。本案件は希望制指名競争入札で、電子契約対象案件です。"
-    }
-  },
-  "aG9ra2FpZG8vb2JpaGlyb19jaXR5LzIwMjYvMjAyNjA4MTdfMDAyMTYK": {
-    "source": "kkj",
-    "key": "aG9ra2FpZG8vb2JpaGlyb19jaXR5LzIwMjYvMjAyNjA4MTdfMDAyMTYK",
-    "project_name": "旧キリン等解体実施設計委託 別表 （PDF 94.0 KB）",
-    "org_name": "北海道帯広市",
-    "pref_name": "北海道",
-    "city_name": "帯広市",
-    "pref_code": "01",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-17T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/005/713/betu0817_06.pdf",
-    "attachments": [
-      {
-        "name": "旧キリン等解体実施設計委託 設計図書 （PDF 8.3 MB）",
-        "uri": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/005/713/r8/0817_6.pdf"
-      }
-    ],
-    "location": "業務内容履行期間３ 予定価格",
-    "bid_deadline": "令和９年２月９日",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-08-18",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-18T00:54:52+00:00",
-      "planned_price": "7,018,000 円（消費税込み額）",
-      "region_requirement": "帯広市内に本店を有する者であること。",
-      "koki": "契約締結日の翌日(翌日が土曜日、日曜日又は休日の場合は、翌開庁日)から 令和9年2月24日まで",
-      "application_deadline": null,
-      "bid_deadline": null,
-      "opening_date": null,
-      "summary": "旧キリン舎、シマウマ舎、倉庫、物置の解体実施設計業務。CB造・平屋建の旧キリン舎（79.19㎡）などが対象となる。履行場所は字緑ケ丘２番地。"
-    }
-  },
   "pportal_634210": {
     "source": "pportal",
     "key": "pportal_634210",
@@ -4334,6 +4259,169 @@
       "bid_deadline": "2026-10-02T17:00:00",
       "opening_date": null,
       "summary": "令和8年度武佐造林作業員宿泊所解体撤去業務の見積合わせです。国有林根釧東部森林管理署514林班にて、契約締結の翌日から2026年12月4日までに行われます。見積書は2026年9月14日から受け付け、2026年10月2日午後5時が提出期限です。"
+    }
+  },
+  "tokyometro_3539791939291612": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539791939291612",
+    "project_name": "旧東京都労働資料センター(８)解体工事",
+    "org_name": "財務局経理部契約第一課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-08-17",
+    "procedure_type": "一般競争入札(技術実績評価型総合評価方式)",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都中野区弥生町二丁目41番17号",
+    "bid_deadline": "",
+    "opening_date": "2026-10-15T09:15:00",
+    "application_deadline": "2026-08-28",
+    "fetched_date": "2026-09-17",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-17T02:52:37+00:00",
+      "planned_price": "541,827,000円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から令和10年9月29日まで",
+      "application_deadline": "2026-08-28T16:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-10-15T09:15:00",
+      "summary": "東京都中野区弥生町二丁目41番17号に所在する、鉄筋コンクリート造 地下1階地上4階建て（延床面積3,365.9㎡）の旧東京都労働資料センターの解体工事です。基礎、杭、土壌汚染対策、外構、石綿、機械設備、電気設備を含む一式工事となります。"
+    }
+  },
+  "pportal_638062": {
+    "source": "pportal",
+    "key": "pportal_638062",
+    "project_name": "【国土地理院】位置情報インフラの強靱化（「Ｐ鼠ヶ関」建屋解体撤去等業務）",
+    "org_name": "国土交通省",
+    "pref_name": "茨城県",
+    "city_name": "",
+    "pref_code": "08",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-17",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=YlisIwMyWMq9XFYDbO436XfGpEZd4EoE5TR3leGeEFc%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-09-17",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-17T02:52:37+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本公告は、国土地理院による位置情報インフラの強靱化に関する「Ｐ鼠ヶ関」建屋解体撤去等業務の一般競争入札（WTO対象外）です。調達機関は国土交通省で、所在地は茨城県です。"
+    }
+  },
+  "aG9ra2FpZG8yL3NpbnJpbmthbnJpa3lva3UvMjAyNi8yMDI2MDkxNl8xMjA5Nwo=": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8yL3NpbnJpbmthbnJpa3lva3UvMjAyNi8yMDI2MDkxNl8xMjA5Nwo=",
+    "project_name": "当別森林事務所外解体撤去工事（電子入札対象案件）（電子契約試行対象案件）",
+    "org_name": "林野庁北海道森林管理局",
+    "pref_name": "北海道",
+    "city_name": "札幌市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-16T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.rinya.maff.go.jp/hokkaido/apply/publicsale/isikari/attach/pdf/260916_01-1.pdf",
+    "attachments": [
+      {
+        "name": "仕様書等1(PDF : 1,720KB)",
+        "uri": "https://www.rinya.maff.go.jp/hokkaido/apply/publicsale/isikari/attach/pdf/260916_01-2.pdf"
+      },
+      {
+        "name": "仕様書等2(PDF : 7,657KB)",
+        "uri": "https://www.rinya.maff.go.jp/hokkaido/apply/publicsale/isikari/attach/pdf/260916_01-3.pdf"
+      }
+    ],
+    "location": "石狩郡当別町北栄町１－１",
+    "bid_deadline": "2026-10-26T10:00:00",
+    "opening_date": "2026-10-26T10:00:00",
+    "application_deadline": "2026-10-05T17:00:00",
+    "fetched_date": "2026-09-17",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-17T02:52:37+00:00",
+      "planned_price": null,
+      "region_requirement": "建設業法に基づく本店、支店又は営業所が、北海道森林管理局管内（北海道内）に所在すること。また、経常建設共同企業体として申請書および資料を提出する場合は、有資格者名簿に記載されている共同企業体の本店所在地が、上記区域内であること。",
+      "koki": "契約締結日の翌日から2026年12月25日まで",
+      "application_deadline": "2026-10-05T17:00:00",
+      "bid_deadline": "2026-10-26T10:00:00",
+      "opening_date": "2026-10-26T10:00:00",
+      "summary": "本工事は、当別森林事務所、車庫、物置の解体撤去を行うものです。建設工事に係る資材の再資源化等に関する法律に基づき、分別解体等及び特定建設資材廃棄物の再資源化等が義務付けられています。また、大気汚染防止法及び石綿障害予防規則に基づき、施工業者による事前調査結果の報告が義務付けられています。"
+    }
+  },
+  "Z292Ny9yaW55YV9tYWZmX2NodWJ1LzIwMjYvMjAyNjA5MTZfMDcyMzkK": {
+    "source": "kkj",
+    "key": "Z292Ny9yaW55YV9tYWZmX2NodWJ1LzIwMjYvMjAyNjA5MTZfMDcyMzkK",
+    "project_name": "令和8年度 飯田治山事業所解体撤去工事",
+    "org_name": "林野庁",
+    "pref_name": "",
+    "city_name": "",
+    "pref_code": "",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-16T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.rinya.maff.go.jp/chubu/apply/publicsale/inadani/2026091603.html",
+    "attachments": [
+      {
+        "name": "入札公告(PDF : 128KB)",
+        "uri": "https://www.rinya.maff.go.jp/chubu/apply/publicsale/inadani/attach/pdf/2026091603-1.pdf"
+      },
+      {
+        "name": "入札説明書(PDF : 295KB)",
+        "uri": "https://www.rinya.maff.go.jp/chubu/apply/publicsale/inadani/attach/pdf/2026091603-2.pdf"
+      }
+    ],
+    "location": "、受注者名、社印を有する部分)、②同種工事が確認できる書類の写し",
+    "bid_deadline": "令和8年10月7日",
+    "opening_date": "令和8年10月21日",
+    "application_deadline": "2026-10-05T17:00:00",
+    "fetched_date": "2026-09-17",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-17T02:52:37+00:00",
+      "planned_price": null,
+      "region_requirement": "建設業法の基づく本社、支店又は営業所が、長野県に所在すること。また、経常建設共同企業体として資料を提出する場合は、有資格者名簿に記載されている共同企業体の本店所在地が、下記区域内であること。",
+      "koki": "契約締結日の翌日から令和9年1月20日まで",
+      "application_deadline": "2026-10-05T17:00:00",
+      "bid_deadline": "2026-10-21T10:00:00",
+      "opening_date": "2026-10-21T10:00:00",
+      "summary": "本工事は、令和8年度に長野県飯田市宮ノ上3982番地にある飯田治山事業所の事務所棟を解体撤去するものです。電子契約システムおよび電子入札システム試行対象案件であり、建設リサイクル法に基づき分別解体等及び特定建設資材廃棄物の再資源化等が義務付けられています。"
     }
   }
 }
