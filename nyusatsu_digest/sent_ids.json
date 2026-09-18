@@ -1,43 +1,4 @@
 {
-  "pportal_634210": {
-    "source": "pportal",
-    "key": "pportal_634210",
-    "project_name": "令和８年度中間貯蔵施設における建物解体設計業務（その２）",
-    "org_name": "環境省",
-    "pref_name": "福島県",
-    "city_name": "",
-    "pref_code": "07",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-19",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=4bahgVgiQxI5UXehwpmbLj4PXyvAvVACQUJYzDZf9vY%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "2026-10-16T13:30:00",
-    "opening_date": "2026-10-16T13:30:00",
-    "application_deadline": "2026-09-17T12:00:00",
-    "fetched_date": "2026-08-19",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-19T00:55:31+00:00",
-      "planned_price": null,
-      "region_requirement": "環境省における令和07・08年度「測量・建設コンサルタント等」の業種区分「土木関係建設コンサルタント業務」に係る一般競争参加資格の認定を受けており、かつ、「東北地域」の競争参加資格を有するものであること。",
-      "koki": "契約締結日から令和９年３月１８日まで",
-      "application_deadline": "2026-09-17T12:00:00",
-      "bid_deadline": "2026-10-16T13:30:00",
-      "opening_date": "2026-10-16T13:30:00",
-      "summary": "本件は、令和8年度中間貯蔵施設における建物解体設計業務（その２）の一般競争入札公告です。履行場所は中間貯蔵施設区域内（大熊町）で、解体施設数量等の設計一式が業務内容です。最低価格落札方式の入札となります。"
-    }
-  },
   "c2FpdGFtYS9ob25qb3NoaS8yMDI2LzIwMjYwODE5XzAwNjU3Cg==": {
     "source": "kkj",
     "key": "c2FpdGFtYS9ob25qb3NoaS8yMDI2LzIwMjYwODE5XzAwNjU3Cg==",
@@ -4422,6 +4383,209 @@
       "bid_deadline": "2026-10-21T10:00:00",
       "opening_date": "2026-10-21T10:00:00",
       "summary": "本工事は、令和8年度に長野県飯田市宮ノ上3982番地にある飯田治山事業所の事務所棟を解体撤去するものです。電子契約システムおよび電子入札システム試行対象案件であり、建設リサイクル法に基づき分別解体等及び特定建設資材廃棄物の再資源化等が義務付けられています。"
+    }
+  },
+  "tokyometro_3539992030294369": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539992030294369",
+    "project_name": "東京辰巳アイスアリーナ（８）屋外デッキ撤去工事",
+    "org_name": "スポーツ推進本部スポーツ企画部企画調整課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-08-17",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都江東区辰巳二丁目８番１０号",
+    "bid_deadline": "",
+    "opening_date": "2026-09-17T09:00:00",
+    "application_deadline": "2026-08-21",
+    "fetched_date": "2026-09-18",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-18T02:38:25+00:00",
+      "planned_price": "5,580,300円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から2027年1月8日まで",
+      "application_deadline": "2026-08-21T17:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-09-17T09:00:00",
+      "summary": "東京都江東区辰巳二丁目にある東京辰巳アイスアリーナの屋外デッキ撤去工事一式です。本案件は希望制指名競争入札で行われ、電子契約対象案件です。"
+    }
+  },
+  "chiba_15d5a1dc249cfd13": {
+    "source": "chiba",
+    "key": "chiba_15d5a1dc249cfd13",
+    "project_name": "旧千葉市こてはし台公民館解体工事",
+    "org_name": "千葉市  財政局  資産経営部契約課",
+    "pref_name": "千葉県",
+    "city_name": "千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-09-17",
+    "procedure_type": "指名競争 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "千葉市花見川区横戸町８６１番地４",
+    "bid_deadline": "2026-10-14T17:00:00",
+    "opening_date": "2026-10-15T09:30:00",
+    "application_deadline": "",
+    "fetched_date": "2026-09-18",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-18T02:38:25+00:00",
+      "planned_price": "75,792,200円（税込）",
+      "region_requirement": null,
+      "koki": "令和 9年 3月18日限り",
+      "application_deadline": null,
+      "bid_deadline": "2026-10-14T17:00:00",
+      "opening_date": "2026-10-15T09:30:00",
+      "summary": "旧千葉市こてはし台公民館の解体工事です。工事場所は千葉市花見川区横戸町８６１番地４です。"
+    }
+  },
+  "bmFyYS9uYXJha2VuX2tlaXNhdHN1LzIwMjYvMjAyNjA5MTdfMDEwMTQK": {
+    "source": "kkj",
+    "key": "bmFyYS9uYXJha2VuX2tlaXNhdHN1LzIwMjYvMjAyNjA5MTdfMDEwMTQK",
+    "project_name": "香芝警察署箸尾駐在所解体撤去工事 設計委託",
+    "org_name": "国家公安委員会（警察庁）奈良県警察",
+    "pref_name": "奈良県",
+    "city_name": "奈良市",
+    "pref_code": "29",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-17T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.police.pref.nara.jp/cmsfiles/contents/0000008/8149/koukoku.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-10-13T16:00:00",
+    "opening_date": "2026-10-14T10:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-09-18",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-18T02:38:25+00:00",
+      "planned_price": "金2,002,000円（消費税及び地方消費税 (計 10%)を含みます。）",
+      "region_requirement": "奈良県内に本店を有していること。",
+      "koki": "2026年10月26日（予定）～ 2027年2月10日",
+      "application_deadline": null,
+      "bid_deadline": "2026-10-13T16:00:00",
+      "opening_date": "2026-10-14T10:00:00",
+      "summary": "香芝警察署箸尾駐在所（木造 平家建 約81.81㎡）等の解体撤去工事に係る実施設計業務の委託契約です。本入札は電子入札システムによる施工体制確認型一般競争入札で、最低制限価格制度を採用しています。"
+    }
+  },
+  "aXNoaWthd2EvcGFfaHJyX21saXRfa2FuYXphd2EvMjAyNi8yMDI2MDkxN18wMDM1Mgo=": {
+    "source": "kkj",
+    "key": "aXNoaWthd2EvcGFfaHJyX21saXRfa2FuYXphd2EvMjAyNi8yMDI2MDkxN18wMDM1Mgo=",
+    "project_name": "輪島分室解体工事",
+    "org_name": "国土交通省北陸地方整備局金沢港湾・空港整備事務所",
+    "pref_name": "石川県",
+    "city_name": "金沢市",
+    "pref_code": "17",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-17T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.kanazawa.pa.hrr.mlit.go.jp/file/e8a04721.pdf",
+    "attachments": [],
+    "location": "石川県輪島市河井町１部２０５",
+    "bid_deadline": "令和８年１０月３０日",
+    "opening_date": "令和８年１１月１３日",
+    "application_deadline": "",
+    "fetched_date": "2026-09-18",
+    "notified": [],
+    "enrich": {
+      "status": "llm_failed",
+      "provider": "",
+      "enriched_at": "2026-09-18T02:38:25+00:00"
+    }
+  },
+  "aGlyb3NoaW1hL2t1cmVzaGkvMjAyNi8yMDI2MDkxN18wMzE0MAo=": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL2t1cmVzaGkvMjAyNi8yMDI2MDkxN18wMzE0MAo=",
+    "project_name": "阿賀中学校木造倉庫解体撤去工事",
+    "org_name": "広島県呉市",
+    "pref_name": "広島県",
+    "city_name": "呉市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-17T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kure.lg.jp/~koji/files/000000000000041583.PDF",
+    "attachments": [],
+    "location": "呉市阿賀中央５丁目１４番１６号建設工事の種類 解体工事建築解体撤去工事  一式電気設備解体撤去工事  一式機械設備解体撤",
+    "bid_deadline": "2026-10-07T16:00:00",
+    "opening_date": "2026-10-08T11:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-09-18",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-18T02:38:25+00:00",
+      "planned_price": "3,372,000円（消費税抜き）",
+      "region_requirement": "市内業者（建設業許可に係る主たる営業所を呉市内に有する者）であること。",
+      "koki": "2027年1月28日",
+      "application_deadline": null,
+      "bid_deadline": "2026-10-07T16:00:00",
+      "opening_date": "2026-10-08T11:00:00",
+      "summary": "本工事は、呉市阿賀中央５丁目１４番１６号に位置する阿賀中学校の木造倉庫解体撤去工事です。建築、電気設備、機械設備の解体撤去を一式として行います。電子入札システムを利用した電子入札案件であり、最低制限価格制度が適用されます。"
+    }
+  },
+  "Z292L2phZWFfZ28vMjAyNi8yMDI2MDkxN18wNTY0MAo=": {
+    "source": "kkj",
+    "key": "Z292L2phZWFfZ28vMjAyNi8yMDI2MDkxN18wNTY0MAo=",
+    "project_name": "貯蔵設備等の解体撤去作業",
+    "org_name": "国立研究開発法人日本原子力研究開発機構大洗",
+    "pref_name": "茨城県",
+    "city_name": "東海村",
+    "pref_code": "08",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-17T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://keiyaku.jaea.go.jp/compe/02/pdf/0803C01468.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "令和8年10月30日",
+    "opening_date": "令和10年3月31日",
+    "application_deadline": "",
+    "fetched_date": "2026-09-18",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-18T02:38:25+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "令和10年3月31日",
+      "application_deadline": null,
+      "bid_deadline": "2026-10-30T16:00:00",
+      "opening_date": "2026-10-30T16:00:00",
+      "summary": "ナトリウム分析室における使用設備、貯蔵設備等の解体撤去作業1式に関する一般競争入札です。入札は電子入札システムを通じて行われます。契約期間は令和10年3月31日までです。"
     }
   }
 }
