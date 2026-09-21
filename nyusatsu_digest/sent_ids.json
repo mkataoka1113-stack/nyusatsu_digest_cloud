@@ -1,72 +1,4 @@
 {
-  "c2VhcmNoL2tlaXlha3VfaGlyb3NoaW1hX2NpdHkvMjAyNi8yMDI2MDgyMV8wNDQwNQo=": {
-    "source": "kkj",
-    "key": "c2VhcmNoL2tlaXlha3VfaGlyb3NoaW1hX2NpdHkvMjAyNi8yMDI2MDgyMV8wNDQwNQo=",
-    "project_name": "旧吉島屋内プールほか１施設解体工事実施設計業務",
-    "org_name": "広島県広島市",
-    "pref_name": "広島県",
-    "city_name": "広島市",
-    "pref_code": "34",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-21T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://ppi.keiyaku.city.hiroshima.lg.jp/PPI_P/DownLoad/202620020800101.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-09-04T16:00:00",
-    "opening_date": "令和８年８月２７日",
-    "application_deadline": "",
-    "fetched_date": "2026-08-22",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-22T00:54:44+00:00",
-      "planned_price": "落札決定後に公表",
-      "region_requirement": "広島市内に主たる営業所を有していること。",
-      "koki": "契約締結の日から１８０日間",
-      "application_deadline": null,
-      "bid_deadline": "2026-09-04T16:00:00",
-      "opening_date": "2026-09-07T11:30:00",
-      "summary": "本業務は、旧吉島屋内プールと旧吉島老人いこいの家の解体工事実施設計業務です。両施設とも鉄筋コンクリート造2階建てで、建築物解体後の整地や電気・機械設備の撤去を含みます。本業務は電子納品対象であり、電子入札システムを利用した電子くじ対象案件です。"
-    }
-  },
-  "bmFnYW5vL2F6dW1pbm9fY2l0eS8yMDI2LzIwMjYwODIxXzAwMDg4Cg==": {
-    "source": "kkj",
-    "key": "bmFnYW5vL2F6dW1pbm9fY2l0eS8yMDI2LzIwMjYwODIxXzAwMDg4Cg==",
-    "project_name": "令和8年度 市営住宅柏原団地5～8号解体工事（1期） [PDFファイル／507KB]",
-    "org_name": "長野県安曇野市",
-    "pref_name": "長野県",
-    "city_name": "安曇野市",
-    "pref_code": "20",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-21T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.azumino.nagano.jp/uploaded/attachment/84894.pdf",
-    "attachments": [],
-    "location": "安曇野市 市営住宅柏原団地工事概要市営住宅柏原団地5～8号の解体工事・CB造平屋147.2㎡の解体解体する2棟における外",
-    "bid_deadline": "2026-09-01T17:15:00",
-    "opening_date": "2026-09-01T09:00:00",
-    "application_deadline": "",
-    "fetched_date": "2026-08-22",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-22T00:54:44+00:00",
-      "planned_price": null,
-      "region_requirement": "安曇野市内に本社（本店）を有する者",
-      "koki": "契約日から令和9年1月12日まで",
-      "application_deadline": null,
-      "bid_deadline": "2026-09-01T17:15:00",
-      "opening_date": "2026-09-01T09:00:00",
-      "summary": "市営住宅柏原団地5～8号の解体工事です。CB造平屋147.2㎡の解体と、解体する2棟における外構の解体、整地工事が含まれます。"
-    }
-  },
   "tokyometro_3539491779294313": {
     "source": "tokyometro",
     "key": "tokyometro_3539491779294313",
@@ -4329,6 +4261,55 @@
       "bid_deadline": "2026-10-08T16:00:00",
       "opening_date": "2026-10-09T09:00:00",
       "summary": "三原市久井町坂井原にて、旧不燃物処理工場ストックヤード外の解体工事を実施します。供給処理施設、鉄骨造平屋建てストックヤード外9棟、延床面積984.64m2の解体が含まれます。"
+    }
+  },
+  "chiba_4a0128c0661ab1f7": {
+    "source": "chiba",
+    "key": "chiba_4a0128c0661ab1f7",
+    "project_name": "千葉県立旭テクノスクールＮＣ機械加工科実習場Ｂ棟外解体工事",
+    "org_name": "千葉県  県土整備部  建設・不動産業課",
+    "pref_name": "千葉県",
+    "city_name": "旭市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-08-21",
+    "procedure_type": "事後審査）千葉県 ・ 総合評価（拡充版） ・ 事後審査２型 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "01_公告_個別編（単独）（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_4a0128c0661ab1f7_1.pdf"
+      },
+      {
+        "name": "02_公告_個別編_別添（特別簡易型（Ｂ））（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_4a0128c0661ab1f7_2.pdf"
+      },
+      {
+        "name": "03_公告_共通編（総合評価方式）（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_4a0128c0661ab1f7_3.pdf"
+      }
+    ],
+    "location": "旭市鎌数",
+    "bid_deadline": "2026-09-18T17:00:00",
+    "opening_date": "2026-09-25T15:30:00",
+    "application_deadline": "2026-09-15T17:00:00",
+    "fetched_date": "2026-09-21",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-21T02:45:33+00:00",
+      "planned_price": "落札決定後公表する",
+      "region_requirement": "海匝土木事務所、千葉土木事務所、印旛土木事務所、成田土木事務所、香取土木事務所、銚子土木事務所、山武土木事務所又は長生土木事務所管内（旭市、匝瑳市、千葉市、習志野市、八千代市、佐倉市、四街道市、八街市、印西市、白井市、印旛郡酒々井町、印旛郡栄町、成田市、富里市、香取郡多古町、山武郡芝山町、香取市、香取郡神崎町、香取郡東庄町、銚子市、東金市、山武市、大網白里市、山武郡九十九里町、山武郡横芝光町、茂原",
+      "koki": "2027年9月10日限り（工事着手期限日 2026年12月1日）",
+      "application_deadline": "2026-09-15T17:00:00",
+      "bid_deadline": "2026-09-18T17:00:00",
+      "opening_date": "2026-09-25T15:30:00",
+      "summary": "千葉県立旭テクノスクールNC機械加工科実習場B棟外解体工事は、老朽化した機械加工科の実習棟（NC機械加工科実習場B棟、渡り廊下、車庫など計4棟）の解体工事一式です。本工事は事後審査Ⅱ型および総合評価方式（特別簡易型B）が適用されます。"
     }
   }
 }
