@@ -1,33 +1,4 @@
 {
-  "tokyometro_3539491779294313": {
-    "source": "tokyometro",
-    "key": "tokyometro_3539491779294313",
-    "project_name": "警視庁体育センター倉庫棟ほか撤去工事",
-    "org_name": "警視庁総務部用度課",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3101"
-    ],
-    "cft_issue_date": "2026-07-21",
-    "procedure_type": "希望制指名競争入札",
-    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "2026-07-24",
-    "fetched_date": "2026-08-23",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-08-23T00:57:24+00:00"
-    }
-  },
   "etokyo_2026:13:115:00826": {
     "source": "etokyo",
     "key": "etokyo_2026:13:115:00826",
