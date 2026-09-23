@@ -1,81 +1,4 @@
 {
-  "etokyo_2026:13:115:00826": {
-    "source": "etokyo",
-    "key": "etokyo_2026:13:115:00826",
-    "project_name": "杉並区立天沼中学校プール等解体工事",
-    "org_name": "杉並区",
-    "pref_name": "東京都",
-    "city_name": "杉並区",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-24T09:00:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
-    "attachments": [
-      {
-        "name": "公告文（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/etokyo_2026_13_115_00826_1.pdf"
-      }
-    ],
-    "location": "東京都杉並区本天沼三丁目１０番２０号",
-    "bid_deadline": "2026-09-15T17:00:00",
-    "opening_date": "2026-09-16T10:00:00",
-    "application_deadline": "2026-08-26T15:00:00",
-    "fetched_date": "2026-08-24",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-24T00:55:43+00:00",
-      "planned_price": "42,705,300円",
-      "region_requirement": "杉並区内の業者（杉並区内に本店を有する者又は、杉並区内に代理人を置き、支店・支社・営業所を有する者で区内業者の認定を受けた者）の参加資格",
-      "koki": "契約締結の翌日から令和9年3月19日まで",
-      "application_deadline": "2026-08-26T15:00:00",
-      "bid_deadline": "2026-09-15T17:00:00",
-      "opening_date": "2026-09-16T10:00:00",
-      "summary": "杉並区立天沼中学校のプール槽、プール棟、ポンプ室の解体工事と、テニスコート外構の一部解体工事を行います。敷地面積11,601.00㎡、延床面積590㎡の鉄筋コンクリート造、コンクリートブロック造の建物が対象です。外構、電気、給排水衛生、空気調和設備の撤去工事を含みます。"
-    }
-  },
-  "jkk_21095": {
-    "source": "jkk",
-    "key": "jkk_21095",
-    "project_name": "都営練馬富士見台三丁目アパート（１、２号棟）除却工事",
-    "org_name": "東京都住宅供給公社（JKK東京）",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "015"
-    ],
-    "cft_issue_date": "2026-08-24T09:00:00",
-    "procedure_type": "希望制",
-    "doc_uri": "https://www.to-kousya.or.jp/keiyaku/nyusatu/index.html",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-10-06T17:00:00",
-    "opening_date": "2026-10-07T10:00:00",
-    "application_deadline": "2026-08-28T16:00:00",
-    "fetched_date": "2026-08-24",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-24T00:55:43+00:00",
-      "planned_price": "5713万1800円（税込）",
-      "region_requirement": null,
-      "koki": "2026/10/15から2027/02/22",
-      "application_deadline": "2026-08-28T16:00:00",
-      "bid_deadline": "2026-10-06T17:00:00",
-      "opening_date": "2026-10-07T10:00:00",
-      "summary": "都営練馬富士見台三丁目アパート（１、２号棟）の除却工事です。本案件は最低制限価格が設定されており、発注者指定方式による週休２日促進工事の対象案件です。"
-    }
-  },
   "etokyo_2026:13:115:00855": {
     "source": "etokyo",
     "key": "etokyo_2026:13:115:00855",
@@ -4281,6 +4204,42 @@
       "bid_deadline": "2026-09-18T17:00:00",
       "opening_date": "2026-09-25T15:30:00",
       "summary": "千葉県立旭テクノスクールNC機械加工科実習場B棟外解体工事は、老朽化した機械加工科の実習棟（NC機械加工科実習場B棟、渡り廊下、車庫など計4棟）の解体工事一式です。本工事は事後審査Ⅱ型および総合評価方式（特別簡易型B）が適用されます。"
+    }
+  },
+  "tokyometro_3539491779294313": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539491779294313",
+    "project_name": "警視庁体育センター倉庫棟ほか撤去工事",
+    "org_name": "警視庁総務部用度課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-07-21",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都東大和市桜が丘三丁目４４番４号",
+    "bid_deadline": "",
+    "opening_date": "2026-08-31T09:00:00",
+    "application_deadline": "2026-07-24",
+    "fetched_date": "2026-09-23",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-23T02:47:21+00:00",
+      "planned_price": "25,919,300円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から令和8年12月18日まで",
+      "application_deadline": "2026-07-24T16:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-08-31T09:00:00",
+      "summary": "警視庁体育センター倉庫棟、食堂棟、更衣室棟、電気設備、機械設備、グラウンド設備の一式撤去工事です。外構整備の新設も含まれます。本工事は電子契約サービスの対象案件です。"
     }
   }
 }
