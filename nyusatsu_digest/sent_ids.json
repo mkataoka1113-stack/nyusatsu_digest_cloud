@@ -1,184 +1,4 @@
 {
-  "pportal_635213": {
-    "source": "pportal",
-    "key": "pportal_635213",
-    "project_name": "【東京航空局】東京国際空港東西地下連絡通路D階段外2件解体実施設計",
-    "org_name": "国土交通省",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-26",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=j6gBxB1x9ylEzJgWtnixRTBQlAFVDJ8zXOvZ3Rs0UBU%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-08-27",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-27T06:36:27+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": null,
-      "opening_date": null,
-      "summary": "本案件は、東京航空局による東京国際空港東西地下連絡通路D階段外2件の解体実施設計に関する一般競争入札の公告である。調達種別はWTO対象外の簡易工事に分類される。公告内容は国土交通省のウェブサイトに掲載されている。"
-    }
-  },
-  "pportal_635379": {
-    "source": "pportal",
-    "key": "pportal_635379",
-    "project_name": "国有財産（船舶）解体処分（汽船きいかぜ）等",
-    "org_name": "国土交通省",
-    "pref_name": "兵庫県",
-    "city_name": "",
-    "pref_code": "28",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-27",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=0fOr5YL2v6%2B7v4TOZf0zlEY4XW3lYRSgL%2F6NpSqVHgQ%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-08-27",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-27T06:36:27+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": null,
-      "opening_date": null,
-      "summary": "本公告は、国土交通省による国有財産（船舶）解体処分（汽船きいかぜ）等の一般競争入札に関するものです。詳細情報は第五管区海上保安本部ホームページで確認できます。不明な点があれば、第五管区海上保安本部経理補給部経理課に問い合わせ可能です。"
-    }
-  },
-  "dG9jaGlnaS9uYXN1c2hpb2JhcmFfY2l0eS8yMDI2LzIwMjYwODI2XzAxMDE0Cg==": {
-    "source": "kkj",
-    "key": "dG9jaGlnaS9uYXN1c2hpb2JhcmFfY2l0eS8yMDI2LzIwMjYwODI2XzAxMDE0Cg==",
-    "project_name": "126064 那珂川河畔公園トイレ解体工事 (PDFファイル: 403.8KB)",
-    "org_name": "栃木県那須塩原市",
-    "pref_name": "栃木県",
-    "city_name": "那須塩原市",
-    "pref_code": "09",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-26T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.nasushiobara.tochigi.jp/material/files/group/10/126064_koukoku.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-09-07T17:00:00",
-    "opening_date": "2026-09-08T13:33:00",
-    "application_deadline": "2026-09-01T17:00:00",
-    "fetched_date": "2026-08-27",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-27T06:36:27+00:00",
-      "planned_price": "金4,980,000円（消費税を含まない額）",
-      "region_requirement": "那須塩原市内に建設業法(昭和２４年法律第１００号)第３条第１項に基づき設置された本店があること。",
-      "koki": "令和8年9月29日 から 令和8年11月17日 まで",
-      "application_deadline": "2026-09-01T17:00:00",
-      "bid_deadline": "2026-09-07T17:00:00",
-      "opening_date": "2026-09-08T13:33:00",
-      "summary": "那珂川河畔公園のトイレ解体工事一式。鉄骨造平屋建ての公園トイレ（延べ面積35.32㎡）の解体、アスベスト材撤去、外構撤去（アスファルト舗装、フェンス、浸透桝）、樹木伐採・伐根が含まれる。"
-    }
-  },
-  "bWllL3NoaW1hX2NpdHkvMjAyNi8yMDI2MDgyNl8wMjA5MAo=": {
-    "source": "kkj",
-    "key": "bWllL3NoaW1hX2NpdHkvMjAyNi8yMDI2MDgyNl8wMjA5MAo=",
-    "project_name": "旧大王放課後児童クラブほか1件解体工事",
-    "org_name": "三重県志摩市",
-    "pref_name": "三重県",
-    "city_name": "志摩市",
-    "pref_code": "24",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-26T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.shima.mie.jp/material/files/group/7/0301uchiwakeshotoR080909.pdf",
-    "attachments": [
-      {
-        "name": "仕様書等 (圧縮ファイル: 13.0MB)",
-        "uri": "https://www.city.shima.mie.jp/material/files/group/7/0304shiyoushoR080909.zip"
-      }
-    ],
-    "location": "１ 工事場所Ⅱ．工事概要 Ⅱ．工事概要",
-    "bid_deadline": "2026-09-09T09:40:00",
-    "opening_date": "2026-09-09T09:40:00",
-    "application_deadline": "2026-09-03T17:00:00",
-    "fetched_date": "2026-08-27",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-27T06:36:27+00:00",
-      "planned_price": "42,940,000円（消費税及び地方消費税除く）",
-      "region_requirement": "市内業者",
-      "koki": "契約日～令和9年2月26日",
-      "application_deadline": "2026-09-03T17:00:00",
-      "bid_deadline": "2026-09-09T09:40:00",
-      "opening_date": "2026-09-09T09:40:00",
-      "summary": "旧大王放課後児童クラブと旧医師住宅の解体工事一式および外構付帯工事一式。旧大王放課後児童クラブはRC造644.01㎡、旧医師住宅はRC造137.42㎡の解体が含まれる。本工事は土日完全週休2日制工事試行案件であり、情報共有システム(ASP方式)試行案件でもある。"
-    }
-  },
-  "Z292OS9taW50X2dvLzIwMjYvMjAyNjA4MjZfMDIyODUK": {
-    "source": "kkj",
-    "key": "Z292OS9taW50X2dvLzIwMjYvMjAyNjA4MjZfMDIyODUK",
-    "project_name": "竪型圧印機解体搬出作業（さいたま支局） 一式 令和8年9月11日",
-    "org_name": "独立行政法人造幣局",
-    "pref_name": "大阪府",
-    "city_name": "大阪市",
-    "pref_code": "27",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-26T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.mint.go.jp/about/bid/nyusatsu/nyusatsu-honkyoku/260805271.html",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-08-27",
-    "notified": [],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-08-27T06:36:27+00:00"
-    }
-  },
   "tokyometro_3539411929091210": {
     "source": "tokyometro",
     "key": "tokyometro_3539411929091210",
@@ -4017,6 +3837,113 @@
       "bid_deadline": "2026-10-16T14:00:00",
       "opening_date": "2026-10-19T10:50:00",
       "summary": "本工事は、綾部市中筋町に位置する木造2階建ての中筋教育集会所・老人憩の家の解体工事です。解体面積は257㎡、アスファルト舗装483㎡を含みます。電子入札による条件付一般競争入札で実施されます。"
+    }
+  },
+  "c2VhcmNoL2tlaXlha3VfaGlyb3NoaW1hX2NpdHkvMjAyNi8yMDI2MDkyNV8wNDY1Mwo=": {
+    "source": "kkj",
+    "key": "c2VhcmNoL2tlaXlha3VfaGlyb3NoaW1hX2NpdHkvMjAyNi8yMDI2MDkyNV8wNDY1Mwo=",
+    "project_name": "落合東集会所解体工事",
+    "org_name": "広島県広島市",
+    "pref_name": "広島県",
+    "city_name": "広島市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-25T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://ppi.keiyaku.city.hiroshima.lg.jp/PPI_P/DownLoad/202610041200101.pdf",
+    "attachments": [
+      {
+        "name": "05 労務費ダンピング調査の試行実施について",
+        "uri": "https://ppi.keiyaku.city.hiroshima.lg.jp/PPI_P/DownLoad/202610041200105.docx"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-10-13T16:00:00",
+    "opening_date": "令和８年１０月１４日",
+    "application_deadline": "",
+    "fetched_date": "2026-09-26",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-26T02:56:55+00:00",
+      "planned_price": "落札決定後に公表",
+      "region_requirement": "広島市内に本店を有していること。",
+      "koki": "契約締結の日から１２０日間",
+      "application_deadline": null,
+      "bid_deadline": "2026-10-13T16:00:00",
+      "opening_date": "2026-10-14T10:00:00",
+      "summary": "安佐北区落合五丁目にある落合東集会所（鉄骨造2階建、延べ面積約400平方メートル）の解体工事です。外構解体撤去後の整地、および建築物解体に伴う電気・機械設備の撤去が含まれます。"
+    }
+  },
+  "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjA5MjVfMDM0OTMK": {
+    "source": "kkj",
+    "key": "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjA5MjVfMDM0OTMK",
+    "project_name": "元川西警察署日の出交番庁舎外一件解体撤去工事",
+    "org_name": "国家公安委員会（警察庁）兵庫県警察",
+    "pref_name": "兵庫県",
+    "city_name": "神戸市",
+    "pref_code": "28",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-25T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.police.pref.hyogo.lg.jp/chotatu/kou_data/2026/A26092501.pdf",
+    "attachments": [],
+    "location": "川西市火打１丁目14－１、川西市小花２丁目１－６⑶ 工事概要 川西警察署日の出交番及び小花交番の廃止に伴い解体工事を行う",
+    "bid_deadline": "2026-10-14T14:00:00",
+    "opening_date": "2026-10-14T14:00:00",
+    "application_deadline": "2026-10-07T00:00:00",
+    "fetched_date": "2026-09-26",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-26T02:56:55+00:00",
+      "planned_price": null,
+      "region_requirement": "宝塚土木事務所、神戸土木事務所、西宮土木事務所、加東土木事務所及び丹波土木事務所管内のいずれかに解体工事業の許可を受けた主たる営業所を有していること。",
+      "koki": "着工の日より 120 日間",
+      "application_deadline": "2026-10-07T00:00:00",
+      "bid_deadline": "2026-10-14T14:00:00",
+      "opening_date": "2026-10-14T14:00:00",
+      "summary": "本工事は、元川西警察署日の出交番庁舎及び小花交番の廃止に伴う解体撤去工事です。川西市火打1丁目14-1および川西市小花2丁目1-6が工事場所となります。週休2日制度の対象工事です。"
+    }
+  },
+  "Z292NS9ub2tlbl9raWtvLzIwMjYvMjAyNjA5MjVfMDc3NDIK": {
+    "source": "kkj",
+    "key": "Z292NS9ub2tlbl9raWtvLzIwMjYvMjAyNjA5MjVfMDc3NDIK",
+    "project_name": "盛岡研究拠点施設整備工事に伴う赤平地区資料館解体工事",
+    "org_name": "国立研究開発法人農業・食品産業技術総合研究機構",
+    "pref_name": "",
+    "city_name": "",
+    "pref_code": "",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-25T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.naro.go.jp/supply/files/08k024.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-11-10T17:00:00",
+    "opening_date": "2026-11-11T11:00:00",
+    "application_deadline": "2026-10-13T17:00:00",
+    "fetched_date": "2026-09-26",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-26T02:56:55+00:00",
+      "planned_price": null,
+      "region_requirement": "岩⼿県内に建設業法に基づく本店（本社）・⽀店・営業所等があること",
+      "koki": "令和９年３⽉３１⽇まで",
+      "application_deadline": "2026-10-13T17:00:00",
+      "bid_deadline": "2026-11-10T17:00:00",
+      "opening_date": "2026-11-11T11:00:00",
+      "summary": "盛岡研究拠点施設整備工事に伴う赤平地区資料館の解体工事です。資料館（杭基礎含む）および附属工作物（自転車置き場、浄化槽、オイルタンク基礎）の解体、高木伐採・伐根が含まれます。工事場所は岩手県盛岡市下厨川字赤平4です。"
     }
   }
 }
