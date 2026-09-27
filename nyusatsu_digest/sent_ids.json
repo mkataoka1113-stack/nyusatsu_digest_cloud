@@ -1,74 +1,4 @@
 {
-  "tokyometro_3539411929091210": {
-    "source": "tokyometro",
-    "key": "tokyometro_3539411929091210",
-    "project_name": "令和８年度八丈島港湾宿舎解体工事",
-    "org_name": "八丈支庁総務課",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3101"
-    ],
-    "cft_issue_date": "2026-08-28",
-    "procedure_type": "希望制指名競争入札",
-    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
-    "attachments": [],
-    "location": "東京都八丈島八丈町大賀郷691番地２",
-    "bid_deadline": "",
-    "opening_date": "2026-10-05T09:15:00",
-    "application_deadline": "2026-09-03",
-    "fetched_date": "2026-08-28",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-28T08:26:12+00:00",
-      "planned_price": "29,062,000円（消費税率10％）",
-      "region_requirement": "原則として八丈支庁管内(八丈島又は青ヶ島)に事務所(営業所)を有する事業者を優先して指名します。",
-      "koki": "契約確定の日の翌日から令和9年3月12日まで",
-      "application_deadline": "2026-09-03T15:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-10-05T09:15:00",
-      "summary": "本工事は、東京都八丈島八丈町大賀郷691番地２において、港湾宿舎２棟（木造平屋建て、アスベスト含有建材あり）の解体と外構撤去・整備を行うものです。履行期間は契約確定の翌日から2027年3月12日までです。"
-    }
-  },
-  "aGlyb3NoaW1hL2t1cmVzaGkvMjAyOC8yMDI4MDgyN18wMzExNAo=": {
-    "source": "kkj",
-    "key": "aGlyb3NoaW1hL2t1cmVzaGkvMjAyOC8yMDI4MDgyN18wMzExNAo=",
-    "project_name": "青山クラブ・桜松館解体撤去工事設計委託",
-    "org_name": "広島県呉市",
-    "pref_name": "広島県",
-    "city_name": "呉市",
-    "pref_code": "34",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-27T19:42:36+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.kure.lg.jp/~koji/files/000000000000041390.PDF",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-09-09T16:00:00",
-    "opening_date": "2026-09-10T16:00:00",
-    "application_deadline": "",
-    "fetched_date": "2026-08-28",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-28T08:26:12+00:00",
-      "planned_price": "18,740,000円(消費税抜き)",
-      "region_requirement": null,
-      "koki": "令和9年3月30日",
-      "application_deadline": null,
-      "bid_deadline": "2026-09-09T16:00:00",
-      "opening_date": "2026-09-10T16:00:00",
-      "summary": "青山クラブ・桜松館の解体撤去工事に関する設計委託業務です。解体工事設計一式と石綿含有分析調査一式が含まれます。本業務は電子入札システムを利用して行われます。"
-    }
-  },
   "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjA4MzFfMDM0NDQK": {
     "source": "kkj",
     "key": "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjA4MzFfMDM0NDQK",
@@ -3944,6 +3874,42 @@
       "bid_deadline": "2026-11-10T17:00:00",
       "opening_date": "2026-11-11T11:00:00",
       "summary": "盛岡研究拠点施設整備工事に伴う赤平地区資料館の解体工事です。資料館（杭基礎含む）および附属工作物（自転車置き場、浄化槽、オイルタンク基礎）の解体、高木伐採・伐根が含まれます。工事場所は岩手県盛岡市下厨川字赤平4です。"
+    }
+  },
+  "tokyometro_3539591720233510": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539591720233510",
+    "project_name": "東京消防庁旧三河島家族待機宿舎（８）解体工事",
+    "org_name": "東京消防庁総務部経理契約課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-08-26",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都荒川区荒川七丁目７番２号",
+    "bid_deadline": "",
+    "opening_date": "2026-10-21T09:15:00",
+    "application_deadline": "2026-09-01",
+    "fetched_date": "2026-09-27",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-27T02:59:32+00:00",
+      "planned_price": "73,249,000円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から令和9年5月31日まで",
+      "application_deadline": "2026-09-01T16:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-10-21T09:15:00",
+      "summary": "本件は、東京都荒川区荒川七丁目7番2号に位置する東京消防庁旧三河島家族待機宿舎（8）の解体工事です。敷地面積は466.73平方メートルで、鉄筋コンクリート造地上4階建ての宿舎本体、鉄骨造平屋倉庫の付属棟、電気設備、機械設備の解体が含まれます。"
     }
   }
 }
