@@ -1,167 +1,4 @@
 {
-  "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjA4MzFfMDM0NDQK": {
-    "source": "kkj",
-    "key": "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjA4MzFfMDM0NDQK",
-    "project_name": "元加古川警察署稲美東交番庁舎外二件解体撤去工事",
-    "org_name": "国家公安委員会（警察庁）兵庫県警察",
-    "pref_name": "兵庫県",
-    "city_name": "神戸市",
-    "pref_code": "28",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-31T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.police.pref.hyogo.lg.jp/chotatu/kou_data/2026/A26083101.pdf",
-    "attachments": [],
-    "location": "加古郡稲美町野寺穴沢56、加古川市上荘町国包字舟町浦711番５加古川市志方町志方町宿ノ浦1552－２⑶ 工事概要 加古川",
-    "bid_deadline": "",
-    "opening_date": "2026-09-16T11:00:00",
-    "application_deadline": "2026-09-10T00:00:00",
-    "fetched_date": "2026-08-29",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-29T05:06:05+00:00",
-      "planned_price": null,
-      "region_requirement": "加古川土木事務所、神戸土木事務所、加東土木事務所及び姫路土木事務所管内のいずれかに解体工事業の許可を受けた主たる営業所を有していること。",
-      "koki": "着工の日より 150 日間",
-      "application_deadline": "2026-09-10T00:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-09-16T11:00:00",
-      "summary": "本工事は、元加古川警察署稲美東交番庁舎外二件解体撤去工事であり、加古川警察署稲美東交番、八幡交番及び志方交番の廃止に伴う解体工事です。工期は着工の日より150日間で、週休2日制度の対象工事です。"
-    }
-  },
-  "eWFtYWdhdGEvdHN1cnVva2FfbmN0LzIwMjYvMjAyNjA4MjhfMDAwOTUK": {
-    "source": "kkj",
-    "key": "eWFtYWdhdGEvdHN1cnVva2FfbmN0LzIwMjYvMjAyNjA4MjhfMDAwOTUK",
-    "project_name": "【一般競争入札／工事】鶴岡工業高専職員宿舎解体工事",
-    "org_name": "独立行政法人国立高等専門学校機構鶴岡工業高等専門学校",
-    "pref_name": "山形県",
-    "city_name": "鶴岡市",
-    "pref_code": "06",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-28T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.tsuruoka-nct.ac.jphttps://www.tsuruoka-nct.ac.jp/wp-content/uploads/2026/08/koukoku260828.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-08-29",
-    "notified": [],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-08-29T05:06:05+00:00"
-    }
-  },
-  "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjA4MjhfMDQzNzkK": {
-    "source": "kkj",
-    "key": "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjA4MjhfMDQzNzkK",
-    "project_name": "松契一般第205号 松戸駅西口高架下自転車駐車場管理棟解体工事（PDF：146KB）",
-    "org_name": "千葉県松戸市",
-    "pref_name": "千葉県",
-    "city_name": "松戸市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-28T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/R8-0828kouji1w.files/205.pdf",
-    "attachments": [
-      {
-        "name": "松契一般第205号 設計図書（PDF：2,729KB）",
-        "uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/R8-0828kouji1w.files/205s.pdf"
-      }
-    ],
-    "location": "松戸市根本１６番地※本工事は、松戸市が指定する電子契約サービスを用いた電子契約の対象案件である",
-    "bid_deadline": "2026-09-17T11:00:00",
-    "opening_date": "令和8年9月17日",
-    "application_deadline": "2026-09-03T11:00:00",
-    "fetched_date": "2026-08-29",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-29T05:06:05+00:00",
-      "planned_price": "４，５６０，０００円（税抜き)",
-      "region_requirement": "松戸市内に本店を有すること",
-      "koki": "契約締結日の翌日から令和9年1月31日まで",
-      "application_deadline": "2026-09-03T11:00:00",
-      "bid_deadline": "2026-09-17T11:00:00",
-      "opening_date": "2026-09-28T14:10:00",
-      "summary": "本工事は、松戸駅西口高架下自転車駐車場管理棟の解体及び撤去を行うものです。管理棟の解体・撤去、内部造作・残置物の解体・撤去、外構の舗装・付属物の解体・撤去、給水管・排水管・引込み電線の撤去、道路の仮復旧・本復旧、舗装の新設及び白線引きが含まれます。本工事は週休2日制適用工事であり、電子契約の対象案件です。"
-    }
-  },
-  "YWljaGkva29tYWtpX2NpdHkvMjAyNi8yMDI2MDgyOF8wMDkwOQo=": {
-    "source": "kkj",
-    "key": "YWljaGkva29tYWtpX2NpdHkvMjAyNi8yMDI2MDgyOF8wMDkwOQo=",
-    "project_name": "温水プール解体工事（週休2日制工事）",
-    "org_name": "愛知県小牧市",
-    "pref_name": "愛知県",
-    "city_name": "小牧市",
-    "pref_code": "23",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-28T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.city.komaki.aichi.jp/material/files/group/5/koukoku10124861.pdf",
-    "attachments": [],
-    "location": "小牧市大字野口2394番地3工期ステム",
-    "bid_deadline": "2026-10-27T17:00:00",
-    "opening_date": "令和08年10月26日",
-    "application_deadline": "2026-09-30T17:00:00",
-    "fetched_date": "2026-08-29",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-29T05:06:05+00:00",
-      "planned_price": "金1,089,000,000円（この金額は消費税及び地方消費税相当額を除いた金額である。）",
-      "region_requirement": "小牧市建設工事入札参加資格者名簿に登載されている者であること。小牧市内に本店または支店を有すること、または愛知県内に本店または支店を有すること。",
-      "koki": "2027年1月5日 ～ 2029年6月22日",
-      "application_deadline": "2026-09-30T17:00:00",
-      "bid_deadline": "2026-10-27T17:00:00",
-      "opening_date": "2026-10-28T09:30:00",
-      "summary": "本工事は温水プール解体工事であり、敷地内建物の撤去（建築面積5,022m2、延床面積6,660m2、地下1F、地上2F、RC造一部S造）を含む。また、敷地内工作物、舗装、植栽、雨水配管の撤去と撤去後の敷地整備も含まれる。本工事は週休2日制工事として実施される。"
-    }
-  },
-  "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDgvMjAyNjA4MjdfNzgxMDAK": {
-    "source": "kkj",
-    "key": "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDgvMjAyNjA4MjdfNzgxMDAK",
-    "project_name": "国有財産（船舶）解体処分（汽船きいかぜ）等",
-    "org_name": "国土交通省",
-    "pref_name": "兵庫県",
-    "city_name": "",
-    "pref_code": "28",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-27T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-08-29",
-    "notified": [],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-08-29T05:06:05+00:00"
-    }
-  },
   "tokyometro_3539791939297311": {
     "source": "tokyometro",
     "key": "tokyometro_3539791939297311",
@@ -3910,6 +3747,151 @@
       "bid_deadline": null,
       "opening_date": "2026-10-21T09:15:00",
       "summary": "本件は、東京都荒川区荒川七丁目7番2号に位置する東京消防庁旧三河島家族待機宿舎（8）の解体工事です。敷地面積は466.73平方メートルで、鉄筋コンクリート造地上4階建ての宿舎本体、鉄骨造平屋倉庫の付属棟、電気設備、機械設備の解体が含まれます。"
+    }
+  },
+  "tokyometro_3539411929091210": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539411929091210",
+    "project_name": "令和８年度八丈島港湾宿舎解体工事",
+    "org_name": "八丈支庁総務課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-08-28",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都八丈島八丈町大賀郷691番地２",
+    "bid_deadline": "",
+    "opening_date": "2026-10-05T09:15:00",
+    "application_deadline": "2026-09-03",
+    "fetched_date": "2026-09-28",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-28T03:00:58+00:00",
+      "planned_price": "29,062,000円（消費税率10％）",
+      "region_requirement": "原則として八丈支庁管内(八丈島又は青ヶ島)に事務所(営業所)を有する事業者を優先して指名します。",
+      "koki": "契約確定の日の翌日から令和9年3月12日まで",
+      "application_deadline": "2026-09-03T15:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-10-05T09:15:00",
+      "summary": "本工事は、東京都八丈島八丈町大賀郷691番地２において、港湾宿舎２棟（木造平屋建て、アスベスト含有建材あり）の解体と外構撤去・整備を行うものです。履行期間は契約確定の翌日から2027年3月12日までです。"
+    }
+  },
+  "jkk_21158": {
+    "source": "jkk",
+    "key": "jkk_21158",
+    "project_name": "都営亀戸七丁目アパート（１～３号棟）除却工事",
+    "org_name": "東京都住宅供給公社（JKK東京）",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "015"
+    ],
+    "cft_issue_date": "2026-09-28T09:00:00",
+    "procedure_type": "希望制",
+    "doc_uri": "https://www.to-kousya.or.jp/keiyaku/nyusatu/index.html",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-11-05T17:00:00",
+    "opening_date": "2026-11-06T10:00:00",
+    "application_deadline": "2026-10-02T16:00:00",
+    "fetched_date": "2026-09-28",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-28T03:00:58+00:00",
+      "planned_price": "1億3880万9000円（税込）",
+      "region_requirement": null,
+      "koki": "2026/11/13から2027/06/15",
+      "application_deadline": "2026-10-02T16:00:00",
+      "bid_deadline": "2026-11-05T17:00:00",
+      "opening_date": "2026-11-06T10:00:00",
+      "summary": "都営亀戸七丁目アパート（１～３号棟）の除却工事です。本案件は最低制限価格が設定されており、発注者指定方式による週休２日促進工事の対象案件です。"
+    }
+  },
+  "chiba_a690ca6e46303676": {
+    "source": "chiba",
+    "key": "chiba_a690ca6e46303676",
+    "project_name": "黒生町市営住宅解体工事",
+    "org_name": "銚子市  市長部局  財政課管財室",
+    "pref_name": "千葉県",
+    "city_name": "銚子市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-09-28",
+    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "01公告（黒生町市営住宅解体工事）（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_a690ca6e46303676_1.pdf"
+      }
+    ],
+    "location": "銚子市黒生町７２３５番地",
+    "bid_deadline": "2026-10-13T16:00:00",
+    "opening_date": "2026-10-14T11:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-09-28",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-28T03:00:58+00:00",
+      "planned_price": "69,421,000円（税込）",
+      "region_requirement": "市内本・支店",
+      "koki": "契約締結日の翌日から１０５日間",
+      "application_deadline": null,
+      "bid_deadline": "2026-10-13T16:00:00",
+      "opening_date": "2026-10-14T11:00:00",
+      "summary": "銚子市黒生町7235番地にて黒生町市営住宅の解体工事一式が行われます。工期は契約締結日の翌日から105日間です。予定価格は69,421,000円（税込）です。"
+    }
+  },
+  "pportal_638736": {
+    "source": "pportal",
+    "key": "pportal_638736",
+    "project_name": "福岡法務局旧吉井法務総合庁舎解体工事に伴い発生する有価材の売払契約",
+    "org_name": "法務省",
+    "pref_name": "福岡県",
+    "city_name": "",
+    "pref_code": "40",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-28",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=0PfZVs6ysr7G1lj%2FbLj6%2Bd%2Fk2gxDC2QHzYg4%2FKzjIuw%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-10-20T17:00:00",
+    "opening_date": "2026-10-21T13:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-09-28",
+    "notified": [],
+    "enrich": {
+      "status": "llm_failed",
+      "provider": "",
+      "enriched_at": "2026-09-28T03:00:58+00:00"
     }
   }
 }
