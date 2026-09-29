@@ -3893,5 +3893,203 @@
       "provider": "",
       "enriched_at": "2026-09-28T03:00:58+00:00"
     }
+  },
+  "chiba_5f2f0362559cb7b8": {
+    "source": "chiba",
+    "key": "chiba_5f2f0362559cb7b8",
+    "project_name": "農業改良普及所旧君津中部支所解体工事",
+    "org_name": "千葉県  県土整備部  建設・不動産業課",
+    "pref_name": "千葉県",
+    "city_name": "君津市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-09-29",
+    "procedure_type": "事後審査）千葉県 ・ 価格競争 ・ 事後審査２型 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "01_公告_個別編（単独）_260330改正（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_5f2f0362559cb7b8_1.pdf"
+      },
+      {
+        "name": "02_公告_共通編（価格競争方式）_250930改正（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_5f2f0362559cb7b8_2.pdf"
+      }
+    ],
+    "location": "君津市糠田",
+    "bid_deadline": "2026-10-28T17:00:00",
+    "opening_date": "2026-10-30T14:20:00",
+    "application_deadline": "2026-10-23T17:00:00",
+    "fetched_date": "2026-09-29",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-29T03:39:40+00:00",
+      "planned_price": "24,420,000円（税込み）",
+      "region_requirement": "県内に資格者名簿に登載された主たる営業所（本店）を有する者",
+      "koki": "令和９年３月１２日限り",
+      "application_deadline": "2026-10-23T17:00:00",
+      "bid_deadline": "2026-10-28T17:00:00",
+      "opening_date": "2026-10-30T14:20:00",
+      "summary": "未利用となっている農業改良普及所旧君津中部支所の事務所および車庫・倉庫の解体工事です。事務所は補強コンクリートブロック造平家建て、車庫・倉庫は木造平屋建てで、これら建築物及び外構に係る解体工事一式を行います。"
+    }
+  },
+  "bmlpZ2F0YS9hZ2FfdG93bi8yMDI2LzIwMjYwOTI4XzAwMTczCg==": {
+    "source": "kkj",
+    "key": "bmlpZ2F0YS9hZ2FfdG93bi8yMDI2LzIwMjYwOTI4XzAwMTczCg==",
+    "project_name": "1(563)菱潟公衆便所解体工事",
+    "org_name": "新潟県阿賀町",
+    "pref_name": "新潟県",
+    "city_name": "阿賀町",
+    "pref_code": "15",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-28T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.town.aga.niigata.jp/material/files/group/3/08-563.xls",
+    "attachments": [
+      {
+        "name": "1(563)設計図書 (PDFファイル: 1.3MB)",
+        "uri": "https://www.town.aga.niigata.jp/material/files/group/3/0801008-563.pdf"
+      }
+    ],
+    "location": ",阿賀町 豊実 地内,工事期間,契約日から９０日間,工事概要,建物解体撤去 Ｎ＝１箇所, 仮設工 Ａ＝９０㎡, コンクリ",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-09-29",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-29T03:39:40+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "90日間",
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本工事は、阿賀町豊実(菱潟)地内にて菱潟公衆便所の解体工事を行うものです。仮設工A=90m²、コンクリート建物解体工A=10㎡、浄化槽撤去N=1基が含まれます。"
+    }
+  },
+  "aG9ra2FpZG8yL3NpbnJpbmthbnJpa3lva3UvMjAyNi8yMDI2MDkyOF8xMjExMgo=": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8yL3NpbnJpbmthbnJpa3lva3UvMjAyNi8yMDI2MDkyOF8xMjExMgo=",
+    "project_name": "網走中部森林管理署常呂事業宿舎解体撤去工事（電子入札対象案件）（電子契約試行対象案件）",
+    "org_name": "林野庁北海道森林管理局",
+    "pref_name": "北海道",
+    "city_name": "札幌市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-28T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.rinya.maff.go.jp/hokkaido/apply/publicsale/abasirichubu/attach/pdf/260928-1.pdf",
+    "attachments": [
+      {
+        "name": "仕様書等1(PDF : 894KB)",
+        "uri": "https://www.rinya.maff.go.jp/hokkaido/apply/publicsale/abasirichubu/attach/pdf/260928-2.pdf"
+      },
+      {
+        "name": "仕様書等2(PDF : 1,828KB)",
+        "uri": "https://www.rinya.maff.go.jp/hokkaido/apply/publicsale/abasirichubu/attach/pdf/260928-3.pdf"
+      }
+    ],
+    "location": "北海道北見市常呂町日吉217番２",
+    "bid_deadline": "2026-10-26T10:00:00",
+    "opening_date": "2026-10-26T10:00:00",
+    "application_deadline": "2026-10-09T17:00:00",
+    "fetched_date": "2026-09-29",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-29T03:39:40+00:00",
+      "planned_price": null,
+      "region_requirement": "建設業法に基づく本店、支店又は営業所が、北海道森林管理局管内（北海道内）に所在すること。また、経常建設共同企業体として申請書及び資料を提出する場合は、有資格者名簿に記載されている共同企業体の本店所在地が、上記区域内であること。",
+      "koki": "契約締結日の翌日から令和９年１月 29日まで",
+      "application_deadline": "2026-10-09T17:00:00",
+      "bid_deadline": "2026-10-26T10:00:00",
+      "opening_date": "2026-10-26T10:00:00",
+      "summary": "本工事は、網走中部森林管理署常呂事業宿舎の解体撤去工事です。北海道北見市常呂町日吉217番2に位置し、電子入札および電子契約システム試行対象案件です。建設工事に係る資材の再資源化等に関する法律に基づき、分別解体等及び特定建設資材廃棄物の再資源化等が義務付けられています。"
+    }
+  },
+  "Z292Ny9uYWx0ZWMvMjAyNi8yMDI2MDkyOF8wMTY5OAo=": {
+    "source": "kkj",
+    "key": "Z292Ny9uYWx0ZWMvMjAyNi8yMDI2MDkyOF8wMTY5OAo=",
+    "project_name": "九州検査部旧自動車検査場解体工事に係る設計業務",
+    "org_name": "独立行政法人自動車技術総合機構",
+    "pref_name": "東京都",
+    "city_name": "新宿区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-28T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.naltec.go.jp/publication/i5ss5i0000001rvo-att/i5ss5i0000001rvz.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-10-15T00:00:00+09:00",
+    "opening_date": "2026-10-15T13:30:00",
+    "application_deadline": "",
+    "fetched_date": "2026-09-29",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-29T03:39:40+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": "2026-10-15T13:30:00",
+      "opening_date": "2026-10-15T13:30:00",
+      "summary": "独立行政法人自動車技術総合機構 九州検査部にて入札が実施されます。落札者の決定は最低価格落札方式で行われます。契約に係る情報は、独立行政法人の情報公開方針に基づき公表されます。"
+    }
+  },
+  "Z292Ny9ob3VtdWt5b2t1LzIwMjYvMjAyNjA5MjhfMDg5MjYK": {
+    "source": "kkj",
+    "key": "Z292Ny9ob3VtdWt5b2t1LzIwMjYvMjAyNjA5MjhfMDg5MjYK",
+    "project_name": "福岡法務局旧吉井法務総合庁舎解体工事に伴い発生する有 価材の売払契約",
+    "org_name": "法務省福岡法務局",
+    "pref_name": "福岡県",
+    "city_name": "福岡市",
+    "pref_code": "40",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-28T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://houmukyoku.moj.go.jp/fukuoka/content/001470725.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "令和８年１０月５日",
+    "opening_date": "令和８年１０月５日",
+    "application_deadline": "2026-10-05T17:00:00",
+    "fetched_date": "2026-09-29",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-29T03:39:40+00:00",
+      "planned_price": null,
+      "region_requirement": "九州・沖縄地域の競争参加資格を有する者",
+      "koki": "契約締結日から令和9年1月29日（金）まで",
+      "application_deadline": "2026-10-05T17:00:00",
+      "bid_deadline": "2026-10-20T17:00:00",
+      "opening_date": "2026-10-21T13:00:00",
+      "summary": "福岡法務局旧吉井法務総合庁舎の解体工事に伴い発生する有価材の売払契約です。入札金額は、当局が提示する売払物品の予定数量に1キログラム当たりの単価を乗じた額の予定数量売払時の総価を記載します。引渡場所は福岡県うきは市吉井町343番地5の福岡法務局旧吉井法務総合庁舎敷地内です。",
+      "opening_date_note": "入札締切と開札日が同一値になっています。AI抽出では2026-10-21T13:00:00 の可能性があるため、公告原本で開札日を確認してください。"
+    }
   }
 }
