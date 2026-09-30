@@ -1,74 +1,4 @@
 {
-  "tokyometro_3539791939297311": {
-    "source": "tokyometro",
-    "key": "tokyometro_3539791939297311",
-    "project_name": "都立武蔵丘高等学校(８)解体工事",
-    "org_name": "財務局経理部契約第一課",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3101"
-    ],
-    "cft_issue_date": "2026-07-31",
-    "procedure_type": "一般競争入札(技術実績評価型総合評価方式)",
-    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
-    "attachments": [],
-    "location": "東京都中野区上鷺宮二丁目14番１号",
-    "bid_deadline": "",
-    "opening_date": "2026-10-01T09:15:00",
-    "application_deadline": "2026-08-20",
-    "fetched_date": "2026-08-31",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-31T02:50:40+00:00",
-      "planned_price": "事後公表",
-      "region_requirement": null,
-      "koki": "契約確定の日の翌日から令和10年2月29日まで",
-      "application_deadline": "2026-08-20T16:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-10-01T09:15:00",
-      "summary": "都立武蔵丘高等学校の校舎棟、体育館、格技棟の解体工事です。校舎棟は鉄筋コンクリート造地上4階建て、体育館は鉄骨鉄筋コンクリート造地上2階建て、格技棟は鉄骨造地上1階建てです。その他工事一式も含まれます。"
-    }
-  },
-  "pportal_635679": {
-    "source": "pportal",
-    "key": "pportal_635679",
-    "project_name": "海上保安庁所属船舶解体処分",
-    "org_name": "国土交通省",
-    "pref_name": "新潟県",
-    "city_name": "",
-    "pref_code": "15",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-08-31",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-08-31",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-08-31T02:50:40+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": null,
-      "opening_date": null,
-      "summary": "本公告は、海上保安庁所属船舶の解体処分に関する一般競争入札の入札公告です。調達機関は国土交通省で、調達機関所在地は新潟県です。公告及び入札説明書等は指定されたURLに掲示されています。"
-    }
-  },
   "etokyo_2026:13:205:00620": {
     "source": "etokyo",
     "key": "etokyo_2026:13:205:00620",
@@ -4090,6 +4020,118 @@
       "opening_date": "2026-10-21T13:00:00",
       "summary": "福岡法務局旧吉井法務総合庁舎の解体工事に伴い発生する有価材の売払契約です。入札金額は、当局が提示する売払物品の予定数量に1キログラム当たりの単価を乗じた額の予定数量売払時の総価を記載します。引渡場所は福岡県うきは市吉井町343番地5の福岡法務局旧吉井法務総合庁舎敷地内です。",
       "opening_date_note": "入札締切と開札日が同一値になっています。AI抽出では2026-10-21T13:00:00 の可能性があるため、公告原本で開札日を確認してください。"
+    }
+  },
+  "eWFtYWdhdGEvdHN1cnVva2FfY2l0eS8yMDI2LzIwMjYwOTI5XzAyMjkwCg==": {
+    "source": "kkj",
+    "key": "eWFtYWdhdGEvdHN1cnVva2FfY2l0eS8yMDI2LzIwMjYwOTI5XzAyMjkwCg==",
+    "project_name": "9月29日公告（建築一式A）格付指定型一般競争入札の公告について 工事名：由良北側・白山島公衆便所解体工事",
+    "org_name": "山形県鶴岡市",
+    "pref_name": "山形県",
+    "city_name": "鶴岡市",
+    "pref_code": "06",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-29T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.tsuruoka.lg.jp/sangyo/nyusatsu/nyusatukoukoku/20260929koukoku2.files/20260929koukoku2-1.pdf",
+    "attachments": [
+      {
+        "name": "設計図 （PDF：3,814KB）",
+        "uri": "https://www.city.tsuruoka.lg.jp/sangyo/nyusatsu/nyusatukoukoku/20260929koukoku2.files/20260929koukoku2-3.pdf"
+      }
+    ],
+    "location": "鶴岡市由良地内",
+    "bid_deadline": "",
+    "opening_date": "2026-10-15T09:40:00",
+    "application_deadline": "2026-10-13T00:00:00",
+    "fetched_date": "2026-09-30",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-30T03:27:11+00:00",
+      "planned_price": "入札執行後に公表します。",
+      "region_requirement": "市内に本店を有すること。",
+      "koki": "令和8年10月22日から令和9年1月15日まで",
+      "application_deadline": "2026-10-13T00:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-10-15T09:40:00",
+      "summary": "鶴岡市由良地内において、由良北側・白山島公衆便所の解体工事を実施します。本工事は発注者指定型の週休2日（通期）確保工事です。予定価格は入札執行後に公表されます。"
+    }
+  },
+  "b2theWFtYS9va2F5YW1hX2NpdHkvMjAyNi8yMDI2MDkyOV8xMzAzOQo=": {
+    "source": "kkj",
+    "key": "b2theWFtYS9va2F5YW1hX2NpdHkvMjAyNi8yMDI2MDkyOV8xMzAzOQo=",
+    "project_name": "岡山市立旭公民館解体工事に伴う家屋事前調査業務委託",
+    "org_name": "岡山県岡山市",
+    "pref_name": "岡山県",
+    "city_name": "岡山市",
+    "pref_code": "33",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-29T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://keiyaku.city.okayama.jp/webftp/itaku/2026033811.pdf",
+    "attachments": [
+      {
+        "name": "1",
+        "uri": "https://keiyaku.city.okayama.jp/webftp/itaku/2026033811_1.zip"
+      }
+    ],
+    "location": "4 履行期限5 許容価格6 最低制限価格設定案件等7 支払条件8 支払方法10 契約不適合責任期間1 公告期間及び公告方",
+    "bid_deadline": "2026-10-14T16:00:00",
+    "opening_date": "令和8年10月8日",
+    "application_deadline": "令和8年10月19日",
+    "fetched_date": "2026-09-30",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-30T03:27:11+00:00",
+      "planned_price": "落札決定後に公表",
+      "region_requirement": null,
+      "koki": "契約確定の翌日から2年",
+      "application_deadline": null,
+      "bid_deadline": "2026-10-14T16:00:00",
+      "opening_date": "2026-10-15T09:06:00",
+      "summary": "岡山市立旭公民館解体工事に伴う家屋事前調査業務委託。木造建物（軽量鉄骨造含む）9棟、非木造建物1棟、工作物10戸の事前調査を行う。履行場所は岡山市北区広瀬町地内。"
+    }
+  },
+  "YW9tb3JpL3RzdWdhcnVfY2l0eS8yMDI2LzIwMjYwOTI5XzAwMjM2Cg==": {
+    "source": "kkj",
+    "key": "YW9tb3JpL3RzdWdhcnVfY2l0eS8yMDI2LzIwMjYwOTI5XzAwMjM2Cg==",
+    "project_name": "旧富萢保育所解体工事(PDFファイル:520.1KB)",
+    "org_name": "青森県つがる市",
+    "pref_name": "青森県",
+    "city_name": "つがる市",
+    "pref_code": "02",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-29T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.tsugaru.aomori.jp/material/files/group/12/2026fukuko4koukoku1.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-10-16T00:00:00+09:00",
+    "opening_date": "2026-10-16T10:00:00",
+    "application_deadline": "2026-10-06T17:00:00",
+    "fetched_date": "2026-09-30",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-09-30T03:27:11+00:00",
+      "planned_price": "¥31,680,000(税込)",
+      "region_requirement": "つがる市内に本店を有していること。",
+      "koki": "契約を締結した日の翌日からから令和9年3月25日まで",
+      "application_deadline": "2026-10-06T17:00:00",
+      "bid_deadline": "2026-10-15T00:00:00",
+      "opening_date": "2026-10-16T10:00:00",
+      "summary": "旧富萢保育所の解体工事。建築物、アスベスト含有建材、電気・機械設備、外部の解体撤去、および取り壊し材の積込・運搬・処理が含まれる。建設リサイクル法対象工事である。"
     }
   }
 }
