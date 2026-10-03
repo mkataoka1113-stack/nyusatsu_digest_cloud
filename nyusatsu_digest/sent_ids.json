@@ -1,269 +1,4 @@
 {
-  "etokyo_2026:13:209:00421": {
-    "source": "etokyo",
-    "key": "etokyo_2026:13:209:00421",
-    "project_name": "南第一小学校解体工事",
-    "org_name": "町田市",
-    "pref_name": "東京都",
-    "city_name": "町田市",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-03T00:00:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
-    "attachments": [
-      {
-        "name": "公告文（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/etokyo_2026_13_209_00421_1.pdf"
-      }
-    ],
-    "location": "東京都町田市南町田一丁目１０番１号",
-    "bid_deadline": "2026-10-28T12:00:00",
-    "opening_date": "2026-10-28T13:00:00",
-    "application_deadline": "2026-09-16T16:00:00",
-    "fetched_date": "2026-09-03",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-03T02:29:19+00:00",
-      "planned_price": "832,612,000円（消費税含む）",
-      "region_requirement": "町田市内に本店または契約の代理人としている営業所を有する者",
-      "koki": "契約確定日から2028年2月29日まで",
-      "application_deadline": "2026-09-16T16:00:00",
-      "bid_deadline": "2026-10-28T12:00:00",
-      "opening_date": "2026-10-28T13:00:00",
-      "summary": "本工事は、南第一小学校の敷地内建築物（校舎棟、体育館棟、プール、学童クラブ、外部トイレ、物置等）及びその付帯設備等の解体工事です。外構の解体工事（門扉、花壇、遊具、埋設配管等）と発電機施設の解体撤去も含まれます。"
-    }
-  },
-  "pportal_635781": {
-    "source": "pportal",
-    "key": "pportal_635781",
-    "project_name": "令和８年度国有建物等解体撤去工事設計業務（横浜市西区みなとみらい六丁目）",
-    "org_name": "財務省",
-    "pref_name": "埼玉県",
-    "city_name": "",
-    "pref_code": "11",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-03",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=VOoVZ2gfEtccYUnZKbo8K%2ByF1Aa%2Bo0u7mYPxvujHisk%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-09-03",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-03T02:29:19+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": null,
-      "opening_date": null,
-      "summary": "本公告は、令和8年度国有建物等解体撤去工事設計業務（横浜市西区みなとみらい六丁目）に関する一般競争入札の入札公告である。調達機関は財務省で、調達機関所在地は埼玉県である。公告内容は関東財務局ホームページに掲載されている。"
-    }
-  },
-  "pportal_635856": {
-    "source": "pportal",
-    "key": "pportal_635856",
-    "project_name": "春光北宿舎等解体撤去工事",
-    "org_name": "法務省",
-    "pref_name": "北海道",
-    "city_name": "",
-    "pref_code": "01",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-03",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=OLnRfmUMPbqBrDUGUuCdVesWYoRptdUorOksQ5df7Nc%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-09-03",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-03T02:29:19+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": null,
-      "opening_date": null,
-      "summary": "本公告は、法務省が実施する春光北宿舎等解体撤去工事に関する一般競争入札の入札公告である。調達種別はWTO対象外の簡易工事に分類される。公告の公開期間は2026年9月3日から2026年10月14日までである。"
-    }
-  },
-  "dG9rdXNoaW1hL2tvbWF0c3VzaGltYV9jaXR5LzIwMjYvMjAyNjA5MDJfMDA2NjEK": {
-    "source": "kkj",
-    "key": "dG9rdXNoaW1hL2tvbWF0c3VzaGltYV9jaXR5LzIwMjYvMjAyNjA5MDJfMDA2NjEK",
-    "project_name": "R8 小松島小学校プール等解体工事設計業務（工事番号32）",
-    "org_name": "徳島県小松島市",
-    "pref_name": "徳島県",
-    "city_name": "小松島市",
-    "pref_code": "36",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-02T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.komatsushima.lg.jp/fs/6/3/9/2/6/1/_/32_%E5%85%A5%E6%9C%AD%E6%83%85%E5%A0%B1.pdf",
-    "attachments": [
-      {
-        "name": "設計図書等 (PDF 38MB)",
-        "uri": "https://www.city.komatsushima.lg.jp/fs/6/3/9/2/6/0/_/32_%E8%A8%AD%E8%A8%88%E5%9B%B3%E6%9B%B8%E7%AD%89.pdf"
-      }
-    ],
-    "location": "及び設計概要 工事の概要は次表による",
-    "bid_deadline": "令和９年３月１２日",
-    "opening_date": "2026-09-29T09:00:00",
-    "application_deadline": "",
-    "fetched_date": "2026-09-03",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-03T02:29:19+00:00",
-      "planned_price": null,
-      "region_requirement": "県内建築関係",
-      "koki": "契約締結日の翌日から令和9年3月12日まで",
-      "application_deadline": null,
-      "bid_deadline": "2026-09-28T00:00:00",
-      "opening_date": "2026-09-29T09:00:00",
-      "summary": "本業務は、小松島市神田瀬町字道開における小松島小学校プール等の解体工事設計を行うものです。徳島県電子入札システムを利用した電子入札案件であり、入札執行回数は1回です。"
-    }
-  },
-  "c2VhcmNoL2lzaGlrYXdhX3VjaGluYWRhX3Rvd24vMjAyNi8yMDI2MDkwMl8wMDE0MQo=": {
-    "source": "kkj",
-    "key": "c2VhcmNoL2lzaGlrYXdhX3VjaGluYWRhX3Rvd24vMjAyNi8yMDI2MDkwMl8wMDE0MQo=",
-    "project_name": "6災55号内灘町総合公園展望台解体工事（仮設工）",
-    "org_name": "石川県内灘町",
-    "pref_name": "石川県",
-    "city_name": "内灘町",
-    "pref_code": "17",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-02T00:00:00+09:00",
-    "procedure_type": "簡易公募型指名競争入札",
-    "doc_uri": "https://www.ep-bis.supercals.jp/ebidPPIPublish/EjPPIj?KikanNO=1736500",
-    "attachments": [],
-    "location": "内灘町 字宮坂地内",
-    "bid_deadline": "2026-09-15T00:00:00+09:00",
-    "opening_date": "2026-09-16T00:00:00+09:00",
-    "application_deadline": "",
-    "fetched_date": "2026-09-03",
-    "notified": [],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-09-03T02:29:19+00:00"
-    }
-  },
-  "Z3VubWEvdG9taW9rYV9jaXR5LzIwMjYvMjAyNjA5MDJfMDAxMTUK": {
-    "source": "kkj",
-    "key": "Z3VubWEvdG9taW9rYV9jaXR5LzIwMjYvMjAyNjA5MDJfMDAxMTUK",
-    "project_name": "令和8年度 富岡小学校南校舎解体工事",
-    "org_name": "群馬県富岡市",
-    "pref_name": "群馬県",
-    "city_name": "富岡市",
-    "pref_code": "10",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-02T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.tomioka.lg.jp/www/contents/1787199556059/simple/26100121k.pdf",
-    "attachments": [
-      {
-        "name": "（PDF／521KB）",
-        "uri": "https://www.city.tomioka.lg.jp/www/contents/1787199556059/simple/26100121s1.pdf"
-      },
-      {
-        "name": "（PDF／5MB）",
-        "uri": "https://www.city.tomioka.lg.jp/www/contents/1787199556059/simple/26100121s2.pdf"
-      },
-      {
-        "name": "（PDF／9MB）",
-        "uri": "https://www.city.tomioka.lg.jp/www/contents/1787199556059/simple/26100121s3.pdf"
-      },
-      {
-        "name": "（PDF／7MB）",
-        "uri": "https://www.city.tomioka.lg.jp/www/contents/1787199556059/simple/26100121s4.pdf"
-      }
-    ],
-    "location": "業務内容 設計図書のとおり履行期間予定価格",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-09-03",
-    "notified": [],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-09-03T02:29:19+00:00"
-    }
-  },
-  "YWtpdGEva2F6dW5vX2NpdHkvMjAyNi8yMDI2MDkwMl8wMDgyOQo=": {
-    "source": "kkj",
-    "key": "YWtpdGEva2F6dW5vX2NpdHkvMjAyNi8yMDI2MDkwMl8wMDgyOQo=",
-    "project_name": "新堀住宅A-2棟部分解体工事",
-    "org_name": "秋田県鹿角市",
-    "pref_name": "秋田県",
-    "city_name": "鹿角市",
-    "pref_code": "05",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-02T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.kazuno.lg.jp/material/files/group/6/R8koukoku184-1.pdf",
-    "attachments": [],
-    "location": "：鹿角市尾去沢字新山地内２．入札方法本工事の入札の手続きは電子入札システムにより行う",
-    "bid_deadline": "2026-09-29T11:00:00",
-    "opening_date": "2026-09-29T11:00:00",
-    "application_deadline": "2026-09-24T00:00:00",
-    "fetched_date": "2026-09-03",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-03T02:29:19+00:00",
-      "planned_price": "16,379,000 円（うち消費税及び地方消費税の額 1,489,000円）",
-      "region_requirement": "鹿角市内に本社を有する者",
-      "koki": "契約締結日 令和9年2月19日",
-      "application_deadline": "2026-09-24T00:00:00",
-      "bid_deadline": "2026-09-29T11:00:00",
-      "opening_date": "2026-09-29T11:00:00",
-      "summary": "鹿角市尾去沢字新山地内における市営住宅A-2棟の部分解体工事です。PC造2階建長屋1棟、PC造平屋建物置2棟の解体が含まれます。本工事は週休2日制対象工事であり、低入札価格調査制度が適用されます。"
-    }
-  },
   "etokyo_2026:13:101:00351": {
     "source": "etokyo",
     "key": "etokyo_2026:13:101:00351",
@@ -4173,6 +3908,74 @@
       "opening_date": "2026-10-23T13:00:00",
       "summary": "本業務は、仲原保育所解体工事の設計業務です。令和9年度の仲原保育所移転に伴い、用途廃止となる旧保育所とその付帯施設の解体工事（埋戻し、整地まで）の実施設計を行います。",
       "opening_date_note": "入札締切と開札日が同一値になっています。AI抽出では2026-10-23T13:00:00 の可能性があるため、公告原本で開札日を確認してください。"
+    }
+  },
+  "aG9ra2FpZG8vbmVtdXJvX2NpdHkvMjAyNi8yMDI2MTAwMl8wMDQyNgo=": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8vbmVtdXJvX2NpdHkvMjAyNi8yMDI2MTAwMl8wMDQyNgo=",
+    "project_name": "光洋団地解体工事（後期9工区）",
+    "org_name": "北海道根室市",
+    "pref_name": "北海道",
+    "city_name": "根室市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-02T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.nemuro.hokkaido.jp/material/files/group/22/kokuji_kaitai_09.pdf",
+    "attachments": [],
+    "location": "根室市光洋町３丁目９３番地の内、９４番地の内",
+    "bid_deadline": "2026-10-29T10:00:00",
+    "opening_date": "2026-10-29T10:00:00",
+    "application_deadline": "2026-10-13T17:00:00",
+    "fetched_date": "2026-10-03",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-03T03:15:40+00:00",
+      "planned_price": "１１，９９０，０００円（うち取引に係る消費税及び地方消費税の額を含む）",
+      "region_requirement": "根室市内に本店又は営業所を有するものであること。",
+      "koki": "2026年11月2日から2027年2月26日まで",
+      "application_deadline": "2026-10-13T17:00:00",
+      "bid_deadline": "2026-10-29T10:00:00",
+      "opening_date": "2026-10-29T10:00:00",
+      "summary": "本工事は光洋団地解体工事(後期９工区)であり、根室市光洋町３丁目９３番地の内、９４番地の内で行われます。コンクリートブロック造平屋3棟12戸と木造11棟の物置の解体が含まれます。本工事は建設工事に係る資材の再資源化に関する法律に基づき分別解体が義務付けられています。"
+    }
+  },
+  "aG9ra2FpZG8vbmVtdXJvX2NpdHkvMjAyNi8yMDI2MTAwMV8wMDQyNwo=": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8vbmVtdXJvX2NpdHkvMjAyNi8yMDI2MTAwMV8wMDQyNwo=",
+    "project_name": "教職員住宅解体工事",
+    "org_name": "北海道根室市",
+    "pref_name": "北海道",
+    "city_name": "根室市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-01T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.nemuro.hokkaido.jp/material/files/group/31/r08kyousyokuinnzyuutakukaitaikouzi.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "2026-11-04T09:30:00",
+    "application_deadline": "2026-10-13T17:00:00",
+    "fetched_date": "2026-10-03",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-03T03:15:40+00:00",
+      "planned_price": "１３,５５２,０００ 円 (うち取引に係る消費税及び地方消費税の合計額を含む。)",
+      "region_requirement": "根室市内に本店又は営業所を有するものであること",
+      "koki": "令和８年１１月９日から令和９年２月２６日",
+      "application_deadline": "2026-10-13T17:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-11-04T09:30:00",
+      "summary": "本工事は教職員住宅の解体工事です。根室市光洋町と珸瑤瑁に所在するCB造長屋住宅2棟4戸、木造物置、木造戸建住宅2棟2戸、木造物置の解体が含まれます。建設工事に係る資材の再資源化に関する法律に基づき、分別解体等が義務付けられています。"
     }
   }
 }
