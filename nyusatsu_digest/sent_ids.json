@@ -1,31 +1,4 @@
 {
-  "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDkvMjAyNjA5MDNfNzg0OTYK": {
-    "source": "kkj",
-    "key": "c2VhcmNoL3BfcG9ydGFsLzIwMjYvMDkvMjAyNjA5MDNfNzg0OTYK",
-    "project_name": "春光北宿舎等解体撤去工事",
-    "org_name": "法務省",
-    "pref_name": "北海道",
-    "city_name": "",
-    "pref_code": "01",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-03T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-09-06",
-    "notified": [],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-09-06T02:19:40+00:00"
-    }
-  },
   "tokyometro_3539592029292710": {
     "source": "tokyometro",
     "key": "tokyometro_3539592029292710",
@@ -3552,6 +3525,117 @@
       "bid_deadline": "2026-11-12T17:00:00",
       "opening_date": "2026-11-13T10:10:00",
       "summary": "都営滝野川三丁目アパート（1～6号棟）の除却工事です。本案件は最低制限価格が設定されており、発注者指定方式による週休2日促進工事の対象案件です。"
+    }
+  },
+  "chiba_6c52e751dc18a22b": {
+    "source": "chiba",
+    "key": "chiba_6c52e751dc18a22b",
+    "project_name": "秘書官公舎解体工事",
+    "org_name": "千葉県  県警本部総務部  会計課",
+    "pref_name": "千葉県",
+    "city_name": "千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-10-06",
+    "procedure_type": "事後審査）千葉県 ・ 価格競争 ・ 事後審査２型 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "千葉市中央区",
+    "bid_deadline": "2026-10-28T17:00:00",
+    "opening_date": "2026-10-29T10:50:00",
+    "application_deadline": "2026-10-23T17:00:00",
+    "fetched_date": "2026-10-06",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-06T04:17:46+00:00",
+      "planned_price": "8,987,000円（税込）",
+      "region_requirement": null,
+      "koki": "令和 9年 2月26日限り",
+      "application_deadline": "2026-10-23T17:00:00",
+      "bid_deadline": "2026-10-28T17:00:00",
+      "opening_date": "2026-10-29T10:50:00",
+      "summary": "千葉県警本部総務部会計課が発注する秘書官公舎解体工事です。工事場所は千葉市中央区で、工種は解体工事です。"
+    }
+  },
+  "pportal_639791": {
+    "source": "pportal",
+    "key": "pportal_639791",
+    "project_name": "【東京航空局】東京国際空港海上保安庁庁舎・格納庫その他解体外2件実施設計",
+    "org_name": "国土交通省",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-06",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=3yOr42y8N8hMUVBF1sZUZKtxkpC9QmGmFWb8R8C%2BfUs%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-10-06",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-06T04:17:46+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本案件は、東京航空局による東京国際空港海上保安庁庁舎・格納庫その他解体外2件実施設計の一般競争入札公告である。調達機関は国土交通省で、調達機関所在地は東京都である。公告内容は国土交通省のウェブサイトにて掲載されている。"
+    }
+  },
+  "ZnVrdXNoaW1hL3RhbXVyYV9jaXR5LzIwMjYvMjAyNjA5MzBfMDE0MTMK": {
+    "source": "kkj",
+    "key": "ZnVrdXNoaW1hL3RhbXVyYV9jaXR5LzIwMjYvMjAyNjA5MzBfMDE0MTMK",
+    "project_name": "あぶくま洞観光拠点施設建設予定地屋根等解体工事 (161.0KB)",
+    "org_name": "福島県田村市",
+    "pref_name": "福島県",
+    "city_name": "田村市",
+    "pref_code": "07",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-09-30T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.tamura.lg.jp/soshiki/3/assets/260930%E6%9D%A1%E4%BB%B6%E4%BB%98%E3%81%8D%E5%85%A5%E6%9C%AD%E5%85%AC%E5%91%8A%E7%AC%AC325%E5%8F%B7%281-218%29.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-09-29T16:00:00",
+    "opening_date": "2026-09-30T09:30:00",
+    "application_deadline": "2026-09-24T00:00:00",
+    "fetched_date": "2026-10-06",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-06T04:17:46+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": "市内登録業者とする。(市内登録業者とは田村市内に本社を置く者。）",
+      "koki": "契約締結の日から7日以内において発注者が指定する日 から 2026年12月21日 (月)まで",
+      "application_deadline": "2026-09-24T00:00:00",
+      "bid_deadline": "2026-09-29T16:00:00",
+      "opening_date": "2026-09-30T09:30:00",
+      "summary": "本工事は、あぶくま洞観光拠点施設建設予定地における屋根等の解体工事です。屋根A撤去87.2㎡、転落防止柵撤去184.5m、外部足場設置415㎡などが含まれます。"
     }
   }
 }
