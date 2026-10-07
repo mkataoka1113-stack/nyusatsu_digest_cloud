@@ -1,148 +1,4 @@
 {
-  "tokyometro_3539592029292710": {
-    "source": "tokyometro",
-    "key": "tokyometro_3539592029292710",
-    "project_name": "昭島生活実習所（R8）解体工事",
-    "org_name": "福祉局総務部総務課",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3101"
-    ],
-    "cft_issue_date": "2026-09-07",
-    "procedure_type": "希望制指名競争入札",
-    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
-    "attachments": [],
-    "location": "東京都昭島市松原町3-11-15",
-    "bid_deadline": "",
-    "opening_date": "2026-10-20T11:00:00",
-    "application_deadline": "2026-09-11",
-    "fetched_date": "2026-09-07",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-07T02:18:58+00:00",
-      "planned_price": "138,688,000円（消費税率10％）",
-      "region_requirement": null,
-      "koki": "契約確定の日の翌日から2027年7月30日まで",
-      "application_deadline": "2026-09-11T16:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-10-20T11:00:00",
-      "summary": "本工事は、昭島生活実習所の解体工事一式と擁壁解体・新設工事一式です。契約方法は希望制指名競争入札で、電子契約対象案件です。"
-    }
-  },
-  "tokyometro_3539841029191611": {
-    "source": "tokyometro",
-    "key": "tokyometro_3539841029191611",
-    "project_name": "練馬城址公園既存建物解体工事",
-    "org_name": "東部公園緑地事務所庶務課",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3101"
-    ],
-    "cft_issue_date": "2026-09-07",
-    "procedure_type": "希望制指名競争入札",
-    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
-    "attachments": [],
-    "location": "東京都練馬区向山三丁目地内",
-    "bid_deadline": "",
-    "opening_date": "2026-10-22T09:30:00",
-    "application_deadline": "2026-09-14",
-    "fetched_date": "2026-09-07",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-07T02:18:58+00:00",
-      "planned_price": "40,453,600円（消費税率10％）",
-      "region_requirement": null,
-      "koki": "契約確定の日の翌日から令和9年2月26日まで",
-      "application_deadline": "2026-09-14T15:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-10-22T09:30:00",
-      "summary": "練馬城址公園の既存建物の解体工事一式です。本工事は電子契約対象案件であり、建設リサイクル法対象工事です。また、「HTT ゼロエミッションアドバンス工事」および「週休２日制促進工事」の試行対象案件です。"
-    }
-  },
-  "jkk_21129": {
-    "source": "jkk",
-    "key": "jkk_21129",
-    "project_name": "都営桜一丁目アパート除却工事",
-    "org_name": "東京都住宅供給公社（JKK東京）",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "015"
-    ],
-    "cft_issue_date": "2026-09-07T09:00:00",
-    "procedure_type": "希望制",
-    "doc_uri": "https://www.to-kousya.or.jp/keiyaku/nyusatu/index.html",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-10-21T17:00:00",
-    "opening_date": "2026-10-22T10:10:00",
-    "application_deadline": "2026-09-11T16:00:00",
-    "fetched_date": "2026-09-07",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-07T02:18:58+00:00",
-      "planned_price": "2億284万円（税込）",
-      "region_requirement": null,
-      "koki": "2026/10/29から2027/09/16",
-      "application_deadline": "2026-09-11T16:00:00",
-      "bid_deadline": "2026-10-21T17:00:00",
-      "opening_date": "2026-10-22T10:10:00",
-      "summary": "都営桜一丁目アパートの除却工事です。本案件は最低制限価格が設定されており、発注者指定方式による週休2日促進工事の対象案件です。"
-    }
-  },
-  "jkk_21124": {
-    "source": "jkk",
-    "key": "jkk_21124",
-    "project_name": "都営本羽田二丁目第４アパート除却工事",
-    "org_name": "東京都住宅供給公社（JKK東京）",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "015"
-    ],
-    "cft_issue_date": "2026-09-07T09:00:00",
-    "procedure_type": "希望制",
-    "doc_uri": "https://www.to-kousya.or.jp/keiyaku/nyusatu/index.html",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-10-21T17:00:00",
-    "opening_date": "2026-10-22T10:00:00",
-    "application_deadline": "2026-09-11T16:00:00",
-    "fetched_date": "2026-09-07",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-07T02:18:58+00:00",
-      "planned_price": "75,579,900円（税込）",
-      "region_requirement": null,
-      "koki": "2026/10/29から2027/04/07",
-      "application_deadline": "2026-09-11T16:00:00",
-      "bid_deadline": "2026-10-21T17:00:00",
-      "opening_date": "2026-10-22T10:00:00",
-      "summary": "都営本羽田二丁目第４アパートの除却工事です。本案件は最低制限価格が設定されており、発注者指定方式による週休２日促進工事の対象案件です。"
-    }
-  },
   "chiba_7249a0604a25075c": {
     "source": "chiba",
     "key": "chiba_7249a0604a25075c",
@@ -3636,6 +3492,250 @@
       "bid_deadline": "2026-09-29T16:00:00",
       "opening_date": "2026-09-30T09:30:00",
       "summary": "本工事は、あぶくま洞観光拠点施設建設予定地における屋根等の解体工事です。屋根A撤去87.2㎡、転落防止柵撤去184.5m、外部足場設置415㎡などが含まれます。"
+    }
+  },
+  "chiba_c031043a924b6619": {
+    "source": "chiba",
+    "key": "chiba_c031043a924b6619",
+    "project_name": "船橋市埋蔵文化財遺物倉庫解体工事",
+    "org_name": "船橋市  企画財政部  契約課",
+    "pref_name": "千葉県",
+    "city_name": "船橋市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-10-07",
+    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "NC7公告（工事）（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_c031043a924b6619_1.pdf"
+      }
+    ],
+    "location": "船橋市日の出１丁目２８番",
+    "bid_deadline": "2026-10-20T15:00:00",
+    "opening_date": "2026-10-22T15:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-10-07",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-07T03:46:12+00:00",
+      "planned_price": "9,530,000円（消費税及び地方消費税を含まない）",
+      "region_requirement": "船橋市内に本店がある者",
+      "koki": "令和 9年 2月26日限り",
+      "application_deadline": null,
+      "bid_deadline": "2026-10-20T15:00:00",
+      "opening_date": "2026-10-22T15:00:00",
+      "summary": "船橋市日の出１丁目２８番にある船橋市埋蔵文化財遺物倉庫の解体工事です。本工事は電子入札システムにより行われます。"
+    }
+  },
+  "chiba_c7123d5eccc1ccf1": {
+    "source": "chiba",
+    "key": "chiba_c7123d5eccc1ccf1",
+    "project_name": "船橋市営藤原団地浄化槽解体工事",
+    "org_name": "船橋市  企画財政部  契約課",
+    "pref_name": "千葉県",
+    "city_name": "船橋市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-10-07",
+    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "NE16公告（工事）（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_c7123d5eccc1ccf1_1.pdf"
+      }
+    ],
+    "location": "船橋市藤原２丁目１３０番１ほか",
+    "bid_deadline": "2026-10-20T15:00:00",
+    "opening_date": "2026-10-22T14:50:00",
+    "application_deadline": "",
+    "fetched_date": "2026-10-07",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-07T03:46:12+00:00",
+      "planned_price": "23,089,000円（税込）",
+      "region_requirement": "船橋市内に本店がある者",
+      "koki": "令和 9年 3月31日限り",
+      "application_deadline": null,
+      "bid_deadline": "2026-10-20T15:00:00",
+      "opening_date": "2026-10-22T14:50:00",
+      "summary": "船橋市営藤原団地の老朽化した浄化槽を解体する工事です。機械設備工事（仮設、排水設備、撤去、発生材処理）と電気工事（電灯設備、動力設備）を含みます。"
+    }
+  },
+  "chiba_7c09051ed87d2edf": {
+    "source": "chiba",
+    "key": "chiba_7c09051ed87d2edf",
+    "project_name": "Ｍ３イズミクラブ会館解体工事",
+    "org_name": "浦安市  市長部局  財務部契約課",
+    "pref_name": "千葉県",
+    "city_name": "浦安市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-10-07",
+    "procedure_type": "事後審査）千葉県 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "浦安市美浜三丁目５－４、１９－２の一部、１０－１７の一部",
+    "bid_deadline": "2026-10-27T09:00:00",
+    "opening_date": "2026-10-27T09:30:00",
+    "application_deadline": "2026-10-15T09:00:00",
+    "fetched_date": "2026-10-07",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-07T03:46:12+00:00",
+      "planned_price": "13,651,000円（税込）",
+      "region_requirement": null,
+      "koki": "令和 9年 3月17日限り",
+      "application_deadline": "2026-10-15T09:00:00",
+      "bid_deadline": "2026-10-27T09:00:00",
+      "opening_date": "2026-10-27T09:30:00",
+      "summary": "浦安市美浜三丁目５－４、１９－２の一部、１０－１７の一部にてＭ３イズミクラブ会館解体工事が実施されます。予定価格は13,651,000円（税込）です。工期は令和9年3月17日までとされています。"
+    }
+  },
+  "c2VhcmNoL2tlaXlha3VfaGlyb3NoaW1hX2NpdHkvMjAyNi8yMDI2MTAwNl8wNDcxNAo=": {
+    "source": "kkj",
+    "key": "c2VhcmNoL2tlaXlha3VfaGlyb3NoaW1hX2NpdHkvMjAyNi8yMDI2MTAwNl8wNDcxNAo=",
+    "project_name": "石ケ原住宅９・１０号棟解体その他工事",
+    "org_name": "広島県広島市",
+    "pref_name": "広島県",
+    "city_name": "広島市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-06T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://ppi.keiyaku.city.hiroshima.lg.jp/PPI_P/DownLoad/202610045200101.pdf",
+    "attachments": [
+      {
+        "name": "05 労務費ダンピング調査の試行実施について",
+        "uri": "https://ppi.keiyaku.city.hiroshima.lg.jp/PPI_P/DownLoad/202610045200105.docx"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-10-22T16:00:00",
+    "opening_date": "令和８年１０月２３日",
+    "application_deadline": "",
+    "fetched_date": "2026-10-07",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-07T03:46:12+00:00",
+      "planned_price": "落札決定後に公表",
+      "region_requirement": "広島市内に本店を有していること。",
+      "koki": "契約締結の日から１０５日間",
+      "application_deadline": null,
+      "bid_deadline": "2026-10-22T16:00:00",
+      "opening_date": "2026-10-23T10:20:00",
+      "summary": "本工事は、佐伯区湯来町大字菅沢に位置する石ケ原住宅9・10号棟の木造2階建て建築物、付属屋、外構の解体工事です。これに伴う屋内外の電気設備および機械設備の撤去も含まれます。本工事は週休2日試行対象工事（発注者指定型）です。"
+    }
+  },
+  "Z292L2phZWFfZ28vMjAyNi8yMDI2MTAwNl8wNTcwNwo=": {
+    "source": "kkj",
+    "key": "Z292L2phZWFfZ28vMjAyNi8yMDI2MTAwNl8wNTcwNwo=",
+    "project_name": "【電子入札】【電子契約】ナトリウム付着解体物洗浄設備の製作",
+    "org_name": "国立研究開発法人日本原子力研究開発機構敦賀",
+    "pref_name": "茨城県",
+    "city_name": "東海村",
+    "pref_code": "08",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-06T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://keiyaku.jaea.go.jp/compe/02/pdf/0804C00699.pdf",
+    "attachments": [],
+    "location": "仕様書による",
+    "bid_deadline": "2026-12-21T17:00:00",
+    "opening_date": "令和8年12月24日",
+    "application_deadline": "",
+    "fetched_date": "2026-10-07",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-07T03:46:12+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "令和12年3月29日",
+      "application_deadline": null,
+      "bid_deadline": "2026-12-21T17:00:00",
+      "opening_date": "2026-12-24T15:00:00",
+      "summary": "国立研究開発法人日本原子力研究開発機構は、ナトリウム付着解体物洗浄設備の製作一式について一般競争入札を行います。入札は電子入札システムを通じて行われ、納入期限は2030年3月29日です。"
+    }
+  },
+  "ZnVrdW9rYS9rYW1hX2NpdHkvMjAyNi8yMDI2MTAwNl8wMDAwOQo=": {
+    "source": "kkj",
+    "key": "ZnVrdW9rYS9rYW1hX2NpdHkvMjAyNi8yMDI2MTAwNl8wMDAwOQo=",
+    "project_name": "旧稲築地区公民館解体撤去工事",
+    "org_name": "福岡県嘉麻市",
+    "pref_name": "福岡県",
+    "city_name": "嘉麻市",
+    "pref_code": "40",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-06T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kama.lg.jp/uploaded/attachment/27437.pdf",
+    "attachments": [
+      {
+        "name": "06-1-1 建築図面一式 [PDFファイル／33.3MB]",
+        "uri": "https://www.city.kama.lg.jp/uploaded/attachment/27451.pdf"
+      },
+      {
+        "name": "06-1-2 構造図面一式 [PDFファイル／21.22MB]",
+        "uri": "https://www.city.kama.lg.jp/uploaded/attachment/27452.pdf"
+      },
+      {
+        "name": "06-2 電気設備図面一式 [PDFファイル／2.6MB]",
+        "uri": "https://www.city.kama.lg.jp/uploaded/attachment/27453.pdf"
+      },
+      {
+        "name": "06-3 機械設備図面一式 [PDFファイル／31.28MB]",
+        "uri": "https://www.city.kama.lg.jp/uploaded/attachment/27460.pdf"
+      }
+    ],
+    "location": "４．別途工事項 目特 記 事 項１．標 準 仕 様 図面及び特記仕様書に記載されていない事項はすべて国土交通省大臣官房官",
+    "bid_deadline": "令和８年１０月１３日",
+    "opening_date": "令和８年１０月１６日",
+    "application_deadline": "2026-10-13T17:00:00",
+    "fetched_date": "2026-10-07",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-07T03:46:12+00:00",
+      "planned_price": "９９，０００，０００円（消費税及び地方消費税相当額を除く。）",
+      "region_requirement": "嘉麻市内業者で登録されている者であること。ただし、申請者が 3 者に満たない場合は市内第二希望、準市内業者第一希望、準市内第二希望の順に参加可能とする。",
+      "koki": "契約日から２４０日間",
+      "application_deadline": "2026-10-13T17:00:00",
+      "bid_deadline": "2026-10-23T09:59:00",
+      "opening_date": "2026-10-23T10:00:00",
+      "summary": "本工事は、嘉麻市岩崎1141番地における旧稲築地区公民館の解体撤去工事です。建築工事、電気設備工事、機械設備工事の各1式が含まれます。"
     }
   }
 }
