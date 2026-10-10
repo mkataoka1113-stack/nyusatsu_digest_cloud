@@ -1,104 +1,4 @@
 {
-  "aGlyb3NoaW1hL21peW9zaGlfY2l0eS8yMDI2LzIwMjYwOTA5XzAxMjI3Cg==": {
-    "source": "kkj",
-    "key": "aGlyb3NoaW1hL21peW9zaGlfY2l0eS8yMDI2LzIwMjYwOTA5XzAxMjI3Cg==",
-    "project_name": "プール及び保育所解体工",
-    "org_name": "広島県三次市",
-    "pref_name": "広島県",
-    "city_name": "三次市",
-    "pref_code": "34",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-09T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/34231.pdf",
-    "attachments": [
-      {
-        "name": "107 [41.69MB]",
-        "uri": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/34232.zip"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "令和8年9月24日",
-    "application_deadline": "",
-    "fetched_date": "2026-09-10",
-    "notified": [],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-09-10T02:33:03+00:00"
-    }
-  },
-  "Z292MTMvbW9mX3RvaG9rdS8yMDI2LzIwMjYwOTA5XzAxMTEzCg==": {
-    "source": "kkj",
-    "key": "Z292MTMvbW9mX3RvaG9rdS8yMDI2LzIwMjYwOTA5XzAxMTEzCg==",
-    "project_name": "（R08）国有建物（大館市岩瀬）解体撤去その他工事",
-    "org_name": "財務省東北財務局",
-    "pref_name": "宮城県",
-    "city_name": "仙台市",
-    "pref_code": "04",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-09T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://lfb.mof.go.jp/tohoku/content/akita20260909_nyuusatsu_torikowashikouzi.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-10-01T16:00:00",
-    "opening_date": "令和9年2月12日",
-    "application_deadline": "2026-09-30T00:00:00",
-    "fetched_date": "2026-09-10",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-10T02:33:03+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": "契約締結日の翌日から令和9年2月12日まで",
-      "application_deadline": "2026-09-30T00:00:00",
-      "bid_deadline": "2026-10-01T16:00:00",
-      "opening_date": "2026-10-02T10:00:00",
-      "summary": "本調達は秋田県大館市岩瀬字赤沼の国有建物解体撤去その他工事です。電子調達システムを利用した応札、入開札及び契約手続きにより実施されます。工期は契約締結日の翌日から2027年2月12日までです。"
-    }
-  },
-  "Z292MTMvbW9mX3RvaG9rdS8yMDI2LzIwMjYwOTA5XzAxMTEyCg==": {
-    "source": "kkj",
-    "key": "Z292MTMvbW9mX3RvaG9rdS8yMDI2LzIwMjYwOTA5XzAxMTEyCg==",
-    "project_name": "（R08）国有建物解体撤去その他工事（八戸市）",
-    "org_name": "財務省東北財務局",
-    "pref_name": "宮城県",
-    "city_name": "仙台市",
-    "pref_code": "04",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-09T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://lfb.mof.go.jp/tohoku/content/aokan20260909.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-10-01T16:00:00",
-    "opening_date": "令和8年9月30日",
-    "application_deadline": "2026-09-30T00:00:00",
-    "fetched_date": "2026-09-10",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-10T02:33:03+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": "契約締結日の翌日 から 令和9年3月26日",
-      "application_deadline": "2026-09-30T00:00:00",
-      "bid_deadline": "2026-10-01T16:00:00",
-      "opening_date": "2026-10-02T10:00:00",
-      "summary": "青森県八戸市大字鮫町字山四郎蒔目17-419ほか3筆において、国有建物の解体撤去その他工事が実施されます。本調達は電子調達システムを利用した応札、入開札及び契約手続きにより実施されますが、紙による提出も可能です。"
-    }
-  },
   "chiba_777ea46f9505da49": {
     "source": "chiba",
     "key": "chiba_777ea46f9505da49",
@@ -4077,6 +3977,187 @@
       "bid_deadline": "2026-11-17T10:20:00",
       "opening_date": "2026-11-17T10:20:00",
       "summary": "本工事は、史跡金石城跡石垣復旧工事（石垣解体）であり、対馬市厳原町今屋敷地内で行われます。工事概要は石垣工一式と仮設工一式です。"
+    }
+  },
+  "chiba_d88f48112158a5b0": {
+    "source": "chiba",
+    "key": "chiba_d88f48112158a5b0",
+    "project_name": "旧吉尾小学校屋内運動場解体工事",
+    "org_name": "鴨川市  財政課  契約係",
+    "pref_name": "千葉県",
+    "city_name": "鴨川市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-10-09",
+    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "【旧吉尾小学校屋内運動場解体工事】（公告文）：1,000万円以上で定例的な制限付き一般競争入札（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_d88f48112158a5b0_1.pdf"
+      }
+    ],
+    "location": "鴨川市　松尾寺　地内",
+    "bid_deadline": "2026-10-29T13:00:00",
+    "opening_date": "2026-10-29T13:40:00",
+    "application_deadline": "",
+    "fetched_date": "2026-10-10",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-10T03:46:41+00:00",
+      "planned_price": "79,710,000円(消費税及び地方消費税相当額を含まない)",
+      "region_requirement": "鴨川市内に本店を置く業者",
+      "koki": "契約日の翌日から令和９年３月26日",
+      "application_deadline": null,
+      "bid_deadline": "2026-10-29T13:00:00",
+      "opening_date": "2026-10-29T13:40:00",
+      "summary": "本工事は、旧吉尾小学校屋内運動場の解体工事一式です。鴨川市松尾寺地内で行われます。入札方式は市町村版事後審査方式の制限付き一般競争入札です。"
+    }
+  },
+  "ZnVrdW9rYS9taXlhbWFfY2l0eS8yMDI2LzIwMjYxMDE0XzAwMDI0Cg==": {
+    "source": "kkj",
+    "key": "ZnVrdW9rYS9taXlhbWFfY2l0eS8yMDI2LzIwMjYxMDE0XzAwMDI0Cg==",
+    "project_name": "起工第9号みやま市消防団旧山川東部分団格納庫等解体工事",
+    "org_name": "福岡県みやま市",
+    "pref_name": "福岡県",
+    "city_name": "みやま市",
+    "pref_code": "40",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-14T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.miyama.lg.jp/s009/kanko/050/050/020/R810091.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "2026-11-04T00:00:00",
+    "application_deadline": "2026-10-21T17:00:00",
+    "fetched_date": "2026-10-10",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-10T03:46:41+00:00",
+      "planned_price": null,
+      "region_requirement": "みやま市競争入札参加資格者名簿に登載された解体工事の市内業者であること。",
+      "koki": null,
+      "application_deadline": "2026-10-21T17:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-11-04T00:00:00",
+      "summary": "本件は、みやま市消防団旧山川東部分団格納庫等解体工事の条件付一般競争入札の予告である。工事場所はみやま市山川町立山803他1箇所で、概算工事費は約13,000千円（税込）。入札参加資格として、みやま市競争入札参加資格者名簿に登載された解体工事の市内業者で、公告日時点でA・Bランクであることが求められる。"
+    }
+  },
+  "c2FpdGFtYS9ob25qb3NoaS8yMDI2LzIwMjYxMDA5XzAwNjY2Cg==": {
+    "source": "kkj",
+    "key": "c2FpdGFtYS9ob25qb3NoaS8yMDI2LzIwMjYxMDA5XzAwNjY2Cg==",
+    "project_name": "グローバルソフトウェア本庄文化ホール浄化槽解体工事",
+    "org_name": "埼玉県本庄市",
+    "pref_name": "埼玉県",
+    "city_name": "本庄市",
+    "pref_code": "11",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-09T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.honjo.lg.jp/material/files/group/4/kokuji_301.pdf",
+    "attachments": [],
+    "location": "本庄市北堀地内",
+    "bid_deadline": "2026-10-28T17:00:00",
+    "opening_date": "2026-10-29T10:00:00",
+    "application_deadline": "2026-10-23T17:00:00",
+    "fetched_date": "2026-10-10",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-10T03:46:41+00:00",
+      "planned_price": "入札執行後に公表する。",
+      "region_requirement": "本庄市内に契約締結権限を有する者を置く本店を有すること",
+      "koki": "契約締結日から2027年3月26日まで",
+      "application_deadline": "2026-10-23T17:00:00",
+      "bid_deadline": "2026-10-28T17:00:00",
+      "opening_date": "2026-10-29T10:00:00",
+      "summary": "本庄市北堀地内において、グローバルソフトウェア本庄文化ホールの浄化槽解体工事を実施します。本工事は事後審査型の一般競争入札で、埼玉県電子入札共同システムを利用して行われます。週休2日制モデル工事（発注者指定型）の試行対象工事です。"
+    }
+  },
+  "bmlpZ2F0YS9hZ2Fub19jaXR5LzIwMjYvMjAyNjEwMDlfMDA2NTUK": {
+    "source": "kkj",
+    "key": "bmlpZ2F0YS9hZ2Fub19jaXR5LzIwMjYvMjAyNjEwMDlfMDA2NTUK",
+    "project_name": "福支工第1号_旧白鳥ルーム解体工事",
+    "org_name": "新潟県阿賀野市",
+    "pref_name": "新潟県",
+    "city_name": "阿賀野市",
+    "pref_code": "15",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-09T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.agano.niigata.jp/material/files/group/6/261009koukoku.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-10-21T17:00:00",
+    "opening_date": "令和8年10月21日",
+    "application_deadline": "2026-10-16T15:00:00",
+    "fetched_date": "2026-10-10",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-10T03:46:41+00:00",
+      "planned_price": null,
+      "region_requirement": "阿賀野市内に 主たる 営業所を有する者であること。",
+      "koki": "75日間",
+      "application_deadline": "2026-10-16T15:00:00",
+      "bid_deadline": "2026-10-21T17:00:00",
+      "opening_date": "2026-10-22T09:00:00",
+      "summary": "旧白鳥ルーム1棟（延床面積265.5㎡、鉄骨造2階建）の解体工事です。建屋解体処分と内装撤去処分が含まれます。工事場所は阿賀野市若葉町地内です。"
+    }
+  },
+  "Z292MTMvbW9mX2thbnRvLzIwMjYvMjAyNjEwMDlfMDA3MzYK": {
+    "source": "kkj",
+    "key": "Z292MTMvbW9mX2thbnRvLzIwMjYvMjAyNjEwMDlfMDA3MzYK",
+    "project_name": "令和8年度国有建物等解体撤去工事設計業務（横浜市西区みなとみらい六丁目）",
+    "org_name": "財務省関東財務局",
+    "pref_name": "埼玉県",
+    "city_name": "さいたま市",
+    "pref_code": "11",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-09T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://lfb.mof.go.jp/kantou/content/20261009minatomirai-1.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-10-29T12:00:00",
+    "opening_date": "2026-10-29T13:30:00",
+    "application_deadline": "2026-10-27T12:00:00",
+    "fetched_date": "2026-10-10",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-10T03:46:41+00:00",
+      "planned_price": null,
+      "region_requirement": "関東・甲信越地域の競争参加資格を有する者",
+      "koki": "契約締結日から令和9年3月31日（水）まで",
+      "application_deadline": "2026-10-27T12:00:00",
+      "bid_deadline": "2026-10-29T12:00:00",
+      "opening_date": "2026-10-29T13:30:00",
+      "summary": "本公告は、令和8年度国有建物等解体撤去工事設計業務の一般競争入札に関するものです。業務場所は神奈川県横浜市西区みなとみらい六丁目で、履行期間は契約締結日から2027年3月31日までです。本調達は政府電子調達システムを利用して実施されます。"
     }
   }
 }
