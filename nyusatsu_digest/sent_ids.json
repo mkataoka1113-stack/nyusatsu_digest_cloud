@@ -1,190 +1,4 @@
 {
-  "d2FrYXlhbWEvc2hpbmd1X2NpdHkvMjAyNi8yMDI2MDkxMV8wMDEwMwo=": {
-    "source": "kkj",
-    "key": "d2FrYXlhbWEvc2hpbmd1X2NpdHkvMjAyNi8yMDI2MDkxMV8wMDEwMwo=",
-    "project_name": "条件付一般競争入札公告（新財工第４０号）高野坂観光客用駐車場整備事業（解体）",
-    "org_name": "和歌山県新宮市",
-    "pref_name": "和歌山県",
-    "city_name": "新宮市",
-    "pref_code": "30",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-11T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.city.shingu.lg.jp/div/zaisei-1/pdf/nyusatsu-koukoku/8k40.pdf",
-    "attachments": [],
-    "location": "新宮市三輪崎地内",
-    "bid_deadline": "2026-09-30T16:05:00",
-    "opening_date": "2026-09-30T16:05:00",
-    "application_deadline": "",
-    "fetched_date": "2026-09-12",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-12T02:34:44+00:00",
-      "planned_price": "15,884,000 円 （10％税込み）",
-      "region_requirement": "新宮市に本店若しくは委任を受けた支社・支店等を有する者であること",
-      "koki": "契約日の翌日から 2026年11月30日 まで",
-      "application_deadline": null,
-      "bid_deadline": "2026-09-30T16:05:00",
-      "opening_date": "2026-09-30T16:05:00",
-      "summary": "本工事は、高野坂観光客用駐車場整備事業の一環として、新宮市三輪崎地内にある木造2階建住宅10戸、鉄骨造ローカ、鉄骨造屋外階段の解体工事を行います。直接仮設、建物解体、発生材処理が含まれます。工期は契約日の翌日から2026年11月30日までです。"
-    }
-  },
-  "bWl5YXpha2kva3VzaGltYV9jaXR5LzIwMjYvMjAyNjA5MTFfMDAwMDEK": {
-    "source": "kkj",
-    "key": "bWl5YXpha2kva3VzaGltYV9jaXR5LzIwMjYvMjAyNjA5MTFfMDAwMDEK",
-    "project_name": "旧都井中学校屋内運動場解体工事",
-    "org_name": "宮崎県串間市",
-    "pref_name": "宮崎県",
-    "city_name": "串間市",
-    "pref_code": "45",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-11T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.kushima.lg.jp/main/business/upload/suikanri/01_%E5%85%AC%E5%91%8A_%E5%85%A5%E6%9C%AD%E9%80%9A%E7%9F%A5%EF%BC%88%E6%97%A7%E9%83%BD%E4%BA%95%E4%B8%AD%E5%AD%A6%E6%A0%A1%E5%B1%8B%E5%86%85%E9%81%8B%E5%8B%95%E5%A0%B4%E8%A7%A3%E4%BD%93%E5%B7%A5%E4%BA%8B%EF%BC%89.pdf",
-    "attachments": [
-      {
-        "name": "11_設計書（金額抜き）【旧都井中学校屋内運動場解体工事】.pdf",
-        "uri": "https://www.city.kushima.lg.jp/main/business/upload/suikanri/11_%E8%A8%AD%E8%A8%88%E6%9B%B8%EF%BC%88%E9%87%91%E9%A1%8D%E6%8A%9C%E3%81%8D%EF%BC%89%E3%80%90%E6%97%A7%E9%83%BD%E4%BA%95%E4%B8%AD%E5%AD%A6%E6%A0%A1%E5%B1%8B%E5%86%85%E9%81%8B%E5%8B%95%E5%A0%B4%E8%A7%A3%E4%BD%93%E5%B7%A5%E4%BA%8B%E3%80%91.pdf"
-      },
-      {
-        "name": "12_図面（旧都井中学校屋内運動場解体工事）.pdf",
-        "uri": "https://www.city.kushima.lg.jp/main/business/upload/suikanri/12_%E5%9B%B3%E9%9D%A2%EF%BC%88%E6%97%A7%E9%83%BD%E4%BA%95%E4%B8%AD%E5%AD%A6%E6%A0%A1%E5%B1%8B%E5%86%85%E9%81%8B%E5%8B%95%E5%A0%B4%E8%A7%A3%E4%BD%93%E5%B7%A5%E4%BA%8B%EF%BC%89.pdf"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "2026-09-18T10:30:00",
-    "application_deadline": "2026-09-14T17:00:00",
-    "fetched_date": "2026-09-12",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-12T02:34:44+00:00",
-      "planned_price": "37,521,000円(消費税及び地方消費税を含む。)",
-      "region_requirement": "串間市に建設業法(昭和24年法律第100号)第3条第1項に規定する営業所のうち本店又は支店等(支店、支社、営業所など)を有する者であること。",
-      "koki": "契約の日から令和9年3月9日まで",
-      "application_deadline": "2026-09-14T17:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-09-18T10:30:00",
-      "summary": "旧都井中学校屋内運動場の解体工事。S造+RC造1階建の屋内運動場と木造の渡り廊下（一部）の建築物及び付随する工作物等の解体・撤去を行う。作業ヤード盛土には、隣接する串間土木事務所が仮置きしているシラスを流用する。"
-    }
-  },
-  "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjA5MTFfMDQzOTIK": {
-    "source": "kkj",
-    "key": "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjA5MTFfMDQzOTIK",
-    "project_name": "松契一般第216号 新松戸現場事務所解体工事（PDF：143KB）",
-    "org_name": "千葉県松戸市",
-    "pref_name": "千葉県",
-    "city_name": "松戸市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-11T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/R8-0911kouji1w.files/216.pdf",
-    "attachments": [
-      {
-        "name": "松契一般第216号 設計図書（PDF：14,767KB）",
-        "uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/R8-0911kouji1w.files/216s.pdf"
-      }
-    ],
-    "location": "松戸市幸谷７２５番地※本工事は、松戸市が指定する電子契約サービスを用いた電子契約の対象案件である",
-    "bid_deadline": "2026-10-06T11:00:00",
-    "opening_date": "令和8年10月6日",
-    "application_deadline": "2026-09-17T11:00:00",
-    "fetched_date": "2026-09-12",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-12T02:34:44+00:00",
-      "planned_price": "金 ６，０４０，０００円（税抜き)",
-      "region_requirement": "松戸市内に本店を有すること",
-      "koki": "契約締結日の翌日から令和9年1月29日まで",
-      "application_deadline": "2026-09-17T11:00:00",
-      "bid_deadline": "2026-10-06T11:00:00",
-      "opening_date": "2026-10-13T13:30:00",
-      "summary": "本工事は、新松戸現場事務所の解体及び撤去を行うものです。敷地面積128.34㎡、延床面積63.76㎡の木造平屋建て事務所の上屋・基礎、内部造作、残置物、外構、付属物、給排水管等の解体・撤去、整地が含まれます。本工事は週休2日制適用工事であり、電子契約の対象案件です。"
-    }
-  },
-  "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjA5MTFfMDQzODgK": {
-    "source": "kkj",
-    "key": "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjA5MTFfMDQzODgK",
-    "project_name": "松契一般第218号 汚水ポンプ場解体撤去計画検討業務委託（PDF：356KB）",
-    "org_name": "千葉県松戸市",
-    "pref_name": "千葉県",
-    "city_name": "松戸市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-11T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/R8-0911sokuryou.files/218.pdf",
-    "attachments": [
-      {
-        "name": "松契一般第218号 設計図書（PDF：10,205KB）",
-        "uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/R8-0911sokuryou.files/218s.PDF"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "2026-10-09T15:00:00",
-    "opening_date": "令和8年9月25日",
-    "application_deadline": "2026-09-17T11:00:00",
-    "fetched_date": "2026-09-12",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-12T02:34:44+00:00",
-      "planned_price": "6,530,000円（税抜き)",
-      "region_requirement": "千葉県内に本店又は入札・契約の権限が委任された支店・営業所等を有すること。",
-      "koki": "契約締結日の翌日から令和9年3月19日まで",
-      "application_deadline": "2026-09-17T11:00:00",
-      "bid_deadline": "2026-10-09T15:00:00",
-      "opening_date": "2026-10-13T13:50:00",
-      "summary": "本業務は、松戸市日暮五丁目249番地外の汚水ポンプ場3箇所の解体撤去計画検討を行うものです。令和8・9年度松戸市入札参加業者資格者名簿に登載され、測量コンサルタント部門の「土木：下水道」に登録がある事業者が対象です。過去10年以内に官公庁発注のポンプ場新設または撤去の設計業務実績が求められます。"
-    }
-  },
-  "YW9tb3JpL29pcmFzZV90b3duLzIwMjYvMjAyNjA5MTFfMDA4NjgK": {
-    "source": "kkj",
-    "key": "YW9tb3JpL29pcmFzZV90b3duLzIwMjYvMjAyNjA5MTFfMDA4NjgK",
-    "project_name": "創作の家解体工事 [その他のファイル／2.97MB]",
-    "org_name": "青森県おいらせ町",
-    "pref_name": "青森県",
-    "city_name": "おいらせ町",
-    "pref_code": "02",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-11T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.town.oirase.aomori.jp/uploaded/attachment/27784.zip",
-    "attachments": [],
-    "location": "青森県上北郡おいらせ町沼端１４－１６１ いちょう公園体育館敷地内",
-    "bid_deadline": "令和８年９月２５日",
-    "opening_date": "令和８年９月２９日",
-    "application_deadline": "",
-    "fetched_date": "2026-09-12",
-    "notified": [],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-09-12T02:34:44+00:00"
-    }
-  },
   "tokyometro_3539841029192411": {
     "source": "tokyometro",
     "key": "tokyometro_3539841029192411",
@@ -3930,6 +3744,47 @@
       "bid_deadline": "2026-10-29T12:00:00",
       "opening_date": "2026-10-29T13:30:00",
       "summary": "本公告は、令和8年度国有建物等解体撤去工事設計業務の一般競争入札に関するものです。業務場所は神奈川県横浜市西区みなとみらい六丁目で、履行期間は契約締結日から2027年3月31日までです。本調達は政府電子調達システムを利用して実施されます。"
+    }
+  },
+  "chiba_777ea46f9505da49": {
+    "source": "chiba",
+    "key": "chiba_777ea46f9505da49",
+    "project_name": "千葉県立安房拓心高等学校温室外３棟解体工事",
+    "org_name": "千葉県  教育庁（県立学校）  千葉県立安房拓心高等学校",
+    "pref_name": "千葉県",
+    "city_name": "南房総市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-09-11",
+    "procedure_type": "事後審査）千葉県 ・ 価格競争 ・ 事後審査２型 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "01_入札公告（個別編_共通編）（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_777ea46f9505da49_1.pdf"
+      }
+    ],
+    "location": "南房総市和田町",
+    "bid_deadline": "2026-10-15T17:00:00",
+    "opening_date": "2026-10-19T10:00:00",
+    "application_deadline": "2026-10-09T17:00:00",
+    "fetched_date": "2026-10-12",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-12T03:43:23+00:00",
+      "planned_price": "23,540,000円（税込み）",
+      "region_requirement": "安房土木事務所、夷隅土木事務所、君津土木事務所、長生土木事務所、市原土木事務所、千葉土木事務所又は山武土木事務所管内（南房総市、館山市、鴨川市、安房郡鋸南町、勝浦市、いすみ市、夷隅郡大多喜町、夷隅郡御宿町、木更津市、君津市、富津市、袖ケ浦市、茂原市、長生郡一宮町、長生郡睦沢町、長生郡白子町、長生郡長柄町、長生郡長南町、長生郡長生村、市原市、千葉市、習志野市、八千代市、東金市、山武市、大網白里市、山",
+      "koki": "令和9年3月17日限り",
+      "application_deadline": "2026-10-09T17:00:00",
+      "bid_deadline": "2026-10-15T17:00:00",
+      "opening_date": "2026-10-19T10:00:00",
+      "summary": "千葉県立安房拓心高等学校の温室、ボイラー室、鶏舎2棟の計4棟の解体工事一式。温室は鉄骨造平家建て延べ面積262.8㎡、ボイラー室は鉄骨造平家建て延べ面積15.0㎡、鶏舎①は鉄骨造平家建て延べ面積130.0㎡、鶏舎②は鉄骨造平家建て延べ面積56.7㎡である。工事場所は南房総市和田町。"
     }
   }
 }
