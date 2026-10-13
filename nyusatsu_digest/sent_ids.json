@@ -3786,5 +3786,80 @@
       "opening_date": "2026-10-19T10:00:00",
       "summary": "千葉県立安房拓心高等学校の温室、ボイラー室、鶏舎2棟の計4棟の解体工事一式。温室は鉄骨造平家建て延べ面積262.8㎡、ボイラー室は鉄骨造平家建て延べ面積15.0㎡、鶏舎①は鉄骨造平家建て延べ面積130.0㎡、鶏舎②は鉄骨造平家建て延べ面積56.7㎡である。工事場所は南房総市和田町。"
     }
+  },
+  "tokyometro_3539791939290113": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539791939290113",
+    "project_name": "都立東大和高等学校(８)校舎棟ほか解体工事",
+    "org_name": "財務局経理部契約第一課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-10-13",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都東大和市中央三丁目945番地",
+    "bid_deadline": "",
+    "opening_date": "2026-12-07T09:15:00",
+    "application_deadline": "2026-10-23",
+    "fetched_date": "2026-10-13",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-13T05:00:19+00:00",
+      "planned_price": "474,452,000円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から令和9年11月30日まで",
+      "application_deadline": "2026-10-23T16:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-12-07T09:15:00",
+      "summary": "都立東大和高等学校の校舎棟、格技棟、渡り廊下、自転車置場、その他付属棟の解体工事です。これに伴う電気設備及び機械設備の撤去も含まれます。校舎棟は鉄筋コンクリート造地上3階建て、延床面積7,401.75㎡です。"
+    }
+  },
+  "pportal_640399": {
+    "source": "pportal",
+    "key": "pportal_640399",
+    "project_name": "(R08)国有建物（酒田市楢橋）解体撤去その他工事",
+    "org_name": "財務省",
+    "pref_name": "山形県",
+    "city_name": "",
+    "pref_code": "06",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-13",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=wRONPxFbSpffiJyfD8F5MJpqWEU5N6p4dRt7HcLT27U%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-10-29T16:00:00",
+    "opening_date": "2026-10-30T11:00:00",
+    "application_deadline": "2026-10-28T16:00:00",
+    "fetched_date": "2026-10-13",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-13T05:00:19+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日の翌日から令和9年3月19日まで",
+      "application_deadline": "2026-10-28T16:00:00",
+      "bid_deadline": "2026-10-29T16:00:00",
+      "opening_date": "2026-10-30T11:00:00",
+      "summary": "本工事は、山形県酒田市楢橋字新山33-1ほか1箇所における国有建物の解体撤去その他工事です。電子調達システムを利用した応札、入開札及び契約手続きにより実施されますが、紙による提出も可能です。"
+    }
   }
 }
