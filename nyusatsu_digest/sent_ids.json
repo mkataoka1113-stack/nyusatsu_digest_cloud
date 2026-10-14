@@ -1,79 +1,4 @@
 {
-  "tokyometro_3539841029192411": {
-    "source": "tokyometro",
-    "key": "tokyometro_3539841029192411",
-    "project_name": "恩賜上野動物園輸送施設整備に伴う準備工事",
-    "org_name": "東部公園緑地事務所庶務課",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3101"
-    ],
-    "cft_issue_date": "2026-09-14",
-    "procedure_type": "希望制指名競争入札",
-    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
-    "attachments": [],
-    "location": "東京都台東区上野公園地内",
-    "bid_deadline": "",
-    "opening_date": "2026-10-29T09:30:00",
-    "application_deadline": "2026-09-18",
-    "fetched_date": "2026-09-14",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-14T02:51:18+00:00",
-      "planned_price": "15,970,900円（消費税率10％）",
-      "region_requirement": null,
-      "koki": "契約確定の日の翌日から令和9年2月26日まで",
-      "application_deadline": "2026-09-18T15:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-10-29T09:30:00",
-      "summary": "恩賜上野動物園の輸送施設整備に伴う準備工事一式です。本工事は電子契約対象案件であり、建設リサイクル法対象工事です。"
-    }
-  },
-  "pportal_636931": {
-    "source": "pportal",
-    "key": "pportal_636931",
-    "project_name": "令和8年度久留米市所在建物解体撤去工事",
-    "org_name": "財務省",
-    "pref_name": "福岡県",
-    "city_name": "",
-    "pref_code": "40",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-14",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=1sCpat1tpOZlBr6EzDKDiEEMauTR4hZdYsBFr%2BZZ%2FAw%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "2026-10-07T17:00:00",
-    "opening_date": "2026-10-08T13:30:00",
-    "application_deadline": "2026-10-02T17:00:00",
-    "fetched_date": "2026-09-14",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-14T02:51:18+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": "契約締結日の翌日から令和9年3月30日まで",
-      "application_deadline": "2026-10-02T17:00:00",
-      "bid_deadline": "2026-10-07T17:00:00",
-      "opening_date": "2026-10-08T13:30:00",
-      "summary": "本工事は、令和8年度に久留米市所在の建物、工作物等の解体撤去を行うものです。政府電子調達システムを利用した応札、入開札及び契約手続により実施されます。工期は契約締結日の翌日から2027年3月30日までです。"
-    }
-  },
   "etokyo_2026:13:204:00211": {
     "source": "etokyo",
     "key": "etokyo_2026:13:204:00211",
@@ -3860,6 +3785,183 @@
       "bid_deadline": "2026-10-29T16:00:00",
       "opening_date": "2026-10-30T11:00:00",
       "summary": "本工事は、山形県酒田市楢橋字新山33-1ほか1箇所における国有建物の解体撤去その他工事です。電子調達システムを利用した応札、入開札及び契約手続きにより実施されますが、紙による提出も可能です。"
+    }
+  },
+  "pportal_640584": {
+    "source": "pportal",
+    "key": "pportal_640584",
+    "project_name": "発生材の売却（めじろ台宿舎解体等作業に係る発生材）",
+    "org_name": "最高裁判所",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-14",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=or2J%2BZWdz%2BHExoXC3Wa5C262IHxEpmFixcCMVKAP2Pw%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-10-27T17:00:00",
+    "opening_date": "2026-10-28T11:15:00",
+    "application_deadline": "",
+    "fetched_date": "2026-10-14",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-14T03:07:40+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約日から令和9年3月31日の間で双方協議の上、最高裁判所が指定する日",
+      "application_deadline": null,
+      "bid_deadline": "2026-10-27T17:00:00",
+      "opening_date": "2026-10-28T11:15:00",
+      "summary": "最高裁判所は、めじろ台宿舎解体等作業に係る発生材の売却に関する一般競争入札を実施します。引取場所は東京都八王子市椚田町のめじろ台宿舎で、引取期限は令和9年3月31日です。本件は電子調達システムを利用して実施されます。"
+    }
+  },
+  "b2l0YS9oaXRhX2NpdHkvMjAyNi8yMDI2MTAxM18wMDAwNgo=": {
+    "source": "kkj",
+    "key": "b2l0YS9oaXRhX2NpdHkvMjAyNi8yMDI2MTAxM18wMDAwNgo=",
+    "project_name": "一般競争入札の公告（旧天瀬公民館土間解体工事）",
+    "org_name": "大分県日田市",
+    "pref_name": "大分県",
+    "city_name": "日田市",
+    "pref_code": "44",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-13T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.hita.oita.jp/uploaded/attachment/11557.pdf",
+    "attachments": [],
+    "location": "日田市天瀬町桜竹３工期 令和８年１１月２７日から令和９年４月３０日４工事概要解体構造物 コンクリート基礎、石綿吹付材除去",
+    "bid_deadline": "2026-11-19T17:00:00",
+    "opening_date": "令和８年１１月２０日",
+    "application_deadline": "2026-10-23T17:00:00",
+    "fetched_date": "2026-10-14",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-14T03:07:40+00:00",
+      "planned_price": "６７，６００， ０ ０ ０円 （ 税 抜 き ）",
+      "region_requirement": "日田市内に建設業法に基づく主たる営業所（本店）があること",
+      "koki": "令和８年１１月２７日 か ら 令 和９年４月３０日",
+      "application_deadline": "2026-10-23T17:00:00",
+      "bid_deadline": "2026-11-19T17:00:00",
+      "opening_date": "2026-11-20T09:00:00",
+      "summary": "旧天瀬公民館の土間解体工事。コンクリート基礎、石綿吹付材除去、地中梁撤去が含まれ、床面積は480㎡です。本案件は電子入札システムを利用して行われます。"
+    }
+  },
+  "aG9ra2FpZG8vcG9saWNlX2hva2thaWRvX3Npc2V0dS8yMDI2LzIwMjYxMDEzXzAxMTA2Cg==": {
+    "source": "kkj",
+    "key": "aG9ra2FpZG8vcG9saWNlX2hva2thaWRvX3Npc2V0dS8yMDI2LzIwMjYxMDEzXzAxMTA2Cg==",
+    "project_name": "「警察本部大麻ＫＢ公宅解体工事監理」の入札告示",
+    "org_name": "国家公安委員会（警察庁）北海道警察本部総務部施設課",
+    "pref_name": "北海道",
+    "city_name": "札幌市",
+    "pref_code": "01",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-13T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.police.pref.hokkaido.lg.jp/info/soumu/sisetu/date/2026-11/2026-1105-honbu-kb-kanri-679/01.pdf",
+    "attachments": [],
+    "location": "江別市２ 入札に参加する者に必要な資格 次のいずれにも該当すること",
+    "bid_deadline": "2026-11-05T13:30:00",
+    "opening_date": "2026-11-05T13:30:00",
+    "application_deadline": "2026-10-22T17:00:00",
+    "fetched_date": "2026-10-14",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-14T03:07:40+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": "北海道内に本店、支店又は営業所を有すること",
+      "koki": "契約締結日の翌日から135日間",
+      "application_deadline": "2026-10-22T17:00:00",
+      "bid_deadline": "2026-11-05T13:30:00",
+      "opening_date": "2026-11-05T13:30:00",
+      "summary": "本件は、北海道警察本部大麻KB公宅解体工事監理の一般競争入札です。入札参加者は、北海道の競争入札参加資格（建築設計）を有し、過去5年間に延面積1,000㎡以上の建築工事監理業務の実績があることなどが求められます。予定価格は事後公表されます。"
+    }
+  },
+  "Z292MTMvbW9mX3RvaG9rdS8yMDI2LzIwMjYxMDEzXzAxMTE2Cg==": {
+    "source": "kkj",
+    "key": "Z292MTMvbW9mX3RvaG9rdS8yMDI2LzIwMjYxMDEzXzAxMTE2Cg==",
+    "project_name": "(R08)国有建物（酒田市楢橋）解体撤去その他工事",
+    "org_name": "財務省東北財務局",
+    "pref_name": "宮城県",
+    "city_name": "仙台市",
+    "pref_code": "04",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-13T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://lfb.mof.go.jp/tohoku/content/ym20261013-2.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-10-29T16:00:00",
+    "opening_date": "令和９年３月１９日",
+    "application_deadline": "2026-10-28T16:00:00",
+    "fetched_date": "2026-10-14",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-14T03:07:40+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日の翌日から令和９年３月１９日まで",
+      "application_deadline": "2026-10-28T16:00:00",
+      "bid_deadline": "2026-10-29T16:00:00",
+      "opening_date": "2026-10-30T11:00:00",
+      "summary": "本工事は、山形県酒田市楢橋字新山33-1ほか1箇所における国有建物の解体撤去その他工事です。電子調達システムを利用した応札、入開札及び契約手続きにより実施されますが、紙による提出も可能です。"
+    }
+  },
+  "Z2lmdS9nZXJvX2NpdHkvMjAyNi8yMDI2MTAxM18wMDA0NQo=": {
+    "source": "kkj",
+    "key": "Z2lmdS9nZXJvX2NpdHkvMjAyNi8yMDI2MTAxM18wMDA0NQo=",
+    "project_name": "金振工第2号 菅田公民館解体工事",
+    "org_name": "岐阜県下呂市",
+    "pref_name": "岐阜県",
+    "city_name": "下呂市",
+    "pref_code": "21",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-13T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.gero.lg.jp/uploaded/attachment/25399.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "令和８年10月26日",
+    "opening_date": "令和８年10月30日",
+    "application_deadline": "令和８年10月14日",
+    "fetched_date": "2026-10-14",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-14T03:07:40+00:00",
+      "planned_price": "20,649,200 円（消費税及び地方消費税を含む。）",
+      "region_requirement": "下呂市内に、下呂市建設工事入札参加資格者名簿に登載されている本店を有すること。",
+      "koki": "契約締結日の翌日から令和９年３月 25 日まで",
+      "application_deadline": "2026-10-16T16:00:00",
+      "bid_deadline": "2026-10-29T16:00:00",
+      "opening_date": "2026-10-30T09:10:00",
+      "summary": "本工事は、下呂市金山町菅田桐洞に位置する菅田公民館（昭和40年築、木造一部軽量鉄骨2階建、延べ床面積615.67㎡）の解体工事です。仮設工事、解体工事、発生材運搬処分、整地工が含まれます。"
     }
   }
 }
