@@ -1,281 +1,4 @@
 {
-  "etokyo_2026:13:204:00211": {
-    "source": "etokyo",
-    "key": "etokyo_2026:13:204:00211",
-    "project_name": "第二小学校及び第五小学校焼却炉撤去工事",
-    "org_name": "三鷹市",
-    "pref_name": "東京都",
-    "city_name": "三鷹市",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-14T14:00:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
-    "attachments": [],
-    "location": "東京都三鷹市野崎三丁目19番1号（第二小学校）、三鷹市井の頭二丁目34番21号（第五小学校）",
-    "bid_deadline": "2026-10-09T09:25:00",
-    "opening_date": "2026-10-09T09:30:00",
-    "application_deadline": "2026-09-29T17:00:00",
-    "fetched_date": "2026-09-15",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-15T02:54:21+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": "契約確定の翌日から2027年3月12日まで",
-      "application_deadline": "2026-09-29T17:00:00",
-      "bid_deadline": "2026-10-09T09:25:00",
-      "opening_date": "2026-10-09T09:30:00",
-      "summary": "本工事は、東京都三鷹市野崎三丁目19番1号（第二小学校）及び三鷹市井の頭二丁目34番21号（第五小学校）において、不要となった焼却炉を撤去する工事です。"
-    }
-  },
-  "chiba_27c9645c1dfc3bab": {
-    "source": "chiba",
-    "key": "chiba_27c9645c1dfc3bab",
-    "project_name": "野田橋警察官連絡所解体工事",
-    "org_name": "千葉県  県警本部総務部  会計課",
-    "pref_name": "千葉県",
-    "city_name": "野田市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-09-15",
-    "procedure_type": "事後審査）千葉県 ・ 価格競争 ・ 事後審査２型 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
-    "location": "野田市",
-    "bid_deadline": "2026-10-09T17:00:00",
-    "opening_date": "2026-10-13T09:00:00",
-    "application_deadline": "2026-10-06T17:00:00",
-    "fetched_date": "2026-09-15",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-15T02:54:21+00:00",
-      "planned_price": "6,039,000円（税込）",
-      "region_requirement": null,
-      "koki": "令和9年2月15日限り",
-      "application_deadline": "2026-10-06T17:00:00",
-      "bid_deadline": "2026-10-09T17:00:00",
-      "opening_date": "2026-10-13T09:00:00",
-      "summary": "野田市にある野田橋警察官連絡所の解体工事です。入札方式は電子入札による価格競争です。"
-    }
-  },
-  "pportal_637592": {
-    "source": "pportal",
-    "key": "pportal_637592",
-    "project_name": "呉市上平原町所在国有建物等解体工事",
-    "org_name": "財務省",
-    "pref_name": "広島県",
-    "city_name": "",
-    "pref_code": "34",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-11",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=gpBGb%2BH5UyezES8CrZKFAv8jh3B0oWR3YJwMCsGXfaw%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "2026-10-05T17:00:00",
-    "opening_date": "2026-10-06T11:00:00",
-    "application_deadline": "2026-10-02T17:00:00",
-    "fetched_date": "2026-09-15",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-15T02:54:21+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": "契約締結日から令和９年３月１８日（木曜日）",
-      "application_deadline": "2026-10-02T17:00:00",
-      "bid_deadline": "2026-10-05T17:00:00",
-      "opening_date": "2026-10-06T11:00:00",
-      "summary": "本工事は呉市上平原町に所在する国有建物等の解体工事です。調達ポータルを利用した応札、入開札手続及び電子契約により実施されます。契約期間は契約締結日から2027年3月18日までです。"
-    }
-  },
-  "aG9ra2FpZG8yL3NpbnJpbmthbnJpa3lva3UvMjAyNi8yMDI2MDkxNF8xMjA5Mgo=": {
-    "source": "kkj",
-    "key": "aG9ra2FpZG8yL3NpbnJpbmthbnJpa3lva3UvMjAyNi8yMDI2MDkxNF8xMjA5Mgo=",
-    "project_name": "令和8年度 武佐造林作業員宿泊所解体撤去業務（オープンカウンター方式による見積合わせ）",
-    "org_name": "林野庁北海道森林管理局",
-    "pref_name": "北海道",
-    "city_name": "札幌市",
-    "pref_code": "01",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-14T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.rinya.maff.go.jp/hokkaido/apply/publicsale/konsentoubu/attach/pdf/260914-1.pdf",
-    "attachments": [
-      {
-        "name": "仕様書等(PDF : 12,482KB)",
-        "uri": "https://www.rinya.maff.go.jp/hokkaido/apply/publicsale/konsentoubu/attach/pdf/260914-2.pdf"
-      }
-    ],
-    "location": "案内図①土地実測図建物図外観",
-    "bid_deadline": "2026-09-30T00:00:00",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-09-15",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-15T02:54:21+00:00",
-      "planned_price": null,
-      "region_requirement": "北海道地域の競争参加資格を有すること",
-      "koki": "契約締結の翌日から令和8年12月4日（金曜日）まで",
-      "application_deadline": null,
-      "bid_deadline": "2026-09-30T00:00:00",
-      "opening_date": null,
-      "summary": "令和8年度武佐造林作業員宿泊所の解体撤去業務です。国有林根釧東部森林管理署514林班にて実施されます。見積合わせは非公開で行われます。"
-    }
-  },
-  "aGlyb3NoaW1hL3NlcmFfdG93bi8yMDI2LzIwMjYwOTE0XzAwMTczCg==": {
-    "source": "kkj",
-    "key": "aGlyb3NoaW1hL3NlcmFfdG93bi8yMDI2LzIwMjYwOTE0XzAwMTczCg==",
-    "project_name": "旧津久志プール解体工事",
-    "org_name": "広島県世羅郡世羅町",
-    "pref_name": "広島県",
-    "city_name": "世羅郡世羅町",
-    "pref_code": "34",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-14T00:00:00+09:00",
-    "procedure_type": "一般",
-    "doc_uri": "https://www.town.sera.hiroshima.jp/uploaded/attachment/12800.pdf",
-    "attachments": [
-      {
-        "name": "2_一般競争入札（事後審査型）公告共通事項 [PDFファイル／1.08MB]",
-        "uri": "https://www.town.sera.hiroshima.jp/uploaded/attachment/12801.pdf"
-      },
-      {
-        "name": "3_入札指示事項 [PDFファイル／265KB]",
-        "uri": "https://www.town.sera.hiroshima.jp/uploaded/attachment/12802.pdf"
-      },
-      {
-        "name": "4_特約事項 [PDFファイル／604KB]",
-        "uri": "https://www.town.sera.hiroshima.jp/uploaded/attachment/12803.pdf"
-      },
-      {
-        "name": "5_建設工事請負契約約款 [PDFファイル／10.92MB]",
-        "uri": "https://www.town.sera.hiroshima.jp/uploaded/attachment/12804.pdf"
-      },
-      {
-        "name": "6_設計書 [PDFファイル／2.29MB]",
-        "uri": "https://www.town.sera.hiroshima.jp/uploaded/attachment/12805.pdf"
-      },
-      {
-        "name": "7_図面 [PDFファイル／2.63MB]",
-        "uri": "https://www.town.sera.hiroshima.jp/uploaded/attachment/12806.pdf"
-      }
-    ],
-    "location": "旧津久志プール解体工事解体工事オ8らない業種ウ町内に主たる営業所を有すること",
-    "bid_deadline": "2026-09-29T16:30:00",
-    "opening_date": "令和8年9月28日",
-    "application_deadline": "2026-09-28T00:00:00",
-    "fetched_date": "2026-09-15",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-15T02:54:21+00:00",
-      "planned_price": "22,601,000円 （消費税及び地方消費税相当額を除く。）",
-      "region_requirement": "町内に主たる営業所を有すること。",
-      "koki": "契約日の翌日 から 2027年2月26日 まで",
-      "application_deadline": "2026-09-28T00:00:00",
-      "bid_deadline": "2026-09-29T16:30:00",
-      "opening_date": "2026-10-01T09:09:00",
-      "summary": "旧津久志プール解体工事の一般競争入札（事後審査型）に関する公告です。管理棟、機械室棟、大プール、小プールの解体工事が対象です。本件は世羅町の電子入札システムを利用して行われます。"
-    }
-  },
-  "aGlyb3NoaW1hL2hhdHN1a2FpY2hpX2NpdHkvMjAyNi8yMDI2MDkxNF8wMDUzMwo=": {
-    "source": "kkj",
-    "key": "aGlyb3NoaW1hL2hhdHN1a2FpY2hpX2NpdHkvMjAyNi8yMDI2MDkxNF8wMDUzMwo=",
-    "project_name": "アルカディアビレッジ体育館解体及び跡地キャンプサイト整備工事",
-    "org_name": "広島県廿日市市",
-    "pref_name": "広島県",
-    "city_name": "廿日市市",
-    "pref_code": "34",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-14T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/96544.pdf",
-    "attachments": [],
-    "location": "広島県廿日市市 原２２１０番地３ 工事概要 アルカディアビレッジ体育館解体及び跡地キャンプサイト整備工事 ・鉄骨造 平屋",
-    "bid_deadline": "令和８年10月５日",
-    "opening_date": "2026-10-08T13:40:00",
-    "application_deadline": "",
-    "fetched_date": "2026-09-15",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-15T02:54:21+00:00",
-      "planned_price": "31,092,000円（消費税及び地方消費税相当額を除く。）",
-      "region_requirement": "開札日から遡って１年以上継続して、廿日市市内に主たる営業所（Ⅰ型）を有していること、または開札日から遡って３年以上継続して、廿日市市内で解体工事の入札及び契約履行等の委任を受けている営業所（Ⅲ型）を有していること、または開札日から遡って１年以上継続して、廿日市市内で主たる営業所（Ⅲ型）を有していること。",
-      "koki": "契約締結の日から2027年2月15日まで",
-      "application_deadline": null,
-      "bid_deadline": "2026-10-07T16:00:00",
-      "opening_date": "2026-10-08T13:40:00",
-      "summary": "本工事は、広島県廿日市市原2210番地にて、アルカディアビレッジ体育館の解体および跡地のキャンプサイト整備を行うものです。鉄骨造平屋建て延べ面積557.11㎡の体育館本体と付随する電気・機械設備の解体撤去、およびキャンプサイトフェンス設置、水路ふた掛け工事、建物跡地の整地を含む外構整備工事が含まれます。"
-    }
-  },
-  "ZnVrdW9rYS9jaXR5LWt1cnVtZS8yMDI2LzIwMjYwOTE0XzA0MjQwCg==": {
-    "source": "kkj",
-    "key": "ZnVrdW9rYS9jaXR5LWt1cnVtZS8yMDI2LzIwMjYwOTE0XzA0MjQwCg==",
-    "project_name": "旧し尿処理施設ガスホルダ外解体工事",
-    "org_name": "福岡県久留米市",
-    "pref_name": "福岡県",
-    "city_name": "久留米市",
-    "pref_code": "40",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-14T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.kurume.fukuoka.jp/1090sangyou/2010nyuusatsu/3030koukoku/4010nyuusatsu/files/20261001-8.pdf",
-    "attachments": [],
-    "location": "工期予定価格最低制限価格開札日時及び場所入札保証金契約保証金契約条項を示す場所議会の議決資格審査の方法 事後審査型 ※落",
-    "bid_deadline": "2026-09-30T22:00:00",
-    "opening_date": "2026-10-01T13:58:00",
-    "application_deadline": "",
-    "fetched_date": "2026-09-15",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-15T02:54:21+00:00",
-      "planned_price": "28,615,400円（税込）",
-      "region_requirement": "久留米市内に主たる営業所を有すること",
-      "koki": "125日間",
-      "application_deadline": null,
-      "bid_deadline": "2026-09-30T22:00:00",
-      "opening_date": "2026-10-01T13:58:00",
-      "summary": "旧し尿処理施設のガスホルダ等の解体工事です。久留米市津福本町で実施されます。工期は125日間です。"
-    }
-  },
   "chiba_e694eb389dc3d3c8": {
     "source": "chiba",
     "key": "chiba_e694eb389dc3d3c8",
@@ -3962,6 +3685,253 @@
       "bid_deadline": "2026-10-29T16:00:00",
       "opening_date": "2026-10-30T09:10:00",
       "summary": "本工事は、下呂市金山町菅田桐洞に位置する菅田公民館（昭和40年築、木造一部軽量鉄骨2階建、延べ床面積615.67㎡）の解体工事です。仮設工事、解体工事、発生材運搬処分、整地工が含まれます。"
+    }
+  },
+  "tokyometro_3539841029192411": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539841029192411",
+    "project_name": "恩賜上野動物園輸送施設整備に伴う準備工事",
+    "org_name": "東部公園緑地事務所庶務課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-09-14",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "2026-09-18",
+    "fetched_date": "2026-10-15",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "no_text",
+      "provider": "",
+      "enriched_at": "2026-10-15T02:46:01+00:00"
+    }
+  },
+  "Z292Ny9yaW55YV9tYWZmX2NodWJ1LzIwMjYvMjAyNjEwMTRfMDcyNTAK": {
+    "source": "kkj",
+    "key": "Z292Ny9yaW55YV9tYWZmX2NodWJ1LzIwMjYvMjAyNjEwMTRfMDcyNTAK",
+    "project_name": "令和8年度北白樺高原ふれあいの郷建物（146号区画居宅）解体撤去工事",
+    "org_name": "林野庁",
+    "pref_name": "",
+    "city_name": "",
+    "pref_code": "",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-14T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.rinya.maff.go.jp/chubu/apply/publicsale/tousin/R81014hureai.html",
+    "attachments": [
+      {
+        "name": "(1)入札公告(PDF : 301KB)",
+        "uri": "https://www.rinya.maff.go.jp/chubu/apply/publicsale/tousin/attach/pdf/R81014hureai-1.pdf"
+      },
+      {
+        "name": "(1)入札説明書(PDF : 553KB)",
+        "uri": "https://www.rinya.maff.go.jp/chubu/apply/publicsale/tousin/attach/pdf/R81014hureai-2.pdf"
+      }
+    ],
+    "location": "長野県小県郡長和町大門字追分3520番地1",
+    "bid_deadline": "2026-11-20T10:00:00",
+    "opening_date": "2026-11-20T10:00:00",
+    "application_deadline": "2026-10-28T17:00:00",
+    "fetched_date": "2026-10-15",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-15T02:46:01+00:00",
+      "planned_price": null,
+      "region_requirement": "本店、支店又は営業所等が長野県内に所在すること。また、経常建設共同企業体として資料を提出する場合は、有資格者名簿に記載されている共同企業体の本店所在地が、長野県内であること。",
+      "koki": "契約締結日の翌日から令和9年2月17日まで",
+      "application_deadline": "2026-10-28T17:00:00",
+      "bid_deadline": "2026-11-20T10:00:00",
+      "opening_date": "2026-11-20T10:00:00",
+      "summary": "本工事は、令和8年度北白樺高原ふれあいの郷建物(146号区画居宅)解体撤去工事です。長野県小県郡長和町大門字追分3520番地1にて、木造2階建の居宅1棟を解体撤去します。本工事は電子契約システム試行対象案件であり、電子入札システムで行われます。"
+    }
+  },
+  "ZnVrdW9rYS9taXlhbWFfY2l0eS8yMDI2LzIwMjYxMDE0XzAwMDI5Cg==": {
+    "source": "kkj",
+    "key": "ZnVrdW9rYS9taXlhbWFfY2l0eS8yMDI2LzIwMjYxMDE0XzAwMDI5Cg==",
+    "project_name": "起工第9号みやま市消防団旧山川東部分団格納庫等解体工事",
+    "org_name": "福岡県みやま市",
+    "pref_name": "福岡県",
+    "city_name": "みやま市",
+    "pref_code": "40",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-14T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.miyama.lg.jp/s009/kanko/050/050/020/R910141.pdf",
+    "attachments": [],
+    "location": "工期 予定価格 最低制限価格 工事費内訳書 入札の参加形態 参加条件",
+    "bid_deadline": "2026-11-03T17:00:00",
+    "opening_date": "令和８年１１月３日",
+    "application_deadline": "2026-10-21T12:00:00",
+    "fetched_date": "2026-10-15",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-15T02:46:01+00:00",
+      "planned_price": "12,925,000円",
+      "region_requirement": "みやま市競争入札参加資格者名簿に登載された解体工事の市内業者であること。",
+      "koki": "契約締結日の翌日から１２０日間",
+      "application_deadline": "2026-10-21T12:00:00",
+      "bid_deadline": "2026-11-03T17:00:00",
+      "opening_date": "2026-11-04T00:00:00",
+      "summary": "みやま市消防団旧山川東部分団格納庫等解体工事の条件付一般競争入札です。市内業者で解体工事のA・Bランクの資格を有し、建設業法に基づく解体工事の許可を受けていることが参加条件です。入札は電子入札システムにより行われます。"
+    }
+  },
+  "a2Fnb3NoaW1hL2ljaGlraWt1c2hpa2lub19jaXR5LzIwMjYvMjAyNjEwMTNfMDEwMDgK": {
+    "source": "kkj",
+    "key": "a2Fnb3NoaW1hL2ljaGlraWt1c2hpa2lub19jaXR5LzIwMjYvMjAyNjEwMTNfMDEwMDgK",
+    "project_name": "旧生福小学校教頭住宅解体工事",
+    "org_name": "鹿児島県いちき串木野市",
+    "pref_name": "鹿児島県",
+    "city_name": "いちき串木野市",
+    "pref_code": "46",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-13T00:00:00+09:00",
+    "procedure_type": "条件付一般競争入札",
+    "doc_uri": "http://www.city.ichikikushikino.lg.jp/zaisei2/documents/8r801013koukoku.pdf",
+    "attachments": [
+      {
+        "name": "図面（PDF",
+        "uri": "http://www.city.ichikikushikino.lg.jp/zaisei2/documents/2r81013yotakukyoso4zumen.pdf"
+      },
+      {
+        "name": "閲覧設計書等（PDF",
+        "uri": "http://www.city.ichikikushikino.lg.jp/zaisei2/documents/5r81013yotakukyoso4eturan.pdf"
+      },
+      {
+        "name": "工事内訳書（PDF",
+        "uri": "http://www.city.ichikikushikino.lg.jp/zaisei2/documents/6r81013yotakukyoso4utiwake.pdf"
+      }
+    ],
+    "location": "いちき串木野市 生福地内入札方法 条件付一般競争入札",
+    "bid_deadline": "2026-10-23T16:00:00",
+    "opening_date": "2026-10-26T00:00:00+09:00",
+    "application_deadline": "2026-10-20T17:00:00",
+    "fetched_date": "2026-10-15",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-15T02:46:01+00:00",
+      "planned_price": "2,500,000円",
+      "region_requirement": null,
+      "koki": "契約日から 令和9年1月15日",
+      "application_deadline": "2026-10-20T17:00:00",
+      "bid_deadline": "2026-10-23T16:00:00",
+      "opening_date": "2026-10-26T10:10:00",
+      "summary": "旧生福小学校教頭住宅の解体工事です。木造平屋建て71.91m2と倉庫6.48m2を解体し、整地を行います。本工事は条件付一般競争入札（電子入札）で行われます。"
+    }
+  },
+  "a2Fnb3NoaW1hL2ljaGlraWt1c2hpa2lub19jaXR5LzIwMjYvMjAyNjEwMTNfMDEwMDcK": {
+    "source": "kkj",
+    "key": "a2Fnb3NoaW1hL2ljaGlraWt1c2hpa2lub19jaXR5LzIwMjYvMjAyNjEwMTNfMDEwMDcK",
+    "project_name": "市営住宅解体除去工事（袴田住宅5号外）",
+    "org_name": "鹿児島県いちき串木野市",
+    "pref_name": "鹿児島県",
+    "city_name": "いちき串木野市",
+    "pref_code": "46",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-13T00:00:00+09:00",
+    "procedure_type": "条件付一般競争入札",
+    "doc_uri": "http://www.city.ichikikushikino.lg.jp/zaisei2/documents/7r801013koukoku.pdf",
+    "attachments": [
+      {
+        "name": "図面（PDF",
+        "uri": "http://www.city.ichikikushikino.lg.jp/zaisei2/documents/2r081013jukan3zumen.pdf"
+      },
+      {
+        "name": "閲覧設計書等（PDF",
+        "uri": "http://www.city.ichikikushikino.lg.jp/zaisei2/documents/5r081013jukan3etsuran2.pdf"
+      },
+      {
+        "name": "工事内訳書（PDF",
+        "uri": "http://www.city.ichikikushikino.lg.jp/zaisei2/documents/6r081013jukan3uchiwake2.pdf"
+      }
+    ],
+    "location": "いちき串木野市袴田外地内入札方法 条件付一般競争入札",
+    "bid_deadline": "2026-10-23T16:00:00",
+    "opening_date": "2026-10-26T00:00:00+09:00",
+    "application_deadline": "2026-10-20T17:00:00",
+    "fetched_date": "2026-10-15",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-15T02:46:01+00:00",
+      "planned_price": "2,670,000円（税抜き価格）",
+      "region_requirement": null,
+      "koki": "契約日から 令和9年1月15日",
+      "application_deadline": "2026-10-20T17:00:00",
+      "bid_deadline": "2026-10-23T16:00:00",
+      "opening_date": "2026-10-26T10:05:00",
+      "summary": "いちき串木野市袴田外地内にて市営住宅解体除去工事（袴田住宅5号外）が実施されます。袴田住宅5号（木造平屋33m2）と新生町住宅1号（木造平屋40m2）の解体除却整地、および高炉スラグ舗装が含まれます。"
+    }
+  },
+  "a2Fnb3NoaW1hL2ljaGlraWt1c2hpa2lub19jaXR5LzIwMjYvMjAyNjEwMTNfMDEwMDYK": {
+    "source": "kkj",
+    "key": "a2Fnb3NoaW1hL2ljaGlraWt1c2hpa2lub19jaXR5LzIwMjYvMjAyNjEwMTNfMDEwMDYK",
+    "project_name": "市営住宅解体除去工事（大六野住宅外）",
+    "org_name": "鹿児島県いちき串木野市",
+    "pref_name": "鹿児島県",
+    "city_name": "いちき串木野市",
+    "pref_code": "46",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-13T00:00:00+09:00",
+    "procedure_type": "条件付一般競争入札",
+    "doc_uri": "http://www.city.ichikikushikino.lg.jp/zaisei2/documents/6r801013koukoku.pdf",
+    "attachments": [
+      {
+        "name": "図面（PDF",
+        "uri": "http://www.city.ichikikushikino.lg.jp/zaisei2/documents/2r081013jukan2zumen.pdf"
+      },
+      {
+        "name": "閲覧設計書等（PDF",
+        "uri": "http://www.city.ichikikushikino.lg.jp/zaisei2/documents/5r0801013jukan2etsuran.pdf"
+      },
+      {
+        "name": "工事内訳書（PDF",
+        "uri": "http://www.city.ichikikushikino.lg.jp/zaisei2/documents/6r081013jukan2uchiwake.pdf"
+      }
+    ],
+    "location": "いちき串木野市生福地内入札方法 条件付一般競争入札",
+    "bid_deadline": "2026-10-23T16:00:00",
+    "opening_date": "2026-10-26T00:00:00+09:00",
+    "application_deadline": "2026-10-20T17:00:00",
+    "fetched_date": "2026-10-15",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-15T02:46:01+00:00",
+      "planned_price": "6,910,000円（税抜き価格）",
+      "region_requirement": null,
+      "koki": "契約日から 令和9年1月15日",
+      "application_deadline": "2026-10-20T17:00:00",
+      "bid_deadline": "2026-10-23T16:00:00",
+      "opening_date": "2026-10-26T10:00:00",
+      "summary": "いちき串木野市生福地内にて市営住宅解体除去工事（大六野住宅外）を実施します。大六野住宅の簡易平屋132m2と旧生冠中教頭住宅の木造平屋72m2の解体除却整地、高炉スラグ舗装が含まれます。"
     }
   }
 }
