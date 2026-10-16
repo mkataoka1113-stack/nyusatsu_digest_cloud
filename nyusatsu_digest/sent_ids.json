@@ -1,79 +1,4 @@
 {
-  "chiba_e694eb389dc3d3c8": {
-    "source": "chiba",
-    "key": "chiba_e694eb389dc3d3c8",
-    "project_name": "昌平町公衆便所解体工事",
-    "org_name": "茂原市  総務部  管財課",
-    "pref_name": "千葉県",
-    "city_name": "茂原市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-09-16",
-    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [
-      {
-        "name": "00【入札公告】昌平町公衆便所解体工事（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_e694eb389dc3d3c8_1.pdf"
-      }
-    ],
-    "location": "茂原市茂原２２２",
-    "bid_deadline": "2026-10-05T15:00:00",
-    "opening_date": "2026-10-07T10:50:00",
-    "application_deadline": "",
-    "fetched_date": "2026-09-16",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-16T02:49:59+00:00",
-      "planned_price": "事後公開",
-      "region_requirement": "建設業法に基づく許可を得た市内本店",
-      "koki": "契約日の翌日から 令和9年1月29日まで",
-      "application_deadline": null,
-      "bid_deadline": "2026-10-05T15:00:00",
-      "opening_date": "2026-10-07T10:50:00",
-      "summary": "茂原市茂原222に位置する昌平町公衆便所の解体工事です。構造はコンクリートブロック造の平屋建てで、延べ面積は8.4㎡です。"
-    }
-  },
-  "aG9ra2FpZG8yL3NpbnJpbmthbnJpa3lva3UvMjAyNi8yMDI2MDkxNV8xMjA5NAo=": {
-    "source": "kkj",
-    "key": "aG9ra2FpZG8yL3NpbnJpbmthbnJpa3lva3UvMjAyNi8yMDI2MDkxNV8xMjA5NAo=",
-    "project_name": "令和8年度 武佐造林作業員宿泊所解体撤去業務（オープンカウンター方式による見積合わせ）の公示の一部修正",
-    "org_name": "林野庁北海道森林管理局",
-    "pref_name": "北海道",
-    "city_name": "札幌市",
-    "pref_code": "01",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-15T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.rinya.maff.go.jp/hokkaido/apply/publicsale/konsentoubu/attach/pdf/260915-2.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-10-02T17:00:00",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-09-16",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-16T02:49:59+00:00",
-      "planned_price": null,
-      "region_requirement": "北海道地域の競争参加資格を有する者であること。",
-      "koki": "契約締結の翌日から2026年12月4日（金曜日）まで",
-      "application_deadline": null,
-      "bid_deadline": "2026-10-02T17:00:00",
-      "opening_date": null,
-      "summary": "令和8年度武佐造林作業員宿泊所解体撤去業務の見積合わせです。国有林根釧東部森林管理署514林班にて、契約締結の翌日から2026年12月4日までに行われます。見積書は2026年9月14日から受け付け、2026年10月2日午後5時が提出期限です。"
-    }
-  },
   "tokyometro_3539791939291612": {
     "source": "tokyometro",
     "key": "tokyometro_3539791939291612",
@@ -3932,6 +3857,287 @@
       "bid_deadline": "2026-10-23T16:00:00",
       "opening_date": "2026-10-26T10:00:00",
       "summary": "いちき串木野市生福地内にて市営住宅解体除去工事（大六野住宅外）を実施します。大六野住宅の簡易平屋132m2と旧生冠中教頭住宅の木造平屋72m2の解体除却整地、高炉スラグ舗装が含まれます。"
+    }
+  },
+  "tokyometro_3539791939298413": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539791939298413",
+    "project_name": "東京都八王子福祉園(８)解体工事",
+    "org_name": "財務局経理部契約第一課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-10-16",
+    "procedure_type": "一般競争入札(技術実績評価型総合評価方式)",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都八王子市西寺方町76番地",
+    "bid_deadline": "",
+    "opening_date": "2026-12-07T09:15:00",
+    "application_deadline": "2026-10-29",
+    "fetched_date": "2026-10-16",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-16T02:40:26+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から2028年8月22日まで",
+      "application_deadline": "2026-10-29T16:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-12-07T09:15:00",
+      "summary": "東京都八王子福祉園の解体工事です。生活棟（鉄筋コンクリート造、地上1階建て、延床面積862.72㎡）ほか4棟、職員宿舎（鉄筋コンクリート造、地上4階建て、延床面積1,548.84㎡）ほか5棟の解体およびその他工事一式が含まれます。"
+    }
+  },
+  "a29jaGkva29jaGlfY2l0eS8yMDI2LzIwMjYxMDE1XzAwMTc2Cg==": {
+    "source": "kkj",
+    "key": "a29jaGkva29jaGlfY2l0eS8yMDI2LzIwMjYxMDE1XzAwMTc2Cg==",
+    "project_name": "海老川市民会館解体工事",
+    "org_name": "高知県高知市",
+    "pref_name": "高知県",
+    "city_name": "高知市",
+    "pref_code": "39",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-15T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kochi.kochi.jp/uploaded/attachment/184978.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-10-30T17:00:00",
+    "opening_date": "2026-11-02T11:15:00",
+    "application_deadline": "2026-10-30T17:00:00",
+    "fetched_date": "2026-10-16",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-16T02:40:26+00:00",
+      "planned_price": "事後公表する。",
+      "region_requirement": "高知市内に主たる営業所（本社）を有する者",
+      "koki": "120 日",
+      "application_deadline": "2026-10-30T17:00:00",
+      "bid_deadline": "2026-10-30T17:00:00",
+      "opening_date": "2026-11-02T11:15:00",
+      "summary": "本工事は、高知市朝倉己419番３ほかで行われる海老川市民会館解体工事です。海老川市民会館（鉄筋コンクリート造2階建て延べ面積268.40㎡）、防災倉庫、公衆WC、外構の解体一式が含まれます。本工事は電子入札による事後審査型制限付き一般競争入札で、入札時積算数量書活用方式の試行工事であり、週休2日制工事（選択－Ⅰ型）の対象です。"
+    }
+  },
+  "aGlyb3NoaW1hL2hpZ2FzaGloaXJvc2hpbWFzaGkvMjAyNi8yMDI2MTAxNV8wMzg0OQo=": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL2hpZ2FzaGloaXJvc2hpbWFzaGkvMjAyNi8yMDI2MTAxNV8wMzg0OQo=",
+    "project_name": "2号7-108-237高屋中央保育所解体工事(PDFファイル:185KB)",
+    "org_name": "広島県東広島市",
+    "pref_name": "広島県",
+    "city_name": "東広島市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-15T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.higashihiroshima.lg.jp/material/files/group/7/7-108-237_kokoku.pdf",
+    "attachments": [
+      {
+        "name": "7-108-237(PDFファイル:6.7MB)",
+        "uri": "https://www.city.higashihiroshima.lg.jp/material/files/group/7/tosho_7-108-237.pdf"
+      }
+    ],
+    "location": "４ 工事概要５ 工期６ 予定価格有り８ 建設工事の種類９ 競争入札に参加する者に必要な資格に関する事項",
+    "bid_deadline": "2026-11-04T17:00:00",
+    "opening_date": "2026-11-04T09:35:00",
+    "application_deadline": "",
+    "fetched_date": "2026-10-16",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-16T02:40:26+00:00",
+      "planned_price": "12,932,000円（消費税及び地方消費税相当額を除く。）",
+      "region_requirement": "東広島市内に本店かつ主たる営業所を開札日から遡って継続して１年以上有する者",
+      "koki": "契約日の翌日から令和９年３月３０日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-11-04T17:00:00",
+      "opening_date": "2026-11-04T09:35:00",
+      "summary": "本工事は、東広島市高屋町中島における高屋中央保育所の解体工事です。工事内容は、保育棟（軽量鉄骨造平屋建、延床面積686.33m2）とトイレ棟（木造平屋建、延床面積15.22m2）の建物解体、それに伴う電気設備・機械設備の撤去、外構解体、および跡地整備を含みます。アスベスト成形板の処理作業も含まれます。"
+    }
+  },
+  "aGlyb3NoaW1hL2hpZ2FzaGloaXJvc2hpbWFzaGkvMjAyNi8yMDI2MTAxNV8wMzg0OAo=": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL2hpZ2FzaGloaXJvc2hpbWFzaGkvMjAyNi8yMDI2MTAxNV8wMzg0OAo=",
+    "project_name": "2号7-108-236市営城山住宅解体工事(PDFファイル:184.9KB)",
+    "org_name": "広島県東広島市",
+    "pref_name": "広島県",
+    "city_name": "東広島市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-15T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.higashihiroshima.lg.jp/material/files/group/7/7-108-236_kokoku.pdf",
+    "attachments": [
+      {
+        "name": "7-108-236(PDFファイル:4.7MB)",
+        "uri": "https://www.city.higashihiroshima.lg.jp/material/files/group/7/tosho_7-108-236.pdf"
+      }
+    ],
+    "location": "４ 工事概要５ 工期６ 予定価格有り８ 建設工事の種類９ 競争入札に参加する者に必要な資格に関する事項",
+    "bid_deadline": "2026-11-04T17:00:00",
+    "opening_date": "2026-11-04T09:30:00",
+    "application_deadline": "",
+    "fetched_date": "2026-10-16",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-16T02:40:26+00:00",
+      "planned_price": "10,609,000円（消費税及び地方消費税相当額を除く。）",
+      "region_requirement": "東広島市内に本店かつ主たる営業所を開札日から遡って継続して１年以上有する者",
+      "koki": "契約日の翌日から令和９年３月３０日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-11-04T17:00:00",
+      "opening_date": "2026-11-04T09:30:00",
+      "summary": "本工事は、東広島市高屋町小谷における市営城山住宅の解体工事です。5号棟、6号棟、9号棟、10号棟、風呂棟1、風呂棟2の木造平屋建住宅を解体し、電気設備・機械設備の撤去、外構解体、跡地整備を行います。アスベスト成形板の処理作業も含まれます。"
+    }
+  },
+  "Z292MTIvcmlueWEtbWFmZi1reXVzeXUvMjAyNi8yMDI2MTAxNV8wNTQyOQo=": {
+    "source": "kkj",
+    "key": "Z292MTIvcmlueWEtbWFmZi1reXVzeXUvMjAyNi8yMDI2MTAxNV8wNTQyOQo=",
+    "project_name": "林木育種センター九州育種場高架水槽外解体撤去工事",
+    "org_name": "林野庁九州森林管理局",
+    "pref_name": "熊本県",
+    "city_name": "熊本市",
+    "pref_code": "43",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-15T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.rinya.maff.go.jp/kyusyu/apply/publicsale/kanri/attach/pdf/2026.10.13.1-1.pdf",
+    "attachments": [
+      {
+        "name": "入札説明書(PDF : 390KB)",
+        "uri": "https://www.rinya.maff.go.jp/kyusyu/apply/publicsale/kanri/attach/pdf/2026.10.13.1-2.pdf"
+      },
+      {
+        "name": "入札心得(PDF : 180KB)",
+        "uri": "https://www.rinya.maff.go.jp/kyusyu/apply/publicsale/kanri/attach/pdf/2026.10.13.1-4.pdf"
+      },
+      {
+        "name": "建物解体工事共通仕様書(PDF : 945KB)",
+        "uri": "https://www.rinya.maff.go.jp/kyusyu/apply/publicsale/kanri/attach/pdf/2026.10.13.1-6.pdf"
+      }
+    ],
+    "location": "熊本県合志市須屋２３２０－５",
+    "bid_deadline": "2026-11-17T09:55:00",
+    "opening_date": "2026-11-17T10:00:00",
+    "application_deadline": "2026-10-29T17:00:00",
+    "fetched_date": "2026-10-16",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-16T02:40:26+00:00",
+      "planned_price": null,
+      "region_requirement": "「建設業法」に基づく本店又は支店若しくは営業所が、九州森林管理局管内の市町村に所在すること。また、経常建設共同事業体として資料を提出する場合は、有資格者名簿に記載されている共同企業体の本店所在地が、九州森林管理局管内の市町村に所在すること。",
+      "koki": "契約締結日の翌日から令和９年２月２６日まで",
+      "application_deadline": "2026-10-29T17:00:00",
+      "bid_deadline": "2026-11-17T09:55:00",
+      "opening_date": "2026-11-17T10:00:00",
+      "summary": "本工事は、林木育種センター九州育種場高架水槽外解体撤去工事であり、熊本県合志市須屋にて建築物解体（基礎含む）及び電気・機械設備機器の撤去、処分、解体撤去後の整地を行います。総合評価落札方式（簡易型）により、価格と価格以外の要素を総合的に評価して落札者を決定します。"
+    }
+  },
+  "Z2lmdS9naWZ1X2NpdHkvMjAyNi8yMDI2MTAxNV8wMDU3NQo=": {
+    "source": "kkj",
+    "key": "Z2lmdS9naWZ1X2NpdHkvMjAyNi8yMDI2MTAxNV8wMDU3NQo=",
+    "project_name": "10月15日 解体 1728 旧藍川小学校プール・附属棟解体工事",
+    "org_name": "岐阜県岐阜市",
+    "pref_name": "岐阜県",
+    "city_name": "岐阜市",
+    "pref_code": "21",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-15T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/042/102/r08_141k.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-10-29T16:00:00",
+    "opening_date": "2026-10-30T09:00:00",
+    "application_deadline": "2026-10-21T00:00:00",
+    "fetched_date": "2026-10-16",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-16T02:40:26+00:00",
+      "planned_price": "29,436,000円（消費税及び地方消費税を含む。）",
+      "region_requirement": "岐阜市内に本店を有すること。",
+      "koki": "契約確定の翌日から令和9年3月18日まで",
+      "application_deadline": "2026-10-21T00:00:00",
+      "bid_deadline": "2026-10-29T16:00:00",
+      "opening_date": "2026-10-30T09:00:00",
+      "summary": "旧藍川小学校のプールと附属棟の解体工事です。本工事は請負契約で、電子契約が可能です。令和8年12月1日に工事着手し、令和9年3月18日に完成予定です。"
+    }
+  },
+  "ZnVrdW9rYS9rYXN1eWFfdG93bi5wbC8yMDI2LzIwMjYxMDE1XzAwMDg4Cg==": {
+    "source": "kkj",
+    "key": "ZnVrdW9rYS9rYXN1eWFfdG93bi5wbC8yMDI2LzIwMjYxMDE1XzAwMDg4Cg==",
+    "project_name": "大川小学校プール解体工事（条件付一般競争入札）",
+    "org_name": "福岡県粕屋町",
+    "pref_name": "福岡県",
+    "city_name": "粕屋町",
+    "pref_code": "40",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-15T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.town.kasuya.fukuoka.jp/s055/040/010/010/010/820/koukoku.pdf",
+    "attachments": [
+      {
+        "name": "入札説明書（PDF：132KB）",
+        "uri": "https://www.town.kasuya.fukuoka.jp/s055/040/010/010/010/820/nyuusatusetumeisho.pdf"
+      },
+      {
+        "name": "位置図（PDF：1.8MB）",
+        "uri": "https://www.town.kasuya.fukuoka.jp/s055/040/010/010/010/820/ichizu.pdf"
+      },
+      {
+        "name": "設計書（PDF：106KB）",
+        "uri": "https://www.town.kasuya.fukuoka.jp/s055/040/010/010/010/820/sekkeisho.pdf"
+      },
+      {
+        "name": "図面（PDF：8.4MB）",
+        "uri": "https://www.town.kasuya.fukuoka.jp/s055/040/010/010/010/820/zumenn.pdf"
+      }
+    ],
+    "location": "福岡県糟屋郡粕屋町戸原東3丁目5番1号",
+    "bid_deadline": "令和8年11月6日",
+    "opening_date": "令和8年11月6日",
+    "application_deadline": "2026-10-23T17:00:00",
+    "fetched_date": "2026-10-16",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-16T02:40:26+00:00",
+      "planned_price": "事前公表￥26,474,800-（消費税相当額￥2,406,800-含む）",
+      "region_requirement": "福岡県内に本店又は支店を有すること。",
+      "koki": "契約締結日の翌日から令和 9 年 3 月 31 日まで",
+      "application_deadline": "2026-10-23T17:00:00",
+      "bid_deadline": "2026-11-06T12:00:00",
+      "opening_date": "2026-11-06T13:00:00",
+      "summary": "大川小学校のプール解体工事です。建築解体工事、電気設備解体工事、機械設備解体工事をそれぞれ1式行います。最低価格落札方式により落札者を決定します。",
+      "opening_date_note": "入札締切と開札日が同一値になっています。AI抽出では2026-11-06T13:00:00 の可能性があるため、公告原本で開札日を確認してください。"
     }
   }
 }
