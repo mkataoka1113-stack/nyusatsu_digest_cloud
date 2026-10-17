@@ -1,167 +1,4 @@
 {
-  "tokyometro_3539791939291612": {
-    "source": "tokyometro",
-    "key": "tokyometro_3539791939291612",
-    "project_name": "旧東京都労働資料センター(８)解体工事",
-    "org_name": "財務局経理部契約第一課",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3101"
-    ],
-    "cft_issue_date": "2026-08-17",
-    "procedure_type": "一般競争入札(技術実績評価型総合評価方式)",
-    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
-    "attachments": [],
-    "location": "東京都中野区弥生町二丁目41番17号",
-    "bid_deadline": "",
-    "opening_date": "2026-10-15T09:15:00",
-    "application_deadline": "2026-08-28",
-    "fetched_date": "2026-09-17",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-17T02:52:37+00:00",
-      "planned_price": "541,827,000円（消費税率10％）",
-      "region_requirement": null,
-      "koki": "契約確定の日の翌日から令和10年9月29日まで",
-      "application_deadline": "2026-08-28T16:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-10-15T09:15:00",
-      "summary": "東京都中野区弥生町二丁目41番17号に所在する、鉄筋コンクリート造 地下1階地上4階建て（延床面積3,365.9㎡）の旧東京都労働資料センターの解体工事です。基礎、杭、土壌汚染対策、外構、石綿、機械設備、電気設備を含む一式工事となります。"
-    }
-  },
-  "pportal_638062": {
-    "source": "pportal",
-    "key": "pportal_638062",
-    "project_name": "【国土地理院】位置情報インフラの強靱化（「Ｐ鼠ヶ関」建屋解体撤去等業務）",
-    "org_name": "国土交通省",
-    "pref_name": "茨城県",
-    "city_name": "",
-    "pref_code": "08",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-17",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=YlisIwMyWMq9XFYDbO436XfGpEZd4EoE5TR3leGeEFc%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-09-17",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-17T02:52:37+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": null,
-      "opening_date": null,
-      "summary": "本公告は、国土地理院による位置情報インフラの強靱化に関する「Ｐ鼠ヶ関」建屋解体撤去等業務の一般競争入札（WTO対象外）です。調達機関は国土交通省で、所在地は茨城県です。"
-    }
-  },
-  "aG9ra2FpZG8yL3NpbnJpbmthbnJpa3lva3UvMjAyNi8yMDI2MDkxNl8xMjA5Nwo=": {
-    "source": "kkj",
-    "key": "aG9ra2FpZG8yL3NpbnJpbmthbnJpa3lva3UvMjAyNi8yMDI2MDkxNl8xMjA5Nwo=",
-    "project_name": "当別森林事務所外解体撤去工事（電子入札対象案件）（電子契約試行対象案件）",
-    "org_name": "林野庁北海道森林管理局",
-    "pref_name": "北海道",
-    "city_name": "札幌市",
-    "pref_code": "01",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-16T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.rinya.maff.go.jp/hokkaido/apply/publicsale/isikari/attach/pdf/260916_01-1.pdf",
-    "attachments": [
-      {
-        "name": "仕様書等1(PDF : 1,720KB)",
-        "uri": "https://www.rinya.maff.go.jp/hokkaido/apply/publicsale/isikari/attach/pdf/260916_01-2.pdf"
-      },
-      {
-        "name": "仕様書等2(PDF : 7,657KB)",
-        "uri": "https://www.rinya.maff.go.jp/hokkaido/apply/publicsale/isikari/attach/pdf/260916_01-3.pdf"
-      }
-    ],
-    "location": "石狩郡当別町北栄町１－１",
-    "bid_deadline": "2026-10-26T10:00:00",
-    "opening_date": "2026-10-26T10:00:00",
-    "application_deadline": "2026-10-05T17:00:00",
-    "fetched_date": "2026-09-17",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-17T02:52:37+00:00",
-      "planned_price": null,
-      "region_requirement": "建設業法に基づく本店、支店又は営業所が、北海道森林管理局管内（北海道内）に所在すること。また、経常建設共同企業体として申請書および資料を提出する場合は、有資格者名簿に記載されている共同企業体の本店所在地が、上記区域内であること。",
-      "koki": "契約締結日の翌日から2026年12月25日まで",
-      "application_deadline": "2026-10-05T17:00:00",
-      "bid_deadline": "2026-10-26T10:00:00",
-      "opening_date": "2026-10-26T10:00:00",
-      "summary": "本工事は、当別森林事務所、車庫、物置の解体撤去を行うものです。建設工事に係る資材の再資源化等に関する法律に基づき、分別解体等及び特定建設資材廃棄物の再資源化等が義務付けられています。また、大気汚染防止法及び石綿障害予防規則に基づき、施工業者による事前調査結果の報告が義務付けられています。"
-    }
-  },
-  "Z292Ny9yaW55YV9tYWZmX2NodWJ1LzIwMjYvMjAyNjA5MTZfMDcyMzkK": {
-    "source": "kkj",
-    "key": "Z292Ny9yaW55YV9tYWZmX2NodWJ1LzIwMjYvMjAyNjA5MTZfMDcyMzkK",
-    "project_name": "令和8年度 飯田治山事業所解体撤去工事",
-    "org_name": "林野庁",
-    "pref_name": "",
-    "city_name": "",
-    "pref_code": "",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-16T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.rinya.maff.go.jp/chubu/apply/publicsale/inadani/2026091603.html",
-    "attachments": [
-      {
-        "name": "入札公告(PDF : 128KB)",
-        "uri": "https://www.rinya.maff.go.jp/chubu/apply/publicsale/inadani/attach/pdf/2026091603-1.pdf"
-      },
-      {
-        "name": "入札説明書(PDF : 295KB)",
-        "uri": "https://www.rinya.maff.go.jp/chubu/apply/publicsale/inadani/attach/pdf/2026091603-2.pdf"
-      }
-    ],
-    "location": "、受注者名、社印を有する部分)、②同種工事が確認できる書類の写し",
-    "bid_deadline": "令和8年10月7日",
-    "opening_date": "令和8年10月21日",
-    "application_deadline": "2026-10-05T17:00:00",
-    "fetched_date": "2026-09-17",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-17T02:52:37+00:00",
-      "planned_price": null,
-      "region_requirement": "建設業法の基づく本社、支店又は営業所が、長野県に所在すること。また、経常建設共同企業体として資料を提出する場合は、有資格者名簿に記載されている共同企業体の本店所在地が、下記区域内であること。",
-      "koki": "契約締結日の翌日から令和9年1月20日まで",
-      "application_deadline": "2026-10-05T17:00:00",
-      "bid_deadline": "2026-10-21T10:00:00",
-      "opening_date": "2026-10-21T10:00:00",
-      "summary": "本工事は、令和8年度に長野県飯田市宮ノ上3982番地にある飯田治山事業所の事務所棟を解体撤去するものです。電子契約システムおよび電子入札システム試行対象案件であり、建設リサイクル法に基づき分別解体等及び特定建設資材廃棄物の再資源化等が義務付けられています。"
-    }
-  },
   "tokyometro_3539992030294369": {
     "source": "tokyometro",
     "key": "tokyometro_3539992030294369",
@@ -4138,6 +3975,275 @@
       "opening_date": "2026-11-06T13:00:00",
       "summary": "大川小学校のプール解体工事です。建築解体工事、電気設備解体工事、機械設備解体工事をそれぞれ1式行います。最低価格落札方式により落札者を決定します。",
       "opening_date_note": "入札締切と開札日が同一値になっています。AI抽出では2026-11-06T13:00:00 の可能性があるため、公告原本で開札日を確認してください。"
+    }
+  },
+  "pportal_641201": {
+    "source": "pportal",
+    "key": "pportal_641201",
+    "project_name": "【資エ庁】令和８年度旧秋田国家石油備蓄基地研修所建物解体工事設計業務",
+    "org_name": "経済産業省",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-16",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=SkQIf8d4R5gnFsFUuBOG1oqFOwkrUDBb2K04d1kkzAM%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-10-28T14:30:00",
+    "opening_date": "2026-10-28T14:30:00",
+    "application_deadline": "2026-10-26T10:00:00",
+    "fetched_date": "2026-10-17",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-17T02:31:30+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": "2026-10-26T10:00:00",
+      "bid_deadline": "2026-10-28T14:30:00",
+      "opening_date": "2026-10-28T14:30:00",
+      "summary": "本案件は、令和8年度旧秋田国家石油備蓄基地研修所建物解体工事の設計業務に関する一般競争入札です。入札金額は総価で行われ、人件費や原材料費、エネルギーコストの改定・増加見込みを考慮して積算する必要があります。落札決定に際しては、入札書に記載された金額に10パーセントを加算した金額が落札価格となります。"
+    }
+  },
+  "pportal_641095": {
+    "source": "pportal",
+    "key": "pportal_641095",
+    "project_name": "【東京航空局】東京国際空港東西地下連絡通路D階段外1件解体実施設計",
+    "org_name": "国土交通省",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-16",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=dT1PQO7UgQ7%2Fwd8uy%2BB10GtHCMRYDMM4fN9aqSLIDCw%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-10-17",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-17T02:31:30+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本案件は、東京航空局による東京国際空港東西地下連絡通路D階段外1件の解体実施設計に関する一般競争入札の公告です。調達案件名称は「【東京航空局】東京国際空港東西地下連絡通路D階段外1件解体実施設計」です。公開開始日は2026年10月16日、公開終了日は2026年11月12日です。"
+    }
+  },
+  "pportal_641207": {
+    "source": "pportal",
+    "key": "pportal_641207",
+    "project_name": "国立療養所多磨全生園　病棟等解体工事",
+    "org_name": "厚生労働省",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-16",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=dxZEZmUWvm%2F3e1PQ2raa9gHqL%2BFtQruKymolaPa8Nek%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-11-06T17:00:00",
+    "opening_date": "2026-11-09T13:00:00",
+    "application_deadline": "2026-10-30T17:00:00",
+    "fetched_date": "2026-10-17",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-17T02:31:30+00:00",
+      "planned_price": null,
+      "region_requirement": "関東甲信越地域内に本店、支店又は営業所が存在すること。",
+      "koki": "契約締結日～令和９年３月１７日まで",
+      "application_deadline": "2026-10-30T17:00:00",
+      "bid_deadline": "2026-11-06T17:00:00",
+      "opening_date": "2026-11-09T13:00:00",
+      "summary": "本工事は、国立療養所多磨全生園の病棟等解体工事です。アスベスト撤去工事および解体後の外構工事を含みます。本工事は、簡易な施工計画等の提案を受け付け、価格以外の要素と価格を総合的に評価して落札者を決定する総合評価落札方式の工事です。"
+    }
+  },
+  "eWFtYW5hc2hpL21pbmFtaV9hbHBzX2NpdHkvMjAyNi8yMDI2MTAxNl8wMDg1Mwo=": {
+    "source": "kkj",
+    "key": "eWFtYW5hc2hpL21pbmFtaV9hbHBzX2NpdHkvMjAyNi8yMDI2MTAxNl8wMDg1Mwo=",
+    "project_name": "07 市営田尻住宅5・9号棟解体撤去工事 (PDF 224KB)",
+    "org_name": "山梨県南アルプス市",
+    "pref_name": "山梨県",
+    "city_name": "南アルプス市",
+    "pref_code": "19",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-16T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.minami-alps.yamanashi.jp/fs/1/4/6/9/7/8/_/07_______5_9________.pdf",
+    "attachments": [],
+    "location": "南アルプス市野牛島地内概 要1 主 な 内 容市営住宅の解体撤去工事給水管撤去工事、付帯工事一式数量：2棟※詳細は設計図",
+    "bid_deadline": "2026-11-06T17:00:00",
+    "opening_date": "2026-11-09T09:00:00",
+    "application_deadline": "2026-10-23T11:00:00",
+    "fetched_date": "2026-10-17",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-17T02:31:30+00:00",
+      "planned_price": "11,100,000円（消費税抜き）",
+      "region_requirement": "南アルプス市内に本店",
+      "koki": "契約締結日の翌日から令和9年2月26日",
+      "application_deadline": "2026-10-23T11:00:00",
+      "bid_deadline": "2026-11-06T17:00:00",
+      "opening_date": "2026-11-09T09:00:00",
+      "summary": "市営田尻住宅5・9号棟の解体撤去工事です。給水管撤去工事および付帯工事一式が含まれます。対象は2棟です。"
+    }
+  },
+  "Z2lmdS9naWZ1X2NpdHkvMjAyNi8yMDI2MTAxNl8wMDU3OAo=": {
+    "source": "kkj",
+    "key": "Z2lmdS9naWZ1X2NpdHkvMjAyNi8yMDI2MTAxNl8wMDU3OAo=",
+    "project_name": "10月16日 解体 1716 旧藍川東中学校プール・附属棟解体工事",
+    "org_name": "岐阜県岐阜市",
+    "pref_name": "岐阜県",
+    "city_name": "岐阜市",
+    "pref_code": "21",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-16T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/042/121/r08_140k.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-10-30T16:00:00",
+    "opening_date": "2026-11-02T09:00:00",
+    "application_deadline": "2026-10-22T00:00:00",
+    "fetched_date": "2026-10-17",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-17T02:31:30+00:00",
+      "planned_price": "38,984,000円（消費税及び地方消費税を含む。）",
+      "region_requirement": "岐阜市内に本店を有すること。",
+      "koki": "令和9年3月18日",
+      "application_deadline": "2026-10-22T00:00:00",
+      "bid_deadline": "2026-10-30T16:00:00",
+      "opening_date": "2026-11-02T09:00:00",
+      "summary": "本工事は、旧藍川東中学校のプール・附属棟の解体工事です。岐阜市大洞紅葉が丘6丁目22番地3にて実施され、プール・附属棟、部室・テニスコート等の解体を含みます。"
+    }
+  },
+  "Y2hpYmEvc2hpcm9pX2NpdHkvMjAyNi8yMDI2MTAxNl8wMDEyOQo=": {
+    "source": "kkj",
+    "key": "Y2hpYmEvc2hpcm9pX2NpdHkvMjAyNi8yMDI2MTAxNl8wMDEyOQo=",
+    "project_name": "旧河原子部消防団器具庫解体工事 (PDFファイル: 249.5KB)",
+    "org_name": "千葉県白井市",
+    "pref_name": "千葉県",
+    "city_name": "白井市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-16T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.city.shiroi.chiba.jp/material/files/group/2/06kyuukawaragokouzi20261016.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "令和８年１０月２３日",
+    "opening_date": "令和８年１０月２３日",
+    "application_deadline": "令和８年１０月２３日",
+    "fetched_date": "2026-10-17",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-17T02:31:30+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": "白井市内に本店（社）を有する者。",
+      "koki": "契約締結の翌日から令和９年３月３１日まで",
+      "application_deadline": "2026-10-23T11:00:00",
+      "bid_deadline": "2026-11-06T11:00:00",
+      "opening_date": "2026-11-09T11:00:00",
+      "summary": "旧河原子部の消防団器具庫は消防団の再編により使用しなくなったため解体する工事です。履行場所は白井市河原子５６－１です。",
+      "opening_date_note": "入札締切と開札日が同一値になっています。AI抽出では2026-11-09T11:00:00 の可能性があるため、公告原本で開札日を確認してください。"
+    }
+  },
+  "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjEwMTZfMDQ0MjgK": {
+    "source": "kkj",
+    "key": "Y2hpYmEvbWF0c3Vkb19jaXR5LzIwMjYvMjAyNjEwMTZfMDQ0MjgK",
+    "project_name": "松契一般第254号 松戸駅西口高架下自転車駐車場管理棟解体工事（PDF：146KB）",
+    "org_name": "千葉県松戸市",
+    "pref_name": "千葉県",
+    "city_name": "松戸市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-16T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/r8-1016kouji.files/254.pdf",
+    "attachments": [
+      {
+        "name": "松契一般第254号 設計図書（PDF：2,795KB）",
+        "uri": "https://www.city.matsudo.chiba.jp/jigyosya/nyuusatu_keiyaku/densi/r8-1016kouji.files/254s.pdf"
+      }
+    ],
+    "location": "松戸市根本１６番地※本工事は、松戸市が指定する電子契約サービスを用いた電子契約の対象案件である",
+    "bid_deadline": "2026-11-09T15:00:00",
+    "opening_date": "令和8年10月27日",
+    "application_deadline": "2026-10-22T11:00:00",
+    "fetched_date": "2026-10-17",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-17T02:31:30+00:00",
+      "planned_price": "４，５６０，０００円（税抜き)",
+      "region_requirement": "松戸市内に本店を有すること。",
+      "koki": "契約締結日の翌日から令和9年3月19日まで",
+      "application_deadline": "2026-10-22T11:00:00",
+      "bid_deadline": "2026-11-09T15:00:00",
+      "opening_date": "2026-11-10T13:40:00",
+      "summary": "松戸駅西口高架下自転車駐車場管理棟の解体及び撤去工事です。管理棟（軽量鉄骨造平屋建て、延床面積12.96㎡）の上屋、基礎、内部造作、残置物、外構舗装、付属物、給排水管、引込み電線の撤去を行います。道路の仮復旧・本復旧、舗装の新設及び白線引きも含まれます。"
     }
   }
 }
