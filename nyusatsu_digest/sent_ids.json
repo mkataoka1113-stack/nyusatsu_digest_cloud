@@ -1,156 +1,4 @@
 {
-  "chiba_7658820de6baee81": {
-    "source": "chiba",
-    "key": "chiba_7658820de6baee81",
-    "project_name": "プレハブ倉庫等撤去工事",
-    "org_name": "栄町  企画財政課  企画財政課",
-    "pref_name": "千葉県",
-    "city_name": "印旛郡栄町",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-09-18",
-    "procedure_type": "指名競争 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
-    "location": "印旛郡栄町安食３６０７番",
-    "bid_deadline": "2026-10-01T10:00:00",
-    "opening_date": "2026-10-02T10:00:00",
-    "application_deadline": "",
-    "fetched_date": "2026-09-19",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-19T02:37:07+00:00",
-      "planned_price": "事後公開",
-      "region_requirement": null,
-      "koki": "令和 8年12月25日限り",
-      "application_deadline": null,
-      "bid_deadline": "2026-10-01T10:00:00",
-      "opening_date": "2026-10-02T10:00:00",
-      "summary": "印旛郡栄町安食3607番地にてプレハブ倉庫等の撤去工事が行われます。入札方式は指名競争・価格競争（電子入札）です。"
-    }
-  },
-  "bmFnYW5vL3VlZGFfY2l0eS8yMDI2LzIwMjYwOTE4XzAyNTAxCg==": {
-    "source": "kkj",
-    "key": "bmFnYW5vL3VlZGFfY2l0eS8yMDI2LzIwMjYwOTE4XzAyNTAxCg==",
-    "project_name": "4 巣栗渓谷緑の広場キャンプ場内解体及び整備工事",
-    "org_name": "長野県上田市",
-    "pref_name": "長野県",
-    "city_name": "上田市",
-    "pref_code": "20",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-18T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.ueda.nagano.jp/uploaded/attachment/85697.pdf",
-    "attachments": [
-      {
-        "name": "設計書 [PDFファイル／126KB]",
-        "uri": "https://www.city.ueda.nagano.jp/uploaded/attachment/85700.pdf"
-      },
-      {
-        "name": "設計図 [PDFファイル／1.04MB]",
-        "uri": "https://www.city.ueda.nagano.jp/uploaded/attachment/85702.pdf"
-      }
-    ],
-    "location": "上田市武石上本入竣工期限４人用バンガロー 5棟 延べ面積49.7㎡５人用バンガロー 5棟 延べ面積66.25㎡倉庫",
-    "bid_deadline": "2026-10-08T15:00:00",
-    "opening_date": "令和８年１０月９日",
-    "application_deadline": "",
-    "fetched_date": "2026-09-19",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-19T02:37:07+00:00",
-      "planned_price": null,
-      "region_requirement": "上田市内に本社を有すること。",
-      "koki": "令和9年2月12日",
-      "application_deadline": null,
-      "bid_deadline": "2026-10-08T15:00:00",
-      "opening_date": "2026-10-09T09:00:00",
-      "summary": "巣栗渓谷緑の広場キャンプ場内の解体及び整備工事です。4人用バンガロー5棟、5人用バンガロー5棟、倉庫（樽型）3棟の解体が含まれます。完成期限は2027年2月12日です。"
-    }
-  },
-  "aG9ra2FpZG8vcG9saWNlX2hva2thaWRvX3Npc2V0dS8yMDI2LzIwMjYwOTE4XzAxMTAyCg==": {
-    "source": "kkj",
-    "key": "aG9ra2FpZG8vcG9saWNlX2hva2thaWRvX3Npc2V0dS8yMDI2LzIwMjYwOTE4XzAxMTAyCg==",
-    "project_name": "「警察本部大麻ＫＢ公宅解体工事」の入札告示",
-    "org_name": "国家公安委員会（警察庁）北海道警察本部総務部施設課",
-    "pref_name": "北海道",
-    "city_name": "札幌市",
-    "pref_code": "01",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-18T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.police.pref.hokkaido.lg.jp/info/soumu/sisetu/date/2026-10/2026-1022-ooasa-kb-621/01.pdf",
-    "attachments": [],
-    "location": "江別市⑶ 工事期間 契約締結日の翌日から140日間⑷ 工事概要 別途閲覧に供する仕様書、図面による",
-    "bid_deadline": "2026-10-22T13:30:00",
-    "opening_date": "2026-10-22T13:30:00",
-    "application_deadline": "2026-10-01T17:00:00",
-    "fetched_date": "2026-09-19",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-19T02:37:07+00:00",
-      "planned_price": "事後公表",
-      "region_requirement": "後志総合振興局管内又は石狩振興局管内に主たる営業所を有すること",
-      "koki": "契約締結日の翌日から140日間",
-      "application_deadline": "2026-10-01T17:00:00",
-      "bid_deadline": "2026-10-22T13:30:00",
-      "opening_date": "2026-10-22T13:30:00",
-      "summary": "本工事は、北海道警察本部大麻KB公宅の解体工事です。江別市が工事場所で、建設工事に係る資材の再資源化等に関する法律に基づき分別解体等が義務付けられています。契約締結日の翌日から140日間で実施されます。"
-    }
-  },
-  "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjA5MThfMDM4OTkK": {
-    "source": "kkj",
-    "key": "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjA5MThfMDM4OTkK",
-    "project_name": "旧不燃物処理工場ストックヤード外解体工事",
-    "org_name": "広島県三原市",
-    "pref_name": "広島県",
-    "city_name": "三原市",
-    "pref_code": "34",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-18T00:00:00+09:00",
-    "procedure_type": "条件付き一般競争入札",
-    "doc_uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/166528.pdf",
-    "attachments": [
-      {
-        "name": "仕様書等",
-        "uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/166570.pdf"
-      }
-    ],
-    "location": "三原市久井町坂井原工事内容 旧不燃物処理工場におけるストックヤード外9棟の解体及び敷地内舗装の撤去工事等を行う",
-    "bid_deadline": "2026-10-08T16:00:00",
-    "opening_date": "2026-10-09T09:00:00",
-    "application_deadline": "2026-09-30T17:00:00",
-    "fetched_date": "2026-09-19",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-19T02:37:07+00:00",
-      "planned_price": "55,290,000円（消費税及び地方消費税相当額を除く。）",
-      "region_requirement": "三原市内に本店を有する者",
-      "koki": "契約日の翌日から令和9年3月29日",
-      "application_deadline": "2026-09-30T17:00:00",
-      "bid_deadline": "2026-10-08T16:00:00",
-      "opening_date": "2026-10-09T09:00:00",
-      "summary": "三原市久井町坂井原にて、旧不燃物処理工場ストックヤード外の解体工事を実施します。供給処理施設、鉄骨造平屋建てストックヤード外9棟、延床面積984.64m2の解体が含まれます。"
-    }
-  },
   "chiba_4a0128c0661ab1f7": {
     "source": "chiba",
     "key": "chiba_4a0128c0661ab1f7",
@@ -4077,6 +3925,42 @@
       "bid_deadline": null,
       "opening_date": "2026-10-15T09:15:00",
       "summary": "東京都中野区弥生町二丁目41番17号に所在する、鉄筋コンクリート造 地下1階地上4階建て（延床面積3,365.9㎡）の旧東京都労働資料センターの解体工事です。基礎、杭、土壌汚染対策、外構、石綿、機械設備、電気設備を含む一式工事です。"
+    }
+  },
+  "tokyometro_3539992030294369": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539992030294369",
+    "project_name": "東京辰巳アイスアリーナ（８）屋外デッキ撤去工事",
+    "org_name": "スポーツ推進本部スポーツ企画部企画調整課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-08-17",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都江東区辰巳二丁目８番１０号",
+    "bid_deadline": "",
+    "opening_date": "2026-09-17T09:00:00",
+    "application_deadline": "2026-08-21",
+    "fetched_date": "2026-10-19",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-19T02:46:06+00:00",
+      "planned_price": "5,580,300円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から2027年1月8日まで",
+      "application_deadline": "2026-08-21T17:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-09-17T09:00:00",
+      "summary": "東京都江東区辰巳二丁目にある東京辰巳アイスアリーナの屋外デッキ撤去工事一式です。本案件は希望制指名競争入札で行われます。"
     }
   }
 }
