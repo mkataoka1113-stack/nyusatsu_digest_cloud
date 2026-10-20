@@ -3962,5 +3962,91 @@
       "opening_date": "2026-09-17T09:00:00",
       "summary": "東京都江東区辰巳二丁目にある東京辰巳アイスアリーナの屋外デッキ撤去工事一式です。本案件は希望制指名競争入札で行われます。"
     }
+  },
+  "aXdhdGUva2FtYWlzaGlfY2l0eS8yMDI2LzIwMjYxMDE5XzAxMDg1Cg==": {
+    "source": "kkj",
+    "key": "aXdhdGUva2FtYWlzaGlfY2l0eS8yMDI2LzIwMjYxMDE5XzAxMDg1Cg==",
+    "project_name": "釜石市役所第5庁舎解体工事[PDF：172KB]",
+    "org_name": "岩手県釜石市",
+    "pref_name": "岩手県",
+    "city_name": "釜石市",
+    "pref_code": "03",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-19T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kamaishi.iwate.jp/docs/2026101900016/file_contents/261019-1-1.pdf",
+    "attachments": [
+      {
+        "name": "設計書・図面[ZIP：6.15MB]",
+        "uri": "https://www.city.kamaishi.iwate.jp/docs/2026101900016/file_contents/261019-1-2.zip"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "令和8年10月29日",
+    "opening_date": "2026-11-30T17:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-10-20",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-20T02:58:20+00:00",
+      "planned_price": null,
+      "region_requirement": "釜石市営建設工事等請負資格者名簿登録業者（市内業者）であること。",
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": "2026-11-30T17:00:00",
+      "opening_date": "2026-11-30T17:00:00",
+      "summary": "本工事は、老朽化が進む釜石市役所第5庁舎の解体工事です。鉄筋コンクリート造2階建、延床面積565.00㎡の建物を解体します。工事場所は岩手県釜石市天神町29番です。"
+    }
+  },
+  "dG9rdXNoaW1hL2FuYW5zaGkvMjAyNi8yMDI2MTAxOV8wMTI1Mwo=": {
+    "source": "kkj",
+    "key": "dG9rdXNoaW1hL2FuYW5zaGkvMjAyNi8yMDI2MTAxOV8wMTI1Mwo=",
+    "project_name": "旧福井分団第三班詰所除却工事",
+    "org_name": "徳島県阿南市",
+    "pref_name": "徳島県",
+    "city_name": "阿南市",
+    "pref_code": "36",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-19T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.anan.tokushima.jp/docs/2026101400066/file_contents/261019-7.pdf",
+    "attachments": [
+      {
+        "name": "旧福井分団第三班詰所除却工事 2-1.図面（1-10）[PDF：18.6MB]",
+        "uri": "https://www.city.anan.tokushima.jp/docs/2026101400066/file_contents/261019-7-2-101-10.pdf"
+      },
+      {
+        "name": "旧福井分団第三班詰所除却工事 2-2.図面（11-15）[PDF：16.7MB]",
+        "uri": "https://www.city.anan.tokushima.jp/docs/2026101400066/file_contents/261019-7-2-211-15.pdf"
+      },
+      {
+        "name": "旧福井分団第三班詰所除却工事 4.閲覧補足説明書[PDF：92.9KB]",
+        "uri": "https://www.city.anan.tokushima.jp/docs/2026101400066/file_contents/261019-7-4.pdf"
+      }
+    ],
+    "location": "3．建物概要建物名称構造・規模敷地面積延床面積消防法施行令別表第1の区分種 目 工事概要4．工事種目6．その他 本工事は",
+    "bid_deadline": "2026-10-26T00:00:00",
+    "opening_date": "令和8年10月22日",
+    "application_deadline": "",
+    "fetched_date": "2026-10-20",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-20T02:58:20+00:00",
+      "planned_price": "3,480,000円（税抜）",
+      "region_requirement": "市内",
+      "koki": "契約締結の翌日 から 令和9年1月20日",
+      "application_deadline": null,
+      "bid_deadline": "2026-10-26T00:00:00",
+      "opening_date": "2026-10-27T09:45:00",
+      "summary": "旧福井分団第三班詰所の除却工事です。工事場所は阿南市福井町日の地で、解体作業が含まれます。契約締結の翌日から2027年1月20日までが工期です。"
+    }
   }
 }
