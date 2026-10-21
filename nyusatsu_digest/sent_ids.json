@@ -1,53 +1,4 @@
 {
-  "chiba_4a0128c0661ab1f7": {
-    "source": "chiba",
-    "key": "chiba_4a0128c0661ab1f7",
-    "project_name": "千葉県立旭テクノスクールＮＣ機械加工科実習場Ｂ棟外解体工事",
-    "org_name": "千葉県  県土整備部  建設・不動産業課",
-    "pref_name": "千葉県",
-    "city_name": "旭市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-08-21",
-    "procedure_type": "事後審査）千葉県 ・ 総合評価（拡充版） ・ 事後審査２型 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [
-      {
-        "name": "01_公告_個別編（単独）（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_4a0128c0661ab1f7_1.pdf"
-      },
-      {
-        "name": "02_公告_個別編_別添（特別簡易型（Ｂ））（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_4a0128c0661ab1f7_2.pdf"
-      },
-      {
-        "name": "03_公告_共通編（総合評価方式）（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_4a0128c0661ab1f7_3.pdf"
-      }
-    ],
-    "location": "旭市鎌数",
-    "bid_deadline": "2026-09-18T17:00:00",
-    "opening_date": "2026-09-25T15:30:00",
-    "application_deadline": "2026-09-15T17:00:00",
-    "fetched_date": "2026-09-21",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-21T02:45:33+00:00",
-      "planned_price": "落札決定後公表する",
-      "region_requirement": "海匝土木事務所、千葉土木事務所、印旛土木事務所、成田土木事務所、香取土木事務所、銚子土木事務所、山武土木事務所又は長生土木事務所管内（旭市、匝瑳市、千葉市、習志野市、八千代市、佐倉市、四街道市、八街市、印西市、白井市、印旛郡酒々井町、印旛郡栄町、成田市、富里市、香取郡多古町、山武郡芝山町、香取市、香取郡神崎町、香取郡東庄町、銚子市、東金市、山武市、大網白里市、山武郡九十九里町、山武郡横芝光町、茂原",
-      "koki": "2027年9月10日限り（工事着手期限日 2026年12月1日）",
-      "application_deadline": "2026-09-15T17:00:00",
-      "bid_deadline": "2026-09-18T17:00:00",
-      "opening_date": "2026-09-25T15:30:00",
-      "summary": "千葉県立旭テクノスクールNC機械加工科実習場B棟外解体工事は、老朽化した機械加工科の実習棟（NC機械加工科実習場B棟、渡り廊下、車庫など計4棟）の解体工事一式です。本工事は事後審査Ⅱ型および総合評価方式（特別簡易型B）が適用されます。"
-    }
-  },
   "tokyometro_3539491779294313": {
     "source": "tokyometro",
     "key": "tokyometro_3539491779294313",
@@ -4047,6 +3998,422 @@
       "bid_deadline": "2026-10-26T00:00:00",
       "opening_date": "2026-10-27T09:45:00",
       "summary": "旧福井分団第三班詰所の除却工事です。工事場所は阿南市福井町日の地で、解体作業が含まれます。契約締結の翌日から2027年1月20日までが工期です。"
+    }
+  },
+  "etokyo_2026:13:114:01199": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:114:01199",
+    "project_name": "旧桃園第二小学校校舎・体育館等解体工事",
+    "org_name": "中野区",
+    "pref_name": "東京都",
+    "city_name": "中野区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-21T10:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [
+      {
+        "name": "入札公告（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/etokyo_2026_13_114_01199_1.pdf"
+      }
+    ],
+    "location": "東京都中野区中野六丁目１３番１号",
+    "bid_deadline": "2026-12-17T09:30:00",
+    "opening_date": "2026-12-17T10:00:00",
+    "application_deadline": "2026-11-06T17:00:00",
+    "fetched_date": "2026-10-21",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-21T02:53:24+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約確定日の翌日から2028年3月まで（週休2日促進工事）",
+      "application_deadline": "2026-11-06T17:00:00",
+      "bid_deadline": "2026-12-17T09:30:00",
+      "opening_date": "2026-12-17T10:00:00",
+      "summary": "本案件は旧桃園第二小学校校舎・体育館等の解体工事です。東敷地校舎棟、西敷地校舎・屋内運動場棟、プール、プール付属棟、その他倉庫等及び工作物の解体が含まれます。囲障、外構表層・路盤、樹木、電気設備、機械設備の撤去も行われます。"
+    }
+  },
+  "chiba_d9183033c7749da5": {
+    "source": "chiba",
+    "key": "chiba_d9183033c7749da5",
+    "project_name": "千葉県立大網高等学校中正農場豚舎外解体工事（その１）",
+    "org_name": "千葉県  教育庁（県立学校）  千葉県立大網高等学校",
+    "pref_name": "千葉県",
+    "city_name": "千葉県千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-10-20",
+    "procedure_type": "事後審査）千葉県 ・ 価格競争 ・ 事後審査２型 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "第2号様式_01_公告_個別編（単独）_260511改正（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_d9183033c7749da5_1.pdf"
+      },
+      {
+        "name": "第2号様式_31_公告_共通編（価格競争方式）_260511改正（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_d9183033c7749da5_2.pdf"
+      }
+    ],
+    "location": "千葉県千葉市緑区上大和田町",
+    "bid_deadline": "2026-11-10T17:00:00",
+    "opening_date": "2026-11-11T10:00:00",
+    "application_deadline": "2026-11-06T17:00:00",
+    "fetched_date": "2026-10-21",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-21T02:53:24+00:00",
+      "planned_price": "36,344,000円（税込）",
+      "region_requirement": "県内に資格者名簿に登載された主たる営業所（本店）を有する者",
+      "koki": "令和9年3月10日限り",
+      "application_deadline": "2026-11-06T17:00:00",
+      "bid_deadline": "2026-11-10T17:00:00",
+      "opening_date": "2026-11-11T10:00:00",
+      "summary": "千葉県立大網高等学校中正農場にある豚舎3棟（鉄骨造平家建て、計411㎡）と鶏舎3棟（鉄骨造平家建て、計796㎡）の解体工事一式です。本工事は事後審査Ⅱ型の一般競争入札で、最低制限価格制度が適用されます。"
+    }
+  },
+  "chiba_097a79c842ac34b0": {
+    "source": "chiba",
+    "key": "chiba_097a79c842ac34b0",
+    "project_name": "千葉県立大網高等学校中正農場豚舎外解体工事（その２）",
+    "org_name": "千葉県  教育庁（県立学校）  千葉県立大網高等学校",
+    "pref_name": "千葉県",
+    "city_name": "千葉県千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-10-20",
+    "procedure_type": "事後審査）千葉県 ・ 価格競争 ・ 事後審査２型 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "第2号様式_01_公告_個別編（単独）_260511改正（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_097a79c842ac34b0_1.pdf"
+      },
+      {
+        "name": "第2号様式_31_公告_共通編（価格競争方式）_260511改正（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_097a79c842ac34b0_2.pdf"
+      }
+    ],
+    "location": "千葉県千葉市緑区上大和田町",
+    "bid_deadline": "2026-11-10T17:00:00",
+    "opening_date": "2026-11-11T13:00:00",
+    "application_deadline": "2026-11-06T17:00:00",
+    "fetched_date": "2026-10-21",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-21T02:53:24+00:00",
+      "planned_price": "32,373,000円（税込）",
+      "region_requirement": "県内に資格者名簿に登載された主たる営業所（本店）を有する者",
+      "koki": "令和9年3月10日限り",
+      "application_deadline": "2026-11-06T17:00:00",
+      "bid_deadline": "2026-11-10T17:00:00",
+      "opening_date": "2026-11-11T13:00:00",
+      "summary": "千葉県立大網高等学校中正農場豚舎外解体工事（その２）は、千葉市緑区上大和田町にて豚舎、牛舎の解体工事一式を行うものです。本案件は事後審査Ⅱ型による一般競争入札で、最低制限価格制度が適用されます。"
+    }
+  },
+  "ippi_0010010000420260134": {
+    "source": "ippi",
+    "key": "ippi_0010010000420260134",
+    "project_name": "宗谷（８）既設建物解体等建築その他工事",
+    "org_name": "防衛省北海道防衛局／総務部",
+    "pref_name": "",
+    "city_name": "",
+    "pref_code": "",
+    "gyoshu_codes": [
+      "29"
+    ],
+    "cft_issue_date": "2026-10-21T00:00:00",
+    "procedure_type": "一般競争入札（標準型）",
+    "doc_uri": "https://www.mod.go.jp/rdb/hokkaido/",
+    "attachments": [
+      {
+        "name": "入札公告",
+        "uri": "https://odw.dfeg.mod.go.jp/CALS/Publish/KokaiBunshoServlet?AnkenKanriNo=005010002026412000000054&BunshoKanriId=20"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-11-16T12:00:00",
+    "opening_date": "2027-01-29T11:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-10-21",
+    "notified": [],
+    "enrich": {
+      "status": "no_text",
+      "provider": "",
+      "enriched_at": "2026-10-21T02:53:24+00:00"
+    }
+  },
+  "pportal_641406": {
+    "source": "pportal",
+    "key": "pportal_641406",
+    "project_name": "呉市上平原町所在国有建物等解体工事（再度入札）",
+    "org_name": "財務省",
+    "pref_name": "広島県",
+    "city_name": "",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-21",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=l2fBMJpkR0xE%2FksmsC0c4bXhdcyFsJRNfANUS7P4Slc%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-11-02T17:00:00",
+    "opening_date": "2026-11-04T11:00:00",
+    "application_deadline": "2026-10-30T17:00:00",
+    "fetched_date": "2026-10-21",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-21T02:53:24+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日から令和9年3月31日（水曜日）",
+      "application_deadline": "2026-10-30T17:00:00",
+      "bid_deadline": "2026-11-02T17:00:00",
+      "opening_date": "2026-11-04T11:00:00",
+      "summary": "本工事は、呉市上平原町に所在する国有建物等の解体工事です。調達ポータルを利用した応札、入開札手続及び電子契約により実施されます。契約期間は契約締結日から2027年3月31日までです。"
+    }
+  },
+  "pportal_641164": {
+    "source": "pportal",
+    "key": "pportal_641164",
+    "project_name": "杵築市所在国有建物解体工事",
+    "org_name": "財務省",
+    "pref_name": "大分県",
+    "city_name": "",
+    "pref_code": "44",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-21",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-10-21",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-21T02:53:24+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本公告は、杵築市所在国有建物解体工事に関する一般競争入札の入札公告である。調達機関は財務省で、調達機関所在地は大分県である。入札公告の詳細は九州財務局ホームページに掲載されている。"
+    }
+  },
+  "pportal_641447": {
+    "source": "pportal",
+    "key": "pportal_641447",
+    "project_name": "利根沼田森林管理署藤原事務所解体工事",
+    "org_name": "農林水産省",
+    "pref_name": "群馬県",
+    "city_name": "",
+    "pref_code": "10",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-21",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-10-21",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-21T02:53:24+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本案件は、利根沼田森林管理署藤原事務所の解体工事に関するオープンカウンタへの参加募集情報です。詳細については、利根沼田森林管理署のホームページで確認できます。"
+    }
+  },
+  "aXdhdGUveWFtYWRhX3Rvd24vMjAyNi8yMDI2MTAyMF8wMDc5Mgo=": {
+    "source": "kkj",
+    "key": "aXdhdGUveWFtYWRhX3Rvd24vMjAyNi8yMDI2MTAyMF8wMDc5Mgo=",
+    "project_name": "関谷団地解体工事",
+    "org_name": "岩手県山田町",
+    "pref_name": "岩手県",
+    "city_name": "山田町",
+    "pref_code": "03",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-20T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.town.yamada.iwate.jp/fs/1/4/1/9/4/5/_/R08_20_01.pdf",
+    "attachments": [
+      {
+        "name": "入札関係書類一式 (XLSX 148KB)",
+        "uri": "https://www.town.yamada.iwate.jp/fs/1/4/1/9/2/8/_/R08_20_02-08.xlsx"
+      }
+    ],
+    "location": "下閉伊郡山田町 山田 地内",
+    "bid_deadline": "2026-11-04T00:00:00",
+    "opening_date": "2026-11-05T10:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-10-21",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-21T02:53:24+00:00",
+      "planned_price": "落札者決定後公表",
+      "region_requirement": "町内業者",
+      "koki": "令和９年３月１２日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-11-04T00:00:00",
+      "opening_date": "2026-11-05T10:00:00",
+      "summary": "関谷団地解体工事は、下閉伊郡山田町山田地内で行われる解体工事一式です。本工事は山田町週休２日工事実施要領に基づく完全週休２日（土日祝）の対象工事です。"
+    }
+  },
+  "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjEwMjBfMDM1MjQK": {
+    "source": "kkj",
+    "key": "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjEwMjBfMDM1MjQK",
+    "project_name": "元高砂警察署荒井交番庁舎解体撤去工事",
+    "org_name": "国家公安委員会（警察庁）兵庫県警察",
+    "pref_name": "兵庫県",
+    "city_name": "神戸市",
+    "pref_code": "28",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-20T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.police.pref.hyogo.lg.jp/chotatu/kou_data/2026/A26102002.pdf",
+    "attachments": [],
+    "location": "高砂市荒井町紙町33-53⑶ 工事概要 高砂警察署荒井交番の廃止に伴い解体工事を行う。⑷ 施工期間 着工の日より90日間",
+    "bid_deadline": "",
+    "opening_date": "2026-11-09T11:00:00",
+    "application_deadline": "2026-11-02T00:00:00",
+    "fetched_date": "2026-10-21",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-21T02:53:24+00:00",
+      "planned_price": null,
+      "region_requirement": "加古川土木事務所、神戸土木事務所、加東土木事務所及び姫路土木事務所管内のいずれかに解体工事業の許可を受けた主たる営業所を有していること。",
+      "koki": "着工の日より90 日間",
+      "application_deadline": "2026-11-02T00:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-11-09T11:00:00",
+      "summary": "高砂警察署荒井交番の廃止に伴い、元高砂警察署荒井交番庁舎の解体撤去工事が行われます。本工事は週休2日制度の対象工事です。"
+    }
+  },
+  "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjEwMjBfMDM1MjMK": {
+    "source": "kkj",
+    "key": "aHlvZ28vcG9saWNlX2h5b2dvLzIwMjYvMjAyNjEwMjBfMDM1MjMK",
+    "project_name": "元西宮警察署甲武橋交番庁舎解体撤去工事",
+    "org_name": "国家公安委員会（警察庁）兵庫県警察",
+    "pref_name": "兵庫県",
+    "city_name": "神戸市",
+    "pref_code": "28",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-20T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.police.pref.hyogo.lg.jp/chotatu/kou_data/2026/A26102001.pdf",
+    "attachments": [],
+    "location": "西宮市樋ノ口町１丁目14-35⑶ 工事概要 西宮警察署甲武橋交番の廃止に伴い解体工事を行う。⑷ 施工期間 着工の日より1",
+    "bid_deadline": "2026-11-06T11:00:00",
+    "opening_date": "2026-11-06T11:00:00",
+    "application_deadline": "2026-10-30T00:00:00",
+    "fetched_date": "2026-10-21",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-21T02:53:24+00:00",
+      "planned_price": null,
+      "region_requirement": "西宮土木事務所、神戸土木事務所及び宝塚土木事務所管内のいずれかに解体工事業の許可を受けた主たる営業所を有していること。",
+      "koki": "着工の日より120 日間",
+      "application_deadline": "2026-10-30T00:00:00",
+      "bid_deadline": "2026-11-06T11:00:00",
+      "opening_date": "2026-11-06T11:00:00",
+      "summary": "西宮警察署甲武橋交番の廃止に伴う庁舎解体撤去工事です。本工事は週休2日制度の対象工事です。"
+    }
+  },
+  "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjEwMjBfMDM5MjMK": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjEwMjBfMDM5MjMK",
+    "project_name": "市営和草住宅解体工事",
+    "org_name": "広島県三原市",
+    "pref_name": "広島県",
+    "city_name": "三原市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-20T00:00:00+09:00",
+    "procedure_type": "条件付き一般競争入札",
+    "doc_uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/167153.pdf",
+    "attachments": [
+      {
+        "name": "仕様書等",
+        "uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/167157.pdf"
+      }
+    ],
+    "location": "三原市久井町和草工事内容 市営和草住宅における、解体工事を行う",
+    "bid_deadline": "2026-11-05T16:00:00",
+    "opening_date": "2026-11-06T09:20:00",
+    "application_deadline": "2026-10-27T17:00:00",
+    "fetched_date": "2026-10-21",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-21T02:53:24+00:00",
+      "planned_price": "30,880,000円（消費税及び地方消費税相当額を除く。）",
+      "region_requirement": "三原市内に本店を有する者",
+      "koki": "契約日の翌日から令和9年3月29日",
+      "application_deadline": "2026-10-27T17:00:00",
+      "bid_deadline": "2026-11-05T16:00:00",
+      "opening_date": "2026-11-06T09:20:00",
+      "summary": "三原市久井町和草にある市営和草住宅の解体工事です。コンクリートブロック造平屋建て2棟（床面積計413.12m2）の建築物解体、付属棟解体、外構解体、外壁アスベスト吹付材除去等が含まれます。本工事は「発注者指定型」による週休2日適用工事の対象です。"
     }
   }
 }
