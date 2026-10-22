@@ -4415,5 +4415,146 @@
       "opening_date": "2026-11-06T09:20:00",
       "summary": "三原市久井町和草にある市営和草住宅の解体工事です。コンクリートブロック造平屋建て2棟（床面積計413.12m2）の建築物解体、付属棟解体、外構解体、外壁アスベスト吹付材除去等が含まれます。本工事は「発注者指定型」による週休2日適用工事の対象です。"
     }
+  },
+  "d2FrYXlhbWEvcG9saWNlLXdha2F5YW1hLzIwMjYvMjAyNjEwMjFfMDM2MTUK": {
+    "source": "kkj",
+    "key": "d2FrYXlhbWEvcG9saWNlLXdha2F5YW1hLzIwMjYvMjAyNjEwMjFfMDM2MTUK",
+    "project_name": "令和８年度 第３７号 かつらぎ警察署大谷宿舎解体工事",
+    "org_name": "国家公安委員会（警察庁）和歌山県警察",
+    "pref_name": "和歌山県",
+    "city_name": "和歌山市",
+    "pref_code": "30",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-21T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.police.pref.wakayama.lg.jp/nyusatu/si-261021-37.pdf",
+    "attachments": [],
+    "location": "工事概要議会の議決和歌山県の発注する建設工事の入札参加資格を有する者であること",
+    "bid_deadline": "2026-11-06T13:35:00",
+    "opening_date": "令和8年10月26日",
+    "application_deadline": "",
+    "fetched_date": "2026-10-22",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-22T02:52:21+00:00",
+      "planned_price": "18,524,000 円 （消費税及び地方消費税の額を除く。）",
+      "region_requirement": "伊都振興局建設部管内に主たる営業所を有する者であること。",
+      "koki": "120日間",
+      "application_deadline": null,
+      "bid_deadline": "2026-11-06T13:35:00",
+      "opening_date": "2026-11-06T13:35:00",
+      "summary": "かつらぎ警察署大谷宿舎の解体工事です。RC造2階建の職員宿舎、軽量鉄骨軸組+CB造平屋建ての付属建物、フェンス、既設浄化槽、アスファルト舗装の撤去が含まれます。建物撤去跡は砕石敷きと進入禁止トラロープ張りが実施されます。"
+    }
+  },
+  "aHlvZ28va2F0b19jaXR5LzIwMjYvMjAyNjEwMjFfMDIxNTAK": {
+    "source": "kkj",
+    "key": "aHlvZ28va2F0b19jaXR5LzIwMjYvMjAyNjEwMjFfMDIxNTAK",
+    "project_name": "令和８年度 市営住宅森尾団地２号棟解体工事",
+    "org_name": "兵庫県加東市",
+    "pref_name": "兵庫県",
+    "city_name": "加東市",
+    "pref_code": "28",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-21T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kato.lg.jp/section/nyuusatu/order/20261021order/./20261112/./20261112_03_2026097400_nyusatsu.pdf",
+    "attachments": [
+      {
+        "name": "設計書等",
+        "uri": "https://www.city.kato.lg.jp/section/nyuusatu/order/20261021order/./20261112/./20261112_03_2026097400_shiryou_005.pdf"
+      }
+    ],
+    "location": "加東市岩屋258番地1",
+    "bid_deadline": "2026-11-11T15:00:00",
+    "opening_date": "2026-11-12T09:30:00",
+    "application_deadline": "2026-10-30T17:15:00",
+    "fetched_date": "2026-10-22",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-22T02:52:21+00:00",
+      "planned_price": null,
+      "region_requirement": "公告日現在で加東市内に本店を有する者",
+      "koki": "契約締結日の翌日 から 令和 9年 2月 5日 まで",
+      "application_deadline": "2026-10-30T17:15:00",
+      "bid_deadline": "2026-11-11T15:00:00",
+      "opening_date": "2026-11-12T09:30:00",
+      "summary": "本工事は、加東市岩屋258番地1にある市営住宅森尾団地2号棟の解体工事です。PC造2階建ての建物（建築面積106.87m2、延床面積213.74m2）と外構、その他付属物の解体が含まれます。週休2日制度の対象工事です。"
+    }
+  },
+  "Z292NS9yaWtlbi8yMDI2LzIwMjYxMDIxXzI1OTc0Cg==": {
+    "source": "kkj",
+    "key": "Z292NS9yaWtlbi8yMDI2LzIwMjYxMDIxXzI1OTc0Cg==",
+    "project_name": "アンジュレータ解体処分作業Ⅱ-1",
+    "org_name": "国立研究開発法人理化学研究所",
+    "pref_name": "埼玉県",
+    "city_name": "和光市",
+    "pref_code": "11",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-21T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://choutatsu.riken.jp/r-world/info/procurement/proc/detail/id/000042321",
+    "attachments": [
+      {
+        "name": "アンジュレータ解体処分作業Ⅱ-1(PDF 版 149KB)",
+        "uri": "https://choutatsu.riken.jp:443/r-world/info/procurement/docs/procfile/file/26502100137959.PDF/id/000042321"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-10-22",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "no_text",
+      "provider": "",
+      "enriched_at": "2026-10-22T02:52:21+00:00"
+    }
+  },
+  "Z292MTMvbW9mX2t5dXN5dS8yMDI2LzIwMjYxMDIxXzAwMjM0Cg==": {
+    "source": "kkj",
+    "key": "Z292MTMvbW9mX2t5dXN5dS8yMDI2LzIwMjYxMDIxXzAwMjM0Cg==",
+    "project_name": "杵築市所在国有建物解体工事",
+    "org_name": "財務省九州財務局",
+    "pref_name": "熊本県",
+    "city_name": "熊本市",
+    "pref_code": "43",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-21T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://lfb.mof.go.jp/kyusyu/content/list/027/027_20261021_kaitaikouji_r8217.pdf",
+    "attachments": [],
+    "location": "杵築市大字守江字迫２８６５番地",
+    "bid_deadline": "2026-11-06T17:00:00",
+    "opening_date": "令和９年１月２９日",
+    "application_deadline": "2026-11-06T12:00:00",
+    "fetched_date": "2026-10-22",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-22T02:52:21+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結の翌日から 2027年1月29日まで",
+      "application_deadline": "2026-11-06T12:00:00",
+      "bid_deadline": "2026-11-06T17:00:00",
+      "opening_date": "2026-11-09T14:00:00",
+      "summary": "本工事は杵築市に所在する国有建物の解体を行うものです。政府電子調達システムを利用した応札及び入開札手続により実施されますが、紙による入札書等の提出も可能です。"
+    }
   }
 }
