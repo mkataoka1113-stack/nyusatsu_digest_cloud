@@ -1,40 +1,4 @@
 {
-  "tokyometro_3539491779294313": {
-    "source": "tokyometro",
-    "key": "tokyometro_3539491779294313",
-    "project_name": "警視庁体育センター倉庫棟ほか撤去工事",
-    "org_name": "警視庁総務部用度課",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3101"
-    ],
-    "cft_issue_date": "2026-07-21",
-    "procedure_type": "希望制指名競争入札",
-    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
-    "attachments": [],
-    "location": "東京都東大和市桜が丘三丁目４４番４号",
-    "bid_deadline": "",
-    "opening_date": "2026-08-31T09:00:00",
-    "application_deadline": "2026-07-24",
-    "fetched_date": "2026-09-23",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-23T02:47:21+00:00",
-      "planned_price": "25,919,300円（消費税率10％）",
-      "region_requirement": null,
-      "koki": "契約確定の日の翌日から令和8年12月18日まで",
-      "application_deadline": "2026-07-24T16:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-08-31T09:00:00",
-      "summary": "警視庁体育センター倉庫棟、食堂棟、更衣室棟、電気設備、機械設備、グラウンド設備の一式撤去工事です。外構整備の新設も含まれます。本工事は電子契約サービスの対象案件です。"
-    }
-  },
   "pportal_638443": {
     "source": "pportal",
     "key": "pportal_638443",
@@ -4555,6 +4519,79 @@
       "bid_deadline": "2026-11-06T17:00:00",
       "opening_date": "2026-11-09T14:00:00",
       "summary": "本工事は杵築市に所在する国有建物の解体を行うものです。政府電子調達システムを利用した応札及び入開札手続により実施されますが、紙による入札書等の提出も可能です。"
+    }
+  },
+  "bmFnYW5vL2NoaWt1bWFfY2l0eS8yMDI2LzIwMjYxMDIyXzAxMTQyCg==": {
+    "source": "kkj",
+    "key": "bmFnYW5vL2NoaWt1bWFfY2l0eS8yMDI2LzIwMjYxMDIyXzAxMTQyCg==",
+    "project_name": "（8.10.22公告）令和8年度 志川集会所解体工事(PDFファイル:288.8KB)",
+    "org_name": "長野県千曲市",
+    "pref_name": "長野県",
+    "city_name": "千曲市",
+    "pref_code": "20",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-22T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.city.chikuma.lg.jp/material/files/group/11/081105-04.pdf",
+    "attachments": [
+      {
+        "name": "図面等(PDFファイル:6.2MB)",
+        "uri": "https://www.city.chikuma.lg.jp/material/files/group/11/081105-06.pdf"
+      }
+    ],
+    "location": "令和８年度 志川集会所解体工事 ―2026/3特記仕様書",
+    "bid_deadline": "2026-11-05T09:35:00",
+    "opening_date": "2026-11-05T09:35:00",
+    "application_deadline": "",
+    "fetched_date": "2026-10-23",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-23T02:58:54+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": "千曲市内に入札参加資格者名簿に登載された主たる営業所（本社・本店等）を有している者であること。",
+      "koki": "（１２０日間）",
+      "application_deadline": null,
+      "bid_deadline": "2026-11-05T09:35:00",
+      "opening_date": "2026-11-05T09:35:00",
+      "summary": "令和8年度志川集会所解体工事は、千曲市大字八幡に位置する集会所1棟の解体撤去工事です。木造平屋建ての集会所を解体し、基礎、土間、設備配管等の地中埋設物を含む撤去、敷地不陸整正、整地、および発生した廃棄物の運搬処分を行います。上下水設備の撤去も含まれます。"
+    }
+  },
+  "aGlyb3NoaW1hL2t1cmVzaGkvMjAyNi8yMDI2MTAyMl8wMzE4Nwo=": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL2t1cmVzaGkvMjAyNi8yMDI2MTAyMl8wMzE4Nwo=",
+    "project_name": "豊浜中学校柔剣道場解体撤去工事",
+    "org_name": "広島県呉市",
+    "pref_name": "広島県",
+    "city_name": "呉市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-22T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kure.lg.jp/~koji/files/000000000000041912.PDF",
+    "attachments": [],
+    "location": "呉市豊浜町大字豊島３４３８番地建設工事の種類 解体工事建築解体撤去工事  一式，電気設備解体撤去工事  一式工事概要工",
+    "bid_deadline": "2026-11-04T16:00:00",
+    "opening_date": "2026-11-05T14:20:00",
+    "application_deadline": "",
+    "fetched_date": "2026-10-23",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-23T02:58:54+00:00",
+      "planned_price": "13,072,000円（消費税抜き）",
+      "region_requirement": "市内業者（建設業許可に係る主たる営業所を呉市内に有する者）であること",
+      "koki": "令和9年3月15日",
+      "application_deadline": null,
+      "bid_deadline": "2026-11-04T16:00:00",
+      "opening_date": "2026-11-05T14:20:00",
+      "summary": "本工事は、呉市豊浜町大字豊島3438番地にある豊浜中学校柔剣道場の解体撤去工事です。建築解体撤去工事一式と電気設備解体撤去工事一式が含まれます。電子入札システムを利用した電子入札案件であり、最低制限価格制度が適用されます。"
     }
   }
 }
