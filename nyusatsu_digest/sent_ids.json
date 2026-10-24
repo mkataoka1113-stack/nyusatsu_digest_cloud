@@ -1,45 +1,4 @@
 {
-  "pportal_638443": {
-    "source": "pportal",
-    "key": "pportal_638443",
-    "project_name": "【国土地理院】位置情報インフラの強靱化（「Ｐ柏崎」建屋解体撤去等業務）",
-    "org_name": "国土交通省",
-    "pref_name": "茨城県",
-    "city_name": "",
-    "pref_code": "08",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-24",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=kU%2BkRzbc8EIiP0l5%2FpJL119LdpfX7n2mV1J0bPB%2Bxjo%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-09-24",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-24T02:38:17+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": null,
-      "opening_date": null,
-      "summary": "本案件は、国土地理院による位置情報インフラの強靱化を目的とした「Ｐ柏崎」建屋解体撤去等業務の一般競争入札公告である。調達機関は国土交通省で、茨城県に所在する。"
-    }
-  },
   "chiba_2cecbc74eecf5457": {
     "source": "chiba",
     "key": "chiba_2cecbc74eecf5457",
@@ -4592,6 +4551,119 @@
       "bid_deadline": "2026-11-04T16:00:00",
       "opening_date": "2026-11-05T14:20:00",
       "summary": "本工事は、呉市豊浜町大字豊島3438番地にある豊浜中学校柔剣道場の解体撤去工事です。建築解体撤去工事一式と電気設備解体撤去工事一式が含まれます。電子入札システムを利用した電子入札案件であり、最低制限価格制度が適用されます。"
+    }
+  },
+  "tokyometro_3539491779294313": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539491779294313",
+    "project_name": "警視庁体育センター倉庫棟ほか撤去工事",
+    "org_name": "警視庁総務部用度課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-07-21",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都東大和市桜が丘三丁目４４番４号",
+    "bid_deadline": "",
+    "opening_date": "2026-08-31T09:00:00",
+    "application_deadline": "2026-07-24",
+    "fetched_date": "2026-10-24",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-24T02:49:48+00:00",
+      "planned_price": "25,919,300円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から2026年12月18日まで",
+      "application_deadline": "2026-07-24T16:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-08-31T09:00:00",
+      "summary": "本工事は、警視庁体育センター倉庫棟、食堂棟、更衣室棟、電気設備、機械設備、グラウンド設備の一式撤去と、外構整備の新設一式を行うものです。履行場所は東京都東大和市桜が丘三丁目４４番４号です。本案件は電子契約サービスの対象であり、建設リサイクル法対象工事です。"
+    }
+  },
+  "c2VhcmNoL2tlaXlha3VfaGlyb3NoaW1hX2NpdHkvMjAyNi8yMDI2MTAyM18wNDgzMAo=": {
+    "source": "kkj",
+    "key": "c2VhcmNoL2tlaXlha3VfaGlyb3NoaW1hX2NpdHkvMjAyNi8yMDI2MTAyM18wNDgzMAo=",
+    "project_name": "中央公園ファミリープール解体工事実施設計業務",
+    "org_name": "広島県広島市",
+    "pref_name": "広島県",
+    "city_name": "広島市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-23T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://ppi.keiyaku.city.hiroshima.lg.jp/PPI_P/DownLoad/202620041500101.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-11-10T16:00:00",
+    "opening_date": "令和８年１０月２９日",
+    "application_deadline": "",
+    "fetched_date": "2026-10-24",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-24T02:49:48+00:00",
+      "planned_price": "落札決定後に公表",
+      "region_requirement": "広島市内に主たる営業所を有していること",
+      "koki": "契約締結の日から2027年3月31日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-11-10T16:00:00",
+      "opening_date": "2026-11-11T11:20:00",
+      "summary": "本業務は、中央公園ファミリープール解体工事の実施設計を行うものです。管理棟、便所、食堂、倉庫などの建築物解体、流水プール、50mプール、こどもプール、シェルター・テント、外構・時計塔などの解体、解体後の整地、および電気・機械設備の撤去が含まれます。"
+    }
+  },
+  "Z292MTIvcmlueWEtbWFmZi1reXVzeXUvMjAyNi8yMDI2MTAyM18wNTQ1MAo=": {
+    "source": "kkj",
+    "key": "Z292MTIvcmlueWEtbWFmZi1reXVzeXUvMjAyNi8yMDI2MTAyM18wNTQ1MAo=",
+    "project_name": "旧島原森林事務所解体・撤去工事",
+    "org_name": "林野庁九州森林管理局長崎森林管理署",
+    "pref_name": "長崎県",
+    "city_name": "諫早市",
+    "pref_code": "42",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-23T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.rinya.maff.go.jp/kyusyu/apply/publicsale/nagasaki/attach/pdf/20261020_kaitai_1-1.pdf",
+    "attachments": [
+      {
+        "name": "入札説明書(PDF : 5,349KB)",
+        "uri": "https://www.rinya.maff.go.jp/kyusyu/apply/publicsale/nagasaki/attach/pdf/20261020_kaitai_1-2.pdf"
+      },
+      {
+        "name": "仲裁合意書(PDF : 159KB)",
+        "uri": "https://www.rinya.maff.go.jp/kyusyu/apply/publicsale/nagasaki/attach/pdf/20261020_kaitai_1-4.pdf"
+      }
+    ],
+    "location": "長崎県島原市白土町1073番地1",
+    "bid_deadline": "2026-11-20T09:20:00",
+    "opening_date": "2026-11-20T09:30:00",
+    "application_deadline": "2026-11-06T17:00:00",
+    "fetched_date": "2026-10-24",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-24T02:49:48+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日の翌日から2027年2月28日まで",
+      "application_deadline": "2026-11-06T17:00:00",
+      "bid_deadline": "2026-11-20T09:20:00",
+      "opening_date": "2026-11-20T09:30:00",
+      "summary": "本工事は、長崎県島原市白土町1073番地1にある旧島原森林事務所の解体・撤去工事です。事務所等の解体・撤去、土地の整理、地下埋設物調査が含まれます。本工事は電子入札システムおよび電子契約システムで行われる試行対象案件です。"
     }
   }
 }
