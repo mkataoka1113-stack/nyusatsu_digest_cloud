@@ -1,40 +1,4 @@
 {
-  "tokyometro_3539591720233510": {
-    "source": "tokyometro",
-    "key": "tokyometro_3539591720233510",
-    "project_name": "東京消防庁旧三河島家族待機宿舎（８）解体工事",
-    "org_name": "東京消防庁総務部経理契約課",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3101"
-    ],
-    "cft_issue_date": "2026-08-26",
-    "procedure_type": "希望制指名競争入札",
-    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
-    "attachments": [],
-    "location": "東京都荒川区荒川七丁目７番２号",
-    "bid_deadline": "",
-    "opening_date": "2026-10-21T09:15:00",
-    "application_deadline": "2026-09-01",
-    "fetched_date": "2026-09-27",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-27T02:59:32+00:00",
-      "planned_price": "73,249,000円（消費税率10％）",
-      "region_requirement": null,
-      "koki": "契約確定の日の翌日から令和9年5月31日まで",
-      "application_deadline": "2026-09-01T16:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-10-21T09:15:00",
-      "summary": "本件は、東京都荒川区荒川七丁目7番2号に位置する東京消防庁旧三河島家族待機宿舎（8）の解体工事です。敷地面積は466.73平方メートルで、鉄筋コンクリート造地上4階建ての宿舎本体、鉄骨造平屋倉庫の付属棟、電気設備、機械設備の解体が含まれます。"
-    }
-  },
   "tokyometro_3539411929091210": {
     "source": "tokyometro",
     "key": "tokyometro_3539411929091210",
@@ -4672,6 +4636,181 @@
       "bid_deadline": null,
       "opening_date": null,
       "summary": "本案件は、立川第二法務総合庁舎のウッドデッキ解体及びタイル張り工事に関するオープンカウンタ（少額）への参加募集情報です。調達機関は法務省で、調達機関所在地は東京都です。"
+    }
+  },
+  "pportal_642375": {
+    "source": "pportal",
+    "key": "pportal_642375",
+    "project_name": "千徳住宅物置解体撤去及び開口部閉鎖等工事",
+    "org_name": "財務省",
+    "pref_name": "岩手県",
+    "city_name": "",
+    "pref_code": "03",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-27",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=DpUtXSNTsjRojvgKVh36Sa%2FbaH2fHvC4pdzheRr0IfY%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-11-16T16:00:00",
+    "opening_date": "2026-11-17T10:00:00",
+    "application_deadline": "2026-11-13T16:00:00",
+    "fetched_date": "2026-10-27",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-27T03:16:22+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日の翌日 から 令和9年3月24日 まで",
+      "application_deadline": "2026-11-13T16:00:00",
+      "bid_deadline": "2026-11-16T16:00:00",
+      "opening_date": "2026-11-17T10:00:00",
+      "summary": "本工事は、岩手県宮古市宮町三丁目１－２１に位置する千徳住宅の物置解体撤去及び開口部閉鎖等を行うものです。電子調達システムを利用した応札、入開札及び契約手続きにより実施されます。"
+    }
+  },
+  "pportal_642043": {
+    "source": "pportal",
+    "key": "pportal_642043",
+    "project_name": "（二本部）汽船１隻解体処分",
+    "org_name": "国土交通省",
+    "pref_name": "宮城県",
+    "city_name": "",
+    "pref_code": "04",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-27",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-10-27",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-27T03:16:22+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本公告は、国土交通省による一般競争入札「（二本部）汽船１隻解体処分」に関するものである。調達種別は物品・役務に分類される。公告内容は国土交通省のホームページに掲載される。"
+    }
+  },
+  "bWl5YWdpL2t1cmloYXJhX2NpdHkvMjAyNi8yMDI2MTAyNl8wMDk5OQo=": {
+    "source": "kkj",
+    "key": "bWl5YWdpL2t1cmloYXJhX2NpdHkvMjAyNi8yMDI2MTAyNl8wMDk5OQo=",
+    "project_name": "【入札公告】市営鶴町住宅解体工事（PDF：282KB）",
+    "org_name": "宮城県栗原市",
+    "pref_name": "宮城県",
+    "city_name": "栗原市",
+    "pref_code": "04",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-26T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.kuriharacity.jp/w004/030/010/200/2026koukou/1026/1026koukoku4.pdf?1023925",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-11-11T10:30:00",
+    "opening_date": "2026-11-11T10:30:00",
+    "application_deadline": "2026-11-02T16:00:00",
+    "fetched_date": "2026-10-27",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-27T03:16:22+00:00",
+      "planned_price": null,
+      "region_requirement": "栗原市内に本社（本店）、支店・営業所等で登録していること。",
+      "koki": "契約締結日の翌日から令和9年3月25日まで",
+      "application_deadline": "2026-11-02T16:00:00",
+      "bid_deadline": "2026-11-11T10:30:00",
+      "opening_date": "2026-11-11T10:30:00",
+      "summary": "本工事は、栗原市一迫真坂字鶴町地内における市営鶴町住宅2棟10戸（D棟・E棟）の解体工事一式です。コンクリートパネル壁式構造2階建て1棟5戸、延床面積311.46㎡の建築物が対象です。"
+    }
+  },
+  "a3lvdG8vYXlhYmVfY2l0eS8yMDI2LzIwMjYxMDI2XzAwNzQ5Cg==": {
+    "source": "kkj",
+    "key": "a3lvdG8vYXlhYmVfY2l0eS8yMDI2LzIwMjYxMDI2XzAwNzQ5Cg==",
+    "project_name": "市営住宅（高津）解体工事（解体B・C）",
+    "org_name": "京都府綾部市",
+    "pref_name": "京都府",
+    "city_name": "綾部市",
+    "pref_code": "26",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-26T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.ayabe.lg.jp/cmsfiles/contents/0000004/4603/koukoku-sieijyuutakutakatukaitai.pdf",
+    "attachments": [],
+    "location": "綾部市高津町",
+    "bid_deadline": "2026-11-17T14:00:00",
+    "opening_date": "2026-11-18T09:30:00",
+    "application_deadline": "2026-10-30T12:00:00",
+    "fetched_date": "2026-10-27",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-27T03:16:22+00:00",
+      "planned_price": null,
+      "region_requirement": "令和8年度綾部市建設工事指名競争入札参加資格者名簿で解体工事のＢ等級又はＣ等級で登録されており、令和8年4月1日以降継続して綾部市内に本店を有する単体業者であること",
+      "koki": "令和8年11月25日から令和9年2月22日まで（90日間）",
+      "application_deadline": "2026-10-30T12:00:00",
+      "bid_deadline": "2026-11-17T14:00:00",
+      "opening_date": "2026-11-18T09:30:00",
+      "summary": "本工事は市営住宅（高津）の解体工事です。補強CB造平屋建6戸1棟、延べ面積129㎡の解体を行います。入札は電子入札による条件付一般競争入札です。"
+    }
+  },
+  "YW9tb3JpL3Rvd2FkYV9jaXR5LzIwMjYvMjAyNjEwMjZfMDE0NzkK": {
+    "source": "kkj",
+    "key": "YW9tb3JpL3Rvd2FkYV9jaXR5LzIwMjYvMjAyNjEwMjZfMDE0NzkK",
+    "project_name": "旧営繕作業場解体工事(313KB)",
+    "org_name": "青森県十和田市",
+    "pref_name": "青森県",
+    "city_name": "十和田市",
+    "pref_code": "02",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-26T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.towada.lg.jp/sangyo/nyusatsu/nyusatsu/files/kyousou08010.pdf",
+    "attachments": [],
+    "location": "旧作業場 延床面積183.45㎡者でないこと",
+    "bid_deadline": "2026-11-11T00:00:00",
+    "opening_date": "令和8年11月5日",
+    "application_deadline": "2026-11-02T00:00:00",
+    "fetched_date": "2026-10-27",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-27T03:16:22+00:00",
+      "planned_price": "6,193,000円（消費税及び地方消費税の額を含む。）",
+      "region_requirement": "十和田市建設工事請負業者指名選定規則（平成17年十和田市規則第76号）第５条の規定に基づく令和８年度の有資格者名簿の市内業者に登載されており、かつ解体の格付がＢ級であること。",
+      "koki": "契約締結の翌日から 令和9年2月1日",
+      "application_deadline": "2026-11-02T00:00:00",
+      "bid_deadline": "2026-11-11T00:00:00",
+      "opening_date": "2026-11-13T10:00:00",
+      "summary": "本件は、十和田市が実施する旧営繕作業場解体工事の簡易型一般競争入札です。工事場所は十和田市西六番町290番1地内で、旧作業場の延床面積183.45㎡の解体を行います。最低制限価格制度の対象となる入札です。"
     }
   }
 }
