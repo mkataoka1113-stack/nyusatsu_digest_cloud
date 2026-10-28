@@ -1,149 +1,4 @@
 {
-  "tokyometro_3539411929091210": {
-    "source": "tokyometro",
-    "key": "tokyometro_3539411929091210",
-    "project_name": "令和８年度八丈島港湾宿舎解体工事",
-    "org_name": "八丈支庁総務課",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3101"
-    ],
-    "cft_issue_date": "2026-08-28",
-    "procedure_type": "希望制指名競争入札",
-    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
-    "attachments": [],
-    "location": "東京都八丈島八丈町大賀郷691番地２",
-    "bid_deadline": "",
-    "opening_date": "2026-10-05T09:15:00",
-    "application_deadline": "2026-09-03",
-    "fetched_date": "2026-09-28",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-28T03:00:58+00:00",
-      "planned_price": "29,062,000円（消費税率10％）",
-      "region_requirement": "原則として八丈支庁管内(八丈島又は青ヶ島)に事務所(営業所)を有する事業者を優先して指名します。",
-      "koki": "契約確定の日の翌日から令和9年3月12日まで",
-      "application_deadline": "2026-09-03T15:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-10-05T09:15:00",
-      "summary": "本工事は、東京都八丈島八丈町大賀郷691番地２において、港湾宿舎２棟（木造平屋建て、アスベスト含有建材あり）の解体と外構撤去・整備を行うものです。履行期間は契約確定の翌日から2027年3月12日までです。"
-    }
-  },
-  "jkk_21158": {
-    "source": "jkk",
-    "key": "jkk_21158",
-    "project_name": "都営亀戸七丁目アパート（１～３号棟）除却工事",
-    "org_name": "東京都住宅供給公社（JKK東京）",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "015"
-    ],
-    "cft_issue_date": "2026-09-28T09:00:00",
-    "procedure_type": "希望制",
-    "doc_uri": "https://www.to-kousya.or.jp/keiyaku/nyusatu/index.html",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-11-05T17:00:00",
-    "opening_date": "2026-11-06T10:00:00",
-    "application_deadline": "2026-10-02T16:00:00",
-    "fetched_date": "2026-09-28",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-28T03:00:58+00:00",
-      "planned_price": "1億3880万9000円（税込）",
-      "region_requirement": null,
-      "koki": "2026/11/13から2027/06/15",
-      "application_deadline": "2026-10-02T16:00:00",
-      "bid_deadline": "2026-11-05T17:00:00",
-      "opening_date": "2026-11-06T10:00:00",
-      "summary": "都営亀戸七丁目アパート（１～３号棟）の除却工事です。本案件は最低制限価格が設定されており、発注者指定方式による週休２日促進工事の対象案件です。"
-    }
-  },
-  "chiba_a690ca6e46303676": {
-    "source": "chiba",
-    "key": "chiba_a690ca6e46303676",
-    "project_name": "黒生町市営住宅解体工事",
-    "org_name": "銚子市  市長部局  財政課管財室",
-    "pref_name": "千葉県",
-    "city_name": "銚子市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-09-28",
-    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [
-      {
-        "name": "01公告（黒生町市営住宅解体工事）（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_a690ca6e46303676_1.pdf"
-      }
-    ],
-    "location": "銚子市黒生町７２３５番地",
-    "bid_deadline": "2026-10-13T16:00:00",
-    "opening_date": "2026-10-14T11:00:00",
-    "application_deadline": "",
-    "fetched_date": "2026-09-28",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-28T03:00:58+00:00",
-      "planned_price": "69,421,000円（税込）",
-      "region_requirement": "市内本・支店",
-      "koki": "契約締結日の翌日から１０５日間",
-      "application_deadline": null,
-      "bid_deadline": "2026-10-13T16:00:00",
-      "opening_date": "2026-10-14T11:00:00",
-      "summary": "銚子市黒生町7235番地にて黒生町市営住宅の解体工事一式が行われます。工期は契約締結日の翌日から105日間です。予定価格は69,421,000円（税込）です。"
-    }
-  },
-  "pportal_638736": {
-    "source": "pportal",
-    "key": "pportal_638736",
-    "project_name": "福岡法務局旧吉井法務総合庁舎解体工事に伴い発生する有価材の売払契約",
-    "org_name": "法務省",
-    "pref_name": "福岡県",
-    "city_name": "",
-    "pref_code": "40",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-28",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=0PfZVs6ysr7G1lj%2FbLj6%2Bd%2Fk2gxDC2QHzYg4%2FKzjIuw%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "2026-10-20T17:00:00",
-    "opening_date": "2026-10-21T13:00:00",
-    "application_deadline": "",
-    "fetched_date": "2026-09-28",
-    "notified": [],
-    "enrich": {
-      "status": "llm_failed",
-      "provider": "",
-      "enriched_at": "2026-09-28T03:00:58+00:00"
-    }
-  },
   "chiba_5f2f0362559cb7b8": {
     "source": "chiba",
     "key": "chiba_5f2f0362559cb7b8",
@@ -4811,6 +4666,188 @@
       "bid_deadline": "2026-11-11T00:00:00",
       "opening_date": "2026-11-13T10:00:00",
       "summary": "本件は、十和田市が実施する旧営繕作業場解体工事の簡易型一般競争入札です。工事場所は十和田市西六番町290番1地内で、旧作業場の延床面積183.45㎡の解体を行います。最低制限価格制度の対象となる入札です。"
+    }
+  },
+  "tokyometro_3539591720233510": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539591720233510",
+    "project_name": "東京消防庁旧三河島家族待機宿舎（８）解体工事",
+    "org_name": "東京消防庁総務部経理契約課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-08-26",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都荒川区荒川七丁目７番２号",
+    "bid_deadline": "",
+    "opening_date": "2026-10-21T09:15:00",
+    "application_deadline": "2026-09-01",
+    "fetched_date": "2026-10-28",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-28T03:28:24+00:00",
+      "planned_price": "73,249,000円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から2027年5月31日まで",
+      "application_deadline": "2026-09-01T16:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-10-21T09:15:00",
+      "summary": "本件は、東京都荒川区荒川七丁目７番２号に位置する東京消防庁旧三河島家族待機宿舎（８）の解体工事です。敷地面積は466.73平方メートルで、鉄筋コンクリート造地上4階建ての宿舎本体、鉄骨造平屋倉庫の付属棟、電気設備、機械設備の解体が含まれます。"
+    }
+  },
+  "pportal_642069": {
+    "source": "pportal",
+    "key": "pportal_642069",
+    "project_name": "庁舎解体撤去工事に伴う鉄くず等売払",
+    "org_name": "農林水産省",
+    "pref_name": "香川県",
+    "city_name": "",
+    "pref_code": "37",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-28",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=V5kZBhKMsFWt9QlT0dHLtQZ1xu3NbnWThgk81bSQV%2Fk%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-11-18T17:00:00",
+    "opening_date": "2026-11-19T10:00:00",
+    "application_deadline": "2026-11-12T17:00:00",
+    "fetched_date": "2026-10-28",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-28T03:28:24+00:00",
+      "planned_price": null,
+      "region_requirement": "「四国地域」の競争参加資格を有すること",
+      "koki": "令和9年1月29日まで",
+      "application_deadline": "2026-11-12T17:00:00",
+      "bid_deadline": "2026-11-18T17:00:00",
+      "opening_date": "2026-11-19T10:00:00",
+      "summary": "本公告は、庁舎解体撤去工事に伴う鉄くず等の売払に関する一般競争入札です。入札参加者は、買取り発生材の積込み経費等を見積もりに含め、電子調達システムまたは書面により入札書を提出します。落札者は、予定価格の制限内で最高の価格を提示した者となります。"
+    }
+  },
+  "eWFtYW5hc2hpL2Z1ZWZ1a2lfY2l0eS8yMDI2LzIwMjYxMDI3XzAyNDEzCg==": {
+    "source": "kkj",
+    "key": "eWFtYW5hc2hpL2Z1ZWZ1a2lfY2l0eS8yMDI2LzIwMjYxMDI3XzAyNDEzCg==",
+    "project_name": "1-4旧境川分団第4部詰所ほか解体工事",
+    "org_name": "山梨県笛吹市",
+    "pref_name": "山梨県",
+    "city_name": "笛吹市",
+    "pref_code": "19",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-27T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.fuefuki.yamanashi.jp/documents/12184/r081110kokoku1-4.pdf",
+    "attachments": [
+      {
+        "name": "積算図書等（ZIP：952KB）",
+        "uri": "https://www.city.fuefuki.yamanashi.jp/documents/12184/r081110sekisan1-4.zip"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-11-10T09:30:00",
+    "opening_date": "令和8年11月2日",
+    "application_deadline": "2026-11-02T16:00:00",
+    "fetched_date": "2026-10-28",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-28T03:28:24+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": "笛吹市内に本社・本店があること。",
+      "koki": "令和8年11月17日 令和9年3月26日",
+      "application_deadline": "2026-11-02T16:00:00",
+      "bid_deadline": "2026-11-10T09:30:00",
+      "opening_date": "2026-11-10T09:30:00",
+      "summary": "旧境川分団第4部詰所ほか解体工事。既存消防団詰所（鉄骨造平屋建て、延床面積63.64㎡）と車庫（鉄骨造平屋建て、延床面積19.87㎡）の解体工事一式、撤去・処分一式を行う。アスベスト含有材料の撤去・処分を含む。"
+    }
+  },
+  "a2Fnb3NoaW1hL21pbmFtaW9zdW1pX3Rvd24vMjAyNi8yMDI2MTAyN18wMDAzMwo=": {
+    "source": "kkj",
+    "key": "a2Fnb3NoaW1hL21pbmFtaW9zdW1pX3Rvd24vMjAyNi8yMDI2MTAyN18wMDAzMwo=",
+    "project_name": "公営諏訪4号住宅解体工事について（令和8年10月27日公表分）",
+    "org_name": "鹿児島県南大隅町",
+    "pref_name": "鹿児島県",
+    "city_name": "南大隅町",
+    "pref_code": "46",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-27T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.town.minamiosumi.lg.jp/kensetsu/nyusatsu/r8/documents/koukoku_20261027.pdf",
+    "attachments": [],
+    "location": "工事担当課入札方法工事概要工期予定価格",
+    "bid_deadline": "2026-11-16T15:00:00",
+    "opening_date": "令和9年1月22日",
+    "application_deadline": "2026-11-02T15:00:00",
+    "fetched_date": "2026-10-28",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-28T03:28:24+00:00",
+      "planned_price": "32,650,000円（税抜）",
+      "region_requirement": null,
+      "koki": "令和9年1月22日",
+      "application_deadline": "2026-11-02T15:00:00",
+      "bid_deadline": "2026-11-16T15:00:00",
+      "opening_date": "2026-11-17T09:00:00",
+      "summary": "本工事は公営諏訪4号住宅の解体工事で、南大隅町根占川南地内で行われます。延べ床面積152.32㎡の2棟が対象です。入札は電子入札システムで行われます。"
+    }
+  },
+  "Z292MTMvbW9mX3RvaG9rdS8yMDI2LzIwMjYxMDI3XzAxMTE4Cg==": {
+    "source": "kkj",
+    "key": "Z292MTMvbW9mX3RvaG9rdS8yMDI2LzIwMjYxMDI3XzAxMTE4Cg==",
+    "project_name": "千徳住宅物置解体撤去及び開口部閉鎖等工事",
+    "org_name": "財務省東北財務局",
+    "pref_name": "宮城県",
+    "city_name": "仙台市",
+    "pref_code": "04",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-27T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://lfb.mof.go.jp/tohoku/content/mo261027.pdf",
+    "attachments": [],
+    "location": "岩手県宮古市宮町三丁目１－２１",
+    "bid_deadline": "2026-11-16T16:00:00",
+    "opening_date": "令和9年3月24日",
+    "application_deadline": "2026-11-13T16:00:00",
+    "fetched_date": "2026-10-28",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-28T03:28:24+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日の翌日 から 2027年3月24日 まで",
+      "application_deadline": "2026-11-13T16:00:00",
+      "bid_deadline": "2026-11-16T16:00:00",
+      "opening_date": "2026-11-17T10:00:00",
+      "summary": "千徳住宅物置解体撤去及び開口部閉鎖等工事の一般競争入札です。工事場所は岩手県宮古市宮町三丁目１－２１で、建物解体撤去及び開口部閉鎖等が含まれます。電子調達システムを利用した応札、入開札及び契約手続きにより実施されます。"
     }
   }
 }
