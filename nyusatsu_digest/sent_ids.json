@@ -1,116 +1,4 @@
 {
-  "eWFtYWdhdGEvdHN1cnVva2FfY2l0eS8yMDI2LzIwMjYwOTI5XzAyMjkwCg==": {
-    "source": "kkj",
-    "key": "eWFtYWdhdGEvdHN1cnVva2FfY2l0eS8yMDI2LzIwMjYwOTI5XzAyMjkwCg==",
-    "project_name": "9月29日公告（建築一式A）格付指定型一般競争入札の公告について 工事名：由良北側・白山島公衆便所解体工事",
-    "org_name": "山形県鶴岡市",
-    "pref_name": "山形県",
-    "city_name": "鶴岡市",
-    "pref_code": "06",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-29T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.tsuruoka.lg.jp/sangyo/nyusatsu/nyusatukoukoku/20260929koukoku2.files/20260929koukoku2-1.pdf",
-    "attachments": [
-      {
-        "name": "設計図 （PDF：3,814KB）",
-        "uri": "https://www.city.tsuruoka.lg.jp/sangyo/nyusatsu/nyusatukoukoku/20260929koukoku2.files/20260929koukoku2-3.pdf"
-      }
-    ],
-    "location": "鶴岡市由良地内",
-    "bid_deadline": "",
-    "opening_date": "2026-10-15T09:40:00",
-    "application_deadline": "2026-10-13T00:00:00",
-    "fetched_date": "2026-09-30",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-30T03:27:11+00:00",
-      "planned_price": "入札執行後に公表します。",
-      "region_requirement": "市内に本店を有すること。",
-      "koki": "令和8年10月22日から令和9年1月15日まで",
-      "application_deadline": "2026-10-13T00:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-10-15T09:40:00",
-      "summary": "鶴岡市由良地内において、由良北側・白山島公衆便所の解体工事を実施します。本工事は発注者指定型の週休2日（通期）確保工事です。予定価格は入札執行後に公表されます。"
-    }
-  },
-  "b2theWFtYS9va2F5YW1hX2NpdHkvMjAyNi8yMDI2MDkyOV8xMzAzOQo=": {
-    "source": "kkj",
-    "key": "b2theWFtYS9va2F5YW1hX2NpdHkvMjAyNi8yMDI2MDkyOV8xMzAzOQo=",
-    "project_name": "岡山市立旭公民館解体工事に伴う家屋事前調査業務委託",
-    "org_name": "岡山県岡山市",
-    "pref_name": "岡山県",
-    "city_name": "岡山市",
-    "pref_code": "33",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-29T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://keiyaku.city.okayama.jp/webftp/itaku/2026033811.pdf",
-    "attachments": [
-      {
-        "name": "1",
-        "uri": "https://keiyaku.city.okayama.jp/webftp/itaku/2026033811_1.zip"
-      }
-    ],
-    "location": "4 履行期限5 許容価格6 最低制限価格設定案件等7 支払条件8 支払方法10 契約不適合責任期間1 公告期間及び公告方",
-    "bid_deadline": "2026-10-14T16:00:00",
-    "opening_date": "令和8年10月8日",
-    "application_deadline": "令和8年10月19日",
-    "fetched_date": "2026-09-30",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-30T03:27:11+00:00",
-      "planned_price": "落札決定後に公表",
-      "region_requirement": null,
-      "koki": "契約確定の翌日から2年",
-      "application_deadline": null,
-      "bid_deadline": "2026-10-14T16:00:00",
-      "opening_date": "2026-10-15T09:06:00",
-      "summary": "岡山市立旭公民館解体工事に伴う家屋事前調査業務委託。木造建物（軽量鉄骨造含む）9棟、非木造建物1棟、工作物10戸の事前調査を行う。履行場所は岡山市北区広瀬町地内。"
-    }
-  },
-  "YW9tb3JpL3RzdWdhcnVfY2l0eS8yMDI2LzIwMjYwOTI5XzAwMjM2Cg==": {
-    "source": "kkj",
-    "key": "YW9tb3JpL3RzdWdhcnVfY2l0eS8yMDI2LzIwMjYwOTI5XzAwMjM2Cg==",
-    "project_name": "旧富萢保育所解体工事(PDFファイル:520.1KB)",
-    "org_name": "青森県つがる市",
-    "pref_name": "青森県",
-    "city_name": "つがる市",
-    "pref_code": "02",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-29T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.tsugaru.aomori.jp/material/files/group/12/2026fukuko4koukoku1.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-10-16T00:00:00+09:00",
-    "opening_date": "2026-10-16T10:00:00",
-    "application_deadline": "2026-10-06T17:00:00",
-    "fetched_date": "2026-09-30",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-09-30T03:27:11+00:00",
-      "planned_price": "¥31,680,000(税込)",
-      "region_requirement": "つがる市内に本店を有していること。",
-      "koki": "契約を締結した日の翌日からから令和9年3月25日まで",
-      "application_deadline": "2026-10-06T17:00:00",
-      "bid_deadline": "2026-10-15T00:00:00",
-      "opening_date": "2026-10-16T10:00:00",
-      "summary": "旧富萢保育所の解体工事。建築物、アスベスト含有建材、電気・機械設備、外部の解体撤去、および取り壊し材の積込・運搬・処理が含まれる。建設リサイクル法対象工事である。"
-    }
-  },
   "tokyometro_3539791939297311": {
     "source": "tokyometro",
     "key": "tokyometro_3539791939297311",
@@ -4910,6 +4798,395 @@
       "status": "no_text",
       "provider": "",
       "enriched_at": "2026-10-29T03:53:02+00:00"
+    }
+  },
+  "etokyo_2026:13:201:00976": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:201:00976",
+    "project_name": "八王子市立第四中学校解体２期工事",
+    "org_name": "八王子市",
+    "pref_name": "東京都",
+    "city_name": "八王子市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-29T16:00:00",
+    "procedure_type": "一般\n総合",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [
+      {
+        "name": "01公告（2026004436八王子市立第四中学校解体２期工事）（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/etokyo_2026_13_201_00976_1.pdf"
+      }
+    ],
+    "location": "東京都八王子市元本郷町二丁目21番1号",
+    "bid_deadline": "2026-12-01T16:00:00",
+    "opening_date": "2026-12-02T09:00:00",
+    "application_deadline": "2026-11-09T12:00:00",
+    "fetched_date": "2026-10-30",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-30T03:53:54+00:00",
+      "planned_price": "115,027,000円（消費税及び地方消費税を含む。）",
+      "region_requirement": "八王子市内に本店を有すること、または八王子市内に支店、営業所等を有する準市内業者の認定基準を満たしていること。",
+      "koki": "契約締結日の翌日から2027年11月30日まで",
+      "application_deadline": "2026-11-09T12:00:00",
+      "bid_deadline": "2026-12-01T16:00:00",
+      "opening_date": "2026-12-02T09:00:00",
+      "summary": "本工事は、八王子市立第四中学校解体工事の第2期工事です。北側に建設された新築校舎を使用しながら、既存体育館、防球ネット等の解体と樹木等の撤去を行います。解体対象は体育館、倉庫、擁壁、フェンス、防球ネット、地中埋設物、樹木などです。"
+    }
+  },
+  "chiba_5f2f0362559cb7b8": {
+    "source": "chiba",
+    "key": "chiba_5f2f0362559cb7b8",
+    "project_name": "農業改良普及所旧君津中部支所解体工事",
+    "org_name": "千葉県  県土整備部  建設・不動産業課",
+    "pref_name": "千葉県",
+    "city_name": "君津市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-09-29",
+    "procedure_type": "事後審査）千葉県 ・ 価格競争 ・ 事後審査２型 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "01_公告_個別編（単独）_260330改正（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_5f2f0362559cb7b8_1.pdf"
+      },
+      {
+        "name": "02_公告_共通編（価格競争方式）_250930改正（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_5f2f0362559cb7b8_2.pdf"
+      }
+    ],
+    "location": "君津市糠田",
+    "bid_deadline": "2026-10-28T17:00:00",
+    "opening_date": "2026-10-30T14:20:00",
+    "application_deadline": "2026-10-23T17:00:00",
+    "fetched_date": "2026-10-30",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-30T03:53:54+00:00",
+      "planned_price": "24,420,000円（税込み）",
+      "region_requirement": "県内に資格者名簿に登載された主たる営業所（本店）を有する者",
+      "koki": "令和９年３月１２日限り",
+      "application_deadline": "2026-10-23T17:00:00",
+      "bid_deadline": "2026-10-28T17:00:00",
+      "opening_date": "2026-10-30T14:20:00",
+      "summary": "未利用となっている事務所および車庫・倉庫の解体工事を行います。事務所は補強コンクリートブロック造平家建て、車庫・倉庫は木造平屋建てです。上記建築物及び外構に係る解体工事一式が含まれます。"
+    }
+  },
+  "chiba_884b9b6b1864dee7": {
+    "source": "chiba",
+    "key": "chiba_884b9b6b1864dee7",
+    "project_name": "五本松公園あいあい橋撤去工事",
+    "org_name": "我孫子市  市長部局  財政部資産管理課",
+    "pref_name": "千葉県",
+    "city_name": "",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-10-30",
+    "procedure_type": "事後審査）千葉県 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "五本松公園",
+    "bid_deadline": "2026-11-24T16:00:00",
+    "opening_date": "2026-11-25T10:05:00",
+    "application_deadline": "2026-11-16T16:00:00",
+    "fetched_date": "2026-10-30",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-30T03:53:54+00:00",
+      "planned_price": "3,960,000円（税込）",
+      "region_requirement": null,
+      "koki": "令和9年3月10日限り",
+      "application_deadline": "2026-11-16T16:00:00",
+      "bid_deadline": "2026-11-24T16:00:00",
+      "opening_date": "2026-11-25T10:05:00",
+      "summary": "本案件は五本松公園あいあい橋の撤去工事です。工事場所は五本松公園で、工種は解体工事です。"
+    }
+  },
+  "pportal_642418": {
+    "source": "pportal",
+    "key": "pportal_642418",
+    "project_name": "国立療養所沖縄愛楽園宿舎解体工事",
+    "org_name": "厚生労働省",
+    "pref_name": "沖縄県",
+    "city_name": "",
+    "pref_code": "47",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-30",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=%2BxKhmaVBRCAZBD8QAYiHU9BikMHbjqSnW%2BLmL2UZHi0%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-10-30",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-30T03:53:54+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "国立療養所沖縄愛楽園の宿舎（10号及び28号）の解体工事に関する一般競争入札の公告です。本案件はWTO対象外の簡易工事に分類されます。"
+    }
+  },
+  "c2FpdGFtYS90b2tvcm96YXdhX2NpdHkvMjAyNi8yMDI2MTAyOV8wMDc1NQo=": {
+    "source": "kkj",
+    "key": "c2FpdGFtYS90b2tvcm96YXdhX2NpdHkvMjAyNi8yMDI2MTAyOV8wMDc1NQo=",
+    "project_name": "告示第490号 所沢市立山口児童クラブ解体撤去工事",
+    "org_name": "埼玉県所沢市",
+    "pref_name": "埼玉県",
+    "city_name": "所沢市",
+    "pref_code": "11",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-29T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.tokorozawa.saitama.jp/shiseijoho/jigyo/nyusatu/kouji/hattyukekka/keiyaku200.files/2026_kokuji490.pdf",
+    "attachments": [],
+    "location": "所沢市大字山口１９８１番地の１⑶ 設計金額 金１７，８５３，０００円",
+    "bid_deadline": "2026-11-16T16:00:00",
+    "opening_date": "令和８年１１月１７日",
+    "application_deadline": "2026-11-12T16:00:00",
+    "fetched_date": "2026-10-30",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-30T03:53:54+00:00",
+      "planned_price": "金１７，８５３，０００円（消費税及び地方消費税を含む）",
+      "region_requirement": "資格者名簿に登録された本店を所沢市内に有すること",
+      "koki": "契約締結日から令和９年２月１９日まで",
+      "application_deadline": "2026-11-12T16:00:00",
+      "bid_deadline": "2026-11-16T16:00:00",
+      "opening_date": "2026-11-17T09:00:00",
+      "summary": "本工事は、所沢市立山口児童クラブの解体撤去工事です。所沢市大字山口１９８１番地の１が工事場所となります。本工事は所沢市建築工事における週休２日制モデル工事の試行対象です。"
+    }
+  },
+  "b3Nha2EvdG95b25vX3Rvd24vMjAyNi8yMDI2MTAyOV8wMDI3OQo=": {
+    "source": "kkj",
+    "key": "b3Nha2EvdG95b25vX3Rvd24vMjAyNi8yMDI2MTAyOV8wMDI3OQo=",
+    "project_name": "【公告】旧双葉保育所解体工事監理業務委託 [PDF形式／207.76KB]",
+    "org_name": "大阪府豊能町",
+    "pref_name": "大阪府",
+    "city_name": "豊能町",
+    "pref_code": "27",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-29T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.town.toyono.osaka.jp/data/doc/1793245846_doc_26_0.pdf",
+    "attachments": [],
+    "location": "豊能町 余野 地内",
+    "bid_deadline": "2026-12-08T21:00:00",
+    "opening_date": "令和8年12月9日",
+    "application_deadline": "2026-11-19T12:00:00",
+    "fetched_date": "2026-10-30",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-30T03:53:54+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": "豊能地域（豊能町、能勢町、池田市、箕面市、豊中市）、三島地域（茨木市、高槻市、島本町、吹田市、摂津市）又は大阪市に契約先となる事業所を有すること",
+      "koki": "契約締結の翌日から2027年3月31日",
+      "application_deadline": "2026-11-19T12:00:00",
+      "bid_deadline": "2026-12-08T21:00:00",
+      "opening_date": "2026-12-09T13:30:00",
+      "summary": "旧双葉保育所の解体工事監理業務委託に関する入札公告です。本業務は旧双葉保育所解体工事監理一式を含みます。入札は郵送方式で行われ、開札は2026年12月9日に行われます。"
+    }
+  },
+  "b3Nha2EvdG95b25vX3Rvd24vMjAyNi8yMDI2MTAyOV8wMDI3OAo=": {
+    "source": "kkj",
+    "key": "b3Nha2EvdG95b25vX3Rvd24vMjAyNi8yMDI2MTAyOV8wMDI3OAo=",
+    "project_name": "【公告】旧双葉保育所解体 [PDF形式／191.24KB]",
+    "org_name": "大阪府豊能町",
+    "pref_name": "大阪府",
+    "city_name": "豊能町",
+    "pref_code": "27",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-29T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.town.toyono.osaka.jp/data/doc/1793245871_doc_26_0.pdf",
+    "attachments": [],
+    "location": "豊能町 余野 地内",
+    "bid_deadline": "2026-12-08T21:00:00",
+    "opening_date": "令和8年12月9日",
+    "application_deadline": "2026-11-19T12:00:00",
+    "fetched_date": "2026-10-30",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-30T03:53:54+00:00",
+      "planned_price": "事後公表",
+      "region_requirement": "豊能地域（豊能町、能勢町、池田市、箕面市、豊中市）又は三島地域（茨木市、高槻市、島本町、吹田市、摂津市）又は大阪市に契約先となる事業所を有する者",
+      "koki": "契約締結の翌日から令和9年3月31日",
+      "application_deadline": "2026-11-19T12:00:00",
+      "bid_deadline": "2026-12-08T21:00:00",
+      "opening_date": "2026-12-09T14:00:00",
+      "summary": "令和8年度旧双葉保育所の解体工事です。建築工事、電気設備工事、機械設備工事を含みます。豊能町余野地内で行われます。"
+    }
+  },
+  "aGlyb3NoaW1hL21peW9zaGlfY2l0eS8yMDI2LzIwMjYxMDI5XzAxMjY3Cg==": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL21peW9zaGlfY2l0eS8yMDI2LzIwMjYxMDI5XzAxMjY3Cg==",
+    "project_name": "プール解体工",
+    "org_name": "広島県三次市",
+    "pref_name": "広島県",
+    "city_name": "三次市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-29T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/34805.pdf",
+    "attachments": [
+      {
+        "name": "145 [3.32MB]",
+        "uri": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/34808.zip"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-11-12T00:00:00",
+    "opening_date": "令和8年11月11日",
+    "application_deadline": "",
+    "fetched_date": "2026-10-30",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-30T03:53:54+00:00",
+      "planned_price": "４，８６０，０００円 （消費税及び地方消費税相当額を除く。）",
+      "region_requirement": "市内に本社・本店を有するもの。",
+      "koki": "契約日から令和９年２月２６日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-11-12T00:00:00",
+      "opening_date": "2026-11-13T09:30:00",
+      "summary": "本工事は、三次市布野町横谷地内にある旧横谷小学校水泳プールの解体工事です。プール解体工をN=1.0式で行います。本件は事後審査型一般競争入札で、最低制限価格は落札者決定後に公表されます。"
+    }
+  },
+  "Z292MTIvcmlueWEtbWFmZi1zaGlrb2t1LzIwMjYvMjAyNjEwMjlfMDM2MTEK": {
+    "source": "kkj",
+    "key": "Z292MTIvcmlueWEtbWFmZi1zaGlrb2t1LzIwMjYvMjAyNjEwMjlfMDM2MTEK",
+    "project_name": "十和事業宿舎建物解体撤去工事",
+    "org_name": "林野庁四国森林管理局四万十森林管理署",
+    "pref_name": "高知県",
+    "city_name": "四万十市",
+    "pref_code": "39",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-29T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.rinya.maff.go.jp/shikoku/apply/publicsale/simanto/attach/pdf/20261029-11.pdf",
+    "attachments": [
+      {
+        "name": "入札説明書(PDF : 217KB)",
+        "uri": "https://www.rinya.maff.go.jp/shikoku/apply/publicsale/simanto/attach/pdf/20261029-3.pdf"
+      },
+      {
+        "name": "特記仕様書(PDF : 148KB)",
+        "uri": "https://www.rinya.maff.go.jp/shikoku/apply/publicsale/simanto/attach/pdf/20261029-5.pdf"
+      },
+      {
+        "name": "各種図面(PDF : 4,588KB)",
+        "uri": "https://www.rinya.maff.go.jp/shikoku/apply/publicsale/simanto/attach/pdf/20261029-7.pdf"
+      },
+      {
+        "name": "申請書等(PDF : 82KB)",
+        "uri": "https://www.rinya.maff.go.jp/shikoku/apply/publicsale/simanto/attach/pdf/20261029-8.pdf"
+      }
+    ],
+    "location": "高知県高岡郡四万十町昭和445-1、445-4",
+    "bid_deadline": "2026-12-03T11:00:00",
+    "opening_date": "2026-12-03T11:00:00",
+    "application_deadline": "2026-11-19T17:00:00",
+    "fetched_date": "2026-10-30",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-30T03:53:54+00:00",
+      "planned_price": null,
+      "region_requirement": "建設業法に基づく本社、支店又は営業所が、高知県内に所在すること。また、経常建設共同企業体として資料を提出する場合は、有資格者名簿に記載されている共同企業体の本店所在地が、上記区域内であること。",
+      "koki": "契約締結日の翌日から2027年3月18日まで",
+      "application_deadline": "2026-11-19T17:00:00",
+      "bid_deadline": "2026-12-03T11:00:00",
+      "opening_date": "2026-12-03T11:00:00",
+      "summary": "本工事は、高知県高岡郡四万十町昭和445-1、445-4にて十和事業宿舎建物解体撤去工事一式を実施します。建設工事に係る資材の再資源化等に関する法律に基づき、分別解体等及び特定建設資材廃棄物の再資源化等が義務付けられています。また、大気汚染防止法に基づきアスベストの飛散防止と適正処分が義務付けられています。"
+    }
+  },
+  "a2Fnb3NoaW1hL21pbmFtaW9zdW1pX3Rvd24vMjAyNi8yMDI2MTAyOF8wMDAzNAo=": {
+    "source": "kkj",
+    "key": "a2Fnb3NoaW1hL21pbmFtaW9zdW1pX3Rvd24vMjAyNi8yMDI2MTAyOF8wMDAzNAo=",
+    "project_name": "公営諏訪4号住宅解体工事について（令和8年10月29日公表分）",
+    "org_name": "鹿児島県南大隅町",
+    "pref_name": "鹿児島県",
+    "city_name": "南大隅町",
+    "pref_code": "46",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-28T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.town.minamiosumi.lg.jp/kensetsu/nyusatsu/r8/documents/saikoukoku_20261028.pdf",
+    "attachments": [],
+    "location": "工事担当課入札方法工事概要工期予定価格",
+    "bid_deadline": "2026-11-18T15:00:00",
+    "opening_date": "令和9年1月22日",
+    "application_deadline": "2026-11-04T15:00:00",
+    "fetched_date": "2026-10-30",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-10-30T03:53:54+00:00",
+      "planned_price": "32,650,000円（税抜）",
+      "region_requirement": null,
+      "koki": "令和9年1月22日",
+      "application_deadline": "2026-11-04T15:00:00",
+      "bid_deadline": "2026-11-18T15:00:00",
+      "opening_date": "2026-11-19T09:00:00",
+      "summary": "南大隅町根占川南地内において、公営諏訪4号住宅の解体工事が行われます。解体対象は延べ床面積152.32㎡の2棟です。本工事は電子入札システムによる条件付一般競争入札で実施されます。"
     }
   }
 }
