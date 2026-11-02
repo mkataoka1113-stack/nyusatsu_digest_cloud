@@ -1,72 +1,4 @@
 {
-  "aG9ra2FpZG8vbmVtdXJvX2NpdHkvMjAyNi8yMDI2MTAwMl8wMDQyNgo=": {
-    "source": "kkj",
-    "key": "aG9ra2FpZG8vbmVtdXJvX2NpdHkvMjAyNi8yMDI2MTAwMl8wMDQyNgo=",
-    "project_name": "光洋団地解体工事（後期9工区）",
-    "org_name": "北海道根室市",
-    "pref_name": "北海道",
-    "city_name": "根室市",
-    "pref_code": "01",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-02T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.nemuro.hokkaido.jp/material/files/group/22/kokuji_kaitai_09.pdf",
-    "attachments": [],
-    "location": "根室市光洋町３丁目９３番地の内、９４番地の内",
-    "bid_deadline": "2026-10-29T10:00:00",
-    "opening_date": "2026-10-29T10:00:00",
-    "application_deadline": "2026-10-13T17:00:00",
-    "fetched_date": "2026-10-03",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-03T03:15:40+00:00",
-      "planned_price": "１１，９９０，０００円（うち取引に係る消費税及び地方消費税の額を含む）",
-      "region_requirement": "根室市内に本店又は営業所を有するものであること。",
-      "koki": "2026年11月2日から2027年2月26日まで",
-      "application_deadline": "2026-10-13T17:00:00",
-      "bid_deadline": "2026-10-29T10:00:00",
-      "opening_date": "2026-10-29T10:00:00",
-      "summary": "本工事は光洋団地解体工事(後期９工区)であり、根室市光洋町３丁目９３番地の内、９４番地の内で行われます。コンクリートブロック造平屋3棟12戸と木造11棟の物置の解体が含まれます。本工事は建設工事に係る資材の再資源化に関する法律に基づき分別解体が義務付けられています。"
-    }
-  },
-  "aG9ra2FpZG8vbmVtdXJvX2NpdHkvMjAyNi8yMDI2MTAwMV8wMDQyNwo=": {
-    "source": "kkj",
-    "key": "aG9ra2FpZG8vbmVtdXJvX2NpdHkvMjAyNi8yMDI2MTAwMV8wMDQyNwo=",
-    "project_name": "教職員住宅解体工事",
-    "org_name": "北海道根室市",
-    "pref_name": "北海道",
-    "city_name": "根室市",
-    "pref_code": "01",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-01T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.nemuro.hokkaido.jp/material/files/group/31/r08kyousyokuinnzyuutakukaitaikouzi.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "2026-11-04T09:30:00",
-    "application_deadline": "2026-10-13T17:00:00",
-    "fetched_date": "2026-10-03",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-03T03:15:40+00:00",
-      "planned_price": "１３,５５２,０００ 円 (うち取引に係る消費税及び地方消費税の合計額を含む。)",
-      "region_requirement": "根室市内に本店又は営業所を有するものであること",
-      "koki": "令和８年１１月９日から令和９年２月２６日",
-      "application_deadline": "2026-10-13T17:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-11-04T09:30:00",
-      "summary": "本工事は教職員住宅の解体工事です。根室市光洋町と珸瑤瑁に所在するCB造長屋住宅2棟4戸、木造物置、木造戸建住宅2棟2戸、木造物置の解体が含まれます。建設工事に係る資材の再資源化に関する法律に基づき、分別解体等が義務付けられています。"
-    }
-  },
   "jkk_21168": {
     "source": "jkk",
     "key": "jkk_21168",
@@ -4890,6 +4822,42 @@
       "bid_deadline": null,
       "opening_date": "2026-10-01T09:15:00",
       "summary": "都立武蔵丘高等学校の解体工事です。校舎棟、体育館、格技棟の解体およびその他工事一式が含まれます。本案件は技術実績評価型総合評価方式（試行）案件です。"
+    }
+  },
+  "etokyo_2026:13:209:00501": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:209:00501",
+    "project_name": "金森市民農園圃場解体整備工事",
+    "org_name": "町田市",
+    "pref_name": "東京都",
+    "city_name": "町田市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-02T08:30:00",
+    "procedure_type": "指名競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "東京都町田市金森東二丁目１０１７番地ほか",
+    "bid_deadline": "2026-11-19T12:00:00",
+    "opening_date": "2026-11-19T14:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-11-02",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-02T03:49:20+00:00",
+      "planned_price": "7,065,300円",
+      "region_requirement": null,
+      "koki": "契約確定の日から2027年3月5日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-11-19T12:00:00",
+      "opening_date": "2026-11-19T14:00:00",
+      "summary": "金森市民農園圃場解体整備工事は、既存建物の解体と敷地内の整地を行うものです。履行場所は東京都町田市金森東二丁目１０１７番地ほかです。"
     }
   }
 }
