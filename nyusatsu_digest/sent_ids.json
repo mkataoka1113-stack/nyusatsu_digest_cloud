@@ -4859,5 +4859,146 @@
       "opening_date": "2026-11-19T14:00:00",
       "summary": "金森市民農園圃場解体整備工事は、既存建物の解体と敷地内の整地を行うものです。履行場所は東京都町田市金森東二丁目１０１７番地ほかです。"
     }
+  },
+  "bWl5YWdpL2t1cmloYXJhX2NpdHkvMjAyNi8yMDI2MTEwMl8wMTAwMQo=": {
+    "source": "kkj",
+    "key": "bWl5YWdpL2t1cmloYXJhX2NpdHkvMjAyNi8yMDI2MTEwMl8wMTAwMQo=",
+    "project_name": "【入札公告】旧細倉小学校解体工事（PDF：284KB）",
+    "org_name": "宮城県栗原市",
+    "pref_name": "宮城県",
+    "city_name": "栗原市",
+    "pref_code": "04",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-02T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.kuriharacity.jp/w004/030/010/200/2026koukou/1102/1102koukoku2.pdf?10301756",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-11-18T10:10:00",
+    "opening_date": "2026-11-18T10:10:00",
+    "application_deadline": "2026-11-09T16:00:00",
+    "fetched_date": "2026-11-03",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-03T04:53:09+00:00",
+      "planned_price": null,
+      "region_requirement": "栗原市内に本社（本店）、支店・営業所等で登録していること。",
+      "koki": "契約締結日の翌日から令和9年3月31日まで",
+      "application_deadline": "2026-11-09T16:00:00",
+      "bid_deadline": "2026-11-18T10:10:00",
+      "opening_date": "2026-11-18T10:10:00",
+      "summary": "旧細倉小学校の解体工事一式。校舎棟（鉄筋コンクリート3階建、延床面積1,997.34㎡）と付属施設等（プール、屋外トイレ、キュービクル、浄化槽、植栽等）の解体を行う。本工事は週休2日工事の対象である。"
+    }
+  },
+  "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjExMDJfMDM5MjgK": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL21paGFyYV9jaXR5LzIwMjYvMjAyNjExMDJfMDM5MjgK",
+    "project_name": "消防屯所等解体工事",
+    "org_name": "広島県三原市",
+    "pref_name": "広島県",
+    "city_name": "三原市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-02T00:00:00+09:00",
+    "procedure_type": "条件付き一般競争入札",
+    "doc_uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/167500.pdf",
+    "attachments": [
+      {
+        "name": "仕様書等",
+        "uri": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/167501.pdf"
+      }
+    ],
+    "location": "三原市幸崎能地五丁目外工事内容 本能地格納庫外８ヶ所を解体する",
+    "bid_deadline": "2026-11-18T16:00:00",
+    "opening_date": "2026-11-19T09:10:00",
+    "application_deadline": "2026-11-10T17:00:00",
+    "fetched_date": "2026-11-03",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-03T04:53:09+00:00",
+      "planned_price": "26,523,000円（消費税及び地方消費税相当額を除く。）",
+      "region_requirement": "三原市内に本店を有する者（ただし、本郷地域・久井地域・大和地域に本店を有する者を除く。）",
+      "koki": "契約日の翌日から令和9年3月31日",
+      "application_deadline": "2026-11-10T17:00:00",
+      "bid_deadline": "2026-11-18T16:00:00",
+      "opening_date": "2026-11-19T09:10:00",
+      "summary": "三原市幸崎能地五丁目外にて消防屯所等解体工事を実施します。本能地格納庫、須波分団屯所など計9箇所の建物及び乾燥柱の解体、フェンス設置等が含まれます。工期は契約日の翌日から2027年3月31日までです。"
+    }
+  },
+  "Z2lmdS9nZXJvX2NpdHkvMjAyNi8yMDI2MTEwMl8wMDA1Mgo=": {
+    "source": "kkj",
+    "key": "Z2lmdS9nZXJvX2NpdHkvMjAyNi8yMDI2MTEwMl8wMDA1Mgo=",
+    "project_name": "金振工第2号 菅田公民館解体工事",
+    "org_name": "岐阜県下呂市",
+    "pref_name": "岐阜県",
+    "city_name": "下呂市",
+    "pref_code": "21",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-02T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.gero.lg.jp/uploaded/attachment/25586.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "令和８年11月16日",
+    "opening_date": "令和８年11月19日",
+    "application_deadline": "令和８年11月４日",
+    "fetched_date": "2026-11-03",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-03T04:53:09+00:00",
+      "planned_price": "20,649,200円（消費税及び地方消費税を含む。）",
+      "region_requirement": "下呂市内に、下呂市建設工事入札参加資格者名簿に登載されている本店を有すること",
+      "koki": "契約締結日の翌日から2027年3月25日まで",
+      "application_deadline": "2026-11-06T16:00:00",
+      "bid_deadline": "2026-11-18T16:00:00",
+      "opening_date": "2026-11-19T09:15:00",
+      "summary": "本工事は、下呂市金山町菅田桐洞に位置する菅田公民館の解体工事です。昭和40年築の木造一部軽量鉄骨2階建て、延べ床面積615.67㎡の建物を解体し、発生材の運搬処分と整地を行います。"
+    }
+  },
+  "b2tpbmF3YS9taGx3X29raW5hd2FfYWlyYWt1ZW4vMjAyNi8yMDI2MTAzMF8wMDAxOAo=": {
+    "source": "kkj",
+    "key": "b2tpbmF3YS9taGx3X29raW5hd2FfYWlyYWt1ZW4vMjAyNi8yMDI2MTAzMF8wMDAxOAo=",
+    "project_name": "国立療養所沖縄愛楽園宿舎（１０号及び２８号）の解体工事",
+    "org_name": "厚生労働省国立療養所 沖縄愛楽園",
+    "pref_name": "沖縄県",
+    "city_name": "名護市",
+    "pref_code": "47",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-10-30T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/hansen/airakuen/site/koji_cyotatsu/r8_1030_01_kokoku.pdf",
+    "attachments": [],
+    "location": "沖縄県名護市字済井出１１９２番地",
+    "bid_deadline": "令和８年１１月２６日",
+    "opening_date": "令和８年１１月２７日",
+    "application_deadline": "2026-11-19T17:00:00",
+    "fetched_date": "2026-11-03",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-03T04:53:09+00:00",
+      "planned_price": null,
+      "region_requirement": "九州・沖縄地域に本店又は支店もしくはその他の営業所が所在すること。",
+      "koki": "契約締結日から令和9年3月24日まで",
+      "application_deadline": "2026-11-19T17:00:00",
+      "bid_deadline": "2026-11-26T17:00:00",
+      "opening_date": "2026-11-27T13:30:00",
+      "summary": "本工事は、国立療養所沖縄愛楽園の宿舎（10号及び28号）の解体工事です。入札は電子調達システムで行われ、入札金額は総価を記載します。落札決定に当たっては、入札書に記載された金額に消費税相当額を加算した金額が落札価格となります。"
+    }
   }
 }
