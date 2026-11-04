@@ -1,40 +1,4 @@
 {
-  "jkk_21168": {
-    "source": "jkk",
-    "key": "jkk_21168",
-    "project_name": "都営滝野川三丁目アパート（１～６号棟）除却工事",
-    "org_name": "東京都住宅供給公社（JKK東京）",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "015"
-    ],
-    "cft_issue_date": "2026-10-05T09:00:00",
-    "procedure_type": "希望制",
-    "doc_uri": "https://www.to-kousya.or.jp/keiyaku/nyusatu/index.html",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-11-12T17:00:00",
-    "opening_date": "2026-11-13T10:10:00",
-    "application_deadline": "2026-10-09T16:00:00",
-    "fetched_date": "2026-10-05",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-05T03:29:26+00:00",
-      "planned_price": "2億1290万5000円（税込）",
-      "region_requirement": null,
-      "koki": "2026/11/20から2027/08/04",
-      "application_deadline": "2026-10-09T16:00:00",
-      "bid_deadline": "2026-11-12T17:00:00",
-      "opening_date": "2026-11-13T10:10:00",
-      "summary": "都営滝野川三丁目アパート（1～6号棟）の除却工事です。本案件は最低制限価格が設定されており、発注者指定方式による週休2日促進工事の対象案件です。"
-    }
-  },
   "chiba_6c52e751dc18a22b": {
     "source": "chiba",
     "key": "chiba_6c52e751dc18a22b",
@@ -4999,6 +4963,122 @@
       "bid_deadline": "2026-11-26T17:00:00",
       "opening_date": "2026-11-27T13:30:00",
       "summary": "本工事は、国立療養所沖縄愛楽園の宿舎（10号及び28号）の解体工事です。入札は電子調達システムで行われ、入札金額は総価を記載します。落札決定に当たっては、入札書に記載された金額に消費税相当額を加算した金額が落札価格となります。"
+    }
+  },
+  "etokyo_2026:13:117:00822": {
+    "source": "etokyo",
+    "key": "etokyo_2026:13:117:00822",
+    "project_name": "滝野川第五小学校校舎等解体工事",
+    "org_name": "北区",
+    "pref_name": "東京都",
+    "city_name": "北区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-04T11:00:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://www.e-tokyo.lg.jp/choutatu_ppij/cmn/tmg/cmn/jsp/indexQ.jsp",
+    "attachments": [],
+    "location": "東京都北区昭和町３－３－１２",
+    "bid_deadline": "2026-12-28T10:00:00",
+    "opening_date": "2026-12-28T10:00:00",
+    "application_deadline": "2026-11-18T13:00:00",
+    "fetched_date": "2026-11-04",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-04T04:20:48+00:00",
+      "planned_price": "入札参加資格審査結果通知後に公表します。",
+      "region_requirement": null,
+      "koki": "契約確定の翌日から2028年2月25日まで",
+      "application_deadline": "2026-11-18T13:00:00",
+      "bid_deadline": "2026-12-28T10:00:00",
+      "opening_date": "2026-12-28T10:00:00",
+      "summary": "滝野川第五小学校の校舎及び付属施設等の解体工事です。鉄筋コンクリート造地上3階建て、延べ面積約6,120㎡の建物を解体し、これに伴う電気・機械の設備機器の撤去・処分を行います。"
+    }
+  },
+  "chiba_a4bc7000ecfa0676": {
+    "source": "chiba",
+    "key": "chiba_a4bc7000ecfa0676",
+    "project_name": "船橋市営藤原団地浄化槽解体工事",
+    "org_name": "船橋市  企画財政部  契約課",
+    "pref_name": "千葉県",
+    "city_name": "船橋市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-11-04",
+    "procedure_type": "事後審査）市町村 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [
+      {
+        "name": "NE18公告（工事）（PDF）",
+        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_a4bc7000ecfa0676_1.pdf"
+      }
+    ],
+    "location": "船橋市藤原２丁目１３０番１ほか",
+    "bid_deadline": "2026-11-17T15:00:00",
+    "opening_date": "2026-11-19T14:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-11-04",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-04T04:20:48+00:00",
+      "planned_price": "20,990,000円（消費税及び地方消費税を含まない）",
+      "region_requirement": "船橋市内に本店がある者",
+      "koki": "令和 9年 3月31日",
+      "application_deadline": null,
+      "bid_deadline": "2026-11-17T15:00:00",
+      "opening_date": "2026-11-19T14:00:00",
+      "summary": "本工事は、船橋市営藤原団地の老朽化した浄化槽を解体する工事です。仮設工事、排水設備工事、撤去工事、発生材処理、電灯設備、動力設備が含まれます。"
+    }
+  },
+  "pportal_642831": {
+    "source": "pportal",
+    "key": "pportal_642831",
+    "project_name": "(R08)国有建物（一戸町）解体撤去その他工事設計業務",
+    "org_name": "財務省",
+    "pref_name": "岩手県",
+    "city_name": "",
+    "pref_code": "03",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-04",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=vgit3b2CjbyrXveRGOXsBgDEsifU5%2FtPs6rIka7yxGI%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-11-20T16:00:00",
+    "opening_date": "2026-11-24T09:30:00",
+    "application_deadline": "2026-11-19T16:00:00",
+    "fetched_date": "2026-11-04",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-04T04:20:48+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日から2027年3月10日まで",
+      "application_deadline": "2026-11-19T16:00:00",
+      "bid_deadline": "2026-11-20T16:00:00",
+      "opening_date": "2026-11-24T09:30:00",
+      "summary": "本業務は、国有建物（一戸町）の解体撤去その他工事の設計を行うものです。業務場所は岩手県二戸郡一戸町西法寺字諏訪野53番地7です。電子調達システムを利用した応札、入開札及び契約手続きにより実施されますが、紙による提出も可能です。"
     }
   }
 }
