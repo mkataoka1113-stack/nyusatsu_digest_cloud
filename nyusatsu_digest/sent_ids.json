@@ -1,115 +1,4 @@
 {
-  "chiba_6c52e751dc18a22b": {
-    "source": "chiba",
-    "key": "chiba_6c52e751dc18a22b",
-    "project_name": "秘書官公舎解体工事",
-    "org_name": "千葉県  県警本部総務部  会計課",
-    "pref_name": "千葉県",
-    "city_name": "千葉市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-10-06",
-    "procedure_type": "事後審査）千葉県 ・ 価格競争 ・ 事後審査２型 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [],
-    "location": "千葉市中央区",
-    "bid_deadline": "2026-10-28T17:00:00",
-    "opening_date": "2026-10-29T10:50:00",
-    "application_deadline": "2026-10-23T17:00:00",
-    "fetched_date": "2026-10-06",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-06T04:17:46+00:00",
-      "planned_price": "8,987,000円（税込）",
-      "region_requirement": null,
-      "koki": "令和 9年 2月26日限り",
-      "application_deadline": "2026-10-23T17:00:00",
-      "bid_deadline": "2026-10-28T17:00:00",
-      "opening_date": "2026-10-29T10:50:00",
-      "summary": "千葉県警本部総務部会計課が発注する秘書官公舎解体工事です。工事場所は千葉市中央区で、工種は解体工事です。"
-    }
-  },
-  "pportal_639791": {
-    "source": "pportal",
-    "key": "pportal_639791",
-    "project_name": "【東京航空局】東京国際空港海上保安庁庁舎・格納庫その他解体外2件実施設計",
-    "org_name": "国土交通省",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-06",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=3yOr42y8N8hMUVBF1sZUZKtxkpC9QmGmFWb8R8C%2BfUs%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-10-06",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-06T04:17:46+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": null,
-      "opening_date": null,
-      "summary": "本案件は、東京航空局による東京国際空港海上保安庁庁舎・格納庫その他解体外2件実施設計の一般競争入札公告である。調達機関は国土交通省で、調達機関所在地は東京都である。公告内容は国土交通省のウェブサイトにて掲載されている。"
-    }
-  },
-  "ZnVrdXNoaW1hL3RhbXVyYV9jaXR5LzIwMjYvMjAyNjA5MzBfMDE0MTMK": {
-    "source": "kkj",
-    "key": "ZnVrdXNoaW1hL3RhbXVyYV9jaXR5LzIwMjYvMjAyNjA5MzBfMDE0MTMK",
-    "project_name": "あぶくま洞観光拠点施設建設予定地屋根等解体工事 (161.0KB)",
-    "org_name": "福島県田村市",
-    "pref_name": "福島県",
-    "city_name": "田村市",
-    "pref_code": "07",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-09-30T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.tamura.lg.jp/soshiki/3/assets/260930%E6%9D%A1%E4%BB%B6%E4%BB%98%E3%81%8D%E5%85%A5%E6%9C%AD%E5%85%AC%E5%91%8A%E7%AC%AC325%E5%8F%B7%281-218%29.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-09-29T16:00:00",
-    "opening_date": "2026-09-30T09:30:00",
-    "application_deadline": "2026-09-24T00:00:00",
-    "fetched_date": "2026-10-06",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-06T04:17:46+00:00",
-      "planned_price": "事後公表",
-      "region_requirement": "市内登録業者とする。(市内登録業者とは田村市内に本社を置く者。）",
-      "koki": "契約締結の日から7日以内において発注者が指定する日 から 2026年12月21日 (月)まで",
-      "application_deadline": "2026-09-24T00:00:00",
-      "bid_deadline": "2026-09-29T16:00:00",
-      "opening_date": "2026-09-30T09:30:00",
-      "summary": "本工事は、あぶくま洞観光拠点施設建設予定地における屋根等の解体工事です。屋根A撤去87.2㎡、転落防止柵撤去184.5m、外部足場設置415㎡などが含まれます。"
-    }
-  },
   "chiba_c031043a924b6619": {
     "source": "chiba",
     "key": "chiba_c031043a924b6619",
@@ -5079,6 +4968,197 @@
       "bid_deadline": "2026-11-20T16:00:00",
       "opening_date": "2026-11-24T09:30:00",
       "summary": "本業務は、国有建物（一戸町）の解体撤去その他工事の設計を行うものです。業務場所は岩手県二戸郡一戸町西法寺字諏訪野53番地7です。電子調達システムを利用した応札、入開札及び契約手続きにより実施されますが、紙による提出も可能です。"
+    }
+  },
+  "eWFtYWdhdGEvdHN1cnVva2FfY2l0eS8yMDI2LzIwMjYxMTA0XzAyMzAxCg==": {
+    "source": "kkj",
+    "key": "eWFtYWdhdGEvdHN1cnVva2FfY2l0eS8yMDI2LzIwMjYxMTA0XzAyMzAxCg==",
+    "project_name": "11月4日公告（建築一式AB）格付指定型一般競争入札の公告について 工事名：由良北側・楯下川公衆便所解体工事",
+    "org_name": "山形県鶴岡市",
+    "pref_name": "山形県",
+    "city_name": "鶴岡市",
+    "pref_code": "06",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-04T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.tsuruoka.lg.jp/sangyo/nyusatsu/nyusatukoukoku/20261104koukoku1.files/20261004koukoku1-1.pdf",
+    "attachments": [
+      {
+        "name": "設計図 （PDF：2,109KB）",
+        "uri": "https://www.city.tsuruoka.lg.jp/sangyo/nyusatsu/nyusatukoukoku/20261104koukoku1.files/20261104koukoku1-3.pdf"
+      }
+    ],
+    "location": "鶴岡市由良地内",
+    "bid_deadline": "",
+    "opening_date": "2026-11-19T09:00:00",
+    "application_deadline": "2026-11-17T00:00:00",
+    "fetched_date": "2026-11-05",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-05T04:38:52+00:00",
+      "planned_price": "入札執行後に公表します。",
+      "region_requirement": "市内に本店を有すること。",
+      "koki": "2026年11月26日から2027年3月26日まで",
+      "application_deadline": "2026-11-17T00:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-11-19T09:00:00",
+      "summary": "本工事は、由良北側・楯下川公衆便所解体工事です。鶴岡市由良地内にて実施され、設計図書に基づき公衆便所の解体を行います。本工事は週休2日（通期）確保工事であり、鶴岡市変動型最低制限価格制度の対象となります。"
+    }
+  },
+  "dG9reW8va2l0YV9jaXR5LzIwMjYvMjAyNjExMDRfMDAwNTQK": {
+    "source": "kkj",
+    "key": "dG9reW8va2l0YV9jaXR5LzIwMjYvMjAyNjExMDRfMDAwNTQK",
+    "project_name": "【入札告示】滝野川第五小学校校舎等解体工事",
+    "org_name": "東京都北区",
+    "pref_name": "東京都",
+    "city_name": "北区",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-04T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/026/966/koukoku20261104.pdf",
+    "attachments": [
+      {
+        "name": "JV申請書 （PDF 193.4KB）",
+        "uri": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/026/966/2jvshinseisyo.pdf"
+      },
+      {
+        "name": "JV申請書（記入例） （PDF 239.2KB）",
+        "uri": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/026/966/2jvshinseisyo_rei.pdf"
+      }
+    ],
+    "location": "東京都北区昭和町３－３－１２工事期間 契約確定日の翌日から令和１０年２月２５日まで工事内容 ・校舎及び付属施設等の解体鉄",
+    "bid_deadline": "2026-12-28T10:00:00",
+    "opening_date": "令和8年12月28日",
+    "application_deadline": "2026-11-18T13:00:00",
+    "fetched_date": "2026-11-05",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-05T04:38:52+00:00",
+      "planned_price": "予定価格事前公表あり",
+      "region_requirement": "入札参加登録において北区内に本店又は支店・営業所等の登録があること。（代表構成員） 入札参加登録において北区内及び文京区、豊島区、荒川区、板橋区、足立区に本店又は支店・営業所等の登録があること。（第二構成員）",
+      "koki": "契約確定日の翌日から2028年2月25日まで",
+      "application_deadline": "2026-11-18T13:00:00",
+      "bid_deadline": "2026-12-28T10:00:00",
+      "opening_date": "2026-12-28T10:00:00",
+      "summary": "東京都北区昭和町３－３－１２における滝野川第五小学校校舎等解体工事。鉄筋コンクリート造地上3階建て、延べ面積約6,120㎡の校舎及び付属施設等の解体、並びにこれに伴う電気・機械設備機器の撤去・処分が含まれる。"
+    }
+  },
+  "b2theWFtYS9va2F5YW1hX2NpdHkvMjAyNi8yMDI2MTEwNF8xMzEyMQo=": {
+    "source": "kkj",
+    "key": "b2theWFtYS9va2F5YW1hX2NpdHkvMjAyNi8yMDI2MTEwNF8xMzEyMQo=",
+    "project_name": "岡山市旧本庁舎解体撤去工事に伴う家屋事前調査業務委託",
+    "org_name": "岡山県岡山市",
+    "pref_name": "岡山県",
+    "city_name": "岡山市",
+    "pref_code": "33",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-04T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://keiyaku.city.okayama.jp/webftp/itaku/2026039925.pdf",
+    "attachments": [
+      {
+        "name": "1",
+        "uri": "https://keiyaku.city.okayama.jp/webftp/itaku/2026039925_1.zip"
+      }
+    ],
+    "location": "4 履行期限5 許容価格6 最低制限価格設定案件等7 支払条件8 支払方法10 契約不適合責任期間1 公告期間及び公告方",
+    "bid_deadline": "2026-11-18T16:00:00",
+    "opening_date": "2026-11-19T09:09:00",
+    "application_deadline": "令和8年11月24日",
+    "fetched_date": "2026-11-05",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-05T04:38:52+00:00",
+      "planned_price": "落札決定後に公表",
+      "region_requirement": "市内業者",
+      "koki": "令和9年2月26日",
+      "application_deadline": "2026-11-24T17:15:00",
+      "bid_deadline": "2026-11-18T16:00:00",
+      "opening_date": "2026-11-19T09:09:00",
+      "summary": "本業務は岡山市旧本庁舎解体撤去工事に伴う家屋事前調査業務委託です。委託内容は家屋調査業務（事前調査、工作物3箇所）で、履行場所は岡山市北区大供一丁目地内です。"
+    }
+  },
+  "Z292MTMvbW9mX3RvaG9rdS8yMDI2LzIwMjYxMTA0XzAxMTIwCg==": {
+    "source": "kkj",
+    "key": "Z292MTMvbW9mX3RvaG9rdS8yMDI2LzIwMjYxMTA0XzAxMTIwCg==",
+    "project_name": "(R08)国有建物（一戸町）解体撤去その他工事設計業務",
+    "org_name": "財務省東北財務局",
+    "pref_name": "宮城県",
+    "city_name": "仙台市",
+    "pref_code": "04",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-04T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://lfb.mof.go.jp/tohoku/content/koukoku20261104.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-11-20T16:00:00",
+    "opening_date": "令和9年3月10日",
+    "application_deadline": "2026-11-19T16:00:00",
+    "fetched_date": "2026-11-05",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-05T04:38:52+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日 から 2027年3月10日 まで",
+      "application_deadline": "2026-11-19T16:00:00",
+      "bid_deadline": "2026-11-20T16:00:00",
+      "opening_date": "2026-11-24T09:30:00",
+      "summary": "本業務は、岩手県二戸郡一戸町西法寺字諏訪野53番地7にある国有建物の解体撤去その他工事の設計業務です。電子調達システムを利用した応札、入開札及び契約手続きにより実施されますが、紙による提出も可能です。"
+    }
+  },
+  "ZnVrdW9rYS9taXlhd2FrYV9jaXR5LzIwMjYvMjAyNjExMDRfMDAwNzQK": {
+    "source": "kkj",
+    "key": "ZnVrdW9rYS9taXlhd2FrYV9jaXR5LzIwMjYvMjAyNjExMDRfMDAwNzQK",
+    "project_name": "令和8年度新笠松団地1棟解体工事",
+    "org_name": "福岡県宮若市",
+    "pref_name": "福岡県",
+    "city_name": "宮若市",
+    "pref_code": "40",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-04T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.miyawaka.lg.jp/kiji003449407/3_449407_20333_up_68e8ixoz.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-11-19T09:00:00",
+    "opening_date": "2026-11-19T09:00:00",
+    "application_deadline": "2026-11-10T17:15:00",
+    "fetched_date": "2026-11-05",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-05T04:38:52+00:00",
+      "planned_price": "6,092,000円（税抜き）",
+      "region_requirement": "令和8年度宮若市の建設工事有資格者名簿に市内業者として登録されており、解体工事を希望としている者",
+      "koki": "90 日間",
+      "application_deadline": "2026-11-10T17:15:00",
+      "bid_deadline": "2026-11-19T09:00:00",
+      "opening_date": "2026-11-19T09:00:00",
+      "summary": "令和8年度新笠松団地1棟解体工事。宮若市四郎丸533番地1にて、新笠松団地1棟（137号・138号・139・140・141号棟）の解体工事一式を行う。予定工期は90日間。"
     }
   }
 }
