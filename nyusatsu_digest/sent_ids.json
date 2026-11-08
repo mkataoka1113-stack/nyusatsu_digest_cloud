@@ -1,416 +1,4 @@
 {
-  "chiba_7249a0604a25075c": {
-    "source": "chiba",
-    "key": "chiba_7249a0604a25075c",
-    "project_name": "佐倉浄水場旧汚泥処理棟基礎杭撤去他工事",
-    "org_name": "千葉県  企業局管理部  経理課",
-    "pref_name": "千葉県",
-    "city_name": "佐倉市",
-    "pref_code": "12",
-    "gyoshu_codes": [
-      "0010290"
-    ],
-    "cft_issue_date": "2026-09-08",
-    "procedure_type": "事後審査）千葉県 ・ 総合評価（拡充版） ・ 事後審査２型 （方法：電子入札 ）",
-    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
-    "attachments": [
-      {
-        "name": "【公告第34号】佐倉浄水場旧汚泥処理棟基礎杭撤去他工事（PDF）",
-        "uri": "https://mkataoka1113-stack.github.io/nyusatsu_digest_cloud/files/chiba_7249a0604a25075c_1.pdf"
-      }
-    ],
-    "location": "佐倉市角来２２２２",
-    "bid_deadline": "2026-10-08T17:00:00",
-    "opening_date": "2026-10-27T13:20:00",
-    "application_deadline": "2026-10-06T17:00:00",
-    "fetched_date": "2026-10-09",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-09T04:06:01+00:00",
-      "planned_price": "落札決定後公表する",
-      "region_requirement": "県内に資格者名簿に登載された主たる営業所（本店）を有する者",
-      "koki": "令和10年9月7日限り",
-      "application_deadline": "2026-10-06T17:00:00",
-      "bid_deadline": "2026-10-08T17:00:00",
-      "opening_date": "2026-10-27T13:20:00",
-      "summary": "本工事は、佐倉浄水場旧汚泥処理棟基礎杭撤去他工事を行うものです。コンクリート構造物取壊し（鉄筋構造物 V=214㎥）と杭引抜き（N=164本）が含まれます。"
-    }
-  },
-  "pportal_639751": {
-    "source": "pportal",
-    "key": "pportal_639751",
-    "project_name": "令和８年度国有建物等解体撤去工事設計業務 （横浜市西区みなとみらい六丁目）",
-    "org_name": "財務省",
-    "pref_name": "埼玉県",
-    "city_name": "",
-    "pref_code": "11",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-09",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=mUVJUVp1xsrBPuWiq5PuwXmHVLZOIgT95ubILLhGDvE%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-10-09",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-09T04:06:01+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": null,
-      "opening_date": null,
-      "summary": "本案件は、令和8年度国有建物等解体撤去工事設計業務（横浜市西区みなとみらい六丁目）に関する一般競争入札の入札公告である。調達機関は財務省で、調達機関所在地は埼玉県である。公告内容は関東財務局ホームページに掲載されている。"
-    }
-  },
-  "eWFtYW5hc2hpL3lhbWFuYXNoaV9jaXR5LzIwMjYvMjAyNjEwMDhfMDAwOTkK": {
-    "source": "kkj",
-    "key": "eWFtYW5hc2hpL3lhbWFuYXNoaV9jaXR5LzIwMjYvMjAyNjEwMDhfMDAwOTkK",
-    "project_name": "後屋敷小学校プール解体及び整備工事",
-    "org_name": "山梨県山梨市",
-    "pref_name": "山梨県",
-    "city_name": "山梨市",
-    "pref_code": "19",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-08T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.yamanashi.yamanashi.jp/uploaded/attachment/12078.pdf",
-    "attachments": [
-      {
-        "name": "第一般66号 設計書 [その他のファイル／1.89MB]",
-        "uri": "https://www.city.yamanashi.yamanashi.jp/uploaded/attachment/12079.zip"
-      }
-    ],
-    "location": "山梨市 三ヶ所 地内4. 工事概要5. 工事範囲 ・ 本工事の範囲は、設計図面、設計内訳書及び本仕様書に示す範囲とする",
-    "bid_deadline": "",
-    "opening_date": "令和８年１０月２９日",
-    "application_deadline": "2026-10-16T17:00:00",
-    "fetched_date": "2026-10-09",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-09T04:06:01+00:00",
-      "planned_price": "落札者決定後公表",
-      "region_requirement": "山梨市内に本社、本店を有すること。",
-      "koki": "契約日の翌日 令和9年3月18日",
-      "application_deadline": "2026-10-16T17:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-10-29T14:30:00",
-      "summary": "後屋敷小学校のプール解体および関連施設の撤去、アスベスト除去を含む整備工事です。解体後には駐車場とグラウンドの拡張整備が行われます。既存水路の撤去付替や防球フェンスの設置も含まれます。"
-    }
-  },
-  "eWFtYW5hc2hpL2tvc2h1X2NpdHkvMjAyNi8yMDI2MTAwOF8wMDA2MAo=": {
-    "source": "kkj",
-    "key": "eWFtYW5hc2hpL2tvc2h1X2NpdHkvMjAyNi8yMDI2MTAwOF8wMDA2MAo=",
-    "project_name": "旧甲州市立神金保育所解体工事",
-    "org_name": "山梨県甲州市",
-    "pref_name": "山梨県",
-    "city_name": "甲州市",
-    "pref_code": "19",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-08T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.koshu.yamanashi.jp/docs/2022050400010/file_contents/2026103068.pdf",
-    "attachments": [],
-    "location": "甲州市塩山下小田原 地内予定工期 令和８年１１月１６日から 令和９年３月１９日まで工事概要・旧甲州市立神金保育所解体撤去",
-    "bid_deadline": "2026-10-29T17:00:00",
-    "opening_date": "2026-10-30T09:00:00",
-    "application_deadline": "2026-10-19T17:00:00",
-    "fetched_date": "2026-10-09",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-09T04:06:01+00:00",
-      "planned_price": "１８，４９０，０００円（税抜き）",
-      "region_requirement": "甲州市、山梨市、笛吹市または甲府市に本社・本店があること",
-      "koki": "令和８年１１月１６日から令和９年３月１９日まで",
-      "application_deadline": "2026-10-19T17:00:00",
-      "bid_deadline": "2026-10-29T17:00:00",
-      "opening_date": "2026-10-30T09:00:00",
-      "summary": "旧甲州市立神金保育所の解体撤去工事一式。木造地上1階、延床面積468.93㎡の建物を解体する。本案件は電子契約サービスの利用対象である。"
-    }
-  },
-  "eWFtYWdhdGEvdHN1cnVva2FfY2l0eS8yMDI2LzIwMjYxMDA4XzAyMjk4Cg==": {
-    "source": "kkj",
-    "key": "eWFtYWdhdGEvdHN1cnVva2FfY2l0eS8yMDI2LzIwMjYxMDA4XzAyMjk4Cg==",
-    "project_name": "10月8日質問に対する回答掲載：9月29日公告（建築一式A）格付指定型一般競争入札の公告について 工事名：由良北側・白山島公衆便所解体工事",
-    "org_name": "山形県鶴岡市",
-    "pref_name": "山形県",
-    "city_name": "鶴岡市",
-    "pref_code": "06",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-08T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.tsuruoka.lg.jp/sangyo/nyusatsu/nyusatukoukoku/20261008situmonkaito.files/20261008situmonkaito.pdf",
-    "attachments": [
-      {
-        "name": "公告文 （PDF：242KB）",
-        "uri": "https://www.city.tsuruoka.lg.jp/sangyo/nyusatsu/nyusatukoukoku/20261008situmonkaito.files/20260929koukoku2-1.pdf"
-      },
-      {
-        "name": "設計図 （PDF：3,814KB）",
-        "uri": "https://www.city.tsuruoka.lg.jp/sangyo/nyusatsu/nyusatukoukoku/20261008situmonkaito.files/20260929koukoku2-3.pdf"
-      }
-    ],
-    "location": "鶴岡市由良地内",
-    "bid_deadline": "",
-    "opening_date": "2026-10-15T09:40:00",
-    "application_deadline": "2026-10-13T00:00:00",
-    "fetched_date": "2026-10-09",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-09T04:06:01+00:00",
-      "planned_price": "入札執行後に公表します。",
-      "region_requirement": "市内に本店を有すること。",
-      "koki": "令和8年10月22日から令和9年1月15日まで",
-      "application_deadline": "2026-10-13T00:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-10-15T09:40:00",
-      "summary": "由良北側・白山島公衆便所の解体工事です。工事場所は鶴岡市由良地内で、設計図書に基づき実施されます。本工事は発注者指定型の週休2日（通期）確保工事です。"
-    }
-  },
-  "dG9rdXNoaW1hL2tvbWF0c3VzaGltYV9jaXR5LzIwMjYvMjAyNjEwMDhfMDA2NjkK": {
-    "source": "kkj",
-    "key": "dG9rdXNoaW1hL2tvbWF0c3VzaGltYV9jaXR5LzIwMjYvMjAyNjEwMDhfMDA2NjkK",
-    "project_name": "R8 旧北小松島公民館解体工事（工事番号40）",
-    "org_name": "徳島県小松島市",
-    "pref_name": "徳島県",
-    "city_name": "小松島市",
-    "pref_code": "36",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-08T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.komatsushima.lg.jp/fs/6/4/2/4/0/2/_/40_%E5%85%A5%E6%9C%AD%E6%83%85%E5%A0%B1.pdf",
-    "attachments": [
-      {
-        "name": "設計図書等 (PDF 1.89MB)",
-        "uri": "https://www.city.komatsushima.lg.jp/fs/6/4/2/2/7/9/_/40_%E8%A8%AD%E8%A8%88%E5%9B%B3%E6%9B%B8%E7%AD%89.pdf"
-      }
-    ],
-    "location": "小松島市中田町字脇谷４１番地工事年度 令和８年度○工事概要鉄骨造 平家建て",
-    "bid_deadline": "2026-10-27T15:00:00",
-    "opening_date": "2026-10-28T09:40:00",
-    "application_deadline": "",
-    "fetched_date": "2026-10-09",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-09T04:06:01+00:00",
-      "planned_price": "\\11,770,000 （税抜）",
-      "region_requirement": "市内解体工事",
-      "koki": "契約締結日の翌日から令和9年3月10日まで",
-      "application_deadline": null,
-      "bid_deadline": "2026-10-27T15:00:00",
-      "opening_date": "2026-10-28T09:40:00",
-      "summary": "小松島市中田町字脇谷41番地にある旧北小松島公民館の解体工事一式です。鉄骨造平家建て（一部木造）延床面積209.9㎡の建物本体と外構、整地が含まれます。本工事は徳島県電子入札システムを利用した電子入札案件です。"
-    }
-  },
-  "dG9rdXNoaW1hL2tvbWF0c3VzaGltYV9jaXR5LzIwMjYvMjAyNjEwMDhfMDA2NjgK": {
-    "source": "kkj",
-    "key": "dG9rdXNoaW1hL2tvbWF0c3VzaGltYV9jaXR5LzIwMjYvMjAyNjEwMDhfMDA2NjgK",
-    "project_name": "R8 旧市営バス整備工場等解体工事（工事番号39）",
-    "org_name": "徳島県小松島市",
-    "pref_name": "徳島県",
-    "city_name": "小松島市",
-    "pref_code": "36",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-08T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.komatsushima.lg.jp/fs/6/4/2/4/0/1/_/39_%E5%85%A5%E6%9C%AD%E6%83%85%E5%A0%B1.pdf",
-    "attachments": [
-      {
-        "name": "設計図書等 (PDF 3.27MB)",
-        "uri": "https://www.city.komatsushima.lg.jp/fs/6/4/2/2/7/6/_/39_%E8%A8%AD%E8%A8%88%E5%9B%B3%E6%9B%B8%E7%AD%89.pdf"
-      }
-    ],
-    "location": "小松島市小松島町字新港9番5、9番6工事年度 令和８年度小松島市○工事概要解体工事一式①Ａ工区鉄骨造整備工場 平家建 延",
-    "bid_deadline": "2026-10-27T00:00:00",
-    "opening_date": "2026-10-28T09:30:00",
-    "application_deadline": "",
-    "fetched_date": "2026-10-09",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-09T04:06:01+00:00",
-      "planned_price": "\\34,419,000 （税込）",
-      "region_requirement": "市内解体工事",
-      "koki": "契約締結日の翌日から令和9年3月10日まで",
-      "application_deadline": null,
-      "bid_deadline": "2026-10-27T00:00:00",
-      "opening_date": "2026-10-28T09:30:00",
-      "summary": "本工事は、小松島市小松島町字新港9番5、9番6に位置する旧市営バス整備工場等の解体工事一式です。A工区の鉄骨造整備工場や倉庫、木造倉庫、B工区のRC造・木造・鉄骨造営業所やトイレなどの建物解体、外構撤去、構内舗装撤去、整地工事を含みます。"
-    }
-  },
-  "bmFyYS9uYXJha2VuX2tlaXNhdHN1LzIwMjYvMjAyNjEwMDhfMDEwMjAK": {
-    "source": "kkj",
-    "key": "bmFyYS9uYXJha2VuX2tlaXNhdHN1LzIwMjYvMjAyNjEwMDhfMDEwMjAK",
-    "project_name": "橿原警察署見瀬駐在所解体撤去工事",
-    "org_name": "国家公安委員会（警察庁）奈良県警察",
-    "pref_name": "奈良県",
-    "city_name": "奈良市",
-    "pref_code": "29",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-08T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.police.pref.nara.jp/cmsfiles/contents/0000008/8176/koukoku.pdf",
-    "attachments": [],
-    "location": "橿原市見瀬町１９９１番地３ 工事概要 見瀬駐在所",
-    "bid_deadline": "2026-10-27T16:00:00",
-    "opening_date": "令和８年１０月２８日",
-    "application_deadline": "",
-    "fetched_date": "2026-10-09",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-09T04:06:01+00:00",
-      "planned_price": "金４，９３９，０００円（消費税及び地方消費税 (計10％)を含みます。）",
-      "region_requirement": "建設業法に基づく「 解体工事業 」の許可を受けている本店が奈良県内にあり、奈良県建設工事等競争入札参加資格を有すること。",
-      "koki": "2026年11月9日 （予定）～2027年2月26日",
-      "application_deadline": null,
-      "bid_deadline": "2026-10-27T16:00:00",
-      "opening_date": "2026-10-28T11:00:00",
-      "summary": "本工事は、橿原市見瀬町にある見瀬駐在所（木造2階建て約81.00㎡）等の解体撤去を行うものです。現場閉所の週休2日化を促進する試行工事（受注者希望型）として実施されます。電子入札システムを使用し、予定価格及び最低制限価格は事前公表されます。"
-    }
-  },
-  "bmFyYS9uYXJha2VuX2tlaXNhdHN1LzIwMjYvMjAyNjEwMDhfMDEwMTkK": {
-    "source": "kkj",
-    "key": "bmFyYS9uYXJha2VuX2tlaXNhdHN1LzIwMjYvMjAyNjEwMDhfMDEwMTkK",
-    "project_name": "橿原警察署畝傍御陵前駐在所解体撤去工事",
-    "org_name": "国家公安委員会（警察庁）奈良県警察",
-    "pref_name": "奈良県",
-    "city_name": "奈良市",
-    "pref_code": "29",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-08T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.police.pref.nara.jp/cmsfiles/contents/0000008/8175/koukoku.pdf",
-    "attachments": [],
-    "location": "橿原市大久保町４７５番地３ 工事概要 畝傍御陵前駐在所",
-    "bid_deadline": "2026-10-27T16:00:00",
-    "opening_date": "令和８年１０月２８日",
-    "application_deadline": "",
-    "fetched_date": "2026-10-09",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-09T04:06:01+00:00",
-      "planned_price": "金3,575,000 円（消費税及び地方消費税 (計10％)を含みます。）",
-      "region_requirement": "建設業法に基づく「解体工事業」の許可を受けている本店が奈良県内にあり、奈良県建設工事等競争入札参加資格を有すること。",
-      "koki": "2026年11月9日（予定）～2027年2月26日",
-      "application_deadline": null,
-      "bid_deadline": "2026-10-27T16:00:00",
-      "opening_date": "2026-10-28T10:00:00",
-      "summary": "橿原警察署 畝傍御陵前駐在所（木造平家建て 約51.29㎡）等の解体撤去工事です。本工事は、現場閉所の週休2日化を促進する試行工事（受注者希望型）です。予定価格及び最低制限価格の事前公表が行われます。"
-    }
-  },
-  "bmFyYS9uYXJha2VuX2tlaXNhdHN1LzIwMjYvMjAyNjEwMDhfMDEwMTgK": {
-    "source": "kkj",
-    "key": "bmFyYS9uYXJha2VuX2tlaXNhdHN1LzIwMjYvMjAyNjEwMDhfMDEwMTgK",
-    "project_name": "橿原警察署五条野駐在所解体撤去工事",
-    "org_name": "国家公安委員会（警察庁）奈良県警察",
-    "pref_name": "奈良県",
-    "city_name": "奈良市",
-    "pref_code": "29",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-08T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.police.pref.nara.jp/cmsfiles/contents/0000008/8174/koukoku.pdf",
-    "attachments": [],
-    "location": "橿原市菖蒲町四丁目９番２３号３ 工事概要 五条野駐在所",
-    "bid_deadline": "2026-10-27T16:00:00",
-    "opening_date": "令和８年１０月２８日",
-    "application_deadline": "2026-10-29T16:00:00",
-    "fetched_date": "2026-10-09",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-09T04:06:01+00:00",
-      "planned_price": "金5,522,000円（消費税及び地方消費税 (計10％)を含みます。）",
-      "region_requirement": "建設業法に基づく「解体工事業」の許可を受けている本店が奈良県内にあり、奈良県建設工事等競争入札参加資格を有すること。",
-      "koki": "令和8年11月9日（予定）～令和9年2月26日",
-      "application_deadline": "2026-10-29T16:00:00",
-      "bid_deadline": "2026-10-27T16:00:00",
-      "opening_date": "2026-10-28T09:00:00",
-      "summary": "本工事は、橿原警察署五条野駐在所（木造2階建て約93.15㎡）等の解体撤去工事です。現場閉所の週休2日化を促進する試行工事（受注者希望型）であり、予定価格及び最低制限価格の事前公表が行われます。"
-    }
-  },
-  "bmFnYXNha2kvdHN1c2hpbWFzaGkvMjAyNi8yMDI2MTAwOF8wMDkxNAo=": {
-    "source": "kkj",
-    "key": "bmFnYXNha2kvdHN1c2hpbWFzaGkvMjAyNi8yMDI2MTAwOF8wMDkxNAo=",
-    "project_name": "史跡金石城跡石垣復旧工事（石垣解体）",
-    "org_name": "長崎県対馬市",
-    "pref_name": "長崎県",
-    "city_name": "対馬市",
-    "pref_code": "42",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-08T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.tsushima.nagasaki.jp/material/files/group/4/sisekikaneishijyouato.pdf",
-    "attachments": [],
-    "location": "対馬市厳原町今屋敷地内工 期 令和９年３月２５日限り工 事 概 要 石垣工 一式 仮設工 一式 ※詳細は、設計図及び仕様",
-    "bid_deadline": "2026-11-17T10:20:00",
-    "opening_date": "2026-11-17T10:20:00",
-    "application_deadline": "2026-10-16T00:00:00",
-    "fetched_date": "2026-10-09",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-09T04:06:01+00:00",
-      "planned_price": null,
-      "region_requirement": "本市域内に建設業法第３条第１項の本店又は支店等（委任を受けている者に限る。）を有していること。ただし支店等については、令和８年１月１日において支店等開設後、継続して１０年以上経過し、次の①②の条件をいずれも満たす従業員を１０人以上雇用し、令和８年度において支店等に係る準市内業者の認定を受けていること。①審査対象特定日において６か月以上市内に住所を有し、実際に居住している者。②審査対象特定日において",
-      "koki": "2027年3月25日限り",
-      "application_deadline": "2026-10-16T00:00:00",
-      "bid_deadline": "2026-11-17T10:20:00",
-      "opening_date": "2026-11-17T10:20:00",
-      "summary": "本工事は、史跡金石城跡石垣復旧工事（石垣解体）であり、対馬市厳原町今屋敷地内で行われます。工事概要は石垣工一式と仮設工一式です。"
-    }
-  },
   "chiba_d88f48112158a5b0": {
     "source": "chiba",
     "key": "chiba_d88f48112158a5b0",
@@ -4934,6 +4522,76 @@
       "bid_deadline": "2026-12-09T15:00:00",
       "opening_date": "2026-12-10T10:00:00",
       "summary": "須賀川市北上町地内において、須賀川警察署北上町待機宿舎の解体工事が行われます。公舎（鉄筋コンクリート造地上3階建て563㎡）、物置（コンクリートブロック造平屋建て50㎡）、ポンプ庫その他一式が解体対象です。本工事は、建設工事に係る資材の再資源化等に関する法律に基づき、分別解体等及び特定建設資材廃棄物の再資源化等の実施が義務付けられています。"
+    }
+  },
+  "tokyometro_3539841029191611": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539841029191611",
+    "project_name": "練馬城址公園既存建物解体工事",
+    "org_name": "東部公園緑地事務所庶務課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-09-07",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都練馬区向山三丁目地内",
+    "bid_deadline": "",
+    "opening_date": "2026-10-22T09:30:00",
+    "application_deadline": "2026-09-14",
+    "fetched_date": "2026-11-08",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-08T03:48:10+00:00",
+      "planned_price": "40,453,600円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から令和9年2月26日まで",
+      "application_deadline": "2026-09-14T15:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-10-22T09:30:00",
+      "summary": "練馬城址公園の既存建物の解体工事一式です。本工事は電子契約対象案件であり、建設リサイクル法対象工事です。また、「HTT ゼロエミッションアドバンス工事」および「週休２日制促進工事」の試行対象案件です。"
+    }
+  },
+  "b2theWFtYS9va2F5YW1hX2NpdHkvMjAyNi8yMDI2MTEwNl8xMzEyOQo=": {
+    "source": "kkj",
+    "key": "b2theWFtYS9va2F5YW1hX2NpdHkvMjAyNi8yMDI2MTEwNl8xMzEyOQo=",
+    "project_name": "岡山市旧本庁舎解体撤去工事",
+    "org_name": "岡山県岡山市",
+    "pref_name": "岡山県",
+    "city_name": "岡山市",
+    "pref_code": "33",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-06T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://keiyaku.city.okayama.jp/webftp/exe/2026041966.pdf",
+    "attachments": [],
+    "location": "4 工種5 工期6 許容価格7 最低制限価格設定案件等10 契約不適合責任期間12建設リサイクル法対象工事2 技術資料質",
+    "bid_deadline": "2026-12-09T16:00:00",
+    "opening_date": "令和11年4月27日",
+    "application_deadline": "",
+    "fetched_date": "2026-11-08",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-08T03:48:10+00:00",
+      "planned_price": "落札決定後に公表",
+      "region_requirement": null,
+      "koki": "契約確定の翌日から令和11年4月27日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-12-09T16:00:00",
+      "opening_date": "2026-12-11T09:00:00",
+      "summary": "本工事は岡山市旧本庁舎の解体撤去工事です。対象は地下2階、地上9階、塔屋3階建の鉄骨鉄筋コンクリート造（一部鉄筋コンクリート造）で、延べ面積は27,747㎡です。外構解体、電気設備解体、機械設備解体、外構整備工事も含まれます。"
     }
   }
 }
