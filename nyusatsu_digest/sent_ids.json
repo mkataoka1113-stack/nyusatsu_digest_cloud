@@ -4593,5 +4593,366 @@
       "opening_date": "2026-12-01T11:00:00",
       "summary": "本件は、旧庁舎解体撤去等工事に係る家屋事後調査の一般競争入札です。履行期限は2027年3月31日で、国立医薬品食品衛生研究所が指定する場所で実施されます。入札は電子調達システムで行われますが、紙による入札も認められています。"
     }
+  },
+  "pportal_644184": {
+    "source": "pportal",
+    "key": "pportal_644184",
+    "project_name": "【国土地理院】位置情報インフラの強靱化（「Ｐ久礼」建屋解体撤去等業務）",
+    "org_name": "国土交通省",
+    "pref_name": "茨城県",
+    "city_name": "",
+    "pref_code": "08",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-10",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=qohNvPDKTcoQFVvBbpkWWrdGxnNt2YooaisxkOFV2hU%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-11-10",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-10T05:34:56+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": null,
+      "application_deadline": null,
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本案件は、国土地理院による位置情報インフラの強靱化に関連する「Ｐ久礼」建屋解体撤去等業務の一般競争入札公告です。国土交通省が調達機関となり、茨城県に所在します。"
+    }
+  },
+  "a2FnYXdhL2thZ2F3YV9wcmVmLzIwMjYvMjAyNjExMDlfMDUxNTQK": {
+    "source": "kkj",
+    "key": "a2FnYXdhL2thZ2F3YV9wcmVmLzIwMjYvMjAyNjExMDlfMDUxNTQK",
+    "project_name": "Ge半導体検出器の取り外し及び鉛遮蔽体の解体・屋外搬出業務に係る一般競争入札について",
+    "org_name": "香川県",
+    "pref_name": "香川県",
+    "city_name": "",
+    "pref_code": "37",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-09T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.pref.kagawa.lg.jp/documents/64468/koukouge.pdf",
+    "attachments": [
+      {
+        "name": "仕様書（PDF：226KB）",
+        "uri": "https://www.pref.kagawa.lg.jp/documents/64468/siyousyoge.pdf"
+      }
+    ],
+    "location": "作業場所：香川県環境保健研究センター",
+    "bid_deadline": "2026-12-01T17:00:00",
+    "opening_date": "令和８年１２月１日",
+    "application_deadline": "2026-11-24T15:00:00",
+    "fetched_date": "2026-11-10",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-10T05:34:56+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日から令和9年3月19日まで",
+      "application_deadline": "2026-11-24T15:00:00",
+      "bid_deadline": "2026-12-01T17:00:00",
+      "opening_date": "2026-12-02T10:00:00",
+      "summary": "本業務は、既設のGe半導体検出器を鉛遮蔽体から安全に取り外し、併せて遮蔽体を解体して、指定された敷地内の屋外保管場所へ搬出・集積することを目的とします。作業場所は香川県環境保健研究センター1階環境放射能機器分析室、搬出・集積場所は施設内屋外指定場所です。"
+    }
+  },
+  "Z292Ny9yaW55YV9tYWZmX2NodWJ1LzIwMjYvMjAyNjExMDlfMDcyOTMK": {
+    "source": "kkj",
+    "key": "Z292Ny9yaW55YV9tYWZmX2NodWJ1LzIwMjYvMjAyNjExMDlfMDcyOTMK",
+    "project_name": "飛騨森林管理署栃尾森林事務所解体撤去工事",
+    "org_name": "林野庁",
+    "pref_name": "",
+    "city_name": "",
+    "pref_code": "",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-09T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.rinya.maff.go.jp/chubu/apply/publicsale/hida/261109.html",
+    "attachments": [
+      {
+        "name": "(1)入札公告(PDF : 178KB)",
+        "uri": "https://www.rinya.maff.go.jp/chubu/apply/publicsale/hida/attach/pdf/261109-1.pdf"
+      },
+      {
+        "name": "(1)入札説明書(PDF : 202KB)",
+        "uri": "https://www.rinya.maff.go.jp/chubu/apply/publicsale/hida/attach/pdf/261109-2.pdf"
+      }
+    ],
+    "location": "、受注者名、社印を有する部分)、②同種工事が確認できる書類の写し",
+    "bid_deadline": "令和8年11月26日",
+    "opening_date": "令和8年12月8日",
+    "application_deadline": "2026-11-24T17:00:00",
+    "fetched_date": "2026-11-10",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-10T05:34:56+00:00",
+      "planned_price": null,
+      "region_requirement": "建設業法の基づく本社、支店又は営業所が、岐阜県に所在すること。また、経常建設共同企業体として資料を提出する場合は、有資格者名簿に記載されている共同企業体の本店所在地が、下記区域内であること。 地域：岐阜県",
+      "koki": "契約締結日の翌日から令和9年3月12日まで",
+      "application_deadline": "2026-11-24T17:00:00",
+      "bid_deadline": "2026-12-08T10:00:00",
+      "opening_date": "2026-12-08T10:00:00",
+      "summary": "本工事は、飛騨森林管理署栃尾森林事務所の解体撤去工事です。岐阜県高山市奥飛騨温泉郷栃尾字沖野245‐1が工事箇所となります。建設リサイクル法に基づき、分別解体等及び特定建設資材廃棄物の再資源化等が義務づけられています。"
+    }
+  },
+  "Z292NS9yaWtlbi8yMDI2LzIwMjYxMTA5XzI2MDcwCg==": {
+    "source": "kkj",
+    "key": "Z292NS9yaWtlbi8yMDI2LzIwMjYxMTA5XzI2MDcwCg==",
+    "project_name": "生物科学研究棟N354・N355・N356 クリーンルーム解体作業",
+    "org_name": "国立研究開発法人理化学研究所",
+    "pref_name": "埼玉県",
+    "city_name": "和光市",
+    "pref_code": "11",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-09T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://choutatsu.riken.jp/r-world/info/procurement/proc/detail/id/000042417",
+    "attachments": [
+      {
+        "name": "生物科学研究棟N354・N355・N356 クリーンルーム解体作業(PDF 版 92KB)",
+        "uri": "https://choutatsu.riken.jp:443/r-world/info/procurement/docs/procfile/file/26102100149436.PDF/id/000042417"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-11-10",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "no_text",
+      "provider": "",
+      "enriched_at": "2026-11-10T05:34:56+00:00"
+    }
+  },
+  "Z2lmdS9naWZ1X2NpdHkvMjAyNi8yMDI2MTEwOV8wMDU5OQo=": {
+    "source": "kkj",
+    "key": "Z2lmdS9naWZ1X2NpdHkvMjAyNi8yMDI2MTEwOV8wMDU5OQo=",
+    "project_name": "11月9日 解体 1820 旧鷺山公民館解体工事",
+    "org_name": "岐阜県岐阜市",
+    "pref_name": "岐阜県",
+    "city_name": "岐阜市",
+    "pref_code": "21",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-09T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/042/402/r08_160k.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-11-24T16:00:00",
+    "opening_date": "2026-11-25T09:00:00",
+    "application_deadline": "2026-11-13T00:00:00",
+    "fetched_date": "2026-11-10",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-10T05:34:56+00:00",
+      "planned_price": "26,202,000円（消費税及び地方消費税を含む。）",
+      "region_requirement": "岐阜市内に本店を有すること。",
+      "koki": "令和9年3月18日",
+      "application_deadline": "2026-11-13T00:00:00",
+      "bid_deadline": "2026-11-24T16:00:00",
+      "opening_date": "2026-11-25T09:00:00",
+      "summary": "本工事は旧鷺山公民館の解体工事一式および外構工事一式です。目的場所は岐阜市鷺山北町9番12号で、請負契約として実施されます。工期は令和9年3月18日までです。"
+    }
+  },
+  "ZnVrdW9rYS90YWdhd2FfY2l0eS8yMDI2LzIwMjYxMTA5XzAwMDYzCg==": {
+    "source": "kkj",
+    "key": "ZnVrdW9rYS90YWdhd2FfY2l0eS8yMDI2LzIwMjYxMTA5XzAwMDYzCg==",
+    "project_name": "新野上団地解体工事（60棟）",
+    "org_name": "福岡県田川市",
+    "pref_name": "福岡県",
+    "city_name": "田川市",
+    "pref_code": "40",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-09T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.joho.tagawa.fukuoka.jp/kiji00312044/3_12044_up_4zxphqk4.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-11-25T09:00:00",
+    "opening_date": "令和８年１１月２５日",
+    "application_deadline": "2026-11-13T00:00:00",
+    "fetched_date": "2026-11-10",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-10T05:34:56+00:00",
+      "planned_price": "￥７，７４０，０００円（消費税及び地方消費税を除く。）",
+      "region_requirement": "田川市内に主たる営業所を有していること。",
+      "koki": "令和８年１２月４日から令和９年３月３１日まで",
+      "application_deadline": "2026-11-13T00:00:00",
+      "bid_deadline": "2026-11-25T09:00:00",
+      "opening_date": "2026-11-25T10:10:00",
+      "summary": "新野上団地60棟（2階建て4戸連）の解体工事です。構造はコンクリートブロック造で、延床面積は176.0m2です。仮囲い設置、増築部解体、敷地整地も含まれます。"
+    }
+  },
+  "ZnVrdW9rYS90YWdhd2FfY2l0eS8yMDI2LzIwMjYxMTA5XzAwMDYyCg==": {
+    "source": "kkj",
+    "key": "ZnVrdW9rYS90YWdhd2FfY2l0eS8yMDI2LzIwMjYxMTA5XzAwMDYyCg==",
+    "project_name": "新野上団地解体工事（20棟）",
+    "org_name": "福岡県田川市",
+    "pref_name": "福岡県",
+    "city_name": "田川市",
+    "pref_code": "40",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-09T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.joho.tagawa.fukuoka.jp/kiji00312044/3_12044_up_y73honj7.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-11-25T09:00:00",
+    "opening_date": "令和８年１１月２５日",
+    "application_deadline": "2026-11-13T00:00:00",
+    "fetched_date": "2026-11-10",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-10T05:34:56+00:00",
+      "planned_price": "￥８，８４０，０００円（消費税及び地方消費税を除く。）",
+      "region_requirement": "田川市内に主たる営業所を有していること。",
+      "koki": "令和８年１２月４日から令和９年３月３１日まで",
+      "application_deadline": "2026-11-13T00:00:00",
+      "bid_deadline": "2026-11-25T09:00:00",
+      "opening_date": "2026-11-25T10:00:00",
+      "summary": "新野上団地20棟（2階建て6戸連）の解体工事です。構造はコンクリートブロック造で、延床面積は240.0m2です。仮囲い設置、増築部解体、敷地整地も含まれます。"
+    }
+  },
+  "ZnVrdW9rYS90YWdhd2FfY2l0eS8yMDI2LzIwMjYxMTA5XzAwMDYxCg==": {
+    "source": "kkj",
+    "key": "ZnVrdW9rYS90YWdhd2FfY2l0eS8yMDI2LzIwMjYxMTA5XzAwMDYxCg==",
+    "project_name": "中央団地解体工事（60棟）",
+    "org_name": "福岡県田川市",
+    "pref_name": "福岡県",
+    "city_name": "田川市",
+    "pref_code": "40",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-09T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.joho.tagawa.fukuoka.jp/kiji00312044/3_12044_up_hkn3zulz.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-11-25T09:00:00",
+    "opening_date": "令和８年１１月２５日",
+    "application_deadline": "2026-11-13T00:00:00",
+    "fetched_date": "2026-11-10",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-10T05:34:56+00:00",
+      "planned_price": "￥１０，５７０，０００円（消費税及び地方消費税を除く。）",
+      "region_requirement": "田川市内に主たる営業所を有していること。",
+      "koki": "2026年12月4日から2027年3月31日まで",
+      "application_deadline": "2026-11-13T00:00:00",
+      "bid_deadline": "2026-11-25T09:00:00",
+      "opening_date": "2026-11-25T09:50:00",
+      "summary": "本工事は、中央団地60棟（2階建て5戸連）の解体工事です。構造はコンクリートブロック造で、延床面積は224.2m2です。仮囲い設置、増築部解体、敷地整地、侵入防止柵設置も含まれます。"
+    }
+  },
+  "ZnVrdW9rYS90YWdhd2FfY2l0eS8yMDI2LzIwMjYxMTA5XzAwMDYwCg==": {
+    "source": "kkj",
+    "key": "ZnVrdW9rYS90YWdhd2FfY2l0eS8yMDI2LzIwMjYxMTA5XzAwMDYwCg==",
+    "project_name": "中央団地解体工事（50棟）",
+    "org_name": "福岡県田川市",
+    "pref_name": "福岡県",
+    "city_name": "田川市",
+    "pref_code": "40",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-09T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.joho.tagawa.fukuoka.jp/kiji00312044/3_12044_up_ulnxhumn.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-11-25T09:00:00",
+    "opening_date": "令和８年１１月２５日",
+    "application_deadline": "2026-11-13T00:00:00",
+    "fetched_date": "2026-11-10",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-10T05:34:56+00:00",
+      "planned_price": "￥１０，８３０，０００円（消費税及び地方消費税を除く。）",
+      "region_requirement": "田川市内に主たる営業所を有していること。",
+      "koki": "2026年12月4日から2027年3月31日まで",
+      "application_deadline": "2026-11-13T00:00:00",
+      "bid_deadline": "2026-11-25T09:00:00",
+      "opening_date": "2026-11-25T09:40:00",
+      "summary": "本件は中央団地50棟（2階建て6戸連）の解体工事です。構造はコンクリートブロック造で、延床面積は269.1m2です。仮囲い設置、増築部解体、敷地整地、侵入防止柵設置も含まれます。"
+    }
+  },
+  "ZnVrdW9rYS90YWdhd2FfY2l0eS8yMDI2LzIwMjYxMTA5XzAwMDU5Cg==": {
+    "source": "kkj",
+    "key": "ZnVrdW9rYS90YWdhd2FfY2l0eS8yMDI2LzIwMjYxMTA5XzAwMDU5Cg==",
+    "project_name": "中央団地解体工事（200棟）",
+    "org_name": "福岡県田川市",
+    "pref_name": "福岡県",
+    "city_name": "田川市",
+    "pref_code": "40",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-09T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.joho.tagawa.fukuoka.jp/kiji00312044/3_12044_up_anbxkxgv.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-11-25T09:00:00",
+    "opening_date": "令和８年１１月２５日",
+    "application_deadline": "2026-11-13T00:00:00",
+    "fetched_date": "2026-11-10",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-10T05:34:56+00:00",
+      "planned_price": "￥１１，３１０，０００円（消費税及び地方消費税を除く。）",
+      "region_requirement": "田川市内に主たる営業所を有していること。",
+      "koki": "令和８年１２月４日から令和９年３月３１日まで",
+      "application_deadline": "2026-11-13T00:00:00",
+      "bid_deadline": "2026-11-25T09:00:00",
+      "opening_date": "2026-11-25T09:30:00",
+      "summary": "本案件は中央団地200棟（2階建て5戸連）の解体工事です。構造はコンクリートブロック造で、延床面積は224.2m2です。仮囲い設置、増築部解体、敷地整地、侵入防止柵設置も含まれます。"
+    }
   }
 }
