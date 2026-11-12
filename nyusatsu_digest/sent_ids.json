@@ -1,79 +1,4 @@
 {
-  "tokyometro_3539791939290113": {
-    "source": "tokyometro",
-    "key": "tokyometro_3539791939290113",
-    "project_name": "都立東大和高等学校(８)校舎棟ほか解体工事",
-    "org_name": "財務局経理部契約第一課",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3101"
-    ],
-    "cft_issue_date": "2026-10-13",
-    "procedure_type": "希望制指名競争入札",
-    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
-    "attachments": [],
-    "location": "東京都東大和市中央三丁目945番地",
-    "bid_deadline": "",
-    "opening_date": "2026-12-07T09:15:00",
-    "application_deadline": "2026-10-23",
-    "fetched_date": "2026-10-13",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-13T05:00:19+00:00",
-      "planned_price": "474,452,000円（消費税率10％）",
-      "region_requirement": null,
-      "koki": "契約確定の日の翌日から令和9年11月30日まで",
-      "application_deadline": "2026-10-23T16:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-12-07T09:15:00",
-      "summary": "都立東大和高等学校の校舎棟、格技棟、渡り廊下、自転車置場、その他付属棟の解体工事です。これに伴う電気設備及び機械設備の撤去も含まれます。校舎棟は鉄筋コンクリート造地上3階建て、延床面積7,401.75㎡です。"
-    }
-  },
-  "pportal_640399": {
-    "source": "pportal",
-    "key": "pportal_640399",
-    "project_name": "(R08)国有建物（酒田市楢橋）解体撤去その他工事",
-    "org_name": "財務省",
-    "pref_name": "山形県",
-    "city_name": "",
-    "pref_code": "06",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-13",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=wRONPxFbSpffiJyfD8F5MJpqWEU5N6p4dRt7HcLT27U%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "2026-10-29T16:00:00",
-    "opening_date": "2026-10-30T11:00:00",
-    "application_deadline": "2026-10-28T16:00:00",
-    "fetched_date": "2026-10-13",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-13T05:00:19+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": "契約締結日の翌日から令和9年3月19日まで",
-      "application_deadline": "2026-10-28T16:00:00",
-      "bid_deadline": "2026-10-29T16:00:00",
-      "opening_date": "2026-10-30T11:00:00",
-      "summary": "本工事は、山形県酒田市楢橋字新山33-1ほか1箇所における国有建物の解体撤去その他工事です。電子調達システムを利用した応札、入開札及び契約手続きにより実施されますが、紙による提出も可能です。"
-    }
-  },
   "pportal_640584": {
     "source": "pportal",
     "key": "pportal_640584",
@@ -5140,6 +5065,83 @@
       "bid_deadline": null,
       "opening_date": "2026-11-30T13:30:00",
       "summary": "本工事は、元三田警察署三田南交番庁舎の解体撤去工事です。兵庫県三田市狭間が丘１丁目９にて、三田警察署三田南交番の廃止に伴う解体工事を実施します。本件工事は、週休２日制度の対象工事です。"
+    }
+  },
+  "dG9reW8vb3VtZV9jaXR5LzIwMjYvMjAyNjExMTFfMDAwMTgK": {
+    "source": "kkj",
+    "key": "dG9reW8vb3VtZV9jaXR5LzIwMjYvMjAyNjExMTFfMDAwMTgK",
+    "project_name": "青梅市福祉センターおよび旧青梅市教育センター解体工事",
+    "org_name": "東京都青梅市",
+    "pref_name": "東京都",
+    "city_name": "青梅市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-11T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.ome.tokyo.jp/uploaded/attachment/82825.pdf",
+    "attachments": [
+      {
+        "name": "工事請負（仮）契約書（案） [PDFファイル／217KB]",
+        "uri": "https://www.city.ome.tokyo.jp/uploaded/attachment/82824.pdf"
+      }
+    ],
+    "location": "東京都青梅市東青梅１丁目１７７番地の３ほか",
+    "bid_deadline": "",
+    "opening_date": "令和８年１１月２７日",
+    "application_deadline": "2026-11-18T12:00:00",
+    "fetched_date": "2026-11-12",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-12T05:16:49+00:00",
+      "planned_price": "794,387,000円（消費税および地方消費税の額を含む。）",
+      "region_requirement": "東京都内の市町村（島しょを除く。以下「多摩地域」という。）に本店、支店または営業所を有し、かつ、当該本店、支店または営業所が資格者名簿に登録されている者、または多摩地域を除く東京都内（島しょを除く。以下同様）に本店、支店または営業所を有し、かつ、当該本店、支店または営業所が資格者名簿に登録されている者",
+      "koki": "契約確定の日から令和11年1月31日まで",
+      "application_deadline": "2026-11-18T12:00:00",
+      "bid_deadline": null,
+      "opening_date": null,
+      "summary": "本工事は、青梅市福祉センター（鉄筋コンクリート造一部鉄骨造、延べ面積7,074平方メートル）および青梅市旧教育センター（鉄筋コンクリート造、延べ面積2,944平方メートル）の解体工事です。工事場所は東京都青梅市東青梅1丁目177番地の3ほかです。"
+    }
+  },
+  "dG9reW8vaGlub19jaXR5LzIwMjYvMjAyNjExMDZfMDA1MjgK": {
+    "source": "kkj",
+    "key": "dG9reW8vaGlub19jaXR5LzIwMjYvMjAyNjExMDZfMDA1MjgK",
+    "project_name": "日野市立まんがんじ児童館解体工事",
+    "org_name": "東京都日野市",
+    "pref_name": "東京都",
+    "city_name": "日野市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-06T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/006/709/231.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "令和8年11月13日",
+    "opening_date": "令和8年12月2日",
+    "application_deadline": "2026-11-13T16:00:00",
+    "fetched_date": "2026-11-12",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-12T05:16:49+00:00",
+      "planned_price": "18,030,000円（税抜）",
+      "region_requirement": "三多摩に所在する本社（店）又は支社（店）が、東京電子自治体共同運営電子調達サービスにおける入札参加資格において、申請先自治体「日野市」を登録していること。",
+      "koki": "契約締結の翌日 から 令和9年3月18日 まで",
+      "application_deadline": "2026-11-13T16:00:00",
+      "bid_deadline": "2026-12-02T16:00:00",
+      "opening_date": "2026-12-02T16:10:00",
+      "summary": "日野市立まんがんじ児童館の解体工事一式。建物解体、外構解体、樹木伐採伐根、電気機械設備解体が含まれる。建物はS造1階建て、延床面積330.30㎡。"
     }
   }
 }
