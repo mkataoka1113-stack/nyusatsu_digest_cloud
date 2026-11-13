@@ -1,181 +1,4 @@
 {
-  "pportal_640584": {
-    "source": "pportal",
-    "key": "pportal_640584",
-    "project_name": "発生材の売却（めじろ台宿舎解体等作業に係る発生材）",
-    "org_name": "最高裁判所",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-14",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=or2J%2BZWdz%2BHExoXC3Wa5C262IHxEpmFixcCMVKAP2Pw%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "2026-10-27T17:00:00",
-    "opening_date": "2026-10-28T11:15:00",
-    "application_deadline": "",
-    "fetched_date": "2026-10-14",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-14T03:07:40+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": "契約日から令和9年3月31日の間で双方協議の上、最高裁判所が指定する日",
-      "application_deadline": null,
-      "bid_deadline": "2026-10-27T17:00:00",
-      "opening_date": "2026-10-28T11:15:00",
-      "summary": "最高裁判所は、めじろ台宿舎解体等作業に係る発生材の売却に関する一般競争入札を実施します。引取場所は東京都八王子市椚田町のめじろ台宿舎で、引取期限は令和9年3月31日です。本件は電子調達システムを利用して実施されます。"
-    }
-  },
-  "b2l0YS9oaXRhX2NpdHkvMjAyNi8yMDI2MTAxM18wMDAwNgo=": {
-    "source": "kkj",
-    "key": "b2l0YS9oaXRhX2NpdHkvMjAyNi8yMDI2MTAxM18wMDAwNgo=",
-    "project_name": "一般競争入札の公告（旧天瀬公民館土間解体工事）",
-    "org_name": "大分県日田市",
-    "pref_name": "大分県",
-    "city_name": "日田市",
-    "pref_code": "44",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-13T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.hita.oita.jp/uploaded/attachment/11557.pdf",
-    "attachments": [],
-    "location": "日田市天瀬町桜竹３工期 令和８年１１月２７日から令和９年４月３０日４工事概要解体構造物 コンクリート基礎、石綿吹付材除去",
-    "bid_deadline": "2026-11-19T17:00:00",
-    "opening_date": "令和８年１１月２０日",
-    "application_deadline": "2026-10-23T17:00:00",
-    "fetched_date": "2026-10-14",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-14T03:07:40+00:00",
-      "planned_price": "６７，６００， ０ ０ ０円 （ 税 抜 き ）",
-      "region_requirement": "日田市内に建設業法に基づく主たる営業所（本店）があること",
-      "koki": "令和８年１１月２７日 か ら 令 和９年４月３０日",
-      "application_deadline": "2026-10-23T17:00:00",
-      "bid_deadline": "2026-11-19T17:00:00",
-      "opening_date": "2026-11-20T09:00:00",
-      "summary": "旧天瀬公民館の土間解体工事。コンクリート基礎、石綿吹付材除去、地中梁撤去が含まれ、床面積は480㎡です。本案件は電子入札システムを利用して行われます。"
-    }
-  },
-  "aG9ra2FpZG8vcG9saWNlX2hva2thaWRvX3Npc2V0dS8yMDI2LzIwMjYxMDEzXzAxMTA2Cg==": {
-    "source": "kkj",
-    "key": "aG9ra2FpZG8vcG9saWNlX2hva2thaWRvX3Npc2V0dS8yMDI2LzIwMjYxMDEzXzAxMTA2Cg==",
-    "project_name": "「警察本部大麻ＫＢ公宅解体工事監理」の入札告示",
-    "org_name": "国家公安委員会（警察庁）北海道警察本部総務部施設課",
-    "pref_name": "北海道",
-    "city_name": "札幌市",
-    "pref_code": "01",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-13T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.police.pref.hokkaido.lg.jp/info/soumu/sisetu/date/2026-11/2026-1105-honbu-kb-kanri-679/01.pdf",
-    "attachments": [],
-    "location": "江別市２ 入札に参加する者に必要な資格 次のいずれにも該当すること",
-    "bid_deadline": "2026-11-05T13:30:00",
-    "opening_date": "2026-11-05T13:30:00",
-    "application_deadline": "2026-10-22T17:00:00",
-    "fetched_date": "2026-10-14",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-14T03:07:40+00:00",
-      "planned_price": "事後公表",
-      "region_requirement": "北海道内に本店、支店又は営業所を有すること",
-      "koki": "契約締結日の翌日から135日間",
-      "application_deadline": "2026-10-22T17:00:00",
-      "bid_deadline": "2026-11-05T13:30:00",
-      "opening_date": "2026-11-05T13:30:00",
-      "summary": "本件は、北海道警察本部大麻KB公宅解体工事監理の一般競争入札です。入札参加者は、北海道の競争入札参加資格（建築設計）を有し、過去5年間に延面積1,000㎡以上の建築工事監理業務の実績があることなどが求められます。予定価格は事後公表されます。"
-    }
-  },
-  "Z292MTMvbW9mX3RvaG9rdS8yMDI2LzIwMjYxMDEzXzAxMTE2Cg==": {
-    "source": "kkj",
-    "key": "Z292MTMvbW9mX3RvaG9rdS8yMDI2LzIwMjYxMDEzXzAxMTE2Cg==",
-    "project_name": "(R08)国有建物（酒田市楢橋）解体撤去その他工事",
-    "org_name": "財務省東北財務局",
-    "pref_name": "宮城県",
-    "city_name": "仙台市",
-    "pref_code": "04",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-13T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://lfb.mof.go.jp/tohoku/content/ym20261013-2.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-10-29T16:00:00",
-    "opening_date": "令和９年３月１９日",
-    "application_deadline": "2026-10-28T16:00:00",
-    "fetched_date": "2026-10-14",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-14T03:07:40+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": "契約締結日の翌日から令和９年３月１９日まで",
-      "application_deadline": "2026-10-28T16:00:00",
-      "bid_deadline": "2026-10-29T16:00:00",
-      "opening_date": "2026-10-30T11:00:00",
-      "summary": "本工事は、山形県酒田市楢橋字新山33-1ほか1箇所における国有建物の解体撤去その他工事です。電子調達システムを利用した応札、入開札及び契約手続きにより実施されますが、紙による提出も可能です。"
-    }
-  },
-  "Z2lmdS9nZXJvX2NpdHkvMjAyNi8yMDI2MTAxM18wMDA0NQo=": {
-    "source": "kkj",
-    "key": "Z2lmdS9nZXJvX2NpdHkvMjAyNi8yMDI2MTAxM18wMDA0NQo=",
-    "project_name": "金振工第2号 菅田公民館解体工事",
-    "org_name": "岐阜県下呂市",
-    "pref_name": "岐阜県",
-    "city_name": "下呂市",
-    "pref_code": "21",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-13T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.gero.lg.jp/uploaded/attachment/25399.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "令和８年10月26日",
-    "opening_date": "令和８年10月30日",
-    "application_deadline": "令和８年10月14日",
-    "fetched_date": "2026-10-14",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-14T03:07:40+00:00",
-      "planned_price": "20,649,200 円（消費税及び地方消費税を含む。）",
-      "region_requirement": "下呂市内に、下呂市建設工事入札参加資格者名簿に登載されている本店を有すること。",
-      "koki": "契約締結日の翌日から令和９年３月 25 日まで",
-      "application_deadline": "2026-10-16T16:00:00",
-      "bid_deadline": "2026-10-29T16:00:00",
-      "opening_date": "2026-10-30T09:10:00",
-      "summary": "本工事は、下呂市金山町菅田桐洞に位置する菅田公民館（昭和40年築、木造一部軽量鉄骨2階建、延べ床面積615.67㎡）の解体工事です。仮設工事、解体工事、発生材運搬処分、整地工が含まれます。"
-    }
-  },
   "tokyometro_3539841029192411": {
     "source": "tokyometro",
     "key": "tokyometro_3539841029192411",
@@ -5142,6 +4965,224 @@
       "bid_deadline": "2026-12-02T16:00:00",
       "opening_date": "2026-12-02T16:10:00",
       "summary": "日野市立まんがんじ児童館の解体工事一式。建物解体、外構解体、樹木伐採伐根、電気機械設備解体が含まれる。建物はS造1階建て、延床面積330.30㎡。"
+    }
+  },
+  "tokyometro_3539791939290113": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539791939290113",
+    "project_name": "都立東大和高等学校(８)校舎棟ほか解体工事",
+    "org_name": "財務局経理部契約第一課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-10-13",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都東大和市中央三丁目945番地",
+    "bid_deadline": "",
+    "opening_date": "2026-12-07T09:15:00",
+    "application_deadline": "2026-10-23",
+    "fetched_date": "2026-11-13",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-13T04:32:17+00:00",
+      "planned_price": "474,452,000円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から令和9年11月30日まで",
+      "application_deadline": "2026-10-23T16:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-12-07T09:15:00",
+      "summary": "都立東大和高等学校の校舎棟、格技棟、渡り廊下、自転車置場、その他付属棟の解体工事です。これに伴う電気設備及び機械設備の撤去も含まれます。校舎棟は鉄筋コンクリート造地上3階建て、延床面積7,401.75㎡です。"
+    }
+  },
+  "pportal_644724": {
+    "source": "pportal",
+    "key": "pportal_644724",
+    "project_name": "国立療養所多磨全生園　病棟等解体工事",
+    "org_name": "厚生労働省",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-05",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=ScWin3D7lvAO0p%2BGfETxDF19VhmlsNSfSoq9x8C7kZ0%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-11-19T17:00:00",
+    "opening_date": "2026-11-20T13:00:00",
+    "application_deadline": "2026-11-13T17:00:00",
+    "fetched_date": "2026-11-13",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-13T04:32:17+00:00",
+      "planned_price": null,
+      "region_requirement": "関東甲信越地域内に本店、支店又は営業所が存在すること",
+      "koki": "契約締結日～2027年3月17日まで",
+      "application_deadline": "2026-11-13T17:00:00",
+      "bid_deadline": "2026-11-19T17:00:00",
+      "opening_date": "2026-11-20T13:00:00",
+      "summary": "本工事は国立療養所多磨全生園の病棟等解体工事であり、東京都東村山市青葉町に位置します。退室訓練棟ひまわり、新センター（1寮、管理棟、2寮、3寮、夫婦寮）などの建物および渡り廊下等の解体工事、アスベスト撤去工事、解体後の外構工事を含みます。本工事は総合評価落札方式が適用されます。"
+    }
+  },
+  "pportal_644786": {
+    "source": "pportal",
+    "key": "pportal_644786",
+    "project_name": "唐津市相知町所在国有建物解体工事",
+    "org_name": "財務省",
+    "pref_name": "佐賀県",
+    "city_name": "",
+    "pref_code": "41",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-13",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=SDjMs5G17N4M0RKpBRx0MOdxhXFH472mJeKtQOMwOIc%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-12-04T17:00:00",
+    "opening_date": "2026-12-07T10:00:00",
+    "application_deadline": "2026-12-01T17:00:00",
+    "fetched_date": "2026-11-13",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-13T04:32:17+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日の翌日から令和9年3月15日まで",
+      "application_deadline": "2026-12-01T17:00:00",
+      "bid_deadline": "2026-12-04T17:00:00",
+      "opening_date": "2026-12-07T10:00:00",
+      "summary": "本工事は、唐津市相知町所在の国有建物の解体・撤去及び廃材の搬出・処分を行うものです。電子調達システムを利用した応札及び入開札手続により実施されますが、紙による入札書等の提出も可能です。"
+    }
+  },
+  "aGlyb3NoaW1hL2t1cmVzaGkvMjAyNi8yMDI2MTExMl8wMzIyMAo=": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL2t1cmVzaGkvMjAyNi8yMDI2MTExMl8wMzIyMAo=",
+    "project_name": "大浜教員住宅解体撤去工事",
+    "org_name": "広島県呉市",
+    "pref_name": "広島県",
+    "city_name": "呉市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-12T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kure.lg.jp/~koji/files/000000000000042097.PDF",
+    "attachments": [],
+    "location": "呉市豊浜町大字大浜１１３１番地内建設工事の種類 解体工事建築解体撤去工事  一式，電気設備解体撤去工事  一式，機械設備",
+    "bid_deadline": "2026-11-25T16:00:00",
+    "opening_date": "2026-11-26T14:00:00",
+    "application_deadline": "",
+    "fetched_date": "2026-11-13",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-13T04:32:17+00:00",
+      "planned_price": "24,860,000円（消費税抜き）",
+      "region_requirement": "市内業者（建設業許可に係る主たる営業所を呉市内に有する者）であること",
+      "koki": "令和9年3月30日",
+      "application_deadline": null,
+      "bid_deadline": "2026-11-25T16:00:00",
+      "opening_date": "2026-11-26T14:00:00",
+      "summary": "大浜教員住宅の解体撤去工事です。建築、電気設備、機械設備の解体撤去工事一式が含まれます。本件は電子入札システムを利用した電子入札案件です。"
+    }
+  },
+  "aGlyb3NoaW1hL2t1cmVzaGkvMjAyNi8yMDI2MTExMl8wMzIxOQo=": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL2t1cmVzaGkvMjAyNi8yMDI2MTExMl8wMzIxOQo=",
+    "project_name": "川尻分団（東３）解体撤去工事",
+    "org_name": "広島県呉市",
+    "pref_name": "広島県",
+    "city_name": "呉市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-12T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kure.lg.jp/~koji/files/000000000000042096.PDF",
+    "attachments": [],
+    "location": "呉市川尻町東３丁目８番３３号外建設工事の種類 解体工事建築解体撤去工事  一式，電気設備解体撤去工事  一式，機械設備解",
+    "bid_deadline": "2026-11-25T16:00:00",
+    "opening_date": "2026-11-26T13:40:00",
+    "application_deadline": "",
+    "fetched_date": "2026-11-13",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-13T04:32:17+00:00",
+      "planned_price": "7,370,000円（消費税抜き）",
+      "region_requirement": "市内業者（建設業許可に係る主たる営業所を呉市内に有する者）であること",
+      "koki": "2027年3月17日",
+      "application_deadline": null,
+      "bid_deadline": "2026-11-25T16:00:00",
+      "opening_date": "2026-11-26T13:40:00",
+      "summary": "呉市川尻町東３丁目８番３３号外にて川尻分団（東３）の解体撤去工事が行われます。工事内容は建築解体撤去工事、電気設備解体撤去工事、機械設備解体撤去工事の一式です。本件は電子入札システムを利用した電子入札案件です。"
+    }
+  },
+  "Z2lmdS9naWZ1X3ByZWYvMjAyNi8yMDI2MTExMl8xNjMxNQo=": {
+    "source": "kkj",
+    "key": "Z2lmdS9naWZ1X3ByZWYvMjAyNi8yMDI2MTExMl8xNjMxNQo=",
+    "project_name": "【建設工事】装工第8-30号 笠置警察官駐在所解体工事に関する一般競争入札公告",
+    "org_name": "岐阜県",
+    "pref_name": "岐阜県",
+    "city_name": "",
+    "pref_code": "21",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-12T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.pref.gifu.lg.jp/uploaded/life/526606_3020221_misc.pdf",
+    "attachments": [],
+    "location": "恵那市笠置町姫栗地内",
+    "bid_deadline": "2026-12-02T16:00:00",
+    "opening_date": "2026-12-03T11:00:00",
+    "application_deadline": "2026-11-19T16:00:00",
+    "fetched_date": "2026-11-13",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-13T04:32:17+00:00",
+      "planned_price": "１０，８７３，５００ 円（消費税及び地方消費税（10％）を含む）",
+      "region_requirement": "東濃圏域内に、岐阜県建設工事入札参加資格者名簿に登載されている本店が所在すること",
+      "koki": "契約の日から令和９年３月26日",
+      "application_deadline": "2026-11-19T16:00:00",
+      "bid_deadline": "2026-12-02T16:00:00",
+      "opening_date": "2026-12-03T11:00:00",
+      "summary": "本工事は、恵那市笠置町姫栗地内にある笠置警察官駐在所の解体工事一式（付帯設備、外構含む）です。庁舎、倉庫、車庫の解体が含まれます。本工事は電子入札システムにより執行され、完全週休2日制（土日）工事（現場閉所型）です。"
     }
   }
 }
