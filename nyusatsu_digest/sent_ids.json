@@ -1,40 +1,4 @@
 {
-  "tokyometro_3539791939291612": {
-    "source": "tokyometro",
-    "key": "tokyometro_3539791939291612",
-    "project_name": "旧東京都労働資料センター(８)解体工事",
-    "org_name": "財務局経理部契約第一課",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3101"
-    ],
-    "cft_issue_date": "2026-08-17",
-    "procedure_type": "一般競争入札(技術実績評価型総合評価方式)",
-    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
-    "attachments": [],
-    "location": "東京都中野区弥生町二丁目41番17号",
-    "bid_deadline": "",
-    "opening_date": "2026-10-15T09:15:00",
-    "application_deadline": "2026-08-28",
-    "fetched_date": "2026-10-18",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-18T02:31:13+00:00",
-      "planned_price": "541,827,000円（消費税率10％）",
-      "region_requirement": null,
-      "koki": "契約確定の日の翌日から令和10年9月29日まで",
-      "application_deadline": "2026-08-28T16:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-10-15T09:15:00",
-      "summary": "東京都中野区弥生町二丁目41番17号に所在する、鉄筋コンクリート造 地下1階地上4階建て（延床面積3,365.9㎡）の旧東京都労働資料センターの解体工事です。基礎、杭、土壌汚染対策、外構、石綿、機械設備、電気設備を含む一式工事です。"
-    }
-  },
   "tokyometro_3539992030294369": {
     "source": "tokyometro",
     "key": "tokyometro_3539992030294369",
@@ -4767,6 +4731,146 @@
       "bid_deadline": null,
       "opening_date": null,
       "summary": "本公告は、国土地理院による位置情報インフラの強靱化に関する「Ｐ田後」建屋解体撤去等業務の一般競争入札（WTO対象外）です。調達機関は国土交通省で、茨城県に所在します。"
+    }
+  },
+  "bmFyYS9zaGltb2tpdGF5YW1hX3ZpbGxhZ2UvMjAyNi8yMDI2MTExNl8wMDAzMwo=": {
+    "source": "kkj",
+    "key": "bmFyYS9zaGltb2tpdGF5YW1hX3ZpbGxhZ2UvMjAyNi8yMDI2MTExNl8wMDAzMwo=",
+    "project_name": "【入札公告】下教第委８−１号 上桑原旧教員住宅解体工事設計監理委託業務",
+    "org_name": "奈良県下北山村",
+    "pref_name": "奈良県",
+    "city_name": "下北山村",
+    "pref_code": "29",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-16T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.vill.shimokitayama.nara.jp/oshirase/file/c1fbbd91128c8796681f5d4363b531d80a88dc55.pdf",
+    "attachments": [
+      {
+        "name": "02 入札説明書.pdf",
+        "uri": "https://www.vill.shimokitayama.nara.jp/oshirase/file/ac9f73e20abb136892c844c2a960a07ca17d7dcd.pdf"
+      },
+      {
+        "name": "03 特記仕様書.pdf",
+        "uri": "https://www.vill.shimokitayama.nara.jp/oshirase/file/91eb57bbd322750fadc6e2ff68370483d11b98cc.pdf"
+      },
+      {
+        "name": "04 位置図.pdf",
+        "uri": "https://www.vill.shimokitayama.nara.jp/oshirase/file/f131263e72c496ba02118e229c253f18c138979d.pdf"
+      },
+      {
+        "name": "06 入札心得.pdf",
+        "uri": "https://www.vill.shimokitayama.nara.jp/oshirase/file/da2b1ce3dcdba30fd78158a2720ab54c5a29f857.pdf"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "令和８年１１月２４日",
+    "opening_date": "令和８年１２月８日",
+    "application_deadline": "2026-11-24T17:00:00",
+    "fetched_date": "2026-11-17",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-17T06:01:01+00:00",
+      "planned_price": null,
+      "region_requirement": "奈良県及び三重県熊野市に本社または本店を有すること",
+      "koki": null,
+      "application_deadline": "2026-11-24T17:00:00",
+      "bid_deadline": "2026-12-07T17:00:00",
+      "opening_date": "2026-12-08T09:00:00",
+      "summary": "本業務は、上桑原旧教員住宅解体工事の設計監理委託業務です。入札参加資格として、一級建築士事務所の登録や、奈良県及び三重県熊野市に本社または本店を有することなどが求められます。入札は郵便入札で行われ、予定価格の制限内で最低価格の入札者が落札者となります。"
+    }
+  },
+  "YW9tb3JpL3Rvd2FkYV9jaXR5LzIwMjYvMjAyNjExMTZfMDE0ODEK": {
+    "source": "kkj",
+    "key": "YW9tb3JpL3Rvd2FkYV9jaXR5LzIwMjYvMjAyNjExMTZfMDE0ODEK",
+    "project_name": "十和田市立小学校教員住宅解体工事(313KB)",
+    "org_name": "青森県十和田市",
+    "pref_name": "青森県",
+    "city_name": "十和田市",
+    "pref_code": "02",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-16T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.towada.lg.jp/sangyo/nyusatsu/nyusatsu/files/kyousou08011.pdf",
+    "attachments": [],
+    "location": "・南小学校旧教員住宅解体工事 工事の種別・",
+    "bid_deadline": "2026-12-02T00:00:00",
+    "opening_date": "令和9年3月19日",
+    "application_deadline": "2026-11-24T12:00:00",
+    "fetched_date": "2026-11-17",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-17T06:01:01+00:00",
+      "planned_price": "11,550,000円（消費税及び地方消費税の額を含む。）",
+      "region_requirement": "十和田市建設工事請負業者指名選定規則（平成17年十和田市規則第76号）第５条の規定に基づく令和８年度の有資格者名簿の市内業者に登載されており、かつ解体の格付がＡ級であること。",
+      "koki": "契約締結の翌日から 令和9年3月19日",
+      "application_deadline": "2026-11-24T12:00:00",
+      "bid_deadline": "2026-12-02T00:00:00",
+      "opening_date": "2026-12-04T10:00:00",
+      "summary": "本工事は、十和田市西十五番町371番ほか地内における十和田市立小学校教員住宅解体工事です。南小学校旧教員住宅と（旧）松陽小学校旧教員住宅の解体工事一式が含まれます。本件は最低制限価格制度の対象となる入札です。"
+    }
+  },
+  "dG9rdXNoaW1hL2FuYW5zaGkvMjAyNi8yMDI2MTExNl8wMTI4NQo=": {
+    "source": "kkj",
+    "key": "dG9rdXNoaW1hL2FuYW5zaGkvMjAyNi8yMDI2MTExNl8wMTI4NQo=",
+    "project_name": "旧羽ノ浦すみれ保育所除却に伴う道路整備工事",
+    "org_name": "徳島県阿南市",
+    "pref_name": "徳島県",
+    "city_name": "阿南市",
+    "pref_code": "36",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-16T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.anan.tokushima.jp/docs/2026111300011/file_contents/261116-1.pdf",
+    "attachments": [
+      {
+        "name": "旧羽ノ浦すみれ保育所除却に伴う道路整備工事 3.特記仕様書[PDF：212KB]",
+        "uri": "https://www.city.anan.tokushima.jp/docs/2026111300011/file_contents/261116-1-3.pdf"
+      },
+      {
+        "name": "旧羽ノ浦すみれ保育所除却に伴う道路整備工事 4.設計書[PDF：408KB]",
+        "uri": "https://www.city.anan.tokushima.jp/docs/2026111300011/file_contents/261116-1-4.pdf"
+      },
+      {
+        "name": "旧羽ノ浦すみれ保育所除却に伴う道路整備工事 6.位置図[PDF：376KB]",
+        "uri": "https://www.city.anan.tokushima.jp/docs/2026111300011/file_contents/261116-1-6.pdf"
+      },
+      {
+        "name": "旧羽ノ浦すみれ保育所除却に伴う道路整備工事 7.図面[PDF：1.11MB]",
+        "uri": "https://www.city.anan.tokushima.jp/docs/2026111300011/file_contents/261116-1-7.pdf"
+      },
+      {
+        "name": "旧羽ノ浦すみれ保育所除却に伴う道路整備工事 8.閲覧補足説明書[PDF：64.6KB]",
+        "uri": "https://www.city.anan.tokushima.jp/docs/2026111300011/file_contents/261116-1-8.pdf"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-12-02T00:00:00",
+    "opening_date": "令和8年11月24日",
+    "application_deadline": "",
+    "fetched_date": "2026-11-17",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-17T06:01:01+00:00",
+      "planned_price": "17,783,000円（税抜）",
+      "region_requirement": null,
+      "koki": "契約締結の翌日から令和9年3月31日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-12-02T00:00:00",
+      "opening_date": "2026-12-03T09:00:00",
+      "summary": "本工事は、旧羽ノ浦すみれ保育所除却に伴う道路整備工事です。阿南市羽ノ浦町岩脇姥ケ原にて実施され、契約締結の翌日から2027年3月31日までの工期で、集水桝、排水管、現場打側溝、横断水路等の施工を行います。"
     }
   }
 }
