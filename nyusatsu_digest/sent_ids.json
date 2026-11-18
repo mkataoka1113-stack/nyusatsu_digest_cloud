@@ -1,40 +1,4 @@
 {
-  "tokyometro_3539992030294369": {
-    "source": "tokyometro",
-    "key": "tokyometro_3539992030294369",
-    "project_name": "東京辰巳アイスアリーナ（８）屋外デッキ撤去工事",
-    "org_name": "スポーツ推進本部スポーツ企画部企画調整課",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3101"
-    ],
-    "cft_issue_date": "2026-08-17",
-    "procedure_type": "希望制指名競争入札",
-    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
-    "attachments": [],
-    "location": "東京都江東区辰巳二丁目８番１０号",
-    "bid_deadline": "",
-    "opening_date": "2026-09-17T09:00:00",
-    "application_deadline": "2026-08-21",
-    "fetched_date": "2026-10-19",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-19T02:46:06+00:00",
-      "planned_price": "5,580,300円（消費税率10％）",
-      "region_requirement": null,
-      "koki": "契約確定の日の翌日から2027年1月8日まで",
-      "application_deadline": "2026-08-21T17:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-09-17T09:00:00",
-      "summary": "東京都江東区辰巳二丁目にある東京辰巳アイスアリーナの屋外デッキ撤去工事一式です。本案件は希望制指名競争入札で行われます。"
-    }
-  },
   "aXdhdGUva2FtYWlzaGlfY2l0eS8yMDI2LzIwMjYxMDE5XzAxMDg1Cg==": {
     "source": "kkj",
     "key": "aXdhdGUva2FtYWlzaGlfY2l0eS8yMDI2LzIwMjYxMDE5XzAxMDg1Cg==",
@@ -4871,6 +4835,117 @@
       "bid_deadline": "2026-12-02T00:00:00",
       "opening_date": "2026-12-03T09:00:00",
       "summary": "本工事は、旧羽ノ浦すみれ保育所除却に伴う道路整備工事です。阿南市羽ノ浦町岩脇姥ケ原にて実施され、契約締結の翌日から2027年3月31日までの工期で、集水桝、排水管、現場打側溝、横断水路等の施工を行います。"
+    }
+  },
+  "tokyometro_3539791939291612": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539791939291612",
+    "project_name": "旧東京都労働資料センター(８)解体工事",
+    "org_name": "財務局経理部契約第一課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-08-17",
+    "procedure_type": "一般競争入札(技術実績評価型総合評価方式)",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都中野区弥生町二丁目41番17号",
+    "bid_deadline": "",
+    "opening_date": "2026-10-15T09:15:00",
+    "application_deadline": "2026-08-28",
+    "fetched_date": "2026-11-18",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-18T05:30:07+00:00",
+      "planned_price": "541,827,000円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から令和10年9月29日まで",
+      "application_deadline": "2026-08-28T16:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-10-15T09:15:00",
+      "summary": "本案件は、東京都中野区弥生町二丁目41番17号に位置する旧東京都労働資料センターの解体工事です。鉄筋コンクリート造 地下1階地上4階建て（延床面積3,365.9㎡）の建物を解体します。基礎、杭、土壌汚染対策、外構、石綿、機械設備、電気設備を含む一式工事です。"
+    }
+  },
+  "pportal_644870": {
+    "source": "pportal",
+    "key": "pportal_644870",
+    "project_name": "国有建物解体撤去等工事（北九州市八幡東区西台良町）",
+    "org_name": "財務省",
+    "pref_name": "福岡県",
+    "city_name": "",
+    "pref_code": "40",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-18",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=L0VHnwO7sB3EzU6OIjqZGnqAGfykmm2Vs%2FmOCes%2BJyE%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-12-08T17:00:00",
+    "opening_date": "2026-12-09T14:00:00",
+    "application_deadline": "2026-12-04T17:00:00",
+    "fetched_date": "2026-11-18",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-18T05:30:07+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "契約締結日の翌日から2027年2月26日まで",
+      "application_deadline": "2026-12-04T17:00:00",
+      "bid_deadline": "2026-12-08T17:00:00",
+      "opening_date": "2026-12-09T14:00:00",
+      "summary": "本工事は、福岡県北九州市八幡東区西台良町に所在する国有建物の解体撤去及び工作物の新設を行うものです。政府電子調達システムを利用した応札及び入開札手続により実施されます。"
+    }
+  },
+  "Z292L2phZWFfZ28vMjAyNi8yMDI2MTExNl8wNTc5NQo=": {
+    "source": "kkj",
+    "key": "Z292L2phZWFfZ28vMjAyNi8yMDI2MTExNl8wNTc5NQo=",
+    "project_name": "【電子入札】【電子契約】高線量設備解体撤去に関する概念検討",
+    "org_name": "国立研究開発法人日本原子力研究開発機構本部",
+    "pref_name": "茨城県",
+    "city_name": "東海村",
+    "pref_code": "08",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-16T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://keiyaku.jaea.go.jp/compe/02/pdf/0802C04618.pdf",
+    "attachments": [],
+    "location": ".. 1４．納 期.. 1５．作業内容.. 1６．業務に必要な資格等.. 2７．支給品及び貸与品.. 2８．提出図書..",
+    "bid_deadline": "令和9年1月12日",
+    "opening_date": "令和9年2月26日",
+    "application_deadline": "",
+    "fetched_date": "2026-11-18",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-18T05:30:07+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "令和9年2月26日",
+      "application_deadline": null,
+      "bid_deadline": "2027-01-12T14:00:00",
+      "opening_date": "2027-01-12T14:00:00",
+      "summary": "本件は高線量設備解体撤去に関する概念検討の一般競争入札公告です。入札は電子入札システムを通じて行われ、総価で行われます。契約期間は令和9年2月26日までです。"
     }
   }
 }
