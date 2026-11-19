@@ -1,90 +1,4 @@
 {
-  "aXdhdGUva2FtYWlzaGlfY2l0eS8yMDI2LzIwMjYxMDE5XzAxMDg1Cg==": {
-    "source": "kkj",
-    "key": "aXdhdGUva2FtYWlzaGlfY2l0eS8yMDI2LzIwMjYxMDE5XzAxMDg1Cg==",
-    "project_name": "釜石市役所第5庁舎解体工事[PDF：172KB]",
-    "org_name": "岩手県釜石市",
-    "pref_name": "岩手県",
-    "city_name": "釜石市",
-    "pref_code": "03",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-19T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.kamaishi.iwate.jp/docs/2026101900016/file_contents/261019-1-1.pdf",
-    "attachments": [
-      {
-        "name": "設計書・図面[ZIP：6.15MB]",
-        "uri": "https://www.city.kamaishi.iwate.jp/docs/2026101900016/file_contents/261019-1-2.zip"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "令和8年10月29日",
-    "opening_date": "2026-11-30T17:00:00",
-    "application_deadline": "",
-    "fetched_date": "2026-10-20",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-20T02:58:20+00:00",
-      "planned_price": null,
-      "region_requirement": "釜石市営建設工事等請負資格者名簿登録業者（市内業者）であること。",
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": "2026-11-30T17:00:00",
-      "opening_date": "2026-11-30T17:00:00",
-      "summary": "本工事は、老朽化が進む釜石市役所第5庁舎の解体工事です。鉄筋コンクリート造2階建、延床面積565.00㎡の建物を解体します。工事場所は岩手県釜石市天神町29番です。"
-    }
-  },
-  "dG9rdXNoaW1hL2FuYW5zaGkvMjAyNi8yMDI2MTAxOV8wMTI1Mwo=": {
-    "source": "kkj",
-    "key": "dG9rdXNoaW1hL2FuYW5zaGkvMjAyNi8yMDI2MTAxOV8wMTI1Mwo=",
-    "project_name": "旧福井分団第三班詰所除却工事",
-    "org_name": "徳島県阿南市",
-    "pref_name": "徳島県",
-    "city_name": "阿南市",
-    "pref_code": "36",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-19T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.anan.tokushima.jp/docs/2026101400066/file_contents/261019-7.pdf",
-    "attachments": [
-      {
-        "name": "旧福井分団第三班詰所除却工事 2-1.図面（1-10）[PDF：18.6MB]",
-        "uri": "https://www.city.anan.tokushima.jp/docs/2026101400066/file_contents/261019-7-2-101-10.pdf"
-      },
-      {
-        "name": "旧福井分団第三班詰所除却工事 2-2.図面（11-15）[PDF：16.7MB]",
-        "uri": "https://www.city.anan.tokushima.jp/docs/2026101400066/file_contents/261019-7-2-211-15.pdf"
-      },
-      {
-        "name": "旧福井分団第三班詰所除却工事 4.閲覧補足説明書[PDF：92.9KB]",
-        "uri": "https://www.city.anan.tokushima.jp/docs/2026101400066/file_contents/261019-7-4.pdf"
-      }
-    ],
-    "location": "3．建物概要建物名称構造・規模敷地面積延床面積消防法施行令別表第1の区分種 目 工事概要4．工事種目6．その他 本工事は",
-    "bid_deadline": "2026-10-26T00:00:00",
-    "opening_date": "令和8年10月22日",
-    "application_deadline": "",
-    "fetched_date": "2026-10-20",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-20T02:58:20+00:00",
-      "planned_price": "3,480,000円（税抜）",
-      "region_requirement": "市内",
-      "koki": "契約締結の翌日 から 令和9年1月20日",
-      "application_deadline": null,
-      "bid_deadline": "2026-10-26T00:00:00",
-      "opening_date": "2026-10-27T09:45:00",
-      "summary": "旧福井分団第三班詰所の除却工事です。工事場所は阿南市福井町日の地で、解体作業が含まれます。契約締結の翌日から2027年1月20日までが工期です。"
-    }
-  },
   "etokyo_2026:13:114:01199": {
     "source": "etokyo",
     "key": "etokyo_2026:13:114:01199",
@@ -4946,6 +4860,169 @@
       "bid_deadline": "2027-01-12T14:00:00",
       "opening_date": "2027-01-12T14:00:00",
       "summary": "本件は高線量設備解体撤去に関する概念検討の一般競争入札公告です。入札は電子入札システムを通じて行われ、総価で行われます。契約期間は令和9年2月26日までです。"
+    }
+  },
+  "tokyometro_3539992030294369": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539992030294369",
+    "project_name": "東京辰巳アイスアリーナ（８）屋外デッキ撤去工事",
+    "org_name": "スポーツ推進本部スポーツ企画部企画調整課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-08-17",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都江東区辰巳二丁目８番１０号",
+    "bid_deadline": "",
+    "opening_date": "2026-09-17T09:00:00",
+    "application_deadline": "2026-08-21",
+    "fetched_date": "2026-11-19",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-19T05:26:53+00:00",
+      "planned_price": "5,580,300円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から令和9年1月8日まで",
+      "application_deadline": "2026-08-21T17:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-09-17T09:00:00",
+      "summary": "東京都江東区辰巳二丁目にある東京辰巳アイスアリーナの屋外デッキ撤去工事一式です。本工事は希望制指名競争入札で行われます。"
+    }
+  },
+  "pportal_645731": {
+    "source": "pportal",
+    "key": "pportal_645731",
+    "project_name": "【防衛装備庁】無響水槽の一部解体分別処理作業",
+    "org_name": "防衛省",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-18",
+    "procedure_type": "",
+    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
+    "attachments": [
+      {
+        "name": "調達資料１ダウンロードURL",
+        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=xhoaqvJGtROyeWfl9rubPDfDvDZi2fyZ9tgqQODDw0o%3D"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-12-18T17:00:00",
+    "opening_date": "2026-12-21T14:00:00",
+    "application_deadline": "2026-12-16T17:00:00",
+    "fetched_date": "2026-11-19",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-19T05:26:53+00:00",
+      "planned_price": null,
+      "region_requirement": "関東・甲信越地域の競争参加資格を有すること",
+      "koki": "令和9年3月19日",
+      "application_deadline": "2026-12-16T17:00:00",
+      "bid_deadline": "2026-12-18T17:00:00",
+      "opening_date": "2026-12-21T14:00:00",
+      "summary": "防衛装備庁艦艇装備研究所（目黒地区）にて、無響水槽の一部解体分別処理作業が行われます。本件は一般競争入札で、政府電子調達（ＧＥＰＳ）を利用する案件です。入札参加者は、フロン類の使用の合理化及び管理の適正化に関する法律に基づく登録が必要です。"
+    }
+  },
+  "ZnVrdXNoaW1hL3BvbGljZV9mdWt1c2hpbWEvMjAyNi8yMDI2MTExOF8wMTI3NQo=": {
+    "source": "kkj",
+    "key": "ZnVrdXNoaW1hL3BvbGljZV9mdWt1c2hpbWEvMjAyNi8yMDI2MTExOF8wMTI3NQo=",
+    "project_name": "第２６−８００６０−００７９号 入江町待機宿舎 解体２期工事",
+    "org_name": "国家公安委員会（警察庁）福島県警察",
+    "pref_name": "福島県",
+    "city_name": "福島市",
+    "pref_code": "07",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-18T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.police.pref.fukushima.jp/new/nyuusatu/R8nyuusatu/26-0079koukoku.pdf",
+    "attachments": [
+      {
+        "name": "金抜き（PDF）",
+        "uri": "https://www.police.pref.fukushima.jp/new/nyuusatu/R8nyuusatu/26-0079kinnuki.pdf"
+      },
+      {
+        "name": "金抜き（Excel）",
+        "uri": "https://www.police.pref.fukushima.jp/new/nyuusatu/R8nyuusatu/26-0079kinnuki.xlsx"
+      },
+      {
+        "name": "図面",
+        "uri": "https://www.police.pref.fukushima.jp/new/nyuusatu/R8nyuusatu/26-0079zumen.pdf"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-12-04T15:00:00",
+    "opening_date": "2026-12-08T10:00:00",
+    "application_deadline": "2026-12-02T00:00:00",
+    "fetched_date": "2026-11-19",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-19T05:26:53+00:00",
+      "planned_price": "契約締結後に公表する。",
+      "region_requirement": "県北建設事務所管内に本店又は支店・営業所を有する者であること。",
+      "koki": "90日間",
+      "application_deadline": "2026-12-02T00:00:00",
+      "bid_deadline": "2026-12-04T15:00:00",
+      "opening_date": "2026-12-08T10:00:00",
+      "summary": "本工事は、福島市入江町地内で行われる入江町待機宿舎解体2期工事です。ポンプ室、物置基礎、浄化槽、ハンドホール、木杭等の撤去が含まれます。工期は90日間です。"
+    }
+  },
+  "YW9tb3JpL2dvc2hvZ2F3YXJhX2NpdHkvMjAyNi8yMDI2MTExOF8wMDU2OAo=": {
+    "source": "kkj",
+    "key": "YW9tb3JpL2dvc2hvZ2F3YXJhX2NpdHkvMjAyNi8yMDI2MTExOF8wMDU2OAo=",
+    "project_name": "特定空家等解体等委託業務",
+    "org_name": "青森県五所川原市",
+    "pref_name": "青森県",
+    "city_name": "五所川原市",
+    "pref_code": "02",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-18T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/r8hi.k106.pdf",
+    "attachments": [
+      {
+        "name": "縦覧資料",
+        "uri": "https://www.city.goshogawara.lg.jp/jouhou/nyusatsu/files/r8hi.j106.zip"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "",
+    "opening_date": "令和８年12月２日",
+    "application_deadline": "2026-11-25T12:00:00",
+    "fetched_date": "2026-11-19",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-19T05:26:53+00:00",
+      "planned_price": "公表しない。",
+      "region_requirement": "五所川原市内に本店を有すること。",
+      "koki": "契約を締結した翌日から令和9年2月28日まで",
+      "application_deadline": "2026-11-25T12:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-12-02T10:00:00",
+      "summary": "本業務は、五所川原市字下平井町201番地6地内において、特定空家等の解体撤去等一式を行うものです。空家法に基づき特定空家等と判断された建築物またはこれに附属する工作物の除却を通じて、近隣住民の生命、身体、財産を保護することを目的としています。"
     }
   }
 }
