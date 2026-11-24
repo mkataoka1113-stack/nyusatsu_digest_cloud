@@ -4524,5 +4524,77 @@
       "provider": "",
       "enriched_at": "2026-11-21T05:05:29+00:00"
     }
+  },
+  "tokyometro_3539491779294313": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539491779294313",
+    "project_name": "警視庁体育センター倉庫棟ほか撤去工事",
+    "org_name": "警視庁総務部用度課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-07-21",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都東大和市桜が丘三丁目４４番４号",
+    "bid_deadline": "",
+    "opening_date": "2026-08-31T09:00:00",
+    "application_deadline": "2026-07-24",
+    "fetched_date": "2026-11-24",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-24T07:54:38+00:00",
+      "planned_price": "25,919,300円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から令和8年12月18日まで",
+      "application_deadline": "2026-07-24T16:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-08-31T09:00:00",
+      "summary": "本工事は、警視庁体育センター倉庫棟、食堂棟、更衣室棟、電気設備、機械設備、グラウンド設備の一式撤去と、外構整備の新設一式を行うものです。履行場所は東京都東大和市桜が丘三丁目４４番４号です。本案件は電子契約サービスの対象であり、建設リサイクル法も適用されます。"
+    }
+  },
+  "chiba_89e692e50f460d98": {
+    "source": "chiba",
+    "key": "chiba_89e692e50f460d98",
+    "project_name": "令和８年８月千葉豪雨による被災家屋解体業務委託（その２）",
+    "org_name": "千葉市  都市局  都市総務課",
+    "pref_name": "千葉県",
+    "city_name": "千葉市",
+    "pref_code": "12",
+    "gyoshu_codes": [
+      "0010290"
+    ],
+    "cft_issue_date": "2026-11-24",
+    "procedure_type": "一般競争 ・ 価格競争 （方法：電子入札 ）",
+    "doc_uri": "https://www.chiba-ep-bis.supercals.jp/ebidPPIPublish/EjPPIj",
+    "attachments": [],
+    "location": "千葉市中央区仁戸名町３５８番１９",
+    "bid_deadline": "2026-12-09T12:00:00",
+    "opening_date": "2026-12-09T13:00:00",
+    "application_deadline": "2026-11-30T17:00:00",
+    "fetched_date": "2026-11-24",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-24T07:54:38+00:00",
+      "planned_price": "事後公開",
+      "region_requirement": null,
+      "koki": "60日間",
+      "application_deadline": "2026-11-30T17:00:00",
+      "bid_deadline": "2026-12-09T12:00:00",
+      "opening_date": "2026-12-09T13:00:00",
+      "summary": "本案件は、令和8年8月の千葉豪雨による被災家屋の解体業務委託（その２）です。工事場所は千葉市中央区仁戸名町358番19で、工種は解体工事です。"
+    }
   }
 }
