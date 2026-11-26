@@ -1,179 +1,4 @@
 {
-  "pportal_642375": {
-    "source": "pportal",
-    "key": "pportal_642375",
-    "project_name": "千徳住宅物置解体撤去及び開口部閉鎖等工事",
-    "org_name": "財務省",
-    "pref_name": "岩手県",
-    "city_name": "",
-    "pref_code": "03",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-27",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=DpUtXSNTsjRojvgKVh36Sa%2FbaH2fHvC4pdzheRr0IfY%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "2026-11-16T16:00:00",
-    "opening_date": "2026-11-17T10:00:00",
-    "application_deadline": "2026-11-13T16:00:00",
-    "fetched_date": "2026-10-27",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-27T03:16:22+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": "契約締結日の翌日 から 令和9年3月24日 まで",
-      "application_deadline": "2026-11-13T16:00:00",
-      "bid_deadline": "2026-11-16T16:00:00",
-      "opening_date": "2026-11-17T10:00:00",
-      "summary": "本工事は、岩手県宮古市宮町三丁目１－２１に位置する千徳住宅の物置解体撤去及び開口部閉鎖等を行うものです。電子調達システムを利用した応札、入開札及び契約手続きにより実施されます。"
-    }
-  },
-  "pportal_642043": {
-    "source": "pportal",
-    "key": "pportal_642043",
-    "project_name": "（二本部）汽船１隻解体処分",
-    "org_name": "国土交通省",
-    "pref_name": "宮城県",
-    "city_name": "",
-    "pref_code": "04",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-27",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-10-27",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-27T03:16:22+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": null,
-      "application_deadline": null,
-      "bid_deadline": null,
-      "opening_date": null,
-      "summary": "本公告は、国土交通省による一般競争入札「（二本部）汽船１隻解体処分」に関するものである。調達種別は物品・役務に分類される。公告内容は国土交通省のホームページに掲載される。"
-    }
-  },
-  "bWl5YWdpL2t1cmloYXJhX2NpdHkvMjAyNi8yMDI2MTAyNl8wMDk5OQo=": {
-    "source": "kkj",
-    "key": "bWl5YWdpL2t1cmloYXJhX2NpdHkvMjAyNi8yMDI2MTAyNl8wMDk5OQo=",
-    "project_name": "【入札公告】市営鶴町住宅解体工事（PDF：282KB）",
-    "org_name": "宮城県栗原市",
-    "pref_name": "宮城県",
-    "city_name": "栗原市",
-    "pref_code": "04",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-26T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.kuriharacity.jp/w004/030/010/200/2026koukou/1026/1026koukoku4.pdf?1023925",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "2026-11-11T10:30:00",
-    "opening_date": "2026-11-11T10:30:00",
-    "application_deadline": "2026-11-02T16:00:00",
-    "fetched_date": "2026-10-27",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-27T03:16:22+00:00",
-      "planned_price": null,
-      "region_requirement": "栗原市内に本社（本店）、支店・営業所等で登録していること。",
-      "koki": "契約締結日の翌日から令和9年3月25日まで",
-      "application_deadline": "2026-11-02T16:00:00",
-      "bid_deadline": "2026-11-11T10:30:00",
-      "opening_date": "2026-11-11T10:30:00",
-      "summary": "本工事は、栗原市一迫真坂字鶴町地内における市営鶴町住宅2棟10戸（D棟・E棟）の解体工事一式です。コンクリートパネル壁式構造2階建て1棟5戸、延床面積311.46㎡の建築物が対象です。"
-    }
-  },
-  "a3lvdG8vYXlhYmVfY2l0eS8yMDI2LzIwMjYxMDI2XzAwNzQ5Cg==": {
-    "source": "kkj",
-    "key": "a3lvdG8vYXlhYmVfY2l0eS8yMDI2LzIwMjYxMDI2XzAwNzQ5Cg==",
-    "project_name": "市営住宅（高津）解体工事（解体B・C）",
-    "org_name": "京都府綾部市",
-    "pref_name": "京都府",
-    "city_name": "綾部市",
-    "pref_code": "26",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-26T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.ayabe.lg.jp/cmsfiles/contents/0000004/4603/koukoku-sieijyuutakutakatukaitai.pdf",
-    "attachments": [],
-    "location": "綾部市高津町",
-    "bid_deadline": "2026-11-17T14:00:00",
-    "opening_date": "2026-11-18T09:30:00",
-    "application_deadline": "2026-10-30T12:00:00",
-    "fetched_date": "2026-10-27",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-27T03:16:22+00:00",
-      "planned_price": null,
-      "region_requirement": "令和8年度綾部市建設工事指名競争入札参加資格者名簿で解体工事のＢ等級又はＣ等級で登録されており、令和8年4月1日以降継続して綾部市内に本店を有する単体業者であること",
-      "koki": "令和8年11月25日から令和9年2月22日まで（90日間）",
-      "application_deadline": "2026-10-30T12:00:00",
-      "bid_deadline": "2026-11-17T14:00:00",
-      "opening_date": "2026-11-18T09:30:00",
-      "summary": "本工事は市営住宅（高津）の解体工事です。補強CB造平屋建6戸1棟、延べ面積129㎡の解体を行います。入札は電子入札による条件付一般競争入札です。"
-    }
-  },
-  "YW9tb3JpL3Rvd2FkYV9jaXR5LzIwMjYvMjAyNjEwMjZfMDE0NzkK": {
-    "source": "kkj",
-    "key": "YW9tb3JpL3Rvd2FkYV9jaXR5LzIwMjYvMjAyNjEwMjZfMDE0NzkK",
-    "project_name": "旧営繕作業場解体工事(313KB)",
-    "org_name": "青森県十和田市",
-    "pref_name": "青森県",
-    "city_name": "十和田市",
-    "pref_code": "02",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-26T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.towada.lg.jp/sangyo/nyusatsu/nyusatsu/files/kyousou08010.pdf",
-    "attachments": [],
-    "location": "旧作業場 延床面積183.45㎡者でないこと",
-    "bid_deadline": "2026-11-11T00:00:00",
-    "opening_date": "令和8年11月5日",
-    "application_deadline": "2026-11-02T00:00:00",
-    "fetched_date": "2026-10-27",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-27T03:16:22+00:00",
-      "planned_price": "6,193,000円（消費税及び地方消費税の額を含む。）",
-      "region_requirement": "十和田市建設工事請負業者指名選定規則（平成17年十和田市規則第76号）第５条の規定に基づく令和８年度の有資格者名簿の市内業者に登載されており、かつ解体の格付がＢ級であること。",
-      "koki": "契約締結の翌日から 令和9年2月1日",
-      "application_deadline": "2026-11-02T00:00:00",
-      "bid_deadline": "2026-11-11T00:00:00",
-      "opening_date": "2026-11-13T10:00:00",
-      "summary": "本件は、十和田市が実施する旧営繕作業場解体工事の簡易型一般競争入札です。工事場所は十和田市西六番町290番1地内で、旧作業場の延床面積183.45㎡の解体を行います。最低制限価格制度の対象となる入札です。"
-    }
-  },
   "tokyometro_3539591720233510": {
     "source": "tokyometro",
     "key": "tokyometro_3539591720233510",
@@ -4632,6 +4457,287 @@
       "bid_deadline": "2026-12-09T12:00:00",
       "opening_date": "2026-12-09T13:00:00",
       "summary": "本業務は、令和8年8月千葉豪雨により被災した家屋の解体業務委託です。業務場所は千葉市中央区仁戸名町358番19で、木造2階建家屋162㎡、CB造平家建物置3.7㎡、その他RC造擁壁、犬走り等の解体が含まれます。"
+    }
+  },
+  "tokyometro_3539791939294414": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539791939294414",
+    "project_name": "東京都西部公園緑地事務所(８)庁舎棟ほか解体工事",
+    "org_name": "財務局経理部契約第一課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-10-26",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都武蔵野市御殿山一丁目17番59号",
+    "bid_deadline": "",
+    "opening_date": "2026-12-07T09:15:00",
+    "application_deadline": "2026-10-30",
+    "fetched_date": "2026-11-26",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-26T06:20:04+00:00",
+      "planned_price": "77,556,600円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から令和9年8月30日まで",
+      "application_deadline": "2026-10-30T16:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-12-07T09:15:00",
+      "summary": "東京都武蔵野市御殿山一丁目17番59号にて、東京都西部公園緑地事務所の庁舎棟（鉄筋コンクリート造2階建て、延床面積660㎡）と事務所（木造2階建て、延床面積188.6㎡）を含む合計6棟（延床面積933.9㎡）の解体工事が行われます。外構及び電気機械設備の撤去も含まれます。"
+    }
+  },
+  "dG9jaGlnaS9uYXN1c2hpb2JhcmFfY2l0eS8yMDI2LzIwMjYxMTI1XzAxMDUyCg==": {
+    "source": "kkj",
+    "key": "dG9jaGlnaS9uYXN1c2hpb2JhcmFfY2l0eS8yMDI2LzIwMjYxMTI1XzAxMDUyCg==",
+    "project_name": "126104 黒磯支団第2分団第3部（寺子）消防詰所解体工事 (PDFファイル: 400.6KB)",
+    "org_name": "栃木県那須塩原市",
+    "pref_name": "栃木県",
+    "city_name": "那須塩原市",
+    "pref_code": "09",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-25T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.nasushiobara.tochigi.jp/material/files/group/10/126104_koukoku.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-12-07T17:00:00",
+    "opening_date": "2026-12-08T13:31:00",
+    "application_deadline": "2026-12-01T17:00:00",
+    "fetched_date": "2026-11-26",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-26T06:20:04+00:00",
+      "planned_price": "金4,570,000円（消費税を含まない額）",
+      "region_requirement": "那須塩原市内に建設業法(昭和２４年法律第１００号)第３条第１項に基づき設置された本店があること",
+      "koki": "令和8年12月24日 から 令和9年3月8日 まで",
+      "application_deadline": "2026-12-01T17:00:00",
+      "bid_deadline": "2026-12-07T17:00:00",
+      "opening_date": "2026-12-08T13:31:00",
+      "summary": "本工事は、那須塩原市寺子1277-5ほかで行われる黒磯支団第２分団第３部（寺子）消防詰所解体工事です。鉄骨造2階建て延べ面積64.14㎡の消防詰所・火の見やぐらと、木造平屋建て延べ面積19.87㎡の倉庫の解体工事一式が含まれます。"
+    }
+  },
+  "dG9jaGlnaS9uYXN1c2hpb2JhcmFfY2l0eS8yMDI2LzIwMjYxMTI1XzAxMDUxCg==": {
+    "source": "kkj",
+    "key": "dG9jaGlnaS9uYXN1c2hpb2JhcmFfY2l0eS8yMDI2LzIwMjYxMTI1XzAxMDUxCg==",
+    "project_name": "126103 黒磯支団第3分団第7部（島方）消防詰所解体工事 (PDFファイル: 392.8KB)",
+    "org_name": "栃木県那須塩原市",
+    "pref_name": "栃木県",
+    "city_name": "那須塩原市",
+    "pref_code": "09",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-25T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.nasushiobara.tochigi.jp/material/files/group/10/126103_koukoku.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-12-07T17:00:00",
+    "opening_date": "2026-12-08T13:30:00",
+    "application_deadline": "2026-12-01T17:00:00",
+    "fetched_date": "2026-11-26",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-26T06:20:04+00:00",
+      "planned_price": "金4,750,000円（消費税を含まない額）",
+      "region_requirement": "那須塩原市内に建設業法(昭和２４年法律第１００号)第３条第１項に基づき設置された本店があること。",
+      "koki": "令和8年12月24日 から 令和9年3月8日 まで",
+      "application_deadline": "2026-12-01T17:00:00",
+      "bid_deadline": "2026-12-07T17:00:00",
+      "opening_date": "2026-12-08T13:30:00",
+      "summary": "本工事は、黒磯支団第３分団第７部（島方）消防詰所の解体工事及び外構工事一式です。鉄骨造地上2階建て、延べ面積64.14㎡の消防詰所を解体します。事後審査型条件付一般競争入札（電子入札方式）で実施されます。"
+    }
+  },
+  "aHlvZ28va2F0b19jaXR5LzIwMjYvMjAyNjExMjVfMDIxNjAK": {
+    "source": "kkj",
+    "key": "aHlvZ28va2F0b19jaXR5LzIwMjYvMjAyNjExMjVfMDIxNjAK",
+    "project_name": "令和８年度 市営住宅春日団地３４-９号ほか木造住宅解体工事",
+    "org_name": "兵庫県加東市",
+    "pref_name": "兵庫県",
+    "city_name": "加東市",
+    "pref_code": "28",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-25T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kato.lg.jp/section/nyuusatu/order/20261125order/./20261217/./20261217_06_2026109500_nyusatsu.pdf",
+    "attachments": [
+      {
+        "name": "設計書等",
+        "uri": "https://www.city.kato.lg.jp/section/nyuusatu/order/20261125order/./20261217/./20261217_06_2026109500_shiryou_005.pdf"
+      }
+    ],
+    "location": "加東市上滝野1056番地11",
+    "bid_deadline": "2026-12-16T15:00:00",
+    "opening_date": "2026-12-17T10:00:00",
+    "application_deadline": "2026-12-04T17:15:00",
+    "fetched_date": "2026-11-26",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-26T06:20:04+00:00",
+      "planned_price": null,
+      "region_requirement": "公告日現在で加東市内に本店を有する者",
+      "koki": "契約締結日の翌日 から 令和 9年 1月23日 まで",
+      "application_deadline": "2026-12-04T17:15:00",
+      "bid_deadline": "2026-12-16T15:00:00",
+      "opening_date": "2026-12-17T10:00:00",
+      "summary": "本工事は、加東市上滝野1056番地11（市営住宅春日団地34-9号）ほか1箇所における木造住宅の解体工事です。木造平家建（延床面積 34-9号：85.58ｍ2、35-4号：61.49ｍ2）の解体を行います。本工事は週休2日制度の対象工事です。"
+    }
+  },
+  "Z292L2phZWFfZ28vMjAyNi8yMDI2MTEyNV8wNTkyMAo=": {
+    "source": "kkj",
+    "key": "Z292L2phZWFfZ28vMjAyNi8yMDI2MTEyNV8wNTkyMAo=",
+    "project_name": "【電子入札】【電子契約】ナトリウム機器構造第１試験室他給排気設備の解体撤去",
+    "org_name": "国立研究開発法人日本原子力研究開発機構大洗",
+    "pref_name": "茨城県",
+    "city_name": "東海村",
+    "pref_code": "08",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-25T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://keiyaku.jaea.go.jp/compe/02/pdf/0803C01729.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "令和9年1月13日",
+    "opening_date": "令和9年3月31日",
+    "application_deadline": "",
+    "fetched_date": "2026-11-26",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-26T06:20:04+00:00",
+      "planned_price": null,
+      "region_requirement": null,
+      "koki": "令和9年3月31日",
+      "application_deadline": null,
+      "bid_deadline": "2027-01-13T14:00:00",
+      "opening_date": "2027-01-13T14:00:00",
+      "summary": "本件は、ナトリウム機器構造第１試験室他給排気設備の解体撤去に関する一般競争入札です。入札は電子入札システムを通じて行われ、総価で行われます。"
+    }
+  },
+  "ZnVrdXNoaW1hL3BvbGljZV9mdWt1c2hpbWEvMjAyNi8yMDI2MTEyNV8wMTI3Ngo=": {
+    "source": "kkj",
+    "key": "ZnVrdXNoaW1hL3BvbGljZV9mdWt1c2hpbWEvMjAyNi8yMDI2MTEyNV8wMTI3Ngo=",
+    "project_name": "第２６−８００６０−００８１号 須賀川警察署 署長公舎解体工事",
+    "org_name": "国家公安委員会（警察庁）福島県警察",
+    "pref_name": "福島県",
+    "city_name": "福島市",
+    "pref_code": "07",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-25T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.police.pref.fukushima.jp/new/nyuusatu/R8nyuusatu/26-0081koukoku.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-12-11T15:00:00",
+    "opening_date": "2026-12-15T10:00:00",
+    "application_deadline": "2026-12-09T00:00:00",
+    "fetched_date": "2026-11-26",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-26T06:20:04+00:00",
+      "planned_price": "契約締結後に公表する。",
+      "region_requirement": "県中建設事務所管内、県南建設事務所管内、南会津建設事務所管内、いわき建設事務所管内に本店又は支店・営業所を有する者であること。",
+      "koki": "90日間",
+      "application_deadline": "2026-12-09T00:00:00",
+      "bid_deadline": "2026-12-11T15:00:00",
+      "opening_date": "2026-12-15T10:00:00",
+      "summary": "須賀川警察署署長公舎の解体工事です。木造平屋建ての署長公舎（94.22㎡）とプレファブ造平屋建ての物置（4.5㎡）の建物及び外構解体を行います。本工事は電子入札対象であり、総合評価方式が適用されます。"
+    }
+  },
+  "YW9tb3JpL2t1cm9pc2hpX2NpdHkvMjAyNi8yMDI2MTEyNV8wMDI2MQo=": {
+    "source": "kkj",
+    "key": "YW9tb3JpL2t1cm9pc2hpX2NpdHkvMjAyNi8yMDI2MTEyNV8wMDI2MQo=",
+    "project_name": "旧中郷小学校解体工事",
+    "org_name": "青森県黒石市",
+    "pref_name": "青森県",
+    "city_name": "黒石市",
+    "pref_code": "02",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-25T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kuroishi.aomori.jp/shisei/nyusatsu/files/01_kyunakagosyo_kaitai.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2025-06-06T00:00:00",
+    "opening_date": "2025-06-09T09:00:00",
+    "application_deadline": "2025-05-08T00:00:00",
+    "fetched_date": "2026-11-26",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-26T06:20:04+00:00",
+      "planned_price": "146,410,000円",
+      "region_requirement": "黒石市、平川市、南津軽郡に本店を有していること",
+      "koki": "令和8年3月13日まで",
+      "application_deadline": "2025-05-08T00:00:00",
+      "bid_deadline": "2025-06-06T00:00:00",
+      "opening_date": "2025-06-09T09:00:00",
+      "summary": "本工事は、旧中郷小学校の解体工事です。校舎南棟（鉄筋コンクリート造3階建て、2,952.0㎡）と体育館（鉄骨造2階建て、964.0㎡）の建物解体、外構物解体、その他付帯工事が含まれます。"
+    }
+  },
+  "YW9tb3JpL2t1cm9pc2hpX2NpdHkvMjAyNi8yMDI2MTEyNV8wMDIxOAo=": {
+    "source": "kkj",
+    "key": "YW9tb3JpL2t1cm9pc2hpX2NpdHkvMjAyNi8yMDI2MTEyNV8wMDIxOAo=",
+    "project_name": "黒石地区清掃施設組合環境管理センター解体工事",
+    "org_name": "青森県黒石市",
+    "pref_name": "青森県",
+    "city_name": "黒石市",
+    "pref_code": "02",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-25T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kuroishi.aomori.jp/shisei/nyusatsu/files/01_kuroishichiku_seisousisetu_kankyokanri_kaitai_yoko.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-06-05T00:00:00",
+    "opening_date": "2026-06-08T09:00:00",
+    "application_deadline": "2026-05-13T12:00:00",
+    "fetched_date": "2026-11-26",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-26T06:20:04+00:00",
+      "planned_price": "855,140,000円",
+      "region_requirement": "弘前市、黒石市、平川市、南津軽郡又は中津軽郡に本店を有していること",
+      "koki": "令和8年4月28日から令和10年1月29日まで",
+      "application_deadline": "2026-05-13T12:00:00",
+      "bid_deadline": "2026-06-05T00:00:00",
+      "opening_date": "2026-06-08T09:00:00",
+      "summary": "本工事は、黒石市大字竹鼻字北野田地内にある環境管理センターを解体するものです。ごみ処理棟、管理棟、渡り廊下、粗大ごみ処理棟などの解体が含まれます。本工事は令和8年度から令和9年度までの2か年継続事業です。"
     }
   }
 }
