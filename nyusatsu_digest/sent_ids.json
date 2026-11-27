@@ -1,186 +1,4 @@
 {
-  "tokyometro_3539591720233510": {
-    "source": "tokyometro",
-    "key": "tokyometro_3539591720233510",
-    "project_name": "東京消防庁旧三河島家族待機宿舎（８）解体工事",
-    "org_name": "東京消防庁総務部経理契約課",
-    "pref_name": "東京都",
-    "city_name": "",
-    "pref_code": "13",
-    "gyoshu_codes": [
-      "3101"
-    ],
-    "cft_issue_date": "2026-08-26",
-    "procedure_type": "希望制指名競争入札",
-    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
-    "attachments": [],
-    "location": "東京都荒川区荒川七丁目７番２号",
-    "bid_deadline": "",
-    "opening_date": "2026-10-21T09:15:00",
-    "application_deadline": "2026-09-01",
-    "fetched_date": "2026-10-28",
-    "notified": [
-      "kataoka"
-    ],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-28T03:28:24+00:00",
-      "planned_price": "73,249,000円（消費税率10％）",
-      "region_requirement": null,
-      "koki": "契約確定の日の翌日から2027年5月31日まで",
-      "application_deadline": "2026-09-01T16:00:00",
-      "bid_deadline": null,
-      "opening_date": "2026-10-21T09:15:00",
-      "summary": "本件は、東京都荒川区荒川七丁目７番２号に位置する東京消防庁旧三河島家族待機宿舎（８）の解体工事です。敷地面積は466.73平方メートルで、鉄筋コンクリート造地上4階建ての宿舎本体、鉄骨造平屋倉庫の付属棟、電気設備、機械設備の解体が含まれます。"
-    }
-  },
-  "pportal_642069": {
-    "source": "pportal",
-    "key": "pportal_642069",
-    "project_name": "庁舎解体撤去工事に伴う鉄くず等売払",
-    "org_name": "農林水産省",
-    "pref_name": "香川県",
-    "city_name": "",
-    "pref_code": "37",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-28",
-    "procedure_type": "",
-    "doc_uri": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0104?",
-    "attachments": [
-      {
-        "name": "調達資料１ダウンロードURL",
-        "uri": "https://www.geps.go.jp/biz-contract/UKB06/OKB06_M01_B01?PRM=V5kZBhKMsFWt9QlT0dHLtQZ1xu3NbnWThgk81bSQV%2Fk%3D"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "2026-11-18T17:00:00",
-    "opening_date": "2026-11-19T10:00:00",
-    "application_deadline": "2026-11-12T17:00:00",
-    "fetched_date": "2026-10-28",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-28T03:28:24+00:00",
-      "planned_price": null,
-      "region_requirement": "「四国地域」の競争参加資格を有すること",
-      "koki": "令和9年1月29日まで",
-      "application_deadline": "2026-11-12T17:00:00",
-      "bid_deadline": "2026-11-18T17:00:00",
-      "opening_date": "2026-11-19T10:00:00",
-      "summary": "本公告は、庁舎解体撤去工事に伴う鉄くず等の売払に関する一般競争入札です。入札参加者は、買取り発生材の積込み経費等を見積もりに含め、電子調達システムまたは書面により入札書を提出します。落札者は、予定価格の制限内で最高の価格を提示した者となります。"
-    }
-  },
-  "eWFtYW5hc2hpL2Z1ZWZ1a2lfY2l0eS8yMDI2LzIwMjYxMDI3XzAyNDEzCg==": {
-    "source": "kkj",
-    "key": "eWFtYW5hc2hpL2Z1ZWZ1a2lfY2l0eS8yMDI2LzIwMjYxMDI3XzAyNDEzCg==",
-    "project_name": "1-4旧境川分団第4部詰所ほか解体工事",
-    "org_name": "山梨県笛吹市",
-    "pref_name": "山梨県",
-    "city_name": "笛吹市",
-    "pref_code": "19",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-27T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.fuefuki.yamanashi.jp/documents/12184/r081110kokoku1-4.pdf",
-    "attachments": [
-      {
-        "name": "積算図書等（ZIP：952KB）",
-        "uri": "https://www.city.fuefuki.yamanashi.jp/documents/12184/r081110sekisan1-4.zip"
-      }
-    ],
-    "location": "",
-    "bid_deadline": "2026-11-10T09:30:00",
-    "opening_date": "令和8年11月2日",
-    "application_deadline": "2026-11-02T16:00:00",
-    "fetched_date": "2026-10-28",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-28T03:28:24+00:00",
-      "planned_price": "事後公表",
-      "region_requirement": "笛吹市内に本社・本店があること。",
-      "koki": "令和8年11月17日 令和9年3月26日",
-      "application_deadline": "2026-11-02T16:00:00",
-      "bid_deadline": "2026-11-10T09:30:00",
-      "opening_date": "2026-11-10T09:30:00",
-      "summary": "旧境川分団第4部詰所ほか解体工事。既存消防団詰所（鉄骨造平屋建て、延床面積63.64㎡）と車庫（鉄骨造平屋建て、延床面積19.87㎡）の解体工事一式、撤去・処分一式を行う。アスベスト含有材料の撤去・処分を含む。"
-    }
-  },
-  "a2Fnb3NoaW1hL21pbmFtaW9zdW1pX3Rvd24vMjAyNi8yMDI2MTAyN18wMDAzMwo=": {
-    "source": "kkj",
-    "key": "a2Fnb3NoaW1hL21pbmFtaW9zdW1pX3Rvd24vMjAyNi8yMDI2MTAyN18wMDAzMwo=",
-    "project_name": "公営諏訪4号住宅解体工事について（令和8年10月27日公表分）",
-    "org_name": "鹿児島県南大隅町",
-    "pref_name": "鹿児島県",
-    "city_name": "南大隅町",
-    "pref_code": "46",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-27T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.town.minamiosumi.lg.jp/kensetsu/nyusatsu/r8/documents/koukoku_20261027.pdf",
-    "attachments": [],
-    "location": "工事担当課入札方法工事概要工期予定価格",
-    "bid_deadline": "2026-11-16T15:00:00",
-    "opening_date": "令和9年1月22日",
-    "application_deadline": "2026-11-02T15:00:00",
-    "fetched_date": "2026-10-28",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-28T03:28:24+00:00",
-      "planned_price": "32,650,000円（税抜）",
-      "region_requirement": null,
-      "koki": "令和9年1月22日",
-      "application_deadline": "2026-11-02T15:00:00",
-      "bid_deadline": "2026-11-16T15:00:00",
-      "opening_date": "2026-11-17T09:00:00",
-      "summary": "本工事は公営諏訪4号住宅の解体工事で、南大隅町根占川南地内で行われます。延べ床面積152.32㎡の2棟が対象です。入札は電子入札システムで行われます。"
-    }
-  },
-  "Z292MTMvbW9mX3RvaG9rdS8yMDI2LzIwMjYxMDI3XzAxMTE4Cg==": {
-    "source": "kkj",
-    "key": "Z292MTMvbW9mX3RvaG9rdS8yMDI2LzIwMjYxMDI3XzAxMTE4Cg==",
-    "project_name": "千徳住宅物置解体撤去及び開口部閉鎖等工事",
-    "org_name": "財務省東北財務局",
-    "pref_name": "宮城県",
-    "city_name": "仙台市",
-    "pref_code": "04",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-27T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://lfb.mof.go.jp/tohoku/content/mo261027.pdf",
-    "attachments": [],
-    "location": "岩手県宮古市宮町三丁目１－２１",
-    "bid_deadline": "2026-11-16T16:00:00",
-    "opening_date": "令和9年3月24日",
-    "application_deadline": "2026-11-13T16:00:00",
-    "fetched_date": "2026-10-28",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-28T03:28:24+00:00",
-      "planned_price": null,
-      "region_requirement": null,
-      "koki": "契約締結日の翌日 から 2027年3月24日 まで",
-      "application_deadline": "2026-11-13T16:00:00",
-      "bid_deadline": "2026-11-16T16:00:00",
-      "opening_date": "2026-11-17T10:00:00",
-      "summary": "千徳住宅物置解体撤去及び開口部閉鎖等工事の一般競争入札です。工事場所は岩手県宮古市宮町三丁目１－２１で、建物解体撤去及び開口部閉鎖等が含まれます。電子調達システムを利用した応札、入開札及び契約手続きにより実施されます。"
-    }
-  },
   "dG9jaGlnaS9uYXN1c2hpb2JhcmFfY2l0eS8yMDI2LzIwMjYxMDI4XzAxMDQ1Cg==": {
     "source": "kkj",
     "key": "dG9jaGlnaS9uYXN1c2hpb2JhcmFfY2l0eS8yMDI2LzIwMjYxMDI4XzAxMDQ1Cg==",
@@ -4738,6 +4556,110 @@
       "bid_deadline": "2026-06-05T00:00:00",
       "opening_date": "2026-06-08T09:00:00",
       "summary": "本工事は、黒石市大字竹鼻字北野田地内にある環境管理センターを解体するものです。ごみ処理棟、管理棟、渡り廊下、粗大ごみ処理棟などの解体が含まれます。本工事は令和8年度から令和9年度までの2か年継続事業です。"
+    }
+  },
+  "a29jaGkva29jaGlfY2l0eS8yMDI2LzIwMjYxMTI2XzAwMjc2Cg==": {
+    "source": "kkj",
+    "key": "a29jaGkva29jaGlfY2l0eS8yMDI2LzIwMjYxMTI2XzAwMjc2Cg==",
+    "project_name": "福寿園防災倉庫解体工事",
+    "org_name": "高知県高知市",
+    "pref_name": "高知県",
+    "city_name": "高知市",
+    "pref_code": "39",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-26T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kochi.kochi.jp/uploaded/attachment/186643.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-12-11T17:00:00",
+    "opening_date": "2026-12-14T11:45:00",
+    "application_deadline": "2026-12-11T17:00:00",
+    "fetched_date": "2026-11-27",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-27T06:08:20+00:00",
+      "planned_price": "事後公表する。",
+      "region_requirement": "高知市内に主たる営業所（本社）を有する者",
+      "koki": "75 日",
+      "application_deadline": "2026-12-11T17:00:00",
+      "bid_deadline": "2026-12-11T17:00:00",
+      "opening_date": "2026-12-14T11:45:00",
+      "summary": "本工事は、高知市福井町748 番地における福寿園防災倉庫の解体工事です。鉄骨造2階建て、延べ面積106.28㎡の防災倉庫を解体します。工期は75日間です。"
+    }
+  },
+  "aGlyb3NoaW1hL2t1cmVzaGkvMjAyNi8yMDI2MTEyNl8wMzIzMwo=": {
+    "source": "kkj",
+    "key": "aGlyb3NoaW1hL2t1cmVzaGkvMjAyNi8yMDI2MTEyNl8wMzIzMwo=",
+    "project_name": "広東分団（広白石３・広両谷３）解体撤去工事",
+    "org_name": "広島県呉市",
+    "pref_name": "広島県",
+    "city_name": "呉市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-26T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.kure.lg.jp/~koji/files/000000000000042239.PDF",
+    "attachments": [],
+    "location": "呉市広白石３丁目１０－３６外建設工事の種類 解体工事建築解体撤去工事  一式，電気設備解体撤去工事  一式，機械設備解体",
+    "bid_deadline": "2026-12-09T16:00:00",
+    "opening_date": "2026-12-10T11:40:00",
+    "application_deadline": "",
+    "fetched_date": "2026-11-27",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-27T06:08:20+00:00",
+      "planned_price": "4,654,000円（消費税抜き）",
+      "region_requirement": "市内業者（建設業許可に係る主たる営業所を呉市内に有する者）であること",
+      "koki": "令和9年3月17日",
+      "application_deadline": null,
+      "bid_deadline": "2026-12-09T16:00:00",
+      "opening_date": "2026-12-10T11:40:00",
+      "summary": "本工事は、呉市広白石3丁目10-36外における広東分団（広白石3・広両谷3）の解体撤去工事です。建築解体撤去工事、電気設備解体撤去工事、機械設備解体撤去工事を含みます。電子入札システムを利用した一般競争入札（事後審査方式）で行われます。"
+    }
+  },
+  "Z3VubWEvdG9taW9rYV9jaXR5LzIwMjYvMjAyNjExMjZfMDAxMzIK": {
+    "source": "kkj",
+    "key": "Z3VubWEvdG9taW9rYV9jaXR5LzIwMjYvMjAyNjExMjZfMDAxMzIK",
+    "project_name": "令和8年度 都市構造再編集中支援事業 上州富岡駅北地区 富岡北部運動公園内 電気機関車展示棟解体工事",
+    "org_name": "群馬県富岡市",
+    "pref_name": "群馬県",
+    "city_name": "富岡市",
+    "pref_code": "10",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-26T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.tomioka.lg.jp/www/contents/1794872339853/simple/26100179k.pdf",
+    "attachments": [
+      {
+        "name": "（PDF／551KB）",
+        "uri": "https://www.city.tomioka.lg.jp/www/contents/1794872339853/simple/26100179s1.pdf"
+      },
+      {
+        "name": "（PDF／138KB）",
+        "uri": "https://www.city.tomioka.lg.jp/www/contents/1794872339853/simple/26100179s2.pdf"
+      }
+    ],
+    "location": "業務内容 設計図書のとおり履行期間予定価格",
+    "bid_deadline": "",
+    "opening_date": "",
+    "application_deadline": "",
+    "fetched_date": "2026-11-27",
+    "notified": [],
+    "enrich": {
+      "status": "no_text",
+      "provider": "",
+      "enriched_at": "2026-11-27T06:08:20+00:00"
     }
   }
 }
