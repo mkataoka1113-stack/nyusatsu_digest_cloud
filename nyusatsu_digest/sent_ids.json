@@ -1,264 +1,4 @@
 {
-  "dG9jaGlnaS9uYXN1c2hpb2JhcmFfY2l0eS8yMDI2LzIwMjYxMDI4XzAxMDQ1Cg==": {
-    "source": "kkj",
-    "key": "dG9jaGlnaS9uYXN1c2hpb2JhcmFfY2l0eS8yMDI2LzIwMjYxMDI4XzAxMDQ1Cg==",
-    "project_name": "126095 旧三島保育園遊戯室ほか解体工事 (PDFファイル: 405.0KB)",
-    "org_name": "栃木県那須塩原市",
-    "pref_name": "栃木県",
-    "city_name": "那須塩原市",
-    "pref_code": "09",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-28T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.nasushiobara.tochigi.jp/material/files/group/10/126095_koukoku.pdf",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "令和8年11月30日",
-    "opening_date": "2026-11-11T10:36:00",
-    "application_deadline": "2026-11-04T17:00:00",
-    "fetched_date": "2026-10-29",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-29T03:53:02+00:00",
-      "planned_price": "金11,510,000円（消費税を含まない額）",
-      "region_requirement": "那須塩原市内に建設業法(昭和２４年法律第１００号)第３条第１項に基づき設置された本店があること",
-      "koki": "令和8年11月30日 から 令和9年3月4日 まで",
-      "application_deadline": "2026-11-04T17:00:00",
-      "bid_deadline": "2026-11-10T17:00:00",
-      "opening_date": "2026-11-11T10:36:00",
-      "summary": "本工事は、那須塩原市三島4-30に位置する鉄骨造平屋建て延べ面積170.40㎡の旧三島保育園遊戯室ほか解体工事一式です。建設リサイクル法に基づき、分別解体等及び特定建設資材廃棄物の再資源化等が義務付けられています。発注者指定方式の週休2日制工事です。"
-    }
-  },
-  "b3Nha2Eva2Fkb21hX2NpdHkvMjAyNi8yMDI2MTAyOF8wMTEwNAo=": {
-    "source": "kkj",
-    "key": "b3Nha2Eva2Fkb21hX2NpdHkvMjAyNi8yMDI2MTAyOF8wMTEwNAo=",
-    "project_name": "見積書提出期限：11月13日 上馬伏分隊車庫解体工事",
-    "org_name": "大阪府門真市",
-    "pref_name": "大阪府",
-    "city_name": "門真市",
-    "pref_code": "27",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-28T00:00:00+09:00",
-    "procedure_type": "一般競争入札",
-    "doc_uri": "https://www.city.kadoma.osaka.jp/material/files/group/6/01youriyo1028.pdf",
-    "attachments": [
-      {
-        "name": "08 設計図書1 (PDFファイル: 120.1KB)",
-        "uri": "https://www.city.kadoma.osaka.jp/material/files/group/6/08sekkeitosyo120261028.pdf"
-      },
-      {
-        "name": "09 設計図書2 (PDFファイル: 1.2MB)",
-        "uri": "https://www.city.kadoma.osaka.jp/material/files/group/6/09sekkeitosyo220261028.pdf"
-      }
-    ],
-    "location": "門真市城垣町２⑶ 工事種別 解体工事⑷ 工事概要 解体工事 一式⑸ 工期 契約締結日から令和９年２月 15日まで⑹ その",
-    "bid_deadline": "2026-11-13T17:30:00",
-    "opening_date": "",
-    "application_deadline": "2026-11-13T17:30:00",
-    "fetched_date": "2026-10-29",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-29T03:53:02+00:00",
-      "planned_price": "非公表",
-      "region_requirement": "本市の令和８年度建設工事入札参加資格者名簿に業種「解体工事」で登録している市内業者（建設業法（昭和24年法律第100号）上の主たる営業所の所在地及び門真市と直接取引する支店又は営業所等が本市の区域内にある者をいう。）であること。",
-      "koki": "契約締結日 から 令和９年２月 15 日まで",
-      "application_deadline": "2026-11-13T17:30:00",
-      "bid_deadline": "2026-11-13T17:30:00",
-      "opening_date": null,
-      "summary": "本件は、上馬伏分隊車庫の解体工事に関する見積合せです。工事場所は門真市城垣町２で、工事種別は解体工事一式です。予定価格は非公表とされ、最低制限価格は設定されません。"
-    }
-  },
-  "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjEwMjhfMDA5MDAK": {
-    "source": "kkj",
-    "key": "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjEwMjhfMDA5MDAK",
-    "project_name": "令和８年度 被災家屋等解体・撤去処理業務 舳倉島地区[ZIP：3.94MB]",
-    "org_name": "石川県輪島市",
-    "pref_name": "石川県",
-    "city_name": "輪島市",
-    "pref_code": "17",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-28T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.wajima.ishikawa.jp/docs/2014032000011/file_contents/081112_06.zip",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-10-29",
-    "notified": [],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-10-29T03:53:02+00:00"
-    }
-  },
-  "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjEwMjhfMDA4OTkK": {
-    "source": "kkj",
-    "key": "aXNoaWthd2Evd2FqaW1hc2hpLzIwMjYvMjAyNjEwMjhfMDA4OTkK",
-    "project_name": "令和８年度 町野簡易水道旧浄水場解体工事[ZIP：15.2MB]",
-    "org_name": "石川県輪島市",
-    "pref_name": "石川県",
-    "city_name": "輪島市",
-    "pref_code": "17",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-28T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.wajima.ishikawa.jp/docs/2014032000011/file_contents/081112_05.zip",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "",
-    "application_deadline": "",
-    "fetched_date": "2026-10-29",
-    "notified": [],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-10-29T03:53:02+00:00"
-    }
-  },
-  "Z2lmdS9naWZ1X3ByZWYvMjAyNi8yMDI2MTAyOF8xNjI3NQo=": {
-    "source": "kkj",
-    "key": "Z2lmdS9naWZ1X3ByZWYvMjAyNi8yMDI2MTAyOF8xNjI3NQo=",
-    "project_name": "【建設工事】装工第8-22号 墨俣警察官駐在所解体工事に関する一般競争入札公告",
-    "org_name": "岐阜県",
-    "pref_name": "岐阜県",
-    "city_name": "",
-    "pref_code": "21",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-28T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.pref.gifu.lg.jp/uploaded/life/523940_3008725_misc.pdf",
-    "attachments": [],
-    "location": "大垣市墨俣町上宿地内",
-    "bid_deadline": "2026-11-13T16:00:00",
-    "opening_date": "2026-11-16T10:30:00",
-    "application_deadline": "2026-11-05T16:00:00",
-    "fetched_date": "2026-10-29",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-29T03:53:02+00:00",
-      "planned_price": "２５，３１６，５００ 円（消費税及び地方消費税（10％）を含む）",
-      "region_requirement": "「第１号様式 入札公告共通事項 【事後審査型】 」の「 別表１」に示 す西濃圏域 内に、岐阜県建設工事入 札参加資格者名簿に 登載されている本店 が所 在すること。",
-      "koki": "契約の日 から 令和 ９年３月 26 日",
-      "application_deadline": "2026-11-05T16:00:00",
-      "bid_deadline": "2026-11-13T16:00:00",
-      "opening_date": "2026-11-16T10:30:00",
-      "summary": "本工事は、大垣市墨俣町上宿地内にある墨俣警察官駐在所の解体工事です。庁舎、宿舎、車庫を含む一式解体工事で、付帯設備や外構も含まれます。本工事は電子入札システムにより執行され、完全週休2日制（土日）工事です。"
-    }
-  },
-  "Z2lmdS9naWZ1X3ByZWYvMjAyNi8yMDI2MTAyOF8xNjI3NAo=": {
-    "source": "kkj",
-    "key": "Z2lmdS9naWZ1X3ByZWYvMjAyNi8yMDI2MTAyOF8xNjI3NAo=",
-    "project_name": "【建設工事】装工第8-24号 各務原警察署待機宿舎解体工事に関する一般競争入札公告",
-    "org_name": "岐阜県",
-    "pref_name": "岐阜県",
-    "city_name": "",
-    "pref_code": "21",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-28T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.pref.gifu.lg.jp/uploaded/life/523941_3008781_misc.pdf",
-    "attachments": [],
-    "location": "各務原市蘇原中央町地内",
-    "bid_deadline": "2026-11-13T16:00:00",
-    "opening_date": "2026-11-16T10:00:00",
-    "application_deadline": "2026-11-05T16:00:00",
-    "fetched_date": "2026-10-29",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-29T03:53:02+00:00",
-      "planned_price": "２２，１３３，１００ 円（消費税及び地方消費税（10％）を含む）",
-      "region_requirement": "岐阜圏域内に、岐阜県建設工事入札参加資格者名簿に登載されている本店が所在すること。",
-      "koki": "契約の日から令和９年３月26日",
-      "application_deadline": "2026-11-05T16:00:00",
-      "bid_deadline": "2026-11-13T16:00:00",
-      "opening_date": "2026-11-16T10:00:00",
-      "summary": "本工事は、各務原警察署の署長宿舎と副署長宿舎の解体工事一式です。付帯設備や外構の解体も含まれます。本工事は電子入札システムにより執行され、完全週休2日制（土日）工事です。"
-    }
-  },
-  "Z2lmdS9naWZ1X3ByZWYvMjAyNi8yMDI2MTAyOF8xNjI3Mwo=": {
-    "source": "kkj",
-    "key": "Z2lmdS9naWZ1X3ByZWYvMjAyNi8yMDI2MTAyOF8xNjI3Mwo=",
-    "project_name": "【建設工事】装工第8-25号 小熊警察官駐在所解体工事に関する一般競争入札公告",
-    "org_name": "岐阜県",
-    "pref_name": "岐阜県",
-    "city_name": "",
-    "pref_code": "21",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-28T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.pref.gifu.lg.jp/uploaded/life/523943_3008893_misc.pdf",
-    "attachments": [],
-    "location": "羽島市小熊町地内",
-    "bid_deadline": "2026-11-13T16:00:00",
-    "opening_date": "2026-11-16T10:15:00",
-    "application_deadline": "2026-11-05T16:00:00",
-    "fetched_date": "2026-10-29",
-    "notified": [],
-    "enrich": {
-      "status": "ok",
-      "provider": "gemini",
-      "enriched_at": "2026-10-29T03:53:02+00:00",
-      "planned_price": "１６，１１６，１ ００ 円（消 費税及 び地方 消費税 （10％）を含む）",
-      "region_requirement": "岐阜圏域内に、岐阜県建設工事入札参加資格者名簿に登載されている本店が所在すること",
-      "koki": "契約の日から令和９年３月26日",
-      "application_deadline": "2026-11-05T16:00:00",
-      "bid_deadline": "2026-11-13T16:00:00",
-      "opening_date": "2026-11-16T10:15:00",
-      "summary": "本工事は、羽島市小熊町地内にある小熊警察官駐在所の解体工事一式（付帯設備、外構含む）です。庁舎W-1の延床面積は76.19㎡です。本工事は電子入札システムにより執行され、完全週休2日制（土日）工事（現場閉所型）が原則とされています。"
-    }
-  },
-  "Z2lmdS9lbmFfY2l0eS8yMDI2LzIwMjYxMDI4XzAwOTc4Cg==": {
-    "source": "kkj",
-    "key": "Z2lmdS9lbmFfY2l0eS8yMDI2LzIwMjYxMDI4XzAwOTc4Cg==",
-    "project_name": "契医地第55号 市立恵那病院旧宿舎解体工事 (圧縮ファイル: 2.8MB)",
-    "org_name": "岐阜県恵那市",
-    "pref_name": "岐阜県",
-    "city_name": "恵那市",
-    "pref_code": "21",
-    "gyoshu_codes": [
-      "3100"
-    ],
-    "cft_issue_date": "2026-10-28T00:00:00+09:00",
-    "procedure_type": "",
-    "doc_uri": "https://www.city.ena.lg.jp/material/files/group/3/20261028iti55.zip",
-    "attachments": [],
-    "location": "",
-    "bid_deadline": "",
-    "opening_date": "令和8年11月11日",
-    "application_deadline": "",
-    "fetched_date": "2026-10-29",
-    "notified": [],
-    "enrich": {
-      "status": "no_text",
-      "provider": "",
-      "enriched_at": "2026-10-29T03:53:02+00:00"
-    }
-  },
   "etokyo_2026:13:201:00976": {
     "source": "etokyo",
     "key": "etokyo_2026:13:201:00976",
@@ -4660,6 +4400,151 @@
       "status": "no_text",
       "provider": "",
       "enriched_at": "2026-11-27T06:08:20+00:00"
+    }
+  },
+  "tokyometro_3539591720233510": {
+    "source": "tokyometro",
+    "key": "tokyometro_3539591720233510",
+    "project_name": "東京消防庁旧三河島家族待機宿舎（８）解体工事",
+    "org_name": "東京消防庁総務部経理契約課",
+    "pref_name": "東京都",
+    "city_name": "",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3101"
+    ],
+    "cft_issue_date": "2026-08-26",
+    "procedure_type": "希望制指名競争入札",
+    "doc_uri": "https://www.e-procurement.metro.tokyo.lg.jp/indexPbi.jsp",
+    "attachments": [],
+    "location": "東京都荒川区荒川七丁目７番２号",
+    "bid_deadline": "",
+    "opening_date": "2026-10-21T09:15:00",
+    "application_deadline": "2026-09-01",
+    "fetched_date": "2026-11-28",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-28T05:49:21+00:00",
+      "planned_price": "73,249,000円（消費税率10％）",
+      "region_requirement": null,
+      "koki": "契約確定の日の翌日から令和9年5月31日まで",
+      "application_deadline": "2026-09-01T16:00:00",
+      "bid_deadline": null,
+      "opening_date": "2026-10-21T09:15:00",
+      "summary": "本工事は、東京都荒川区荒川七丁目７番２号に位置する東京消防庁旧三河島家族待機宿舎（８）の解体工事です。敷地面積は466.73平方メートルで、鉄筋コンクリート造地上4階建ての宿舎本体、鉄骨造平屋倉庫の付属棟、電気設備、機械設備の解体を含みます。"
+    }
+  },
+  "dG9reW8vbmNucF9nby8yMDI2LzIwMjYxMTI3XzAyMDM2Cg==": {
+    "source": "kkj",
+    "key": "dG9reW8vbmNucF9nby8yMDI2LzIwMjYxMTI3XzAyMDM2Cg==",
+    "project_name": "【現地調査必須】研究所本館（神経薬理・遺伝子疾患）実験設備等解体撤去・除染・産業廃棄物処分業務",
+    "org_name": "国立研究開発法人国立精神・神経医療研究センター",
+    "pref_name": "東京都",
+    "city_name": "小平市",
+    "pref_code": "13",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-27T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.ncnp.go.jp/press_search/images/bid/bid_dQrv8EFVfp00hIiX_1.pdf",
+    "attachments": [],
+    "location": "国立研究開発法人国立精神・神経医療研究センター",
+    "bid_deadline": "2026-12-10T09:00:00",
+    "opening_date": "令和８年１２月１０日",
+    "application_deadline": "",
+    "fetched_date": "2026-11-28",
+    "notified": [
+      "kataoka"
+    ],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-28T05:49:21+00:00",
+      "planned_price": null,
+      "region_requirement": "関東・甲信越地域の競争参加資格を有すること",
+      "koki": "契約締結の日から令和９年３月３１日",
+      "application_deadline": null,
+      "bid_deadline": "2026-12-10T09:00:00",
+      "opening_date": "2026-12-10T14:00:00",
+      "summary": "本業務は、国立精神・神経医療研究センター研究所本館における実験設備等の解体撤去、除染、および産業廃棄物処分を行うものです。契約の相手方は最低価格落札方式で決定されます。履行期間は契約締結の日から2027年3月31日までです。"
+    }
+  },
+  "c2VhcmNoL2tlaXlha3VfaGlyb3NoaW1hX2NpdHkvMjAyNi8yMDI2MTEyN18wNTAxNQo=": {
+    "source": "kkj",
+    "key": "c2VhcmNoL2tlaXlha3VfaGlyb3NoaW1hX2NpdHkvMjAyNi8yMDI2MTEyN18wNTAxNQo=",
+    "project_name": "可部六丁目特定空家解体工事",
+    "org_name": "広島県広島市",
+    "pref_name": "広島県",
+    "city_name": "広島市",
+    "pref_code": "34",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-27T00:00:00+09:00",
+    "procedure_type": "一般競争入札",
+    "doc_uri": "https://ppi.keiyaku.city.hiroshima.lg.jp/PPI_P/DownLoad/202610060100101.pdf",
+    "attachments": [
+      {
+        "name": "05 労務費ダンピング調査の試行実施について",
+        "uri": "https://ppi.keiyaku.city.hiroshima.lg.jp/PPI_P/DownLoad/202610060100105.docx"
+      }
+    ],
+    "location": "",
+    "bid_deadline": "2026-12-11T16:00:00",
+    "opening_date": "令和８年１２月１４日",
+    "application_deadline": "",
+    "fetched_date": "2026-11-28",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-28T05:49:21+00:00",
+      "planned_price": "落札決定後に公表",
+      "region_requirement": "広島市内に本店を有していること。",
+      "koki": "契約締結の日から令和９年３月１５日まで",
+      "application_deadline": null,
+      "bid_deadline": "2026-12-11T16:00:00",
+      "opening_date": "2026-12-14T09:40:00",
+      "summary": "本工事は、安佐北区可部六丁目における特定空家の解体工事です。空家解体（木造2階建て延べ面積約60平方メートル）のほか、電気設備・機械設備の撤去、家屋調査、アスベスト分析調査業務が含まれます。"
+    }
+  },
+  "Z2lmdS9naWZ1X2NpdHkvMjAyNi8yMDI2MTEyN18wMDYxNwo=": {
+    "source": "kkj",
+    "key": "Z2lmdS9naWZ1X2NpdHkvMjAyNi8yMDI2MTEyN18wMDYxNwo=",
+    "project_name": "11月27日 解体 1866 草潤中学校プール解体工事",
+    "org_name": "岐阜県岐阜市",
+    "pref_name": "岐阜県",
+    "city_name": "岐阜市",
+    "pref_code": "21",
+    "gyoshu_codes": [
+      "3100"
+    ],
+    "cft_issue_date": "2026-11-27T00:00:00+09:00",
+    "procedure_type": "",
+    "doc_uri": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/042/514/r08_167k.pdf",
+    "attachments": [],
+    "location": "",
+    "bid_deadline": "2026-12-11T16:00:00",
+    "opening_date": "2026-12-14T09:00:00",
+    "application_deadline": "2026-12-03T00:00:00",
+    "fetched_date": "2026-11-28",
+    "notified": [],
+    "enrich": {
+      "status": "ok",
+      "provider": "gemini",
+      "enriched_at": "2026-11-28T05:49:21+00:00",
+      "planned_price": "34,485,000円（消費税及び地方消費税を含む。）",
+      "region_requirement": "岐阜市内に本店を有すること。ただし、本店が岐阜市競争入札参加資格審査の申請において、所在地として登録されていること。",
+      "koki": "契約確定の翌日から2027年6月30日まで",
+      "application_deadline": "2026-12-03T00:00:00",
+      "bid_deadline": "2026-12-11T16:00:00",
+      "opening_date": "2026-12-14T09:00:00",
+      "summary": "本件は草潤中学校プール解体工事に関する一般競争入札です。工事場所は岐阜市金宝町4丁目1番地で、工期は2027年6月30日までです。解体工事一式が概要となっています。"
     }
   }
 }
